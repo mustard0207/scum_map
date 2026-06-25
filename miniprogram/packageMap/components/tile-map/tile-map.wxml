@@ -10,6 +10,8 @@
     class="map-canvas"
     style="transform:translate({{offsetX}}px,{{offsetY}}px) scale({{scale}});transform-origin:0 0;"
   >
+    <!-- Z2 底图（始终渲染，作为兜底背景） -->
+    <!-- 注意：不要加 lazy-load，CSS transform 下 lazy-load 判断失效 -->
     <image
       class="full-map"
       src="{{fullMapSrc}}"
@@ -17,6 +19,17 @@
       style="width:{{fullMapSize}}px;height:{{fullMapSize}}px;"
       binderror="onImageError"
       bindload="onImageLoad"
+    />
+    <!-- 高清瓦片网格（Z4 激活时叠在 Z2 上面） -->
+    <image
+      wx:for="{{visibleTiles}}"
+      wx:key="id"
+      class="map-tile"
+      src="{{item.src}}"
+      mode="scaleToFill"
+      style="left:{{item.left}}px;top:{{item.top}}px;width:{{item.w}}px;height:{{item.h}}px;"
+      data-id="{{item.id}}"
+      binderror="onTileError"
     />
   </view>
 

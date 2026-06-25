@@ -1,8 +1,8 @@
 # 瓦片资源（体积大，不入版本控制）
-tiles/
-tiles_compressed/
-tiles_compressed_320/
-tiles_mixed/
+/tiles/
+/tiles_compressed/
+/tiles_compressed_320/
+/tiles_mixed/
 
 # 微信开发者工具私有配置
 project.private.config.json

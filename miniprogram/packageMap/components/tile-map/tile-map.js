@@ -23,6 +23,13 @@ const GRID_LABELS_ROW = ['D', 'C', 'B', 'A', 'Z']
 const GRID_LABELS_COL = ['4', '3', '2', '1', '0']
 const GRID_LABEL_OFFSET = 8  // 标签距格子左上角的偏移量
 
+// 瓦片分层加载配置
+const TILE_LEVELS = {
+  2: { gridSize: 1, tileSize: 1280, srcPrefix: '/assets/tiles/2/' },
+  4: { gridSize: 4, tileSize: 640,  srcPrefix: '/packageMap/assets/tiles/4/' }
+}
+const Z4_SCALE_THRESHOLD = 1.5  // 超过此值切换到 Z4 瓦片
+
 // 地图坐标范围（游戏坐标系）
 const GEO_BOUNDS = {
   longitudeLeft: 619200,       // 地图左侧（经度）
@@ -53,6 +60,8 @@ Component({
     fullMapSize: FULL_MAP_SIZE,
     // 标记在屏幕上的位置数组
     markersOnScreen: [],
+    // 可见瓦片列表（Z4 激活时）
+    visibleTiles: [],
     // 区域网格数据
     gridLinesH: [],
     gridLinesV: [],
@@ -111,6 +120,7 @@ Component({
       this._inertiaTimer = null
       this._velX = 0
       this._velY = 0
+      this._tileIds = ''  // 当前可见瓦片 id 缓存，用于变化检测
     },
 
     // ================================================================
@@ -308,6 +318,63 @@ Component({
       this.data.offsetY = offsetY
     },
 
+    // ================================================================
+    // 瓦片分层加载
+    // ================================================================
+
+    /** 根据缩放级别返回当前应使用的瓦片层级 */
+    _getActiveTileLevel(scale) {
+      return scale >= Z4_SCALE_THRESHOLD ? 4 : 2
+    },
+
+    /** 计算视口内可见瓦片列表 */
+    _getVisibleTiles(level) {
+      const cfg = TILE_LEVELS[level]
+      if (level === 2 || this.data.scale <= 0) return []  // Z2 无需瓦片网格；scale=0 防御
+
+      const logicalSize = FULL_MAP_SIZE / cfg.gridSize  // Z4: 320
+      const { offsetX, offsetY, scale } = this.data
+
+      // 视口在逻辑坐标系中的范围
+      const logicalLeft = -offsetX / scale
+      const logicalTop = -offsetY / scale
+      const logicalRight = (this._vw - offsetX) / scale
+      const logicalBottom = (this._vh - offsetY) / scale
+
+      // 可见瓦片的行列范围（用 ceil-1 避免边界多算一格）
+      const colStart = Math.max(0, Math.floor(logicalLeft / logicalSize))
+      const colEnd = Math.min(cfg.gridSize - 1, Math.ceil(logicalRight / logicalSize) - 1)
+      const rowStart = Math.max(0, Math.floor(logicalTop / logicalSize))
+      const rowEnd = Math.min(cfg.gridSize - 1, Math.ceil(logicalBottom / logicalSize) - 1)
+
+      const tiles = []
+      for (let r = rowStart; r <= rowEnd; r++) {
+        for (let c = colStart; c <= colEnd; c++) {
+          tiles.push({
+            id: `tile_${level}_${r}_${c}`,
+            src: `${cfg.srcPrefix}${c}_${r}.jpg`,  // CDN 命名：{col}_{row}
+            left: c * logicalSize,
+            top: r * logicalSize,
+            w: logicalSize,
+            h: logicalSize
+          })
+        }
+      }
+      return tiles
+    },
+
+    /** 计算瓦片数据（供 _refreshOverlayAnim 调用，不单独 setData） */
+    _computeTileData() {
+      const newLevel = this._getActiveTileLevel(this.data.scale)
+      const newTiles = this._getVisibleTiles(newLevel)
+
+      // 比较 id 数组，仅在变化时返回新数据
+      const newIds = newTiles.map(t => t.id).join(',')
+      if (newIds === this._tileIds) return {}
+      this._tileIds = newIds
+      return { visibleTiles: newTiles }
+    },
+
     /** 更新所有标记在屏幕上的位置（缩放动画期间跳过，由动画统一刷新） */
     _updateMarkersScreenPos() {
       if (this._isAnimatingZoom) return
@@ -363,7 +430,10 @@ Component({
         y: Math.floor(idx / GRID_COLS) * GRID_CELL * scale + offsetY + GRID_LABEL_OFFSET
       }))
 
-      this.setData({ markersOnScreen, gridLinesH, gridLinesV, gridLabels })
+      // 瓦片数据（仅在变化时附带，不增加 setData 次数）
+      const tileData = this._computeTileData()
+
+      this.setData({ markersOnScreen, gridLinesH, gridLinesV, gridLabels, ...tileData })
     },
 
     // ================================================================
@@ -561,6 +631,10 @@ Component({
 
     onImageLoad() {
       console.log('底图加载成功')
+    },
+
+    onTileError(e) {
+      console.warn('瓦片加载失败:', e.currentTarget?.dataset?.id, e.detail?.errMsg)
     },
 
     /** 标记点击事件 */
