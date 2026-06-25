@@ -1,0 +1,110 @@
+<!-- 地图页 -->
+<view class="map-page">
+  <!-- 自定义导航栏 -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="nav-back" bindtap="goBack">‹</view>
+      <text class="nav-title">SCUM 地图</text>
+      <view class="nav-placeholder"></view>
+    </view>
+  </view>
+
+  <!-- 地图区域 -->
+  <view class="map-area" style="top: {{statusBarHeight + 44}}px;">
+    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" />
+  </view>
+
+  <!-- 十字光标（始终固定在屏幕正中央） -->
+  <view class="crosshair">
+    <view class="crosshair-h"></view>
+    <view class="crosshair-v"></view>
+    <view class="crosshair-dot"></view>
+  </view>
+
+  <!-- 坐标显示（光标处的实时坐标） -->
+  <view class="coord-panel" style="bottom: {{bottomBarHeight + 20}}px;">
+    <text class="coord-text">经度: {{coordLng}}  纬度: {{coordLat}}</text>
+  </view>
+
+  <!-- 信息窗口（点击标记后显示） -->
+  <view class="info-window-mask" wx:if="{{showInfoWindow}}" bindtap="closeInfoWindow">
+    <view class="info-window" catchtap="">
+      <view class="info-window-header">
+        <text class="info-window-title">{{selectedMarker.name || '标记位置'}}</text>
+        <view class="info-window-close" bindtap="closeInfoWindow">✕</view>
+      </view>
+      <view class="info-window-body">
+        <text class="info-window-coord">经度: {{selectedMarker.lng}}</text>
+        <text class="info-window-coord">纬度: {{selectedMarker.lat}}</text>
+      </view>
+      <view class="info-window-actions">
+        <view class="info-window-btn delete" bindtap="deleteMarker">删除</view>
+        <view class="info-window-btn copy" bindtap="copyCoord">复制坐标</view>
+        <button class="info-window-btn share" open-type="share">↗ 分享</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 坐标输入弹窗 -->
+  <view class="coord-input-mask" wx:if="{{showCoordInput}}" bindtap="hideCoordInput">
+    <view class="coord-input-dialog" catchtap="">
+      <view class="coord-input-title">跳转到坐标</view>
+      <view class="coord-input-hint">支持格式：{X=12345 Y=-67890 ...} 或 12345, -67890</view>
+      <input
+        class="coord-input-field"
+        placeholder="粘贴游戏坐标"
+        value="{{coordInputValue}}"
+        bindinput="onCoordInputChange"
+        auto-focus
+      />
+      <view class="coord-input-actions">
+        <view class="coord-input-btn cancel" bindtap="hideCoordInput">取消</view>
+        <view class="coord-input-btn confirm" bindtap="jumpToCoord">跳转</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部操作栏 -->
+  <view class="bottom-bar safe-bottom" id="bottomBar">
+    <view class="bar-btn" bindtap="showCoordInput">
+      <text class="bar-icon">⊕</text>
+      <text class="bar-label">输入</text>
+    </view>
+    <view class="bar-btn" bindtap="placeMarker">
+      <text class="bar-icon">◆</text>
+      <text class="bar-label">选点</text>
+    </view>
+    <button class="bar-btn" open-type="share">
+      <text class="bar-icon">↗</text>
+      <text class="bar-label">分享</text>
+    </button>
+    <view class="bar-btn" bindtap="showImportDialog">
+      <text class="bar-icon">⬇</text>
+      <text class="bar-label">导入</text>
+    </view>
+    <view class="bar-btn" bindtap="exportMarkers">
+      <text class="bar-icon">⬆</text>
+      <text class="bar-label">导出</text>
+    </view>
+  </view>
+
+  <!-- 导入弹窗 -->
+  <view class="import-mask" wx:if="{{showImportDialog}}" bindtap="hideImportDialog">
+    <view class="import-dialog" catchtap="">
+      <view class="import-title">导入标记</view>
+      <view class="import-hint">粘贴导出的标记代码</view>
+      <textarea
+        class="import-field"
+        placeholder="粘贴 SCUM# 开头的代码"
+        value="{{importInputValue}}"
+        bindinput="onImportInputChange"
+        auto-focus
+        maxlength="9999"
+      />
+      <view class="import-actions">
+        <view class="import-btn cancel" bindtap="hideImportDialog">取消</view>
+        <view class="import-btn confirm" bindtap="importMarkers">导入</view>
+      </view>
+    </view>
+  </view>
+</view>

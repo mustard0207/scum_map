@@ -1,0 +1,55 @@
+<!-- 首页 - 功能入口 -->
+<view class="page">
+  <!-- 自定义导航栏 -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <text class="nav-title">SCUM游戏工具箱</text>
+    </view>
+  </view>
+
+  <!-- 主内容 -->
+  <view class="main" style="padding-top: {{statusBarHeight + 44}}px;">
+    <!-- Logo 区域 -->
+    <view class="logo-section">
+      <view class="logo-icon">
+        <text class="logo-glyph">▲</text>
+      </view>
+      <text class="logo-title">SCUM游戏工具箱</text>
+      <text class="logo-desc">你的 SCUM 游戏伙伴</text>
+    </view>
+
+    <!-- 功能入口 -->
+    <view class="features">
+      <!-- 地图功能 -->
+      <view class="feature-card" bindtap="goToMap">
+        <view class="feature-icon-area">
+          <text class="feature-glyph">◇</text>
+        </view>
+        <view class="feature-info">
+          <text class="feature-title">SCUM 地图</text>
+          <text class="feature-desc">查看地图、标记坐标、分享位置</text>
+        </view>
+        <view class="feature-arrow">›</view>
+      </view>
+
+      <!-- 更多功能占位 -->
+      <view class="feature-card feature-disabled">
+        <view class="feature-icon-area">
+          <text class="feature-glyph">⚙</text>
+        </view>
+        <view class="feature-info">
+          <text class="feature-title">更多工具</text>
+          <text class="feature-desc">敬请期待更多实用功能</text>
+        </view>
+        <view class="feature-badge">即将推出</view>
+      </view>
+    </view>
+
+    <!-- 版本信息 -->
+    <view class="version-info">
+      <text class="version-text">v{{version}}</text>
+      <text class="version-dot">·</text>
+      <text class="version-link" bindtap="goToAbout">关于</text>
+    </view>
+  </view>
+</view>

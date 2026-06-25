@@ -1,0 +1,103 @@
+/* 关于页样式 — 生存终端主题 */
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60rpx 0 40rpx;
+}
+
+.about-logo-icon {
+  width: 120rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid #FFB000;
+  border-radius: 50%;
+  margin-bottom: 24rpx;
+}
+
+.about-glyph {
+  font-size: 56rpx;
+  color: #FFB000;
+}
+
+.about-title {
+  font-size: 42rpx;
+  font-weight: 700;
+  color: #D4C8A0;
+  margin-bottom: 10rpx;
+  letter-spacing: 4rpx;
+}
+
+.about-version {
+  font-size: 26rpx;
+  color: #7A6B4A;
+}
+
+/* 卡片标题 */
+.card-title {
+  display: block;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #D4C8A0;
+  margin-bottom: 16rpx;
+}
+
+/* 卡片文字 */
+.card-text {
+  display: block;
+  font-size: 26rpx;
+  color: #7A6B4A;
+  line-height: 1.8;
+}
+
+/* 功能列表 */
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+
+.feature-status {
+  font-size: 28rpx;
+  flex-shrink: 0;
+  width: 40rpx;
+  text-align: center;
+}
+
+.feature-status.done {
+  color: #FFB000;
+}
+
+.feature-status.pending {
+  color: #7A6B4A;
+}
+
+.feature-status.planned {
+  color: #4A4230;
+}
+
+.feature-text {
+  font-size: 26rpx;
+  color: #D4C8A0;
+}
+
+/* 底部 */
+.about-footer {
+  display: flex;
+  justify-content: center;
+  padding: 60rpx 0;
+}
+
+.footer-text {
+  font-size: 24rpx;
+  color: #4A4230;
+  letter-spacing: 2rpx;
+}

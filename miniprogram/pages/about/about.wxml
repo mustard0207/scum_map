@@ -1,0 +1,46 @@
+<!-- 关于页 -->
+<view class="page container">
+  <view class="about-header">
+    <view class="about-logo-icon">
+      <text class="about-glyph">▲</text>
+    </view>
+    <text class="about-title">SCUM游戏工具箱</text>
+    <text class="about-version">v{{version}}</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">关于这个应用</text>
+    <text class="card-text">SCUM游戏工具箱是为 SCUM 游戏玩家打造的工具箱应用。目前提供地图查看和坐标分享功能，未来将添加更多实用工具。</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">功能规划</text>
+    <view class="feature-list">
+      <view class="feature-item">
+        <text class="feature-status done">◆</text>
+        <text class="feature-text">SCUM 地图查看</text>
+      </view>
+      <view class="feature-item">
+        <text class="feature-status done">◆</text>
+        <text class="feature-text">坐标分享</text>
+      </view>
+      <view class="feature-item">
+        <text class="feature-status pending">◇</text>
+        <text class="feature-text">POI 分类筛选</text>
+      </view>
+      <view class="feature-item">
+        <text class="feature-status planned">◇</text>
+        <text class="feature-text">更多工具开发中</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-title">数据来源</text>
+    <text class="card-text">地图数据来自 scum-map.com 社区项目，感谢原作者的贡献。</text>
+  </view>
+
+  <view class="about-footer">
+    <text class="footer-text">SCUM Community</text>
+  </view>
+</view>

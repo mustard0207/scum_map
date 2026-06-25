@@ -1,0 +1,167 @@
+/* 首页样式 — 生存终端主题 */
+.page {
+  min-height: 100vh;
+  background: #121008;
+}
+
+/* 自定义导航栏 */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #1C1A10;
+  border-bottom: 1rpx solid #3A3520;
+}
+
+.nav-content {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-title {
+  color: #D4C8A0;
+  font-size: 34rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+}
+
+/* Logo 区域 */
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60rpx 0 80rpx;
+}
+
+.logo-icon {
+  width: 120rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid #FFB000;
+  border-radius: 50%;
+  margin-bottom: 24rpx;
+}
+
+.logo-glyph {
+  font-size: 56rpx;
+  color: #FFB000;
+}
+
+.logo-title {
+  font-size: 48rpx;
+  font-weight: 700;
+  color: #D4C8A0;
+  margin-bottom: 10rpx;
+  letter-spacing: 4rpx;
+}
+
+.logo-desc {
+  font-size: 28rpx;
+  color: #7A6B4A;
+}
+
+/* 功能入口 */
+.features {
+  padding: 0 30rpx;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  background: #1C1A10;
+  border-radius: 12rpx;
+  padding: 36rpx 30rpx;
+  margin-bottom: 24rpx;
+  border: 1rpx solid #3A3520;
+  transition: all 0.2s;
+}
+
+.feature-card:active {
+  border-color: #FFB000;
+  background: #24210F;
+}
+
+.feature-disabled {
+  opacity: 0.5;
+}
+
+.feature-icon-area {
+  width: 72rpx;
+  height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 176, 0, 0.1);
+  border-radius: 12rpx;
+  margin-right: 24rpx;
+  flex-shrink: 0;
+}
+
+.feature-glyph {
+  font-size: 36rpx;
+  color: #FFB000;
+}
+
+.feature-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-title {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #D4C8A0;
+  margin-bottom: 6rpx;
+}
+
+.feature-desc {
+  font-size: 24rpx;
+  color: #7A6B4A;
+}
+
+.feature-arrow {
+  font-size: 48rpx;
+  color: #FFB000;
+  font-weight: 300;
+  margin-left: 10rpx;
+}
+
+.feature-badge {
+  font-size: 20rpx;
+  color: #E85D3A;
+  background: rgba(232, 93, 58, 0.12);
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  flex-shrink: 0;
+}
+
+/* 版本信息 */
+.version-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx 0;
+  gap: 12rpx;
+}
+
+.version-text {
+  font-size: 24rpx;
+  color: #4A4230;
+}
+
+.version-dot {
+  font-size: 24rpx;
+  color: #3A3520;
+}
+
+.version-link {
+  font-size: 24rpx;
+  color: #FFB000;
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "SCUM 地图",
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tile-map": "/packageMap/components/tile-map/tile-map"
+  }
+}

@@ -1,0 +1,62 @@
+/* ============================================
+   SCUM游戏工具箱 — 「生存终端」主题
+   琥珀 CRT 终端风格
+   ============================================ */
+
+/* 全局样式 */
+page {
+  background-color: #121008;
+  color: #D4C8A0;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+/* 通用容器 */
+.container {
+  padding: 30rpx;
+}
+
+/* 卡片样式 */
+.card {
+  background: #1C1A10;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 24rpx;
+  border: 1rpx solid #3A3520;
+}
+
+/* 主色调 — 琥珀 */
+.text-primary {
+  color: #FFB000;
+}
+
+/* 强调色 — 暖红 */
+.text-accent {
+  color: #E85D3A;
+}
+
+/* 次要文字 */
+.text-secondary {
+  color: #7A6B4A;
+}
+
+/* 按钮 — 琥珀 */
+.btn-primary {
+  background: #FFB000;
+  color: #121008;
+  border-radius: 12rpx;
+  padding: 20rpx 40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.btn-primary:active {
+  background: #E69E00;
+}
+
+/* 安全区域 */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}

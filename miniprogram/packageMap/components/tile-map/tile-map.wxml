@@ -1,0 +1,49 @@
+<!-- 全地图底图组件 (touch 手势版) -->
+<view
+  class="map-viewport"
+  style="width:{{_vw}}px;height:{{_vh}}px;"
+  catchtouchstart="onTouchStart"
+  catchtouchmove="onTouchMove"
+  catchtouchend="onTouchEnd"
+>
+  <view
+    class="map-canvas"
+    style="transform:translate({{offsetX}}px,{{offsetY}}px) scale({{scale}});transform-origin:0 0;"
+  >
+    <image
+      class="full-map"
+      src="{{fullMapSrc}}"
+      mode="scaleToFill"
+      style="width:{{fullMapSize}}px;height:{{fullMapSize}}px;"
+      binderror="onImageError"
+      bindload="onImageLoad"
+    />
+  </view>
+
+  <!-- 区域网格叠加层（pointer-events: none，不阻挡手势） -->
+  <view class="grid-overlay">
+    <view wx:for="{{gridLinesH}}" wx:key="id"
+      class="grid-line grid-line-h"
+      style="top:{{item.y}}px;left:{{item.left}}px;right:{{item.right}}px;" />
+    <view wx:for="{{gridLinesV}}" wx:key="id"
+      class="grid-line grid-line-v"
+      style="left:{{item.x}}px;top:{{item.top}}px;bottom:{{item.bottom}}px;" />
+    <view wx:for="{{gridLabels}}" wx:key="id"
+      class="grid-label"
+      style="left:{{item.x}}px;top:{{item.y}}px;">
+      {{item.text}}
+    </view>
+  </view>
+</view>
+
+<!-- 标记列表（放在 map-viewport 外面，避免被 catchtouchstart 拦截） -->
+<view
+  wx:for="{{markersOnScreen}}"
+  wx:key="id"
+  class="map-marker"
+  style="left:{{item.screenX}}px;top:{{item.screenY}}px;"
+  data-id="{{item.id}}"
+  bindtap="onMarkerTap"
+>
+  <view class="marker-circle"></view>
+</view>
