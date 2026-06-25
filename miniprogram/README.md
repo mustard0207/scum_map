@@ -4,11 +4,10 @@
 
 本项目采用**纯物理内置分包**架构，无需配置任何外部服务器或域名，真正实现零成本、零延迟秒开。
 
-### 1. 准备本地图库
+### 1. 地图数据说明
 本项目的地图瓦片采用 **v50.0.2025.06.17-scum-1.0** 版本的数据源（来源于官方 scum-map）。
-1. 我们已经在项目根目录生成了压缩后的 8.88MB 混合地图库（即 `tiles_mixed` 目录）。
-2. 在导入项目前，请确保将根目录的 `tiles_mixed` 文件夹移动到本目录下的 `packageMap/tiles/` 位置。
-3. 移动完成后，`packageMap/tiles/` 下应当包含 `2`、`4`、`6` 三个跨级核心图层。
+- **Z2 底图**：已内置在 `assets/tiles/2/0_0.jpg`（455KB），无需额外操作
+- **Z4 瓦片**：通过 jsDelivr CDN 网络加载（GitHub 仓库 `mustard0207/scum_map`），首次加载后自动缓存到用户本地
 
 ### 2. 打开项目
 1. 打开微信开发者工具。
@@ -29,12 +28,11 @@ miniprogram/
 ├── pages/
 │   ├── index/               # 首页（主包，轻量功能入口）
 │   └── about/               # 关于页（主包）
-├── packageMap/              # 地图分包（最高 20MB 限制，目前约 9MB）
+├── packageMap/              # 地图分包（~86KB，Z4 瓦片走网络加载+本地缓存）
 │   ├── pages/
 │   │   └── map/             # 核心地图页面
-│   ├── components/
-│   │   └── tile-map/        # 瓦片引擎（自定义 touch 手势 + CSS transform）
-│   └── tiles/               # 本地极速地图库
+│   └── components/
+│       └── tile-map/        # 瓦片引擎（自定义 touch 手势 + CSS transform + 网络加载 + 本地缓存）
 ├── project.config.json      # 项目配置
 └── sitemap.json             # SEO 配置
 ```
@@ -71,14 +69,15 @@ miniprogram/
 
 ## 技术细节
 
-### 地图配置（跳级混合策略）
+### 地图配置（Z2 本地 + Z4 网络加载）
 
 | 参数 | 值 |
 |------|-----|
-| 数据来源 | `packageMap/tiles/{z}/{x}_{y}.webp` (纯本地) |
-| 瓦片层级 | z2 (底图), z4 (中景), z6 (特写) |
-| 瓦片总数 | 273 张 |
-| 总包体积 | ~8.88MB (完美符合微信分包规范) |
+| Z2 底图 | `assets/tiles/2/0_0.jpg` (本地内置, 455KB) |
+| Z4 瓦片 | jsDelivr CDN 网络加载 + 本地缓存 |
+| Z4 URL | `https://cdn.jsdelivr.net/gh/mustard0207/scum_map@main/4/{x}_{y}.webp` |
+| Z4 缓存 | `wx.env.USER_DATA_PATH/scum_tiles/4/{col}_{row}.webp` |
+| 总包体积 | ~600KB (极度安全) |
 
 ### 坐标系统
 - **地理坐标系**：SCUM 游戏内坐标（经纬度）

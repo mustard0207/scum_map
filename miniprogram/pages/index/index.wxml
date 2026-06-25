@@ -48,8 +48,6 @@
     <!-- 版本信息 -->
     <view class="version-info">
       <text class="version-text">v{{version}}</text>
-      <text class="version-dot">·</text>
-      <text class="version-link" bindtap="goToAbout">关于</text>
     </view>
   </view>
 </view>

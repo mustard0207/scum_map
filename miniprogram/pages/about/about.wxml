@@ -37,7 +37,7 @@
 
   <view class="card">
     <text class="card-title">数据来源</text>
-    <text class="card-text">地图数据来自 scum-map.com 社区项目，感谢原作者的贡献。</text>
+    <text class="card-text">地图数据来自社区项目，感谢原作者的贡献。</text>
   </view>
 
   <view class="about-footer">

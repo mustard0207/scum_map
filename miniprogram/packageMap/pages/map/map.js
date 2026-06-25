@@ -8,6 +8,7 @@ Page({
     coordLat: 0,
     showCoordInput: false,
     coordInputValue: '',
+    zoomSliderPercent: 0,  // 缩放条位置百分比（0=底部最小，100=顶部最大）
     // 标记数组（传给组件）
     markers: [],
     // 当前选中的标记
@@ -24,12 +25,21 @@ Page({
 
   onLoad(options) {
     const sysInfo = wx.getWindowInfo()
-    this.setData({ statusBarHeight: sysInfo.statusBarHeight })
+    if (sysInfo) this.setData({ statusBarHeight: sysInfo.statusBarHeight })
 
     setTimeout(() => {
       const query = wx.createSelectorQuery()
       query.select('#bottomBar').boundingClientRect(rect => {
-        if (rect) this.setData({ bottomBarHeight: rect.height })
+        if (rect) {
+          this.setData({ bottomBarHeight: rect.height })
+          // 计算 map-area 实际高度并传给组件
+          const sysInfo = wx.getWindowInfo()
+          if (!sysInfo) return
+          const navBarH = this.data.statusBarHeight + 44
+          const mapH = sysInfo.windowHeight - navBarH - rect.height
+          console.log(`[LayoutDebug] bottomBar: h=${rect.height} top=${rect.top} bottom=${rect.bottom} mapH=${mapH}`)
+          this.selectComponent('#tileMap').recalcViewport(mapH)
+        }
       }).exec()
     }, 100)
 
@@ -82,6 +92,56 @@ Page({
     this.setData({ showImportDialog: false, showDataDrawer: false })
   },
 
+  /** DEBUG: 检测点击位置 */
+  onMapAreaTap(e) {
+    const { clientX, clientY } = e.detail
+    const sysInfo = wx.getWindowInfo()
+    if (!sysInfo) return
+    const screenH = sysInfo.windowHeight
+    console.log(`[TapDebug] x=${clientX} y=${clientY} screenH=${screenH} bottomBarH=${this.data.bottomBarHeight} distFromBottom=${screenH - clientY}`)
+  },
+
+  // ================================================================
+  // 缩放拖拉条
+  // ================================================================
+
+  onZoomSliderStart(e) {
+    this._sliderStartY = e.touches[0].clientY
+    const mapComp = this.selectComponent('#tileMap')
+    if (mapComp) {
+      this._sliderStartScale = mapComp.getScale()
+      this._sliderMinScale = mapComp.getMinScale()
+    }
+  },
+
+  onZoomSliderMove(e) {
+    if (this._sliderStartY === undefined) return
+    const sysInfo = wx.getWindowInfo()
+    if (!sysInfo) return
+
+    const minScale = this._sliderMinScale || 0.2
+    const maxScale = 8
+    const dy = this._sliderStartY - e.touches[0].clientY  // 上拉为正
+    const sliderRange = 300  // 拖拉条有效像素范围（条越长精度越高）
+    const scaleDelta = (dy / sliderRange) * (maxScale - minScale)
+    const newScale = Math.max(minScale, Math.min(maxScale, this._sliderStartScale + scaleDelta))
+
+    // 以十字光标（屏幕中心）为锚点缩放
+    const cx = sysInfo.windowWidth / 2
+    const cy = sysInfo.windowHeight / 2
+    const mapComp = this.selectComponent('#tileMap')
+    if (mapComp) mapComp.zoomTo(newScale, cx, cy)
+
+    // 更新滑块位置
+    const percent = ((newScale - minScale) / (maxScale - minScale)) * 100
+    this.setData({ zoomSliderPercent: Math.max(0, Math.min(100, percent)) })
+  },
+
+  onZoomSliderEnd() {
+    this._sliderStartY = undefined
+    this._sliderStartScale = undefined
+  },
+
   /** 刷新屏幕中心光标处的地理坐标 */
   _refreshCenterCoord() {
     const mapComp = this.selectComponent('#tileMap')
@@ -89,13 +149,22 @@ Page({
 
     // 使用地图视口的中心坐标（相对于地图视口）
     const sysInfo = wx.getWindowInfo()
+    if (!sysInfo) return
     const mapViewportHeight = sysInfo.windowHeight - this.data.statusBarHeight - 44 - 70  // 减去状态栏、导航栏、底部栏
     const cx = sysInfo.windowWidth / 2
     const cy = mapViewportHeight / 2
 
     const geo = mapComp.screenToGeo(cx, cy)
     if (geo) {
-      this.setData({ coordLng: geo.lng, coordLat: geo.lat })
+      // 同步缩放条位置
+      const scale = mapComp.getScale()
+      const minScale = mapComp.getMinScale()
+      const percent = ((scale - minScale) / (8 - minScale)) * 100
+      this.setData({
+        coordLng: geo.lng,
+        coordLat: geo.lat,
+        zoomSliderPercent: Math.max(0, Math.min(100, percent))
+      })
     }
   },
 
@@ -110,6 +179,7 @@ Page({
 
     // 使用地图视口的中心坐标
     const sysInfo = wx.getWindowInfo()
+    if (!sysInfo) return
     const mapViewportHeight = sysInfo.windowHeight - this.data.statusBarHeight - 44 - 70
     const cx = sysInfo.windowWidth / 2
     const cy = mapViewportHeight / 2

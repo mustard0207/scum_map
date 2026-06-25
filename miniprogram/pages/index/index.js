@@ -19,11 +19,6 @@ Page({
     wx.navigateTo({ url: '/packageMap/pages/map/map' })
   },
 
-  // 进入关于页
-  goToAbout() {
-    wx.navigateTo({ url: '/pages/about/about' })
-  },
-
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

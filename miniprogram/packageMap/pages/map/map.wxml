@@ -10,13 +10,13 @@
   </view>
 
   <!-- 地图区域 -->
-  <view class="map-area" style="top: {{statusBarHeight + 44}}px;">
+  <view class="map-area" style="top: {{statusBarHeight + 44}}px; bottom: {{bottomBarHeight}}px;" bindtap="onMapAreaTap">
     <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" />
   </view>
 
-  <!-- 回到全局视角按钮 -->
-  <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20}}px;">
-    <text class="reset-view-icon">⊙</text>
+  <!-- 坐标显示（光标处的实时坐标） -->
+  <view class="coord-panel" style="bottom: {{bottomBarHeight + 20}}px;">
+    <text class="coord-text">X: {{coordLng}}  Y: {{coordLat}}</text>
   </view>
 
   <!-- 十字光标（始终固定在屏幕正中央） -->
@@ -26,9 +26,24 @@
     <view class="crosshair-dot"></view>
   </view>
 
-  <!-- 坐标显示（光标处的实时坐标） -->
-  <view class="coord-panel" style="bottom: {{bottomBarHeight + 20}}px;">
-    <text class="coord-text">经度: {{coordLng}}  纬度: {{coordLat}}</text>
+  <!-- 缩放拖拉条（右侧，鼠标/手指拖拉放大缩小） -->
+  <view class="zoom-slider"
+    style="bottom: {{bottomBarHeight + 90}}px;"
+    catchtouchstart="onZoomSliderStart"
+    catchtouchmove="onZoomSliderMove"
+    catchtouchend="onZoomSliderEnd"
+  >
+    <view class="zoom-slider-track">
+      <view class="zoom-slider-fill" style="height: {{zoomSliderPercent}}%;"></view>
+    </view>
+    <view class="zoom-slider-thumb" style="bottom: {{zoomSliderPercent}}%;"></view>
+    <text class="zoom-slider-label">+</text>
+    <text class="zoom-slider-label zoom-slider-label-bottom">−</text>
+  </view>
+
+  <!-- 回到全局视角按钮 -->
+  <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20}}px;">
+    <text class="reset-view-icon">⊙</text>
   </view>
 
   <!-- 信息窗口（点击标记后显示） -->
@@ -46,8 +61,8 @@
       </view>
       <view class="info-window-body">
         <view class="info-window-coord-row">
-          <text class="info-window-coord-label">经度</text>
-          <text class="info-window-coord-label">纬度</text>
+          <text class="info-window-coord-label">X</text>
+          <text class="info-window-coord-label">Y</text>
         </view>
         <view class="info-window-coord-row">
           <text class="info-window-coord-value">{{selectedMarker.lng}}</text>

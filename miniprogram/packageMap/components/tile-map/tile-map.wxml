@@ -16,19 +16,31 @@
       class="full-map"
       src="{{fullMapSrc}}"
       mode="scaleToFill"
+      webp="{{true}}"
       style="width:{{fullMapSize}}px;height:{{fullMapSize}}px;"
       binderror="onImageError"
       bindload="onImageLoad"
     />
-    <!-- 高清瓦片网格（Z4 激活时叠在 Z2 上面） -->
+    <!-- Z3/Z4 瓦片网格（主层，Z3 或 Z4 时显示，Z6 时 Z4 作为兜底） -->
     <image
       wx:for="{{visibleTiles}}"
       wx:key="id"
       class="map-tile"
       src="{{item.src}}"
-      mode="scaleToFill"
       style="left:{{item.left}}px;top:{{item.top}}px;width:{{item.w}}px;height:{{item.h}}px;"
       data-id="{{item.id}}"
+      bindload="onTileLoad"
+      binderror="onTileError"
+    />
+    <!-- Z6 瓦片网格（叠加层，仅 Z6 激活时显示，叠在 Z4 上面） -->
+    <image
+      wx:for="{{visibleTilesOverlay}}"
+      wx:key="id"
+      class="map-tile"
+      src="{{item.src}}"
+      style="left:{{item.left}}px;top:{{item.top}}px;width:{{item.w}}px;height:{{item.h}}px;"
+      data-id="{{item.id}}"
+      bindload="onTileLoad"
       binderror="onTileError"
     />
   </view>

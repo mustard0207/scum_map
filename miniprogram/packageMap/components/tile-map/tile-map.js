@@ -10,7 +10,7 @@ const FULL_MAP_SIZE = 1280
 const FULL_MAP_SRC = '/assets/tiles/2/0_0.jpg'
 let MIN_SCALE = 0.2   // 初始值兜底，attached 中会动态更新为适屏比例
 const PAN_MARGIN = 50 // 地图边缘允许超出视口的最大距离（像素）
-const MAX_SCALE = 4
+const MAX_SCALE = 8
 const INERTIA_FRICTION = 0.95   // 惯性衰减系数，越大滑得越远
 const INERTIA_MIN_VEL = 0.5     // 最小速度阈值，低于此值停止惯性
 const DOUBLE_TAP_TIMEOUT = 300  // 双击判定时间窗口（毫秒）
@@ -26,9 +26,32 @@ const GRID_LABEL_OFFSET = 8  // 标签距格子左上角的偏移量
 // 瓦片分层加载配置
 const TILE_LEVELS = {
   2: { gridSize: 1, tileSize: 1280, srcPrefix: '/assets/tiles/2/' },
-  4: { gridSize: 4, tileSize: 640,  srcPrefix: '/packageMap/assets/tiles/4/' }
+  3: {
+    gridSize: 2,
+    tileSize: 1280,
+    networkUrl: 'https://cdn.jsdelivr.net/gh/mustard0207/scum_map@main/3/{x}_{y}.webp',
+    cacheDir: 'scum_tiles/3/'
+  },
+  4: {
+    gridSize: 4,
+    tileSize: 640,
+    networkUrl: 'https://cdn.jsdelivr.net/gh/mustard0207/scum_map@main/4/{x}_{y}.webp',
+    cacheDir: 'scum_tiles/4/'
+  },
+  6: {
+    gridSize: 16,
+    tileSize: 640,
+    networkUrl: 'https://cdn.jsdelivr.net/gh/mustard0207/scum_map@main/6/{x}_{y}.webp',
+    cacheDir: 'scum_tiles/6/'
+  }
 }
+const Z3_SCALE_THRESHOLD = 1.0  // 超过此值切换到 Z3 瓦片
 const Z4_SCALE_THRESHOLD = 1.5  // 超过此值切换到 Z4 瓦片
+const Z6_SCALE_THRESHOLD = 3.0  // 超过此值切换到 Z6 瓦片
+
+// 本地缓存管理
+const CACHE_BASE = 'scum_tiles/'
+const fs = wx.getFileSystemManager()
 
 // 地图坐标范围（游戏坐标系）
 const GEO_BOUNDS = {
@@ -60,8 +83,10 @@ Component({
     fullMapSize: FULL_MAP_SIZE,
     // 标记在屏幕上的位置数组
     markersOnScreen: [],
-    // 可见瓦片列表（Z4 激活时）
+    // 可见瓦片列表（Z4 底层）
     visibleTiles: [],
+    // Z6 叠加层（仅 Z6 激活时有值，叠在 Z4 上面）
+    visibleTilesOverlay: [],
     // 区域网格数据
     gridLinesH: [],
     gridLinesV: [],
@@ -70,6 +95,9 @@ Component({
 
   lifetimes: {
     attached() {
+      // 初始化瓦片缓存
+      this._initTileCache()
+
       const { windowWidth } = wx.getWindowInfo()
       this._vw = windowWidth
       this._vh = 600 // 临时值，下面会用真实尺寸覆盖
@@ -84,6 +112,7 @@ Component({
       setTimeout(() => {
         wx.createSelectorQuery().in(this).select('.map-viewport').boundingClientRect(rect => {
           if (rect) {
+            console.log(`[ViewportDebug] init: w=${rect.width} h=${rect.height} top=${rect.top} bottom=${rect.bottom}`)
             this._vw = rect.width
             this._vh = rect.height
           }
@@ -206,9 +235,10 @@ Component({
 
         this.data.offsetX = newOffsetX
         this.data.offsetY = newOffsetY
+        this.data.scale = newScale  // 先更新 scale，让 _clampOffset 用新值计算边界
         this._clampOffset()
         this.setData({
-          scale: newScale,
+          scale: this.data.scale,
           offsetX: this.data.offsetX,
           offsetY: this.data.offsetY
         })
@@ -319,12 +349,82 @@ Component({
     },
 
     // ================================================================
-    // 瓦片分层加载
+    // 瓦片分层加载 + 本地缓存
     // ================================================================
+
+    /** 初始化瓦片缓存：扫描本地已缓存的瓦片文件 */
+    _initTileCache() {
+      this._cachedTiles = new Set()
+      // 扫描 Z3、Z4、Z6 缓存目录
+      ;[3, 4, 6].forEach(level => {
+        const cacheDir = `${wx.env.USER_DATA_PATH}/${TILE_LEVELS[level].cacheDir}`
+        try {
+          fs.accessSync(cacheDir)
+          const files = fs.readdirSync(cacheDir)
+          files.forEach(file => {
+            if (file.endsWith('.webp')) {
+              this._cachedTiles.add(`${level}_${file.replace('.webp', '')}`)
+            }
+          })
+        } catch (e) {
+          // 该层级缓存目录不存在
+        }
+      })
+    },
+
+    /** 检查瓦片是否已缓存 */
+    _isTileCached(level, col, row) {
+      return this._cachedTiles.has(`${level}_${col}_${row}`)
+    },
+
+    /** 获取瓦片 src：优先本地缓存，否则用网络 URL */
+    _getTileSrc(level, col, row) {
+      const cfg = TILE_LEVELS[level]
+      if (level === 2) return cfg.srcPrefix + '0_0.jpg'
+      // Z4/Z6: 优先缓存
+      if (this._isTileCached(level, col, row)) {
+        return `${wx.env.USER_DATA_PATH}/${cfg.cacheDir}${col}_${row}.webp`
+      }
+      return cfg.networkUrl.replace('{x}', col).replace('{y}', row)
+    },
+
+    /** 瓦片从网络加载成功后，保存到本地缓存 */
+    _saveTileToCache(level, col, row) {
+      const cfg = TILE_LEVELS[level]
+      const url = cfg.networkUrl.replace('{x}', col).replace('{y}', row)
+      const cacheDir = `${wx.env.USER_DATA_PATH}/${cfg.cacheDir}`
+      const cachePath = `${cacheDir}${col}_${row}.webp`
+
+      wx.downloadFile({
+        url: url,
+        success: (res) => {
+          if (res.statusCode === 200) {
+            try { fs.mkdirSync(cacheDir, true) } catch (e) {}
+            fs.saveFile({
+              tempFilePath: res.tempFilePath,
+              filePath: cachePath,
+              success: () => {
+                this._cachedTiles.add(`${level}_${col}_${row}`)
+              },
+              fail: (err) => console.warn('缓存保存失败:', err)
+            })
+          }
+        }
+      })
+    },
 
     /** 根据缩放级别返回当前应使用的瓦片层级 */
     _getActiveTileLevel(scale) {
-      return scale >= Z4_SCALE_THRESHOLD ? 4 : 2
+      if (scale >= Z6_SCALE_THRESHOLD) return 6
+      if (scale >= Z4_SCALE_THRESHOLD) return 4
+      if (scale >= Z3_SCALE_THRESHOLD) return 3
+      return 2
+    },
+
+    /** DEBUG: 打印当前缩放和瓦片状态 */
+    _debugTiles(level, z4Count, overlayCount) {
+      const scale = this.data.scale
+      console.log(`[TileDebug] scale=${scale.toFixed(2)} level=${level} z4=${z4Count} z6=${overlayCount}`)
     },
 
     /** 计算视口内可见瓦片列表 */
@@ -332,7 +432,7 @@ Component({
       const cfg = TILE_LEVELS[level]
       if (level === 2 || this.data.scale <= 0) return []  // Z2 无需瓦片网格；scale=0 防御
 
-      const logicalSize = FULL_MAP_SIZE / cfg.gridSize  // Z4: 320
+      const logicalSize = FULL_MAP_SIZE / cfg.gridSize  // Z3: 640, Z4: 320, Z6: 80
       const { offsetX, offsetY, scale } = this.data
 
       // 视口在逻辑坐标系中的范围
@@ -352,7 +452,7 @@ Component({
         for (let c = colStart; c <= colEnd; c++) {
           tiles.push({
             id: `tile_${level}_${r}_${c}`,
-            src: `${cfg.srcPrefix}${c}_${r}.jpg`,  // CDN 命名：{col}_{row}
+            src: this._getTileSrc(level, c, r),
             left: c * logicalSize,
             top: r * logicalSize,
             w: logicalSize,
@@ -366,13 +466,24 @@ Component({
     /** 计算瓦片数据（供 _refreshOverlayAnim 调用，不单独 setData） */
     _computeTileData() {
       const newLevel = this._getActiveTileLevel(this.data.scale)
-      const newTiles = this._getVisibleTiles(newLevel)
+
+      let primaryTiles = []
+      let overlayTiles = []
+      if (newLevel === 6) {
+        // Z6 激活：Z4 作为兜底层，Z6 作为叠加层
+        primaryTiles = this._getVisibleTiles(4)
+        overlayTiles = this._getVisibleTiles(6)
+      } else if (newLevel >= 3) {
+        // Z3/Z4：仅主层（Z2 始终作为背景兜底）
+        primaryTiles = this._getVisibleTiles(newLevel)
+      }
 
       // 比较 id 数组，仅在变化时返回新数据
-      const newIds = newTiles.map(t => t.id).join(',')
+      const newIds = primaryTiles.map(t => t.id).join(',') + '|' + overlayTiles.map(t => t.id).join(',')
       if (newIds === this._tileIds) return {}
       this._tileIds = newIds
-      return { visibleTiles: newTiles }
+      this._debugTiles(newLevel, primaryTiles.length, overlayTiles.length)
+      return { visibleTiles: primaryTiles, visibleTilesOverlay: overlayTiles }
     },
 
     /** 更新所有标记在屏幕上的位置（缩放动画期间跳过，由动画统一刷新） */
@@ -520,6 +631,28 @@ Component({
       this._refreshOverlay()
     },
 
+    /** 重新计算视口尺寸（底栏高度变化后调用） */
+    recalcViewport(height) {
+      if (height) this._vh = height
+      this._initMap()
+      console.log(`[ViewportDebug] recalc: w=${this._vw} h=${this._vh}`)
+    },
+
+    /** 获取当前缩放值 */
+    getScale() {
+      return this.data.scale
+    },
+
+    /** 获取最小缩放值（全局视角） */
+    getMinScale() {
+      return MIN_SCALE
+    },
+
+    /** 以指定中心点缩放到目标值 */
+    zoomTo(targetScale, cx, cy) {
+      this._animateZoomTo(targetScale, cx, cy)
+    },
+
     // ================================================================
     // 双击缩放（在 _handleTap 中实现）
     // ================================================================
@@ -555,8 +688,9 @@ Component({
 
         this.data.offsetX = curOX
         this.data.offsetY = curOY
+        this.data.scale = curScale  // 先更新 scale，让 _clampOffset 用新值计算边界
         this._clampOffset()
-        this.setData({ scale: curScale, offsetX: this.data.offsetX, offsetY: this.data.offsetY })
+        this.setData({ scale: this.data.scale, offsetX: this.data.offsetX, offsetY: this.data.offsetY })
         // 动画期间手动刷新标记位置和网格（合并为一次 setData）
         this._refreshOverlayAnim()
 
@@ -634,7 +768,23 @@ Component({
     },
 
     onTileError(e) {
-      console.warn('瓦片加载失败:', e.currentTarget?.dataset?.id, e.detail?.errMsg)
+      console.error(`[TileError] ${e.currentTarget?.dataset?.id} ${e.detail?.errMsg}`)
+    },
+
+    /** 瓦片加载成功：如果是网络加载，保存到本地缓存 */
+    onTileLoad(e) {
+      const id = e.currentTarget?.dataset?.id
+      if (!id) return
+      const parts = id.split('_')  // tile_{level}_{row}_{col}
+      const level = parseInt(parts[1])
+      const r = parseInt(parts[2])
+      const c = parseInt(parts[3])
+      const cached = this._isTileCached(level, c, r)
+      console.log(`[TileLoad] ${id} level=${level} cached=${cached}`)
+      // 如果是从网络加载的（未缓存），保存到本地
+      if (level >= 4 && !cached) {
+        this._saveTileToCache(level, c, r)
+      }
     },
 
     /** 标记点击事件 */
