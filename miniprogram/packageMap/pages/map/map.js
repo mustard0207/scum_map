@@ -12,11 +12,14 @@ Page({
     markers: [],
     // 当前选中的标记
     selectedMarker: null,
+    selectedMarkerIndex: -1,
     // 信息窗口
     showInfoWindow: false,
     // 导入弹窗
     showImportDialog: false,
-    importInputValue: ''
+    importInputValue: '',
+    // 备份抽屉
+    showDataDrawer: false
   },
 
   onLoad(options) {
@@ -76,7 +79,7 @@ Page({
 
   onUnload() {
     clearInterval(this._coordTimer)
-    this.setData({ showImportDialog: false })
+    this.setData({ showImportDialog: false, showDataDrawer: false })
   },
 
   /** 刷新屏幕中心光标处的地理坐标 */
@@ -123,6 +126,7 @@ Page({
       this.setData({
         markers,
         selectedMarker: newMarker,
+        selectedMarkerIndex: -1,
         showInfoWindow: false
       })
       wx.vibrateShort({ type: 'medium' })
@@ -191,6 +195,7 @@ Page({
       this.setData({
         markers,
         selectedMarker: newMarker,
+        selectedMarkerIndex: -1,
         showInfoWindow: false,
         showCoordInput: false
       })
@@ -223,12 +228,12 @@ Page({
 
   /** 标记点击事件 */
   onMarkerTap(e) {
-    console.log('onMarkerTap event:', e)
     const marker = e.detail.marker
-    console.log('onMarkerTap marker:', marker)
     if (marker) {
+      const idx = this.data.markers.findIndex(m => m.id === marker.id)
       this.setData({
         selectedMarker: marker,
+        selectedMarkerIndex: idx,
         showInfoWindow: true
       })
     }
@@ -236,7 +241,7 @@ Page({
 
   /** 关闭信息窗口 */
   closeInfoWindow() {
-    this.setData({ showInfoWindow: false })
+    this.setData({ showInfoWindow: false, selectedMarkerIndex: -1 })
   },
 
   /** 复制当前选中标记的坐标 */
@@ -257,15 +262,22 @@ Page({
     this.setData({
       markers,
       selectedMarker: null,
+      selectedMarkerIndex: -1,
       showInfoWindow: false
     })
   },
 
-  /** 重置视图 */
+  /** 重置视图（含清除标记） */
   resetView() {
     const mapComp = this.selectComponent('#tileMap')
     if (mapComp) mapComp.resetView()
-    this.setData({ markers: [], selectedMarker: null, showInfoWindow: false })
+    this.setData({ markers: [], selectedMarker: null, selectedMarkerIndex: -1, showInfoWindow: false })
+  },
+
+  /** 仅重置地图视角（保留标记） */
+  resetMapView() {
+    const mapComp = this.selectComponent('#tileMap')
+    if (mapComp) mapComp.resetView()
   },
 
   // ========== 导入导出（二进制紧凑格式） ==========
@@ -486,6 +498,35 @@ Page({
     }).filter(Boolean)
   },
 
+  // ========== 备份抽屉 & 筛选 ==========
+
+  /** 显示备份抽屉 */
+  showDataDrawer() {
+    this.setData({ showDataDrawer: true })
+  },
+
+  /** 隐藏备份抽屉 */
+  hideDataDrawer() {
+    this.setData({ showDataDrawer: false })
+  },
+
+  /** 抽屉 — 导入 */
+  onDrawerImport() {
+    this.setData({ showDataDrawer: false })
+    setTimeout(() => this.showImportDialog(), 200)
+  },
+
+  /** 抽屉 — 导出 */
+  onDrawerExport() {
+    this.setData({ showDataDrawer: false })
+    setTimeout(() => this.exportMarkers(), 200)
+  },
+
+  /** 筛选按钮（二期实现） */
+  onFilterTap() {
+    wx.showToast({ title: '筛选功能即将开放', icon: 'none' })
+  },
+
   /** 显示导入弹窗 */
   showImportDialog() {
     this.setData({ showImportDialog: true, importInputValue: '' })
@@ -523,6 +564,7 @@ Page({
       this.setData({
         markers,
         selectedMarker: null,
+        selectedMarkerIndex: -1,
         showInfoWindow: false,
         showImportDialog: false
       })

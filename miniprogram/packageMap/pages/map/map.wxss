@@ -90,6 +90,30 @@
   transform: translateX(-50%);
 }
 
+/* 回到全局视角按钮 */
+.reset-view-btn {
+  position: fixed;
+  left: 20rpx;
+  z-index: 50;
+  width: 72rpx;
+  height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(28, 26, 16, 0.7);
+  border: 1rpx solid rgba(58, 53, 32, 0.6);
+  border-radius: 50%;
+}
+
+.reset-view-btn:active {
+  background: rgba(255, 176, 0, 0.15);
+}
+
+.reset-view-icon {
+  font-size: 40rpx;
+  color: rgba(255, 176, 0, 0.7);
+}
+
 .crosshair-dot {
   position: absolute;
   top: 50%;
@@ -132,7 +156,7 @@
 }
 
 .info-window {
-  width: 70%;
+  width: 80%;
   background: #1C1A10;
   border: 1rpx solid #3A3520;
   border-radius: 16rpx;
@@ -143,59 +167,115 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24rpx 30rpx;
-  background: rgba(255, 176, 0, 0.1);
+  padding: 28rpx 30rpx;
+  background: rgba(255, 176, 0, 0.08);
   border-bottom: 1rpx solid #3A3520;
+}
+
+.info-window-title-area {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  flex: 1;
+  min-width: 0;
+}
+
+.info-window-icon {
+  font-size: 36rpx;
+  color: #FFB000;
+  flex-shrink: 0;
+}
+
+.info-window-title-wrap {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .info-window-title {
   font-size: 30rpx;
   color: #D4C8A0;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.info-window-subtitle {
+  font-size: 20rpx;
+  color: #7A6B4A;
+  margin-top: 4rpx;
 }
 
 .info-window-close {
-  width: 48rpx;
-  height: 48rpx;
+  width: 60rpx;
+  height: 60rpx;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32rpx;
+  font-size: 36rpx;
   color: #7A6B4A;
+  flex-shrink: 0;
+  border-radius: 8rpx;
+}
+
+.info-window-close:active {
+  background: rgba(255, 176, 0, 0.1);
 }
 
 .info-window-body {
-  padding: 30rpx;
+  padding: 28rpx 30rpx;
 }
 
-.info-window-coord {
-  display: block;
-  font-size: 26rpx;
+.info-window-coord-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-window-coord-label {
+  font-size: 20rpx;
+  color: #7A6B4A;
+  text-align: center;
+  flex: 1;
+}
+
+.info-window-coord-value {
+  font-size: 30rpx;
   color: #FFB000;
   font-family: 'Menlo', 'Courier New', 'Consolas', monospace;
-  margin-bottom: 10rpx;
+  font-weight: 600;
+  text-align: center;
+  flex: 1;
+  margin-top: 8rpx;
 }
 
 .info-window-actions {
   display: flex;
-  gap: 20rpx;
-  justify-content: center;
+  gap: 16rpx;
   padding: 20rpx 30rpx;
   border-top: 1rpx solid #3A3520;
 }
 
 .info-window-btn {
+  flex: 1;
   font-size: 24rpx;
-  padding: 16rpx 24rpx;
+  padding: 18rpx 0;
   border-radius: 8rpx;
   font-weight: 600;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-window-btn.delete {
-  background: #2A2618;
+  background: rgba(255, 68, 68, 0.1);
   color: #FF4444;
-  border: 1rpx solid #FF4444;
+  border: 1rpx solid rgba(255, 68, 68, 0.3);
+}
+
+.info-window-btn.delete:active {
+  background: rgba(255, 68, 68, 0.2);
 }
 
 .info-window-btn.copy {
@@ -204,18 +284,29 @@
   border: 1rpx solid #3A3520;
 }
 
+.info-window-btn.copy:active {
+  background: #3A3520;
+}
+
 .info-window-btn.share {
   background: #FFB000;
   color: #121008;
+  border: none;
 }
 
-/* 信息窗口分享按钮（open-type="share" 需要 <button>，去掉微信默认外观） */
+.info-window-btn.share:active {
+  background: #E69E00;
+}
+
+/* 分享按钮（<button> 去掉微信默认外观，与其他按钮对齐） */
 button.info-window-btn {
   margin: 0;
-  padding: 16rpx 24rpx;
+  padding: 18rpx 0;
   line-height: 1.4;
   border: none;
   box-sizing: border-box;
+  font-size: 24rpx;
+  font-weight: 600;
 }
 
 button.info-window-btn::after {
@@ -229,7 +320,8 @@ button.bar-btn {
   border: none;
   line-height: normal;
   box-sizing: border-box;
-  font-size: inherit;
+  font-size: 24rpx;
+  font-weight: normal;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -250,30 +342,101 @@ button.bar-btn::after {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 20rpx 0;
   background: rgba(28, 26, 16, 0.95);
   border-top: 1rpx solid #3A3520;
+  z-index: 100;
 }
 
 .bar-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 6rpx;
-  padding: 10rpx 30rpx;
+  padding: 10rpx 0;
+  flex: 1;
 }
 
 .bar-btn:active {
   background: rgba(255, 176, 0, 0.08);
 }
 
+.bar-btn-disabled {
+  opacity: 0.65;
+}
+
 .bar-icon {
-  font-size: 40rpx;
+  font-size: 48rpx;
   color: #7A6B4A;
+  height: 56rpx;
+  line-height: 56rpx;
 }
 
 .bar-label {
+  font-size: 24rpx;
+  color: #7A6B4A;
+  font-weight: normal;
+}
+
+/* 备份抽屉 */
+.data-drawer-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+}
+
+.data-drawer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1C1A10;
+  border-top: 1rpx solid #3A3520;
+  border-radius: 24rpx 24rpx 0 0;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.data-drawer-item {
+  display: flex;
+  align-items: center;
+  padding: 32rpx 40rpx;
+}
+
+.data-drawer-item:active {
+  background: rgba(255, 176, 0, 0.06);
+}
+
+.data-drawer-item + .data-drawer-item {
+  border-top: 1rpx solid #3A3520;
+}
+
+.data-drawer-accent {
+  width: 6rpx;
+  height: 48rpx;
+  background: #FFB000;
+  border-radius: 3rpx;
+  margin-right: 24rpx;
+}
+
+.data-drawer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6rpx;
+}
+
+.data-drawer-title {
+  font-size: 28rpx;
+  color: #D4C8A0;
+  font-weight: 600;
+}
+
+.data-drawer-desc {
   font-size: 22rpx;
   color: #7A6B4A;
 }

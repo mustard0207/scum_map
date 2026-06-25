@@ -14,6 +14,11 @@
     <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" />
   </view>
 
+  <!-- 回到全局视角按钮 -->
+  <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20}}px;">
+    <text class="reset-view-icon">⊙</text>
+  </view>
+
   <!-- 十字光标（始终固定在屏幕正中央） -->
   <view class="crosshair">
     <view class="crosshair-h"></view>
@@ -30,16 +35,28 @@
   <view class="info-window-mask" wx:if="{{showInfoWindow}}" bindtap="closeInfoWindow">
     <view class="info-window" catchtap="">
       <view class="info-window-header">
-        <text class="info-window-title">{{selectedMarker.name || '标记位置'}}</text>
+        <view class="info-window-title-area">
+          <text class="info-window-icon">◆</text>
+          <view class="info-window-title-wrap">
+            <text class="info-window-title">{{selectedMarker.name || '未命名标记'}}</text>
+            <text class="info-window-subtitle">标记 #{{selectedMarkerIndex + 1}}</text>
+          </view>
+        </view>
         <view class="info-window-close" bindtap="closeInfoWindow">✕</view>
       </view>
       <view class="info-window-body">
-        <text class="info-window-coord">经度: {{selectedMarker.lng}}</text>
-        <text class="info-window-coord">纬度: {{selectedMarker.lat}}</text>
+        <view class="info-window-coord-row">
+          <text class="info-window-coord-label">经度</text>
+          <text class="info-window-coord-label">纬度</text>
+        </view>
+        <view class="info-window-coord-row">
+          <text class="info-window-coord-value">{{selectedMarker.lng}}</text>
+          <text class="info-window-coord-value">{{selectedMarker.lat}}</text>
+        </view>
       </view>
       <view class="info-window-actions">
-        <view class="info-window-btn delete" bindtap="deleteMarker">删除</view>
-        <view class="info-window-btn copy" bindtap="copyCoord">复制坐标</view>
+        <view class="info-window-btn delete" bindtap="deleteMarker">🗑 删除</view>
+        <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
         <button class="info-window-btn share" open-type="share">↗ 分享</button>
       </view>
     </view>
@@ -78,13 +95,33 @@
       <text class="bar-icon">↗</text>
       <text class="bar-label">分享</text>
     </button>
-    <view class="bar-btn" bindtap="showImportDialog">
-      <text class="bar-icon">⬇</text>
-      <text class="bar-label">导入</text>
+    <view class="bar-btn" bindtap="showDataDrawer">
+      <text class="bar-icon">⇅</text>
+      <text class="bar-label">备份</text>
     </view>
-    <view class="bar-btn" bindtap="exportMarkers">
-      <text class="bar-icon">⬆</text>
-      <text class="bar-label">导出</text>
+    <view class="bar-btn bar-btn-disabled" bindtap="onFilterTap">
+      <text class="bar-icon">☰</text>
+      <text class="bar-label">筛选</text>
+    </view>
+  </view>
+
+  <!-- 备份抽屉 -->
+  <view class="data-drawer-mask" wx:if="{{showDataDrawer}}" bindtap="hideDataDrawer">
+    <view class="data-drawer" catchtap="">
+      <view class="data-drawer-item" bindtap="onDrawerImport">
+        <view class="data-drawer-accent"></view>
+        <view class="data-drawer-text">
+          <text class="data-drawer-title">导入标记</text>
+          <text class="data-drawer-desc">粘贴代码恢复标记点</text>
+        </view>
+      </view>
+      <view class="data-drawer-item" bindtap="onDrawerExport">
+        <view class="data-drawer-accent"></view>
+        <view class="data-drawer-text">
+          <text class="data-drawer-title">导出标记</text>
+          <text class="data-drawer-desc">复制代码到剪贴板</text>
+        </view>
+      </view>
     </view>
   </view>
 
