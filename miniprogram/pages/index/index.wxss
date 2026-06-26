@@ -4,6 +4,21 @@
   background: #121008;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-top {
+  flex: 1;
+}
+
+.main-bottom {
+  flex-shrink: 0;
+  padding-bottom: 40rpx;
+}
+
 /* 自定义导航栏 */
 .nav-bar {
   position: fixed;
@@ -149,7 +164,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60rpx 0;
+  padding: 0 0 40rpx;
   gap: 12rpx;
 }
 

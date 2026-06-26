@@ -8,37 +8,41 @@
   </view>
 
   <!-- 主内容 -->
-  <view class="main" style="padding-top: {{statusBarHeight + 44}}px;">
-    <!-- Logo 区域 -->
-    <view class="logo-section">
-      <image class="logo-img" src="/assets/logo.png" mode="aspectFit" />
-      <text class="logo-title">SCUM游戏工具箱</text>
-    </view>
-
-    <!-- 功能入口 -->
-    <view class="features">
-      <!-- 地图功能 -->
-      <view class="feature-card" bindtap="goToMap">
-        <view class="feature-icon-area">
-          <text class="feature-glyph">◇</text>
-        </view>
-        <view class="feature-info">
-          <text class="feature-title">SCUM游戏地图</text>
-          <text class="feature-desc">查看地图、标记坐标</text>
-        </view>
-        <view class="feature-arrow">›</view>
+  <view class="main">
+    <!-- 上方内容 -->
+    <view class="main-top" style="padding-top: {{statusBarHeight + 44}}px;">
+      <!-- Logo 区域 -->
+      <view class="logo-section">
+        <image class="logo-img" src="/assets/logo.png" mode="aspectFit" />
+        <text class="logo-title">SCUM游戏工具箱</text>
       </view>
 
+      <!-- 功能入口 -->
+      <view class="features">
+        <!-- 地图功能 -->
+        <view class="feature-card" bindtap="goToMap">
+          <view class="feature-icon-area">
+            <text class="feature-glyph">◇</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">SCUM游戏地图</text>
+            <text class="feature-desc">查看地图、标记坐标</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
+      </view>
     </view>
 
-    <!-- 版本信息 -->
-    <view class="version-info">
-      <text class="version-text">v{{version}}</text>
-    </view>
-
-    <!-- 免责声明 -->
-    <view class="disclaimer">
-      <text class="disclaimer-text">玩家自制工具，非官方出品。数据自己整理，仅供参考。</text>
+    <!-- 底部内容 -->
+    <view class="main-bottom">
+      <!-- 免责声明 -->
+      <view class="disclaimer">
+        <text class="disclaimer-text">玩家自制工具，非官方出品。数据自己整理，仅供参考。</text>
+      </view>
+      <!-- 版本信息 -->
+      <view class="version-info">
+        <text class="version-text">v{{version}}</text>
+      </view>
     </view>
   </view>
 </view>
