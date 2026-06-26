@@ -11,7 +11,7 @@
 
   <!-- 地图区域 -->
   <view class="map-area" style="top: {{statusBarHeight + 44}}px; bottom: {{bottomBarHeight}}px;" bindtap="onMapAreaTap">
-    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" bindgestureend="onGestureEnd" />
+    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" bindgestureend="onGestureEnd" bindmapready="onMapReady" />
   </view>
 
   <!-- 坐标显示（光标处的实时坐标） -->

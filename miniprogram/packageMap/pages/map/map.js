@@ -47,9 +47,9 @@ const QUICK_SECTIONS = ['Bunkers', 'Vehicles', 'Radiation']
 const QUICK_SUBS = ['10', '33', '8']  // 警局、药店、加油站
 
 // 渲染限流常量
-const MAX_POI_RENDER = 1000       // 单次渲染硬上限
-const POI_PER_CELL = 10           // 全局视角下每区每小类最多点数
-const SCALE_THRESHOLD = 6         // 放大到此倍数时显示全部可见 POI
+const MAX_POI_RENDER = 200        // 单次渲染 DOM 上限（防卡）
+const MIN_SCREEN_DIST = 20        // 标记间最小屏幕距离（px），用于网格聚合
+const SCALE_THRESHOLD = 3         // 放大到此倍数时关闭聚合，显示全部
 
 // 游戏坐标范围（与 tile-map 组件一致）
 const GEO_LNG_LEFT = 619200
@@ -108,8 +108,7 @@ Page({
     // 预加载默认前哨站数据（catId=80 → Points of interest section）
     this._getSectionData('Points of interest')
 
-    // 加载默认 POI（前哨站）
-    this._refreshPoiMarkers()
+    // POI 刷新由 onMapReady → _schedulePoiRefresh 触发，此处不提前调用
 
     setTimeout(() => {
       const query = wx.createSelectorQuery()
@@ -225,6 +224,7 @@ Page({
   onZoomSliderEnd() {
     this._sliderStartY = undefined
     this._sliderStartScale = undefined
+    this._schedulePoiRefresh()
   },
 
   /** 刷新屏幕中心光标处的地理坐标 */
@@ -357,6 +357,7 @@ Page({
         showInfoWindow: false,
         showCoordInput: false
       })
+      this._schedulePoiRefresh()
       wx.vibrateShort({ type: 'medium' })
     }
   },
@@ -440,7 +441,10 @@ Page({
   /** 仅重置地图视角（保留标记） */
   resetMapView() {
     const mapComp = this.selectComponent('#tileMap')
-    if (mapComp) mapComp.resetView()
+    if (mapComp) {
+      mapComp.resetView()
+      this._schedulePoiRefresh()
+    }
   },
 
   // ========== 导入导出（二进制紧凑格式） ==========
@@ -711,7 +715,8 @@ Page({
   /** 清除所有筛选 */
   resetPoiFilter() {
     this.setData({ activePoiCats: [], activePoiMap: {} })
-    this._refreshPoiMarkers()
+    this._poiPixelCache = null
+    this._schedulePoiRefresh()
   },
 
   /** 切换小类开关 */
@@ -733,46 +738,96 @@ Page({
     const activePoiMap = {}
     active.forEach(id => { activePoiMap[id] = true })
     this.setData({ activePoiCats: active, activePoiMap })
-    this._refreshPoiMarkers()
+    this._poiPixelCache = null
+    this._schedulePoiRefresh()
   },
 
-  /** 刷新 POI 标记（含限流） */
-  _refreshPoiMarkers() {
+  /**
+   * 预计算 POI 逻辑像素坐标缓存
+   * 筛选切换时调用一次，避免每次手势结束都做坐标转换
+   */
+  _buildPoiPixelCache() {
     const { activePoiCats } = this.data
-    const mapComp = this.selectComponent('#tileMap')
-    const scale = mapComp ? mapComp.getScale() : 1
-
-    // 收集所有激活分类的点位（从 section 缓存中按 catId 筛选）
-    let allPoi = []
+    const cache = []
     activePoiCats.forEach(catId => {
       const section = CAT_SECTION[catId]
-      if (section) {
-        const sectionPoints = this._getSectionData(section)
-        allPoi = allPoi.concat(sectionPoints.filter(p => String(p.cat) === catId))
+      if (!section) return
+      const sectionPoints = this._getSectionData(section)
+      sectionPoints.forEach(p => {
+        if (String(p.cat) !== catId) return
+        cache.push({
+          id: p.id,
+          cat: p.cat,
+          lng: p.lng,
+          lat: p.lat,
+          // 游戏坐标 → 地图逻辑像素 (0 ~ 1280)
+          mpx: (p.lng - GEO_LNG_LEFT) / (GEO_LNG_RIGHT - GEO_LNG_LEFT) * FULL_MAP,
+          mpy: (p.lat - GEO_LAT_TOP) / (GEO_LAT_BOTTOM - GEO_LAT_TOP) * FULL_MAP
+        })
+      })
+    })
+    this._poiPixelCache = cache
+    return cache
+  },
+
+  /**
+   * 刷新 POI 标记
+   * Step 1: 网格聚合（逻辑坐标，缩放自适应，拖拽稳定）
+   * Step 2: 视口裁剪（半屏 margin）
+   * Step 3: 硬上限 200
+   */
+  _refreshPoiMarkers() {
+    const mapComp = this.selectComponent('#tileMap')
+    if (!mapComp) return
+
+    // 取缓存或首次构建
+    const cache = this._poiPixelCache || this._buildPoiPixelCache()
+
+    if (cache.length === 0) {
+      const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+      this.setData({ markers: userMarkers })
+      return
+    }
+
+    const scale = mapComp.getScale()
+    const vw = mapComp._vw || 375
+    const vh = mapComp._vh || 600
+    const offsetX = mapComp.data.offsetX
+    const offsetY = mapComp.data.offsetY
+
+    // ── Step 1: 网格聚合 ──
+    // 格子大小 = MIN_SCREEN_DIST / scale（逻辑像素）
+    // 缩小时格子大 → 聚合激进；放大到 SCALE_THRESHOLD 后关闭聚合
+    let clustered
+    if (scale >= SCALE_THRESHOLD) {
+      clustered = cache
+    } else {
+      const cellSize = MIN_SCREEN_DIST / scale
+      const buckets = {}
+      cache.forEach(p => {
+        const cx = Math.floor(p.mpx / cellSize)
+        const cy = Math.floor(p.mpy / cellSize)
+        const key = cx + '_' + cy + '_' + p.cat
+        if (!buckets[key]) buckets[key] = p
+      })
+      clustered = Object.values(buckets)
+    }
+
+    // ── Step 2: 视口裁剪（半屏 margin，拖拽时不易闪烁） ──
+    const margin = Math.max(vw, vh) * 0.5
+    const result = []
+    clustered.forEach(p => {
+      const sx = p.mpx * scale + offsetX
+      const sy = p.mpy * scale + offsetY
+      if (sx > -margin && sx < vw + margin && sy > -margin && sy < vh + margin) {
+        result.push(p)
       }
     })
 
-    // 限流
-    if (scale < SCALE_THRESHOLD && allPoi.length > 0) {
-      const GRID_SIZE = 5
-      const CELL = 1280 / GRID_SIZE
-      const grouped = {}
+    // ── Step 3: 硬上限 ──
+    if (result.length > MAX_POI_RENDER) result.length = MAX_POI_RENDER
 
-      allPoi.forEach(p => {
-        const px = (p.lng - GEO_LNG_LEFT) / (GEO_LNG_RIGHT - GEO_LNG_LEFT) * FULL_MAP
-        const py = (p.lat - GEO_LAT_TOP) / (GEO_LAT_BOTTOM - GEO_LAT_TOP) * FULL_MAP
-        const col = Math.min(GRID_SIZE - 1, Math.max(0, Math.floor(px / CELL)))
-        const row = Math.min(GRID_SIZE - 1, Math.max(0, Math.floor(py / CELL)))
-        const cellKey = `${row}_${col}_${p.cat}`
-        if (!grouped[cellKey]) grouped[cellKey] = []
-        if (grouped[cellKey].length < POI_PER_CELL) grouped[cellKey].push(p)
-      })
-      allPoi = Object.values(grouped).flat()
-    }
-
-    if (allPoi.length > MAX_POI_RENDER) allPoi = allPoi.slice(0, MAX_POI_RENDER)
-
-    const poiMarkers = allPoi.map(p => ({
+    const poiMarkers = result.map(p => ({
       id: 'poi_' + p.id,
       lng: p.lng,
       lat: p.lat,
@@ -899,14 +954,22 @@ Page({
     wx.navigateBack()
   },
 
-  /** 手势结束后刷新 POI 限流（防抖 300ms） */
+  /** 手势结束 — 安排一次 POI 刷新（防抖 200ms，不打断 WXS 动画） */
   onGestureEnd() {
+    this._schedulePoiRefresh()
+  },
+
+  /** 地图组件初始化完成，刷新 POI 标记 */
+  onMapReady() {
+    this._schedulePoiRefresh()
+  },
+
+  /** 安排 POI 刷新（防抖，独立于手势） */
+  _schedulePoiRefresh() {
     if (this._poiRefreshTimer) clearTimeout(this._poiRefreshTimer)
     this._poiRefreshTimer = setTimeout(() => {
-      if (this.data.activePoiCats.length > 0) {
-        this._refreshPoiMarkers()
-      }
-    }, 300)
+      this._refreshPoiMarkers()
+    }, 200)
   },
 
   /** 微信分享 */

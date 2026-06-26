@@ -9,7 +9,8 @@ var state = {
   MAX_SCALE: 8,
   PAN_MARGIN: 50,
   GRID_CELL: 256,
-  GRID_LABEL_OFFSET: 8
+  GRID_LABEL_OFFSET: 8,
+  syncId: 0
 };
 
 function updateStyles(ownerInstance) {
@@ -98,12 +99,19 @@ function propChange(newVal, oldVal, ownerInstance, instance) {
       state.abort = newVal.abort;
       animId++; // 收到 JS 的强制打断信号，停止当前一切 WXS 动画
     }
-    if (newVal.offsetX !== undefined) state.offsetX = newVal.offsetX;
-    if (newVal.offsetY !== undefined) state.offsetY = newVal.offsetY;
-    if (newVal.scale !== undefined) state.scale = newVal.scale;
+    // 仅当 syncId 变化时才同步位置（显式状态同步）
+    // 标记刷新只改 trigger 不改 syncId，不会覆盖惯性动画中的实时位置
+    if (newVal.syncId !== undefined && newVal.syncId !== state.syncId) {
+      state.syncId = newVal.syncId;
+      if (newVal.offsetX !== undefined) state.offsetX = newVal.offsetX;
+      if (newVal.offsetY !== undefined) state.offsetY = newVal.offsetY;
+      if (newVal.scale !== undefined) state.scale = newVal.scale;
+    }
+    // 视口和配置参数始终同步（惯性期间不会变）
     if (newVal.vw !== undefined) state.vw = newVal.vw;
     if (newVal.vh !== undefined) state.vh = newVal.vh;
     if (newVal.minScale !== undefined) state.MIN_SCALE = newVal.minScale;
+    // 始终重绘（给新标记设置 left/top）
     updateStyles(ownerInstance);
   }
 }
@@ -281,6 +289,8 @@ function handleTap(x, y, ownerInstance) {
     lastTapTime = now;
     lastTapX = x;
     lastTapY = y;
+    // 单击 — 通知 JS 侧检测是否点中了标记
+    ownerInstance.callMethod('onTapAtPoint', { x: x, y: y });
   }
 }
 

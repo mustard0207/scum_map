@@ -115,6 +115,8 @@ Component({
             console.log(`[ViewportDebug] init: w=${rect.width} h=${rect.height} top=${rect.top} bottom=${rect.bottom}`)
             this._vw = rect.width
             this._vh = rect.height
+            this._vpLeft = rect.left || 0
+            this._vpTop = rect.top || 0
           }
 
           this._initMap()
@@ -147,6 +149,8 @@ Component({
       this._initGrid()
       this._syncWxsState()
       this._refreshOverlay()
+      // 通知父页面地图已就绪
+      this.triggerEvent('mapready')
     },
 
     // ================================================================
@@ -154,6 +158,7 @@ Component({
     // ================================================================
 
     _syncWxsState(abortAnimation = false) {
+      this._wxsSyncId = (this._wxsSyncId || 0) + 1;
       const stateObj = {
         offsetX: this.data.offsetX,
         offsetY: this.data.offsetY,
@@ -161,6 +166,7 @@ Component({
         vw: this._vw,
         vh: this._vh,
         minScale: MIN_SCALE,
+        syncId: this._wxsSyncId,
         trigger: Date.now()
       };
       if (abortAnimation) stateObj.abort = Date.now();
@@ -173,11 +179,13 @@ Component({
       this.data.offsetX = offsetX;
       this.data.offsetY = offsetY;
       this.data.scale = scale;
-      // 使用显式的 setData 同步状态，确保微信底层的虚拟 DOM diff 能正确捕获并下发给 WXS
+      this._wxsSyncId = (this._wxsSyncId || 0) + 1;
+      // 使用显式的 setData 同步状态，带 syncId 让 WXS 知道这是位置同步
       this.setData({
         'wxsState.offsetX': offsetX,
         'wxsState.offsetY': offsetY,
-        'wxsState.scale': scale
+        'wxsState.scale': scale,
+        'wxsState.syncId': this._wxsSyncId
       });
       this._refreshOverlayAnim();
       // 通知父页面手势结束（用于 POI 限流刷新）
@@ -561,16 +569,26 @@ Component({
       }
     },
 
-    /** 标记点击事件 */
-    onMarkerTap(e) {
-      console.log('tile-map onMarkerTap:', e)
-      const markerId = e.currentTarget.dataset.id
-      console.log('markerId:', markerId)
-      console.log('markersOnScreen:', this.data.markersOnScreen)
-      const marker = this.data.markersOnScreen.find(m => m.id === markerId)
-      console.log('found marker:', marker)
-      if (marker) {
-        this.triggerEvent('markertap', { marker })
+    /** 标记命中检测（由 WXS 单击回调触发） */
+    onTapAtPoint(e) {
+      const { x, y } = e  // clientX, clientY（屏幕坐标）
+      const { offsetX, offsetY, scale, markersOnScreen } = this.data
+      if (!markersOnScreen || markersOnScreen.length === 0) return
+
+      // 屏幕坐标 → viewport 局部坐标
+      const vpX = x - (this._vpLeft || 0)
+      const vpY = y - (this._vpTop || 0)
+
+      // 命中检测：反向遍历（z-index 高的优先）
+      const HIT_RADIUS = 15  // 标记尺寸 20px / 2 + 容差
+      for (let i = markersOnScreen.length - 1; i >= 0; i--) {
+        const m = markersOnScreen[i]
+        const mx = m.px * scale + offsetX
+        const my = m.py * scale + offsetY
+        if (Math.abs(vpX - mx) < HIT_RADIUS && Math.abs(vpY - my) < HIT_RADIUS) {
+          this.triggerEvent('markertap', { marker: m })
+          return
+        }
       }
     }
   }
