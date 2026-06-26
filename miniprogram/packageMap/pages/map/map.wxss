@@ -304,6 +304,30 @@
   margin-top: 8rpx;
 }
 
+/* 标记类型选择器 */
+.info-window-type-selector {
+  display: flex;
+  gap: 16rpx;
+  padding: 16rpx 30rpx;
+  border-top: 1rpx solid #3A3520;
+}
+
+.type-btn {
+  flex: 1;
+  font-size: 22rpx;
+  padding: 14rpx 0;
+  border-radius: 8rpx;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.06);
+  color: #A09880;
+  border: 1rpx solid #3A3520;
+  font-weight: 600;
+}
+
+.type-btn-active {
+  border-color: transparent;
+}
+
 .info-window-actions {
   display: flex;
   gap: 16rpx;
@@ -905,4 +929,99 @@ button.bar-btn::after {
 .filter-footer-text {
   font-size: 22rpx;
   color: #7A6B4A;
+}
+
+/* 分享内容提示条 */
+.save-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16rpx 30rpx;
+  background: #2A2518;
+  border-top: 1rpx solid #3A3520;
+}
+
+.save-banner-text {
+  font-size: 24rpx;
+  color: #C0B896;
+}
+
+.save-banner-btn {
+  font-size: 24rpx;
+  color: #6BBF59;
+  font-weight: 600;
+  padding: 8rpx 24rpx;
+  border: 1rpx solid #6BBF59;
+  border-radius: 8rpx;
+}
+
+/* 保存确认弹窗 */
+.save-confirm-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.save-confirm-dialog {
+  width: 80%;
+  background: #1C1A10;
+  border: 1rpx solid #3A3520;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.save-confirm-title {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #E8E0C8;
+  padding: 30rpx 30rpx 16rpx;
+  text-align: center;
+}
+
+.save-confirm-content {
+  font-size: 26rpx;
+  color: #A09880;
+  padding: 0 30rpx 30rpx;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.save-confirm-actions {
+  display: flex;
+  border-top: 1rpx solid #3A3520;
+}
+
+.save-confirm-btn {
+  flex: 1;
+  font-size: 26rpx;
+  font-weight: 600;
+  padding: 24rpx 0;
+  text-align: center;
+}
+
+.save-confirm-btn + .save-confirm-btn {
+  border-left: 1rpx solid #3A3520;
+}
+
+.save-confirm-btn.backup {
+  color: #E8873C;
+}
+
+.save-confirm-btn.cancel {
+  color: #A09880;
+}
+
+.save-confirm-btn.confirm {
+  color: #6BBF59;
 }

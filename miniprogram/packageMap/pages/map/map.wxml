@@ -53,8 +53,9 @@
         <view class="info-window-title-area">
           <text class="info-window-icon">◆</text>
           <view class="info-window-title-wrap">
-            <text class="info-window-title">{{selectedMarker.name || '未命名标记'}}</text>
+            <text class="info-window-title">{{selectedMarker.name || '自定义标记'}}</text>
             <text class="info-window-subtitle" wx:if="{{selectedMarker.src === 'poi'}}">{{poiCatName}}</text>
+            <text class="info-window-subtitle" wx:elif="{{selectedMarker.type}}">{{markerTypes[selectedMarker.type].label}}</text>
             <text class="info-window-subtitle" wx:else>标记 #{{selectedMarkerIndex + 1}}</text>
           </view>
         </view>
@@ -70,9 +71,22 @@
           <text class="info-window-coord-value">{{selectedMarker.lat}}</text>
         </view>
       </view>
+      <view class="info-window-type-selector" wx:if="{{selectedMarker.src !== 'poi'}}">
+        <view
+          wx:for="{{markerTypes}}"
+          wx:for-index="typeKey"
+          wx:for-item="typeItem"
+          wx:key="*this"
+          class="type-btn {{selectedMarker.type === typeKey ? 'type-btn-active' : ''}}"
+          style="{{selectedMarker.type === typeKey ? 'background:' + typeItem.color + ';color:#fff' : ''}}"
+          data-type="{{typeKey}}"
+          catchtap="setMarkerType"
+        >{{typeItem.emoji}} {{typeItem.label}}</view>
+      </view>
       <view class="info-window-actions">
         <block wx:if="{{selectedMarker.src === 'poi'}}">
           <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
+          <button class="info-window-btn share" open-type="share">↗ 分享</button>
         </block>
         <block wx:else>
           <view class="info-window-btn delete" bindtap="deleteMarker">🗑 删除</view>
@@ -87,7 +101,7 @@
   <view class="coord-input-mask" wx:if="{{showCoordInput}}" bindtap="hideCoordInput">
     <view class="coord-input-dialog" catchtap="noop">
       <view class="coord-input-title">跳转到坐标</view>
-      <view class="coord-input-hint">支持格式：{X=12345 Y=-67890 ...} 或 12345, -67890</view>
+      <view class="coord-input-hint">游戏内地图按 Ctrl+C 复制坐标，粘贴到此处点击跳转，即可标记当前位置。</view>
       <input
         class="coord-input-field"
         placeholder="粘贴游戏坐标"
@@ -100,6 +114,12 @@
         <view class="coord-input-btn confirm" bindtap="jumpToCoord">跳转</view>
       </view>
     </view>
+  </view>
+
+  <!-- 分享内容提示条 -->
+  <view class="save-banner" wx:if="{{showSaveBanner}}" style="bottom: {{bottomBarHeight}}px;">
+    <text class="save-banner-text">📌 正在查看分享内容</text>
+    <view class="save-banner-btn" catchtap="saveToLocal">保存到本地</view>
   </view>
 
   <!-- 底部操作栏 -->
@@ -248,6 +268,19 @@
       </view>
       <view class="filter-footer" catchtap="">
         <text class="filter-footer-text">最多同时开启 5 个小类</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 保存确认弹窗 -->
+  <view class="save-confirm-mask" wx:if="{{showSaveConfirm}}" catchtap="onSaveCancel">
+    <view class="save-confirm-dialog" catchtap="">
+      <view class="save-confirm-title">保存到本地</view>
+      <view class="save-confirm-content">确定将当前内容保存到本地？这会覆盖已有的本地存档。</view>
+      <view class="save-confirm-actions">
+        <view class="save-confirm-btn backup" catchtap="onSaveBackup">覆盖前备份</view>
+        <view class="save-confirm-btn cancel" catchtap="onSaveCancel">取消</view>
+        <view class="save-confirm-btn confirm" catchtap="onSaveConfirm">确定</view>
       </view>
     </view>
   </view>

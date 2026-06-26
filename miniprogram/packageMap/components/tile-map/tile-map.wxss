@@ -62,6 +62,13 @@
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
+.marker-typed {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
 /* 区域网格叠加层 */
 .grid-overlay {
   position: absolute;

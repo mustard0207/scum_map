@@ -51,6 +51,13 @@ const MAX_POI_RENDER = 200        // 单次渲染 DOM 上限（防卡）
 const MIN_SCREEN_DIST = 20        // 标记间最小屏幕距离（px），用于网格聚合
 const SCALE_THRESHOLD = 3         // 放大到此倍数时关闭聚合，显示全部
 
+// 自定义标记类型
+const MARKER_TYPES = {
+  house:   { emoji: '🏠', label: '房屋',   color: '#6BBF59' },
+  vehicle: { emoji: '🚗', label: '载具',   color: '#6BBF59' },
+  box:     { emoji: '📦', label: '储物箱', color: '#6BBF59' }
+}
+
 // 游戏坐标范围（与 tile-map 组件一致）
 const GEO_LNG_LEFT = 619200
 const GEO_LNG_RIGHT = -904800
@@ -79,6 +86,9 @@ Page({
     importInputValue: '',
     // 备份抽屉
     showDataDrawer: false,
+    // 分享视图
+    showSaveBanner: false,
+    showSaveConfirm: false,
     // POI 筛选
     poiCategories: poiCategories,   // 分类配置（按 section 分组）
     activePoiCats: ['80'],          // 当前激活的小类 ID（默认前哨站）
@@ -92,6 +102,7 @@ Page({
     filterFullMode: false,          // 完整版筛选模式
     expandedGroups: {},             // 展开的大类 { 'Outposts': true }
     poiCatName: '',                 // 当前选中 POI 的小类名
+    markerTypes: MARKER_TYPES,      // 自定义标记类型配置
   },
 
   onLoad(options) {
@@ -127,34 +138,66 @@ Page({
     }, 100)
 
     // 接收分享链接跳转参数
+    const isShareLink = !!(options.markers || (options.x && options.y))
+    let shareLatLng = null
+
     if (options.markers) {
-      // 新格式：多个标记 markers=lng1,lat1,name1|lng2,lat2,name2|...
+      // 新格式：多个标记 markers=lng1,lat1,name1,type1|lng2,lat2,name2,type2|...
       const sharedMarkers = options.markers.split('|').map((item, i) => {
         const parts = item.split(',')
+        const type = parts[3] || ''
+        const typeConf = MARKER_TYPES[type]
         return {
           id: 'shared_' + Date.now() + '_' + i,
           lng: parseFloat(parts[0]),
           lat: parseFloat(parts[1]),
-          name: parts[2] ? decodeURIComponent(parts[2]) : ''
+          name: parts[2] ? decodeURIComponent(parts[2]) : '',
+          type,
+          emoji: typeConf ? typeConf.emoji : ''
         }
       }).filter(m => !isNaN(m.lng) && !isNaN(m.lat))
       if (sharedMarkers.length > 0) {
         this.setData({ markers: sharedMarkers })
-        // 跳转到最后一个标记的位置
-        const last = sharedMarkers[sharedMarkers.length - 1]
-        setTimeout(() => this.navigateToTarget(last.lng, last.lat), 600)
+        shareLatLng = sharedMarkers[sharedMarkers.length - 1]
       }
     } else if (options.x && options.y) {
       // 旧格式兼容：单个标记 x=lng&y=lat&name=xxx
       const lng = parseFloat(options.x)
       const lat = parseFloat(options.y)
       const name = decodeURIComponent(options.name || '')
-      const marker = { id: 'shared_' + Date.now(), lng, lat, name }
+      const marker = { id: 'shared_' + Date.now(), lng, lat, name, type: '' }
       this.setData({
         markers: [marker],
         selectedMarker: marker
       })
-      setTimeout(() => this.navigateToTarget(lng, lat), 600)
+      shareLatLng = marker
+    }
+
+    // POI 筛选分类 poiCats=80,10,33
+    if (options.poiCats) {
+      const catIds = options.poiCats.split(',').filter(id => id.trim() !== '')
+      if (catIds.length > 0) {
+        const activePoiMap = {}
+        catIds.forEach(id => { activePoiMap[id] = true })
+        this.setData({ activePoiCats: catIds, activePoiMap })
+        this._poiPixelCache = null
+        setTimeout(() => this._schedulePoiRefresh(), 300)
+      }
+    }
+
+    // 分享链接：标记为临时查看，不自动保存
+    if (isShareLink) {
+      this._isSharedView = true
+      this.setData({ showSaveBanner: true })
+    } else {
+      // 正常打开：从本地存储恢复
+      this._isSharedView = false
+      this._loadFromStorage()
+    }
+
+    // 跳转到最后一个标记的位置
+    if (shareLatLng) {
+      setTimeout(() => this.navigateToTarget(shareLatLng.lng, shareLatLng.lat), 600)
     }
   },
 
@@ -275,7 +318,8 @@ Page({
         id: 'user_' + Date.now(),
         lng: geo.lng,
         lat: geo.lat,
-        name: ''
+        name: '',
+        type: ''
       }
       const markers = [...this.data.markers, newMarker]
       this.setData({
@@ -285,6 +329,7 @@ Page({
         showInfoWindow: false
       })
       wx.vibrateShort({ type: 'medium' })
+      this._onUserChange()
     }
   },
 
@@ -346,7 +391,8 @@ Page({
         id: 'input_' + Date.now(),
         lng: coord.lng,
         lat: coord.lat,
-        name: ''
+        name: '',
+        type: ''
       }
       const markers = [...this.data.markers, newMarker]
       console.log('new markers:', markers)
@@ -359,6 +405,7 @@ Page({
       })
       this._schedulePoiRefresh()
       wx.vibrateShort({ type: 'medium' })
+      this._onUserChange()
     }
   },
 
@@ -389,10 +436,12 @@ Page({
   onMarkerTap(e) {
     const marker = e.detail.marker
     if (marker) {
-      const idx = this.data.markers.findIndex(m => m.id === marker.id)
+      // 计算该标记在用户自定义标记中的排位（跳过 POI）
+      const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+      const userIdx = userMarkers.findIndex(m => m.id === marker.id)
       const setData = {
         selectedMarker: marker,
-        selectedMarkerIndex: idx,
+        selectedMarkerIndex: userIdx,
         showInfoWindow: true
       }
       // POI 标记显示小类名
@@ -405,7 +454,7 @@ Page({
 
   /** 关闭信息窗口 */
   closeInfoWindow() {
-    this.setData({ showInfoWindow: false, selectedMarkerIndex: -1 })
+    this.setData({ showInfoWindow: false, selectedMarker: null, selectedMarkerIndex: -1 })
   },
 
   /** 复制当前选中标记的坐标 */
@@ -416,6 +465,29 @@ Page({
       data: `{X=${marker.lng} Y=${marker.lat} Z=0}`,
       success: () => wx.showToast({ title: '坐标已复制' })
     })
+  },
+
+  /** 设置自定义标记类型 */
+  setMarkerType(e) {
+    const type = e.currentTarget.dataset.type
+    const marker = this.data.selectedMarker
+    if (!marker) return
+    // 点击已选中的类型则取消
+    const newType = marker.type === type ? '' : type
+    const typeConf = MARKER_TYPES[newType]
+    const markers = this.data.markers.map(m => {
+      if (m.id !== marker.id) return m
+      return {
+        ...m,
+        type: newType,
+        emoji: typeConf ? typeConf.emoji : ''
+      }
+    })
+    this.setData({
+      markers,
+      selectedMarker: { ...marker, type: newType, emoji: typeConf ? typeConf.emoji : '' }
+    })
+    this._onUserChange()
   },
 
   /** 删除当前选中的标记 */
@@ -429,6 +501,7 @@ Page({
       selectedMarkerIndex: -1,
       showInfoWindow: false
     })
+    this._onUserChange()
   },
 
   /** 重置视图（含清除标记） */
@@ -436,6 +509,7 @@ Page({
     const mapComp = this.selectComponent('#tileMap')
     if (mapComp) mapComp.resetView()
     this.setData({ markers: [], selectedMarker: null, selectedMarkerIndex: -1, showInfoWindow: false })
+    this._onUserChange()
   },
 
   /** 仅重置地图视角（保留标记） */
@@ -544,7 +618,7 @@ Page({
    */
   _encodeMarkers(markers) {
     const bytes = []
-    bytes.push(0x53) // 'S' — 版本标识
+    bytes.push(0x54) // 'T' — 版本标识（含类型字段）
     bytes.push(markers.length & 0xFF)
 
     for (let i = 0; i < markers.length; i++) {
@@ -569,6 +643,10 @@ Page({
       const nameBytes = this._strToBytes(m.name || '')
       this._writeVarint(bytes, nameBytes.length)
       for (let j = 0; j < nameBytes.length; j++) bytes.push(nameBytes[j])
+
+      // 类型：1 字节（0x00=无, 0x01=house, 0x02=vehicle, 0x03=box）
+      const typeCode = m.type === 'house' ? 1 : m.type === 'vehicle' ? 2 : m.type === 'box' ? 3 : 0
+      bytes.push(typeCode)
     }
 
     const ab = new ArrayBuffer(bytes.length)
@@ -587,9 +665,9 @@ Page({
       const ab = wx.base64ToArrayBuffer(payload)
       const bytes = new Uint8Array(ab)
 
-      // 检查是否为新二进制格式（首字节 'S' = 0x53）
-      if (bytes.length > 1 && bytes[0] === 0x53) {
-        return this._decodeBinaryMarkers(bytes)
+      // 检查是否为二进制格式（首字节 0x53=旧版无类型 / 0x54=新版含类型）
+      if (bytes.length > 1 && (bytes[0] === 0x53 || bytes[0] === 0x54)) {
+        return this._decodeBinaryMarkers(bytes, bytes[0] === 0x54)
       }
 
       // 回退：旧文本格式
@@ -600,13 +678,14 @@ Page({
   },
 
   /** 解码二进制格式标记 */
-  _decodeBinaryMarkers(bytes) {
+  _decodeBinaryMarkers(bytes, hasType) {
     const count = bytes[1]
     if (count === 0) return []
     const markers = []
     let pos = 2
     let prevLngInt = 0
     let prevLatInt = 0
+    const typeMap = { 1: 'house', 2: 'vehicle', 3: 'box' }
 
     for (let i = 0; i < count && pos < bytes.length; i++) {
       let lngInt, latInt
@@ -632,11 +711,21 @@ Page({
         pos += nameLen
       }
 
+      // 读取类型（仅新版 0x54 格式含类型字节）
+      let type = ''
+      if (hasType && pos < bytes.length) {
+        type = typeMap[bytes[pos]] || ''
+        pos++
+      }
+
+      const typeConf = MARKER_TYPES[type]
       markers.push({
         id: 'imported_' + Date.now() + '_' + i,
         lng: lngInt / 10000,
         lat: latInt / 10000,
-        name
+        name,
+        type,
+        emoji: typeConf ? typeConf.emoji : ''
       })
     }
     return markers
@@ -661,7 +750,7 @@ Page({
       const lng = parseFloat(parts[0])
       const lat = parseFloat(parts[1])
       if (isNaN(lng) || isNaN(lat)) return null
-      return { id: 'imported_' + Date.now() + '_' + Math.random(), lng, lat, name }
+      return { id: 'imported_' + Date.now() + '_' + Math.random(), lng, lat, name, type: '', emoji: '' }
     }).filter(Boolean)
   },
 
@@ -717,6 +806,7 @@ Page({
     this.setData({ activePoiCats: [], activePoiMap: {} })
     this._poiPixelCache = null
     this._schedulePoiRefresh()
+    this._onUserChange()
   },
 
   /** 切换小类开关 */
@@ -740,6 +830,7 @@ Page({
     this.setData({ activePoiCats: active, activePoiMap })
     this._poiPixelCache = null
     this._schedulePoiRefresh()
+    this._onUserChange()
   },
 
   /**
@@ -905,6 +996,7 @@ Page({
         showImportDialog: false
       })
       wx.vibrateShort({ type: 'medium' })
+      this._onUserChange()
       if (truncated) {
         wx.showToast({ title: '最多50个，已截取前50个', icon: 'none', duration: 2000 })
       } else {
@@ -928,15 +1020,16 @@ Page({
 
   /** 导出标记 */
   exportMarkers() {
-    if (this.data.markers.length === 0) {
+    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    if (userMarkers.length === 0) {
       wx.showToast({ title: '暂无标记可导出', icon: 'none' })
       return
     }
-    const code = this._encodeMarkers(this.data.markers)
+    const code = this._encodeMarkers(userMarkers)
     wx.setClipboardData({
       data: code,
       success: () => {
-        wx.showToast({ title: `已复制 ${this.data.markers.length} 个标记代码` })
+        wx.showToast({ title: `代码已复制到剪贴板，可以粘贴到其他地方保存备用`, icon: 'none', duration: 3000 })
       }
     })
   },
@@ -972,23 +1065,143 @@ Page({
     }, 200)
   },
 
+  // ========== 本地存储 ==========
+
+  /** 用户主动修改标记/筛选时调用 */
+  _onUserChange() {
+    if (this._isSharedView) {
+      this._isSharedView = false
+      this.setData({ showSaveBanner: false })
+    }
+    this._saveToStorage()
+  },
+
+  /** 从本地存储恢复用户标记和 POI 筛选 */
+  _loadFromStorage() {
+    try {
+      const savedMarkers = wx.getStorageSync('scum_userMarkers')
+      const savedCats = wx.getStorageSync('scum_activePoiCats')
+      const setData = {}
+      if (Array.isArray(savedMarkers) && savedMarkers.length > 0) {
+        setData.markers = savedMarkers
+      }
+      if (Array.isArray(savedCats) && savedCats.length > 0) {
+        setData.activePoiCats = savedCats
+        const activePoiMap = {}
+        savedCats.forEach(id => { activePoiMap[id] = true })
+        setData.activePoiMap = activePoiMap
+        this._poiPixelCache = null
+        setTimeout(() => this._schedulePoiRefresh(), 300)
+      }
+      if (Object.keys(setData).length > 0) {
+        this.setData(setData)
+      }
+    } catch (e) {
+      console.warn('[Storage] 加载失败:', e)
+    }
+  },
+
+  /** 保存用户标记和 POI 筛选到本地存储（防抖） */
+  _saveToStorage() {
+    if (this._saveTimer) clearTimeout(this._saveTimer)
+    this._saveTimer = setTimeout(() => {
+      try {
+        const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+        wx.setStorageSync('scum_userMarkers', userMarkers)
+        wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
+      } catch (e) {
+        console.warn('[Storage] 保存失败:', e)
+      }
+    }, 300)
+  },
+
+  /** 显示保存确认弹窗 */
+  saveToLocal() {
+    this.setData({ showSaveConfirm: true })
+  },
+
+  /** 保存确认：覆盖存档 */
+  onSaveConfirm() {
+    this.setData({ showSaveConfirm: false })
+    try {
+      const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+      wx.setStorageSync('scum_userMarkers', userMarkers)
+      wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
+      wx.showToast({ title: '已保存到本地', icon: 'success' })
+      this._isSharedView = false
+      this.setData({ showSaveBanner: false })
+    } catch (e) {
+      wx.showToast({ title: '保存失败', icon: 'none' })
+    }
+  },
+
+  /** 保存确认：取消 */
+  onSaveCancel() {
+    this.setData({ showSaveConfirm: false })
+  },
+
+  /** 保存确认：覆盖前备份（导出本地存储中的旧数据） */
+  onSaveBackup() {
+    this.setData({ showSaveConfirm: false })
+    try {
+      const savedMarkers = wx.getStorageSync('scum_userMarkers')
+      if (!Array.isArray(savedMarkers) || savedMarkers.length === 0) {
+        wx.showToast({ title: '本地暂无存档可备份', icon: 'none' })
+        return
+      }
+      const code = this._encodeMarkers(savedMarkers)
+      wx.setClipboardData({
+        data: code,
+        success: () => {
+          wx.showToast({ title: '旧存档已复制到剪贴板，可以粘贴到其他地方保存备用', icon: 'none', duration: 3000 })
+        }
+      })
+    } catch (e) {
+      wx.showToast({ title: '备份失败', icon: 'none' })
+    }
+  },
+
   /** 微信分享 */
   onShareAppMessage() {
-    const { markers, selectedMarker } = this.data
-    if (markers.length > 0) {
-      // 编码所有标记：lng,lat,encodedName 用 | 分隔
-      const encoded = markers.map(m =>
-        `${m.lng},${m.lat},${encodeURIComponent(m.name || '')}`
-      ).join('|')
-      const count = markers.length
-      const label = selectedMarker && selectedMarker.name
-        ? `：${selectedMarker.name}`
-        : ''
+    const { selectedMarker, activePoiCats } = this.data
+
+    // 场景一：信息窗内点分享按钮，只分享当前这一个标记
+    if (selectedMarker) {
+      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''}`
+      const label = selectedMarker.name || (selectedMarker.src === 'poi' ? 'POI点位' : '自定义标记')
       return {
-        title: `我给你分享了${count}个SCUM地图位置${label}`,
+        title: `SCUM地图位置：${label}`,
         path: `/packageMap/pages/map/map?markers=${encoded}`
       }
     }
+
+    // 场景二：底部栏分享当前页
+    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    const params = []
+    const parts = []
+
+    // 用户自定义标记
+    if (userMarkers.length > 0) {
+      const encoded = userMarkers.map(m =>
+        `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''}`
+      ).join('|')
+      params.push(`markers=${encoded}`)
+      parts.push(`${userMarkers.length}个标记`)
+    }
+
+    // POI 筛选分类
+    if (activePoiCats.length > 0) {
+      params.push(`poiCats=${activePoiCats.join(',')}`)
+      parts.push(`${activePoiCats.length}个分类POI`)
+    }
+
+    if (params.length > 0) {
+      return {
+        title: `我给你分享了${parts.join('和')}`,
+        path: `/packageMap/pages/map/map?${params.join('&')}`
+      }
+    }
+
     return {
       title: '来看看SCUM地图',
       path: '/packageMap/pages/map/map'

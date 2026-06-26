@@ -15,6 +15,13 @@ const INERTIA_FRICTION = 0.95   // 惯性衰减系数，越大滑得越远
 const INERTIA_MIN_VEL = 0.5     // 最小速度阈值，低于此值停止惯性
 const DOUBLE_TAP_TIMEOUT = 300  // 双击判定时间窗口（毫秒）
 
+// 自定义标记类型颜色
+const MARKER_TYPE_COLORS = {
+  house:   '#6BBF59',
+  vehicle: '#6BBF59',
+  box:     '#6BBF59'
+}
+
 // 区域网格配置
 const GRID_ROWS = 5
 const GRID_COLS = 5
@@ -371,7 +378,7 @@ Component({
           if (!marker.lng || !marker.lat) return null
           const pixelX = (marker.lng - GEO_BOUNDS.longitudeLeft) / (GEO_BOUNDS.longitudeRight - GEO_BOUNDS.longitudeLeft) * FULL_MAP_SIZE
           const pixelY = (marker.lat - GEO_BOUNDS.latitudeTop) / (GEO_BOUNDS.latitudeBottom - GEO_BOUNDS.latitudeTop) * FULL_MAP_SIZE
-          return { ...marker, px: pixelX, py: pixelY }
+          return { ...marker, px: pixelX, py: pixelY, typeColor: MARKER_TYPE_COLORS[marker.type] || '' }
         }).filter(Boolean)
       }
 
