@@ -213,6 +213,9 @@ Page({
     this.setData({ showCoordInput: false })
   },
 
+  /** 空方法：阻止事件冒泡（用于 catchtap） */
+  noop() {},
+
   /** 坐标输入框内容变化 */
   onCoordInputChange(e) {
     this.setData({ coordInputValue: e.detail.value })

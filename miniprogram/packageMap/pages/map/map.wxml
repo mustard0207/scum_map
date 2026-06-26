@@ -79,7 +79,7 @@
 
   <!-- 坐标输入弹窗 -->
   <view class="coord-input-mask" wx:if="{{showCoordInput}}" bindtap="hideCoordInput">
-    <view class="coord-input-dialog" catchtap="">
+    <view class="coord-input-dialog" catchtap="noop">
       <view class="coord-input-title">跳转到坐标</view>
       <view class="coord-input-hint">支持格式：{X=12345 Y=-67890 ...} 或 12345, -67890</view>
       <input
