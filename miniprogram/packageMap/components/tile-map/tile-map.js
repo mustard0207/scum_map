@@ -80,7 +80,7 @@ Component({
     _vw: 375,
     _vh: 600,
     fullMapSrc: FULL_MAP_SRC,
-    fullMapSize: FULL_MAP_SIZE,
+    wxsState: {},
     // 标记在屏幕上的位置数组
     markersOnScreen: [],
     // 可见瓦片列表（Z4 底层）
@@ -143,190 +143,43 @@ Component({
 
       this.setData({ offsetX, offsetY, scale, _vw: this._vw, _vh: this._vh })
 
-      this._initGrid()
-      this._refreshOverlay()
-
-      this._inertiaTimer = null
-      this._velX = 0
-      this._velY = 0
       this._tileIds = ''  // 当前可见瓦片 id 缓存，用于变化检测
+      this._initGrid()
+      this._syncWxsState()
+      this._refreshOverlay()
     },
 
     // ================================================================
-    // 触摸事件
+    // WXS 同步与回调
     // ================================================================
 
-    onTouchStart(e) {
-      if (this._inertiaTimer) {
-        clearTimeout(this._inertiaTimer)
-        this._inertiaTimer = null
-      }
-
-      const touches = e.touches
-      if (touches.length === 1) {
-        // 单指开始
-        this._isPinching = false
-        this._lastX = touches[0].clientX
-        this._lastY = touches[0].clientY
-        this._lastTime = Date.now()
-        this._touchStartX = touches[0].clientX
-        this._touchStartY = touches[0].clientY
-        this._velX = 0
-        this._velY = 0
-        this._isDrag = false
-      } else if (touches.length === 2) {
-        // 双指开始：重置拖拽状态，避免松手时触发惯性
-        this._isPinching = true
-        this._isDrag = false
-        this._velX = 0
-        this._velY = 0
-        this._pinchStartDist = this._getTouchDist(touches)
-        this._pinchStartScale = this.data.scale
-        this._pinchStartOffsetX = this.data.offsetX
-        this._pinchStartOffsetY = this.data.offsetY
-      }
+    _syncWxsState(abortAnimation = false) {
+      const stateObj = {
+        offsetX: this.data.offsetX,
+        offsetY: this.data.offsetY,
+        scale: this.data.scale,
+        vw: this._vw,
+        vh: this._vh,
+        minScale: MIN_SCALE,
+        trigger: Date.now()
+      };
+      if (abortAnimation) stateObj.abort = Date.now();
+      
+      this.setData({ wxsState: stateObj });
     },
 
-    onTouchMove(e) {
-      const touches = e.touches
-
-      // 双指缩放中，只剩一个手指时忽略
-      if (this._isPinching && touches.length < 2) return
-
-      if (touches.length === 1 && this._lastX !== undefined && !this._isPinching) {
-        // 单指拖拽
-        const dx = touches[0].clientX - this._lastX
-        const dy = touches[0].clientY - this._lastY
-        const now = Date.now()
-        const dt = now - this._lastTime
-
-        if (dt > 0) {
-          this._velX = dx / dt
-          this._velY = dy / dt
-        }
-
-        this._lastX = touches[0].clientX
-        this._lastY = touches[0].clientY
-        this._lastTime = now
-        this._isDrag = true
-
-        this.data.offsetX += dx
-        this.data.offsetY += dy
-        this._clampOffset()
-        this.setData({ offsetX: this.data.offsetX, offsetY: this.data.offsetY })
-        this._refreshOverlay()
-      } else if (touches.length === 2 && this._pinchStartDist) {
-        // 双指缩放：以双指中心为锚点
-        const dist = this._getTouchDist(touches)
-        const newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, this._pinchStartScale * (dist / this._pinchStartDist)))
-
-        // 双指中心点（屏幕坐标）
-        const cx = (touches[0].clientX + touches[1].clientX) / 2
-        const cy = (touches[0].clientY + touches[1].clientY) / 2
-
-        const s0 = this._pinchStartScale
-        const s1 = newScale
-        const ox0 = this._pinchStartOffsetX
-        const oy0 = this._pinchStartOffsetY
-
-        // 公式：newOffset = pinchCenter - (pinchCenter - oldOffset) * newScale / oldScale
-        const newOffsetX = cx - (cx - ox0) * s1 / s0
-        const newOffsetY = cy - (cy - oy0) * s1 / s0
-
-        this.data.offsetX = newOffsetX
-        this.data.offsetY = newOffsetY
-        this.data.scale = newScale  // 先更新 scale，让 _clampOffset 用新值计算边界
-        this._clampOffset()
-        this.setData({
-          scale: this.data.scale,
-          offsetX: this.data.offsetX,
-          offsetY: this.data.offsetY
-        })
-        this._refreshOverlay()
-      }
-    },
-
-    onTouchEnd(e) {
-      if (e.touches.length === 0) {
-        // 只有单指拖拽后才启动惯性
-        if (!this._isPinching && this._isDrag && (Math.abs(this._velX) > INERTIA_MIN_VEL || Math.abs(this._velY) > INERTIA_MIN_VEL)) {
-          this._startInertia()
-        }
-
-        // 检测点击：手指总移动距离 < 10px 视为点击（不依赖 _isDrag，因为手机触摸总有微小位移）
-        if (!this._isPinching && this._touchStartX !== undefined) {
-          const endX = e.changedTouches[0].clientX
-          const endY = e.changedTouches[0].clientY
-          const dist = Math.abs(endX - this._touchStartX) + Math.abs(endY - this._touchStartY)
-          if (dist < 10) {
-            this._handleTap(endX, endY)
-          }
-        }
-
-        this._lastX = undefined
-        this._lastY = undefined
-        this._isDrag = false
-        this._isPinching = false
-      }
-    },
-
-    /** 在 touchEnd 中检测双击 */
-    _handleTap(x, y) {
-      const now = Date.now()
-      if (
-        this._lastTapTime &&
-        now - this._lastTapTime < DOUBLE_TAP_TIMEOUT &&
-        this._lastTapX !== undefined &&
-        Math.abs(x - this._lastTapX) < 30 &&
-        Math.abs(y - this._lastTapY) < 30
-      ) {
-        // 双击确认
-        this._lastTapTime = 0
-        this._lastTapX = undefined
-
-        const curScale = this.data.scale
-        const targetScale = curScale >= 2 ? 1 : Math.min(MAX_SCALE, curScale * 2)
-        this._animateZoomTo(targetScale, x, y)
-      } else {
-        this._lastTapTime = now
-        this._lastTapX = x
-        this._lastTapY = y
-      }
-    },
-
-    // ================================================================
-    // 惯性动画
-    // ================================================================
-
-    _startInertia() {
-      const animate = () => {
-        this._velX *= INERTIA_FRICTION
-        this._velY *= INERTIA_FRICTION
-
-        if (Math.abs(this._velX) < INERTIA_MIN_VEL && Math.abs(this._velY) < INERTIA_MIN_VEL) {
-          this._inertiaTimer = null
-          return
-        }
-
-        this.data.offsetX += this._velX * 16
-        this.data.offsetY += this._velY * 16
-        this._clampOffset()
-        this.setData({ offsetX: this.data.offsetX, offsetY: this.data.offsetY })
-        this._refreshOverlay()
-
-        this._inertiaTimer = setTimeout(animate, 16)
-      }
-      this._inertiaTimer = setTimeout(animate, 16)
-    },
-
-    // ================================================================
-    // 工具函数
-    // ================================================================
-
-    _getTouchDist(touches) {
-      const dx = touches[0].clientX - touches[1].clientX
-      const dy = touches[0].clientY - touches[1].clientY
-      return Math.sqrt(dx * dx + dy * dy)
+    onGestureEnd(e) {
+      const { offsetX, offsetY, scale } = e;
+      this.data.offsetX = offsetX;
+      this.data.offsetY = offsetY;
+      this.data.scale = scale;
+      // 使用显式的 setData 同步状态，确保微信底层的虚拟 DOM diff 能正确捕获并下发给 WXS
+      this.setData({
+        'wxsState.offsetX': offsetX,
+        'wxsState.offsetY': offsetY,
+        'wxsState.scale': scale
+      });
+      this._refreshOverlayAnim();
     },
 
     /** 限制地图不被完全拖出视口：至少保留 PAN_MARGIN 像素在视口内 */
@@ -453,10 +306,9 @@ Component({
           tiles.push({
             id: `tile_${level}_${r}_${c}`,
             src: this._getTileSrc(level, c, r),
-            left: c * logicalSize,
-            top: r * logicalSize,
-            w: logicalSize,
-            h: logicalSize
+            lx: c * logicalSize,
+            ly: r * logicalSize,
+            lsize: logicalSize
           })
         }
       }
@@ -509,42 +361,14 @@ Component({
           if (!marker.lng || !marker.lat) return null
           const pixelX = (marker.lng - GEO_BOUNDS.longitudeLeft) / (GEO_BOUNDS.longitudeRight - GEO_BOUNDS.longitudeLeft) * FULL_MAP_SIZE
           const pixelY = (marker.lat - GEO_BOUNDS.latitudeTop) / (GEO_BOUNDS.latitudeBottom - GEO_BOUNDS.latitudeTop) * FULL_MAP_SIZE
-          const screenX = pixelX * scale + offsetX
-          const screenY = pixelY * scale + offsetY
-          const visible = screenX >= -20 && screenX <= this._vw + 20 &&
-                          screenY >= -20 && screenY <= this._vh + 20
-          return visible ? { ...marker, screenX, screenY } : null
+          return { ...marker, px: pixelX, py: pixelY }
         }).filter(Boolean)
       }
-
-      // 网格位置（线条裁剪到地图可见区域）
-      const mapLeft = Math.max(0, offsetX)
-      const mapRight = Math.min(this._vw, FULL_MAP_SIZE * scale + offsetX)
-      const mapTop = Math.max(0, offsetY)
-      const mapBottom = Math.min(this._vh, FULL_MAP_SIZE * scale + offsetY)
-
-      const gridLinesH = this.data.gridLinesH.map((line, i) => ({
-        ...line,
-        y: (i + 1) * GRID_CELL * scale + offsetY,
-        left: mapLeft,
-        right: this._vw - mapRight
-      }))
-      const gridLinesV = this.data.gridLinesV.map((line, j) => ({
-        ...line,
-        x: (j + 1) * GRID_CELL * scale + offsetX,
-        top: mapTop,
-        bottom: this._vh - mapBottom
-      }))
-      const gridLabels = this.data.gridLabels.map((label, idx) => ({
-        ...label,
-        x: (idx % GRID_COLS) * GRID_CELL * scale + offsetX + GRID_LABEL_OFFSET,
-        y: Math.floor(idx / GRID_COLS) * GRID_CELL * scale + offsetY + GRID_LABEL_OFFSET
-      }))
 
       // 瓦片数据（仅在变化时附带，不增加 setData 次数）
       const tileData = this._computeTileData()
 
-      this.setData({ markersOnScreen, gridLinesH, gridLinesV, gridLabels, ...tileData })
+      this.setData({ markersOnScreen, ...tileData, 'wxsState.trigger': Date.now() })
     },
 
     // ================================================================
@@ -570,6 +394,7 @@ Component({
       this._clampOffset()
 
       this.setData({ offsetX: this.data.offsetX, offsetY: this.data.offsetY })
+      this._syncWxsState(true) // 强制打断可能的滑动惯性
       this._refreshOverlay()
       return true
     },
@@ -628,6 +453,7 @@ Component({
       const offsetX = (this._vw - FULL_MAP_SIZE * scale) / 2
       const offsetY = (this._vh - FULL_MAP_SIZE * scale) / 2
       this.setData({ offsetX, offsetY, scale })
+      this._syncWxsState(true) // 强制打断可能的滑动惯性
       this._refreshOverlay()
     },
 
@@ -650,61 +476,24 @@ Component({
 
     /** 以指定中心点缩放到目标值 */
     zoomTo(targetScale, cx, cy) {
-      this._animateZoomTo(targetScale, cx, cy)
-    },
-
-    // ================================================================
-    // 双击缩放（在 _handleTap 中实现）
-    // ================================================================
-
-    /**
-     * 平滑缩放动画：从当前 scale 过渡到 targetScale，以 (cx, cy) 为锚点
-     */
-    _animateZoomTo(targetScale, cx, cy) {
-      if (this._inertiaTimer) {
-        clearTimeout(this._inertiaTimer)
-        this._inertiaTimer = null
-      }
-
-      const DURATION = 200
       const startScale = this.data.scale
       const startOX = this.data.offsetX
       const startOY = this.data.offsetY
       const finalOX = cx - (cx - startOX) * targetScale / startScale
       const finalOY = cy - (cy - startOY) * targetScale / startScale
-      const startTime = Date.now()
-
-      this._isAnimatingZoom = true
-
-      const step = () => {
-        const elapsed = Date.now() - startTime
-        const t = Math.min(1, elapsed / DURATION)
-        // ease-out cubic
-        const ease = 1 - Math.pow(1 - t, 3)
-
-        const curScale = startScale + (targetScale - startScale) * ease
-        const curOX = startOX + (finalOX - startOX) * ease
-        const curOY = startOY + (finalOY - startOY) * ease
-
-        this.data.offsetX = curOX
-        this.data.offsetY = curOY
-        this.data.scale = curScale  // 先更新 scale，让 _clampOffset 用新值计算边界
-        this._clampOffset()
-        this.setData({ scale: this.data.scale, offsetX: this.data.offsetX, offsetY: this.data.offsetY })
-        // 动画期间手动刷新标记位置和网格（合并为一次 setData）
-        this._refreshOverlayAnim()
-
-        if (t < 1) {
-          this._zoomAnimTimer = setTimeout(step, 16)
-        } else {
-          this._isAnimatingZoom = false
-          this._zoomAnimTimer = null
-          this._refreshOverlayAnim()
-        }
-      }
-
-      if (this._zoomAnimTimer) clearTimeout(this._zoomAnimTimer)
-      step()
+      
+      this.data.offsetX = finalOX
+      this.data.offsetY = finalOY
+      this.data.scale = targetScale
+      this._clampOffset()
+      
+      this.setData({
+        offsetX: this.data.offsetX,
+        offsetY: this.data.offsetY,
+        scale: this.data.scale
+      })
+      this._syncWxsState(true) // 强制打断可能的滑动惯性
+      this._refreshOverlayAnim()
     },
 
     // ================================================================
@@ -717,20 +506,19 @@ Component({
       const gridLinesV = []
       const gridLabels = []
 
-      // 4 条内部分隔横线（i = 1..4）
       for (let i = 1; i < GRID_ROWS; i++) {
-        gridLinesH.push({ id: 'h' + i })
+        gridLinesH.push({ id: 'h' + i, ly: i * GRID_CELL })
       }
-      // 4 条内部分隔竖线（j = 1..4）
       for (let j = 1; j < GRID_COLS; j++) {
-        gridLinesV.push({ id: 'v' + j })
+        gridLinesV.push({ id: 'v' + j, lx: j * GRID_CELL })
       }
-      // 25 个标签
       for (let r = 0; r < GRID_ROWS; r++) {
         for (let c = 0; c < GRID_COLS; c++) {
           gridLabels.push({
             id: 'lbl_' + r + '_' + c,
-            text: GRID_LABELS_ROW[r] + GRID_LABELS_COL[c]
+            text: GRID_LABELS_ROW[r] + GRID_LABELS_COL[c],
+            lx: c * GRID_CELL,
+            ly: r * GRID_CELL
           })
         }
       }
@@ -740,23 +528,7 @@ Component({
 
     /** 实际执行标记位置更新（被 _updateMarkersScreenPos 和动画调用） */
     _doUpdateMarkersScreenPos() {
-      const markers = this.data.markers
-      if (!markers || markers.length === 0) {
-        if (this.data.markersOnScreen.length > 0) {
-          this.setData({ markersOnScreen: [] })
-        }
-        return
-      }
-
-      const markersOnScreen = markers.map(marker => {
-        if (!marker.lng || !marker.lat) return null
-        const screenPos = this.geoToScreen(marker.lng, marker.lat)
-        const visible = screenPos.x >= -20 && screenPos.x <= this._vw + 20 &&
-                        screenPos.y >= -20 && screenPos.y <= this._vh + 20
-        return visible ? { ...marker, screenX: screenPos.x, screenY: screenPos.y } : null
-      }).filter(Boolean)
-
-      this.setData({ markersOnScreen })
+      this._refreshOverlayAnim()
     },
 
     onImageError(e) {

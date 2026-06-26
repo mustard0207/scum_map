@@ -1,0 +1,325 @@
+var state = {
+  offsetX: 0,
+  offsetY: 0,
+  scale: 1,
+  vw: 375,
+  vh: 600,
+  FULL_MAP_SIZE: 1280,
+  MIN_SCALE: 0.2,
+  MAX_SCALE: 8,
+  PAN_MARGIN: 50,
+  GRID_CELL: 256,
+  GRID_LABEL_OFFSET: 8
+};
+
+function updateStyles(ownerInstance) {
+  var s = state.scale;
+  var ox = state.offsetX;
+  var oy = state.offsetY;
+
+  // 1. map-canvas (负责整体平移，内部元素使用相对逻辑缩放定位)
+  var mapCanvas = ownerInstance.selectComponent('.map-canvas');
+  if (mapCanvas) {
+    mapCanvas.setStyle({
+      transform: 'translate(' + ox + 'px,' + oy + 'px)',
+      width: (state.FULL_MAP_SIZE * s) + 'px',
+      height: (state.FULL_MAP_SIZE * s) + 'px'
+    });
+  }
+
+  // 2. 瓦片 (纯粹受 map-canvas 容器内的 scale 影响，不再重复计算 ox, oy)
+  var tiles = ownerInstance.selectAllComponents('.map-tile');
+  for (var i = 0; i < tiles.length; i++) {
+    var ds = tiles[i].getDataset();
+    if (ds.lsize === undefined) continue;
+    var sizeScale = parseFloat(ds.lsize) * s;
+    tiles[i].setStyle({
+      left: (parseFloat(ds.lx) * s) + 'px',
+      top: (parseFloat(ds.ly) * s) + 'px',
+      width: sizeScale + 'px',
+      height: sizeScale + 'px'
+    });
+  }
+
+  // 3. 区域网格横线 (由于在 map-canvas 外面，所以需要 ox/oy)
+  var mapLeft = Math.max(0, ox);
+  var mapRight = Math.min(state.vw, state.FULL_MAP_SIZE * s + ox);
+  var gridH = ownerInstance.selectAllComponents('.grid-line-h');
+  for (var i = 0; i < gridH.length; i++) {
+    var ds = gridH[i].getDataset();
+    if (ds.ly === undefined) continue;
+    gridH[i].setStyle({
+      top: (parseFloat(ds.ly) * s + oy) + 'px',
+      left: mapLeft + 'px',
+      right: (state.vw - mapRight) + 'px'
+    });
+  }
+
+  // 4. 区域网格竖线
+  var mapTop = Math.max(0, oy);
+  var mapBottom = Math.min(state.vh, state.FULL_MAP_SIZE * s + oy);
+  var gridV = ownerInstance.selectAllComponents('.grid-line-v');
+  for (var i = 0; i < gridV.length; i++) {
+    var ds = gridV[i].getDataset();
+    if (ds.lx === undefined) continue;
+    gridV[i].setStyle({
+      left: (parseFloat(ds.lx) * s + ox) + 'px',
+      top: mapTop + 'px',
+      bottom: (state.vh - mapBottom) + 'px'
+    });
+  }
+
+  // 5. 区域网格标签
+  var labels = ownerInstance.selectAllComponents('.grid-label');
+  for (var i = 0; i < labels.length; i++) {
+    var ds = labels[i].getDataset();
+    if (ds.lx === undefined) continue;
+    labels[i].setStyle({
+      left: (parseFloat(ds.lx) * s + ox + state.GRID_LABEL_OFFSET) + 'px',
+      top: (parseFloat(ds.ly) * s + oy + state.GRID_LABEL_OFFSET) + 'px'
+    });
+  }
+
+  // 6. 标记 (在 map-canvas 外部)
+  var markers = ownerInstance.selectAllComponents('.map-marker');
+  for (var i = 0; i < markers.length; i++) {
+    var ds = markers[i].getDataset();
+    if (ds.px === undefined) continue;
+    markers[i].setStyle({
+      left: (parseFloat(ds.px) * s + ox) + 'px',
+      top: (parseFloat(ds.py) * s + oy) + 'px'
+    });
+  }
+}
+
+function propChange(newVal, oldVal, ownerInstance, instance) {
+  if (newVal) {
+    if (newVal.abort !== undefined && newVal.abort !== state.abort) {
+      state.abort = newVal.abort;
+      animId++; // 收到 JS 的强制打断信号，停止当前一切 WXS 动画
+    }
+    if (newVal.offsetX !== undefined) state.offsetX = newVal.offsetX;
+    if (newVal.offsetY !== undefined) state.offsetY = newVal.offsetY;
+    if (newVal.scale !== undefined) state.scale = newVal.scale;
+    if (newVal.vw !== undefined) state.vw = newVal.vw;
+    if (newVal.vh !== undefined) state.vh = newVal.vh;
+    if (newVal.minScale !== undefined) state.MIN_SCALE = newVal.minScale;
+    updateStyles(ownerInstance);
+  }
+}
+
+// ------------------- 手势状态 -------------------
+var isPinching = false;
+var isDrag = false;
+var lastX = 0;
+var lastY = 0;
+var pinchStartDist = 0;
+var pinchStartScale = 1;
+var pinchStartOffsetX = 0;
+var pinchStartOffsetY = 0;
+
+var touchStartX = 0;
+var touchStartY = 0;
+var lastTime = 0;
+var velX = 0;
+var velY = 0;
+
+var lastTapTime = 0;
+var lastTapX = 0;
+var lastTapY = 0;
+
+var animId = 0;
+
+function getTouchDist(touches) {
+  var dx = touches[0].clientX - touches[1].clientX;
+  var dy = touches[0].clientY - touches[1].clientY;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
+function clampOffset() {
+  var mapW = state.FULL_MAP_SIZE * state.scale;
+  var mapH = state.FULL_MAP_SIZE * state.scale;
+  var offsetX = state.offsetX;
+  var offsetY = state.offsetY;
+  
+  if (offsetX + mapW < state.PAN_MARGIN) offsetX = state.PAN_MARGIN - mapW;
+  if (offsetX > state.vw - state.PAN_MARGIN) offsetX = state.vw - state.PAN_MARGIN;
+  if (offsetY + mapH < state.PAN_MARGIN) offsetY = state.PAN_MARGIN - mapH;
+  if (offsetY > state.vh - state.PAN_MARGIN) offsetY = state.vh - state.PAN_MARGIN;
+  
+  state.offsetX = offsetX;
+  state.offsetY = offsetY;
+}
+
+function touchstart(e, ownerInstance) {
+  animId++; // 截断所有当前正在运行的 requestAnimationFrame
+
+  var touches = e.touches;
+  if (touches.length === 1) {
+    isPinching = false;
+    lastX = touches[0].clientX;
+    lastY = touches[0].clientY;
+    lastTime = getDate().getTime();
+    touchStartX = touches[0].clientX;
+    touchStartY = touches[0].clientY;
+    velX = 0;
+    velY = 0;
+    isDrag = false;
+  } else if (touches.length === 2) {
+    isPinching = true;
+    isDrag = false;
+    velX = 0;
+    velY = 0;
+    pinchStartDist = getTouchDist(touches);
+    pinchStartScale = state.scale;
+    pinchStartOffsetX = state.offsetX;
+    pinchStartOffsetY = state.offsetY;
+  }
+  return false;
+}
+
+function touchmove(e, ownerInstance) {
+  var touches = e.touches;
+  if (isPinching && touches.length < 2) return false;
+  
+  if (touches.length === 1 && !isPinching) {
+    var dx = touches[0].clientX - lastX;
+    var dy = touches[0].clientY - lastY;
+    var now = getDate().getTime();
+    var dt = now - lastTime;
+    
+    if (dt > 0) {
+      velX = dx / dt;
+      velY = dy / dt;
+    }
+    
+    lastX = touches[0].clientX;
+    lastY = touches[0].clientY;
+    lastTime = now;
+    isDrag = true;
+    
+    state.offsetX += dx;
+    state.offsetY += dy;
+    clampOffset();
+    updateStyles(ownerInstance);
+  } else if (touches.length === 2 && pinchStartDist) {
+    var dist = getTouchDist(touches);
+    var newScale = pinchStartScale * (dist / pinchStartDist);
+    if (newScale < state.MIN_SCALE) newScale = state.MIN_SCALE;
+    if (newScale > state.MAX_SCALE) newScale = state.MAX_SCALE;
+    
+    var cx = (touches[0].clientX + touches[1].clientX) / 2;
+    var cy = (touches[0].clientY + touches[1].clientY) / 2;
+    
+    var s0 = pinchStartScale;
+    var s1 = newScale;
+    var ox0 = pinchStartOffsetX;
+    var oy0 = pinchStartOffsetY;
+    
+    state.offsetX = cx - (cx - ox0) * s1 / s0;
+    state.offsetY = cy - (cy - oy0) * s1 / s0;
+    state.scale = newScale;
+    
+    clampOffset();
+    updateStyles(ownerInstance);
+  }
+  return false;
+}
+
+function touchend(e, ownerInstance) {
+  if (e.touches.length === 0) {
+    if (!isPinching && isDrag && (Math.abs(velX) > 0.5 || Math.abs(velY) > 0.5)) {
+      startInertia(ownerInstance);
+    } else {
+      ownerInstance.callMethod('onGestureEnd', { offsetX: state.offsetX, offsetY: state.offsetY, scale: state.scale });
+    }
+    
+    if (!isPinching) {
+      var endX = e.changedTouches[0].clientX;
+      var endY = e.changedTouches[0].clientY;
+      var dist = Math.abs(endX - touchStartX) + Math.abs(endY - touchStartY);
+      if (dist < 10) {
+        handleTap(endX, endY, ownerInstance);
+      }
+    }
+    
+    isDrag = false;
+    isPinching = false;
+  }
+  return false;
+}
+
+function startInertia(ownerInstance) {
+  animId++;
+  var currentAnimId = animId;
+  function step() {
+    if (currentAnimId !== animId) return;
+    
+    velX *= 0.95;
+    velY *= 0.95;
+    if (Math.abs(velX) < 0.5 && Math.abs(velY) < 0.5) {
+      ownerInstance.callMethod('onGestureEnd', { offsetX: state.offsetX, offsetY: state.offsetY, scale: state.scale });
+      return;
+    }
+    state.offsetX += velX * 16;
+    state.offsetY += velY * 16;
+    clampOffset();
+    updateStyles(ownerInstance);
+    ownerInstance.requestAnimationFrame(step);
+  }
+  ownerInstance.requestAnimationFrame(step);
+}
+
+function handleTap(x, y, ownerInstance) {
+  var now = getDate().getTime();
+  if (lastTapTime && (now - lastTapTime < 300) && Math.abs(x - lastTapX) < 30 && Math.abs(y - lastTapY) < 30) {
+    lastTapTime = 0;
+    var curScale = state.scale;
+    var targetScale = curScale >= 2 ? Math.max(1, state.MIN_SCALE) : Math.min(state.MAX_SCALE, curScale * 2);
+    animateZoomTo(targetScale, x, y, ownerInstance);
+  } else {
+    lastTapTime = now;
+    lastTapX = x;
+    lastTapY = y;
+  }
+}
+
+function animateZoomTo(targetScale, cx, cy, ownerInstance) {
+  animId++;
+  var currentAnimId = animId;
+  var DURATION = 200;
+  var startScale = state.scale;
+  var startOX = state.offsetX;
+  var startOY = state.offsetY;
+  var finalOX = cx - (cx - startOX) * targetScale / startScale;
+  var finalOY = cy - (cy - startOY) * targetScale / startScale;
+  var startTime = getDate().getTime();
+  
+  function step() {
+    if (currentAnimId !== animId) return;
+    
+    var elapsed = getDate().getTime() - startTime;
+    var t = Math.min(1, elapsed / DURATION);
+    var ease = 1 - Math.pow(1 - t, 3);
+    
+    state.scale = startScale + (targetScale - startScale) * ease;
+    state.offsetX = startOX + (finalOX - startOX) * ease;
+    state.offsetY = startOY + (finalOY - startOY) * ease;
+    clampOffset();
+    updateStyles(ownerInstance);
+    
+    if (t < 1) {
+      ownerInstance.requestAnimationFrame(step);
+    } else {
+      ownerInstance.callMethod('onGestureEnd', { offsetX: state.offsetX, offsetY: state.offsetY, scale: state.scale });
+    }
+  }
+  ownerInstance.requestAnimationFrame(step);
+}
+
+module.exports = {
+  propChange: propChange,
+  touchstart: touchstart,
+  touchmove: touchmove,
+  touchend: touchend
+};

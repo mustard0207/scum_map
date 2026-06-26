@@ -1,23 +1,21 @@
 <!-- 全地图底图组件 (touch 手势版) -->
+<wxs module="gestures" src="./gestures.wxs"></wxs>
 <view
   class="map-viewport"
   style="width:{{_vw}}px;height:{{_vh}}px;"
-  catchtouchstart="onTouchStart"
-  catchtouchmove="onTouchMove"
-  catchtouchend="onTouchEnd"
+  prop="{{wxsState}}"
+  change:prop="{{gestures.propChange}}"
+  catchtouchstart="{{gestures.touchstart}}"
+  catchtouchmove="{{gestures.touchmove}}"
+  catchtouchend="{{gestures.touchend}}"
 >
-  <view
-    class="map-canvas"
-    style="transform:translate({{offsetX}}px,{{offsetY}}px) scale({{scale}});transform-origin:0 0;"
-  >
+  <view class="map-canvas">
     <!-- Z2 底图（始终渲染，作为兜底背景） -->
-    <!-- 注意：不要加 lazy-load，CSS transform 下 lazy-load 判断失效 -->
     <image
       class="full-map"
       src="{{fullMapSrc}}"
       mode="scaleToFill"
       webp="{{true}}"
-      style="width:{{fullMapSize}}px;height:{{fullMapSize}}px;"
       binderror="onImageError"
       bindload="onImageLoad"
     />
@@ -27,8 +25,10 @@
       wx:key="id"
       class="map-tile"
       src="{{item.src}}"
-      style="left:{{item.left}}px;top:{{item.top}}px;width:{{item.w}}px;height:{{item.h}}px;"
       data-id="{{item.id}}"
+      data-lx="{{item.lx}}"
+      data-ly="{{item.ly}}"
+      data-lsize="{{item.lsize}}"
       bindload="onTileLoad"
       binderror="onTileError"
     />
@@ -38,8 +38,10 @@
       wx:key="id"
       class="map-tile"
       src="{{item.src}}"
-      style="left:{{item.left}}px;top:{{item.top}}px;width:{{item.w}}px;height:{{item.h}}px;"
       data-id="{{item.id}}"
+      data-lx="{{item.lx}}"
+      data-ly="{{item.ly}}"
+      data-lsize="{{item.lsize}}"
       bindload="onTileLoad"
       binderror="onTileError"
     />
@@ -49,13 +51,14 @@
   <view class="grid-overlay">
     <view wx:for="{{gridLinesH}}" wx:key="id"
       class="grid-line grid-line-h"
-      style="top:{{item.y}}px;left:{{item.left}}px;right:{{item.right}}px;" />
+      data-ly="{{item.ly}}" />
     <view wx:for="{{gridLinesV}}" wx:key="id"
       class="grid-line grid-line-v"
-      style="left:{{item.x}}px;top:{{item.top}}px;bottom:{{item.bottom}}px;" />
+      data-lx="{{item.lx}}" />
     <view wx:for="{{gridLabels}}" wx:key="id"
       class="grid-label"
-      style="left:{{item.x}}px;top:{{item.y}}px;">
+      data-lx="{{item.lx}}"
+      data-ly="{{item.ly}}">
       {{item.text}}
     </view>
   </view>
@@ -66,8 +69,9 @@
   wx:for="{{markersOnScreen}}"
   wx:key="id"
   class="map-marker"
-  style="left:{{item.screenX}}px;top:{{item.screenY}}px;"
   data-id="{{item.id}}"
+  data-px="{{item.px}}"
+  data-py="{{item.py}}"
   bindtap="onMarkerTap"
 >
   <view class="marker-circle"></view>
