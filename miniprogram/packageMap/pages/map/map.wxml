@@ -4,7 +4,7 @@
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
       <view class="nav-back" bindtap="goBack">‹</view>
-      <text class="nav-title">SCUM 地图</text>
+      <text class="nav-title">SCUM游戏地图</text>
       <view class="nav-placeholder"></view>
     </view>
   </view>
@@ -101,7 +101,7 @@
   <view class="coord-input-mask" wx:if="{{showCoordInput}}" bindtap="hideCoordInput">
     <view class="coord-input-dialog" catchtap="noop">
       <view class="coord-input-title">跳转到坐标</view>
-      <view class="coord-input-hint">游戏内地图按 Ctrl+C 复制坐标，粘贴到此处点击跳转，即可标记当前位置。</view>
+      <view class="coord-input-hint">将游戏内地图的坐标粘贴到此处，即可在离线地图上标记该位置，方便路线规划与点位记录。</view>
       <input
         class="coord-input-field"
         placeholder="粘贴游戏坐标"

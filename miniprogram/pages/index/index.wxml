@@ -11,11 +11,8 @@
   <view class="main" style="padding-top: {{statusBarHeight + 44}}px;">
     <!-- Logo 区域 -->
     <view class="logo-section">
-      <view class="logo-icon">
-        <text class="logo-glyph">▲</text>
-      </view>
+      <image class="logo-img" src="/assets/logo.png" mode="aspectFit" />
       <text class="logo-title">SCUM游戏工具箱</text>
-      <text class="logo-desc">你的 SCUM 游戏伙伴</text>
     </view>
 
     <!-- 功能入口 -->
@@ -26,28 +23,22 @@
           <text class="feature-glyph">◇</text>
         </view>
         <view class="feature-info">
-          <text class="feature-title">SCUM 地图</text>
-          <text class="feature-desc">查看地图、标记坐标、分享位置</text>
+          <text class="feature-title">SCUM游戏地图</text>
+          <text class="feature-desc">查看地图、标记坐标</text>
         </view>
         <view class="feature-arrow">›</view>
       </view>
 
-      <!-- 更多功能占位 -->
-      <view class="feature-card feature-disabled">
-        <view class="feature-icon-area">
-          <text class="feature-glyph">⚙</text>
-        </view>
-        <view class="feature-info">
-          <text class="feature-title">更多工具</text>
-          <text class="feature-desc">敬请期待更多实用功能</text>
-        </view>
-        <view class="feature-badge">即将推出</view>
-      </view>
     </view>
 
     <!-- 版本信息 -->
     <view class="version-info">
       <text class="version-text">v{{version}}</text>
+    </view>
+
+    <!-- 免责声明 -->
+    <view class="disclaimer">
+      <text class="disclaimer-text">玩家自制工具，非官方出品。数据自己整理，仅供参考。</text>
     </view>
   </view>
 </view>

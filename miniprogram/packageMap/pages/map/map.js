@@ -1168,9 +1168,8 @@ Page({
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
     if (selectedMarker) {
       const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''}`
-      const label = selectedMarker.name || (selectedMarker.src === 'poi' ? 'POI点位' : '自定义标记')
       return {
-        title: `SCUM地图位置：${label}`,
+        title: '我在SCUM地图上标记了一个位置',
         path: `/packageMap/pages/map/map?markers=${encoded}`
       }
     }

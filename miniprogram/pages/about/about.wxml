@@ -18,7 +18,7 @@
     <view class="feature-list">
       <view class="feature-item">
         <text class="feature-status done">◆</text>
-        <text class="feature-text">SCUM 地图查看</text>
+        <text class="feature-text">SCUM游戏地图查看</text>
       </view>
       <view class="feature-item">
         <text class="feature-status done">◆</text>

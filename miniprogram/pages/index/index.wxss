@@ -37,20 +37,10 @@
   padding: 60rpx 0 80rpx;
 }
 
-.logo-icon {
-  width: 120rpx;
-  height: 120rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2rpx solid #FFB000;
-  border-radius: 50%;
+.logo-img {
+  width: 200rpx;
+  height: 109rpx;
   margin-bottom: 24rpx;
-}
-
-.logo-glyph {
-  font-size: 56rpx;
-  color: #FFB000;
 }
 
 .logo-title {
@@ -140,6 +130,18 @@
   padding: 6rpx 16rpx;
   border-radius: 20rpx;
   flex-shrink: 0;
+}
+
+/* 免责声明 */
+.disclaimer {
+  padding: 0 60rpx;
+  text-align: center;
+}
+
+.disclaimer-text {
+  font-size: 22rpx;
+  color: #4A4230;
+  line-height: 1.6;
 }
 
 /* 版本信息 */
