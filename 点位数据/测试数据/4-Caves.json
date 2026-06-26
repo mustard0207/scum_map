@@ -1,0 +1,801 @@
+[
+  {
+    "id": 299334,
+    "urlId": "1C1zRjM6BryYdbH7bhPMPK",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 77.76034,
+    "latitude": 9.80322,
+    "ingameLongitude": 248198.266,
+    "ingameLatitude": 570868.625,
+    "ingameHeight": 22356.135,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299335,
+    "urlId": "1C1zRjM6WKCUjaC4YAP46x",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 166.84488,
+    "latitude": 14.9102,
+    "ingameLongitude": -175342.92,
+    "ingameLatitude": 546576.05,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299336,
+    "urlId": "1C1zRjM6WKCUjaC4YAP46y",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 147.44213,
+    "latitude": 39.0847,
+    "ingameLongitude": -83095.007,
+    "ingameLatitude": 431584.29,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299337,
+    "urlId": "1C1zRjM6WKCUjaC4YAP46z",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 215.21115,
+    "latitude": 47.60036,
+    "ingameLongitude": -405294.238,
+    "ingameLatitude": 391077.515,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299338,
+    "urlId": "1C1zRjM6WKCUjaC4YAP471",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 242.45623,
+    "latitude": 90.61537,
+    "ingameLongitude": -534827.539,
+    "ingameLatitude": 186466.37,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299339,
+    "urlId": "1C1zRjM6WKCUjaC4YAP472",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 204.9459,
+    "latitude": 94.70979,
+    "ingameLongitude": -356489.406,
+    "ingameLatitude": 166990.266,
+    "ingameHeight": 59633.57,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299340,
+    "urlId": "1C1zRjM6WKCUjaC4YAP473",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 204.46309,
+    "latitude": 139.71298,
+    "ingameLongitude": -354193.945,
+    "ingameLatitude": -47078.186,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299341,
+    "urlId": "1C1zRjM6WKCUjaC4YAP474",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 250.51727,
+    "latitude": 146.79377,
+    "ingameLongitude": -573152.759,
+    "ingameLatitude": -80759.644,
+    "ingameHeight": 0,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299342,
+    "urlId": "1C1zRjM6WKCUjaC4YAP475",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 240.43597,
+    "latitude": 160.90622,
+    "ingameLongitude": -525222.5,
+    "ingameLatitude": -147888.859,
+    "ingameHeight": 25564.885,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299343,
+    "urlId": "1C1zRjM6WKCUjaC4YAP476",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 246.06075,
+    "latitude": 210.4134,
+    "ingameLongitude": -551964.813,
+    "ingameLatitude": -383381.594,
+    "ingameHeight": 17013.385,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299344,
+    "urlId": "1C1zRjM6WKCUjaC4YAP477",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 146.74447,
+    "latitude": 209.75491,
+    "ingameLongitude": -79778.047,
+    "ingameLatitude": -380249.313,
+    "ingameHeight": 7516.253,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299345,
+    "urlId": "1C1zRjM6WKCUjaC4YAP478",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 182.50731,
+    "latitude": 162.35756,
+    "ingameLongitude": -249808,
+    "ingameLatitude": -154792.5,
+    "ingameHeight": 35031.293,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299346,
+    "urlId": "1C1zRjM6WKCUjaC4YAP479",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 143.13688,
+    "latitude": 128.33365,
+    "ingameLongitude": -62626.219,
+    "ingameLatitude": 7050.328,
+    "ingameHeight": 53836.19,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299347,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47A",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 184.83877,
+    "latitude": 119.93713,
+    "ingameLongitude": -260892.625,
+    "ingameLatitude": 46990.414,
+    "ingameHeight": 44740.016,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299348,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47B",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 155.3108,
+    "latitude": 112.13435,
+    "ingameLongitude": -120505.617,
+    "ingameLatitude": 84106.18,
+    "ingameHeight": 91140.156,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299349,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47C",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 129.53443,
+    "latitude": 92.60757,
+    "ingameLongitude": 2044.89,
+    "ingameLatitude": 176989.969,
+    "ingameHeight": 66176.164,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299350,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47D",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 105.31937,
+    "latitude": 96.23318,
+    "ingameLongitude": 117172.336,
+    "ingameLatitude": 159743.891,
+    "ingameHeight": 40312.852,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299351,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47E",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 87.90615,
+    "latitude": 113.99504,
+    "ingameLongitude": 199961.297,
+    "ingameLatitude": 75255.352,
+    "ingameHeight": 29237.773,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299352,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47F",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 78.62149,
+    "latitude": 154.49799,
+    "ingameLongitude": 244104.063,
+    "ingameLatitude": -117406.586,
+    "ingameHeight": 28323.393,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299353,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47G",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 119.98412,
+    "latitude": 140.49147,
+    "ingameLongitude": 47450.652,
+    "ingameLatitude": -50781.227,
+    "ingameHeight": 38257.531,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299354,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47H",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 96.76571,
+    "latitude": 180.01959,
+    "ingameLongitude": 157839.625,
+    "ingameLatitude": -238806.203,
+    "ingameHeight": 25525.084,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299355,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47J",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 67.44187,
+    "latitude": 199.57717,
+    "ingameLongitude": 297256.156,
+    "ingameLatitude": -331836.469,
+    "ingameHeight": 20551.992,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299356,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47K",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 39.47595,
+    "latitude": 154.42012,
+    "ingameLongitude": 430216.563,
+    "ingameLatitude": -117036.195,
+    "ingameHeight": 3958.282,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299357,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47L",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 22.40316,
+    "latitude": 141.90689,
+    "ingameLongitude": 511387,
+    "ingameLatitude": -57513.996,
+    "ingameHeight": 73.037,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299358,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47M",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 8.36482,
+    "latitude": 77.60716,
+    "ingameLongitude": 578130.5,
+    "ingameLatitude": 248343,
+    "ingameHeight": 438.959,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299359,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47N",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 57.73256,
+    "latitude": 66.95912,
+    "ingameLongitude": 343417.813,
+    "ingameLatitude": 298992.969,
+    "ingameHeight": 22266.646,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299360,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47P",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 26.99491,
+    "latitude": 31.95469,
+    "ingameLongitude": 489556.094,
+    "ingameLatitude": 465499.906,
+    "ingameHeight": 13891.383,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299361,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47Q",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 9.43442,
+    "latitude": 295.69707,
+    "ingameLongitude": 573045.25,
+    "ingameLatitude": -789053.75,
+    "ingameHeight": 1488.832,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299362,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47R",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 24.17184,
+    "latitude": 277.42198,
+    "ingameLongitude": 502978.031,
+    "ingameLatitude": -702123.938,
+    "ingameHeight": 4351.824,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299363,
+    "urlId": "1C1zRjM6WKCUjaC4YAP47S",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 229.98985,
+    "latitude": 311.63589,
+    "ingameLongitude": -475557.719,
+    "ingameLatitude": -864870.563,
+    "ingameHeight": 8427.318,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299364,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfo",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 254.7281,
+    "latitude": 299.99311,
+    "ingameLongitude": -593172.625,
+    "ingameLatitude": -809488.875,
+    "ingameHeight": 13276.678,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299365,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfp",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 194.65619,
+    "latitude": 301.37523,
+    "ingameLongitude": -307568.313,
+    "ingameLatitude": -816063.25,
+    "ingameHeight": 17937.953,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299366,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfq",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 313.36632,
+    "latitude": 281.80015,
+    "ingameLongitude": -871960.625,
+    "ingameLatitude": -722949.75,
+    "ingameHeight": 983.148,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299367,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfr",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 294.67939,
+    "latitude": 234.45012,
+    "ingameLongitude": -783116,
+    "ingameLatitude": -497718,
+    "ingameHeight": 554.164,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299368,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfs",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 302.4317,
+    "latitude": 210.91759,
+    "ingameLongitude": -819973.375,
+    "ingameLatitude": -385779.875,
+    "ingameHeight": 6921.342,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299369,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGft",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 315.8454,
+    "latitude": 161.2467,
+    "ingameLongitude": -883747.125,
+    "ingameLatitude": -149508.453,
+    "ingameHeight": 26478.254,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299370,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfu",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 257.57166,
+    "latitude": 191.18241,
+    "ingameLongitude": -606691.938,
+    "ingameLatitude": -291904.781,
+    "ingameHeight": 16139.829,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299371,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfv",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 284.75171,
+    "latitude": 163.17399,
+    "ingameLongitude": -735916.063,
+    "ingameLatitude": -158676.047,
+    "ingameHeight": 26028.555,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299372,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfw",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 259.71631,
+    "latitude": 116.5628,
+    "ingameLongitude": -616888.438,
+    "ingameLatitude": 63041.191,
+    "ingameHeight": 34745.934,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299373,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfx",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 187.41744,
+    "latitude": 265.59072,
+    "ingameLongitude": -273152.594,
+    "ingameLatitude": -645845.688,
+    "ingameHeight": 6365.15,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299374,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfy",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 69.38731,
+    "latitude": 296.48359,
+    "ingameLongitude": 288006.813,
+    "ingameLatitude": -792795,
+    "ingameHeight": 3766.612,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299375,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGfz",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 249.37545,
+    "latitude": 226.25559,
+    "ingameLongitude": -567724.125,
+    "ingameLatitude": -458738.75,
+    "ingameHeight": 9700.619,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299376,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGg1",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 97.59282,
+    "latitude": 213.20495,
+    "ingameLongitude": 153907.25,
+    "ingameLatitude": -396660.25,
+    "ingameHeight": 18303.813,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299377,
+    "urlId": "1C1zRjM6ZUgwXyN4ewsGg2",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 121.3329,
+    "latitude": 205.99565,
+    "ingameLongitude": 41038.016,
+    "ingameLatitude": -362367.531,
+    "ingameHeight": 13258.158,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299378,
+    "urlId": "1C1zRjN3EY3dMVUTp7JfF6",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 51.90451,
+    "latitude": 129.0353,
+    "ingameLongitude": 371126.562,
+    "ingameLatitude": 3712.785,
+    "ingameHeight": 20439.742,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299379,
+    "urlId": "1C1zRjNjJ8dkAzAJ9qgsLH",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 39.47513,
+    "latitude": 154.39688,
+    "ingameLongitude": 430220.469,
+    "ingameLatitude": -116925.664,
+    "ingameHeight": 4054.334,
+    "category": {
+      "id": 4
+    }
+  },
+  {
+    "id": 299380,
+    "urlId": "1C1zRjPSncbw5bMiYWq5Cu",
+    "title": "Caves",
+    "icon": "faMountain",
+    "number": null,
+    "colorBackground": "#387861",
+    "colorIcon": "#ffffff",
+    "longitude": 6.69652,
+    "latitude": 156.685,
+    "ingameLongitude": 586062.25,
+    "ingameLatitude": -127809.633,
+    "ingameHeight": 1416.31,
+    "category": {
+      "id": 4
+    }
+  }
+]

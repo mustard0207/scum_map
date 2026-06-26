@@ -1,0 +1,70 @@
+[
+  {
+    "id": 436656,
+    "urlId": "1CQE2beMZ1aCRrjWnJSqeF",
+    "title": "D1 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#351e56",
+    "colorIcon": "#ffffff",
+    "longitude": 242.98118,
+    "latitude": 16.61813,
+    "ingameLongitude": -537997.875,
+    "ingameLatitude": 540056.062,
+    "ingameHeight": 80959.688,
+    "category": {
+      "id": 456
+    }
+  },
+  {
+    "id": 436657,
+    "urlId": "1CQE2beTjcGWNoEKLYobM6",
+    "title": "C4 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#351e56",
+    "colorIcon": "#ffffff",
+    "longitude": 36.33984,
+    "latitude": 74.73681,
+    "ingameLongitude": 446131.531,
+    "ingameLatitude": 263265.812,
+    "ingameHeight": 18232.553,
+    "category": {
+      "id": 456
+    }
+  },
+  {
+    "id": 436658,
+    "urlId": "1CQE2beUNZ6FzcrBbL2bER",
+    "title": "A1 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#351e56",
+    "colorIcon": "#ffffff",
+    "longitude": 203.1585,
+    "latitude": 228.52887,
+    "ingameLongitude": -348342.344,
+    "ingameLatitude": -469169.062,
+    "ingameHeight": 3927.684,
+    "category": {
+      "id": 456
+    }
+  },
+  {
+    "id": 436659,
+    "urlId": "1CQE2beUrVpGM18wCgvaBs",
+    "title": "A3 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#351e56",
+    "colorIcon": "#ffffff",
+    "longitude": 81.69381,
+    "latitude": 223.88967,
+    "ingameLongitude": 230133.25,
+    "ingameLatitude": -447074.875,
+    "ingameHeight": 9235.462,
+    "category": {
+      "id": 456
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": 237239,
+    "urlId": "1BtrLd39La7jEJF3Yia9oF",
+    "title": "Hunting Camps",
+    "icon": "faCompass",
+    "number": null,
+    "colorBackground": "#275819",
+    "colorIcon": "#ffffff",
+    "longitude": 175.31715,
+    "latitude": 153.6871,
+    "ingameLongitude": -215623.266,
+    "ingameLatitude": -113549.398,
+    "ingameHeight": 37322.766,
+    "category": {
+      "id": 17
+    }
+  },
+  {
+    "id": 237240,
+    "urlId": "1BtrLd39LjvBc1CVZMrujf",
+    "title": "Hunting Camps",
+    "icon": "faCompass",
+    "number": null,
+    "colorBackground": "#275819",
+    "colorIcon": "#ffffff",
+    "longitude": 170.73136,
+    "latitude": 168.18213,
+    "ingameLongitude": -193820.719,
+    "ingameLatitude": -182498.484,
+    "ingameHeight": 35470.66,
+    "category": {
+      "id": 17
+    }
+  },
+  {
+    "id": 237241,
+    "urlId": "1BtrLd39LUDBY4fHpB39Np",
+    "title": "Hunting Camps",
+    "icon": "faCompass",
+    "number": null,
+    "colorBackground": "#275819",
+    "colorIcon": "#ffffff",
+    "longitude": 84.1606,
+    "latitude": 120.35021,
+    "ingameLongitude": 217769.031,
+    "ingameLatitude": 45025.469,
+    "ingameHeight": 27740.607,
+    "category": {
+      "id": 17
+    }
+  },
+  {
+    "id": 237242,
+    "urlId": "1BtrLd39LjpH3xYFPPAvQ2",
+    "title": "Hunting Camps",
+    "icon": "faCompass",
+    "number": null,
+    "colorBackground": "#275819",
+    "colorIcon": "#ffffff",
+    "longitude": 34.38576,
+    "latitude": 168.67164,
+    "ingameLongitude": 454417.25,
+    "ingameLatitude": -184826.953,
+    "ingameHeight": 2094.665,
+    "category": {
+      "id": 17
+    }
+  }
+]

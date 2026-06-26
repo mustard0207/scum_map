@@ -1,0 +1,410 @@
+[
+  {
+    "id": 365362,
+    "urlId": "1CBbRTBCaCFt14HTfUb7Hz",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 12.22719,
+    "latitude": 17.64342,
+    "ingameLongitude": 559767.375,
+    "ingameLatitude": 533574.875,
+    "ingameHeight": 17983.957,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365363,
+    "urlId": "1CBbRTC9Jsmcph2jRCurmE",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 26.88988,
+    "latitude": 103.4747,
+    "ingameLongitude": 490055.438,
+    "ingameLatitude": 125297.852,
+    "ingameHeight": 10482.445,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365364,
+    "urlId": "1CBbRTD4LeAtf4DrEhUu7i",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 15.30771,
+    "latitude": 110.89187,
+    "ingameLongitude": 545121.438,
+    "ingameLatitude": 90016.336,
+    "ingameHeight": 611.667,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365365,
+    "urlId": "1CBbRTDx8coh67dA5RjyKH",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 25.50827,
+    "latitude": 169.64364,
+    "ingameLongitude": 496624.156,
+    "ingameLatitude": -189450.5,
+    "ingameHeight": 583.098,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365366,
+    "urlId": "1CBbRTEpiZ5qVzJUTFsjJz",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 62.67301,
+    "latitude": 232.86698,
+    "ingameLongitude": 319929.063,
+    "ingameLatitude": -490187.406,
+    "ingameHeight": 10724.774,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365367,
+    "urlId": "1CBbRTFhTZQ1HipbGUTcCm",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 58.12687,
+    "latitude": 209.30358,
+    "ingameLongitude": 341543.125,
+    "ingameLatitude": -378102.469,
+    "ingameHeight": 12603.203,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365368,
+    "urlId": "1CBbRTGbR9VQAG9X5BnNvm",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 89.4321,
+    "latitude": 234.0166,
+    "ingameLongitude": 192706.375,
+    "ingameLatitude": -495655.875,
+    "ingameHeight": 1875.691,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365369,
+    "urlId": "1CBbRTHVxkoj8hkgaDMzDH",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 73.46804,
+    "latitude": 168.18309,
+    "ingameLongitude": 268605.469,
+    "ingameLatitude": -182503.047,
+    "ingameHeight": 17589.375,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365370,
+    "urlId": "1CBbRTJVFmXNB5SYB4JeKH",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 97.68073,
+    "latitude": 118.7597,
+    "ingameLongitude": 153489.297,
+    "ingameLatitude": 52591.141,
+    "ingameHeight": 30323.867,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365371,
+    "urlId": "1CBbRTKQx9vnvozF4o8izn",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 115.64437,
+    "latitude": 97.40276,
+    "ingameLongitude": 68083.422,
+    "ingameLatitude": 154180.5,
+    "ingameHeight": 52764.098,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365372,
+    "urlId": "1CBbRTLHZJWRJXzWpf8hGP",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 74.91562,
+    "latitude": 27.96663,
+    "ingameLongitude": 261723.156,
+    "ingameLatitude": 484470.063,
+    "ingameHeight": 24361.539,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365373,
+    "urlId": "1CBbRTMHVxoM7UYPD8xeS6",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 139.23759,
+    "latitude": 225.90121,
+    "ingameLongitude": -44087.555,
+    "ingameLatitude": -457053.063,
+    "ingameHeight": 682.429,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365374,
+    "urlId": "1CBbRTNCxbLNs6biUdbm13",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 137.56526,
+    "latitude": 232.92275,
+    "ingameLongitude": -36136.68,
+    "ingameLatitude": -490452.688,
+    "ingameHeight": 564.039,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365375,
+    "urlId": "1CBbRTPDHub7j19DyNvKZX",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 229.39465,
+    "latitude": 150.65368,
+    "ingameLongitude": -472727.906,
+    "ingameLatitude": -99120.219,
+    "ingameHeight": 31026.619,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365376,
+    "urlId": "1CBbRTQCnxgXiSGAJU7gDE",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 243.64997,
+    "latitude": 27.84381,
+    "ingameLongitude": -540503.063,
+    "ingameLatitude": 485054.281,
+    "ingameHeight": 80427.93,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365377,
+    "urlId": "1CBbRTR6AHJMZW6ik3LZRm",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 231.22208,
+    "latitude": 87.45898,
+    "ingameLongitude": -481416.188,
+    "ingameLatitude": 201480.469,
+    "ingameHeight": 38798.039,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365378,
+    "urlId": "1CBbRTS5dmXzFDCPx1Uz4m",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 229.61504,
+    "latitude": 216.91682,
+    "ingameLongitude": -473775.719,
+    "ingameLatitude": -414316.688,
+    "ingameHeight": 4331.844,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365379,
+    "urlId": "1CBbRTUD9XzbxRbEpkEUAP",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 7.24249,
+    "latitude": 59.71866,
+    "ingameLongitude": 583466.5,
+    "ingameLatitude": 333433.906,
+    "ingameHeight": 554.738,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365380,
+    "urlId": "1CBbRTV74bzWBQfH8RDcH9",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 55.46987,
+    "latitude": 55.09579,
+    "ingameLongitude": 354175.5,
+    "ingameLatitude": 355423.719,
+    "ingameHeight": 21689.846,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365381,
+    "urlId": "1CBbRTWA7ohFMjRT1sQ8Vc",
+    "title": "Church in Novigrad",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 165.4747,
+    "latitude": 271.50782,
+    "ingameLongitude": -168828.594,
+    "ingameLatitude": -673991.813,
+    "ingameHeight": 1476.425,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365382,
+    "urlId": "1CBbRTX4cfqoTwfrsv7xUU",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 40.43717,
+    "latitude": 306.90464,
+    "ingameLongitude": 425646.594,
+    "ingameLatitude": -842365.25,
+    "ingameHeight": 3491.654,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365383,
+    "urlId": "1CBbRTX4cfqoTwfrsv7xUV",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 88.07476,
+    "latitude": 272.14366,
+    "ingameLongitude": 199159.656,
+    "ingameLatitude": -677016.313,
+    "ingameHeight": 2970.573,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365384,
+    "urlId": "1CBbRTX4cfqoTwfrsv7xUW",
+    "title": "Churches",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 267.92517,
+    "latitude": 154.91828,
+    "ingameLongitude": -655916.438,
+    "ingameLatitude": -119405.797,
+    "ingameHeight": 27638.314,
+    "category": {
+      "id": 5
+    }
+  },
+  {
+    "id": 365385,
+    "urlId": "1CBbRTXoaCVS6YTv2MYLW5",
+    "title": "Small Church in Novigrad",
+    "icon": "faCross",
+    "number": null,
+    "colorBackground": "#3a2073",
+    "colorIcon": "#ffffff",
+    "longitude": 165.51668,
+    "latitude": 275.98446,
+    "ingameLongitude": -169028.156,
+    "ingameLatitude": -695286,
+    "ingameHeight": 956.23,
+    "category": {
+      "id": 5
+    }
+  }
+]

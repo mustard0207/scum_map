@@ -1,0 +1,512 @@
+[
+  {
+    "id": 283547,
+    "urlId": "1BygGqzW7P9FwknBRyTTeS",
+    "title": "School Gym",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 296.9286,
+    "latitude": 105.94101,
+    "ingameLongitude": -793809.562,
+    "ingameLatitude": 113566.258,
+    "ingameHeight": 42833.059,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283548,
+    "urlId": "1BygGqzW7P9FwknBRyTTeT",
+    "title": "Running Track",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 295.69483,
+    "latitude": 104.28943,
+    "ingameLongitude": -787943.75,
+    "ingameLatitude": 121422.398,
+    "ingameHeight": 42844.836,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283549,
+    "urlId": "1BygGqzW7P9FwknBRyTTeU",
+    "title": "1991 Gimnazija",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 297.74523,
+    "latitude": 102.29767,
+    "ingameLongitude": -797692.125,
+    "ingameLatitude": 130896.719,
+    "ingameHeight": 43454.914,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283550,
+    "urlId": "1BygGqzW7P9FwknBRyTTeV",
+    "title": "Fire Station",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 301.84573,
+    "latitude": 102.0099,
+    "ingameLongitude": -817187.438,
+    "ingameLatitude": 132265.547,
+    "ingameHeight": 43144.258,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283551,
+    "urlId": "1BygGqzW7P9FwknBRyTTeW",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 299.85423,
+    "latitude": 102.76799,
+    "ingameLongitude": -807719.125,
+    "ingameLatitude": 128659.531,
+    "ingameHeight": 43195.363,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283552,
+    "urlId": "1BygGqzW7P9FwknBRyTTeX",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 300.77925,
+    "latitude": 101.66777,
+    "ingameLongitude": -812117,
+    "ingameLatitude": 133892.953,
+    "ingameHeight": 43184.852,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283553,
+    "urlId": "1BygGqzW7P9FwknBRyTTeY",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 316.7982,
+    "latitude": 101.93058,
+    "ingameLongitude": -888277.062,
+    "ingameLatitude": 132642.859,
+    "ingameHeight": 41987.871,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283554,
+    "urlId": "1BygGqzW7P9FwknBRyTTeZ",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.71889,
+    "latitude": 100.81451,
+    "ingameLongitude": -892654.375,
+    "ingameLatitude": 137951.719,
+    "ingameHeight": 41995.668,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283555,
+    "urlId": "1BygGqzW7P9FwknBRyTTea",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.2512,
+    "latitude": 111.07799,
+    "ingameLongitude": -890430.812,
+    "ingameLatitude": 89131.031,
+    "ingameHeight": 41402.309,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283556,
+    "urlId": "1BygGqzW7P9FwknBRyTTeb",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.58429,
+    "latitude": 101.97597,
+    "ingameLongitude": -892014.438,
+    "ingameLatitude": 132426.938,
+    "ingameHeight": 42046.773,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283557,
+    "urlId": "1BygGqzW7P9FwknBRyTTec",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 300.03354,
+    "latitude": 102.54802,
+    "ingameLongitude": -808571.625,
+    "ingameLatitude": 129705.828,
+    "ingameHeight": 43254.867,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283558,
+    "urlId": "1BygGqzWFf6FWusVpe6r5t",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.53414,
+    "latitude": 101.04769,
+    "ingameLongitude": -891776,
+    "ingameLatitude": 136842.516,
+    "ingameHeight": 41996.617,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283559,
+    "urlId": "1BygGqzWFf6FWusVpe6r5u",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 318.14174,
+    "latitude": 100.84619,
+    "ingameLongitude": -894664.75,
+    "ingameLatitude": 137801,
+    "ingameHeight": 42031.172,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283560,
+    "urlId": "1BygGqzWFf6FWusVpe6r5v",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 299.97604,
+    "latitude": 101.61598,
+    "ingameLongitude": -808298.25,
+    "ingameLatitude": 134139.328,
+    "ingameHeight": 43184.992,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283561,
+    "urlId": "1BygGqzWFf6FWusVpe6r5w",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 299.42725,
+    "latitude": 102.75134,
+    "ingameLongitude": -805689.062,
+    "ingameLatitude": 128738.719,
+    "ingameHeight": 43157.68,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283562,
+    "urlId": "1BygGqzWFf6FWusVpe6r5x",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.0354,
+    "latitude": 110.90682,
+    "ingameLongitude": -889404.812,
+    "ingameLatitude": 89945.242,
+    "ingameHeight": 41376.754,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283563,
+    "urlId": "1BygGqzWFf6FWusVpe6r5y",
+    "title": "Gun Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.24811,
+    "latitude": 111.44983,
+    "ingameLongitude": -890416.125,
+    "ingameLatitude": 87362.25,
+    "ingameHeight": 41434.281,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283564,
+    "urlId": "1BygGqzWFf6FWusVpe6r5z",
+    "title": "Hotel",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 306.12087,
+    "latitude": 100.89182,
+    "ingameLongitude": -837513.062,
+    "ingameLatitude": 137583.953,
+    "ingameHeight": 42862.703,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283565,
+    "urlId": "1BygGqzWFf6FWusVpe6r61",
+    "title": "Outdoor restaurant",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 307.08512,
+    "latitude": 101.48533,
+    "ingameLongitude": -842097.438,
+    "ingameLatitude": 134760.797,
+    "ingameHeight": 42835.047,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283566,
+    "urlId": "1BygGqzWFf6FWusVpe6r62",
+    "title": "Hospital",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 311.24373,
+    "latitude": 104.38429,
+    "ingameLongitude": -861869.062,
+    "ingameLatitude": 120971.172,
+    "ingameHeight": 41939.711,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283567,
+    "urlId": "1BygGqzWFf6FWusVpe6r63",
+    "title": "Supermarket",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 311.39929,
+    "latitude": 115.20683,
+    "ingameLongitude": -862608.625,
+    "ingameLatitude": 69491.18,
+    "ingameHeight": 40869.84,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283568,
+    "urlId": "1BygGqzWFf6FWusVpe6r64",
+    "title": "Liquor Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 316.30049,
+    "latitude": 111.03834,
+    "ingameLongitude": -885910.75,
+    "ingameLatitude": 89319.617,
+    "ingameHeight": 41378.492,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283569,
+    "urlId": "1BygGqzWFf6FWusVpe6r65",
+    "title": "Liquor Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.7232,
+    "latitude": 101.77448,
+    "ingameLongitude": -892674.875,
+    "ingameLatitude": 133385.359,
+    "ingameHeight": 42027.547,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283570,
+    "urlId": "1BygGqzWFf6FWusVpe6r66",
+    "title": "Clinic",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 315.98282,
+    "latitude": 109.75306,
+    "ingameLongitude": -884400.438,
+    "ingameLatitude": 95433.336,
+    "ingameHeight": 41524.27,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283571,
+    "urlId": "1BygGqzWFf6FWusVpe6r67",
+    "title": "Stadium",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 310.0262,
+    "latitude": 111.51834,
+    "ingameLongitude": -856080.438,
+    "ingameLatitude": 87036.375,
+    "ingameHeight": 41393.891,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283572,
+    "urlId": "1BygGqzWFf6FWusVpe6r68",
+    "title": "Shoe Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 317.13382,
+    "latitude": 101.56215,
+    "ingameLongitude": -889872.75,
+    "ingameLatitude": 134395.375,
+    "ingameHeight": 42051.273,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283573,
+    "urlId": "1BygGqzWFf6FWusVpe6r69",
+    "title": "Market",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 309.62344,
+    "latitude": 98.40808,
+    "ingameLongitude": -854165.562,
+    "ingameLatitude": 149398.438,
+    "ingameHeight": 42800.289,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283574,
+    "urlId": "1BygGqzWFf6FWusVpe6r6A",
+    "title": "Market",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 308.64397,
+    "latitude": 97.98983,
+    "ingameLongitude": -849508.812,
+    "ingameLatitude": 151387.984,
+    "ingameHeight": 42935.469,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283575,
+    "urlId": "1BygGqzWFf6FWusVpe6r6B",
+    "title": "Military Compound",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 304.66094,
+    "latitude": 102.77235,
+    "ingameLongitude": -830572,
+    "ingameLatitude": 128638.766,
+    "ingameHeight": 42620.633,
+    "category": {
+      "id": 420
+    }
+  },
+  {
+    "id": 283576,
+    "urlId": "1BygGqzWFf6FWusVpe6r6C",
+    "title": "Park Pond",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 304.68611,
+    "latitude": 107.26376,
+    "ingameLongitude": -830691.688,
+    "ingameLatitude": 107274.289,
+    "ingameHeight": 42500.422,
+    "category": {
+      "id": 420
+    }
+  }
+]

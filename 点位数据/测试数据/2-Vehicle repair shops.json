@@ -1,0 +1,342 @@
+[
+  {
+    "id": 255696,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2H",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": 2,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 98.61743,
+    "latitude": 192.32761,
+    "ingameLongitude": 149035.859,
+    "ingameLatitude": -297352.219,
+    "ingameHeight": 19818.393,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255697,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2J",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 75.24697,
+    "latitude": 136.73213,
+    "ingameLongitude": 260147.781,
+    "ingameLatitude": -32899.043,
+    "ingameHeight": 23682.408,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255698,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2K",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 148.97193,
+    "latitude": 27.533,
+    "ingameLongitude": -90368.25,
+    "ingameLatitude": 486532.719,
+    "ingameHeight": 45100.039,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255699,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2L",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 214.61328,
+    "latitude": 131.86395,
+    "ingameLongitude": -402451.781,
+    "ingameLatitude": -9742.381,
+    "ingameHeight": 35044.496,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255700,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2M",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 202.93726,
+    "latitude": 36.99075,
+    "ingameLongitude": -346939.594,
+    "ingameLatitude": 441544.656,
+    "ingameHeight": 90684.313,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255701,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2N",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 60.85617,
+    "latitude": 49.00071,
+    "ingameLongitude": 328567.031,
+    "ingameLatitude": 384416.406,
+    "ingameHeight": 21147.123,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255702,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2P",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 53.68832,
+    "latitude": 57.19166,
+    "ingameLongitude": 362645.656,
+    "ingameLatitude": 345454.188,
+    "ingameHeight": 21615.668,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255703,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2Q",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": 2,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 180.22394,
+    "latitude": 137.2776,
+    "ingameLongitude": -238951.969,
+    "ingameLatitude": -35493.672,
+    "ingameHeight": 35787.609,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255704,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2R",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 188.45933,
+    "latitude": 271.57666,
+    "ingameLongitude": -278106.094,
+    "ingameLatitude": -674319.25,
+    "ingameHeight": 7799.679,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255705,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2S",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 110.65349,
+    "latitude": 163.34168,
+    "ingameLongitude": 91811.945,
+    "ingameLatitude": -159473.703,
+    "ingameHeight": 31283.441,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255706,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2T",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 142.9198,
+    "latitude": 98.04717,
+    "ingameLongitude": -61594.152,
+    "ingameLatitude": 151115.234,
+    "ingameHeight": 72608.289,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255707,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2U",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 72.42384,
+    "latitude": 289.35163,
+    "ingameLongitude": 273569.969,
+    "ingameLatitude": -758870.125,
+    "ingameHeight": 11596.293,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255708,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2V",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 71.74256,
+    "latitude": 289.10982,
+    "ingameLongitude": 276809.063,
+    "ingameLatitude": -757719.938,
+    "ingameHeight": 11602.804,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255709,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2W",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 71.39356,
+    "latitude": 289.014,
+    "ingameLongitude": 278468.313,
+    "ingameLatitude": -757264.125,
+    "ingameHeight": 11596.465,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255710,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2X",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 70.94379,
+    "latitude": 288.72625,
+    "ingameLongitude": 280606.719,
+    "ingameLatitude": -755895.375,
+    "ingameHeight": 11554.523,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255711,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2Y",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 196.92792,
+    "latitude": 289.90793,
+    "ingameLongitude": -318368.969,
+    "ingameLatitude": -761516.313,
+    "ingameHeight": 7940.154,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255712,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2Z",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 201.34761,
+    "latitude": 289.31239,
+    "ingameLongitude": -339381.813,
+    "ingameLatitude": -758683.5,
+    "ingameHeight": 8361.576,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255713,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2a",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 200.20191,
+    "latitude": 288.88178,
+    "ingameLongitude": -333934.719,
+    "ingameLatitude": -756635.188,
+    "ingameHeight": 8361.518,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255714,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2b",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 198.39909,
+    "latitude": 288.89631,
+    "ingameLongitude": -325363.438,
+    "ingameLatitude": -756704.313,
+    "ingameHeight": 8331.518,
+    "category": {
+      "id": 2
+    }
+  },
+  {
+    "id": 255715,
+    "urlId": "1Bubu8cKcySE3ZqH9VkR2c",
+    "title": "Vehicle repair shops",
+    "icon": "faCarCrash",
+    "number": null,
+    "colorBackground": "#1cdfdf",
+    "colorIcon": "#000000",
+    "longitude": 85.26599,
+    "latitude": 270.12457,
+    "ingameLongitude": 212513.609,
+    "ingameLatitude": -667412.063,
+    "ingameHeight": 3509.79,
+    "category": {
+      "id": 2
+    }
+  }
+]

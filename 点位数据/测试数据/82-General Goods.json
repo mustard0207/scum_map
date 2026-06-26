@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238381,
+    "urlId": "1BtrLd39HmAbxipC47wdnq",
+    "title": "General Goods",
+    "icon": "faBox",
+    "number": null,
+    "colorBackground": "#686545",
+    "colorIcon": "#6be485",
+    "longitude": 124.47736,
+    "latitude": 271.53722,
+    "ingameLongitude": 26088.094,
+    "ingameLatitude": -674131.625,
+    "ingameHeight": 422.883,
+    "category": {
+      "id": 82
+    }
+  },
+  {
+    "id": 238382,
+    "urlId": "1BtrLd39Hmn36BnjAqrjn1",
+    "title": "General Goods",
+    "icon": "faBox",
+    "number": null,
+    "colorBackground": "#686545",
+    "colorIcon": "#6be485",
+    "longitude": 259.75876,
+    "latitude": 247.0732,
+    "ingameLongitude": -617090.25,
+    "ingameLatitude": -557762.688,
+    "ingameHeight": 2525.763,
+    "category": {
+      "id": 82
+    }
+  },
+  {
+    "id": 238383,
+    "urlId": "1BtrLd39J7KtYTaPZfTv2N",
+    "title": "General Goods",
+    "icon": "faBox",
+    "number": null,
+    "colorBackground": "#686545",
+    "colorIcon": "#6be485",
+    "longitude": 10.82607,
+    "latitude": 177.00422,
+    "ingameLongitude": 566428.813,
+    "ingameLatitude": -224462.859,
+    "ingameHeight": 418.772,
+    "category": {
+      "id": 82
+    }
+  },
+  {
+    "id": 238384,
+    "urlId": "1BtrLd39Hzpm4mo99BtK1H",
+    "title": "General Goods",
+    "icon": "faBox",
+    "number": null,
+    "colorBackground": "#686545",
+    "colorIcon": "#6be485",
+    "longitude": 161.50407,
+    "latitude": 68.05122,
+    "ingameLongitude": -149950.703,
+    "ingameLatitude": 293798.094,
+    "ingameHeight": 69787.469,
+    "category": {
+      "id": 82
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": 462643,
+    "urlId": "1CRrr4oVmzXxSRszbTWusB",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 25,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 59.37408,
+    "latitude": 55.5123,
+    "ingameLongitude": 336430.95,
+    "ingameLatitude": 354822.56,
+    "ingameHeight": 21532.74,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462644,
+    "urlId": "1CRrr4oVwhb14XDnDEHme3",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 38,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 263.29572,
+    "latitude": 169.92482,
+    "ingameLongitude": -634745.86,
+    "ingameLatitude": -190067.24,
+    "ingameHeight": 21285.29,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462645,
+    "urlId": "1CRrr4oVwhb14XDnDEHme4",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 38,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 260.10857,
+    "latitude": 164.56824,
+    "ingameLongitude": -619567.07,
+    "ingameLatitude": -164556.52,
+    "ingameHeight": 24408.98,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462646,
+    "urlId": "1CRrr4oVwhb14XDnDEHme5",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 38,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 259.38053,
+    "latitude": 161.50324,
+    "ingameLongitude": -616099.79,
+    "ingameLatitude": -149959.43,
+    "ingameHeight": 27504.25,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462647,
+    "urlId": "1CRrr4oVwhb14XDnDEHme6",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 38,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 263.21523,
+    "latitude": 157.47739,
+    "ingameLongitude": -634362.51,
+    "ingameLatitude": -130786.34,
+    "ingameHeight": 29500.84,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462648,
+    "urlId": "1CRrr4oVwhb14XDnDEHme7",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 11,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 305.53606,
+    "latitude": 104.39979,
+    "ingameLongitude": -835915.5,
+    "ingameLatitude": 121995.82,
+    "ingameHeight": 43271.27,
+    "category": {
+      "id": 789
+    }
+  },
+  {
+    "id": 462649,
+    "urlId": "1CRrr4oVwhb14XDnDEHme8",
+    "title": "Bookshelves",
+    "icon": "faBook",
+    "number": 3,
+    "colorBackground": "#f1ddc2",
+    "colorIcon": "#8c0b0b",
+    "longitude": 313.45467,
+    "latitude": 172.51091,
+    "ingameLongitude": -873627.88,
+    "ingameLatitude": -202383.47,
+    "ingameHeight": 20702.69,
+    "category": {
+      "id": 789
+    }
+  }
+]

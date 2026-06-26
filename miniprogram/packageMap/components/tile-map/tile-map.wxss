@@ -56,6 +56,12 @@
   box-shadow: 0 0 8px rgba(255, 176, 0, 0.6);
 }
 
+.marker-emoji {
+  font-size: 22px;
+  line-height: 1;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
 /* 区域网格叠加层 */
 .grid-overlay {
   position: absolute;

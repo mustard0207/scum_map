@@ -1,0 +1,903 @@
+[
+  {
+    "id": 448903,
+    "urlId": "1CQe2Qmoiy7tX6fGK1J7mp",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 53.07366,
+    "latitude": 46.94758,
+    "ingameLongitude": 366436.688,
+    "ingameLatitude": 395612.031,
+    "ingameHeight": 20026.475,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448904,
+    "urlId": "1CQe2QnYZrCXV17jvv7bBV",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 66.08281,
+    "latitude": 137.89843,
+    "ingameLongitude": 304480.625,
+    "ingameLatitude": -37541.508,
+    "ingameHeight": 22937.676,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448905,
+    "urlId": "1CQe2QoFikoANrPELCaUEb",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 136.03492,
+    "latitude": 176.38264,
+    "ingameLongitude": -28666.324,
+    "ingameLatitude": -220822.578,
+    "ingameHeight": 28105.229,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448906,
+    "urlId": "1CQe2QoxNyJU6UHD2a91KX",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 200.67854,
+    "latitude": 186.82711,
+    "ingameLongitude": -336531.563,
+    "ingameLatitude": -270564.375,
+    "ingameHeight": 19145.078,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448907,
+    "urlId": "1CQe2QpfGH2Vd9GX1PHJod",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 13.29773,
+    "latitude": 195.25271,
+    "ingameLongitude": 555869.563,
+    "ingameLatitude": -310691.313,
+    "ingameHeight": 1616.013,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448908,
+    "urlId": "1CQe2QqLi6HxFigoxYWJYm",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 8.78528,
+    "latitude": 105.87811,
+    "ingameLongitude": 577360.125,
+    "ingameLatitude": 114955.297,
+    "ingameHeight": 6402.507,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448909,
+    "urlId": "1CQe2Qr2wJhkNH3Y69gDcz",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 83.51631,
+    "latitude": 74.72164,
+    "ingameLongitude": 221453.563,
+    "ingameLatitude": 263338.063,
+    "ingameHeight": 33010.645,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448910,
+    "urlId": "1CQe2QrkVStutc14qnJgGh",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 136.81805,
+    "latitude": 114.93375,
+    "ingameLongitude": -32395.963,
+    "ingameLatitude": 71827.805,
+    "ingameHeight": 75720.297,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448911,
+    "urlId": "1CQe2QsQ7xTpMEYD9hnEaY",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 179.38031,
+    "latitude": 110.28517,
+    "ingameLongitude": -235098.703,
+    "ingameLatitude": 93966.688,
+    "ingameHeight": 70175.633,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448912,
+    "urlId": "1CQe2QtBYkGsRt38krnPGC",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 223.43142,
+    "latitude": 67.54185,
+    "ingameLongitude": -444892.125,
+    "ingameLatitude": 297531.781,
+    "ingameHeight": 66816.469,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448913,
+    "urlId": "1CQe2QtvEXNvD9386otRCP",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 310.8863,
+    "latitude": 79.00613,
+    "ingameLongitude": -861396,
+    "ingameLatitude": 242933.172,
+    "ingameHeight": 53570.176,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448914,
+    "urlId": "1CQe2Qudo2iGkRmMEbNjcT",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 6.20152,
+    "latitude": 156.98455,
+    "ingameLongitude": 589665.25,
+    "ingameLatitude": -128439.164,
+    "ingameHeight": 2160.902,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448915,
+    "urlId": "1CQe2QvLtQeDkiR4Vv92fK",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 55.36187,
+    "latitude": 134.75409,
+    "ingameLongitude": 355539.094,
+    "ingameLatitude": -22566.563,
+    "ingameHeight": 23893.768,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448916,
+    "urlId": "1CQe2Qw77HqkDWQnaLreCS",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 86.89243,
+    "latitude": 174.93391,
+    "ingameLongitude": 205374.797,
+    "ingameLatitude": -213923.016,
+    "ingameHeight": 24947.418,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448917,
+    "urlId": "1CQe2QwwQYEnt2a8ZVzzTw",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 106.21177,
+    "latitude": 183.49058,
+    "ingameLongitude": 113366.469,
+    "ingameLatitude": -254674.188,
+    "ingameHeight": 25764.77,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448918,
+    "urlId": "1CQe2Qxo5RHjzzf3S3vSEx",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 173.74017,
+    "latitude": 178.3315,
+    "ingameLongitude": -208237.563,
+    "ingameLatitude": -230104.063,
+    "ingameHeight": 26927.965,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448919,
+    "urlId": "1CQe2Qyq5yZHJqdqhoJ3S4",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 30.51536,
+    "latitude": 312.53856,
+    "ingameLongitude": 473870.594,
+    "ingameLatitude": -869265.313,
+    "ingameHeight": 4792.846,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448920,
+    "urlId": "1CQe2Qzuknf8ngd1sGZ7c8",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 197.16421,
+    "latitude": 309.16936,
+    "ingameLongitude": -319794.563,
+    "ingameLatitude": -853219.5,
+    "ingameHeight": 13215.569,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448921,
+    "urlId": "1CQe2R1pcE2qEoBxu5Ex18",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 10.131,
+    "latitude": 29.74542,
+    "ingameLongitude": 570951.125,
+    "ingameLatitude": 477537.344,
+    "ingameHeight": 18523.385,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448922,
+    "urlId": "1CQe2R2fELnXz8puGJ2L3t",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 44.01411,
+    "latitude": 2.96594,
+    "ingameLongitude": 409582.813,
+    "ingameLatitude": 605074.625,
+    "ingameHeight": 13415.85,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448923,
+    "urlId": "1CQe2R3Ts32jHxhXwXBURu",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 15.21954,
+    "latitude": 73.14375,
+    "ingameLongitude": 546716.938,
+    "ingameLatitude": 270852.719,
+    "ingameHeight": 11835.268,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448924,
+    "urlId": "1CQe2R4T8mSHzFq2RAmEDj",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 123.47569,
+    "latitude": 88.43056,
+    "ingameLongitude": 31147.025,
+    "ingameLatitude": 198049.313,
+    "ingameHeight": 68595.234,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448925,
+    "urlId": "1CQe2R5RxhkiyE6AfKCWxR",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 252.61345,
+    "latitude": 65.77899,
+    "ingameLongitude": -583871.563,
+    "ingameLatitude": 305927.438,
+    "ingameHeight": 63760.211,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448926,
+    "urlId": "1CQe2R6KL1su511zcYcYvX",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 17.09765,
+    "latitude": 225.54319,
+    "ingameLongitude": 537772.438,
+    "ingameLatitude": -454949.75,
+    "ingameHeight": 1203.65,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448927,
+    "urlId": "1CQe2R7Ak65kxpcRWpcWFo",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 186.33602,
+    "latitude": 237.98065,
+    "ingameLongitude": -268225.313,
+    "ingameLatitude": -514183.188,
+    "ingameHeight": 1666.851,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448928,
+    "urlId": "1CQe2R7xxqw4CTaAvJqS1e",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 236.27606,
+    "latitude": 243.95646,
+    "ingameLongitude": -506064.719,
+    "ingameLatitude": -542643,
+    "ingameHeight": 5535.457,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448929,
+    "urlId": "1CQe2R8njRUY9xBpeRdTth",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 283.05285,
+    "latitude": 233.73585,
+    "ingameLongitude": -728839.188,
+    "ingameLatitude": -493967.313,
+    "ingameHeight": 9276.314,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448930,
+    "urlId": "1CQe2R9aAKvQ84dEYwMccw",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 22.32781,
+    "latitude": 273.34711,
+    "ingameLongitude": 512863.813,
+    "ingameLatitude": -682616,
+    "ingameHeight": 4281.83,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448931,
+    "urlId": "1CQe2RAKV3xTggJwJGdgd3",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 211.64198,
+    "latitude": 257.57436,
+    "ingameLongitude": -388744.906,
+    "ingameLatitude": -607498.25,
+    "ingameHeight": 3036.456,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448932,
+    "urlId": "1CQe2RB6QZPsT4nairZ9qY",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 296.76333,
+    "latitude": 266.43009,
+    "ingameLongitude": -794135.375,
+    "ingameLatitude": -649673.688,
+    "ingameHeight": 8162.536,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448933,
+    "urlId": "1CQe2RByoZaLRLLya4wYVi",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 260.51862,
+    "latitude": 312.20307,
+    "ingameLongitude": -621519.938,
+    "ingameLatitude": -867667.563,
+    "ingameHeight": 6247.19,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448934,
+    "urlId": "1CQe2RCpi2uy11ULuLhFN8",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 39.38559,
+    "latitude": 250.11809,
+    "ingameLongitude": 431626.125,
+    "ingameLatitude": -571987.75,
+    "ingameHeight": 2138.853,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448935,
+    "urlId": "1CQe2RDgSeuq8eXm5Qeear",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 157.3544,
+    "latitude": 247.83088,
+    "ingameLongitude": -130200.344,
+    "ingameLatitude": -561094.938,
+    "ingameHeight": 1795.124,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448936,
+    "urlId": "1CQe2RER2YCGBjar6SSw24",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 252.62144,
+    "latitude": 235.50418,
+    "ingameLongitude": -583909.625,
+    "ingameLatitude": -502389,
+    "ingameHeight": 9688.352,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448937,
+    "urlId": "1CQe2RF8V16xTjR1C86Gnv",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 66.72761,
+    "latitude": 284.15389,
+    "ingameLongitude": 301409.781,
+    "ingameLatitude": -734083.313,
+    "ingameHeight": 13144.6,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448938,
+    "urlId": "1CQe2RFr2XGkTqDNjy8LhQ",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 80.37693,
+    "latitude": 299.84326,
+    "ingameLongitude": 236404.891,
+    "ingameLatitude": -808803.938,
+    "ingameHeight": 8820.805,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448939,
+    "urlId": "1CQe2RH8g2wr551R3eB94P",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 116.0983,
+    "latitude": 276.86695,
+    "ingameLongitude": 66281.844,
+    "ingameLatitude": -699379.25,
+    "ingameHeight": 5346.476,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448940,
+    "urlId": "1CQe2RHqyJrrWcybpiZ4Xh",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 82.98616,
+    "latitude": 249.03351,
+    "ingameLongitude": 223978.406,
+    "ingameLatitude": -566822.438,
+    "ingameHeight": 1066.645,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448941,
+    "urlId": "1CQe2RJaoms1xvoARAsz5w",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 100.7142,
+    "latitude": 235.05293,
+    "ingameLongitude": 139548.609,
+    "ingameLatitude": -500239.938,
+    "ingameHeight": 11771.47,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448942,
+    "urlId": "1CQe2RKutFGfmeru8N9V17",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 119.32686,
+    "latitude": 245.91363,
+    "ingameLongitude": 50905.813,
+    "ingameLatitude": -551964,
+    "ingameHeight": 4007.371,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448943,
+    "urlId": "1CQe2RLgrmZ2gHf8U5Pvtt",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 162.76514,
+    "latitude": 225.79174,
+    "ingameLongitude": -155968.984,
+    "ingameLatitude": -456133.5,
+    "ingameHeight": 1901.855,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448944,
+    "urlId": "1CQe2RMNqr9d8hDA2ad64r",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 228.9903,
+    "latitude": 199.36517,
+    "ingameLongitude": -471366.313,
+    "ingameLatitude": -330276.906,
+    "ingameHeight": 14571.584,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448945,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfU",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 277.68112,
+    "latitude": 73.04349,
+    "ingameLongitude": -703256.313,
+    "ingameLatitude": 271330.219,
+    "ingameHeight": 56470.02,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448946,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfV",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 24.83214,
+    "latitude": 14.8409,
+    "ingameLongitude": 500936.938,
+    "ingameLatitude": 548520.125,
+    "ingameHeight": 10188.209,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448947,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfW",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 24.55513,
+    "latitude": 11.49868,
+    "ingameLongitude": 502256.188,
+    "ingameLatitude": 564437.438,
+    "ingameHeight": 10225.443,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448948,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfX",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 23.64398,
+    "latitude": 9.15892,
+    "ingameLongitude": 506595.563,
+    "ingameLatitude": 575580.563,
+    "ingameHeight": 10151.228,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448949,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfY",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 24.57994,
+    "latitude": 5.99674,
+    "ingameLongitude": 502138.031,
+    "ingameLatitude": 590640.438,
+    "ingameHeight": 10207.166,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448950,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfZ",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 25.09858,
+    "latitude": 2.16777,
+    "ingameLongitude": 499668.031,
+    "ingameLatitude": 608875.938,
+    "ingameHeight": 10262.416,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448951,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfa",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 31.1802,
+    "latitude": 8.53638,
+    "ingameLongitude": 470704.313,
+    "ingameLatitude": 578545.438,
+    "ingameHeight": 8724.474,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448952,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfb",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 29.11871,
+    "latitude": 7.52681,
+    "ingameLongitude": 480522.125,
+    "ingameLatitude": 583353.5,
+    "ingameHeight": 9066.441,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448953,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfc",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 26.92018,
+    "latitude": 8.2606,
+    "ingameLongitude": 490992.656,
+    "ingameLatitude": 579858.812,
+    "ingameHeight": 8138.652,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448954,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfd",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 27.39394,
+    "latitude": 8.47103,
+    "ingameLongitude": 488736.375,
+    "ingameLatitude": 578856.625,
+    "ingameHeight": 8212.137,
+    "category": {
+      "id": 14
+    }
+  },
+  {
+    "id": 448955,
+    "urlId": "1CQe2RN45eNQcP4JsFUkfe",
+    "title": "WW2 bunkers",
+    "icon": "faCube",
+    "number": null,
+    "colorBackground": "#5d0000",
+    "colorIcon": "#ffffff",
+    "longitude": 26.8683,
+    "latitude": 8.74653,
+    "ingameLongitude": 491239.719,
+    "ingameLatitude": 577544.562,
+    "ingameHeight": 8184.674,
+    "category": {
+      "id": 14
+    }
+  }
+]

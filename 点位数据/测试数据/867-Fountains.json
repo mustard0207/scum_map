@@ -1,0 +1,138 @@
+[
+  {
+    "id": 508311,
+    "urlId": "1Cc9L7zFTuZ4UCYgq8uNtv",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 262.61696,
+    "latitude": 161.77109,
+    "ingameLongitude": -631513.25,
+    "ingameLatitude": -151234.844,
+    "ingameHeight": 30229.441,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508312,
+    "urlId": "1Cc9L7zKRAgRV2RjmNEWXS",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 233.06045,
+    "latitude": 218.35862,
+    "ingameLongitude": -490750.375,
+    "ingameLatitude": -420732.938,
+    "ingameHeight": 693.524,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508315,
+    "urlId": "1Cc9L7zZyQnBghK3zKhhsT",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 161.4191,
+    "latitude": 269.70997,
+    "ingameLongitude": -149558.438,
+    "ingameLatitude": -665293.75,
+    "ingameHeight": 528.772,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508316,
+    "urlId": "1Cc9L7zeSTMFAtbAnWpyqM",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 138.50999,
+    "latitude": 231.23407,
+    "ingameLongitude": -40453.809,
+    "ingameLatitude": -482052.281,
+    "ingameHeight": 302.148,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508317,
+    "urlId": "1Cc9L7zjbJQJTutQP8Vkv9",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 87.16101,
+    "latitude": 237.03491,
+    "ingameLongitude": 204095.688,
+    "ingameLatitude": -509678.781,
+    "ingameHeight": 747.877,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508318,
+    "urlId": "1Cc9L7zpdUdjS7tQSyLQPV",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 52.01056,
+    "latitude": 53.16268,
+    "ingameLongitude": 371499.719,
+    "ingameLatitude": 366012.688,
+    "ingameHeight": 20270.709,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508322,
+    "urlId": "1Cc9L819SNpGaFfUCWf6Yu",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 15.60524,
+    "latitude": 111.59178,
+    "ingameLongitude": 544880.063,
+    "ingameLatitude": 87744.117,
+    "ingameHeight": 646.776,
+    "category": {
+      "id": 867
+    }
+  },
+  {
+    "id": 508323,
+    "urlId": "1Cc9L81Dj5gJXPd6GoX6Tb",
+    "title": null,
+    "icon": "faFountain",
+    "number": null,
+    "colorBackground": "#7c3aed",
+    "colorIcon": "#ffffff",
+    "longitude": 14.5932,
+    "latitude": 36.37862,
+    "ingameLongitude": 549699.875,
+    "ingameLatitude": 445946.75,
+    "ingameHeight": 7279.266,
+    "category": {
+      "id": 867
+    }
+  }
+]

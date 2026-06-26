@@ -1,0 +1,920 @@
+[
+  {
+    "id": 239491,
+    "urlId": "1BtrLd39LjvBaQriUAwC5a",
+    "title": "Prigorje",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 241.71739,
+    "latitude": 29.07963,
+    "ingameLongitude": -531314.849,
+    "ingameLatitude": 479175.786,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239492,
+    "urlId": "1BtrLd39Hvxvwu2aY93VUs",
+    "title": "Gunja",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 142.04232,
+    "latitude": 36.1512,
+    "ingameLongitude": -57422.293,
+    "ingameLatitude": 445538.199,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239493,
+    "urlId": "1BtrLd39LkTCKR9dhGcpLL",
+    "title": "Novaki",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 112.15859,
+    "latitude": 27.82803,
+    "ingameLongitude": 84656.117,
+    "ingameLatitude": 485129.341,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239494,
+    "urlId": "1BtrLd39J6gMnZ3UYYaaRT",
+    "title": "Kotoriba",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 125.81615,
+    "latitude": 3.5469,
+    "ingameLongitude": 19723.007,
+    "ingameLatitude": 600628.311,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239495,
+    "urlId": "1BtrLd39HvviKi5r9WR6NX",
+    "title": "Babino Polje",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 135.84004,
+    "latitude": 17.31455,
+    "ingameLongitude": -27934.321,
+    "ingameLatitude": 535139.204,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239496,
+    "urlId": "1BtrLd39Hhvw8T4JYFz3PB",
+    "title": "Dubrava",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 93.92764,
+    "latitude": 43.59824,
+    "ingameLongitude": 171332.882,
+    "ingameLatitude": 410114.546,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239497,
+    "urlId": "1BtrLd39JDFAXSbviaVMUd",
+    "title": "Marof",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 91.42167,
+    "latitude": 78.64316,
+    "ingameLongitude": 183247.214,
+    "ingameLatitude": 243415.001,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239498,
+    "urlId": "1BtrLd39HvzQkgJCeS6eBA",
+    "title": "Dol",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 100.06727,
+    "latitude": 95.91531,
+    "ingameLongitude": 142142.769,
+    "ingameLatitude": 161255.939,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239499,
+    "urlId": "1BtrLd39HhrWiGfdniBJD6",
+    "title": "Blace",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 115.54166,
+    "latitude": 113.50035,
+    "ingameLongitude": 68571.769,
+    "ingameLatitude": 77608.489,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239500,
+    "urlId": "1BtrLd39HpRTM6ZdNCvHyo",
+    "title": "Rude",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 31.27832,
+    "latitude": 103.67525,
+    "ingameLongitude": 469191.183,
+    "ingameLatitude": 124343.897,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239501,
+    "urlId": "1BtrLd39JDpXRognbG1zdR",
+    "title": "Klis",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 15.49069,
+    "latitude": 112.18616,
+    "ingameLongitude": 544251.475,
+    "ingameLatitude": 83859.722,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239502,
+    "urlId": "1BtrLd39J6iaGyKK8ckBgm",
+    "title": "Trpanj",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 205.81933,
+    "latitude": 170.44835,
+    "ingameLongitude": -360642.043,
+    "ingameLatitude": -193278.272,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239503,
+    "urlId": "1BtrLd39La9DLhzWTFbdKE",
+    "title": "Turanj",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 219.28894,
+    "latitude": 189.15983,
+    "ingameLongitude": -424681.578,
+    "ingameLatitude": -282283.922,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239504,
+    "urlId": "1BtrLd39JDCEFaFfroNE2G",
+    "title": "Apatija",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 233.19709,
+    "latitude": 218.07189,
+    "ingameLongitude": -490806.12,
+    "ingameLatitude": -419811.046,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239505,
+    "urlId": "1BtrLd39LkW9mKFpoPT9L6",
+    "title": "Kirin",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 225.99241,
+    "latitude": 59.61878,
+    "ingameLongitude": -456552.416,
+    "ingameLatitude": 333909.039,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239506,
+    "urlId": "1BtrLd39LdwwKDm7oh74FU",
+    "title": "Medsave",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 245.85225,
+    "latitude": 66.69034,
+    "ingameLongitude": -550973.497,
+    "ingameLatitude": 300271.453,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239507,
+    "urlId": "1BtrLd39LkVYqgnRLUx9wr",
+    "title": "Trilj",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 12.73412,
+    "latitude": 15.81263,
+    "ingameLongitude": 557357.24,
+    "ingameLatitude": 542283.471,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239508,
+    "urlId": "1BtrLd39LWqPg59jWW4t5y",
+    "title": "Novi Glog",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 55.39831,
+    "latitude": 6.36301,
+    "ingameLongitude": 354515.737,
+    "ingameLatitude": 587232.812,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239509,
+    "urlId": "1BtrLd39J9x6MHrnK74s6p",
+    "title": "Povlja",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 13.92446,
+    "latitude": 35.90088,
+    "ingameLongitude": 551697.932,
+    "ingameLatitude": 446728.91,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239510,
+    "urlId": "1BtrLd39J44sxjZaez7Mjo",
+    "title": "Ston",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 7.72217,
+    "latitude": 58.49233,
+    "ingameLongitude": 581185.904,
+    "ingameLatitude": 339267.239,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239511,
+    "urlId": "1BtrLd39LgdrDd5pTiy3aY",
+    "title": "Porat",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 9.97755,
+    "latitude": 77.51672,
+    "ingameLongitude": 570463.005,
+    "ingameLatitude": 248773.2,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239512,
+    "urlId": "1BtrLd39LXQUYchbCac5z2",
+    "title": "Gorica",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 198.23876,
+    "latitude": 10.55589,
+    "ingameLongitude": -324601.189,
+    "ingameLatitude": 567288.402,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239513,
+    "urlId": "1BtrLd39LTdLZoJvrJaq5b",
+    "title": "Gornji Humac",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 73.31601,
+    "latitude": 22.69645,
+    "ingameLongitude": 269328.263,
+    "ingameLatitude": 509538.917,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239514,
+    "urlId": "1BtrLd39HhyA5zhBPKEHCE",
+    "title": "Lokve",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 154.00834,
+    "latitude": 57.49105,
+    "ingameLongitude": -114313.228,
+    "ingameLatitude": 344030.083,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239515,
+    "urlId": "1BtrLd39LXRCfn7t3SuuFA",
+    "title": "Zagorje",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 95.24328,
+    "latitude": 122.199,
+    "ingameLongitude": 165077.858,
+    "ingameLatitude": 36231.28,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239516,
+    "urlId": "1BtrLd39LgZRAdAJb9JK8W",
+    "title": "Vinski Vrh",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 168.66828,
+    "latitude": 113.25003,
+    "ingameLongitude": -184012.071,
+    "ingameLatitude": 78799.2,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239517,
+    "urlId": "1BtrLd39LgeTsr5ppuz9bQ",
+    "title": "Veliki Tabor",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 234.26212,
+    "latitude": 89.53212,
+    "ingameLongitude": -495869.711,
+    "ingameLatitude": 191619.071,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239518,
+    "urlId": "1BtrLd39HzBhQCtC64y3xf",
+    "title": "Prkno",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 227.18275,
+    "latitude": 152.42524,
+    "ingameLongitude": -462211.723,
+    "ingameLatitude": -107547.077,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239519,
+    "urlId": "1BtrLd39HshCDVgG37Y9s6",
+    "title": "Golubovec",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 156.26372,
+    "latitude": 164.81613,
+    "ingameLongitude": -125036.127,
+    "ingameLatitude": -166487.274,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239520,
+    "urlId": "1BtrLd39La7jNDdsZkGzxt",
+    "title": "Spickovina",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 142.60616,
+    "latitude": 147.48141,
+    "ingameLongitude": -60103.017,
+    "ingameLatitude": -84030.534,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239521,
+    "urlId": "1BtrLd39LXQUiQCxBamGkV",
+    "title": "Mirkovci",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 68.67996,
+    "latitude": 166.75611,
+    "ingameLongitude": 291369.778,
+    "ingameLatitude": -175715.284,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239522,
+    "urlId": "1BtrLd39LdMEe7fotyS2FY",
+    "title": "Blato",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 59.15727,
+    "latitude": 207.80874,
+    "ingameLongitude": 336644.239,
+    "ingameLatitude": -370991.894,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239523,
+    "urlId": "1BtrLd39LhD57mQ5Y3h52h",
+    "title": "Preko",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 26.20372,
+    "latitude": 169.009,
+    "ingameLongitude": 493317.706,
+    "ingameLatitude": -186431.683,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239524,
+    "urlId": "1BtrLd39HpSLVwMmjcqwuM",
+    "title": "Zaton",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 88.85305,
+    "latitude": 237.3466,
+    "ingameLongitude": 195459.405,
+    "ingameLatitude": -511495.796,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239525,
+    "urlId": "1BtrLd39HzpcY1URywZQTs",
+    "title": "Tisno",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 137.21832,
+    "latitude": 232.34018,
+    "ingameLongitude": -34487.204,
+    "ingameLatitude": -487681.575,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239526,
+    "urlId": "1BtrLd39J9wELebBHam56Q",
+    "title": "Vrsar",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 312.76173,
+    "latitude": 308.59418,
+    "ingameLongitude": -869086.162,
+    "ingameLatitude": -850401.925,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239527,
+    "urlId": "1BtrLd39LTZWwi5ddKUtdy",
+    "title": "Tijat",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 139.47317,
+    "latitude": 227.31711,
+    "ingameLongitude": -45207.609,
+    "ingameLatitude": -463788.125,
+    "ingameHeight": 308.995,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239528,
+    "urlId": "1BtrLd39HtHtkkjCMMD65y",
+    "title": "Ugljan",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 25.26398,
+    "latitude": 154.92845,
+    "ingameLongitude": 497785.58,
+    "ingameLatitude": -119454.188,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239529,
+    "urlId": "1BtrLd39LdQLStQK3CWiXm",
+    "title": "Punat",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 45.31177,
+    "latitude": 179.52248,
+    "ingameLongitude": 402470.924,
+    "ingameLatitude": -236441.547,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239530,
+    "urlId": "1BtrLd39HhuUVcgqq4cWP1",
+    "title": "Kampor",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 58.78137,
+    "latitude": 231.15116,
+    "ingameLongitude": 338431.389,
+    "ingameLatitude": -482025.698,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239531,
+    "urlId": "1BtrLd39HsfjF4yNZb5DRL",
+    "title": "Hum",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 125.7535,
+    "latitude": 203.8036,
+    "ingameLongitude": 20020.866,
+    "ingameLatitude": -351940.517,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239532,
+    "urlId": "1BtrLd39HpPFDuYUafsn8z",
+    "title": "Postira",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 135.08825,
+    "latitude": 186.34372,
+    "ingameLongitude": -24360.021,
+    "ingameLatitude": -268888.423,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239533,
+    "urlId": "1BtrLd39LdQC5fx6ucG5NW",
+    "title": "Zmajan",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 165.78641,
+    "latitude": 216.50739,
+    "ingameLongitude": -170310.589,
+    "ingameLatitude": -412369.102,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239534,
+    "urlId": "1BtrLd39LjpGXBRG5ngXJj",
+    "title": "Prigradica",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 175.62236,
+    "latitude": 214.75514,
+    "ingameLongitude": -217074.342,
+    "ingameLatitude": -404034.125,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239535,
+    "urlId": "1BtrLd39J6iRk3pH1oNCzQ",
+    "title": "Prvo Selo",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 39.64462,
+    "latitude": 304.21543,
+    "ingameLongitude": 429414.656,
+    "ingameLatitude": -829573.375,
+    "ingameHeight": 1864.852,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239536,
+    "urlId": "1BtrLd39LdKmLBSmbknnZi",
+    "title": "Rogoznica",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 93.64572,
+    "latitude": 274.5036,
+    "ingameLongitude": 172673.245,
+    "ingameLatitude": -688241.966,
+    "ingameHeight": 0,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239537,
+    "urlId": "1BtrLd39LagCad5aAaecfc",
+    "title": "Slani Dol",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 189.47469,
+    "latitude": 91.45683,
+    "ingameLongitude": -282933.5,
+    "ingameLatitude": 182463.734,
+    "ingameHeight": 78215.406,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239538,
+    "urlId": "1BtrLd39J42fCkJMamtcGB",
+    "title": "Drvenik",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 100.83515,
+    "latitude": 224.74264,
+    "ingameLongitude": 138492.016,
+    "ingameLatitude": -451542.063,
+    "ingameHeight": 10545.37,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239539,
+    "urlId": "1BtrLd39HmkRkvgSLsxmxy",
+    "title": "Jelsa",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 56.32829,
+    "latitude": 145.13965,
+    "ingameLongitude": 350094.25,
+    "ingameLatitude": -72891.406,
+    "ingameHeight": 14153.973,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239540,
+    "urlId": "1BtrLd39HwYAX7KsHPvHfn",
+    "title": "Brela",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 43.23468,
+    "latitude": 140.49575,
+    "ingameLongitude": 412346.188,
+    "ingameLatitude": -50801.594,
+    "ingameHeight": 10829.945,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239541,
+    "urlId": "1BtrLd39J46MJCWFEYK3PL",
+    "title": "Murvica",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 21.28959,
+    "latitude": 149.52342,
+    "ingameLongitude": 516681.344,
+    "ingameLatitude": -93743.844,
+    "ingameHeight": 476.856,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239542,
+    "urlId": "1BtrLd39LdNiwtMSqR39gt",
+    "title": "Lobor",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 55.68368,
+    "latitude": 82.81715,
+    "ingameLongitude": 353158.969,
+    "ingameLatitude": 223560.422,
+    "ingameHeight": 20559.92,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239543,
+    "urlId": "1BtrLd39HsgUEL3LijNxnp",
+    "title": "Selca",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 48.9147,
+    "latitude": 118.25898,
+    "ingameLongitude": 385341.25,
+    "ingameLatitude": 54972.93,
+    "ingameHeight": 13228.496,
+    "category": {
+      "id": 27
+    }
+  },
+  {
+    "id": 239544,
+    "urlId": "1BtrLd39HwYuJoeTF11nzv",
+    "title": "Gdinj",
+    "icon": "faBuilding",
+    "number": null,
+    "colorBackground": "#008000",
+    "colorIcon": "#ffffff",
+    "longitude": 32.06694,
+    "latitude": 29.18146,
+    "ingameLongitude": 465441.781,
+    "ingameLatitude": 478691.406,
+    "ingameHeight": 9466.677,
+    "category": {
+      "id": 27
+    }
+  }
+]

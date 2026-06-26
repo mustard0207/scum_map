@@ -1,0 +1,223 @@
+[
+  {
+    "id": 439499,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgs",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 25.9201,
+    "latitude": 168.38814,
+    "ingameLongitude": 495755.531,
+    "ingameLatitude": -182748.766,
+    "ingameHeight": 187.347,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439500,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgt",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 139.16824,
+    "latitude": 233.53114,
+    "ingameLongitude": -43588.746,
+    "ingameLatitude": -492992.375,
+    "ingameHeight": 177.754,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439501,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgu",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 15.76366,
+    "latitude": 111.93099,
+    "ingameLongitude": 544125.562,
+    "ingameLatitude": 86128.469,
+    "ingameHeight": 151.279,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439502,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgv",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 95.3888,
+    "latitude": 275.71058,
+    "ingameLongitude": 164910.828,
+    "ingameLatitude": -693872,
+    "ingameHeight": 2035.836,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439503,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgw",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 162.71675,
+    "latitude": 270.36838,
+    "ingameLongitude": -155738.5,
+    "ingameLatitude": -668429.812,
+    "ingameHeight": 653.501,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439504,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgx",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 8.92466,
+    "latitude": 59.76856,
+    "ingameLongitude": 576696.312,
+    "ingameLatitude": 334552.094,
+    "ingameHeight": 432.296,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439505,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgy",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 232.21409,
+    "latitude": 219.32615,
+    "ingameLongitude": -486719.625,
+    "ingameLatitude": -425341.125,
+    "ingameHeight": 836.282,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439506,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMgz",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 228.53532,
+    "latitude": 154.32523,
+    "ingameLongitude": -469199.469,
+    "ingameLatitude": -115774.164,
+    "ingameHeight": 30544.664,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439507,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMh1",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 198.81713,
+    "latitude": 10.73782,
+    "ingameLongitude": -327666.562,
+    "ingameLatitude": 568061.062,
+    "ingameHeight": 76861.414,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439508,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMh2",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 70.09146,
+    "latitude": 165.81485,
+    "ingameLongitude": 285389.438,
+    "ingameLatitude": -170493.5,
+    "ingameHeight": 15027.279,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439509,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMh3",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 243.84564,
+    "latitude": 31.09548,
+    "ingameLongitude": -542114.875,
+    "ingameLatitude": 471107.688,
+    "ingameHeight": 80818.477,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439510,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMh4",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 296.96273,
+    "latitude": 102.57795,
+    "ingameLongitude": -795085,
+    "ingameLatitude": 130672.344,
+    "ingameHeight": 43212.148,
+    "category": {
+      "id": 62
+    }
+  },
+  {
+    "id": 439511,
+    "urlId": "1CQE2dNTCqqDRrUyT3dMh5",
+    "title": "Schools",
+    "icon": "faGraduationCap",
+    "number": null,
+    "colorBackground": "#5816be",
+    "colorIcon": "#ffffff",
+    "longitude": 67.46623,
+    "latitude": 54.74721,
+    "ingameLongitude": 297892.062,
+    "ingameLatitude": 358466.281,
+    "ingameHeight": 21817.967,
+    "category": {
+      "id": 62
+    }
+  }
+]

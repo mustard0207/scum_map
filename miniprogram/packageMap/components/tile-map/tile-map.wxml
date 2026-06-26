@@ -74,5 +74,5 @@
   data-py="{{item.py}}"
   bindtap="onMarkerTap"
 >
-  <view class="marker-circle"></view>
+  <text class="marker-emoji">{{item.emoji || '📌'}}</text>
 </view>

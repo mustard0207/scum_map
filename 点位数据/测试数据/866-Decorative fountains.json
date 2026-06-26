@@ -1,0 +1,121 @@
+[
+  {
+    "id": 508304,
+    "urlId": "1Cc9L7yfVysHpUzXJ8qQMD",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 311.0673,
+    "latitude": 104.7496,
+    "ingameLongitude": -862258,
+    "ingameLatitude": 120330,
+    "ingameHeight": 41556,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508305,
+    "urlId": "1Cc9L7yjskZjXZcFpnFUcq",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 262.56546,
+    "latitude": 156.20136,
+    "ingameLongitude": -631268,
+    "ingameLatitude": -124709,
+    "ingameHeight": 29132,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508306,
+    "urlId": "1Cc9L7yos28CDyG7Cmsmbi",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 244.27885,
+    "latitude": 43.29364,
+    "ingameLongitude": -544178,
+    "ingameLatitude": 413014,
+    "ingameHeight": 88409,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508307,
+    "urlId": "1Cc9L7yt6yF9MnKwpYJ48Y",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 162.75675,
+    "latitude": 274.46383,
+    "ingameLongitude": -155929,
+    "ingameLatitude": -687934,
+    "ingameHeight": 508,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508308,
+    "urlId": "1Cc9L7yxNwwyDTD8dTA9rL",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 63.19958,
+    "latitude": 44.12366,
+    "ingameLongitude": 318212,
+    "ingameLatitude": 409061,
+    "ingameHeight": 21077,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508309,
+    "urlId": "1Cc9L7z2etmRtueuR52Q9t",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 56.0042,
+    "latitude": 55.24954,
+    "ingameLongitude": 352480,
+    "ingameLatitude": 356074,
+    "ingameHeight": 21528,
+    "category": {
+      "id": 866
+    }
+  },
+  {
+    "id": 508310,
+    "urlId": "1Cc9L7z6rV1NAKCH69UHBb",
+    "title": null,
+    "icon": "faMonument",
+    "number": null,
+    "colorBackground": "#db2777",
+    "colorIcon": "#ffffff",
+    "longitude": 51.68,
+    "latitude": 67.655,
+    "ingameLongitude": 373074,
+    "ingameLatitude": 296993,
+    "ingameHeight": 19606,
+    "category": {
+      "id": 866
+    }
+  }
+]

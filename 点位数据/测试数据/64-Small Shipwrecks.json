@@ -1,0 +1,138 @@
+[
+  {
+    "id": 300782,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3k",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 51.91597,
+    "latitude": 263.3672,
+    "ingameLongitude": 371072.063,
+    "ingameLatitude": -635269,
+    "ingameHeight": -3.121,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300783,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3m",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 293.5067,
+    "latitude": 8.00459,
+    "ingameLongitude": -777540.563,
+    "ingameLatitude": 579424.25,
+    "ingameHeight": 58318.574,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300784,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3n",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 94.70794,
+    "latitude": 260.71943,
+    "ingameLongitude": 167623.031,
+    "ingameLatitude": -622674.25,
+    "ingameHeight": -49.215,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300785,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3o",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 95.18377,
+    "latitude": 249.77387,
+    "ingameLongitude": 165360.797,
+    "ingameLatitude": -570609.063,
+    "ingameHeight": 294.137,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300786,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3p",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 19.84534,
+    "latitude": 147.71361,
+    "ingameLongitude": 523547.813,
+    "ingameLatitude": -85135.047,
+    "ingameHeight": 459.409,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300787,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3q",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 20.14935,
+    "latitude": 147.84985,
+    "ingameLongitude": 522102.438,
+    "ingameLatitude": -85783.117,
+    "ingameHeight": -127.703,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300788,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3r",
+    "title": "Small Shipwrecks",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 19.83182,
+    "latitude": 148.73861,
+    "ingameLongitude": 523612.094,
+    "ingameLatitude": -90010.734,
+    "ingameHeight": -147.192,
+    "category": {
+      "id": 64
+    }
+  },
+  {
+    "id": 300789,
+    "urlId": "1C1zRkw3mPsSfytrrp4A3s",
+    "title": "Z4K7",
+    "icon": "faShip",
+    "number": null,
+    "colorBackground": "#6b9fc5",
+    "colorIcon": "#ffffff",
+    "longitude": 17.36869,
+    "latitude": 276.81925,
+    "ingameLongitude": 535322.75,
+    "ingameLatitude": -699256.875,
+    "ingameHeight": -152.932,
+    "category": {
+      "id": 64
+    }
+  }
+]

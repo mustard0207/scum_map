@@ -1,0 +1,206 @@
+[
+  {
+    "id": 439359,
+    "urlId": "1CQE2d46QqLz7DfxkNu6Z6",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 102.06211,
+    "latitude": 15.67725,
+    "ingameLongitude": 133129.219,
+    "ingameLatitude": 544537,
+    "ingameHeight": 24575.086,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439360,
+    "urlId": "1CQE2d46QqLz7DfxkNu6Z7",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 245.13915,
+    "latitude": 14.96278,
+    "ingameLongitude": -548275.188,
+    "ingameLatitude": 547939.688,
+    "ingameHeight": 80110.664,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439361,
+    "urlId": "1CQE2d46QqLz7DfxkNu6Z8",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 170.85553,
+    "latitude": 265.5208,
+    "ingameLongitude": -194499.453,
+    "ingameLatitude": -645343.188,
+    "ingameHeight": 4495.653,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439362,
+    "urlId": "1CQE2d46QqLz7DfxkNu6Z9",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 275.18421,
+    "latitude": 297.82578,
+    "ingameLongitude": -691364.812,
+    "ingameLatitude": -799195.688,
+    "ingameHeight": 10126.656,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439363,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZA",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 34.98634,
+    "latitude": 132.7333,
+    "ingameLongitude": 452577.562,
+    "ingameLatitude": -12942.583,
+    "ingameHeight": 11609.676,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439364,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZB",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 35.59201,
+    "latitude": 72.13027,
+    "ingameLongitude": 449693.031,
+    "ingameLatitude": 275679.438,
+    "ingameHeight": 17383.527,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439365,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZC",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 213.66253,
+    "latitude": 81.21257,
+    "ingameLongitude": -398367.781,
+    "ingameLatitude": 232425,
+    "ingameHeight": 58959.09,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439366,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZD",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 140.10725,
+    "latitude": 197.02582,
+    "ingameLongitude": -48060.762,
+    "ingameLatitude": -319135.75,
+    "ingameHeight": 16356.677,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439367,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZE",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 299.39854,
+    "latitude": 148.00746,
+    "ingameLongitude": -806685.562,
+    "ingameLatitude": -85685.773,
+    "ingameHeight": 33957.102,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439368,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZF",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 82.93696,
+    "latitude": 221.47075,
+    "ingameLongitude": 224212.719,
+    "ingameLatitude": -435554.75,
+    "ingameHeight": 8386.437,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439369,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZG",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 200.51934,
+    "latitude": 229.13394,
+    "ingameLongitude": -335773.375,
+    "ingameLatitude": -472050.719,
+    "ingameHeight": 3078.659,
+    "category": {
+      "id": 9
+    }
+  },
+  {
+    "id": 439370,
+    "urlId": "1CQE2d46QqLz7DfxkNu6ZH",
+    "title": "Killboxes",
+    "icon": "faBomb",
+    "number": null,
+    "colorBackground": "#8c19e4",
+    "colorIcon": "#000000",
+    "longitude": 314.58075,
+    "latitude": 4.70988,
+    "ingameLongitude": -878990.812,
+    "ingameLatitude": 596769.125,
+    "ingameHeight": 61563.297,
+    "category": {
+      "id": 9
+    }
+  }
+]

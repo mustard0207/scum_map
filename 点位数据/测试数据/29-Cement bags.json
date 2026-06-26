@@ -1,0 +1,580 @@
+[
+  {
+    "id": 282828,
+    "urlId": "1BygGoaNE8xjBaSwW1if6y",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 165.37502,
+    "latitude": 276.82851,
+    "ingameLongitude": -168354.656,
+    "ingameLatitude": -699300.938,
+    "ingameHeight": 1177.903,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282829,
+    "urlId": "1BygGoaNE8xjBaSwW1if6z",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 164.64736,
+    "latitude": 277.00473,
+    "ingameLongitude": -164895.094,
+    "ingameLatitude": -700139.188,
+    "ingameHeight": 1144.22,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282830,
+    "urlId": "1BygGoaNE8xjBaSwW1if71",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 161.87062,
+    "latitude": 274.23314,
+    "ingameLongitude": -151693.422,
+    "ingameLatitude": -686955.438,
+    "ingameHeight": 1284.578,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282831,
+    "urlId": "1BygGoaNE8xjBaSwW1if72",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 217.87262,
+    "latitude": 132.4638,
+    "ingameLongitude": -417947.875,
+    "ingameLatitude": -12595.683,
+    "ingameHeight": 35219.816,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282832,
+    "urlId": "1BygGoaNE8xjBaSwW1if73",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 218.20023,
+    "latitude": 132.24304,
+    "ingameLongitude": -419505.469,
+    "ingameLatitude": -11545.611,
+    "ingameHeight": 35209.41,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282833,
+    "urlId": "1BygGoaNE8xjBaSwW1if74",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 218.64572,
+    "latitude": 131.9367,
+    "ingameLongitude": -421623.469,
+    "ingameLatitude": -10088.437,
+    "ingameHeight": 35220.184,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282834,
+    "urlId": "1BygGoaNE8xjBaSwW1if75",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 216.44513,
+    "latitude": 128.14972,
+    "ingameLongitude": -411161.063,
+    "ingameLatitude": 7925.225,
+    "ingameHeight": 35715.137,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282835,
+    "urlId": "1BygGoaNE8xjBaSwW1if76",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 216.68488,
+    "latitude": 128.57298,
+    "ingameLongitude": -412300.906,
+    "ingameLatitude": 5911.89,
+    "ingameHeight": 35697.473,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282836,
+    "urlId": "1BygGoaNE8xjBaSwW1if77",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 216.942,
+    "latitude": 128.95792,
+    "ingameLongitude": -413523.344,
+    "ingameLatitude": 4080.853,
+    "ingameHeight": 35677.426,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282837,
+    "urlId": "1BygGoaNE8xjBaSwW1if78",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 74.46483,
+    "latitude": 48.20206,
+    "ingameLongitude": 263866.375,
+    "ingameLatitude": 388215.375,
+    "ingameHeight": 24128.033,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282838,
+    "urlId": "1BygGoaNE8xjBaSwW1if79",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 70.08478,
+    "latitude": 43.42847,
+    "ingameLongitude": 284690.75,
+    "ingameLatitude": 410922.094,
+    "ingameHeight": 22277.689,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282839,
+    "urlId": "1BygGoaNE8xjBaSwW1if7A",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 75.68766,
+    "latitude": 51.31366,
+    "ingameLongitude": 258052.547,
+    "ingameLatitude": 373414.313,
+    "ingameHeight": 24807.469,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282840,
+    "urlId": "1BygGoaNE8xjBaSwW1if7B",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 70.35697,
+    "latitude": 62.28984,
+    "ingameLongitude": 283396.656,
+    "ingameLatitude": 321203.5,
+    "ingameHeight": 23560.033,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282841,
+    "urlId": "1BygGoaNE8xjBaSwW1if7C",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 70.24506,
+    "latitude": 62.10415,
+    "ingameLongitude": 283928.719,
+    "ingameLatitude": 322086.781,
+    "ingameHeight": 22871.34,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282842,
+    "urlId": "1BygGoaNT7k23oddBx8wyW",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 70.30269,
+    "latitude": 61.60668,
+    "ingameLongitude": 283654.75,
+    "ingameLatitude": 324453.125,
+    "ingameHeight": 22871.512,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282843,
+    "urlId": "1BygGoaNT7k23oddBx8wyX",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 61.00318,
+    "latitude": 58.53704,
+    "ingameLongitude": 327868.063,
+    "ingameLatitude": 339054.594,
+    "ingameHeight": 21869.32,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282844,
+    "urlId": "1BygGoaNT7k23oddBx8wyY",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 57.48592,
+    "latitude": 60.83821,
+    "ingameLongitude": 344590.469,
+    "ingameLatitude": 328108.531,
+    "ingameHeight": 21634.002,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282845,
+    "urlId": "1BygGoaNT7k23oddBx8wyZ",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 57.06418,
+    "latitude": 60.9017,
+    "ingameLongitude": 346595.563,
+    "ingameLatitude": 327806.531,
+    "ingameHeight": 21286.412,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282846,
+    "urlId": "1BygGoaNT7k23oddBx8wya",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 54.26142,
+    "latitude": 63.40989,
+    "ingameLongitude": 359920.938,
+    "ingameLatitude": 315875.688,
+    "ingameHeight": 20984.84,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282847,
+    "urlId": "1BygGoaNT7k23oddBx8wyb",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 55.29564,
+    "latitude": 61.65587,
+    "ingameLongitude": 355003.875,
+    "ingameLatitude": 324219.125,
+    "ingameHeight": 20969.408,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282848,
+    "urlId": "1BygGoaNT7k23oddBx8wyc",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 49.66786,
+    "latitude": 49.54767,
+    "ingameLongitude": 381760.438,
+    "ingameLatitude": 381814.688,
+    "ingameHeight": 19808.125,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282849,
+    "urlId": "1BygGoaNT7k23oddBx8wyd",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 49.44086,
+    "latitude": 49.1899,
+    "ingameLongitude": 382839.656,
+    "ingameLatitude": 383516.469,
+    "ingameHeight": 20467.303,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282850,
+    "urlId": "1BygGoaNT7k23oddBx8wye",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 51.6297,
+    "latitude": 49.25213,
+    "ingameLongitude": 372433.125,
+    "ingameLatitude": 383220.5,
+    "ingameHeight": 20659.145,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282851,
+    "urlId": "1BygGoaNT7k23oddBx8wyf",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 51.97118,
+    "latitude": 48.9679,
+    "ingameLongitude": 370809.563,
+    "ingameLatitude": 384572.469,
+    "ingameHeight": 20389.328,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282852,
+    "urlId": "1BygGoaNT7k23oddBx8wyg",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 36.48321,
+    "latitude": 304.44683,
+    "ingameLongitude": 444445.188,
+    "ingameLatitude": -830674.063,
+    "ingameHeight": 2463.739,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282853,
+    "urlId": "1BygGoaNT7k23oddBx8wyh",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 36.00376,
+    "latitude": 304.44955,
+    "ingameLongitude": 446724.688,
+    "ingameLatitude": -830687,
+    "ingameHeight": 2487.133,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282854,
+    "urlId": "1BygGoaNT7k23oddBx8wyi",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 35.46467,
+    "latitude": 304.57164,
+    "ingameLongitude": 449287.719,
+    "ingameLatitude": -831267.75,
+    "ingameHeight": 2448.15,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282855,
+    "urlId": "1BygGoaNT7k23oddBx8wyj",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 35.55883,
+    "latitude": 304.83219,
+    "ingameLongitude": 448840.031,
+    "ingameLatitude": -832507.125,
+    "ingameHeight": 3184.677,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282856,
+    "urlId": "1BygGoaNT7k23oddBx8wyk",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 36.99505,
+    "latitude": 306.06353,
+    "ingameLongitude": 442011.688,
+    "ingameLatitude": -838364.313,
+    "ingameHeight": 3680.103,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282857,
+    "urlId": "1BygGoaNT7k23oddBx8wym",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 36.14307,
+    "latitude": 305.89106,
+    "ingameLongitude": 446062.344,
+    "ingameLatitude": -837543.875,
+    "ingameHeight": 3712.099,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282858,
+    "urlId": "1BygGoaNmcCz7LagNtEoNN",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 36.34508,
+    "latitude": 306.07398,
+    "ingameLongitude": 445101.906,
+    "ingameLatitude": -838414,
+    "ingameHeight": 4390.21,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282859,
+    "urlId": "1BygGoaNmcCz7LagNtEoNP",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 84.11182,
+    "latitude": 269.94348,
+    "ingameLongitude": 218000.969,
+    "ingameLatitude": -666550.625,
+    "ingameHeight": 3863.35,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282860,
+    "urlId": "1BygGoaNmcCz7LagNtEoNQ",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": 7,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 94.66068,
+    "latitude": 274.57966,
+    "ingameLongitude": 167847.719,
+    "ingameLatitude": -688603.75,
+    "ingameHeight": 2659.025,
+    "category": {
+      "id": 29
+    }
+  },
+  {
+    "id": 282861,
+    "urlId": "1BygGoaNmcCz7LagNtEoNR",
+    "title": "Cement bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#e8d299",
+    "colorIcon": "#a63c2f",
+    "longitude": 295.53381,
+    "latitude": 101.66308,
+    "ingameLongitude": -787178.188,
+    "ingameLatitude": 133915.266,
+    "ingameHeight": 43690.918,
+    "category": {
+      "id": 29
+    }
+  }
+]

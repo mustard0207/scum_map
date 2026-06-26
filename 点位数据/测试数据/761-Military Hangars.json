@@ -1,0 +1,512 @@
+[
+  {
+    "id": 439419,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHM",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 313.49395,
+    "latitude": 3.67475,
+    "ingameLongitude": -873814.938,
+    "ingameLatitude": 601698.938,
+    "ingameHeight": 63756.832,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439420,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHN",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 172.10245,
+    "latitude": 103.50451,
+    "ingameLongitude": -200437.938,
+    "ingameLatitude": 126259.578,
+    "ingameHeight": 88567.281,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439421,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHP",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 77.90396,
+    "latitude": 137.22805,
+    "ingameLongitude": 248182.375,
+    "ingameLatitude": -34348.812,
+    "ingameHeight": 24268.238,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439422,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHQ",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 78.85429,
+    "latitude": 137.21971,
+    "ingameLongitude": 243656.438,
+    "ingameLatitude": -34309.082,
+    "ingameHeight": 24617.76,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439423,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHR",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 27.41957,
+    "latitude": 244.46515,
+    "ingameLongitude": 488614.312,
+    "ingameLatitude": -545065.625,
+    "ingameHeight": 5271.525,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439424,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHS",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 25.42268,
+    "latitude": 245.44138,
+    "ingameLongitude": 498124.5,
+    "ingameLatitude": -549714.938,
+    "ingameHeight": 3921.385,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439425,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHT",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 27.41957,
+    "latitude": 245.36644,
+    "ingameLongitude": 488614.312,
+    "ingameLatitude": -549358,
+    "ingameHeight": 5271.471,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439426,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHU",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 25.42268,
+    "latitude": 244.5401,
+    "ingameLongitude": 498124.5,
+    "ingameLatitude": -545422.562,
+    "ingameHeight": 3921.439,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439427,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHV",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 25.42268,
+    "latitude": 244.97847,
+    "ingameLongitude": 498124.5,
+    "ingameLatitude": -547510.312,
+    "ingameHeight": 3921.439,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439428,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHW",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 27.41957,
+    "latitude": 244.90352,
+    "ingameLongitude": 488614.312,
+    "ingameLatitude": -547153.375,
+    "ingameHeight": 5271.525,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439429,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHX",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 78.37013,
+    "latitude": 137.20812,
+    "ingameLongitude": 245962.25,
+    "ingameLatitude": -34253.906,
+    "ingameHeight": 24440.482,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439430,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHY",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 214.131,
+    "latitude": 83.59438,
+    "ingameLongitude": -400598.875,
+    "ingameLatitude": 221081.609,
+    "ingameHeight": 59717.66,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439431,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHZ",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 171.74822,
+    "latitude": 265.29951,
+    "ingameLongitude": -198750.891,
+    "ingameLatitude": -644289.312,
+    "ingameHeight": 6000.283,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439432,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHa",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 309.90996,
+    "latitude": 24.00646,
+    "ingameLongitude": -856746.188,
+    "ingameLatitude": 504869.125,
+    "ingameHeight": 60237.527,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439433,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHb",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 309.90975,
+    "latitude": 22.2423,
+    "ingameLongitude": -856745.188,
+    "ingameLatitude": 513270.969,
+    "ingameHeight": 60237.527,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439434,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHc",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 308.88642,
+    "latitude": 19.61728,
+    "ingameLongitude": -851871.562,
+    "ingameLatitude": 525772.625,
+    "ingameHeight": 62132.008,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439435,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHd",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 311.79463,
+    "latitude": 16.72637,
+    "ingameLongitude": -865721.938,
+    "ingameLatitude": 539540.562,
+    "ingameHeight": 60868.809,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439436,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHe",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 309.44692,
+    "latitude": 15.64555,
+    "ingameLongitude": -854540.938,
+    "ingameLatitude": 544688,
+    "ingameHeight": 61608.156,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439437,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHf",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 28.21049,
+    "latitude": 10.88033,
+    "ingameLongitude": 484847.562,
+    "ingameLatitude": 567382.375,
+    "ingameHeight": 7989.988,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439438,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHg",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 28.49973,
+    "latitude": 10.75573,
+    "ingameLongitude": 483470.031,
+    "ingameLatitude": 567975.75,
+    "ingameHeight": 7989.988,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439439,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHh",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 28.86616,
+    "latitude": 10.59795,
+    "ingameLongitude": 481724.906,
+    "ingameLatitude": 568727.188,
+    "ingameHeight": 7989.988,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439440,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHi",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 29.15543,
+    "latitude": 10.47336,
+    "ingameLongitude": 480347.25,
+    "ingameLatitude": 569320.562,
+    "ingameHeight": 7989.988,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439441,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHj",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 178.76129,
+    "latitude": 137.64973,
+    "ingameLongitude": -232150.656,
+    "ingameLatitude": -36357.086,
+    "ingameHeight": 35687.395,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439442,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHk",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 178.45734,
+    "latitude": 137.73904,
+    "ingameLongitude": -230703.078,
+    "ingameLatitude": -36782.41,
+    "ingameHeight": 35687.395,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439443,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHm",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 185.97505,
+    "latitude": 140.24706,
+    "ingameLongitude": -266506.156,
+    "ingameLatitude": -48726.84,
+    "ingameHeight": 35687.395,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439444,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHn",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 185.66832,
+    "latitude": 140.337,
+    "ingameLongitude": -265045.375,
+    "ingameLatitude": -49155.211,
+    "ingameHeight": 35687.395,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439445,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHo",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 186.60821,
+    "latitude": 140.06121,
+    "ingameLongitude": -269521.594,
+    "ingameLatitude": -47841.73,
+    "ingameHeight": 35689.266,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439446,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHp",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 186.91857,
+    "latitude": 139.97014,
+    "ingameLongitude": -270999.688,
+    "ingameLatitude": -47408.035,
+    "ingameHeight": 35690.906,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439447,
+    "urlId": "1CQE2dBdtBSLGcEMZ5RfHq",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 185.50473,
+    "latitude": 135.67326,
+    "ingameLongitude": -264266.281,
+    "ingameLatitude": -26944.107,
+    "ingameHeight": 35661.27,
+    "category": {
+      "id": 761
+    }
+  },
+  {
+    "id": 439448,
+    "urlId": "1CQE2dBeGSsKfTnQ49Tscs",
+    "title": "Military Hangars",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#de9b0e",
+    "longitude": 185.80602,
+    "latitude": 135.58476,
+    "ingameLongitude": -265701.188,
+    "ingameLatitude": -26522.658,
+    "ingameHeight": 35661.27,
+    "category": {
+      "id": 761
+    }
+  }
+]

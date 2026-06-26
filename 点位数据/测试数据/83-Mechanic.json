@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238389,
+    "urlId": "1BtrLd39LWnJCjzqBM1PvQ",
+    "title": "Mechanic",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#169c7b",
+    "colorIcon": "#ffffff",
+    "longitude": 126.03931,
+    "latitude": 271.3674,
+    "ingameLongitude": 18661.996,
+    "ingameLatitude": -673323.875,
+    "ingameHeight": 466.791,
+    "category": {
+      "id": 83
+    }
+  },
+  {
+    "id": 238390,
+    "urlId": "1BtrLd39LUCRaJSgshHqrD",
+    "title": "Mechanic",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#169c7b",
+    "colorIcon": "#ffffff",
+    "longitude": 260.0472,
+    "latitude": 246.24407,
+    "ingameLongitude": -618461.625,
+    "ingameLatitude": -553818.75,
+    "ingameHeight": 2552.881,
+    "category": {
+      "id": 83
+    }
+  },
+  {
+    "id": 238391,
+    "urlId": "1BtrLd39HmkRvn7UroTLUS",
+    "title": "Mechanic",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#169c7b",
+    "colorIcon": "#ffffff",
+    "longitude": 9.37129,
+    "latitude": 176.7004,
+    "ingameLongitude": 573345.375,
+    "ingameLatitude": -223017.656,
+    "ingameHeight": 468.383,
+    "category": {
+      "id": 83
+    }
+  },
+  {
+    "id": 238392,
+    "urlId": "1BtrLd39HwZm9tgxfdQGQG",
+    "title": "Mechanic",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#169c7b",
+    "colorIcon": "#ffffff",
+    "longitude": 162.37762,
+    "latitude": 69.28742,
+    "ingameLongitude": -154103.922,
+    "ingameLatitude": 287917.813,
+    "ingameHeight": 69783.953,
+    "category": {
+      "id": 83
+    }
+  }
+]

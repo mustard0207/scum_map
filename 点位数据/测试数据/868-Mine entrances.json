@@ -1,0 +1,733 @@
+[
+  {
+    "id": 508324,
+    "urlId": "1Cc9L81NyRi1RTXwgVsmdC",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 228.88693,
+    "latitude": 40.46277,
+    "ingameLongitude": -470874,
+    "ingameLatitude": 426496,
+    "ingameHeight": 95171,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508325,
+    "urlId": "1Cc9L81TnHxKP8DYabc1Ph",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 228.32462,
+    "latitude": 41.45952,
+    "ingameLongitude": -468196,
+    "ingameLatitude": 421749,
+    "ingameHeight": 95213,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508326,
+    "urlId": "1Cc9L81YRdP5fV4dmSLLBe",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 228.16399,
+    "latitude": 41.7245,
+    "ingameLongitude": -467431,
+    "ingameLatitude": 420487,
+    "ingameHeight": 95198,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508327,
+    "urlId": "1Cc9L81dSBQBV1wdb9hNFo",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 228.02205,
+    "latitude": 41.56786,
+    "ingameLongitude": -466755,
+    "ingameLatitude": 421233,
+    "ingameHeight": 95183,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508328,
+    "urlId": "1Cc9L81haSgfpiVfTrVhw4",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 227.33669,
+    "latitude": 40.7517,
+    "ingameLongitude": -463491,
+    "ingameLatitude": 425120,
+    "ingameHeight": 94348,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508329,
+    "urlId": "1Cc9L81nANxEqMuYLLFaXA",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 227.33207,
+    "latitude": 42.48419,
+    "ingameLongitude": -463469,
+    "ingameLatitude": 416869,
+    "ingameHeight": 96481,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508330,
+    "urlId": "1Cc9L81rF8cQYEndUBxxUh",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 227.29953,
+    "latitude": 42.56629,
+    "ingameLongitude": -463314,
+    "ingameLatitude": 416478,
+    "ingameHeight": 96501,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508331,
+    "urlId": "1Cc9L81vFfh6KsU62Kd89W",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 227.17753,
+    "latitude": 40.19526,
+    "ingameLongitude": -462733,
+    "ingameLatitude": 427770,
+    "ingameHeight": 94415,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508332,
+    "urlId": "1Cc9L81zAV8hgvqwdXuVLv",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 227.08556,
+    "latitude": 42.49658,
+    "ingameLongitude": -462295,
+    "ingameLatitude": 416810,
+    "ingameHeight": 96464,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508333,
+    "urlId": "1Cc9L8247VCirLiXnkS6gT",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.92892,
+    "latitude": 40.29899,
+    "ingameLongitude": -461549,
+    "ingameLatitude": 427276,
+    "ingameHeight": 94365,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508334,
+    "urlId": "1Cc9L8284SgjmPZwXdszti",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.68368,
+    "latitude": 40.45227,
+    "ingameLongitude": -460381,
+    "ingameLatitude": 426546,
+    "ingameHeight": 94430,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508335,
+    "urlId": "1Cc9L82CeyTnXdMA2g9vSq",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.63706,
+    "latitude": 41.72135,
+    "ingameLongitude": -460159,
+    "ingameLatitude": 420502,
+    "ingameHeight": 90927,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508336,
+    "urlId": "1Cc9L82Hsn9twPt6ibk6ye",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.58226,
+    "latitude": 47.52923,
+    "ingameLongitude": -459898,
+    "ingameLatitude": 392842,
+    "ingameHeight": 89781,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508337,
+    "urlId": "1Cc9L82NPZxprgXiyyTie7",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.5537,
+    "latitude": 40.25259,
+    "ingameLongitude": -459762,
+    "ingameLatitude": 427497,
+    "ingameHeight": 90686,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508338,
+    "urlId": "1Cc9L82TFP7ipZF3G3Fpsv",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.49365,
+    "latitude": 40.1434,
+    "ingameLongitude": -459476,
+    "ingameLatitude": 428017,
+    "ingameHeight": 94383,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508339,
+    "urlId": "1Cc9L82XmKR1m1dtqV5RK8",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.42793,
+    "latitude": 42.3097,
+    "ingameLongitude": -459163,
+    "ingameLatitude": 417700,
+    "ingameHeight": 90982,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508340,
+    "urlId": "1Cc9L82c81Qc9tyDhDHP4k",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.42583,
+    "latitude": 42.31537,
+    "ingameLongitude": -459153,
+    "ingameLatitude": 417673,
+    "ingameHeight": 90987,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508341,
+    "urlId": "1Cc9L82h9r3Dqv6x2F2jm5",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.24021,
+    "latitude": 40.61143,
+    "ingameLongitude": -458269,
+    "ingameLatitude": 425788,
+    "ingameHeight": 94454,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508342,
+    "urlId": "1Cc9L82m8hjdpw3LA4xTkN",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.23349,
+    "latitude": 39.39044,
+    "ingameLongitude": -458237,
+    "ingameLatitude": 431603,
+    "ingameHeight": 90684,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508343,
+    "urlId": "1Cc9L82q4feFZN5hiyCisd",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.23118,
+    "latitude": 40.61584,
+    "ingameLongitude": -458226,
+    "ingameLatitude": 425767,
+    "ingameHeight": 94430,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508344,
+    "urlId": "1Cc9L82tzNnFYUqXKyUpxP",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.17386,
+    "latitude": 41.96618,
+    "ingameLongitude": -457953,
+    "ingameLatitude": 419336,
+    "ingameHeight": 96474,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508345,
+    "urlId": "1Cc9L82yK8nN6eoQWSmZ5f",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.11591,
+    "latitude": 41.94162,
+    "ingameLongitude": -457677,
+    "ingameLatitude": 419453,
+    "ingameHeight": 96548,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508346,
+    "urlId": "1Cc9L833mRooewUNbm3b4W",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 226.0506,
+    "latitude": 41.99432,
+    "ingameLongitude": -457366,
+    "ingameLatitude": 419202,
+    "ingameHeight": 98432,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508347,
+    "urlId": "1Cc9L837wKWUBARw7ai6SQ",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.92147,
+    "latitude": 38.39264,
+    "ingameLongitude": -456751,
+    "ingameLatitude": 436355,
+    "ingameHeight": 90696,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508348,
+    "urlId": "1Cc9L83C1rUqpuUYsPbMuM",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.80598,
+    "latitude": 46.50162,
+    "ingameLongitude": -456201,
+    "ingameLatitude": 397736,
+    "ingameHeight": 90877,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508349,
+    "urlId": "1Cc9L83GFvkVE3cc1S468U",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.78604,
+    "latitude": 41.29784,
+    "ingameLongitude": -456106,
+    "ingameLatitude": 422519,
+    "ingameHeight": 94315,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508350,
+    "urlId": "1Cc9L83LEBwojvvzCQcCij",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.63444,
+    "latitude": 46.32335,
+    "ingameLongitude": -455384,
+    "ingameLatitude": 398585,
+    "ingameHeight": 90833,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508351,
+    "urlId": "1Cc9L83QEjRGM8uqmaivX2",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.60273,
+    "latitude": 43.64681,
+    "ingameLongitude": -455233,
+    "ingameLatitude": 411332,
+    "ingameHeight": 92589,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508352,
+    "urlId": "1Cc9L83UJcom7BDAWoWE4a",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.43874,
+    "latitude": 38.6213,
+    "ingameLongitude": -454452,
+    "ingameLatitude": 435266,
+    "ingameHeight": 90767,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508353,
+    "urlId": "1Cc9L83Z1EgTsmPrrot4KW",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.35349,
+    "latitude": 43.64261,
+    "ingameLongitude": -454046,
+    "ingameLatitude": 411352,
+    "ingameHeight": 92640,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508354,
+    "urlId": "1Cc9L83da8wfdP7mNg8gan",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.32703,
+    "latitude": 44.26057,
+    "ingameLongitude": -453920,
+    "ingameLatitude": 408409,
+    "ingameHeight": 92605,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508355,
+    "urlId": "1Cc9L83ibXvgmTdQHMSsa5",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.28378,
+    "latitude": 36.8718,
+    "ingameLongitude": -453714,
+    "ingameLatitude": 443598,
+    "ingameHeight": 90519,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508356,
+    "urlId": "1Cc9L83nsVALeeUi2TKvAd",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.27265,
+    "latitude": 42.1749,
+    "ingameLongitude": -453661,
+    "ingameLatitude": 418342,
+    "ingameHeight": 94277,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508357,
+    "urlId": "1Cc9L83sRe5QixdGGb2Xor",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.26341,
+    "latitude": 43.9813,
+    "ingameLongitude": -453617,
+    "ingameLatitude": 409739,
+    "ingameHeight": 92628,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508358,
+    "urlId": "1Cc9L83wTXWNw3di5EmmYw",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 225.2063,
+    "latitude": 38.71096,
+    "ingameLongitude": -453345,
+    "ingameLatitude": 434839,
+    "ingameHeight": 90753,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508359,
+    "urlId": "1Cc9L841oSWfC1A7pziUh8",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.95097,
+    "latitude": 39.44482,
+    "ingameLongitude": -452129,
+    "ingameLatitude": 431344,
+    "ingameHeight": 94415,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508360,
+    "urlId": "1Cc9L845uE2vfd6zAYjxRC",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.94488,
+    "latitude": 37.27516,
+    "ingameLongitude": -452100,
+    "ingameLatitude": 441677,
+    "ingameHeight": 90407,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508361,
+    "urlId": "1Cc9L84AQmgDpEfNyuMEfV",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.94446,
+    "latitude": 37.27558,
+    "ingameLongitude": -452098,
+    "ingameLatitude": 441675,
+    "ingameHeight": 90448,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508362,
+    "urlId": "1Cc9L84EdvPRaoaQwAcrRc",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.741,
+    "latitude": 44.22424,
+    "ingameLongitude": -451129,
+    "ingameLatitude": 408582,
+    "ingameHeight": 92577,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508363,
+    "urlId": "1Cc9L84K42KWRXYSuWEjQX",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.21963,
+    "latitude": 35.19684,
+    "ingameLongitude": -448646,
+    "ingameLatitude": 451575,
+    "ingameHeight": 90423,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508364,
+    "urlId": "1Cc9L84PWLGQTVU7hsEUS3",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 224.18373,
+    "latitude": 37.47883,
+    "ingameLongitude": -448475,
+    "ingameLatitude": 440707,
+    "ingameHeight": 90449,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508365,
+    "urlId": "1Cc9L84UWfThUyQUJmfasN",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 223.91685,
+    "latitude": 38.74603,
+    "ingameLongitude": -447204,
+    "ingameLatitude": 434672,
+    "ingameHeight": 95035,
+    "category": {
+      "id": 868
+    }
+  },
+  {
+    "id": 508366,
+    "urlId": "1Cc9L84a4WybcN3NYUiTKt",
+    "title": null,
+    "icon": "faHelmetSafety",
+    "number": null,
+    "colorBackground": "#c2410c",
+    "colorIcon": "#ffffff",
+    "longitude": 223.09039,
+    "latitude": 45.19621,
+    "ingameLongitude": -443268,
+    "ingameLatitude": 403953,
+    "ingameHeight": 91714,
+    "category": {
+      "id": 868
+    }
+  }
+]

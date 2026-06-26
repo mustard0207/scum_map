@@ -1,0 +1,291 @@
+[
+  {
+    "id": 470907,
+    "urlId": "1CU9TRk4zDKZxtFCbXhg3M",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 313.34333,
+    "latitude": 306.91504,
+    "ingameLongitude": -873097.625,
+    "ingameLatitude": -842482.875,
+    "ingameHeight": 1001.39,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470908,
+    "urlId": "1CU9TRk5bkmuQLFtBk3bby",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 164.9985,
+    "latitude": 273.17979,
+    "ingameLongitude": -166605.359,
+    "ingameLatitude": -681818.75,
+    "ingameHeight": 915.274,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470909,
+    "urlId": "1CU9TRk6JakHrcQNc6Q995",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 35.30974,
+    "latitude": 300.66293,
+    "ingameLongitude": 451037.375,
+    "ingameLatitude": -812707.188,
+    "ingameHeight": 516.041,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470910,
+    "urlId": "1CU9TRk6q2cBs7j4x1Azr7",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 138.07555,
+    "latitude": 233.01336,
+    "ingameLongitude": -38384.828,
+    "ingameLatitude": -490526.125,
+    "ingameHeight": 342.987,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470911,
+    "urlId": "1CU9TRk7PnXX1799CK9P2K",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 59.48278,
+    "latitude": 206.92357,
+    "ingameLongitude": 335913.25,
+    "ingameLatitude": -366273.531,
+    "ingameHeight": 12841.215,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470912,
+    "urlId": "1CU9TRk7ocfGC3xTMb9YR3",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 227.97601,
+    "latitude": 152.98666,
+    "ingameLongitude": -466535.75,
+    "ingameLatitude": -109399.008,
+    "ingameHeight": 30915.547,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470913,
+    "urlId": "1CU9TRk8BhPR4PD4Q5qW3m",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 141.21902,
+    "latitude": 147.97891,
+    "ingameLongitude": -53355.605,
+    "ingameLatitude": -85549.586,
+    "ingameHeight": 36127.074,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470914,
+    "urlId": "1CU9TRk8p1PygoTuxh9p4F",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 305.4618,
+    "latitude": 104.02708,
+    "ingameLongitude": -835561.813,
+    "ingameLatitude": 123770.984,
+    "ingameHeight": 42605.254,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470915,
+    "urlId": "1CU9TRk9QamZfyfEpNSTch",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 315.62744,
+    "latitude": 101.594,
+    "ingameLongitude": -883975.688,
+    "ingameLatitude": 135358.547,
+    "ingameHeight": 42083.324,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470916,
+    "urlId": "1CU9TRk9yco5FqwYpaxvGL",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 232.02959,
+    "latitude": 89.58084,
+    "ingameLongitude": -485840.906,
+    "ingameLatitude": 192571.188,
+    "ingameHeight": 38218.879,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470917,
+    "urlId": "1CU9TRkAWsZeyNB64GbCxJ",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 96.30105,
+    "latitude": 122.12364,
+    "ingameLongitude": 160566.25,
+    "ingameLatitude": 37586.137,
+    "ingameHeight": 29951.014,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470918,
+    "urlId": "1CU9TRkAtcs4MPCdR76WzN",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 31.0854,
+    "latitude": 103.86855,
+    "ingameLongitude": 471155.781,
+    "ingameLatitude": 124525.969,
+    "ingameHeight": 8449.53,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470919,
+    "urlId": "1CU9TRkBnM7Aubev5PpxpD",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 243.20753,
+    "latitude": 30.93311,
+    "ingameLongitude": -539075.875,
+    "ingameLatitude": 471881.031,
+    "ingameHeight": 81021.211,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470920,
+    "urlId": "1CU9TRkC8GwX9Ufgq2cV6u",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 197.92925,
+    "latitude": 10.74591,
+    "ingameLongitude": -323438.031,
+    "ingameLatitude": 568022.563,
+    "ingameHeight": 77032.797,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470921,
+    "urlId": "1CU9TRkCg4TLjG4F3w9RAu",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 73.73872,
+    "latitude": 23.21801,
+    "ingameLongitude": 268019.344,
+    "ingameLatitude": 508624.156,
+    "ingameHeight": 21718.23,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470922,
+    "urlId": "1CU9TRkDCkNheDHQBHnDz5",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 53.28096,
+    "latitude": 62.54202,
+    "ingameLongitude": 365449.406,
+    "ingameLatitude": 321343.563,
+    "ingameHeight": 20345.148,
+    "category": {
+      "id": 803
+    }
+  },
+  {
+    "id": 470923,
+    "urlId": "1CU9TRkE5xLMzckPzmZCeR",
+    "title": "Mailbox",
+    "icon": "faMailBulk",
+    "number": null,
+    "colorBackground": "#887636",
+    "colorIcon": "#251e0b",
+    "longitude": 63.9373,
+    "latitude": 53.79005,
+    "ingameLongitude": 314698.594,
+    "ingameLatitude": 363024.813,
+    "ingameHeight": 21243.139,
+    "category": {
+      "id": 803
+    }
+  }
+]

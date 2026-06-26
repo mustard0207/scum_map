@@ -1,0 +1,70 @@
+[
+  {
+    "id": 475471,
+    "urlId": "1CV7t6N6GR4juxPGwnkjNZ",
+    "title": "Gun Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#d0021b",
+    "longitude": 62.08248,
+    "latitude": 57.67791,
+    "ingameLongitude": 323532.19,
+    "ingameLatitude": 344508.91,
+    "ingameHeight": 21436.96,
+    "category": {
+      "id": 775
+    }
+  },
+  {
+    "id": 475472,
+    "urlId": "1CV7t6N6V66i28q7TgQ5YL",
+    "title": "Gun Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#d0021b",
+    "longitude": 70.10612,
+    "latitude": 51.5834,
+    "ingameLongitude": 285319.62,
+    "ingameLatitude": 373534,
+    "ingameHeight": 22321.53,
+    "category": {
+      "id": 775
+    }
+  },
+  {
+    "id": 475473,
+    "urlId": "1CV7t6N6ssx4TwufWVqMTC",
+    "title": "Gun Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#d0021b",
+    "longitude": 60.3432,
+    "latitude": 53.06809,
+    "ingameLongitude": 331815.5,
+    "ingameLatitude": 366463.16,
+    "ingameHeight": 21243.01,
+    "category": {
+      "id": 775
+    }
+  },
+  {
+    "id": 475474,
+    "urlId": "1CV7t6N6ssx4TwufWVqMTD",
+    "title": "Gun Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#d0021b",
+    "longitude": 166.55757,
+    "latitude": 272.90962,
+    "ingameLongitude": -174030.41,
+    "ingameLatitude": -680532.06,
+    "ingameHeight": 1367.59,
+    "category": {
+      "id": 775
+    }
+  }
+]

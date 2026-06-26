@@ -1,0 +1,478 @@
+[
+  {
+    "id": 508276,
+    "urlId": "1Cc9L7wSWDNUrXh41CVxCU",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 262.0884,
+    "latitude": 248.58016,
+    "ingameLongitude": -628996,
+    "ingameLatitude": -564663,
+    "ingameHeight": 220,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508277,
+    "urlId": "1Cc9L7wWtFYRyDeWA76sGU",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 261.01942,
+    "latitude": 247.24955,
+    "ingameLongitude": -623905,
+    "ingameLatitude": -558326,
+    "ingameHeight": 2555,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508278,
+    "urlId": "1Cc9L7wb6rrbEWo49npqLF",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 260.98436,
+    "latitude": 247.40871,
+    "ingameLongitude": -623738,
+    "ingameLatitude": -559084,
+    "ingameHeight": 2565,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508279,
+    "urlId": "1Cc9L7wfVvKcDD31UPH2iJ",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 260.28095,
+    "latitude": 247.70141,
+    "ingameLongitude": -620388,
+    "ingameLatitude": -560478,
+    "ingameHeight": 2466,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508280,
+    "urlId": "1Cc9L7wjqsacN6dRtebE1M",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 259.85827,
+    "latitude": 246.26498,
+    "ingameLongitude": -618375,
+    "ingameLatitude": -553637,
+    "ingameHeight": 2472,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508281,
+    "urlId": "1Cc9L7wqFo88pnUaZ5RA55",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 259.63003,
+    "latitude": 247.13911,
+    "ingameLongitude": -617288,
+    "ingameLatitude": -557800,
+    "ingameHeight": 2483,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508282,
+    "urlId": "1Cc9L7wu2qpJjTdPyWrU68",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 259.56808,
+    "latitude": 245.23401,
+    "ingameLongitude": -616993,
+    "ingameLatitude": -548727,
+    "ingameHeight": 2459,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508283,
+    "urlId": "1Cc9L7wywrAyoY4dQ3AmTB",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 163.07381,
+    "latitude": 69.1349,
+    "ingameLongitude": -157439,
+    "ingameLatitude": 289945,
+    "ingameHeight": 69717,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508284,
+    "urlId": "1Cc9L7x3hZzkKh6eSofS18",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 162.55559,
+    "latitude": 68.52891,
+    "ingameLongitude": -154971,
+    "ingameLatitude": 292831,
+    "ingameHeight": 69787,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508285,
+    "urlId": "1Cc9L7x7eRjCTJNNWQgaDm",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 162.42478,
+    "latitude": 69.54687,
+    "ingameLongitude": -154348,
+    "ingameLatitude": 287983,
+    "ingameHeight": 69702,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508286,
+    "urlId": "1Cc9L7xCKR1vvTdHAJic9y",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 161.86142,
+    "latitude": 70.36052,
+    "ingameLongitude": -151665,
+    "ingameLatitude": 284108,
+    "ingameHeight": 69702,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508287,
+    "urlId": "1Cc9L7xG7panK8MJcDEspZ",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 161.58929,
+    "latitude": 69.12125,
+    "ingameLongitude": -150369,
+    "ingameLatitude": 290010,
+    "ingameHeight": 69704,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508288,
+    "urlId": "1Cc9L7xM4tTqa65shh71by",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 161.48389,
+    "latitude": 68.37416,
+    "ingameLongitude": -149867,
+    "ingameLatitude": 293568,
+    "ingameHeight": 69710,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508289,
+    "urlId": "1Cc9L7xRsjJYS2UEFqyKDV",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 161.06646,
+    "latitude": 69.71002,
+    "ingameLongitude": -147879,
+    "ingameLatitude": 287206,
+    "ingameHeight": 69765,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508290,
+    "urlId": "1Cc9L7xXKmPYtHib7sZsfk",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 126.30572,
+    "latitude": 271.66278,
+    "ingameLongitude": 17669,
+    "ingameLatitude": -674594,
+    "ingameHeight": 364,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508291,
+    "urlId": "1Cc9L7xby9bWYqSQAsBKGS",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 126.17953,
+    "latitude": 272.96525,
+    "ingameLongitude": 18270,
+    "ingameLatitude": -680797,
+    "ingameHeight": 354,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508292,
+    "urlId": "1Cc9L7xggQZWiua6WR9Zgq",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 125.96808,
+    "latitude": 271.33879,
+    "ingameLongitude": 19277,
+    "ingameLatitude": -673051,
+    "ingameHeight": 356,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508293,
+    "urlId": "1Cc9L7xkpazJr3gG3d2EAM",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 125.68147,
+    "latitude": 272.14089,
+    "ingameLongitude": 20642,
+    "ingameLatitude": -676871,
+    "ingameHeight": 353,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508294,
+    "urlId": "1Cc9L7xpV6FRj3eddr9oad",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 125.2653,
+    "latitude": 272.86152,
+    "ingameLongitude": 22624,
+    "ingameLatitude": -680303,
+    "ingameHeight": 415,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508295,
+    "urlId": "1Cc9L7xtMAYsDwUYVRM3ow",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 124.78845,
+    "latitude": 272.45501,
+    "ingameLongitude": 24895,
+    "ingameLatitude": -678367,
+    "ingameHeight": 430,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508296,
+    "urlId": "1Cc9L7xyAqGB33ko98xmsp",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 124.50604,
+    "latitude": 271.59832,
+    "ingameLongitude": 26240,
+    "ingameLatitude": -674287,
+    "ingameHeight": 369,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508297,
+    "urlId": "1Cc9L7y3bUbfSd1PgZBbBQ",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 11.04693,
+    "latitude": 177.1137,
+    "ingameLongitude": 566589,
+    "ingameLatitude": -224304,
+    "ingameHeight": 377,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508298,
+    "urlId": "1Cc9L7y8QV3xp68D1SYLzw",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 10.6379,
+    "latitude": 176.42351,
+    "ingameLongitude": 568537,
+    "ingameLatitude": -221017,
+    "ingameHeight": 469,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508299,
+    "urlId": "1Cc9L7yBwaqaCF5fEc3FVY",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 10.30005,
+    "latitude": 176.17301,
+    "ingameLongitude": 570146,
+    "ingameLatitude": -219824,
+    "ingameHeight": 440,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508300,
+    "urlId": "1Cc9L7yFzPNxw6iAyYFuGK",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 10.14194,
+    "latitude": 178.28325,
+    "ingameLongitude": 570899,
+    "ingameLatitude": -229874,
+    "ingameHeight": 380,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508301,
+    "urlId": "1Cc9L7yKimasFAHpFh2nzr",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 9.63045,
+    "latitude": 178.38047,
+    "ingameLongitude": 573335,
+    "ingameLatitude": -230337,
+    "ingameHeight": 367,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508302,
+    "urlId": "1Cc9L7yQd4TRPm7CQvncsa",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 9.5916,
+    "latitude": 176.86782,
+    "ingameLongitude": 573520,
+    "ingameLatitude": -223133,
+    "ingameHeight": 369,
+    "category": {
+      "id": 865
+    }
+  },
+  {
+    "id": 508303,
+    "urlId": "1Cc9L7yVUneMu5bMXsCNTG",
+    "title": null,
+    "icon": "faBook",
+    "number": null,
+    "colorBackground": "#b91c1c",
+    "colorIcon": "#ffffff",
+    "longitude": 9.30373,
+    "latitude": 177.72997,
+    "ingameLongitude": 574891,
+    "ingameLatitude": -227239,
+    "ingameHeight": 368,
+    "category": {
+      "id": 865
+    }
+  }
+]

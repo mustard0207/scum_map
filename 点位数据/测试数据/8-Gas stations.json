@@ -1,0 +1,427 @@
+[
+  {
+    "id": 365938,
+    "urlId": "1CBbRU4WB29Urb4d6Wugxi",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 215.54756,
+    "latitude": 12.14256,
+    "ingameLongitude": -406893.688,
+    "ingameLatitude": 559741,
+    "ingameHeight": 83366.047,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365939,
+    "urlId": "1CBbRU5EsCbwTrs6dX4nnU",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 105.47893,
+    "latitude": 30.75139,
+    "ingameLongitude": 116413.727,
+    "ingameLatitude": 471223.656,
+    "ingameHeight": 29474.162,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365940,
+    "urlId": "1CBbRU67PD9FRzATQ69kDv",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 89.5698,
+    "latitude": 98.58023,
+    "ingameLongitude": 192051.703,
+    "ingameLatitude": 148579.609,
+    "ingameHeight": 32250.631,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365941,
+    "urlId": "1CBbRU6xuE62f1s7JJvp5Y",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 285.92225,
+    "latitude": 104.9175,
+    "ingameLongitude": -741481.25,
+    "ingameLatitude": 118434.859,
+    "ingameHeight": 37899.664,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365942,
+    "urlId": "1CBbRU7XuC7A5Y34zqsxrG",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 236.5193,
+    "latitude": 65.23448,
+    "ingameLongitude": -506601.188,
+    "ingameLatitude": 307196.625,
+    "ingameHeight": 54352.344,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365943,
+    "urlId": "1CBbRU8MkLfa9baDuSdL9t",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 285.66713,
+    "latitude": 186.59885,
+    "ingameLongitude": -740268.313,
+    "ingameLatitude": -270102,
+    "ingameHeight": 17136.244,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365944,
+    "urlId": "1CBbRU97yqptmLZWXpqghr",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 216.3868,
+    "latitude": 152.37257,
+    "ingameLongitude": -410883.75,
+    "ingameLatitude": -107296.516,
+    "ingameHeight": 32486.223,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365945,
+    "urlId": "1CBbRU9hkRETQyhP1Kc8Hb",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 153.50851,
+    "latitude": 144.06822,
+    "ingameLongitude": -111936.859,
+    "ingameLatitude": -67794.883,
+    "ingameHeight": 36966.988,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365946,
+    "urlId": "1CBbRUAMXPfZdVDShaDVBj",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 77.35808,
+    "latitude": 183.53754,
+    "ingameLongitude": 250110.766,
+    "ingameLatitude": -255540.172,
+    "ingameHeight": 15065.326,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365947,
+    "urlId": "1CBbRUBF6HwgVeWiWkXwm2",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 24.15166,
+    "latitude": 165.38808,
+    "ingameLongitude": 503073.969,
+    "ingameLatitude": -169207.922,
+    "ingameHeight": 245.91,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365948,
+    "urlId": "1CBbRUBu81iGUeGG8Y4fVa",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 140.20088,
+    "latitude": 231.71641,
+    "ingameLongitude": -48667.406,
+    "ingameLatitude": -484714.438,
+    "ingameHeight": 180.232,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365949,
+    "urlId": "1CBbRUCcKqccMhRabuuLRB",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 125.60895,
+    "latitude": 230.96238,
+    "ingameLongitude": 20708.098,
+    "ingameLatitude": -481127.75,
+    "ingameHeight": 6093.097,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365950,
+    "urlId": "1CBbRUDQANCtgxyh1nUZ2V",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 21.35446,
+    "latitude": 235.87555,
+    "ingameLongitude": 516372.906,
+    "ingameLatitude": -504498.406,
+    "ingameHeight": 255.376,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365951,
+    "urlId": "1CBbRUEACx4k3kPZNWgsPQ",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 264.98371,
+    "latitude": 271.90471,
+    "ingameLongitude": -641931.625,
+    "ingameLatitude": -675879.688,
+    "ingameHeight": 210.222,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365952,
+    "urlId": "1CBbRUEx3CYC7qxNDeYofv",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 318.95018,
+    "latitude": 308.46794,
+    "ingameLongitude": -898508.375,
+    "ingameLatitude": -849801.438,
+    "ingameHeight": 180.016,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365953,
+    "urlId": "1CBbRUFTbURxyj62eUpJ38",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 188.22347,
+    "latitude": 271.92364,
+    "ingameLongitude": -276984.719,
+    "ingameLatitude": -675969.75,
+    "ingameHeight": 7791.92,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365954,
+    "urlId": "1CBbRUGJhTxQHebRJpKrkF",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 108.61455,
+    "latitude": 289.15157,
+    "ingameLongitude": 101505.813,
+    "ingameLatitude": -757918.5,
+    "ingameHeight": 1109.148,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365955,
+    "urlId": "1CBbRUH3hfopxEAYpkhteQ",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 201.46949,
+    "latitude": 203.62581,
+    "ingameLongitude": -339961.25,
+    "ingameLatitude": -351094.813,
+    "ingameHeight": 185.467,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365956,
+    "urlId": "1CBbRUJB4WLXuDRhcZnYDs",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 70.20767,
+    "latitude": 59.65282,
+    "ingameLongitude": 284106.469,
+    "ingameLatitude": 333747.125,
+    "ingameHeight": 22539.947,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365957,
+    "urlId": "1CBbRUK5fvnk1EpTpcy5Te",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 97.88671,
+    "latitude": 288.63195,
+    "ingameLongitude": 152510,
+    "ingameLatitude": -755446.813,
+    "ingameHeight": 231.756,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365958,
+    "urlId": "1CBbRUKyMVqWopcZamRVc4",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 5.55431,
+    "latitude": 59.40267,
+    "ingameLongitude": 591492.75,
+    "ingameLatitude": 334937,
+    "ingameHeight": 183.221,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365959,
+    "urlId": "1CBbRULyLda6C3GprSYSki",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 160.67439,
+    "latitude": 273.89712,
+    "ingameLongitude": -146006.125,
+    "ingameLatitude": -685357.063,
+    "ingameHeight": 228.1,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365960,
+    "urlId": "1CBbRUNNFDXPv47HFo4Ck5",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 56.55114,
+    "latitude": 239.38115,
+    "ingameLongitude": 349034.75,
+    "ingameLatitude": -521173.625,
+    "ingameHeight": 7632.97,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365961,
+    "urlId": "1CBbRUNv7K85YmWb9Q8fxf",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 289.78419,
+    "latitude": 273.3408,
+    "ingameLongitude": -759842.375,
+    "ingameLatitude": -682710.813,
+    "ingameHeight": 10708.001,
+    "category": {
+      "id": 8
+    }
+  },
+  {
+    "id": 365962,
+    "urlId": "1CBbRUPVec2yneCzwGLxat",
+    "title": "Gas stations",
+    "icon": "faGasPump",
+    "number": null,
+    "colorBackground": "#a52a2a",
+    "colorIcon": "#ffffff",
+    "longitude": 299.24729,
+    "latitude": 106.3143,
+    "ingameLongitude": -804833.5,
+    "ingameLatitude": 111790.656,
+    "ingameHeight": 42036.5,
+    "category": {
+      "id": 8
+    }
+  }
+]

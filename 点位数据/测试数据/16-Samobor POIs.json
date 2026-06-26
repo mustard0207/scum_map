@@ -1,0 +1,393 @@
+[
+  {
+    "id": 448843,
+    "urlId": "1CQe2QE3SCJmvk7Qie431L",
+    "title": "Market",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 64.20554,
+    "latitude": 58.03466,
+    "ingameLongitude": 313421.094,
+    "ingameLatitude": 342809.781,
+    "ingameHeight": 21403.529,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448844,
+    "urlId": "1CQe2QEiAYBysxjT2qrDsz",
+    "title": "Market",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 61.78316,
+    "latitude": 58.68088,
+    "ingameLongitude": 324957.688,
+    "ingameLatitude": 339732.188,
+    "ingameHeight": 21297.881,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448845,
+    "urlId": "1CQe2QFJkfvfv9pRAy4j1L",
+    "title": "Market",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 62.51741,
+    "latitude": 60.01671,
+    "ingameLongitude": 321460.844,
+    "ingameLatitude": 333370.281,
+    "ingameHeight": 21351.512,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448846,
+    "urlId": "1CQe2QFtZrbjJw5R5eUBtT",
+    "title": "Club",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 59.70969,
+    "latitude": 52.93444,
+    "ingameLongitude": 334832.594,
+    "ingameLatitude": 367099.594,
+    "ingameHeight": 21071.416,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448847,
+    "urlId": "1CQe2QGkrABrNMjV5zU31G",
+    "title": "Clothing Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 55.40619,
+    "latitude": 51.50692,
+    "ingameLongitude": 355328.031,
+    "ingameLatitude": 373898.156,
+    "ingameHeight": 20635.645,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448848,
+    "urlId": "1CQe2QHc2TLHVYhYfF9kHR",
+    "title": "Clothing Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 64.58831,
+    "latitude": 56.27543,
+    "ingameLongitude": 311598.156,
+    "ingameLatitude": 351188.125,
+    "ingameHeight": 21340.469,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448849,
+    "urlId": "1CQe2QJQQZxQoYBDqSuc7T",
+    "title": "Clothing Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 56.84921,
+    "latitude": 52.18112,
+    "ingameLongitude": 348455.656,
+    "ingameLatitude": 370687.313,
+    "ingameHeight": 20776.764,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448850,
+    "urlId": "1CQe2QKDtReiDZEd1BZ6CM",
+    "title": "Clothing Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 59.72402,
+    "latitude": 54.28443,
+    "ingameLongitude": 334764.375,
+    "ingameLatitude": 360670.281,
+    "ingameHeight": 21028.697,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448851,
+    "urlId": "1CQe2QKDtReiDZEd1BZ6CN",
+    "title": "Liquor Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 56.27879,
+    "latitude": 51.21189,
+    "ingameLongitude": 351172.281,
+    "ingameLatitude": 375303.25,
+    "ingameHeight": 20704.586,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448852,
+    "urlId": "1CQe2QL5WMTw4j6E1QCAiD",
+    "title": "Liquor Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 65.76701,
+    "latitude": 44.63887,
+    "ingameLongitude": 305984.594,
+    "ingameLatitude": 406607.25,
+    "ingameHeight": 22018.906,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448853,
+    "urlId": "1CQe2QMPxfS9ipvt74bxzA",
+    "title": "School",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 67.85946,
+    "latitude": 54.79421,
+    "ingameLongitude": 296019.344,
+    "ingameLatitude": 358242.469,
+    "ingameHeight": 21910.117,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448854,
+    "urlId": "1CQe2QNDnfGrV9uDKcYzUJ",
+    "title": "Supermarket",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 66.83917,
+    "latitude": 62.12449,
+    "ingameLongitude": 300878.438,
+    "ingameLatitude": 323331.969,
+    "ingameHeight": 22417.906,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448855,
+    "urlId": "1CQe2QP2mXkch8c9oQcAXK",
+    "title": "Sports Hall",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 65.65215,
+    "latitude": 54.81211,
+    "ingameLongitude": 306531.625,
+    "ingameLatitude": 358157.188,
+    "ingameHeight": 22111.779,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448856,
+    "urlId": "1CQe2QPtLPCVFqP4g5KzYH",
+    "title": "Fire Station",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 61.74812,
+    "latitude": 50.6235,
+    "ingameLongitude": 325124.563,
+    "ingameLatitude": 378105.438,
+    "ingameHeight": 21143.727,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448857,
+    "urlId": "1CQe2QQn8HgnWvQX67Wuch",
+    "title": "Hardware Store",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 60.78188,
+    "latitude": 53.86276,
+    "ingameLongitude": 329726.281,
+    "ingameLatitude": 362678.5,
+    "ingameHeight": 21006.785,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448858,
+    "urlId": "1CQe2QRes3tK9gQVgz1fwE",
+    "title": "Military Stash",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 49.15406,
+    "latitude": 50.07755,
+    "ingameLongitude": 385103.813,
+    "ingameLatitude": 380705.563,
+    "ingameHeight": 20788.525,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448859,
+    "urlId": "1CQe2QSUxDdbrqkZZA3MVS",
+    "title": "Shoe Shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 52.37068,
+    "latitude": 63.20034,
+    "ingameLongitude": 369784.625,
+    "ingameLatitude": 318208.25,
+    "ingameHeight": 20303.695,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448860,
+    "urlId": "1CQe2QTHRjZW1wwi84mwx1",
+    "title": "Elementary School",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 59.14844,
+    "latitude": 55.26337,
+    "ingameLongitude": 337505.531,
+    "ingameLatitude": 356008.094,
+    "ingameHeight": 21163.461,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448861,
+    "urlId": "1CQe2QU3a9mbmndAFxbn3a",
+    "title": "Running Track",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 67.50696,
+    "latitude": 52.89834,
+    "ingameLongitude": 297698.094,
+    "ingameLatitude": 367271.531,
+    "ingameHeight": 21872.596,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448862,
+    "urlId": "1CQe2QUvN5Q3GATT2dV6tJ",
+    "title": "Elementary School Yard",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 57.4498,
+    "latitude": 54.61314,
+    "ingameLongitude": 345595.313,
+    "ingameLatitude": 359104.813,
+    "ingameHeight": 20983.564,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448863,
+    "urlId": "1CQe2QVmNcra73VZrkdZ9C",
+    "title": "Marketplace",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 58.7027,
+    "latitude": 52.34505,
+    "ingameLongitude": 339628.406,
+    "ingameLatitude": 369906.563,
+    "ingameHeight": 21065.361,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448864,
+    "urlId": "1CQe2QWcj4TD7sWUxz6rgx",
+    "title": "Chinese shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 53.43741,
+    "latitude": 63.04639,
+    "ingameLongitude": 364704.344,
+    "ingameLatitude": 318941.438,
+    "ingameHeight": 20315.031,
+    "category": {
+      "id": 16
+    }
+  },
+  {
+    "id": 448865,
+    "urlId": "1CQe2QXgpbekdouG9fJTnu",
+    "title": "Chinese shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 57.18751,
+    "latitude": 52.75032,
+    "ingameLongitude": 346844.5,
+    "ingameLatitude": 367976.5,
+    "ingameHeight": 20779.098,
+    "category": {
+      "id": 16
+    }
+  }
+]

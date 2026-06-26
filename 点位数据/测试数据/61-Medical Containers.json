@@ -1,0 +1,308 @@
+[
+  {
+    "id": 448619,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PQ",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 202.10895,
+    "latitude": 230.05514,
+    "ingameLongitude": -343343.88,
+    "ingameLatitude": -476437.94,
+    "ingameHeight": 2198.9,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448620,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PR",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 81.2095,
+    "latitude": 222.09632,
+    "ingameLongitude": 232439.75,
+    "ingameLatitude": -438534.03,
+    "ingameHeight": 7506.67,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448621,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PS",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 298.65999,
+    "latitude": 149.02923,
+    "ingameLongitude": -803168.19,
+    "ingameLatitude": -90551.96,
+    "ingameHeight": 34517.86,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448622,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PT",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 299.63473,
+    "latitude": 148.65286,
+    "ingameLongitude": -807810.38,
+    "ingameLatitude": -88759.46,
+    "ingameHeight": 34073.79,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448623,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PU",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 213.70374,
+    "latitude": 81.4608,
+    "ingameLongitude": -398564.06,
+    "ingameLatitude": 231242.8,
+    "ingameHeight": 59514.47,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448624,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PV",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 214.38279,
+    "latitude": 83.32281,
+    "ingameLongitude": -401798.03,
+    "ingameLatitude": 222374.97,
+    "ingameHeight": 59078.17,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448625,
+    "urlId": "1CQe2PpnzQJgq3Lwuwa7PW",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 34.73683,
+    "latitude": 73.75635,
+    "ingameLongitude": 453765.84,
+    "ingameLatitude": 267935.25,
+    "ingameHeight": 16503.77,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448626,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPR",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 315.43895,
+    "latitude": 3.35237,
+    "ingameLongitude": -883078,
+    "ingameLatitude": 603234.25,
+    "ingameHeight": 62126.12,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448627,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPS",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 313.57537,
+    "latitude": 4.49905,
+    "ingameLongitude": -874202.69,
+    "ingameLatitude": 597773.19,
+    "ingameHeight": 62567.07,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448628,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPT",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 243.30975,
+    "latitude": 14.79307,
+    "ingameLongitude": -539562.69,
+    "ingameLatitude": 548747.94,
+    "ingameHeight": 79230.9,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448629,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPU",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": 2,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 276.46691,
+    "latitude": 296.83828,
+    "ingameLongitude": -697473.66,
+    "ingameLatitude": -794492.72,
+    "ingameHeight": 10688.12,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448630,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPV",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 170.93586,
+    "latitude": 265.70895,
+    "ingameLongitude": -194882.02,
+    "ingameLatitude": -646239.25,
+    "ingameHeight": 5272.86,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448631,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPW",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 171.25078,
+    "latitude": 264.46966,
+    "ingameLongitude": -196381.83,
+    "ingameLatitude": -640337.12,
+    "ingameHeight": 5497.45,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448632,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPX",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 139.66522,
+    "latitude": 196.97142,
+    "ingameLongitude": -45955.6,
+    "ingameLatitude": -318876.66,
+    "ingameHeight": 16471.94,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448633,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPY",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 139.91002,
+    "latitude": 197.6465,
+    "ingameLongitude": -47121.45,
+    "ingameLatitude": -322091.75,
+    "ingameHeight": 16025.26,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448634,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPZ",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": 2,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 35.68466,
+    "latitude": 132.74482,
+    "ingameLongitude": 449251.83,
+    "ingameLatitude": -12997.43,
+    "ingameHeight": 11727.61,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448635,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPa",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 100.8665,
+    "latitude": 16.06801,
+    "ingameLongitude": 138823.27,
+    "ingameLatitude": 542676,
+    "ingameHeight": 24690.63,
+    "category": {
+      "id": 61
+    }
+  },
+  {
+    "id": 448636,
+    "urlId": "1CQe2PpoCHUQeVUqhjKiPb",
+    "title": "Medical Containers",
+    "icon": "faFirstAid",
+    "number": null,
+    "colorBackground": "#be1616",
+    "colorIcon": "#ffffff",
+    "longitude": 101.60832,
+    "latitude": 15.94124,
+    "ingameLongitude": 135290.36,
+    "ingameLatitude": 543279.75,
+    "ingameHeight": 24685.82,
+    "category": {
+      "id": 61
+    }
+  }
+]

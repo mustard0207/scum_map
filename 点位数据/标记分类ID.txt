@@ -1,0 +1,1902 @@
+{
+    "data": {
+        "mapCategory": {
+            "listForMapTemplate": [
+                {
+                    "id": 456,
+                    "name": "Abandoned bunkers",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#351e56",
+                        "icon": "faSkull",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 78,
+                    "name": "Aircraft spawns",
+                    "imagePath": "images/filter/aircraft.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#1e5bdb",
+                        "colorBackground": "#cabe51",
+                        "icon": "faPlane",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 869,
+                    "name": "Animal feeders",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#a16207",
+                        "icon": "faWheatAwn",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 37,
+                    "name": "Apple trees",
+                    "imagePath": "images/filter/crops/apple_tree.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#90100d",
+                        "colorBackground": "#fef8c5",
+                        "icon": "faAppleAlt",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 79,
+                    "name": "Armory",
+                    "imagePath": "images/place_photo/outpost/armory.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#e2f6ff",
+                        "colorBackground": "#9c3d16",
+                        "icon": "faUserShield",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 210,
+                    "name": "ATM",
+                    "imagePath": "images/filter/atm.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": null,
+                    "appearance": {
+                        "color": "#6b845a",
+                        "colorBackground": "#e6e9ca",
+                        "icon": "faMoneyBillWave",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 55,
+                    "name": "Bars",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#e4985d",
+                        "icon": "faUtensils",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 58,
+                    "name": "Big Shipwrecks",
+                    "imagePath": "images/filter/shipwreck.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 15,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#196499",
+                        "icon": "faShip",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 19,
+                    "name": "Boat spawns",
+                    "imagePath": "images/filter/boat.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 11,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#103af8",
+                        "colorBackground": "#74a0be",
+                        "icon": "faAnchor",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 789,
+                    "name": "Bookshelves",
+                    "imagePath": "images/filter/bookshelves.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": null,
+                    "appearance": {
+                        "color": "#8c0b0b",
+                        "colorBackground": "#f1ddc2",
+                        "icon": "faBook",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 28,
+                    "name": "Bricks",
+                    "imagePath": "images/filter/bricks.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Construction materials",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#3d0505",
+                        "colorBackground": "#c26846",
+                        "icon": "faHammer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 38,
+                    "name": "Broccoli",
+                    "imagePath": "images/filter/crops/broccoli.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#143a12",
+                        "colorBackground": "#a4c85a",
+                        "icon": "faLeaf",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 774,
+                    "name": "Bunker Hatch Doors",
+                    "imagePath": "images/filter/bunker_hatch_doors.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 8,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#ff0000",
+                        "icon": "faDoorClosed",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 1,
+                    "name": "Bunkers",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 8,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#ff0000",
+                        "icon": "faSkull",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 39,
+                    "name": "Cabbages",
+                    "imagePath": "images/filter/crops/cabbage.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#cbc2af",
+                        "colorBackground": "#23390a",
+                        "icon": "faLeaf",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 7,
+                    "name": "Car garages",
+                    "imagePath": "images/filter/car_garage.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#622ac3",
+                        "colorBackground": "#b7b7b7",
+                        "icon": "faCar",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 40,
+                    "name": "Carrots",
+                    "imagePath": "images/filter/crops/carrot.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#fe6208",
+                        "colorBackground": "#75623e",
+                        "icon": "faCarrot",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 4,
+                    "name": "Caves",
+                    "imagePath": "images/filter/cave.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#387861",
+                        "icon": "faMountain",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 29,
+                    "name": "Cement bags",
+                    "imagePath": "images/filter/cement.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Construction materials",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#a63c2f",
+                        "colorBackground": "#e8d299",
+                        "icon": "faHammer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 41,
+                    "name": "Cherry trees",
+                    "imagePath": "images/filter/crops/cherry_tree.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#4a0613",
+                        "colorBackground": "#f5d7e5",
+                        "icon": "faSeedling",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 5,
+                    "name": "Churches",
+                    "imagePath": "images/filter/church.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#3a2073",
+                        "icon": "faCross",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 56,
+                    "name": "Clubs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffc400",
+                        "colorBackground": "#487efd",
+                        "icon": "faMusic",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 42,
+                    "name": "Corn fields",
+                    "imagePath": "images/filter/crops/corn_field.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#eac100",
+                        "colorBackground": "#106936",
+                        "icon": "faSeedling",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 43,
+                    "name": "Cucumbers",
+                    "imagePath": "images/filter/crops/cucumber.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#244108",
+                        "colorBackground": "#c8d18c",
+                        "icon": "faPepperHot",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 44,
+                    "name": "Date palms",
+                    "imagePath": "images/filter/crops/date_palm.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#7f1701",
+                        "colorBackground": "#ffc41f",
+                        "icon": "faLemon",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 866,
+                    "name": "Decorative fountains",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#db2777",
+                        "icon": "faMonument",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 250,
+                    "name": "Depleted Uranium Crates",
+                    "imagePath": "images/filter/depleted_uranium_crates.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Radiation",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#b7b7b7",
+                        "colorBackground": "#000000",
+                        "icon": "faRadiation",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 6,
+                    "name": "Drill press / Lathe",
+                    "imagePath": "images/filter/drill_press_category.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 13,
+                    "section": null,
+                    "appearance": {
+                        "color": "#dddddd",
+                        "colorBackground": "#187286",
+                        "icon": "faTools",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 858,
+                    "name": "Fishing spots",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": null,
+                    "appearance": {
+                        "color": "#58b1c6",
+                        "colorBackground": "#113880",
+                        "icon": "faFish",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 81,
+                    "name": "Fishing Supplies",
+                    "imagePath": "images/place_photo/outpost/fishing_supplies.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#4ac6ff",
+                        "colorBackground": "#4d5058",
+                        "icon": "faFish",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 32,
+                    "name": "Food Shop",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffdb88",
+                        "colorBackground": "#4789c8",
+                        "icon": "faShoppingBasket",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 867,
+                    "name": "Fountains",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Water sources",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#7c3aed",
+                        "icon": "faDroplet",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 8,
+                    "name": "Gas stations",
+                    "imagePath": "images/filter/gas_station.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#a52a2a",
+                        "icon": "faGasPump",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 82,
+                    "name": "General Goods",
+                    "imagePath": "images/place_photo/outpost/general_goods.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#6be485",
+                        "colorBackground": "#686545",
+                        "icon": "faBox",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 45,
+                    "name": "Grapevines",
+                    "imagePath": "images/filter/crops/grapevines.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#224891",
+                        "colorBackground": "#acb0e0",
+                        "icon": "faSeedling",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 642,
+                    "name": "Graphite",
+                    "imagePath": "images/filter/graphite.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Radiation",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#9d7b7b",
+                        "colorBackground": "#000000",
+                        "icon": "faCube",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 30,
+                    "name": "Gravel bags",
+                    "imagePath": "images/filter/gravel.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Construction materials",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#069448",
+                        "icon": "faHammer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 775,
+                    "name": "Gun Shops",
+                    "imagePath": "images/filter/gun_shop.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#d0021b",
+                        "colorBackground": "#146c37",
+                        "icon": "faCrosshairs",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 870,
+                    "name": "Hairdresser",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#c026d3",
+                        "icon": "faScissors",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 862,
+                    "name": "Hand water pumps",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Water sources",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#0f766e",
+                        "icon": "faFaucet",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 251,
+                    "name": "Hazmat Suit Lockers",
+                    "imagePath": "images/filter/hazmat_suit_locker.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Radiation",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffc904",
+                        "colorBackground": "#000000",
+                        "icon": "faRadiation",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 151,
+                    "name": "Hospital",
+                    "imagePath": "images/place_photo/outpost/hospital.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#b45253",
+                        "icon": "faNotesMedical",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 859,
+                    "name": "Hunter's Grotto",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#804040",
+                        "icon": "faCrow",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 17,
+                    "name": "Hunting Camps",
+                    "imagePath": "images/filter/hunting_camp.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#275819",
+                        "icon": "faCompass",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 776,
+                    "name": "Hunting Shops",
+                    "imagePath": "images/filter/hunting_shop.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#62a4e0",
+                        "colorBackground": "#146c37",
+                        "icon": "faCrosshairs",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 24,
+                    "name": "Hunting Towers",
+                    "imagePath": "images/filter/hunting_tower.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#339b17",
+                        "icon": "faFeather",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 864,
+                    "name": "Industrial storage silos",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#92400e",
+                        "icon": "faIndustry",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 9,
+                    "name": "Killboxes",
+                    "imagePath": "images/filter/killbox.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#8c19e4",
+                        "icon": "faBomb",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 420,
+                    "name": "Krsko POIs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5a7838",
+                        "icon": "faTimes",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 18,
+                    "name": "Lighthouses",
+                    "imagePath": "images/filter/lighthouse.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 15,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#e7ec3e",
+                        "colorBackground": "#2b6dd4",
+                        "icon": "faLightbulb",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 59,
+                    "name": "Lockers",
+                    "imagePath": "images/filter/lockers.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": {
+                        "name": "Loot containers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#730000",
+                        "colorBackground": "#bebebe",
+                        "icon": "faLock",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 25,
+                    "name": "Log Cabin",
+                    "imagePath": "images/filter/log_cabin.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5c441e",
+                        "icon": "faHome",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 60,
+                    "name": "Logs",
+                    "imagePath": "images/filter/logs.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Construction materials",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#613511",
+                        "colorBackground": "#93a8a6",
+                        "icon": "faHammer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 83,
+                    "name": "Mechanic",
+                    "imagePath": "images/place_photo/outpost/mechanic.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#169c7b",
+                        "icon": "faTools",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 61,
+                    "name": "Medical Containers",
+                    "imagePath": "images/filter/medical_container.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": {
+                        "name": "Loot containers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#be1616",
+                        "icon": "faFirstAid",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 761,
+                    "name": "Military Hangars",
+                    "imagePath": "images/filter/military_warehouse.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 12,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#de9b0e",
+                        "colorBackground": "#213c21",
+                        "icon": "faWarehouse",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 320,
+                    "name": "Military Warehouses",
+                    "imagePath": "images/filter/military_warehouse.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 12,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#8ecd9a",
+                        "colorBackground": "#213c21",
+                        "icon": "faWarehouse",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 868,
+                    "name": "Mine entrances",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#c2410c",
+                        "icon": "faHelmetSafety",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 36,
+                    "name": "Motorbike & bicycle spawns",
+                    "imagePath": "images/filter/motorbike.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#9b1f2d",
+                        "colorBackground": "#444c48",
+                        "icon": "faMotorcycle",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 861,
+                    "name": "Natural springs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Water sources",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#047857",
+                        "icon": "faHandHoldingDroplet",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 31,
+                    "name": "Novigrad POIs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5a7838",
+                        "icon": "faTimes",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 47,
+                    "name": "Onions",
+                    "imagePath": "images/filter/crops/onion.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#f9ad5b",
+                        "colorBackground": "#6c9c32",
+                        "icon": "faLemon",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 80,
+                    "name": "Outposts",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 5,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#2fff57",
+                        "colorBackground": null,
+                        "icon": null,
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 21,
+                    "name": "Paddle spawns",
+                    "imagePath": "images/filter/paddle.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 11,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#883d11",
+                        "colorBackground": "#bea974",
+                        "icon": "faAnchor",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 48,
+                    "name": "Parsnip",
+                    "imagePath": "images/filter/crops/parsnip.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#dcdace",
+                        "colorBackground": "#75623e",
+                        "icon": "faCarrot",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 49,
+                    "name": "Pear trees",
+                    "imagePath": "images/filter/crops/pear_tree.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#e0dc71",
+                        "colorBackground": "#736c2e",
+                        "icon": "faAppleAlt",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 33,
+                    "name": "Pharmacies",
+                    "imagePath": "images/filter/pharmacy/two_story_pharmacy.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#2d796c",
+                        "colorBackground": "#ffffff",
+                        "icon": "faPlus",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 777,
+                    "name": "Phone Booths",
+                    "imagePath": "images/filter/phone_booth.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Quests",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#5f9add",
+                        "icon": "faPhone",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 790,
+                    "name": "Pile of planks",
+                    "imagePath": "images/filter/pile_of_planks.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Construction materials",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#b07516",
+                        "colorBackground": "#d9e814",
+                        "icon": "faHammer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 26,
+                    "name": "Points of interest",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 4,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffa500",
+                        "colorBackground": null,
+                        "icon": null,
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 10,
+                    "name": "Police stations",
+                    "imagePath": "images/filter/police_station.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 7,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#1a1adc",
+                        "icon": "faBuilding",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 50,
+                    "name": "Potatoes",
+                    "imagePath": "images/filter/crops/potato.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#d59415",
+                        "colorBackground": "#694809",
+                        "icon": "faLemon",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 421,
+                    "name": "Propane Tank",
+                    "imagePath": "images/filter/propane_gas_tank.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 16,
+                    "section": null,
+                    "appearance": {
+                        "color": "#e58419",
+                        "colorBackground": "#e5e5e5",
+                        "icon": "faFireFlameSimple",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 57,
+                    "name": "Pubs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#e6a30f",
+                        "icon": "faBeer",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 712,
+                    "name": "Quest Boards",
+                    "imagePath": "images/filter/quest_board.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Quests",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#efefef",
+                        "colorBackground": "#1e3404",
+                        "icon": "faRectangleList",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 865,
+                    "name": "Quest books",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Quests",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#b91c1c",
+                        "icon": "faBook",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 803,
+                    "name": "Quest Mailboxes",
+                    "imagePath": "images/filter/mailbox.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Quests",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#251e0b",
+                        "colorBackground": "#887636",
+                        "icon": "faMailBulk",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 252,
+                    "name": "Radiation Equipment Lockers",
+                    "imagePath": "images/filter/radiation_equipment_locker.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Radiation",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#9013fe",
+                        "colorBackground": "#000000",
+                        "icon": "faRadiation",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 778,
+                    "name": "Red Toolboxes",
+                    "imagePath": "images/filter/red_toolbox.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": null,
+                    "appearance": {
+                        "color": "#e3caca",
+                        "colorBackground": "#b22626",
+                        "icon": "faToolbox",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 762,
+                    "name": "Restaurants",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#9b9b9b",
+                        "colorBackground": "#d9e7b1",
+                        "icon": "faBowlFood",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 22,
+                    "name": "RIB spawns",
+                    "imagePath": "images/filter/rib.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 11,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#19a675",
+                        "icon": "faAnchor",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 143,
+                    "name": "Saloon",
+                    "imagePath": "images/place_photo/outpost/saloon.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Outposts",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#ea4dff",
+                        "icon": "faCocktail",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 16,
+                    "name": "Samobor POIs",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5a7838",
+                        "icon": "faTimes",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 643,
+                    "name": "Sardines",
+                    "imagePath": "images/filter/sardines.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#9acfd2",
+                        "icon": "faFish",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 62,
+                    "name": "Schools",
+                    "imagePath": "images/filter/school.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 20,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5816be",
+                        "icon": "faGraduationCap",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 763,
+                    "name": "Secret Bunkers",
+                    "imagePath": "images/filter/secret_bunker.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 9,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#d6b574",
+                        "icon": "faSkull",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 63,
+                    "name": "Small Docks",
+                    "imagePath": "images/filter/ship_docs.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffe500",
+                        "colorBackground": "#535353",
+                        "icon": "faAnchor",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 64,
+                    "name": "Small Shipwrecks",
+                    "imagePath": "images/filter/small_shipwreck.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 15,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#6b9fc5",
+                        "icon": "faShip",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 34,
+                    "name": "Storage shed",
+                    "imagePath": "images/filter/storage_shed.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#86827f",
+                        "icon": "faHome",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 52,
+                    "name": "Strawberries",
+                    "imagePath": "images/filter/crops/strawberry.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#de0809",
+                        "colorBackground": "#eeede2",
+                        "icon": "faSeedling",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 53,
+                    "name": "Sunflower fields",
+                    "imagePath": "images/filter/crops/sunflower_field.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#fbdf2c",
+                        "colorBackground": "#6d7834",
+                        "icon": "faSun",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 279,
+                    "name": "Underwater Caves",
+                    "imagePath": "images/filter/underwater_cave.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 14,
+                    "section": null,
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#2175a4",
+                        "icon": "faWater",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 2,
+                    "name": "Vehicle repair shops",
+                    "imagePath": "images/filter/vehicle_repair_shop.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 12,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#000000",
+                        "colorBackground": "#1cdfdf",
+                        "icon": "faCarCrash",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 20,
+                    "name": "Vehicle spawns",
+                    "imagePath": "images/filter/car_spawn.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#cf8507",
+                        "colorBackground": "#444c48",
+                        "icon": "faCarSide",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 27,
+                    "name": "Villages",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 6,
+                    "section": {
+                        "name": "Points of interest",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#008000",
+                        "icon": "faBuilding",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 12,
+                    "name": "Warehouses",
+                    "imagePath": "images/filter/warehouse.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 12,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#0a0a0a",
+                        "colorBackground": "#888787",
+                        "icon": "faWarehouse",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 863,
+                    "name": "Water dispensers",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Water sources",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#4338ca",
+                        "icon": "faBottleWater",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 54,
+                    "name": "Watermelons",
+                    "imagePath": "images/filter/crops/watermelon.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 17,
+                    "section": {
+                        "name": "Crops",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ad3831",
+                        "colorBackground": "#12080f",
+                        "icon": "faPalette",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 860,
+                    "name": "Wells",
+                    "imagePath": null,
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 0,
+                    "section": {
+                        "name": "Water sources",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#1e3a8a",
+                        "icon": "faBucket",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 23,
+                    "name": "Wheelbarrow spawns",
+                    "imagePath": "images/filter/wheelbarrow.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 10,
+                    "section": {
+                        "name": "Vehicles",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#333131",
+                        "colorBackground": "#e58845",
+                        "icon": "faCircle",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 13,
+                    "name": "Workshops",
+                    "imagePath": "images/filter/workshop.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 11,
+                    "section": {
+                        "name": "Buildings",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#b22626",
+                        "colorBackground": "#e4e4e4",
+                        "icon": "faToolbox",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                },
+                {
+                    "id": 14,
+                    "name": "WW2 bunkers",
+                    "imagePath": "images/filter/ww2_bunker.jpg",
+                    "visibility": "AVAILABLE",
+                    "isCustom": false,
+                    "sortOrder": 15,
+                    "section": {
+                        "name": "Bunkers",
+                        "__typename": "MapCategorySection"
+                    },
+                    "appearance": {
+                        "color": "#ffffff",
+                        "colorBackground": "#5d0000",
+                        "icon": "faCube",
+                        "__typename": "MapCategoryAppearance"
+                    },
+                    "__typename": "MapCategory"
+                }
+            ],
+            "__typename": "QueryMapCategory"
+        }
+    }
+}

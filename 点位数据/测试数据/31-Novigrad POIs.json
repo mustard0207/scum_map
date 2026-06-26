@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238365,
+    "urlId": "1BtrLd39La6yYPDCisL8qG",
+    "title": "Rosemary Thyme",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 162.75876,
+    "latitude": 276.65807,
+    "ingameLongitude": -155915.984,
+    "ingameLatitude": -698490.188,
+    "ingameHeight": 237.278,
+    "category": {
+      "id": 31
+    }
+  },
+  {
+    "id": 238366,
+    "urlId": "1BtrLd39J3TazvbhcSVra6",
+    "title": "Novigrad Hospital",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 164.18031,
+    "latitude": 273.03336,
+    "ingameLongitude": -162674.563,
+    "ingameLatitude": -681248.375,
+    "ingameHeight": 850.832,
+    "category": {
+      "id": 31
+    }
+  },
+  {
+    "id": 238367,
+    "urlId": "1BtrLd39LWriUoArrjMS7y",
+    "title": "Gun shop",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 166.54411,
+    "latitude": 272.85361,
+    "ingameLongitude": -173912.938,
+    "ingameLatitude": -680393.375,
+    "ingameHeight": 1175.409,
+    "category": {
+      "id": 31
+    }
+  },
+  {
+    "id": 238368,
+    "urlId": "1BtrLd39LdK1skT5pxCdkD",
+    "title": "Hotel Marina",
+    "icon": "faTimes",
+    "number": null,
+    "colorBackground": "#5a7838",
+    "colorIcon": "#ffffff",
+    "longitude": 162.83798,
+    "latitude": 273.11965,
+    "ingameLongitude": -156292.625,
+    "ingameLatitude": -681658.875,
+    "ingameHeight": 767.65,
+    "category": {
+      "id": 31
+    }
+  }
+]

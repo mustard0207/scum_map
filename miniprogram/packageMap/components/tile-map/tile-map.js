@@ -180,6 +180,8 @@ Component({
         'wxsState.scale': scale
       });
       this._refreshOverlayAnim();
+      // 通知父页面手势结束（用于 POI 限流刷新）
+      this.triggerEvent('gestureend', { scale });
     },
 
     /** 限制地图不被完全拖出视口：至少保留 PAN_MARGIN 像素在视口内 */

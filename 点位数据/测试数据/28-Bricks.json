@@ -1,0 +1,801 @@
+[
+  {
+    "id": 448169,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnio",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 70.08998,
+    "latitude": 62.84599,
+    "ingameLongitude": 285396.47,
+    "ingameLatitude": 319895.84,
+    "ingameHeight": 22369.8,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448170,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnip",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 49.70531,
+    "latitude": 49.84927,
+    "ingameLongitude": 382478.44,
+    "ingameLatitude": 381792.75,
+    "ingameHeight": 19718.7,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448171,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniq",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 54.23826,
+    "latitude": 63.50642,
+    "ingameLongitude": 360890.3,
+    "ingameLatitude": 316750.56,
+    "ingameHeight": 20188.02,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448172,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnir",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 52.88966,
+    "latitude": 49.60551,
+    "ingameLongitude": 367313,
+    "ingameLatitude": 382953.62,
+    "ingameHeight": 20295.07,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448173,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnis",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 51.97827,
+    "latitude": 49.08395,
+    "ingameLongitude": 371653.5,
+    "ingameLatitude": 385437.58,
+    "ingameHeight": 20330.83,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448174,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnit",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 51.22714,
+    "latitude": 49.38592,
+    "ingameLongitude": 375230.75,
+    "ingameLatitude": 383999.44,
+    "ingameHeight": 20155.01,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448175,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniu",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 57.60272,
+    "latitude": 61.12068,
+    "ingameLongitude": 344867.03,
+    "ingameLatitude": 328112.61,
+    "ingameHeight": 20829.43,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448176,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniv",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 5,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 55.69265,
+    "latitude": 61.38767,
+    "ingameLongitude": 353963.77,
+    "ingameLatitude": 326841.11,
+    "ingameHeight": 21159.21,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448177,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniw",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 74.554,
+    "latitude": 48.31788,
+    "ingameLongitude": 264136.58,
+    "ingameLatitude": 389085.96,
+    "ingameHeight": 23891.93,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448178,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnix",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 75.02111,
+    "latitude": 48.91262,
+    "ingameLongitude": 261911.94,
+    "ingameLatitude": 386253.53,
+    "ingameHeight": 23827.26,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448179,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniy",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 73.80216,
+    "latitude": 49.44235,
+    "ingameLongitude": 267717.23,
+    "ingameLatitude": 383730.7,
+    "ingameHeight": 23750.97,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448180,
+    "urlId": "1CQe2NzzXvqoEyMEXyUniz",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 75.57242,
+    "latitude": 51.10667,
+    "ingameLongitude": 259286.34,
+    "ingameLatitude": 375804.38,
+    "ingameHeight": 24071.48,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448181,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj1",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 66.87386,
+    "latitude": 46.60602,
+    "ingameLongitude": 300713.25,
+    "ingameLatitude": 397238.69,
+    "ingameHeight": 21794.01,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448182,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj2",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 4,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 70.49588,
+    "latitude": 43.61303,
+    "ingameLongitude": 283463.39,
+    "ingameLatitude": 411492.85,
+    "ingameHeight": 21881.21,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448183,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj3",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 65.56178,
+    "latitude": 45.76767,
+    "ingameLongitude": 306962.03,
+    "ingameLatitude": 401231.34,
+    "ingameHeight": 21843.08,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448184,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj4",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 66.17078,
+    "latitude": 45.99775,
+    "ingameLongitude": 304061.66,
+    "ingameLatitude": 400135.59,
+    "ingameHeight": 21827.08,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448185,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj5",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 65.83131,
+    "latitude": 46.53141,
+    "ingameLongitude": 305678.38,
+    "ingameLatitude": 397594.03,
+    "ingameHeight": 21837.75,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448186,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj6",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 60.80176,
+    "latitude": 58.94704,
+    "ingameLongitude": 329631.6,
+    "ingameLatitude": 338464.58,
+    "ingameHeight": 21055.33,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448187,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj7",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 5,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 57.79949,
+    "latitude": 51.39908,
+    "ingameLongitude": 343929.94,
+    "ingameLatitude": 374411.75,
+    "ingameHeight": 21134.6,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448188,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj8",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 12,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 227.84391,
+    "latitude": 151.2828,
+    "ingameLongitude": -465906.64,
+    "ingameLatitude": -101284.56,
+    "ingameHeight": 31005.22,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448189,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnj9",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 66.01016,
+    "latitude": 65.13149,
+    "ingameLongitude": 304826.59,
+    "ingameLatitude": 309011.12,
+    "ingameHeight": 21755.64,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448190,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjA",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 6,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 36.66555,
+    "latitude": 304.88891,
+    "ingameLongitude": 444580.34,
+    "ingameLatitude": -832833.85,
+    "ingameHeight": 2730.44,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448191,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjB",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 9,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 164.36109,
+    "latitude": 276.74653,
+    "ingameLongitude": -163569.69,
+    "ingameLatitude": -698805.72,
+    "ingameHeight": 714.4,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448192,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjC",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 4,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 294.28042,
+    "latitude": 189.15923,
+    "ingameLongitude": -782310.5,
+    "ingameLatitude": -281671.1,
+    "ingameHeight": 16658.36,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448193,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjD",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 293.30162,
+    "latitude": 189.13098,
+    "ingameLongitude": -777648.97,
+    "ingameLatitude": -281536.6,
+    "ingameHeight": 16677.05,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448194,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjE",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 293.86168,
+    "latitude": 100.63206,
+    "ingameLongitude": -780316.25,
+    "ingameLatitude": 139939.61,
+    "ingameHeight": 43626.6,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448195,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjF",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 70.537,
+    "latitude": 62.18906,
+    "ingameLongitude": 283267.55,
+    "ingameLatitude": 323024.47,
+    "ingameHeight": 23126.09,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448196,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjG",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 74.73871,
+    "latitude": 48.0647,
+    "ingameLongitude": 263256.88,
+    "ingameLatitude": 390291.75,
+    "ingameHeight": 24001.56,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448197,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjH",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 5,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 70.61767,
+    "latitude": 44.77864,
+    "ingameLongitude": 282883.35,
+    "ingameLatitude": 405941.63,
+    "ingameHeight": 21785.05,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448198,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjJ",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 5,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 70.23001,
+    "latitude": 46.47812,
+    "ingameLongitude": 284729.56,
+    "ingameLatitude": 397847.84,
+    "ingameHeight": 21778.97,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448199,
+    "urlId": "1CQe2NzzXvqoEyMEXyUnjK",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 69.86191,
+    "latitude": 46.61975,
+    "ingameLongitude": 286482.66,
+    "ingameLatitude": 397173.31,
+    "ingameHeight": 21770.11,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448200,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWN",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 4,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 59.75287,
+    "latitude": 46.02182,
+    "ingameLongitude": 334626.98,
+    "ingameLatitude": 400020.98,
+    "ingameHeight": 20565.97,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448201,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWP",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 37.24232,
+    "latitude": 306.21874,
+    "ingameLongitude": 441833.45,
+    "ingameLatitude": -839167.17,
+    "ingameHeight": 3946.87,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448202,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWQ",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 10,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 94.85908,
+    "latitude": 274.83982,
+    "ingameLongitude": 167433.62,
+    "ingameLatitude": -689725.02,
+    "ingameHeight": 2672.69,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448203,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWR",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 94.35027,
+    "latitude": 274.67085,
+    "ingameLongitude": 169856.85,
+    "ingameLatitude": -688920.29,
+    "ingameHeight": 2564.66,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448204,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWS",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 84.18973,
+    "latitude": 270.00523,
+    "ingameLongitude": 218246.4,
+    "ingameLatitude": -666700.31,
+    "ingameHeight": 3514.74,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448205,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWT",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 19,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 291.19806,
+    "latitude": 190.02692,
+    "ingameLongitude": -767630.75,
+    "ingameLatitude": -285803.49,
+    "ingameHeight": 16674.35,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448206,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWU",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 21,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 293.6449,
+    "latitude": 190.35866,
+    "ingameLongitude": -779283.86,
+    "ingameLatitude": -287383.41,
+    "ingameHeight": 16630.92,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448207,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWV",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 6,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 293.49202,
+    "latitude": 191.02859,
+    "ingameLongitude": -778555.75,
+    "ingameLatitude": -290573.96,
+    "ingameHeight": 16642.5,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448208,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWW",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 292.98807,
+    "latitude": 190.90691,
+    "ingameLongitude": -776155.67,
+    "ingameLatitude": -289994.46,
+    "ingameHeight": 16640.4,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448209,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWX",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 17,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 295.89965,
+    "latitude": 190.41821,
+    "ingameLongitude": -790022.1,
+    "ingameLatitude": -287667.01,
+    "ingameHeight": 16639.48,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448210,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWY",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 7,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 296.00079,
+    "latitude": 189.93901,
+    "ingameLongitude": -790503.77,
+    "ingameLatitude": -285384.83,
+    "ingameHeight": 16629.7,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448211,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWZ",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 292.84585,
+    "latitude": 189.22478,
+    "ingameLongitude": -775478.38,
+    "ingameLatitude": -281983.31,
+    "ingameHeight": 16654.36,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448212,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWa",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 35.74115,
+    "latitude": 304.52309,
+    "ingameLongitude": 448982.78,
+    "ingameLatitude": -831091.62,
+    "ingameHeight": 2355.98,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448213,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWb",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 8,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 151.82097,
+    "latitude": 241.45643,
+    "ingameLongitude": -103847.38,
+    "ingameLatitude": -530736.6,
+    "ingameHeight": 1571.56,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448214,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWc",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": 8,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 153.37776,
+    "latitude": 242.99124,
+    "ingameLongitude": -111261.59,
+    "ingameLatitude": -538046.14,
+    "ingameHeight": 1571.56,
+    "category": {
+      "id": 28
+    }
+  },
+  {
+    "id": 448215,
+    "urlId": "1CQe2NzzoG5pVHXXrk8wWd",
+    "title": "Bricks",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#c26846",
+    "colorIcon": "#3d0505",
+    "longitude": 225.39243,
+    "latitude": 272.45676,
+    "ingameLongitude": -454231.44,
+    "ingameLatitude": -678375.69,
+    "ingameHeight": 245.03,
+    "category": {
+      "id": 28
+    }
+  }
+]

@@ -1,0 +1,1196 @@
+[
+  {
+    "id": 456,
+    "name": "Abandoned bunkers",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#351e56",
+      "icon": "faSkull"
+    }
+  },
+  {
+    "id": 78,
+    "name": "Aircraft spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#1e5bdb",
+      "colorBackground": "#cabe51",
+      "icon": "faPlane"
+    }
+  },
+  {
+    "id": 869,
+    "name": "Animal feeders",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#a16207",
+      "icon": "faWheatAwn"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Apple trees",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#90100d",
+      "colorBackground": "#fef8c5",
+      "icon": "faAppleAlt"
+    }
+  },
+  {
+    "id": 79,
+    "name": "Armory",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#e2f6ff",
+      "colorBackground": "#9c3d16",
+      "icon": "faUserShield"
+    }
+  },
+  {
+    "id": 210,
+    "name": "ATM",
+    "section": null,
+    "appearance": {
+      "color": "#6b845a",
+      "colorBackground": "#e6e9ca",
+      "icon": "faMoneyBillWave"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Bars",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#e4985d",
+      "icon": "faUtensils"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Big Shipwrecks",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#196499",
+      "icon": "faShip"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Boat spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#103af8",
+      "colorBackground": "#74a0be",
+      "icon": "faAnchor"
+    }
+  },
+  {
+    "id": 789,
+    "name": "Bookshelves",
+    "section": null,
+    "appearance": {
+      "color": "#8c0b0b",
+      "colorBackground": "#f1ddc2",
+      "icon": "faBook"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Bricks",
+    "section": {
+      "name": "Construction materials"
+    },
+    "appearance": {
+      "color": "#3d0505",
+      "colorBackground": "#c26846",
+      "icon": "faHammer"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Broccoli",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#143a12",
+      "colorBackground": "#a4c85a",
+      "icon": "faLeaf"
+    }
+  },
+  {
+    "id": 774,
+    "name": "Bunker Hatch Doors",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#ff0000",
+      "icon": "faDoorClosed"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Bunkers",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#ff0000",
+      "icon": "faSkull"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Cabbages",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#cbc2af",
+      "colorBackground": "#23390a",
+      "icon": "faLeaf"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Car garages",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#622ac3",
+      "colorBackground": "#b7b7b7",
+      "icon": "faCar"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Carrots",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#fe6208",
+      "colorBackground": "#75623e",
+      "icon": "faCarrot"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Caves",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#387861",
+      "icon": "faMountain"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Cement bags",
+    "section": {
+      "name": "Construction materials"
+    },
+    "appearance": {
+      "color": "#a63c2f",
+      "colorBackground": "#e8d299",
+      "icon": "faHammer"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Cherry trees",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#4a0613",
+      "colorBackground": "#f5d7e5",
+      "icon": "faSeedling"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Churches",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#3a2073",
+      "icon": "faCross"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Clubs",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffc400",
+      "colorBackground": "#487efd",
+      "icon": "faMusic"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Corn fields",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#eac100",
+      "colorBackground": "#106936",
+      "icon": "faSeedling"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Cucumbers",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#244108",
+      "colorBackground": "#c8d18c",
+      "icon": "faPepperHot"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Date palms",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#7f1701",
+      "colorBackground": "#ffc41f",
+      "icon": "faLemon"
+    }
+  },
+  {
+    "id": 866,
+    "name": "Decorative fountains",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#db2777",
+      "icon": "faMonument"
+    }
+  },
+  {
+    "id": 250,
+    "name": "Depleted Uranium Crates",
+    "section": {
+      "name": "Radiation"
+    },
+    "appearance": {
+      "color": "#b7b7b7",
+      "colorBackground": "#000000",
+      "icon": "faRadiation"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Drill press / Lathe",
+    "section": null,
+    "appearance": {
+      "color": "#dddddd",
+      "colorBackground": "#187286",
+      "icon": "faTools"
+    }
+  },
+  {
+    "id": 858,
+    "name": "Fishing spots",
+    "section": null,
+    "appearance": {
+      "color": "#58b1c6",
+      "colorBackground": "#113880",
+      "icon": "faFish"
+    }
+  },
+  {
+    "id": 81,
+    "name": "Fishing Supplies",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#4ac6ff",
+      "colorBackground": "#4d5058",
+      "icon": "faFish"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Food Shop",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffdb88",
+      "colorBackground": "#4789c8",
+      "icon": "faShoppingBasket"
+    }
+  },
+  {
+    "id": 867,
+    "name": "Fountains",
+    "section": {
+      "name": "Water sources"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#7c3aed",
+      "icon": "faDroplet"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Gas stations",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#a52a2a",
+      "icon": "faGasPump"
+    }
+  },
+  {
+    "id": 82,
+    "name": "General Goods",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#6be485",
+      "colorBackground": "#686545",
+      "icon": "faBox"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Grapevines",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#224891",
+      "colorBackground": "#acb0e0",
+      "icon": "faSeedling"
+    }
+  },
+  {
+    "id": 642,
+    "name": "Graphite",
+    "section": {
+      "name": "Radiation"
+    },
+    "appearance": {
+      "color": "#9d7b7b",
+      "colorBackground": "#000000",
+      "icon": "faCube"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Gravel bags",
+    "section": {
+      "name": "Construction materials"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#069448",
+      "icon": "faHammer"
+    }
+  },
+  {
+    "id": 775,
+    "name": "Gun Shops",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#d0021b",
+      "colorBackground": "#146c37",
+      "icon": "faCrosshairs"
+    }
+  },
+  {
+    "id": 870,
+    "name": "Hairdresser",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#c026d3",
+      "icon": "faScissors"
+    }
+  },
+  {
+    "id": 862,
+    "name": "Hand water pumps",
+    "section": {
+      "name": "Water sources"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#0f766e",
+      "icon": "faFaucet"
+    }
+  },
+  {
+    "id": 251,
+    "name": "Hazmat Suit Lockers",
+    "section": {
+      "name": "Radiation"
+    },
+    "appearance": {
+      "color": "#ffc904",
+      "colorBackground": "#000000",
+      "icon": "faRadiation"
+    }
+  },
+  {
+    "id": 151,
+    "name": "Hospital",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#b45253",
+      "icon": "faNotesMedical"
+    }
+  },
+  {
+    "id": 859,
+    "name": "Hunter's Grotto",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#804040",
+      "icon": "faCrow"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Hunting Camps",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#275819",
+      "icon": "faCompass"
+    }
+  },
+  {
+    "id": 776,
+    "name": "Hunting Shops",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#62a4e0",
+      "colorBackground": "#146c37",
+      "icon": "faCrosshairs"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Hunting Towers",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#339b17",
+      "icon": "faFeather"
+    }
+  },
+  {
+    "id": 864,
+    "name": "Industrial storage silos",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#92400e",
+      "icon": "faIndustry"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Killboxes",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#8c19e4",
+      "icon": "faBomb"
+    }
+  },
+  {
+    "id": 420,
+    "name": "Krsko POIs",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5a7838",
+      "icon": "faTimes"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Lighthouses",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#e7ec3e",
+      "colorBackground": "#2b6dd4",
+      "icon": "faLightbulb"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Lockers",
+    "section": {
+      "name": "Loot containers"
+    },
+    "appearance": {
+      "color": "#730000",
+      "colorBackground": "#bebebe",
+      "icon": "faLock"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Log Cabin",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5c441e",
+      "icon": "faHome"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Logs",
+    "section": {
+      "name": "Construction materials"
+    },
+    "appearance": {
+      "color": "#613511",
+      "colorBackground": "#93a8a6",
+      "icon": "faHammer"
+    }
+  },
+  {
+    "id": 83,
+    "name": "Mechanic",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#169c7b",
+      "icon": "faTools"
+    }
+  },
+  {
+    "id": 61,
+    "name": "Medical Containers",
+    "section": {
+      "name": "Loot containers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#be1616",
+      "icon": "faFirstAid"
+    }
+  },
+  {
+    "id": 761,
+    "name": "Military Hangars",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#de9b0e",
+      "colorBackground": "#213c21",
+      "icon": "faWarehouse"
+    }
+  },
+  {
+    "id": 320,
+    "name": "Military Warehouses",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#8ecd9a",
+      "colorBackground": "#213c21",
+      "icon": "faWarehouse"
+    }
+  },
+  {
+    "id": 868,
+    "name": "Mine entrances",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#c2410c",
+      "icon": "faHelmetSafety"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Motorbike & bicycle spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#9b1f2d",
+      "colorBackground": "#444c48",
+      "icon": "faMotorcycle"
+    }
+  },
+  {
+    "id": 861,
+    "name": "Natural springs",
+    "section": {
+      "name": "Water sources"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#047857",
+      "icon": "faHandHoldingDroplet"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Novigrad POIs",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5a7838",
+      "icon": "faTimes"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Onions",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#f9ad5b",
+      "colorBackground": "#6c9c32",
+      "icon": "faLemon"
+    }
+  },
+  {
+    "id": 80,
+    "name": "Outposts",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#2fff57",
+      "colorBackground": null,
+      "icon": null
+    }
+  },
+  {
+    "id": 21,
+    "name": "Paddle spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#883d11",
+      "colorBackground": "#bea974",
+      "icon": "faAnchor"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Parsnip",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#dcdace",
+      "colorBackground": "#75623e",
+      "icon": "faCarrot"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Pear trees",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#e0dc71",
+      "colorBackground": "#736c2e",
+      "icon": "faAppleAlt"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Pharmacies",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#2d796c",
+      "colorBackground": "#ffffff",
+      "icon": "faPlus"
+    }
+  },
+  {
+    "id": 777,
+    "name": "Phone Booths",
+    "section": {
+      "name": "Quests"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#5f9add",
+      "icon": "faPhone"
+    }
+  },
+  {
+    "id": 790,
+    "name": "Pile of planks",
+    "section": {
+      "name": "Construction materials"
+    },
+    "appearance": {
+      "color": "#b07516",
+      "colorBackground": "#d9e814",
+      "icon": "faHammer"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Points of interest",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#ffa500",
+      "colorBackground": null,
+      "icon": null
+    }
+  },
+  {
+    "id": 10,
+    "name": "Police stations",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#1a1adc",
+      "icon": "faBuilding"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Potatoes",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#d59415",
+      "colorBackground": "#694809",
+      "icon": "faLemon"
+    }
+  },
+  {
+    "id": 421,
+    "name": "Propane Tank",
+    "section": null,
+    "appearance": {
+      "color": "#e58419",
+      "colorBackground": "#e5e5e5",
+      "icon": "faFireFlameSimple"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Pubs",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#e6a30f",
+      "icon": "faBeer"
+    }
+  },
+  {
+    "id": 712,
+    "name": "Quest Boards",
+    "section": {
+      "name": "Quests"
+    },
+    "appearance": {
+      "color": "#efefef",
+      "colorBackground": "#1e3404",
+      "icon": "faRectangleList"
+    }
+  },
+  {
+    "id": 865,
+    "name": "Quest books",
+    "section": {
+      "name": "Quests"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#b91c1c",
+      "icon": "faBook"
+    }
+  },
+  {
+    "id": 803,
+    "name": "Quest Mailboxes",
+    "section": {
+      "name": "Quests"
+    },
+    "appearance": {
+      "color": "#251e0b",
+      "colorBackground": "#887636",
+      "icon": "faMailBulk"
+    }
+  },
+  {
+    "id": 252,
+    "name": "Radiation Equipment Lockers",
+    "section": {
+      "name": "Radiation"
+    },
+    "appearance": {
+      "color": "#9013fe",
+      "colorBackground": "#000000",
+      "icon": "faRadiation"
+    }
+  },
+  {
+    "id": 778,
+    "name": "Red Toolboxes",
+    "section": null,
+    "appearance": {
+      "color": "#e3caca",
+      "colorBackground": "#b22626",
+      "icon": "faToolbox"
+    }
+  },
+  {
+    "id": 762,
+    "name": "Restaurants",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#9b9b9b",
+      "colorBackground": "#d9e7b1",
+      "icon": "faBowlFood"
+    }
+  },
+  {
+    "id": 22,
+    "name": "RIB spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#19a675",
+      "icon": "faAnchor"
+    }
+  },
+  {
+    "id": 143,
+    "name": "Saloon",
+    "section": {
+      "name": "Outposts"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#ea4dff",
+      "icon": "faCocktail"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Samobor POIs",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5a7838",
+      "icon": "faTimes"
+    }
+  },
+  {
+    "id": 643,
+    "name": "Sardines",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#9acfd2",
+      "icon": "faFish"
+    }
+  },
+  {
+    "id": 62,
+    "name": "Schools",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5816be",
+      "icon": "faGraduationCap"
+    }
+  },
+  {
+    "id": 763,
+    "name": "Secret Bunkers",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#d6b574",
+      "icon": "faSkull"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Small Docks",
+    "section": null,
+    "appearance": {
+      "color": "#ffe500",
+      "colorBackground": "#535353",
+      "icon": "faAnchor"
+    }
+  },
+  {
+    "id": 64,
+    "name": "Small Shipwrecks",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#6b9fc5",
+      "icon": "faShip"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Storage shed",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#86827f",
+      "icon": "faHome"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Strawberries",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#de0809",
+      "colorBackground": "#eeede2",
+      "icon": "faSeedling"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Sunflower fields",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#fbdf2c",
+      "colorBackground": "#6d7834",
+      "icon": "faSun"
+    }
+  },
+  {
+    "id": 279,
+    "name": "Underwater Caves",
+    "section": null,
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#2175a4",
+      "icon": "faWater"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Vehicle repair shops",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#000000",
+      "colorBackground": "#1cdfdf",
+      "icon": "faCarCrash"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Vehicle spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#cf8507",
+      "colorBackground": "#444c48",
+      "icon": "faCarSide"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Villages",
+    "section": {
+      "name": "Points of interest"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#008000",
+      "icon": "faBuilding"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Warehouses",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#0a0a0a",
+      "colorBackground": "#888787",
+      "icon": "faWarehouse"
+    }
+  },
+  {
+    "id": 863,
+    "name": "Water dispensers",
+    "section": {
+      "name": "Water sources"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#4338ca",
+      "icon": "faBottleWater"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Watermelons",
+    "section": {
+      "name": "Crops"
+    },
+    "appearance": {
+      "color": "#ad3831",
+      "colorBackground": "#12080f",
+      "icon": "faPalette"
+    }
+  },
+  {
+    "id": 860,
+    "name": "Wells",
+    "section": {
+      "name": "Water sources"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#1e3a8a",
+      "icon": "faBucket"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Wheelbarrow spawns",
+    "section": {
+      "name": "Vehicles"
+    },
+    "appearance": {
+      "color": "#333131",
+      "colorBackground": "#e58845",
+      "icon": "faCircle"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Workshops",
+    "section": {
+      "name": "Buildings"
+    },
+    "appearance": {
+      "color": "#b22626",
+      "colorBackground": "#e4e4e4",
+      "icon": "faToolbox"
+    }
+  },
+  {
+    "id": 14,
+    "name": "WW2 bunkers",
+    "section": {
+      "name": "Bunkers"
+    },
+    "appearance": {
+      "color": "#ffffff",
+      "colorBackground": "#5d0000",
+      "icon": "faCube"
+    }
+  }
+]

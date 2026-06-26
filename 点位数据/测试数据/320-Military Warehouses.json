@@ -1,0 +1,87 @@
+[
+  {
+    "id": 261362,
+    "urlId": "1Bv6NPoiSpUBYHbmHthQMw",
+    "title": "Military Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#8ecd9a",
+    "longitude": 29.27748,
+    "latitude": 5.01563,
+    "ingameLongitude": 478703.938,
+    "ingameLatitude": 593641.938,
+    "ingameHeight": 8091.101,
+    "category": {
+      "id": 320
+    }
+  },
+  {
+    "id": 261363,
+    "urlId": "1Bv6NPoiSpUBYHbmHthQMx",
+    "title": "Military Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#8ecd9a",
+    "longitude": 28.43229,
+    "latitude": 9.44255,
+    "ingameLongitude": 482722.281,
+    "ingameLatitude": 572584.25,
+    "ingameHeight": 8096.769,
+    "category": {
+      "id": 320
+    }
+  },
+  {
+    "id": 261364,
+    "urlId": "1Bv6NPoiSpUBYHbmHthQMy",
+    "title": "Military Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#8ecd9a",
+    "longitude": 26.85663,
+    "latitude": 6.59011,
+    "ingameLongitude": 490213.562,
+    "ingameLatitude": 586152.562,
+    "ingameHeight": 8091.1,
+    "category": {
+      "id": 320
+    }
+  },
+  {
+    "id": 261365,
+    "urlId": "1Bv6NPoiSpUBYHbmHthQMz",
+    "title": "Military Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#8ecd9a",
+    "longitude": 20.66507,
+    "latitude": 6.15133,
+    "ingameLongitude": 519650.531,
+    "ingameLatitude": 588239.75,
+    "ingameHeight": 18880.914,
+    "category": {
+      "id": 320
+    }
+  },
+  {
+    "id": 261366,
+    "urlId": "1Bv6NPoiaS2YMn6QBHVyna",
+    "title": "Military Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#213c21",
+    "colorIcon": "#8ecd9a",
+    "longitude": 21.02698,
+    "latitude": 6.22617,
+    "ingameLongitude": 517929.875,
+    "ingameLatitude": 587883.75,
+    "ingameHeight": 18880.965,
+    "category": {
+      "id": 320
+    }
+  }
+]

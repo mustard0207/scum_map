@@ -1,0 +1,308 @@
+[
+  {
+    "id": 448279,
+    "urlId": "1CQe2PQUgjkqWspxTKot2Y",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 3,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 281.98774,
+    "latitude": 84.65165,
+    "ingameLongitude": -723766.6,
+    "ingameLatitude": 216046.36,
+    "ingameHeight": 46764.38,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448280,
+    "urlId": "1CQe2PQUgjkqWspxTKot2Z",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 3,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 282.03538,
+    "latitude": 83.71039,
+    "ingameLongitude": -723993.52,
+    "ingameLatitude": 220529.11,
+    "ingameHeight": 46893.71,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448281,
+    "urlId": "1CQe2PQUgjkqWspxTKot2a",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 2,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 201.50474,
+    "latitude": 229.23144,
+    "ingameLongitude": -340466.33,
+    "ingameLatitude": -472515.08,
+    "ingameHeight": 2078.65,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448282,
+    "urlId": "1CQe2PQUgjkqWspxTKot2b",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 2,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 82.22887,
+    "latitude": 222.16293,
+    "ingameLongitude": 227585.01,
+    "ingameLatitude": -438851.28,
+    "ingameHeight": 7386.43,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448283,
+    "urlId": "1CQe2PQUgjkqWspxTKot2c",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 212.40535,
+    "latitude": 82.17136,
+    "ingameLongitude": -392380.47,
+    "ingameLatitude": 227858.72,
+    "ingameHeight": 58966.05,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448284,
+    "urlId": "1CQe2PQUgjkqWspxTKot2d",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 2,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 35.53504,
+    "latitude": 73.11884,
+    "ingameLongitude": 449964.39,
+    "ingameLatitude": 270971.39,
+    "ingameHeight": 16383.52,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448285,
+    "urlId": "1CQe2PQUgjkqWspxTKot2e",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 2,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 244.20368,
+    "latitude": 15.28748,
+    "ingameLongitude": -543820.03,
+    "ingameLatitude": 546393.31,
+    "ingameHeight": 79110.66,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448286,
+    "urlId": "1CQe2PQUgjkqWspxTKot2f",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 276.29619,
+    "latitude": 296.9698,
+    "ingameLongitude": -696660.62,
+    "ingameLatitude": -795119.06,
+    "ingameHeight": 10575.91,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448287,
+    "urlId": "1CQe2PQUgjkqWspxTKot2g",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 171.74071,
+    "latitude": 264.36466,
+    "ingameLongitude": -198715.14,
+    "ingameLatitude": -639837.06,
+    "ingameHeight": 5384.37,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448288,
+    "urlId": "1CQe2PQUgjkqWspxTKot2h",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 3,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 277.39958,
+    "latitude": 87.70385,
+    "ingameLongitude": -701915.5,
+    "ingameLatitude": 201510.27,
+    "ingameHeight": 43997.79,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448289,
+    "urlId": "1CQe2PQUgjkqWspxTKot2i",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 281.51,
+    "latitude": 84.39329,
+    "ingameLongitude": -721491.38,
+    "ingameLatitude": 217276.81,
+    "ingameHeight": 44759.37,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448290,
+    "urlId": "1CQe2PQUgjkqWspxTKot2j",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 281.49705,
+    "latitude": 83.65205,
+    "ingameLongitude": -721429.69,
+    "ingameLatitude": 220806.94,
+    "ingameHeight": 44759.37,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448291,
+    "urlId": "1CQe2PQUgjkqWspxTKot2k",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": 2,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 275.3905,
+    "latitude": 81.65464,
+    "ingameLongitude": -692347.28,
+    "ingameLatitude": 230319.64,
+    "ingameHeight": 44803.66,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448292,
+    "urlId": "1CQe2PQUgjkqWspxTKot2m",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 298.97986,
+    "latitude": 148.45431,
+    "ingameLongitude": -804691.56,
+    "ingameLatitude": -87813.91,
+    "ingameHeight": 34404.6,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448293,
+    "urlId": "1CQe2PQUgjkqWspxTKot2n",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 313.50012,
+    "latitude": 4.70146,
+    "ingameLongitude": -873844.31,
+    "ingameLatitude": 596809.25,
+    "ingameHeight": 62453.02,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448294,
+    "urlId": "1CQe2PQUwDpnMMoUnX2Bte",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 140.02196,
+    "latitude": 197.33002,
+    "ingameLongitude": -47654.6,
+    "ingameLatitude": -320584.53,
+    "ingameHeight": 15906.46,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448295,
+    "urlId": "1CQe2PQUwDpnMMoUnX2Btf",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 35.76846,
+    "latitude": 132.79851,
+    "ingameLongitude": 448852.72,
+    "ingameLatitude": -13253.13,
+    "ingameHeight": 11617,
+    "category": {
+      "id": 251
+    }
+  },
+  {
+    "id": 448296,
+    "urlId": "1CQe2PQUwDpnMMoUnX2Btg",
+    "title": "Hazmat Suit Lockers",
+    "icon": "faRadiation",
+    "number": null,
+    "colorBackground": "#000000",
+    "colorIcon": "#ffc904",
+    "longitude": 101.19802,
+    "latitude": 16.12294,
+    "ingameLongitude": 137244.44,
+    "ingameLatitude": 542414.44,
+    "ingameHeight": 24573.72,
+    "category": {
+      "id": 251
+    }
+  }
+]

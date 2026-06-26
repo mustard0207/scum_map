@@ -1,0 +1,1906 @@
+[
+  {
+    "id": 448462,
+    "urlId": "1CQe2Pf4wzAQPkgbPtbken",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 16,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 313.1303,
+    "latitude": 104.31949,
+    "ingameLongitude": -872083.05,
+    "ingameLatitude": 122378.23,
+    "ingameHeight": 41849.31,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448463,
+    "urlId": "1CQe2Pf4wzAQPkgbPtbkeo",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 24.50477,
+    "latitude": 6.03355,
+    "ingameLongitude": 502496.04,
+    "ingameLatitude": 590465.16,
+    "ingameHeight": 9702.69,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448464,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssb",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 25.02413,
+    "latitude": 2.21386,
+    "ingameLongitude": 500022.58,
+    "ingameLatitude": 608656.41,
+    "ingameHeight": 9702.69,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448465,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssc",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 24.52785,
+    "latitude": 11.57855,
+    "ingameLongitude": 502386.11,
+    "ingameLatitude": 564057.06,
+    "ingameHeight": 9710.67,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448466,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssd",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 23.58726,
+    "latitude": 9.22799,
+    "ingameLongitude": 506865.66,
+    "ingameLatitude": 575251.62,
+    "ingameHeight": 9702.69,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448467,
+    "urlId": "1CQe2Pf57ha1NRbi4TPsse",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 24.80695,
+    "latitude": 14.89013,
+    "ingameLongitude": 501056.92,
+    "ingameLatitude": 548285.69,
+    "ingameHeight": 9710.67,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448468,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssf",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 63.94984,
+    "latitude": 52.79603,
+    "ingameLongitude": 314638.88,
+    "ingameLatitude": 367758.8,
+    "ingameHeight": 21243.68,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448469,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssg",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 74.28218,
+    "latitude": 22.99611,
+    "ingameLongitude": 265431.13,
+    "ingameLatitude": 509680.93,
+    "ingameHeight": 21702.49,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448470,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssh",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 154.40888,
+    "latitude": 59.36566,
+    "ingameLongitude": -116172.28,
+    "ingameLatitude": 336470.92,
+    "ingameHeight": 74971.53,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448471,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssi",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 308.9335,
+    "latitude": 59.34363,
+    "ingameLongitude": -852095.81,
+    "ingameLatitude": 336575.83,
+    "ingameHeight": 58779.23,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448472,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssj",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 244.73118,
+    "latitude": 42.68204,
+    "ingameLongitude": -546332.25,
+    "ingameLatitude": 415926.69,
+    "ingameHeight": 89757.62,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448473,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssk",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 197.36859,
+    "latitude": 12.10706,
+    "ingameLongitude": -320767.92,
+    "ingameLatitude": 561540.04,
+    "ingameHeight": 76811.26,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448474,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssm",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 8.94415,
+    "latitude": 76.4902,
+    "ingameLongitude": 576603.49,
+    "ingameLatitude": 254915.25,
+    "ingameHeight": 2051,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448475,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssn",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 312.09637,
+    "latitude": 22.20402,
+    "ingameLongitude": -867158.94,
+    "ingameLatitude": 513453.25,
+    "ingameHeight": 60234.48,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448476,
+    "urlId": "1CQe2Pf57ha1NRbi4TPsso",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 312.09638,
+    "latitude": 23.93347,
+    "ingameLongitude": -867159,
+    "ingameLatitude": 505216.75,
+    "ingameHeight": 60239.01,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448477,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssp",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 97.20754,
+    "latitude": 121.67108,
+    "ingameLongitude": 156249.09,
+    "ingameLatitude": 39741.27,
+    "ingameHeight": 29912.81,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448478,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssq",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 13,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 142.86151,
+    "latitude": 99.29919,
+    "ingameLongitude": -61177.96,
+    "ingameLatitude": 146287.41,
+    "ingameHeight": 72189.41,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448479,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssr",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 168.29371,
+    "latitude": 114.17317,
+    "ingameLongitude": -182298.79,
+    "ingameLatitude": 75450.1,
+    "ingameHeight": 67505.3,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448480,
+    "urlId": "1CQe2Pf57ha1NRbi4TPsss",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 198.49249,
+    "latitude": 86.91934,
+    "ingameLongitude": -326120.5,
+    "ingameLatitude": 205246.48,
+    "ingameHeight": 83317.09,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448481,
+    "urlId": "1CQe2Pf57ha1NRbi4TPsst",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 234.9032,
+    "latitude": 89.77586,
+    "ingameLongitude": -499526.47,
+    "ingameLatitude": 191642.3,
+    "ingameHeight": 37819.6,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448482,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssu",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 26.23525,
+    "latitude": 170.39953,
+    "ingameLongitude": 494254.62,
+    "ingameLatitude": -192328.04,
+    "ingameHeight": 343.81,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448483,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssv",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 78.49517,
+    "latitude": 138.16163,
+    "ingameLongitude": 245366.75,
+    "ingameLatitude": -38794.98,
+    "ingameHeight": 24483.12,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448484,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssw",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 79.39162,
+    "latitude": 138.14808,
+    "ingameLongitude": 241097.39,
+    "ingameLatitude": -38730.47,
+    "ingameHeight": 24807.66,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448485,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssx",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 75.70652,
+    "latitude": 138.23162,
+    "ingameLongitude": 258647.7,
+    "ingameLatitude": -39128.32,
+    "ingameHeight": 23630.85,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448486,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssy",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 68.67122,
+    "latitude": 167.78727,
+    "ingameLongitude": 292153.32,
+    "ingameLatitude": -179887.14,
+    "ingameHeight": 14384.52,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448487,
+    "urlId": "1CQe2Pf57ha1NRbi4TPssz",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 110.42038,
+    "latitude": 163.43948,
+    "ingameLongitude": 93322.94,
+    "ingameLatitude": -159180.78,
+    "ingameHeight": 31774.01,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448488,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst1",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 142.0008,
+    "latitude": 148.51179,
+    "ingameLongitude": -57078.82,
+    "ingameLatitude": -88087.63,
+    "ingameHeight": 36283.21,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448489,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst2",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 188.32582,
+    "latitude": 138.40616,
+    "ingameLongitude": -277701.71,
+    "ingameLatitude": -39959.58,
+    "ingameHeight": 36137.2,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448490,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst3",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 187.21921,
+    "latitude": 137.36995,
+    "ingameLongitude": -272431.5,
+    "ingameLatitude": -35024.6,
+    "ingameHeight": 36137.2,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448491,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst4",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 181.13839,
+    "latitude": 138.99525,
+    "ingameLongitude": -243471.56,
+    "ingameLatitude": -42765.09,
+    "ingameHeight": 36135.07,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448492,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst5",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 181.62919,
+    "latitude": 140.19092,
+    "ingameLongitude": -245809.02,
+    "ingameLatitude": -48459.47,
+    "ingameHeight": 36135.07,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448493,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst6",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 182.28488,
+    "latitude": 140.92161,
+    "ingameLongitude": -248931.75,
+    "ingameLatitude": -51939.39,
+    "ingameHeight": 36165.62,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448494,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst7",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 182.88159,
+    "latitude": 140.90124,
+    "ingameLongitude": -251773.58,
+    "ingameLatitude": -51842.37,
+    "ingameHeight": 36169.2,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448495,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst8",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 184.17211,
+    "latitude": 140.63387,
+    "ingameLongitude": -257919.67,
+    "ingameLatitude": -50569.02,
+    "ingameHeight": 35762.41,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448496,
+    "urlId": "1CQe2Pf57ha1NRbi4TPst9",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 216.35334,
+    "latitude": 131.96465,
+    "ingameLongitude": -411182.76,
+    "ingameLatitude": -9281.85,
+    "ingameHeight": 37903.55,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448497,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstA",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 215.73579,
+    "latitude": 132.45706,
+    "ingameLongitude": -408241.7,
+    "ingameLatitude": -11626.95,
+    "ingameHeight": 37903.55,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448498,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstB",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 226.91167,
+    "latitude": 151.87244,
+    "ingameLongitude": -461466.81,
+    "ingameLatitude": -104092.72,
+    "ingameHeight": 30913.15,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448499,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstC",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 59.16214,
+    "latitude": 207.81085,
+    "ingameLongitude": 337440.32,
+    "ingameLatitude": -370499.46,
+    "ingameHeight": 12819.44,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448500,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstD",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 12,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 31.56055,
+    "latitude": 247.48007,
+    "ingameLongitude": 468892.86,
+    "ingameLatitude": -559424.19,
+    "ingameHeight": 587.7,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448501,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstE",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 88.76339,
+    "latitude": 238.00039,
+    "ingameLongitude": 196464.34,
+    "ingameLatitude": -514277.18,
+    "ingameHeight": 354.03,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448502,
+    "urlId": "1CQe2Pf57ha1NRbi4TPstF",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 179.15214,
+    "latitude": 243.42112,
+    "ingameLongitude": -234012.07,
+    "ingameLatitude": -540093.41,
+    "ingameHeight": -648.43,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448503,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXi",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 136.93867,
+    "latitude": 232.71382,
+    "ingameLongitude": -32970.4,
+    "ingameLatitude": -489099.92,
+    "ingameHeight": 339.31,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448504,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXj",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 8.52043,
+    "latitude": 59.18583,
+    "ingameLongitude": 578621.44,
+    "ingameLatitude": 337327.34,
+    "ingameHeight": 575.24,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448505,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXk",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 39.2167,
+    "latitude": 307.10197,
+    "ingameLongitude": 432430.47,
+    "ingameLatitude": -843373.54,
+    "ingameHeight": 3654.59,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448506,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXm",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 85.46453,
+    "latitude": 270.97697,
+    "ingameLongitude": 212175.18,
+    "ingameLatitude": -671328.2,
+    "ingameHeight": 3528.61,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448507,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXn",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 74.2212,
+    "latitude": 288.58416,
+    "ingameLongitude": 265721.53,
+    "ingameLatitude": -755182.44,
+    "ingameHeight": 12103.69,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448508,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXo",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 6,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 225.42,
+    "latitude": 272.3416,
+    "ingameLongitude": -454362.73,
+    "ingameLatitude": -677827.26,
+    "ingameHeight": 1668.2,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448509,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXp",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 163.58543,
+    "latitude": 274.6075,
+    "ingameLongitude": -159875.59,
+    "ingameLatitude": -688618.62,
+    "ingameHeight": 740.46,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448510,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXq",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 6,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 221.00523,
+    "latitude": 271.8071,
+    "ingameLongitude": -433337.43,
+    "ingameLatitude": -675281.68,
+    "ingameHeight": 340,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448511,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXr",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 13,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 221.74495,
+    "latitude": 275.29767,
+    "ingameLongitude": -436860.32,
+    "ingameLatitude": -691905.53,
+    "ingameHeight": 1807.1,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448512,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXs",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 5,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 221.25827,
+    "latitude": 277.55992,
+    "ingameLongitude": -434542.51,
+    "ingameLatitude": -702679.51,
+    "ingameHeight": 330,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448513,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXt",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 202.06089,
+    "latitude": 228.54793,
+    "ingameLongitude": -343114.98,
+    "ingameLatitude": -469259.85,
+    "ingameHeight": 2013.56,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448514,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXu",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 202.35138,
+    "latitude": 229.379,
+    "ingameLongitude": -344498.45,
+    "ingameLatitude": -473217.84,
+    "ingameHeight": 1828.68,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448515,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXv",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 201.28319,
+    "latitude": 228.1085,
+    "ingameLongitude": -339411.2,
+    "ingameLatitude": -467167.06,
+    "ingameHeight": 1828.68,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448516,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXw",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 201.43224,
+    "latitude": 229.65321,
+    "ingameLongitude": -340121.06,
+    "ingameLatitude": -474523.74,
+    "ingameHeight": 3079.06,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448517,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXx",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 200.51934,
+    "latitude": 229.13394,
+    "ingameLongitude": -335773.38,
+    "ingameLatitude": -472050.72,
+    "ingameHeight": 3078.66,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448518,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXy",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 82.39498,
+    "latitude": 223.02831,
+    "ingameLongitude": 226793.89,
+    "ingameLatitude": -442972.67,
+    "ingameHeight": 7321.34,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448519,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaXz",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 81.57162,
+    "latitude": 222.71664,
+    "ingameLongitude": 230715.16,
+    "ingameLatitude": -441488.34,
+    "ingameHeight": 7136.46,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448520,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY1",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 83.2315,
+    "latitude": 222.71502,
+    "ingameLongitude": 222809.98,
+    "ingameLatitude": -441480.63,
+    "ingameHeight": 7136.46,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448521,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY2",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 81.95237,
+    "latitude": 221.83629,
+    "ingameLongitude": 228901.82,
+    "ingameLatitude": -437295.66,
+    "ingameHeight": 8386.84,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448522,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY3",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 82.93696,
+    "latitude": 221.47075,
+    "ingameLongitude": 224212.72,
+    "ingameLatitude": -435554.75,
+    "ingameHeight": 8386.44,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448523,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY4",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.52072,
+    "latitude": 214.29379,
+    "ingameLongitude": 450032.59,
+    "ingameLatitude": -401374.47,
+    "ingameHeight": 7107.99,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448524,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY5",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 7,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 298.44095,
+    "latitude": 148.79492,
+    "ingameLongitude": -802125.02,
+    "ingameLatitude": -89436.04,
+    "ingameHeight": 34993.66,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448525,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY6",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 5,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 299.29051,
+    "latitude": 148.5592,
+    "ingameLongitude": -806171.05,
+    "ingameLatitude": -88313.44,
+    "ingameHeight": 34099.81,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448526,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY7",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 298.65105,
+    "latitude": 149.34985,
+    "ingameLongitude": -803125.62,
+    "ingameLatitude": -92078.88,
+    "ingameHeight": 35107.03,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448527,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY8",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 299.39854,
+    "latitude": 148.00746,
+    "ingameLongitude": -806685.56,
+    "ingameLatitude": -85685.77,
+    "ingameHeight": 33957.1,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448528,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaY9",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 253.0264,
+    "latitude": 184.96153,
+    "ingameLongitude": -585838.25,
+    "ingameLatitude": -261679.55,
+    "ingameHeight": 16330.14,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448529,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYA",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 138.67368,
+    "latitude": 171.33949,
+    "ingameLongitude": -41233.42,
+    "ingameLatitude": -196804.57,
+    "ingameHeight": 31153.51,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448530,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYB",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 79.87553,
+    "latitude": 149.36819,
+    "ingameLongitude": 238792.78,
+    "ingameLatitude": -92166.26,
+    "ingameHeight": 29985.67,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448531,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYC",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 318.81516,
+    "latitude": 81.44974,
+    "ingameLongitude": -899157.18,
+    "ingameLatitude": 231295.45,
+    "ingameHeight": 48177.21,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448532,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYD",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 213.34453,
+    "latitude": 82.22238,
+    "ingameLongitude": -396853.33,
+    "ingameLatitude": 227615.76,
+    "ingameHeight": 59406.02,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448533,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYE",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 213.56822,
+    "latitude": 83.05681,
+    "ingameLongitude": -397918.67,
+    "ingameLatitude": 223641.79,
+    "ingameHeight": 59404.98,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448534,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYF",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 213.66253,
+    "latitude": 81.21257,
+    "ingameLongitude": -398367.78,
+    "ingameLatitude": 232425,
+    "ingameHeight": 58959.09,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448535,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYG",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 176.2022,
+    "latitude": 89.18573,
+    "ingameLongitude": -219962.98,
+    "ingameLatitude": 194452.8,
+    "ingameHeight": 74797.61,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448536,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYH",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 90.12253,
+    "latitude": 67.96171,
+    "ingameLongitude": 189991.45,
+    "ingameLatitude": 295532.22,
+    "ingameHeight": 39392.14,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448537,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYJ",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 36.24079,
+    "latitude": 73.64647,
+    "ingameLongitude": 446603.23,
+    "ingameLatitude": 268458.55,
+    "ingameHeight": 16318.43,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448538,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYK",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.42234,
+    "latitude": 73.97082,
+    "ingameLongitude": 450501.09,
+    "ingameLatitude": 266913.8,
+    "ingameHeight": 16133.55,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448539,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYL",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 36.64794,
+    "latitude": 72.85139,
+    "ingameLongitude": 444664.2,
+    "ingameLatitude": 272245.1,
+    "ingameHeight": 16133.55,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448540,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYM",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.11065,
+    "latitude": 73.06372,
+    "ingameLongitude": 451985.54,
+    "ingameLatitude": 271233.9,
+    "ingameHeight": 17383.93,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448541,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYN",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.59201,
+    "latitude": 72.13027,
+    "ingameLongitude": 449693.03,
+    "ingameLatitude": 275679.44,
+    "ingameHeight": 17383.53,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448542,
+    "urlId": "1CQe2Pf5LwkVyAGF3wcaYP",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 314.56311,
+    "latitude": 4.52371,
+    "ingameLongitude": -878906.83,
+    "ingameLatitude": 597655.78,
+    "ingameHeight": 61590.65,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448543,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjo",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 313.96254,
+    "latitude": 4.56501,
+    "ingameLongitude": -876046.62,
+    "ingameLatitude": 597459.06,
+    "ingameHeight": 62489.02,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448544,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjp",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 314.03643,
+    "latitude": 3.45989,
+    "ingameLongitude": -876398.5,
+    "ingameLatitude": 602722.22,
+    "ingameHeight": 62009.13,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448545,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjq",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 8,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 243.98541,
+    "latitude": 16.1412,
+    "ingameLongitude": -542780.52,
+    "ingameLatitude": 542327.45,
+    "ingameHeight": 79045.57,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448546,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjr",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 243.3732,
+    "latitude": 15.50854,
+    "ingameLongitude": -539864.86,
+    "ingameLatitude": 545340.48,
+    "ingameHeight": 78860.68,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448547,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjs",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 244.8757,
+    "latitude": 16.214,
+    "ingameLongitude": -547020.52,
+    "ingameLatitude": 541980.72,
+    "ingameHeight": 78860.68,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448548,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjt",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 244.09263,
+    "latitude": 14.87418,
+    "ingameLongitude": -543291.17,
+    "ingameLatitude": 548361.64,
+    "ingameHeight": 80111.06,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448549,
+    "urlId": "1CQe2Pf5hZYprugxQcsxju",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 245.13915,
+    "latitude": 14.96278,
+    "ingameLongitude": -548275.19,
+    "ingameLatitude": 547939.69,
+    "ingameHeight": 80110.66,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448550,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjv",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 181.27126,
+    "latitude": 10.72649,
+    "ingameLongitude": -244104.37,
+    "ingameLatitude": 568115.03,
+    "ingameHeight": 71245.31,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448551,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjw",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 45.54737,
+    "latitude": 13.26176,
+    "ingameLongitude": 402280.64,
+    "ingameLatitude": 556040.8,
+    "ingameHeight": 15209.08,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448552,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjx",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 10,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 275.61718,
+    "latitude": 297.76447,
+    "ingameLongitude": -693426.82,
+    "ingameLatitude": -798903.68,
+    "ingameHeight": 10138.65,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448553,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjy",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 275.77144,
+    "latitude": 297.50586,
+    "ingameLongitude": -694161.5,
+    "ingameLatitude": -797672.09,
+    "ingameHeight": 10127.72,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448554,
+    "urlId": "1CQe2Pf5hZYprugxQcsxjz",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 248.59456,
+    "latitude": 282.30253,
+    "ingameLongitude": -564731.59,
+    "ingameLatitude": -725266.19,
+    "ingameHeight": 14037.85,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448555,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk1",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 5,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 171.32004,
+    "latitude": 264.65433,
+    "ingameLongitude": -196711.68,
+    "ingameLatitude": -641216.64,
+    "ingameHeight": 5391.16,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448556,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk2",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 6,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 171.41747,
+    "latitude": 266.15685,
+    "ingameLongitude": -197175.69,
+    "ingameLatitude": -648372.35,
+    "ingameHeight": 4956.73,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448557,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk3",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 170.85553,
+    "latitude": 265.5208,
+    "ingameLongitude": -194499.45,
+    "ingameLatitude": -645343.19,
+    "ingameHeight": 4495.65,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448558,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk4",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 123.55879,
+    "latitude": 299.58573,
+    "ingameLongitude": 30751.26,
+    "ingameLatitude": -807577.44,
+    "ingameHeight": 10445.8,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448559,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk5",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 139.98393,
+    "latitude": 197.9491,
+    "ingameLongitude": -47473.45,
+    "ingameLatitude": -323532.88,
+    "ingameHeight": 16175.67,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448560,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk6",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 9,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 140.09667,
+    "latitude": 197.30911,
+    "ingameLongitude": -48010.39,
+    "ingameLatitude": -320484.93,
+    "ingameHeight": 16364.22,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448561,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk7",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 139.37114,
+    "latitude": 197.29888,
+    "ingameLongitude": -44555.04,
+    "ingameLatitude": -320436.23,
+    "ingameHeight": 16356.81,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448562,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk8",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 6,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.82291,
+    "latitude": 132.408,
+    "ingameLongitude": 448593.39,
+    "ingameLatitude": -11393.34,
+    "ingameHeight": 11626.92,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448563,
+    "urlId": "1CQe2Pf5hZYprugxQcsxk9",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 35.06712,
+    "latitude": 132.83624,
+    "ingameLongitude": 452192.85,
+    "ingameLatitude": -13432.79,
+    "ingameHeight": 11633.99,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448564,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkA",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 36.39965,
+    "latitude": 133.1413,
+    "ingameLongitude": 445846.69,
+    "ingameLatitude": -14885.64,
+    "ingameHeight": 12061.95,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448565,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkB",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 133.06517,
+    "latitude": 76.0484,
+    "ingameLongitude": -14522.89,
+    "ingameLatitude": 257019.35,
+    "ingameHeight": 44586.29,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448566,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkC",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 133.13343,
+    "latitude": 76.76005,
+    "ingameLongitude": -14847.97,
+    "ingameLatitude": 253630.11,
+    "ingameHeight": 44586.29,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448567,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkD",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 3,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 133.20276,
+    "latitude": 77.47832,
+    "ingameLongitude": -15178.16,
+    "ingameLatitude": 250209.35,
+    "ingameHeight": 44586.29,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448568,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkE",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 10,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 100.50204,
+    "latitude": 15.72985,
+    "ingameLongitude": 140559.05,
+    "ingameLatitude": 544286.49,
+    "ingameHeight": 24586.39,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448569,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkF",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 2,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 102.14279,
+    "latitude": 15.53689,
+    "ingameLongitude": 132744.98,
+    "ingameLatitude": 545205.47,
+    "ingameHeight": 24593.24,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448570,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkG",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 101.40922,
+    "latitude": 15.57488,
+    "ingameLongitude": 136238.58,
+    "ingameLatitude": 545024.56,
+    "ingameHeight": 24623.91,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448571,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkH",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": null,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 22.40463,
+    "latitude": 14.04269,
+    "ingameLongitude": 512497.97,
+    "ingameLatitude": 552321.62,
+    "ingameHeight": 8130,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448572,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkJ",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 4,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 23.0101,
+    "latitude": 5.67752,
+    "ingameLongitude": 509614.41,
+    "ingameLatitude": 592160.75,
+    "ingameHeight": 8088.57,
+    "category": {
+      "id": 59
+    }
+  },
+  {
+    "id": 448573,
+    "urlId": "1CQe2Pf5hZYprugxQcsxkK",
+    "title": "Lockers",
+    "icon": "faLock",
+    "number": 7,
+    "colorBackground": "#bebebe",
+    "colorIcon": "#730000",
+    "longitude": 21.67004,
+    "latitude": 9.78444,
+    "ingameLongitude": 515996.43,
+    "ingameLatitude": 572601.51,
+    "ingameHeight": 7235.14,
+    "category": {
+      "id": 59
+    }
+  }
+]

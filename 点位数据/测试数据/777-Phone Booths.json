@@ -1,0 +1,1005 @@
+[
+  {
+    "id": 448637,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1G",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 301.11221,
+    "latitude": 109.82729,
+    "ingameLongitude": -814846.88,
+    "ingameLatitude": 96147.36,
+    "ingameHeight": 41540.26,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448638,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1H",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 48.84026,
+    "latitude": 49.13764,
+    "ingameLongitude": 386598.28,
+    "ingameLatitude": 385181.88,
+    "ingameHeight": 19389.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448639,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1J",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 56.12655,
+    "latitude": 63.27826,
+    "ingameLongitude": 351897.3,
+    "ingameLatitude": 317837.16,
+    "ingameHeight": 20153.55,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448640,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1K",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 51.9635,
+    "latitude": 50.80855,
+    "ingameLongitude": 371723.84,
+    "ingameLatitude": 377224.16,
+    "ingameHeight": 20179.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448641,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1L",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 66.06519,
+    "latitude": 55.63736,
+    "ingameLongitude": 304564.53,
+    "ingameLatitude": 354226.96,
+    "ingameHeight": 21812.32,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448642,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1M",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 58.53734,
+    "latitude": 55.01033,
+    "ingameLongitude": 340415.91,
+    "ingameLatitude": 357213.16,
+    "ingameHeight": 20904.06,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448643,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1N",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 63.183,
+    "latitude": 52.80902,
+    "ingameLongitude": 318290.94,
+    "ingameLatitude": 367696.94,
+    "ingameHeight": 21044.03,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448644,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1P",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 63.0077,
+    "latitude": 51.87433,
+    "ingameLongitude": 319125.81,
+    "ingameLatitude": 372148.38,
+    "ingameHeight": 21058.5,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448645,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1Q",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 63.80705,
+    "latitude": 52.2464,
+    "ingameLongitude": 315318.94,
+    "ingameLatitude": 370376.38,
+    "ingameHeight": 21048.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448646,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1R",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 60.84395,
+    "latitude": 52.59684,
+    "ingameLongitude": 329430.69,
+    "ingameLatitude": 368707.44,
+    "ingameHeight": 20975.49,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448647,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1S",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 60.9179,
+    "latitude": 51.74148,
+    "ingameLongitude": 329078.48,
+    "ingameLatitude": 372781.08,
+    "ingameHeight": 21060.57,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448648,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1T",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 3,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 242.72085,
+    "latitude": 31.88194,
+    "ingameLongitude": -536758.06,
+    "ingameLatitude": 467362.17,
+    "ingameHeight": 80878.94,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448649,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1U",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 137.08784,
+    "latitude": 147.88862,
+    "ingameLongitude": -33680.83,
+    "ingameLatitude": -85119.8,
+    "ingameHeight": 35513.11,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448650,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1V",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 262.33227,
+    "latitude": 163.61498,
+    "ingameLongitude": -630157.44,
+    "ingameLatitude": -160016.58,
+    "ingameHeight": 28793,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448651,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1W",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 28.14228,
+    "latitude": 244.75382,
+    "ingameLongitude": 485172.38,
+    "ingameLatitude": -546440.44,
+    "ingameHeight": 5282.83,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448652,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1X",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 232.67076,
+    "latitude": 218.55071,
+    "ingameLongitude": -488894.5,
+    "ingameLatitude": -421648.09,
+    "ingameHeight": 882.34,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448653,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1Y",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 203.38169,
+    "latitude": 204.40298,
+    "ingameLongitude": -349405.28,
+    "ingameLatitude": -354269.5,
+    "ingameHeight": 777.46,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448654,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1Z",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 34.87972,
+    "latitude": 300.32618,
+    "ingameLongitude": 453085.31,
+    "ingameLatitude": -811103.84,
+    "ingameHeight": 359.04,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448655,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1a",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 95.02864,
+    "latitude": 275.98348,
+    "ingameLongitude": 166626.12,
+    "ingameLatitude": -695171.72,
+    "ingameHeight": 1492.45,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448656,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1b",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 92.4104,
+    "latitude": 275.23275,
+    "ingameLongitude": 179095.48,
+    "ingameLatitude": -691596.38,
+    "ingameHeight": 900,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448657,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1c",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 87.09862,
+    "latitude": 272.24405,
+    "ingameLongitude": 204392.83,
+    "ingameLatitude": -677362.69,
+    "ingameHeight": 2664.24,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448658,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1d",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 86.1468,
+    "latitude": 271.90253,
+    "ingameLongitude": 208925.86,
+    "ingameLatitude": -675736.19,
+    "ingameHeight": 2279.74,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448659,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1e",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 187.74731,
+    "latitude": 271.73029,
+    "ingameLongitude": -274946.56,
+    "ingameLatitude": -674915.88,
+    "ingameHeight": 7706.23,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448660,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1f",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 166.49873,
+    "latitude": 275.385,
+    "ingameLongitude": -173750.22,
+    "ingameLatitude": -692321.47,
+    "ingameHeight": 1441.86,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448661,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1g",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 162.89657,
+    "latitude": 270.09269,
+    "ingameLongitude": -156594.92,
+    "ingameLatitude": -667116.81,
+    "ingameHeight": 749.27,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448662,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1h",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 163.73659,
+    "latitude": 270.07199,
+    "ingameLongitude": -160595.5,
+    "ingameLatitude": -667018.25,
+    "ingameHeight": 1247.06,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448663,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1i",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 161.69409,
+    "latitude": 272.22611,
+    "ingameLongitude": -150868.11,
+    "ingameLatitude": -677277.25,
+    "ingameHeight": 405.15,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448664,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1j",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 66.81521,
+    "latitude": 55.81356,
+    "ingameLongitude": 300992.56,
+    "ingameLatitude": 353387.81,
+    "ingameHeight": 21779.63,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448665,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1k",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 55.61675,
+    "latitude": 56.65554,
+    "ingameLongitude": 354325.25,
+    "ingameLatitude": 349377.88,
+    "ingameHeight": 21524.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448666,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1m",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 57.95267,
+    "latitude": 46.008,
+    "ingameLongitude": 343200.41,
+    "ingameLatitude": 400086.8,
+    "ingameHeight": 20551.72,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448667,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1n",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 73.33219,
+    "latitude": 47.93834,
+    "ingameLongitude": 269955.44,
+    "ingameLatitude": 390893.52,
+    "ingameHeight": 23652.55,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448668,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1o",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 59.93598,
+    "latitude": 50.69824,
+    "ingameLongitude": 333754.88,
+    "ingameLatitude": 377749.53,
+    "ingameHeight": 21056.18,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448669,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1p",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 68.7383,
+    "latitude": 48.08112,
+    "ingameLongitude": 291833.84,
+    "ingameLatitude": 390213.56,
+    "ingameHeight": 21782.75,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448670,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1q",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 65.08804,
+    "latitude": 48.41028,
+    "ingameLongitude": 309218.22,
+    "ingameLatitude": 388645.94,
+    "ingameHeight": 21057.7,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448671,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1r",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 62.29453,
+    "latitude": 55.57826,
+    "ingameLongitude": 322522.28,
+    "ingameLatitude": 354508.39,
+    "ingameHeight": 20899.81,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448672,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1s",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 63.77077,
+    "latitude": 55.56412,
+    "ingameLongitude": 315491.73,
+    "ingameLatitude": 354575.77,
+    "ingameHeight": 21202.11,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448673,
+    "urlId": "1CQe2Pu9kZSsfuvfgMcK1t",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 59.78051,
+    "latitude": 52.19314,
+    "ingameLongitude": 334495.34,
+    "ingameLatitude": 370630.03,
+    "ingameHeight": 20973.62,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448674,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwi",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 154.2528,
+    "latitude": 204.97131,
+    "ingameLongitude": -115428.94,
+    "ingameLatitude": -356976.19,
+    "ingameHeight": 15123.99,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448675,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwj",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 97.1607,
+    "latitude": 277.20265,
+    "ingameLongitude": 156472.17,
+    "ingameLatitude": -700978,
+    "ingameHeight": 2071.19,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448676,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwk",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 96.38826,
+    "latitude": 277.46983,
+    "ingameLongitude": 160150.91,
+    "ingameLatitude": -702250.44,
+    "ingameHeight": 1087.27,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448677,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwm",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 96.89095,
+    "latitude": 278.61785,
+    "ingameLongitude": 157756.84,
+    "ingameLatitude": -707717.91,
+    "ingameHeight": 891.97,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448678,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwn",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 166.14824,
+    "latitude": 274.6971,
+    "ingameLongitude": -172080.97,
+    "ingameLatitude": -689045.31,
+    "ingameHeight": 1084.26,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448679,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwo",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": 2,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 166.18675,
+    "latitude": 273.13636,
+    "ingameLongitude": -172264.4,
+    "ingameLatitude": -681612.31,
+    "ingameHeight": 1084.26,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448680,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwp",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 164.96873,
+    "latitude": 275.80547,
+    "ingameLongitude": -166463.56,
+    "ingameLatitude": -694323.94,
+    "ingameHeight": 661.55,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448681,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwq",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 164.77064,
+    "latitude": 273.85836,
+    "ingameLongitude": -165520.16,
+    "ingameLatitude": -685050.81,
+    "ingameHeight": 774.38,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448682,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwr",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 164.57174,
+    "latitude": 271.44638,
+    "ingameLongitude": -164572.91,
+    "ingameLatitude": -673563.75,
+    "ingameHeight": 1076.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448683,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkws",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 67.86783,
+    "latitude": 55.92578,
+    "ingameLongitude": 295979.44,
+    "ingameLatitude": 352853.34,
+    "ingameHeight": 21778.3,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448684,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwt",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 51.08214,
+    "latitude": 50.86488,
+    "ingameLongitude": 375921.31,
+    "ingameLatitude": 376955.91,
+    "ingameHeight": 20168.61,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448685,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwu",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 54.41721,
+    "latitude": 51.29389,
+    "ingameLongitude": 360038.03,
+    "ingameLatitude": 374912.72,
+    "ingameHeight": 20411.65,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448686,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwv",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 56.6028,
+    "latitude": 47.84692,
+    "ingameLongitude": 349629.16,
+    "ingameLatitude": 391328.94,
+    "ingameHeight": 20535.97,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448687,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkww",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 58.2616,
+    "latitude": 47.90644,
+    "ingameLongitude": 341729.12,
+    "ingameLatitude": 391045.44,
+    "ingameHeight": 20551.4,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448688,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwx",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 66.37409,
+    "latitude": 57.8644,
+    "ingameLongitude": 303093.41,
+    "ingameLatitude": 343620.66,
+    "ingameHeight": 21541.59,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448689,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwy",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 68.14909,
+    "latitude": 50.31222,
+    "ingameLongitude": 294639.94,
+    "ingameLatitude": 379587.91,
+    "ingameHeight": 21781.39,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448690,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkwz",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 62.3963,
+    "latitude": 58.35593,
+    "ingameLongitude": 322037.62,
+    "ingameLatitude": 341279.75,
+    "ingameHeight": 21024,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448691,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkx1",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 60.3124,
+    "latitude": 55.05561,
+    "ingameLongitude": 331962.19,
+    "ingameLatitude": 356997.53,
+    "ingameHeight": 20913.46,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448692,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkx2",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 60.65732,
+    "latitude": 56.85613,
+    "ingameLongitude": 330319.5,
+    "ingameLatitude": 348422.56,
+    "ingameHeight": 20905.78,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448693,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkx3",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 246.35877,
+    "latitude": 66.85663,
+    "ingameLongitude": -554083.62,
+    "ingameLatitude": 300795.16,
+    "ingameHeight": 55743.57,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448694,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkx4",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 98.74139,
+    "latitude": 291.83598,
+    "ingameLongitude": 148944.11,
+    "ingameLatitude": -770669.25,
+    "ingameHeight": 1528.01,
+    "category": {
+      "id": 777
+    }
+  },
+  {
+    "id": 448695,
+    "urlId": "1CQe2Pu9uzw3r9tBx5Jkx5",
+    "title": "Phone Booths",
+    "icon": "faPhone",
+    "number": null,
+    "colorBackground": "#5f9add",
+    "colorIcon": "#000000",
+    "longitude": 99.27398,
+    "latitude": 281.21694,
+    "ingameLongitude": 146407.66,
+    "ingameLatitude": -720096.06,
+    "ingameHeight": 1409.31,
+    "category": {
+      "id": 777
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238385,
+    "urlId": "1BtrLd39HhuUh46YxQfTSG",
+    "title": "Hospital",
+    "icon": "faNotesMedical",
+    "number": null,
+    "colorBackground": "#b45253",
+    "colorIcon": "#ffffff",
+    "longitude": 9.40142,
+    "latitude": 178.20286,
+    "ingameLongitude": 573202.125,
+    "ingameLatitude": -230164.484,
+    "ingameHeight": 356.619,
+    "category": {
+      "id": 151
+    }
+  },
+  {
+    "id": 238386,
+    "urlId": "1BtrLd39LTdCLoqbYukTDm",
+    "title": "Hospital",
+    "icon": "faNotesMedical",
+    "number": null,
+    "colorBackground": "#b45253",
+    "colorIcon": "#ffffff",
+    "longitude": 126.0855,
+    "latitude": 272.90646,
+    "ingameLongitude": 18442.375,
+    "ingameLatitude": -680644.75,
+    "ingameHeight": 343.193,
+    "category": {
+      "id": 151
+    }
+  },
+  {
+    "id": 238387,
+    "urlId": "1BtrLd39Hq4P9biryQnb1s",
+    "title": "Hospital",
+    "icon": "faNotesMedical",
+    "number": null,
+    "colorBackground": "#b45253",
+    "colorIcon": "#ffffff",
+    "longitude": 161.84348,
+    "latitude": 70.02612,
+    "ingameLongitude": -151564.406,
+    "ingameLatitude": 284404.031,
+    "ingameHeight": 69690.781,
+    "category": {
+      "id": 151
+    }
+  },
+  {
+    "id": 238388,
+    "urlId": "1BtrLd39J6iSYrgXW6UKzV",
+    "title": "Hospital",
+    "icon": "faNotesMedical",
+    "number": null,
+    "colorBackground": "#b45253",
+    "colorIcon": "#ffffff",
+    "longitude": 260.50062,
+    "latitude": 247.67415,
+    "ingameLongitude": -620617.313,
+    "ingameLatitude": -560621.25,
+    "ingameHeight": 2454.869,
+    "category": {
+      "id": 151
+    }
+  }
+]

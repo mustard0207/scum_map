@@ -1,0 +1,512 @@
+[
+  {
+    "id": 436896,
+    "urlId": "1CQE2btMDN1iULVzzoTyUC",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": null,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 101.1582,
+    "latitude": 282.96665,
+    "ingameLongitude": 137434.08,
+    "ingameLatitude": -728429.06,
+    "ingameHeight": 1309.67,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436897,
+    "urlId": "1CQE2btMDN1iULVzzoTyUD",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 41.03672,
+    "latitude": 233.34507,
+    "ingameLongitude": 423762.62,
+    "ingameLatitude": -492106.25,
+    "ingameHeight": 5893.83,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436898,
+    "urlId": "1CQE2btMDN1iULVzzoTyUE",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 225.97936,
+    "latitude": 194.17688,
+    "ingameLongitude": -457026.72,
+    "ingameLatitude": -305567.67,
+    "ingameHeight": 13945.69,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436899,
+    "urlId": "1CQE2btMDN1iULVzzoTyUF",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 5,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 34.3948,
+    "latitude": 181.73493,
+    "ingameLongitude": 455394.78,
+    "ingameLatitude": -246312.89,
+    "ingameHeight": 7956.26,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436900,
+    "urlId": "1CQE2btMDN1iULVzzoTyUG",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 9,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 21.8767,
+    "latitude": 172.34045,
+    "ingameLongitude": 515012.2,
+    "ingameLatitude": -201571.68,
+    "ingameHeight": 769.02,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436901,
+    "urlId": "1CQE2btMDN1iULVzzoTyUH",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 5,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 70.67928,
+    "latitude": 168.67113,
+    "ingameLongitude": 282589.95,
+    "ingameLatitude": -184096.52,
+    "ingameHeight": 14972.82,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436902,
+    "urlId": "1CQE2btMDN1iULVzzoTyUJ",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 7,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 154.42847,
+    "latitude": 165.65655,
+    "ingameLongitude": -116265.61,
+    "ingameLatitude": -169739.6,
+    "ingameHeight": 36386.51,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436903,
+    "urlId": "1CQE2btMDN1iULVzzoTyUK",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 7,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 67.98333,
+    "latitude": 166.4915,
+    "ingameLongitude": 295429.38,
+    "ingameLatitude": -173716.02,
+    "ingameHeight": 14230.78,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436904,
+    "urlId": "1CQE2btMDN1iULVzzoTyUL",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 7,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 70.58861,
+    "latitude": 164.68161,
+    "ingameLongitude": 283021.75,
+    "ingameLatitude": -165096.44,
+    "ingameHeight": 15247.99,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436905,
+    "urlId": "1CQE2btMDN1iULVzzoTyUM",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 7,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 67.34279,
+    "latitude": 164.92102,
+    "ingameLongitude": 298479.96,
+    "ingameLatitude": -166236.63,
+    "ingameHeight": 14154.58,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436906,
+    "urlId": "1CQE2btMDN1iULVzzoTyUN",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": null,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 191.35978,
+    "latitude": 156.24455,
+    "ingameLongitude": -292150.97,
+    "ingameLatitude": -124914.9,
+    "ingameHeight": 35379.93,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436907,
+    "urlId": "1CQE2btMDN1iULVzzoTyUP",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": null,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 190.71887,
+    "latitude": 155.66267,
+    "ingameLongitude": -289098.62,
+    "ingameLatitude": -122143.71,
+    "ingameHeight": 35590.82,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436908,
+    "urlId": "1CQE2btMDN1iULVzzoTyUQ",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 9,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 144.39948,
+    "latitude": 145.54949,
+    "ingameLongitude": -68502.53,
+    "ingameLatitude": -73979.68,
+    "ingameHeight": 36235.36,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436909,
+    "urlId": "1CQE2btMDN1iULVzzoTyUR",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": null,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 96.48924,
+    "latitude": 141.90762,
+    "ingameLongitude": 159669.98,
+    "ingameLatitude": -56635.28,
+    "ingameHeight": 32771.79,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436910,
+    "urlId": "1CQE2btMDN1iULVzzoTyUS",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 13,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 248.42368,
+    "latitude": 136.01151,
+    "ingameLongitude": -563917.78,
+    "ingameLatitude": -28555.02,
+    "ingameHeight": 32264.14,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436911,
+    "urlId": "1CQE2btMDN1iULVzzoTyUT",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 43.04166,
+    "latitude": 128.84018,
+    "ingameLongitude": 414214.09,
+    "ingameLatitude": 5598.41,
+    "ingameHeight": 11978.21,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436912,
+    "urlId": "1CQE2btMDN1iULVzzoTyUU",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 8,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 20.23482,
+    "latitude": 124.46464,
+    "ingameLongitude": 522831.66,
+    "ingameLatitude": 26436.94,
+    "ingameHeight": 9538.43,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436913,
+    "urlId": "1CQE2btMDN1iULVzzoTyUV",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 7,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 49.43264,
+    "latitude": 119.50234,
+    "ingameLongitude": 383777.07,
+    "ingameLatitude": 50069.92,
+    "ingameHeight": 13276.04,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436914,
+    "urlId": "1CQE2btMDN1iULVzzoTyUW",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 5,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 86.56221,
+    "latitude": 93.3506,
+    "ingameLongitude": 206947.49,
+    "ingameLatitude": 174617.59,
+    "ingameHeight": 32125.49,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436915,
+    "urlId": "1CQE2btMDN1iULVzzoTyUX",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 4,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 188.9263,
+    "latitude": 91.67436,
+    "ingameLongitude": -280561.5,
+    "ingameLatitude": 182600.71,
+    "ingameHeight": 78212.37,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436916,
+    "urlId": "1CQE2btMDN1iULVzzoTyUY",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 4,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 55.97551,
+    "latitude": 84.88747,
+    "ingameLongitude": 352616.62,
+    "ingameLatitude": 214923.28,
+    "ingameHeight": 20962.64,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436917,
+    "urlId": "1CQE2btMDN1iULVzzoTyUZ",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 55.41145,
+    "latitude": 85.77631,
+    "ingameLongitude": 355302.97,
+    "ingameLatitude": 210690.16,
+    "ingameHeight": 21025.06,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436918,
+    "urlId": "1CQE2btMDN1iULVzzoTyUa",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 14,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 242.03686,
+    "latitude": 80.45814,
+    "ingameLongitude": -533500.56,
+    "ingameLatitude": 236017.97,
+    "ingameHeight": 44035.5,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436919,
+    "urlId": "1CQE2btMDN1iULVzzoTyUb",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 2,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 241.6773,
+    "latitude": 80.3208,
+    "ingameLongitude": -531788.12,
+    "ingameLatitude": 236672.04,
+    "ingameHeight": 44041.71,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436920,
+    "urlId": "1CQE2btMDN1iULVzzoTyUc",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 92.52572,
+    "latitude": 80.33043,
+    "ingameLongitude": 178546.25,
+    "ingameLatitude": 236626.18,
+    "ingameHeight": 31960.81,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436921,
+    "urlId": "1CQE2btMDN1iULVzzoTyUd",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": null,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 49.6828,
+    "latitude": 68.26757,
+    "ingameLongitude": 382585.66,
+    "ingameLatitude": 294075.56,
+    "ingameHeight": 18808.44,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436922,
+    "urlId": "1CQE2btMDN1iULVzzoTyUe",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 6,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 241.46063,
+    "latitude": 32.54529,
+    "ingameLongitude": -530756.24,
+    "ingameLatitude": 464202.95,
+    "ingameHeight": 80543.34,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436923,
+    "urlId": "1CQE2btMDN1iULVzzoTyUf",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 10,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 137.07043,
+    "latitude": 17.64679,
+    "ingameLongitude": -33597.94,
+    "ingameLatitude": 535157.09,
+    "ingameHeight": 35967.31,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436924,
+    "urlId": "1CQE2btMDN1iULVzzoTyUg",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 11,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 125.66062,
+    "latitude": 5.94266,
+    "ingameLongitude": 20741.32,
+    "ingameLatitude": 590898.01,
+    "ingameHeight": 35963.53,
+    "category": {
+      "id": 38
+    }
+  },
+  {
+    "id": 436925,
+    "urlId": "1CQE2btMDN1iULVzzoTyUh",
+    "title": "Broccoli",
+    "icon": "faLeaf",
+    "number": 11,
+    "colorBackground": "#a4c85a",
+    "colorIcon": "#143a12",
+    "longitude": 126.83246,
+    "latitude": 4.28083,
+    "ingameLongitude": 15160.4,
+    "ingameLatitude": 598812.49,
+    "ingameHeight": 35921.1,
+    "category": {
+      "id": 38
+    }
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "id": 448716,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrES",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 298.9719,
+    "latitude": 106.19217,
+    "ingameLongitude": -804653.69,
+    "ingameLatitude": 113459.62,
+    "ingameHeight": 41940,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448717,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrET",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 54.86501,
+    "latitude": 8.81955,
+    "ingameLongitude": 357905.38,
+    "ingameLatitude": 577196.81,
+    "ingameHeight": 13665.5,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448718,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEU",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": 2,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 215.0838,
+    "latitude": 12.88729,
+    "ingameLongitude": -405136.62,
+    "ingameLatitude": 557824.19,
+    "ingameHeight": 83256.88,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448719,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEV",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 310.13963,
+    "latitude": 21.84565,
+    "ingameLongitude": -857840,
+    "ingameLatitude": 515160,
+    "ingameHeight": 60230,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448720,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEW",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 310.13963,
+    "latitude": 22.69166,
+    "ingameLongitude": -857840,
+    "ingameLatitude": 511130.88,
+    "ingameHeight": 60230,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448721,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEX",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 163.18414,
+    "latitude": 69.28445,
+    "ingameLongitude": -157964.48,
+    "ingameLatitude": 289232.66,
+    "ingameHeight": 69576.44,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448722,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEY",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": 2,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 286.06009,
+    "latitude": 105.38173,
+    "ingameLongitude": -743161.19,
+    "ingameLatitude": 117319.34,
+    "ingameHeight": 37907.83,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448723,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEZ",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": 2,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 77.0118,
+    "latitude": 183.84076,
+    "ingameLongitude": 252431.29,
+    "ingameLatitude": -256341.92,
+    "ingameHeight": 14944.88,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448724,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEa",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 108.00306,
+    "latitude": 164.28425,
+    "ingameLongitude": 104835.44,
+    "ingameLatitude": -163204,
+    "ingameHeight": 31189.12,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448725,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEb",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 111.87528,
+    "latitude": 166.90264,
+    "ingameLongitude": 86393.97,
+    "ingameLatitude": -175674.06,
+    "ingameHeight": 30866.43,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448726,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEc",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 178.24064,
+    "latitude": 140.47846,
+    "ingameLongitude": -229671.03,
+    "ingameLatitude": -49828.91,
+    "ingameHeight": 35692,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448727,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEd",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 190.10798,
+    "latitude": 138.58043,
+    "ingameLongitude": -286189.25,
+    "ingameLatitude": -40789.51,
+    "ingameHeight": 35686.55,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448728,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEe",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 153.20959,
+    "latitude": 144.39092,
+    "ingameLongitude": -110460.66,
+    "ingameLatitude": -68462,
+    "ingameHeight": 36884.96,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448729,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEf",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 216.56051,
+    "latitude": 152.27216,
+    "ingameLongitude": -412169.44,
+    "ingameLatitude": -105996.38,
+    "ingameHeight": 32390.15,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448730,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEg",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 285.29824,
+    "latitude": 187.09775,
+    "ingameLongitude": -739532.88,
+    "ingameLatitude": -271853.34,
+    "ingameHeight": 17045.58,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448731,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEh",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 21.25807,
+    "latitude": 245.88476,
+    "ingameLongitude": 517958.44,
+    "ingameLatitude": -551826.5,
+    "ingameHeight": 187.74,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448732,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEi",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 125.36036,
+    "latitude": 231.40259,
+    "ingameLongitude": 22171.3,
+    "ingameLatitude": -482855.16,
+    "ingameHeight": 5992.44,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448733,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEj",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 145.76546,
+    "latitude": 234.85745,
+    "ingameLongitude": -75008,
+    "ingameLatitude": -499308.94,
+    "ingameHeight": 194.62,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448734,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEk",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 154.5999,
+    "latitude": 204.96399,
+    "ingameLongitude": -117082.01,
+    "ingameLatitude": -356941.31,
+    "ingameHeight": 15124.62,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448735,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEm",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 70.80449,
+    "latitude": 59.78479,
+    "ingameLongitude": 281993.62,
+    "ingameLatitude": 334474.81,
+    "ingameHeight": 22455.44,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448736,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEn",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 44.54898,
+    "latitude": 305.30403,
+    "ingameLongitude": 407035.5,
+    "ingameLatitude": -834810.88,
+    "ingameHeight": 858.09,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448737,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEo",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 108.27463,
+    "latitude": 289.12867,
+    "ingameLongitude": 103542.07,
+    "ingameLatitude": -757775.69,
+    "ingameHeight": 1006.76,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448738,
+    "urlId": "1CQe2Q6YC4v3CZmUzLFrEp",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 187.97385,
+    "latitude": 271.18869,
+    "ingameLongitude": -276025.44,
+    "ingameLatitude": -672336.5,
+    "ingameHeight": 7696.08,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448739,
+    "urlId": "1CQe2Q6YMmsPeAymiyymyw",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": null,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 89.27792,
+    "latitude": 98.57733,
+    "ingameLongitude": 194013.91,
+    "ingameLatitude": 149725.28,
+    "ingameHeight": 32159.55,
+    "category": {
+      "id": 421
+    }
+  },
+  {
+    "id": 448740,
+    "urlId": "1CQe2Q6YMmsPeAymiyymyx",
+    "title": "Propane Tank",
+    "icon": "faFireFlameSimple",
+    "number": 2,
+    "colorBackground": "#e5e5e5",
+    "colorIcon": "#e58419",
+    "longitude": 105.24951,
+    "latitude": 31.01176,
+    "ingameLongitude": 117949.23,
+    "ingameLatitude": 471506.39,
+    "ingameHeight": 29378.3,
+    "category": {
+      "id": 421
+    }
+  }
+]

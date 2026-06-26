@@ -1,0 +1,70 @@
+[
+  {
+    "id": 475475,
+    "urlId": "1CV7t6hZY8TpSVJNHqTXQ2",
+    "title": "B4 Outpost",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#2fff57",
+    "longitude": 10.06518,
+    "latitude": 177.08929,
+    "ingameLongitude": 571264.563,
+    "ingameLatitude": -224187.75,
+    "ingameHeight": 424.117,
+    "category": {
+      "id": 80
+    }
+  },
+  {
+    "id": 475476,
+    "urlId": "1CV7t6ifufex1pNCoyqp6s",
+    "title": "A0 Outpost",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#2fff57",
+    "longitude": 259.9826,
+    "latitude": 246.66886,
+    "ingameLongitude": -618967.125,
+    "ingameLatitude": -555560.438,
+    "ingameHeight": 2725.064,
+    "category": {
+      "id": 80
+    }
+  },
+  {
+    "id": 475477,
+    "urlId": "1CV7t6kCr8LDFQQwxcUVZ4",
+    "title": "C2 Outpost",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#2fff57",
+    "longitude": 162.01142,
+    "latitude": 69.25918,
+    "ingameLongitude": -152379.406,
+    "ingameLatitude": 289353.094,
+    "ingameHeight": 69730.203,
+    "category": {
+      "id": 80
+    }
+  },
+  {
+    "id": 475478,
+    "urlId": "1CV7t6kyjPjYFVfrjtdK1n",
+    "title": "Z3 Outpost",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#2fff57",
+    "longitude": 125.16162,
+    "latitude": 271.4468,
+    "ingameLongitude": 23117.793,
+    "ingameLatitude": -673565.375,
+    "ingameHeight": 458.871,
+    "category": {
+      "id": 80
+    }
+  }
+]

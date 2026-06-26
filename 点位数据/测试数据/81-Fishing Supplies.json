@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238377,
+    "urlId": "1BtrLd39HmAbo3xkkA6RLB",
+    "title": "Fishing Supplies",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#4d5058",
+    "colorIcon": "#4ac6ff",
+    "longitude": 126.17329,
+    "latitude": 271.6608,
+    "ingameLongitude": 18025.031,
+    "ingameLatitude": -674719.5,
+    "ingameHeight": 400.385,
+    "category": {
+      "id": 81
+    }
+  },
+  {
+    "id": 238378,
+    "urlId": "1BtrLd39HzpkbVg9bVsHam",
+    "title": "Fishing Supplies",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#4d5058",
+    "colorIcon": "#4ac6ff",
+    "longitude": 262.22532,
+    "latitude": 248.45268,
+    "ingameLongitude": -628817.188,
+    "ingameLatitude": -564324.5,
+    "ingameHeight": 279.508,
+    "category": {
+      "id": 81
+    }
+  },
+  {
+    "id": 238379,
+    "urlId": "1BtrLd39HhucMVW39GkC16",
+    "title": "Fishing Supplies",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#4d5058",
+    "colorIcon": "#4ac6ff",
+    "longitude": 9.947,
+    "latitude": 178.07471,
+    "ingameLongitude": 570608.25,
+    "ingameLatitude": -229554.906,
+    "ingameHeight": 422.124,
+    "category": {
+      "id": 81
+    }
+  },
+  {
+    "id": 238380,
+    "urlId": "1BtrLd39HiUqDhJzfJW81Z",
+    "title": "Fishing Supplies",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#4d5058",
+    "colorIcon": "#4ac6ff",
+    "longitude": 162.9902,
+    "latitude": 68.88712,
+    "ingameLongitude": -157016.328,
+    "ingameLatitude": 289821.938,
+    "ingameHeight": 69811.758,
+    "category": {
+      "id": 81
+    }
+  }
+]

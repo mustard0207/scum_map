@@ -1,0 +1,2739 @@
+[
+  {
+    "id": 448301,
+    "urlId": "1CQe2PZsWFpuMruSvAmWPi",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 161.87552,
+    "latitude": 69.09147,
+    "ingameLongitude": -151732.17,
+    "ingameLatitude": 290151.75,
+    "ingameHeight": 69595.45,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448302,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzqv",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 161.02198,
+    "latitude": 69.47741,
+    "ingameLongitude": -147667.19,
+    "ingameLatitude": 288313.69,
+    "ingameHeight": 69616.26,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448303,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzqw",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 74.81438,
+    "latitude": 136.08899,
+    "ingameLongitude": 262896.5,
+    "ingameLatitude": -28924.04,
+    "ingameHeight": 23558.48,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448304,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzqx",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 75.81877,
+    "latitude": 136.41801,
+    "ingameLongitude": 258113.12,
+    "ingameLatitude": -30491,
+    "ingameHeight": 23528,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448305,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzqy",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 177.02669,
+    "latitude": 154.03008,
+    "ingameLongitude": -223889.62,
+    "ingameLatitude": -114368.5,
+    "ingameHeight": 36539.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448306,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzqz",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 197.38644,
+    "latitude": 152.62133,
+    "ingameLongitude": -320852.94,
+    "ingameLatitude": -107659.31,
+    "ingameHeight": 35049.54,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448307,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr1",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 25.92498,
+    "latitude": 242.35914,
+    "ingameLongitude": 495732.28,
+    "ingameLatitude": -535035.75,
+    "ingameHeight": 4428.01,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448308,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr2",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 260.04395,
+    "latitude": 245.68225,
+    "ingameLongitude": -619259.31,
+    "ingameLatitude": -550862.06,
+    "ingameHeight": 2310.71,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448309,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr3",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 239.91188,
+    "latitude": 284.49581,
+    "ingameLongitude": -523380.31,
+    "ingameLatitude": -735711.69,
+    "ingameHeight": 13000.89,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448310,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr4",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 203.50941,
+    "latitude": 281.71963,
+    "ingameLongitude": -350013.56,
+    "ingameLatitude": -722490.12,
+    "ingameHeight": 10143.3,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448311,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr5",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 194.64047,
+    "latitude": 263.84473,
+    "ingameLongitude": -307775.22,
+    "ingameLatitude": -637360.88,
+    "ingameHeight": 5630.91,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448312,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr6",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 131.57784,
+    "latitude": 303.93907,
+    "ingameLongitude": -7439.45,
+    "ingameLatitude": -828310.25,
+    "ingameHeight": 9379.23,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448313,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr7",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 297.57659,
+    "latitude": 296.61637,
+    "ingameLongitude": -798008.5,
+    "ingameLatitude": -793435.88,
+    "ingameHeight": 5588.09,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448314,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr8",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 305.79201,
+    "latitude": 34.00054,
+    "ingameLongitude": -837134.44,
+    "ingameLatitude": 457272.31,
+    "ingameHeight": 64024.73,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448315,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzr9",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 194.81242,
+    "latitude": 116.29659,
+    "ingameLongitude": -308594.16,
+    "ingameLatitude": 65337.31,
+    "ingameHeight": 45905.91,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448316,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrA",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 149.29255,
+    "latitude": 70.86971,
+    "ingameLongitude": -91805.75,
+    "ingameLatitude": 281682.88,
+    "ingameHeight": 69693.87,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448317,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrB",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 89.16652,
+    "latitude": 132.08506,
+    "ingameLongitude": 194544.47,
+    "ingameLatitude": -9855.31,
+    "ingameHeight": 28499.26,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448318,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrC",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 257.13822,
+    "latitude": 98.45304,
+    "ingameLongitude": -605420.75,
+    "ingameLatitude": 150317.23,
+    "ingameHeight": 37787.1,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448319,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrD",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 261.84702,
+    "latitude": 73.74253,
+    "ingameLongitude": -627846.44,
+    "ingameLatitude": 268001.06,
+    "ingameHeight": 52810.47,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448320,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrE",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 195.72709,
+    "latitude": 135.30636,
+    "ingameLongitude": -312950.25,
+    "ingameLatitude": -25196.75,
+    "ingameHeight": 35547.42,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448321,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrF",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 102.69796,
+    "latitude": 175.45966,
+    "ingameLongitude": 130100.97,
+    "ingameLatitude": -216426.88,
+    "ingameHeight": 30183.2,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448322,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrG",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 44.86122,
+    "latitude": 242.4377,
+    "ingameLongitude": 405548.44,
+    "ingameLatitude": -535409.88,
+    "ingameHeight": 8000.86,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448323,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrH",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 31.85315,
+    "latitude": 237.50014,
+    "ingameLongitude": 467499.38,
+    "ingameLatitude": -511894.75,
+    "ingameHeight": 5369.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448324,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrJ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 41.30853,
+    "latitude": 213.74802,
+    "ingameLongitude": 422468.12,
+    "ingameLatitude": -398775.25,
+    "ingameHeight": 11016.82,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448325,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrK",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 40.64235,
+    "latitude": 203.53004,
+    "ingameLongitude": 425640.81,
+    "ingameLatitude": -350112.12,
+    "ingameHeight": 9080.47,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448326,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrL",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 315.23753,
+    "latitude": 152.36433,
+    "ingameLongitude": -882118.75,
+    "ingameLatitude": -106435.35,
+    "ingameHeight": 31014.94,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448327,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrM",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 132.97608,
+    "latitude": 242.12406,
+    "ingameLongitude": -14098.6,
+    "ingameLatitude": -533916.19,
+    "ingameHeight": 5501.1,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448328,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrN",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 168.48076,
+    "latitude": 205.20718,
+    "ingameLongitude": -183189.62,
+    "ingameLatitude": -358099.5,
+    "ingameHeight": 8732.39,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448329,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrP",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 137.17867,
+    "latitude": 203.30645,
+    "ingameLongitude": -34113.41,
+    "ingameLatitude": -349047.25,
+    "ingameHeight": 13420.26,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448330,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrQ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 293.87517,
+    "latitude": 223.25814,
+    "ingameLongitude": -780380.5,
+    "ingameLatitude": -444067.22,
+    "ingameHeight": 11655.51,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448331,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrR",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 294.84415,
+    "latitude": 192.97126,
+    "ingameLongitude": -784995.25,
+    "ingameLatitude": -299825.91,
+    "ingameHeight": 14824.66,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448332,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrS",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 124.98212,
+    "latitude": 272.9355,
+    "ingameLongitude": 23972.64,
+    "ingameLatitude": -680655.69,
+    "ingameHeight": 252.06,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448333,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrT",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 125.67236,
+    "latitude": 272.39257,
+    "ingameLongitude": 20685.37,
+    "ingameLatitude": -678070,
+    "ingameHeight": 252.01,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448334,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrU",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 112.42788,
+    "latitude": 289.68482,
+    "ingameLongitude": 83762.23,
+    "ingameLatitude": -760424.38,
+    "ingameHeight": 3720.2,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448335,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrV",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 82.95335,
+    "latitude": 216.80363,
+    "ingameLongitude": 224134.66,
+    "ingameLatitude": -413327.62,
+    "ingameHeight": 9709.66,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448336,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrW",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 55.85288,
+    "latitude": 242.02306,
+    "ingameLongitude": 353200.66,
+    "ingameLatitude": -533435.19,
+    "ingameHeight": 7097.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448337,
+    "urlId": "1CQe2PZsaA22Qj9d3LCzrX",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 159.54706,
+    "latitude": 260.58298,
+    "ingameLongitude": -140642.88,
+    "ingameLatitude": -621826.81,
+    "ingameHeight": 7100.06,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448338,
+    "urlId": "1CQe2PZswVUeZSoprHV3ib",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 83.09986,
+    "latitude": 108.21933,
+    "ingameLongitude": 223436.91,
+    "ingameLatitude": 103805.23,
+    "ingameHeight": 27719.39,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448339,
+    "urlId": "1CQe2PZswVUeZSoprHV3ic",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 78.00087,
+    "latitude": 109.0799,
+    "ingameLongitude": 247720.88,
+    "ingameLatitude": 99706.77,
+    "ingameHeight": 25986.96,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448340,
+    "urlId": "1CQe2PZswVUeZSoprHV3id",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 81.64428,
+    "latitude": 107.92817,
+    "ingameLongitude": 230369.14,
+    "ingameLatitude": 105191.88,
+    "ingameHeight": 27042.5,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448341,
+    "urlId": "1CQe2PZswVUeZSoprHV3ie",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 79.44838,
+    "latitude": 109.36148,
+    "ingameLongitude": 240827.09,
+    "ingameLatitude": 98365.76,
+    "ingameHeight": 26801.63,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448342,
+    "urlId": "1CQe2PZswVUeZSoprHV3if",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": 2,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 84.20078,
+    "latitude": 120.23127,
+    "ingameLongitude": 218193.79,
+    "ingameLatitude": 46598.38,
+    "ingameHeight": 27595.33,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448343,
+    "urlId": "1CQe2PZswVUeZSoprHV3ig",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": 2,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 175.98949,
+    "latitude": 153.35693,
+    "ingameLongitude": -218949.93,
+    "ingameLatitude": -111162.62,
+    "ingameHeight": 36513.17,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448344,
+    "urlId": "1CQe2PZswVUeZSoprHV3ih",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": 2,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 26.31254,
+    "latitude": 241.75456,
+    "ingameLongitude": 493886.53,
+    "ingameLatitude": -532156.44,
+    "ingameHeight": 4394.36,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448345,
+    "urlId": "1CQe2PZswVUeZSoprHV3ii",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 25.29659,
+    "latitude": 241.64495,
+    "ingameLongitude": 498725,
+    "ingameLatitude": -531634.44,
+    "ingameHeight": 4427.97,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448346,
+    "urlId": "1CQe2PZswVUeZSoprHV3ij",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 182.34582,
+    "latitude": 289.20307,
+    "ingameLongitude": -249221.97,
+    "ingameLatitude": -758130,
+    "ingameHeight": 8327.99,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448347,
+    "urlId": "1CQe2PZswVUeZSoprHV3ik",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 178.52603,
+    "latitude": 278.26664,
+    "ingameLongitude": -231030.2,
+    "ingameLatitude": -706045.25,
+    "ingameHeight": 3406.68,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448348,
+    "urlId": "1CQe2PZswVUeZSoprHV3im",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 14.78997,
+    "latitude": 24.92734,
+    "ingameLongitude": 548762.75,
+    "ingameLatitude": 500483.44,
+    "ingameHeight": 19238.14,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448349,
+    "urlId": "1CQe2PZswVUeZSoprHV3in",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 260.63058,
+    "latitude": 281.96834,
+    "ingameLongitude": -622053.12,
+    "ingameLatitude": -723674.62,
+    "ingameHeight": 11571.6,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448350,
+    "urlId": "1CQe2PZswVUeZSoprHV3io",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 246.67077,
+    "latitude": 288.57342,
+    "ingameLongitude": -555569.56,
+    "ingameLatitude": -755131.31,
+    "ingameHeight": 15211.8,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448351,
+    "urlId": "1CQe2PZswVUeZSoprHV3ip",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 248.53064,
+    "latitude": 14.24647,
+    "ingameLongitude": -564427.19,
+    "ingameLatitude": 551351.12,
+    "ingameHeight": 85909.69,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448352,
+    "urlId": "1CQe2PZswVUeZSoprHV3iq",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 204.71984,
+    "latitude": 12.32685,
+    "ingameLongitude": -355778.25,
+    "ingameLatitude": 560493.31,
+    "ingameHeight": 82176.73,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448353,
+    "urlId": "1CQe2PZswVUeZSoprHV3ir",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 178.28029,
+    "latitude": 41.80817,
+    "ingameLongitude": -229859.88,
+    "ingameLatitude": 420088.5,
+    "ingameHeight": 82192.48,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448354,
+    "urlId": "1CQe2PZswVUeZSoprHV3is",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 132.10247,
+    "latitude": 44.51604,
+    "ingameLongitude": -9938,
+    "ingameLatitude": 407192.25,
+    "ingameHeight": 58478.93,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448355,
+    "urlId": "1CQe2PZswVUeZSoprHV3it",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 136.47323,
+    "latitude": 28.59681,
+    "ingameLongitude": -30753.78,
+    "ingameLatitude": 483007.62,
+    "ingameHeight": 39524.99,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448356,
+    "urlId": "1CQe2PZswVUeZSoprHV3iu",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 157.47181,
+    "latitude": 11.32093,
+    "ingameLongitude": -130759.5,
+    "ingameLatitude": 565284,
+    "ingameHeight": 57486.77,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448357,
+    "urlId": "1CQe2PZswVUeZSoprHV3iv",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 119.33496,
+    "latitude": 32.66754,
+    "ingameLongitude": 50867.25,
+    "ingameLatitude": 463620.75,
+    "ingameHeight": 36307.63,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448358,
+    "urlId": "1CQe2PZswVUeZSoprHV3iw",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 97.45059,
+    "latitude": 33.84284,
+    "ingameLongitude": 155091.56,
+    "ingameLatitude": 458023.38,
+    "ingameHeight": 30549.79,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448359,
+    "urlId": "1CQe2PZswVUeZSoprHV3ix",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 80.6394,
+    "latitude": 44.63672,
+    "ingameLongitude": 235154.88,
+    "ingameLatitude": 406617.5,
+    "ingameHeight": 28998.14,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448360,
+    "urlId": "1CQe2PZswVUeZSoprHV3iy",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 106.14307,
+    "latitude": 7.20035,
+    "ingameLongitude": 113693.62,
+    "ingameLatitude": 584908.25,
+    "ingameHeight": 29859.51,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448361,
+    "urlId": "1CQe2PZswVUeZSoprHV3iz",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 69.05298,
+    "latitude": 31.6236,
+    "ingameLongitude": 290335.19,
+    "ingameLatitude": 468592.5,
+    "ingameHeight": 22754.29,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448362,
+    "urlId": "1CQe2PZswVUeZSoprHV3j1",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 79.75554,
+    "latitude": 8.33044,
+    "ingameLongitude": 239364.25,
+    "ingameLatitude": 579526.19,
+    "ingameHeight": 21317.71,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448363,
+    "urlId": "1CQe2PZswVUeZSoprHV3j2",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 65.91799,
+    "latitude": 13.12836,
+    "ingameLongitude": 305265.56,
+    "ingameLatitude": 556676.12,
+    "ingameHeight": 22840.8,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448364,
+    "urlId": "1CQe2PZswVUeZSoprHV3j3",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 45.10858,
+    "latitude": 58.49425,
+    "ingameLongitude": 404370.38,
+    "ingameLatitude": 340621,
+    "ingameHeight": 17419.21,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448365,
+    "urlId": "1CQe2PZswVUeZSoprHV3j4",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 35.59487,
+    "latitude": 50.28417,
+    "ingameLongitude": 449679.44,
+    "ingameLatitude": 379721.5,
+    "ingameHeight": 12966.58,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448366,
+    "urlId": "1CQe2PZswVUeZSoprHV3j5",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 40.32134,
+    "latitude": 92.32173,
+    "ingameLongitude": 427169.62,
+    "ingameLatitude": 179517.59,
+    "ingameHeight": 17067.35,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448367,
+    "urlId": "1CQe2PZswVUeZSoprHV3j6",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 60.2681,
+    "latitude": 67.6014,
+    "ingameLongitude": 332173.19,
+    "ingameLatitude": 297248.19,
+    "ingameHeight": 21243.38,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448368,
+    "urlId": "1CQe2PZswVUeZSoprHV3j7",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 9.4366,
+    "latitude": 86.64204,
+    "ingameLongitude": 574258.19,
+    "ingameLatitude": 206567.12,
+    "ingameHeight": 5224.05,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448369,
+    "urlId": "1CQe2PZswVUeZSoprHV3j8",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 16.40064,
+    "latitude": 73.16515,
+    "ingameLongitude": 541091.94,
+    "ingameLatitude": 270750.84,
+    "ingameHeight": 13155.87,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448370,
+    "urlId": "1CQe2PZswVUeZSoprHV3j9",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 16.33713,
+    "latitude": 67.15058,
+    "ingameLongitude": 541394.44,
+    "ingameLatitude": 299395.22,
+    "ingameHeight": 7406.25,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448371,
+    "urlId": "1CQe2PZswVUeZSoprHV3jA",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 286.00719,
+    "latitude": 48.51058,
+    "ingameLongitude": -742909.25,
+    "ingameLatitude": 388168.22,
+    "ingameHeight": 62973.54,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448372,
+    "urlId": "1CQe2PZswVUeZSoprHV3jB",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 267.12375,
+    "latitude": 44.62324,
+    "ingameLongitude": -652976.88,
+    "ingameLatitude": 406681.72,
+    "ingameHeight": 76394.42,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448373,
+    "urlId": "1CQe2PZswVUeZSoprHV3jC",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 302.11016,
+    "latitude": 8.81472,
+    "ingameLongitude": -819599.62,
+    "ingameLatitude": 577219.81,
+    "ingameHeight": 66961.22,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448374,
+    "urlId": "1CQe2PZswVUeZSoprHV3jD",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 266.70419,
+    "latitude": 20.16871,
+    "ingameLongitude": -650978.69,
+    "ingameLatitude": 523146.41,
+    "ingameHeight": 85387.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448375,
+    "urlId": "1CQe2PZswVUeZSoprHV3jE",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 227.31085,
+    "latitude": 38.42607,
+    "ingameLongitude": -463367.91,
+    "ingameLatitude": 436195.72,
+    "ingameHeight": 97995.28,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448376,
+    "urlId": "1CQe2PZswVUeZSoprHV3jF",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 196.55881,
+    "latitude": 58.42787,
+    "ingameLongitude": -316911.31,
+    "ingameLatitude": 340937.12,
+    "ingameHeight": 85793.88,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448377,
+    "urlId": "1CQe2PZswVUeZSoprHV3jG",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 68.09996,
+    "latitude": 83.00686,
+    "ingameLongitude": 294873.94,
+    "ingameLatitude": 223879.69,
+    "ingameHeight": 24995.11,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448378,
+    "urlId": "1CQe2PZswVUeZSoprHV3jH",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 81.26225,
+    "latitude": 65.66775,
+    "ingameLongitude": 232188.55,
+    "ingameLatitude": 306457.19,
+    "ingameHeight": 35250.6,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448379,
+    "urlId": "1CQe2PZswVUeZSoprHV3jJ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 91.8607,
+    "latitude": 64.71507,
+    "ingameLongitude": 181713.44,
+    "ingameLatitude": 310994.34,
+    "ingameHeight": 39463.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448380,
+    "urlId": "1CQe2PZswVUeZSoprHV3jK",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 53.75593,
+    "latitude": 110.12516,
+    "ingameLongitude": 363187.38,
+    "ingameLatitude": 94728.72,
+    "ingameHeight": 17476.03,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448381,
+    "urlId": "1CQe2PZswVUeZSoprHV3jL",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 252.55008,
+    "latitude": 108.55007,
+    "ingameLongitude": -583569.75,
+    "ingameLatitude": 102230.12,
+    "ingameHeight": 35840.8,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448382,
+    "urlId": "1CQe2PZt1VB1usugJddRGo",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 229.9126,
+    "latitude": 108.69219,
+    "ingameLongitude": -475758.78,
+    "ingameLatitude": 101553.24,
+    "ingameHeight": 36993.07,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448383,
+    "urlId": "1CQe2PZt1VB1usugJddRGp",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 208.84444,
+    "latitude": 106.24912,
+    "ingameLongitude": -375421.66,
+    "ingameLatitude": 113188.38,
+    "ingameHeight": 43386.43,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448384,
+    "urlId": "1CQe2PZt1VB1usugJddRGq",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 243.26146,
+    "latitude": 75.37757,
+    "ingameLongitude": -539332.69,
+    "ingameLatitude": 260214.19,
+    "ingameHeight": 48017.71,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448385,
+    "urlId": "1CQe2PZt1VB1usugJddRGr",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 177.34261,
+    "latitude": 105.93185,
+    "ingameLongitude": -225394.19,
+    "ingameLatitude": 114699.38,
+    "ingameHeight": 78309.02,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448386,
+    "urlId": "1CQe2PZt1VB1usugJddRGs",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 142.28441,
+    "latitude": 117.86029,
+    "ingameLongitude": -58429.5,
+    "ingameLatitude": 57890.19,
+    "ingameHeight": 77284.99,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448387,
+    "urlId": "1CQe2PZt1VB1usugJddRGt",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 152.57756,
+    "latitude": 109.95004,
+    "ingameLongitude": -107450.62,
+    "ingameLatitude": 95562.75,
+    "ingameHeight": 96197.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448388,
+    "urlId": "1CQe2PZt1VB1usugJddRGu",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 148.1931,
+    "latitude": 96.48637,
+    "ingameLongitude": -86569.62,
+    "ingameLatitude": 159683.5,
+    "ingameHeight": 73407.85,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448389,
+    "urlId": "1CQe2PZt1VB1usugJddRGv",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 136.93544,
+    "latitude": 107.21739,
+    "ingameLongitude": -32955.03,
+    "ingameLatitude": 108577,
+    "ingameHeight": 72227.73,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448390,
+    "urlId": "1CQe2PZt1VB1usugJddRGw",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 189.76174,
+    "latitude": 69.37265,
+    "ingameLongitude": -284540.31,
+    "ingameLatitude": 288812.62,
+    "ingameHeight": 85952.21,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448391,
+    "urlId": "1CQe2PZt1VB1usugJddRGx",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 129.99056,
+    "latitude": 94.33733,
+    "ingameLongitude": 119.94,
+    "ingameLatitude": 169918.31,
+    "ingameHeight": 70057.72,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448392,
+    "urlId": "1CQe2PZt1VB1usugJddRGy",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 114.10431,
+    "latitude": 106.94218,
+    "ingameLongitude": 75778.22,
+    "ingameLatitude": 109887.66,
+    "ingameHeight": 37390.95,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448393,
+    "urlId": "1CQe2PZt1VB1usugJddRGz",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 111.25054,
+    "latitude": 136.02319,
+    "ingameLongitude": 89369.31,
+    "ingameLatitude": -28610.66,
+    "ingameHeight": 34763.11,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448394,
+    "urlId": "1CQe2PZt1VB1usugJddRH1",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 69.08121,
+    "latitude": 145.34405,
+    "ingameLongitude": 290200.75,
+    "ingameLatitude": -73001.26,
+    "ingameHeight": 22680.38,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448395,
+    "urlId": "1CQe2PZt1VB1usugJddRH2",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 36.31252,
+    "latitude": 185.66443,
+    "ingameLongitude": 446261.62,
+    "ingameLatitude": -265027.12,
+    "ingameHeight": 9569.19,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448396,
+    "urlId": "1CQe2PZt1VB1usugJddRH3",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 43.13631,
+    "latitude": 158.22875,
+    "ingameLongitude": 413763.31,
+    "ingameLatitude": -134364.69,
+    "ingameHeight": 7672.97,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448397,
+    "urlId": "1CQe2PZt1VB1usugJddRH4",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 32.5808,
+    "latitude": 148.8368,
+    "ingameLongitude": 464033.94,
+    "ingameLatitude": -89635.5,
+    "ingameHeight": 8370.68,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448398,
+    "urlId": "1CQe2PZt1VB1usugJddRH5",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 53.3392,
+    "latitude": 132.36789,
+    "ingameLongitude": 365172.06,
+    "ingameLatitude": -11202.31,
+    "ingameHeight": 23826.19,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448399,
+    "urlId": "1CQe2PZt1VB1usugJddRH6",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 33.7997,
+    "latitude": 134.33632,
+    "ingameLongitude": 458228.94,
+    "ingameLatitude": -20576.94,
+    "ingameHeight": 12781.28,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448400,
+    "urlId": "1CQe2PZt1VB1usugJddRH7",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 12.02799,
+    "latitude": 133.05695,
+    "ingameLongitude": 561916.69,
+    "ingameLatitude": -14483.94,
+    "ingameHeight": 6251.09,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448401,
+    "urlId": "1CQe2PZt1VB1usugJddRH8",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 299.71294,
+    "latitude": 120.02299,
+    "ingameLongitude": -808182.88,
+    "ingameLatitude": 47590.29,
+    "ingameHeight": 38880.19,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448402,
+    "urlId": "1CQe2PZt1VB1usugJddRH9",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 213.98087,
+    "latitude": 173.57834,
+    "ingameLongitude": -399883.88,
+    "ingameLatitude": -207467.12,
+    "ingameHeight": 31147.13,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448403,
+    "urlId": "1CQe2PZt1VB1usugJddRHA",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 228.67816,
+    "latitude": 131.04659,
+    "ingameLongitude": -469879.75,
+    "ingameLatitude": -4909.62,
+    "ingameHeight": 33202.57,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448404,
+    "urlId": "1CQe2PZt1VB1usugJddRHB",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 170.86231,
+    "latitude": 173.45,
+    "ingameLongitude": -194531.75,
+    "ingameLatitude": -206855.88,
+    "ingameHeight": 33408.04,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448405,
+    "urlId": "1CQe2PZt1VB1usugJddRHC",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 142.59811,
+    "latitude": 164.11165,
+    "ingameLongitude": -59923.5,
+    "ingameLatitude": -162382,
+    "ingameHeight": 38571.89,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448406,
+    "urlId": "1CQe2PZt1VB1usugJddRHD",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 162.15201,
+    "latitude": 159.52468,
+    "ingameLongitude": -153048.94,
+    "ingameLatitude": -140536.56,
+    "ingameHeight": 40809.25,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448407,
+    "urlId": "1CQe2PZt1VB1usugJddRHE",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 143.72285,
+    "latitude": 135.05515,
+    "ingameLongitude": -65280.06,
+    "ingameLatitude": -24000.38,
+    "ingameHeight": 43114.09,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448408,
+    "urlId": "1CQe2PZt1VB1usugJddRHF",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 110.15234,
+    "latitude": 180.96394,
+    "ingameLongitude": 94599.47,
+    "ingameLatitude": -242641.06,
+    "ingameHeight": 27341.37,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448409,
+    "urlId": "1CQe2PZt1VB1usugJddRHG",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 101.36371,
+    "latitude": 168.04206,
+    "ingameLongitude": 136455.31,
+    "ingameLatitude": -181100.56,
+    "ingameHeight": 30164.23,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448410,
+    "urlId": "1CQe2PZt1VB1usugJddRHH",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 85.97408,
+    "latitude": 170.29745,
+    "ingameLongitude": 209748.44,
+    "ingameLatitude": -191841.88,
+    "ingameHeight": 24615.98,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448411,
+    "urlId": "1CQe2PZt1VB1usugJddRHJ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 114.59277,
+    "latitude": 197.65882,
+    "ingameLongitude": 73451.94,
+    "ingameLatitude": -322150.44,
+    "ingameHeight": 22511.92,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448412,
+    "urlId": "1CQe2PZt1VB1usugJddRHK",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 84.88524,
+    "latitude": 199.09731,
+    "ingameLongitude": 214934.06,
+    "ingameLatitude": -329001.25,
+    "ingameHeight": 14945.79,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448413,
+    "urlId": "1CQe2PZt1VB1usugJddRHL",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 73.07116,
+    "latitude": 199.37603,
+    "ingameLongitude": 271198.59,
+    "ingameLatitude": -330328.62,
+    "ingameHeight": 18533.9,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448414,
+    "urlId": "1CQe2PZt1VB1usugJddRHM",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 60.77976,
+    "latitude": 226.41875,
+    "ingameLongitude": 329736.38,
+    "ingameLatitude": -459119.62,
+    "ingameHeight": 8182.96,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448415,
+    "urlId": "1CQe2PZt1VB1usugJddRHN",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 308.39854,
+    "latitude": 178.75837,
+    "ingameLongitude": -849548.06,
+    "ingameLatitude": -232137.03,
+    "ingameHeight": 20903.95,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448416,
+    "urlId": "1CQe2PZt1VB1usugJddRHP",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 300.81814,
+    "latitude": 178.03735,
+    "ingameLongitude": -813446.38,
+    "ingameLatitude": -228703.16,
+    "ingameHeight": 20539.37,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448417,
+    "urlId": "1CQe2PZt1VB1usugJddRHQ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 256.82293,
+    "latitude": 164.17103,
+    "ingameLongitude": -603919.19,
+    "ingameLatitude": -162664.78,
+    "ingameHeight": 22866.34,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448418,
+    "urlId": "1CQe2PZt1VB1usugJddRHR",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 315.91707,
+    "latitude": 140.03843,
+    "ingameLongitude": -885355.06,
+    "ingameLatitude": -47733.27,
+    "ingameHeight": 37627.08,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448419,
+    "urlId": "1CQe2PZt1VB1usugJddRHS",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 264.21526,
+    "latitude": 152.54004,
+    "ingameLongitude": -639125.19,
+    "ingameLatitude": -107272.16,
+    "ingameHeight": 25365.34,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448420,
+    "urlId": "1CQe2PZt1VB1usugJddRHT",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 198.74698,
+    "latitude": 223.57955,
+    "ingameLongitude": -327332.5,
+    "ingameLatitude": -445597.94,
+    "ingameHeight": 8598.38,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448421,
+    "urlId": "1CQe2PZt1VB1usugJddRHU",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 131.92928,
+    "latitude": 239.70987,
+    "ingameLongitude": -9113.19,
+    "ingameLatitude": -522418.62,
+    "ingameHeight": 5751.21,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448422,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGU",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 155.75296,
+    "latitude": 206.55429,
+    "ingameLongitude": -122573.45,
+    "ingameLatitude": -364515.09,
+    "ingameHeight": 15453,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448423,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGV",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 112.85633,
+    "latitude": 225.77599,
+    "ingameLongitude": 81721.75,
+    "ingameLatitude": -456058.5,
+    "ingameHeight": 11759.1,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448424,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGW",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 122.14657,
+    "latitude": 225.02659,
+    "ingameLongitude": 37476.94,
+    "ingameLatitude": -452489.44,
+    "ingameHeight": 11287.39,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448425,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGX",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 68.36436,
+    "latitude": 237.06922,
+    "ingameLongitude": 293614.75,
+    "ingameLatitude": -509842.5,
+    "ingameHeight": 8816.73,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448426,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGY",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 313.45025,
+    "latitude": 206.55524,
+    "ingameLongitude": -873606.81,
+    "ingameLatitude": -364519.62,
+    "ingameHeight": 19510.31,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448427,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGZ",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 262.51151,
+    "latitude": 248.63343,
+    "ingameLongitude": -631011.06,
+    "ingameLatitude": -564917.06,
+    "ingameHeight": 164.28,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448428,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGa",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 274.34911,
+    "latitude": 229.06149,
+    "ingameLongitude": -687387.62,
+    "ingameLatitude": -471705.69,
+    "ingameHeight": 18745.16,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448429,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGb",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 122.86885,
+    "latitude": 287.1775,
+    "ingameLongitude": 34037.12,
+    "ingameLatitude": -748483.25,
+    "ingameHeight": 7465.55,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448430,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGc",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 39.10746,
+    "latitude": 286.59423,
+    "ingameLongitude": 432950.72,
+    "ingameLatitude": -745705.44,
+    "ingameHeight": 1902.02,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448431,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGd",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 246.38262,
+    "latitude": 211.1494,
+    "ingameLongitude": -554197.25,
+    "ingameLatitude": -386399.34,
+    "ingameHeight": 19794.34,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448432,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGe",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 154.55113,
+    "latitude": 211.46915,
+    "ingameLongitude": -116849.75,
+    "ingameLatitude": -387922.12,
+    "ingameHeight": 8515.39,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448433,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGf",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 251.72743,
+    "latitude": 176.48729,
+    "ingameLongitude": -579651.88,
+    "ingameLatitude": -221321,
+    "ingameHeight": 17401.15,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448434,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGg",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 244.0926,
+    "latitude": 147.33905,
+    "ingameLongitude": -543291,
+    "ingameLatitude": -82502.44,
+    "ingameHeight": 30354.59,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448435,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGh",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 178.88021,
+    "latitude": 178.96573,
+    "ingameLongitude": -232717,
+    "ingameLatitude": -233124.56,
+    "ingameHeight": 22961.4,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448436,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGi",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 154.89945,
+    "latitude": 181.23653,
+    "ingameLongitude": -118508.62,
+    "ingameLatitude": -243939.25,
+    "ingameHeight": 29114.36,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448437,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGj",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 22.36653,
+    "latitude": 177.88107,
+    "ingameLongitude": 512679.38,
+    "ingameLatitude": -227958.88,
+    "ingameHeight": 4598.92,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448438,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGk",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 62.01522,
+    "latitude": 156.3068,
+    "ingameLongitude": 323852.5,
+    "ingameLatitude": -125211.38,
+    "ingameHeight": 20429.54,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448439,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGm",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 215.23234,
+    "latitude": 210.06925,
+    "ingameLongitude": -405844,
+    "ingameLatitude": -381255.12,
+    "ingameHeight": 9612.16,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448440,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGn",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 82.21129,
+    "latitude": 106.66488,
+    "ingameLongitude": 227668.75,
+    "ingameLatitude": 111208.31,
+    "ingameHeight": 27260.73,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448441,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGo",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 80.19833,
+    "latitude": 107.79217,
+    "ingameLongitude": 237255.44,
+    "ingameLatitude": 105839.62,
+    "ingameHeight": 27104.87,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448442,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGp",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 80.8453,
+    "latitude": 110.7894,
+    "ingameLongitude": 234174.25,
+    "ingameLatitude": 91565.28,
+    "ingameHeight": 27889,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448443,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGq",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 78.82747,
+    "latitude": 110.68302,
+    "ingameLongitude": 243784.19,
+    "ingameLatitude": 92071.94,
+    "ingameHeight": 26579.98,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448444,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGr",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 208.10148,
+    "latitude": 117.79712,
+    "ingameLongitude": -371883.28,
+    "ingameLatitude": 58191,
+    "ingameHeight": 38083.16,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448445,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGs",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 178.35789,
+    "latitude": 123.08611,
+    "ingameLongitude": -230229.44,
+    "ingameLatitude": 33002.19,
+    "ingameHeight": 43251.2,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448446,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGt",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 90.10864,
+    "latitude": 112.79864,
+    "ingameLongitude": 190057.62,
+    "ingameLatitude": 81996.28,
+    "ingameHeight": 30954.48,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448447,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGu",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 114.40585,
+    "latitude": 89.65057,
+    "ingameLongitude": 74342.16,
+    "ingameLatitude": 192238.97,
+    "ingameHeight": 46839.38,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448448,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGv",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 56.08296,
+    "latitude": 125.83311,
+    "ingameLongitude": 352104.88,
+    "ingameLatitude": 19919.62,
+    "ingameHeight": 24263.9,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448449,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGw",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 16.87051,
+    "latitude": 117.86291,
+    "ingameLongitude": 538854.19,
+    "ingameLatitude": 57877.69,
+    "ingameHeight": 6427.74,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448450,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGx",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 59.64966,
+    "latitude": 86.10782,
+    "ingameLongitude": 335118.5,
+    "ingameLatitude": 209111.34,
+    "ingameHeight": 25051.47,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448451,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGy",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 57.11961,
+    "latitude": 90.03546,
+    "ingameLongitude": 347167.88,
+    "ingameLatitude": 190405.97,
+    "ingameHeight": 23921.33,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448452,
+    "urlId": "1CQe2PZtNeSmHovTZGYXGz",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 208.30656,
+    "latitude": 29.36088,
+    "ingameLongitude": -372860,
+    "ingameLatitude": 479368.72,
+    "ingameHeight": 98623.59,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448453,
+    "urlId": "1CQe2PZtNeSmHovTZGYXH1",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 185.19092,
+    "latitude": 61.21769,
+    "ingameLongitude": -262771.75,
+    "ingameLatitude": 327650.62,
+    "ingameHeight": 84719.77,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448454,
+    "urlId": "1CQe2PZtNeSmHovTZGYXH2",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 153.10205,
+    "latitude": 51.62979,
+    "ingameLongitude": -109948.5,
+    "ingameLatitude": 373313,
+    "ingameHeight": 87471.79,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448455,
+    "urlId": "1CQe2PZtNeSmHovTZGYXH3",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 159.86871,
+    "latitude": 58.45285,
+    "ingameLongitude": -142174.75,
+    "ingameLatitude": 340818.19,
+    "ingameHeight": 69777.3,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448456,
+    "urlId": "1CQe2PZtNeSmHovTZGYXH4",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 189.84121,
+    "latitude": 18.10587,
+    "ingameLongitude": -284918.75,
+    "ingameLatitude": 532970.69,
+    "ingameHeight": 66259.45,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448457,
+    "urlId": "1CQe2PZtjq82zpp4XPKWNx",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 123.70711,
+    "latitude": 48.40168,
+    "ingameLongitude": 30044.91,
+    "ingameLatitude": 388686.88,
+    "ingameHeight": 55936.84,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448458,
+    "urlId": "1CQe2PZtjq82zpp4XPKWNy",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 85.88403,
+    "latitude": 61.85283,
+    "ingameLongitude": 210177.31,
+    "ingameLatitude": 324625.75,
+    "ingameHeight": 34916.5,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448459,
+    "urlId": "1CQe2PZtjq82zpp4XPKWNz",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 120.60629,
+    "latitude": 16.08042,
+    "ingameLongitude": 44812.53,
+    "ingameLatitude": 542616.94,
+    "ingameHeight": 37328.49,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448460,
+    "urlId": "1CQe2PZtjq82zpp4XPKWP1",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 19.88007,
+    "latitude": 63.46096,
+    "ingameLongitude": 524521.19,
+    "ingameLatitude": 316967.06,
+    "ingameHeight": 8545.26,
+    "category": {
+      "id": 24
+    }
+  },
+  {
+    "id": 448461,
+    "urlId": "1CQe2PZtjq82zpp4XPKWP2",
+    "title": "Hunting Towers",
+    "icon": "faFeather",
+    "number": null,
+    "colorBackground": "#339b17",
+    "colorIcon": "#ffffff",
+    "longitude": 84.68967,
+    "latitude": 121.32368,
+    "ingameLongitude": 215865.44,
+    "ingameLatitude": 41395.78,
+    "ingameHeight": 27632.18,
+    "category": {
+      "id": 24
+    }
+  }
+]

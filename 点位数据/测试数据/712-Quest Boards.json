@@ -1,0 +1,461 @@
+[
+  {
+    "id": 403069,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SJ",
+    "title": "Vrsar Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 314.08878,
+    "latitude": 307.19112,
+    "ingameLongitude": -876647.813,
+    "ingameLatitude": -843798.125,
+    "ingameHeight": 733,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403070,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SK",
+    "title": "Novigrad Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 163.6799,
+    "latitude": 273.03904,
+    "ingameLongitude": -160325.531,
+    "ingameLatitude": -681148.813,
+    "ingameHeight": 736.34,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403071,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SL",
+    "title": "Rogoznica Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 86.65954,
+    "latitude": 273.18365,
+    "ingameLongitude": 206483.938,
+    "ingameLatitude": -681837.5,
+    "ingameHeight": 1979.2,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403072,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SM",
+    "title": "Rogoznica Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 96.69492,
+    "latitude": 278.05067,
+    "ingameLongitude": 158690.438,
+    "ingameLatitude": -705016.688,
+    "ingameHeight": 1179.42,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403073,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SN",
+    "title": "Prvo Selo Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 35.38953,
+    "latitude": 300.8157,
+    "ingameLongitude": 450657.375,
+    "ingameLatitude": -813435.188,
+    "ingameHeight": 452.65,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403074,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SP",
+    "title": "Apatija Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 232.97978,
+    "latitude": 218.28567,
+    "ingameLongitude": -490366.219,
+    "ingameLatitude": -420385.844,
+    "ingameHeight": 667.38,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403075,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SQ",
+    "title": "Tisno Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 137.98294,
+    "latitude": 232.70677,
+    "ingameLongitude": -37943.77,
+    "ingameLatitude": -489066.344,
+    "ingameHeight": 544.65,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403076,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SR",
+    "title": "Zaton Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 89.45375,
+    "latitude": 238.57169,
+    "ingameLongitude": 193176.5,
+    "ingameLatitude": -516998,
+    "ingameHeight": 337.61,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403077,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SS",
+    "title": "Blato Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 59.4399,
+    "latitude": 207.74105,
+    "ingameLongitude": 336117.5,
+    "ingameLatitude": -370167.063,
+    "ingameHeight": 12864.029,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403078,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7ST",
+    "title": "Hosiptal Klenovnik Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 262.42013,
+    "latitude": 160.33403,
+    "ingameLongitude": -630575.875,
+    "ingameLatitude": -144391.063,
+    "ingameHeight": 30019.26,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403079,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SU",
+    "title": "Prkno Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 226.5729,
+    "latitude": 151.88149,
+    "ingameLongitude": -459853.438,
+    "ingameLatitude": -104135.836,
+    "ingameHeight": 30819.199,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403080,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SV",
+    "title": "Spickovina Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 141.9739,
+    "latitude": 148.2231,
+    "ingameLongitude": -56950.688,
+    "ingameLatitude": -86712.758,
+    "ingameHeight": 36366.648,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403081,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SW",
+    "title": "Mirkovci Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 69.66009,
+    "latitude": 166.66617,
+    "ingameLongitude": 287443.844,
+    "ingameLatitude": -174547.891,
+    "ingameHeight": 15101.1,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403082,
+    "urlId": "1CHzpBw8RXMQQVvN1dK7SX",
+    "title": "Preko Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 25.804,
+    "latitude": 169.44591,
+    "ingameLongitude": 496308.438,
+    "ingameLatitude": -187786.406,
+    "ingameHeight": 477.311,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403083,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnG",
+    "title": "Abandoned City Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 305.41051,
+    "latitude": 103.98183,
+    "ingameLongitude": -835317.563,
+    "ingameLatitude": 123986.359,
+    "ingameHeight": 42563.668,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403084,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnH",
+    "title": "Abandoned City Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 311.16181,
+    "latitude": 105.10597,
+    "ingameLongitude": -862708.125,
+    "ingameLatitude": 118632.641,
+    "ingameHeight": 41648.148,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403085,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnJ",
+    "title": "Veliki Tabor Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 231.18149,
+    "latitude": 88.24554,
+    "ingameLongitude": -481801.844,
+    "ingameLatitude": 198930.453,
+    "ingameHeight": 38736.09,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403086,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnK",
+    "title": "Vinski Vrh Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 168.71751,
+    "latitude": 114.16038,
+    "ingameLongitude": -184317.156,
+    "ingameLatitude": 75511,
+    "ingameHeight": 67333.367,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403087,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnL",
+    "title": "Zagorje Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 97.30978,
+    "latitude": 119.20614,
+    "ingameLongitude": 155762.172,
+    "ingameLatitude": 51480.539,
+    "ingameHeight": 30264.818,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403088,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnM",
+    "title": "Klis Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 15.31307,
+    "latitude": 111.54968,
+    "ingameLongitude": 546271.5,
+    "ingameLatitude": 87944.469,
+    "ingameHeight": 596.27,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403089,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnN",
+    "title": "Prigorje Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 243.45098,
+    "latitude": 29.08755,
+    "ingameLongitude": -540235.313,
+    "ingameLatitude": 480670.469,
+    "ingameHeight": 80350.656,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403090,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnP",
+    "title": "Lokve Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 154.68446,
+    "latitude": 57.28409,
+    "ingameLongitude": -117484.719,
+    "ingameLatitude": 346384.406,
+    "ingameHeight": 74960.227,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403091,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnQ",
+    "title": "Gorica Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 198.96859,
+    "latitude": 11.06396,
+    "ingameLongitude": -328387.906,
+    "ingameLatitude": 566507.813,
+    "ingameHeight": 76947.359,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403092,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnR",
+    "title": "Samobor Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 59.23583,
+    "latitude": 52.42394,
+    "ingameLongitude": 337089.344,
+    "ingameLatitude": 369530.875,
+    "ingameHeight": 21065.4,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403093,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnS",
+    "title": "Samobor Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 67.35232,
+    "latitude": 55.92602,
+    "ingameLongitude": 298434.594,
+    "ingameLatitude": 352852.219,
+    "ingameHeight": 21975.369,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403094,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnT",
+    "title": "Sanitarium Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 51.43585,
+    "latitude": 67.67199,
+    "ingameLongitude": 374236.75,
+    "ingameLatitude": 296912,
+    "ingameHeight": 19664.07,
+    "category": {
+      "id": 712
+    }
+  },
+  {
+    "id": 403095,
+    "urlId": "1CHzpBw8hrCybkGEwWrQnU",
+    "title": "Ston Quest Board",
+    "icon": "faRectangleList",
+    "number": null,
+    "colorBackground": "#1e3404",
+    "colorIcon": "#efefef",
+    "longitude": 7.56941,
+    "latitude": 59.88405,
+    "ingameLongitude": 583150.688,
+    "ingameLatitude": 334002.094,
+    "ingameHeight": 537.96,
+    "category": {
+      "id": 712
+    }
+  }
+]

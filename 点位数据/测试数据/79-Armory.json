@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238369,
+    "urlId": "1BtrLd39LkSTqXXUQZvkyL",
+    "title": "Armory",
+    "icon": "faUserShield",
+    "number": null,
+    "colorBackground": "#9c3d16",
+    "colorIcon": "#e2f6ff",
+    "longitude": 125.28941,
+    "latitude": 272.8272,
+    "ingameLongitude": 22227.301,
+    "ingameLatitude": -680267.75,
+    "ingameHeight": 518.688,
+    "category": {
+      "id": 79
+    }
+  },
+  {
+    "id": 238370,
+    "urlId": "1BtrLd39HtJdshctxRoa2B",
+    "title": "Armory",
+    "icon": "faUserShield",
+    "number": null,
+    "colorBackground": "#9c3d16",
+    "colorIcon": "#e2f6ff",
+    "longitude": 259.70165,
+    "latitude": 245.18086,
+    "ingameLongitude": -616818.75,
+    "ingameLatitude": -548761.313,
+    "ingameHeight": 2514.727,
+    "category": {
+      "id": 79
+    }
+  },
+  {
+    "id": 238371,
+    "urlId": "1BtrLd39J7LdEAxP5KSzkV",
+    "title": "Armory",
+    "icon": "faUserShield",
+    "number": null,
+    "colorBackground": "#9c3d16",
+    "colorIcon": "#e2f6ff",
+    "longitude": 10.01051,
+    "latitude": 176.0385,
+    "ingameLongitude": 570306.313,
+    "ingameLatitude": -219869.172,
+    "ingameHeight": 506.972,
+    "category": {
+      "id": 79
+    }
+  },
+  {
+    "id": 238372,
+    "urlId": "1BtrLd39JDHWsrhoDW3Aqa",
+    "title": "Armory",
+    "icon": "faUserShield",
+    "number": null,
+    "colorBackground": "#9c3d16",
+    "colorIcon": "#e2f6ff",
+    "longitude": 161.07315,
+    "latitude": 69.46341,
+    "ingameLongitude": -147901.984,
+    "ingameLatitude": 287080.688,
+    "ingameHeight": 69819.844,
+    "category": {
+      "id": 79
+    }
+  }
+]

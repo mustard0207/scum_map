@@ -1,0 +1,920 @@
+[
+  {
+    "id": 300671,
+    "urlId": "1C1zRjqUVYhydPMtjUXBUy",
+    "title": "Coal Mine",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 226.30566,
+    "latitude": 39.78085,
+    "ingameLongitude": -458041.707,
+    "ingameLatitude": 428272.889,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300672,
+    "urlId": "1C1zRjqVcyKcHpLT8zwi8a",
+    "title": "Military Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 24.70014,
+    "latitude": 7.30172,
+    "ingameLongitude": 500466.305,
+    "ingameLatitude": 582767.646,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300673,
+    "urlId": "1C1zRjqWeLrRpsckH5FZLF",
+    "title": "Prison",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 142.98206,
+    "latitude": 97.41723,
+    "ingameLongitude": -61890.167,
+    "ingameLatitude": 154111.673,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300674,
+    "urlId": "1C1zRjqYHdSKrNrQUq8VwM",
+    "title": "Dam",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 135.53667,
+    "latitude": 76.26206,
+    "ingameLongitude": -26492.016,
+    "ingameLatitude": 254741.281,
+    "ingameHeight": 71284.016,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300675,
+    "urlId": "1C1zRjre1Cj1aWLpPo4C6h",
+    "title": "Airport",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 184.58121,
+    "latitude": 136.09181,
+    "ingameLongitude": -259668.079,
+    "ingameLatitude": -29853.182,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300676,
+    "urlId": "1C1zRjsiWZuCHtQZTv8EJ6",
+    "title": "Factory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 215.65528,
+    "latitude": 130.83507,
+    "ingameLongitude": -407405.796,
+    "ingameLatitude": -4848.25,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300677,
+    "urlId": "1C1zRju47HCR1319qSnbqR",
+    "title": "Gun Range",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 176.40547,
+    "latitude": 153.11363,
+    "ingameLongitude": -220797.571,
+    "ingameLatitude": -110821.533,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300678,
+    "urlId": "1C1zRjv9XrEckc4o1KTgGT",
+    "title": "Train Yard",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 109.40202,
+    "latitude": 164.62839,
+    "ingameLongitude": 97761.882,
+    "ingameLatitude": -165594.24,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300679,
+    "urlId": "1C1zRjw5a8UxAHCE8aCLvg",
+    "title": "Boot Camp",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 76.32318,
+    "latitude": 136.96793,
+    "ingameLongitude": 255031.065,
+    "ingameLatitude": -34020.671,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300680,
+    "urlId": "1C1zRjxC8Kv4n6gYReMu7L",
+    "title": "Fish Factory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 202.74951,
+    "latitude": 206.68229,
+    "ingameLongitude": -346046.986,
+    "ingameLatitude": -365633.694,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300681,
+    "urlId": "1C1zRjy6QmwnuAbfmyUxWG",
+    "title": "Naval Base",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 25.45193,
+    "latitude": 245.10655,
+    "ingameLongitude": 496892.005,
+    "ingameLatitude": -548407.838,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300682,
+    "urlId": "1C1zRk1BY7eTv8tVWKKGQd",
+    "title": "North Quarry",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 101.25761,
+    "latitude": 190.28628,
+    "ingameLongitude": 136483.461,
+    "ingameLatitude": -287642.121,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300683,
+    "urlId": "1C1zRk2urKD3inkdeWrPMn",
+    "title": "South Quarry",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 99.87933,
+    "latitude": 203.8036,
+    "ingameLongitude": 143036.344,
+    "ingameLatitude": -351940.517,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300684,
+    "urlId": "1C1zRk49yemPfmM94c3SrL",
+    "title": "Samobor City",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 64.79571,
+    "latitude": 54.86268,
+    "ingameLongitude": 309836.992,
+    "ingameLatitude": 356532.549,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300685,
+    "urlId": "1C1zRk5rHrSmWQdeu5iQ3b",
+    "title": "D2 Castle",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 143.48326,
+    "latitude": 54.73752,
+    "ingameLongitude": -64273.034,
+    "ingameLatitude": 357127.905,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300686,
+    "urlId": "1C1zRk6qrzMwjp2aq85obN",
+    "title": "B3 Castle",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 119.80181,
+    "latitude": 129.95894,
+    "ingameLongitude": 48317.404,
+    "ingameLatitude": -680.762,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300687,
+    "urlId": "1C1zRk8Ft3hp6EkDXgWEDE",
+    "title": "Radio Station",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 171.69976,
+    "latitude": 103.31256,
+    "ingameLongitude": -198424.859,
+    "ingameLatitude": 126069.109,
+    "ingameHeight": 88652.148,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300688,
+    "urlId": "1C1zRkADij3VeCWEjKLZ3Y",
+    "title": "Observatory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 199.4291,
+    "latitude": 86.09021,
+    "ingameLongitude": -330260.496,
+    "ingameLatitude": 207991.347,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300689,
+    "urlId": "1C1zRkBLnb9M5bAqFWQhYD",
+    "title": "Monolith",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 126.31734,
+    "latitude": 152.92588,
+    "ingameLongitude": 17340.141,
+    "ingameLatitude": -109928.499,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300690,
+    "urlId": "1C1zRkCRJhrR5MrFc6hWMC",
+    "title": "Lumber Mill",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 149.62289,
+    "latitude": 26.07578,
+    "ingameLongitude": -93463.147,
+    "ingameLatitude": 493464.318,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300691,
+    "urlId": "1C1zRkDmM7eQQi75XVbH6Y",
+    "title": "Dvorac Gradec Mali",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 244.59926,
+    "latitude": 41.34535,
+    "ingameLongitude": -545016.331,
+    "ingameLatitude": 420830.945,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300692,
+    "urlId": "1C1zRkEy8f1oaQZMqbTQ86",
+    "title": "Sanitarium",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 51.49509,
+    "latitude": 67.38033,
+    "ingameLongitude": 373073.094,
+    "ingameLatitude": 296989.344,
+    "ingameHeight": 19925.514,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300693,
+    "urlId": "1C1zRkGkxKdZNQSCRRN9Fw",
+    "title": "Cheese Factory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 154.13364,
+    "latitude": 203.8036,
+    "ingameLongitude": -114908.945,
+    "ingameLatitude": -351940.517,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300694,
+    "urlId": "1C1zRkLcqGFPHLhnoEESTu",
+    "title": "Weapons Factory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 221.29371,
+    "latitude": 274.20635,
+    "ingameLongitude": -434213.043,
+    "ingameLatitude": -686827.996,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300695,
+    "urlId": "1C1zRkNBF4sXjvNFkTNMZa",
+    "title": "Brick Factory",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 294.09223,
+    "latitude": 189.34757,
+    "ingameLongitude": -780324.389,
+    "ingameLatitude": -283176.955,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300696,
+    "urlId": "1C1zRkPM7ZbJmBqcE9XowG",
+    "title": "Small Shipyard",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 97.96852,
+    "latitude": 289.97656,
+    "ingameLongitude": 152121.022,
+    "ingameLatitude": -761842.791,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300697,
+    "urlId": "1C1zRkQDzbmY8nFHuxJdaF",
+    "title": "Windmills",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 110.78031,
+    "latitude": 304.87066,
+    "ingameLongitude": 91208.999,
+    "ingameLatitude": -832690.098,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300698,
+    "urlId": "1C1zRkQsWiLSMqN2SeawXz",
+    "title": "Windmills",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 178.88012,
+    "latitude": 302.55519,
+    "ingameLongitude": -232562.974,
+    "ingameLatitude": -821676.021,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300699,
+    "urlId": "1C1zRkRWSQNz8mXhNzzcks",
+    "title": "Waterfall",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 210.83128,
+    "latitude": 104.55138,
+    "ingameLongitude": -384470.707,
+    "ingameLatitude": 120176.408,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300700,
+    "urlId": "1C1zRkSiMXagvcaRTyLxsn",
+    "title": "Military Barracks",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 311.97861,
+    "latitude": 18.98857,
+    "ingameLongitude": -865362.934,
+    "ingameLatitude": 527176.324,
+    "ingameHeight": 0,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300701,
+    "urlId": "1C1zRkUGmAN4DgD7wirsJF",
+    "title": "Halloween House",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 231.5198,
+    "latitude": 0.59445,
+    "ingameLongitude": -482831.656,
+    "ingameLatitude": 614672.375,
+    "ingameHeight": 88296.125,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300702,
+    "urlId": "1C1zRkVJ8rru8TcYpqTWot",
+    "title": "Ramsons Hill",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 309.77572,
+    "latitude": 157.45161,
+    "ingameLongitude": -854889.563,
+    "ingameLatitude": -131456.172,
+    "ingameHeight": 30417.293,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300703,
+    "urlId": "1C1zRkVJ8rru8TcYpqTWou",
+    "title": "Novigrad",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 164.52279,
+    "latitude": 272.30187,
+    "ingameLongitude": -164302.859,
+    "ingameLatitude": -677768.875,
+    "ingameHeight": 1056.01,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300704,
+    "urlId": "1C1zRkWCea5fxbsKY43dXK",
+    "title": "TEC-1 Outpost",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 188.77048,
+    "latitude": 62.75798,
+    "ingameLongitude": -279585.438,
+    "ingameLatitude": 318976.688,
+    "ingameHeight": 85000.117,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300705,
+    "urlId": "1C1zRkWFYaeeVcmY4bs7n6",
+    "title": "Motorbike Track",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 74.20958,
+    "latitude": 288.32427,
+    "ingameLongitude": 265079.906,
+    "ingameLatitude": -753983.25,
+    "ingameHeight": 12274.947,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300706,
+    "urlId": "1C1zRkXxvQcic83kfboTdf",
+    "title": "Trainyard",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 195.96384,
+    "latitude": 286.0139,
+    "ingameLongitude": -313785.375,
+    "ingameLatitude": -742993.438,
+    "ingameHeight": 8085.147,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300707,
+    "urlId": "1C1zRkZsN5DTshYkjjzEzj",
+    "title": "Big Vern monument",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 97.54694,
+    "latitude": 122.63883,
+    "ingameLongitude": 154125.359,
+    "ingameLatitude": 34139.113,
+    "ingameHeight": 29876.143,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300708,
+    "urlId": "1C1zRkaWzefbZK9J5qojPh",
+    "title": "DPinchy monument",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 60.52806,
+    "latitude": 53.91754,
+    "ingameLongitude": 330126.969,
+    "ingameLatitude": 361028.344,
+    "ingameHeight": 21072.488,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300709,
+    "urlId": "1C1zRkaXxgUwyCtXMMk4Aw",
+    "title": "Camping Site",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 280.30781,
+    "latitude": 95.22191,
+    "ingameLongitude": -714788.125,
+    "ingameLatitude": 164554.234,
+    "ingameHeight": 41231.969,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300710,
+    "urlId": "1C1zRkdGK72bnenJq9h4wf",
+    "title": "Military Radar & Trenches",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 80.41356,
+    "latitude": 108.89585,
+    "ingameLongitude": 235583.875,
+    "ingameLatitude": 99510.883,
+    "ingameHeight": 27997.262,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300711,
+    "urlId": "1C1zRkdGK72bnenJq9h4wg",
+    "title": "Salt Ponds",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 137.42209,
+    "latitude": 289.37471,
+    "ingameLongitude": -35456.008,
+    "ingameLatitude": -758979.938,
+    "ingameHeight": 136.273,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300712,
+    "urlId": "1C1zRkepiEApVjZiwmcuEJ",
+    "title": "Junkyard",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 313.03842,
+    "latitude": 168.22914,
+    "ingameLongitude": -870401.688,
+    "ingameLatitude": -182722.109,
+    "ingameHeight": 20300.719,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300713,
+    "urlId": "1C1zRkj4cVtfmwd6qvangG",
+    "title": "Z0 Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 289.34742,
+    "latitude": 272.36663,
+    "ingameLongitude": -757765.813,
+    "ingameLatitude": -678076.938,
+    "ingameHeight": 10707.915,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300714,
+    "urlId": "1C1zRkmUdYL7xLmXaKLjso",
+    "title": "A4 Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 55.74401,
+    "latitude": 239.33793,
+    "ingameLongitude": 352872.125,
+    "ingameLatitude": -520968.031,
+    "ingameHeight": 7632.136,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300715,
+    "urlId": "1C1zRknfqQgyi9yNiLM3wK",
+    "title": "C2 Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 161.27308,
+    "latitude": 67.23338,
+    "ingameLongitude": -148852.531,
+    "ingameLatitude": 297688.375,
+    "ingameHeight": 69753.031,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300716,
+    "urlId": "1C1zRkoiqKYh4BpdWs7MoJ",
+    "title": "Klenovnik Hospital",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 262.78291,
+    "latitude": 160.0161,
+    "ingameLongitude": -631468.188,
+    "ingameLatitude": -143654.781,
+    "ingameHeight": 30015.232,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300717,
+    "urlId": "1C1zRkpkKKYKp9FbwirmQS",
+    "title": "A0 Outpost Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 256.96838,
+    "latitude": 247.50586,
+    "ingameLongitude": -603823.75,
+    "ingameLatitude": -559820.75,
+    "ingameHeight": 2462.166,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300718,
+    "urlId": "1C1zRkpkYM1vNqNqTbYAtE",
+    "title": "B4 Outpost Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 7.19151,
+    "latitude": 176.81954,
+    "ingameLongitude": 583708.875,
+    "ingameLatitude": -223584.359,
+    "ingameHeight": 560.415,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300719,
+    "urlId": "1C1zRkpmLPfwWiCYVmzopH",
+    "title": "Z3 Outpost Airfield",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 129.88116,
+    "latitude": 275.30806,
+    "ingameLongitude": 396.428,
+    "ingameLatitude": -692068.562,
+    "ingameHeight": 821.859,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300720,
+    "urlId": "1C1zRkpmwqW28hd91FC2Ab",
+    "title": "Club",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 188.59697,
+    "latitude": 64.05821,
+    "ingameLongitude": -278760.5,
+    "ingameLatitude": 312791.812,
+    "ingameHeight": 84415.258,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300721,
+    "urlId": "1C1zRkpn5rsgfgmuFGcRys",
+    "title": "MMA Cage",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 186.32687,
+    "latitude": 62.5857,
+    "ingameLongitude": -267967.594,
+    "ingameLatitude": 319796.156,
+    "ingameHeight": 84165.719,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300722,
+    "urlId": "1C1zRkpo9Tj6hU6F8PRyDc",
+    "title": "Nuclear Power Plant",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 280.10906,
+    "latitude": 84.59515,
+    "ingameLongitude": -713843.188,
+    "ingameLatitude": 215102.984,
+    "ingameHeight": 44131.344,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300723,
+    "urlId": "1C1zRkppCQbxq8WLT9U7Sq",
+    "title": "Krsko City",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 305.52773,
+    "latitude": 99.41297,
+    "ingameLongitude": -834693.062,
+    "ingameLatitude": 144618.484,
+    "ingameHeight": 42812.48,
+    "category": {
+      "id": 26
+    }
+  },
+  {
+    "id": 300724,
+    "urlId": "1C1zRkpqKiLCxKa3QEEqWV",
+    "title": "Duga Radar",
+    "icon": null,
+    "number": null,
+    "colorBackground": null,
+    "colorIcon": "#ffa500",
+    "longitude": 311.03084,
+    "latitude": 60.34204,
+    "ingameLongitude": -860856.875,
+    "ingameLatitude": 330468.656,
+    "ingameHeight": 58459.062,
+    "category": {
+      "id": 26
+    }
+  }
+]

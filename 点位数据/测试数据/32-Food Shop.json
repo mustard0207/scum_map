@@ -1,0 +1,1685 @@
+[
+  {
+    "id": 283135,
+    "urlId": "1BygGokZdkmb62sZ2CpEMn",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 14.22139,
+    "latitude": 111.0475,
+    "ingameLongitude": 550286.188,
+    "ingameLatitude": 89276.039,
+    "ingameHeight": 287.078,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283136,
+    "urlId": "1BygGomagH2RKTpcr2s3HY",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 279.57888,
+    "latitude": 96.22294,
+    "ingameLongitude": -711322.5,
+    "ingameLatitude": 159792.609,
+    "ingameHeight": 41118.645,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283137,
+    "urlId": "1BygGonXhmGbdCr6V8xSmt",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 96.71196,
+    "latitude": 277.20394,
+    "ingameLongitude": 158095.203,
+    "ingameLatitude": -701086.75,
+    "ingameHeight": 1557.502,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283138,
+    "urlId": "1BygGopL8WwjR4crJCp4ev",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 8.97435,
+    "latitude": 59.55752,
+    "ingameLongitude": 575232.563,
+    "ingameLatitude": 334200.438,
+    "ingameHeight": 552.703,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283139,
+    "urlId": "1BygGoqFEuc5ygqraGR4w5",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 86.14843,
+    "latitude": 269.94328,
+    "ingameLongitude": 208318.172,
+    "ingameLatitude": -666549.688,
+    "ingameHeight": 3977.704,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283140,
+    "urlId": "1BygGorN37hMogaQwrJ3Te",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 93.11229,
+    "latitude": 275.43588,
+    "ingameLongitude": 175209.344,
+    "ingameLatitude": -692676.563,
+    "ingameHeight": 1031.862,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283141,
+    "urlId": "1BygGosZBpV6y9HgUNYSR6",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 95.24257,
+    "latitude": 122.49529,
+    "ingameLongitude": 165081.234,
+    "ingameLatitude": 34821.914,
+    "ingameHeight": 29792.768,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283142,
+    "urlId": "1BygGotpnwsStNpC3Gd63L",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 5.91528,
+    "latitude": 59.73551,
+    "ingameLongitude": 589776.563,
+    "ingameLatitude": 333353.781,
+    "ingameHeight": 216.185,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283143,
+    "urlId": "1BygGouwKDh2FkzRMe2t6D",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 236.20958,
+    "latitude": 90.34114,
+    "ingameLongitude": -505128.625,
+    "ingameLatitude": 187770.797,
+    "ingameHeight": 37891.715,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283144,
+    "urlId": "1BygGovzNZyhKWbDApzT53",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 242.40086,
+    "latitude": 29.42481,
+    "ingameLongitude": -534564.313,
+    "ingameLatitude": 477533.844,
+    "ingameHeight": 80358.664,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283145,
+    "urlId": "1BygGowzhY6znr6JXuWgqY",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 105.82566,
+    "latitude": 30.39451,
+    "ingameLongitude": 114765.25,
+    "ingameLatitude": 472921.25,
+    "ingameHeight": 29392.637,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283146,
+    "urlId": "1BygGoxxMX6njEz3AJJB1u",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 195.7164,
+    "latitude": 10.23533,
+    "ingameLongitude": -312608.938,
+    "ingameLatitude": 568813.188,
+    "ingameHeight": 77508.125,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283147,
+    "urlId": "1BygGoythgDQLJ3ce11JGs",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 154.33998,
+    "latitude": 56.66717,
+    "ingameLongitude": -115889.984,
+    "ingameLatitude": 347949.063,
+    "ingameHeight": 74938.484,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283148,
+    "urlId": "1BygGozuFj7seoiz2n8o9N",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 73.09817,
+    "latitude": 22.79876,
+    "ingameLongitude": 270363.969,
+    "ingameLatitude": 509052.25,
+    "ingameHeight": 21435.67,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283149,
+    "urlId": "1BygGp1tb3n6ZBpoE7KzGQ",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 141.06149,
+    "latitude": 147.01621,
+    "ingameLongitude": -52759.063,
+    "ingameLatitude": -81817.703,
+    "ingameHeight": 36761.133,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283150,
+    "urlId": "1BygGp3FLMtTkZYkLZnKAn",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 48.14437,
+    "latitude": 49.16417,
+    "ingameLongitude": 389003.688,
+    "ingameLatitude": 383638.875,
+    "ingameHeight": 19506.814,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283151,
+    "urlId": "1BygGp4B6XSb8ExLf1PVen",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 141.22722,
+    "latitude": 148.64095,
+    "ingameLongitude": -53371.906,
+    "ingameLatitude": -88625.82,
+    "ingameHeight": 36075.773,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283152,
+    "urlId": "1BygGp5QPRyhBVpj7johq6",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 140.49466,
+    "latitude": 147.01207,
+    "ingameLongitude": -50064.152,
+    "ingameLatitude": -81798.023,
+    "ingameHeight": 36746.598,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283153,
+    "urlId": "1BygGp6oSg6PtSL4EQwouu",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 53.87299,
+    "latitude": 80.73689,
+    "ingameLongitude": 361767.688,
+    "ingameLatitude": 233455.719,
+    "ingameHeight": 19306.33,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283154,
+    "urlId": "1BygGp7jo3qRCMGWqtbmXW",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 55.85518,
+    "latitude": 144.54406,
+    "ingameLongitude": 352343.594,
+    "ingameLatitude": -70058.352,
+    "ingameHeight": 14225.985,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283155,
+    "urlId": "1BygGp8gDqLfkRE9nvz5fg",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 114.45036,
+    "latitude": 113.36811,
+    "ingameLongitude": 73760.211,
+    "ingameLatitude": 78237.5,
+    "ingameHeight": 34974.875,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283156,
+    "urlId": "1BygGp9eoAHgAWz99JjsXz",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 5.90199,
+    "latitude": 59.72833,
+    "ingameLongitude": 589839.75,
+    "ingameLatitude": 333387.938,
+    "ingameHeight": 206.867,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283157,
+    "urlId": "1BygGpAqeBojCLWgo5k4kn",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 54.80663,
+    "latitude": 7.21654,
+    "ingameLongitude": 357328.813,
+    "ingameLatitude": 583172.813,
+    "ingameHeight": 13646.814,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283158,
+    "urlId": "1BygGpBu3hScnXbE1AsuJd",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 125.33046,
+    "latitude": 4.56739,
+    "ingameLongitude": 22032.121,
+    "ingameLatitude": 595774.125,
+    "ingameHeight": 35897.91,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283159,
+    "urlId": "1BygGpCveuiCc4KKWVso8S",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 124.44858,
+    "latitude": 5.24258,
+    "ingameLongitude": 26224.914,
+    "ingameLatitude": 592562.438,
+    "ingameHeight": 36184.961,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283160,
+    "urlId": "1BygGpDsUE6iseHE4R85ct",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 87.61628,
+    "latitude": 272.8542,
+    "ingameLongitude": 201339.469,
+    "ingameLatitude": -680396.188,
+    "ingameHeight": 2416.853,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283161,
+    "urlId": "1BygGpEpVcZ6h9H2XH6gsY",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 53.63474,
+    "latitude": 6.43209,
+    "ingameLongitude": 362900.375,
+    "ingameLatitude": 586904.25,
+    "ingameHeight": 13536.556,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283162,
+    "urlId": "1BygGpGGoSZNMhcroeGAa7",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 113.48445,
+    "latitude": 28.99266,
+    "ingameLongitude": 78352.484,
+    "ingameLatitude": 479589.5,
+    "ingameHeight": 31101.029,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283163,
+    "urlId": "1BygGpHGXbQviMB4Ve1f7d",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 202.93752,
+    "latitude": 38.50303,
+    "ingameLongitude": -346940.813,
+    "ingameLatitude": 434351.125,
+    "ingameHeight": 88615,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283164,
+    "urlId": "1BygGpJChPnSjv2bMuW7VJ",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 234.52348,
+    "latitude": 88.56272,
+    "ingameLongitude": -497112.281,
+    "ingameLatitude": 196230.25,
+    "ingameHeight": 38076.426,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283165,
+    "urlId": "1BygGpKY1AgnTvtKcuV9TL",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 197.77396,
+    "latitude": 10.38626,
+    "ingameLongitude": -322391.344,
+    "ingameLatitude": 568095.25,
+    "ingameHeight": 77026.859,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283166,
+    "urlId": "1BygGpLZUN2y8N4A3K2sTk",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 95.20771,
+    "latitude": 44.53165,
+    "ingameLongitude": 165246.938,
+    "ingameLatitude": 405674.563,
+    "ingameHeight": 33147.141,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283167,
+    "urlId": "1BygGpMjPm1qPh5LVw5CSj",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 94.17813,
+    "latitude": 44.26372,
+    "ingameLongitude": 170141.969,
+    "ingameLatitude": 406949.063,
+    "ingameHeight": 33350.496,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283168,
+    "urlId": "1BygGpPCuC9ygS2PhKeb4e",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 74.40382,
+    "latitude": 22.47764,
+    "ingameLongitude": 264156.406,
+    "ingameLatitude": 510579.75,
+    "ingameHeight": 21560.684,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283169,
+    "urlId": "1BygGpQNMFi6GXtYKxZQDJ",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 72.77257,
+    "latitude": 23.21336,
+    "ingameLongitude": 271912,
+    "ingameLatitude": 507080.094,
+    "ingameHeight": 21562.648,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283170,
+    "urlId": "1BygGpRc9rCqcKXNPYsa8S",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 94.18482,
+    "latitude": 122.31559,
+    "ingameLongitude": 170110.172,
+    "ingameLatitude": 35676.684,
+    "ingameHeight": 29781.809,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283171,
+    "urlId": "1BygGpSo87CZMbLzcFAZgd",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 233.86928,
+    "latitude": 89.0829,
+    "ingameLongitude": -494001.969,
+    "ingameLatitude": 193755.922,
+    "ingameHeight": 37969.137,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283172,
+    "urlId": "1BygGpU3hfZVgjhJ21ZXRi",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 73.84505,
+    "latitude": 23.47661,
+    "ingameLongitude": 266813.031,
+    "ingameLatitude": 505827.906,
+    "ingameHeight": 21758.701,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283173,
+    "urlId": "1BygGpUyzut4MaEeoBYfbu",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 92.24686,
+    "latitude": 80.88169,
+    "ingameLongitude": 179323.938,
+    "ingameLatitude": 232766.906,
+    "ingameHeight": 32032.287,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283174,
+    "urlId": "1BygGpWMx9mQhQTxMyMmih",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 241.40762,
+    "latitude": 28.81308,
+    "ingameLongitude": -529842.063,
+    "ingameLatitude": 480443.688,
+    "ingameHeight": 80403.43,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283175,
+    "urlId": "1BygGpXYeSAQ9zwq83XWFV",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 241.3595,
+    "latitude": 28.30273,
+    "ingameLongitude": -529613.313,
+    "ingameLatitude": 482871.281,
+    "ingameHeight": 80382.625,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283176,
+    "urlId": "1BygGpYYh6f1FNbiviSbJb",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 52.39105,
+    "latitude": 64.01162,
+    "ingameLongitude": 368813.344,
+    "ingameLatitude": 313013.438,
+    "ingameHeight": 20341.408,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283177,
+    "urlId": "1BygGpZe9sC2V8BAHFHp2N",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 53.95108,
+    "latitude": 60.75689,
+    "ingameLongitude": 361396.375,
+    "ingameLatitude": 328495.344,
+    "ingameHeight": 20452.283,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283178,
+    "urlId": "1BygGpaaW1KxWCmrktwr8B",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 54.26721,
+    "latitude": 57.18048,
+    "ingameLongitude": 359893.406,
+    "ingameLatitude": 345507.375,
+    "ingameHeight": 21643.039,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283179,
+    "urlId": "1BygGpbf1TyDfhYtP32e51",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 60.65547,
+    "latitude": 56.61105,
+    "ingameLongitude": 329521.219,
+    "ingameLatitude": 348216,
+    "ingameHeight": 21002.209,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283180,
+    "urlId": "1BygGpchXLkDL31wGNkXJi",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 14.03362,
+    "latitude": 35.91337,
+    "ingameLongitude": 551178.938,
+    "ingameLatitude": 446669.469,
+    "ingameHeight": 7270.224,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283181,
+    "urlId": "1BygGpdfTh7xdy6vwjhbS9",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 37.94616,
+    "latitude": 61.61824,
+    "ingameLongitude": 437489.781,
+    "ingameLatitude": 324398.125,
+    "ingameHeight": 13734.167,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283182,
+    "urlId": "1BygGpecgj2uH3gz5V4B1Y",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 154.85084,
+    "latitude": 57.77636,
+    "ingameLongitude": -118318.781,
+    "ingameLatitude": 342672.938,
+    "ingameHeight": 74607.703,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283183,
+    "urlId": "1BygGpfaqu4qmMw9ZYVFVr",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 142.15234,
+    "latitude": 37.32179,
+    "ingameLongitude": -57945.348,
+    "ingameLatitude": 439969.969,
+    "ingameHeight": 48369.656,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283184,
+    "urlId": "1BygGpgdsCCCAf7Vhouci4",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 140.27775,
+    "latitude": 227.36666,
+    "ingameLongitude": -49032.852,
+    "ingameLatitude": -464023.813,
+    "ingameHeight": 307.331,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283185,
+    "urlId": "1BygGpiGW7ntwp93bj29et",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 35.46368,
+    "latitude": 300.62026,
+    "ingameLongitude": 449292.406,
+    "ingameLatitude": -812472.063,
+    "ingameHeight": 456.349,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283186,
+    "urlId": "1BygGpjFvxeptt74Q5KWUs",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 37.82019,
+    "latitude": 306.69995,
+    "ingameLongitude": 438088.688,
+    "ingameLatitude": -841391.563,
+    "ingameHeight": 3687.169,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283187,
+    "urlId": "1BygGpkNQuJEZVHoUeqVgK",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 318.72444,
+    "latitude": 308.04052,
+    "ingameLongitude": -897435.125,
+    "ingameLatitude": -847768.313,
+    "ingameHeight": 277.76,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283188,
+    "urlId": "1BygGpmKHD3jqfQ7tFMWxM",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 187.93673,
+    "latitude": 271.63697,
+    "ingameLongitude": -275621.469,
+    "ingameLatitude": -674606.125,
+    "ingameHeight": 7896.736,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283189,
+    "urlId": "1BygGpnX99cw12si7fPT7H",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 185.44443,
+    "latitude": 123.71391,
+    "ingameLongitude": -263772.125,
+    "ingameLatitude": 29025.242,
+    "ingameHeight": 38915.305,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283190,
+    "urlId": "1BygGpoWJgxvbZE9XNPFdW",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 236.21234,
+    "latitude": 90.34481,
+    "ingameLongitude": -505141.75,
+    "ingameLatitude": 187753.328,
+    "ingameHeight": 37938.383,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283191,
+    "urlId": "1BygGppUKHCGLwGSEc7wo2",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 246.3447,
+    "latitude": 66.57822,
+    "ingameLongitude": -553314.813,
+    "ingameLatitude": 300804.813,
+    "ingameHeight": 55900.832,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283192,
+    "urlId": "1BygGpqfXTuhad8Kg5GbFC",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 165.99689,
+    "latitude": 217.92137,
+    "ingameLongitude": -171311.281,
+    "ingameLatitude": -419095.063,
+    "ingameHeight": 1770.097,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283193,
+    "urlId": "1BygGpsKVzon3ntQMEBF75",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 25.56509,
+    "latitude": 168.17498,
+    "ingameLongitude": 496354,
+    "ingameLatitude": -182464.453,
+    "ingameHeight": 371.282,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283194,
+    "urlId": "1BygGptKXCbM8jy9x35DQ2",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 67.47178,
+    "latitude": 168.75525,
+    "ingameLongitude": 297113.938,
+    "ingameLatitude": -185224.672,
+    "ingameHeight": 13934.056,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283195,
+    "urlId": "1BygGpuJ9szfsHHbPpbweb",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 90.32769,
+    "latitude": 238.42463,
+    "ingameLongitude": 188448.391,
+    "ingameLatitude": -516623.688,
+    "ingameHeight": 359.734,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283196,
+    "urlId": "1BygGpvUB9JxPiCey8CFHv",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 309.55972,
+    "latitude": 309.55646,
+    "ingameLongitude": -853862.625,
+    "ingameLatitude": -854979.25,
+    "ingameHeight": 1919.672,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283197,
+    "urlId": "1BygGpwoh8HrHJsfoBTSKL",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 10.04984,
+    "latitude": 79.86641,
+    "ingameLongitude": 570119.313,
+    "ingameLatitude": 237596.328,
+    "ingameHeight": 5291.175,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283198,
+    "urlId": "1BygGpyjNPNtmJvNqiVMJr",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 59.42352,
+    "latitude": 207.26703,
+    "ingameLongitude": 335378.375,
+    "ingameLatitude": -368415.125,
+    "ingameHeight": 12893.886,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283199,
+    "urlId": "1BygGq1reJbbczrA1E9WU1",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 140.11704,
+    "latitude": 233.36248,
+    "ingameLongitude": -48268.805,
+    "ingameLatitude": -492544.375,
+    "ingameHeight": 373.214,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283200,
+    "urlId": "1BygGq3gJT2MCJFGjbtCa1",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 175.70148,
+    "latitude": 214.88657,
+    "ingameLongitude": -217450.5,
+    "ingameLatitude": -404659.313,
+    "ingameHeight": 1070.211,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283201,
+    "urlId": "1BygGq5PULSXm8yMBJHFi4",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 163.90775,
+    "latitude": 270.38682,
+    "ingameLongitude": -161378.703,
+    "ingameLatitude": -668659.5,
+    "ingameHeight": 953.152,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283202,
+    "urlId": "1BygGq6xi6997i2FszYASL",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 161.81651,
+    "latitude": 271.20651,
+    "ingameLongitude": -151436.172,
+    "ingameLatitude": -672558.563,
+    "ingameHeight": 638.802,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283203,
+    "urlId": "1BygGq8wPQR39kJZkCAXiK",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 164.3869,
+    "latitude": 272.16363,
+    "ingameLongitude": -163656.781,
+    "ingameLatitude": -677111.313,
+    "ingameHeight": 792.722,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283204,
+    "urlId": "1BygGqAxScxsqX3fN7Hy8y",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 166.80909,
+    "latitude": 274.74908,
+    "ingameLongitude": -175172.781,
+    "ingameLatitude": -689409.625,
+    "ingameHeight": 1548.159,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283205,
+    "urlId": "1BygGqCcE82ixyLfqWc8Nf",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 167.0705,
+    "latitude": 276.29219,
+    "ingameLongitude": -176415.594,
+    "ingameLatitude": -696749.813,
+    "ingameHeight": 1570.716,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283206,
+    "urlId": "1BygGqEDi1rbKLANxfoUWX",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 101.64778,
+    "latitude": 283.45202,
+    "ingameLongitude": 134628.453,
+    "ingameLatitude": -730807.25,
+    "ingameHeight": 1221.352,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283207,
+    "urlId": "1BygGqG6dASApKHsnWrqxq",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 101.83945,
+    "latitude": 283.61341,
+    "ingameLongitude": 133717.203,
+    "ingameLatitude": -731574.938,
+    "ingameHeight": 1224.725,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283208,
+    "urlId": "1BygGqJQcrn7Us8UaLm5Q6",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 55.23738,
+    "latitude": 144.06408,
+    "ingameLongitude": 355280.844,
+    "ingameLatitude": -67775.211,
+    "ingameHeight": 14403.343,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283209,
+    "urlId": "1BygGqKWuErAEY5sQKMzCC",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 70.44738,
+    "latitude": 165.44989,
+    "ingameLongitude": 282966.813,
+    "ingameLatitude": -169501.906,
+    "ingameHeight": 15271.23,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283210,
+    "urlId": "1BygGqLdXsaGTzbnQujnxK",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 69.63851,
+    "latitude": 166.39928,
+    "ingameLongitude": 286812.469,
+    "ingameLatitude": -174017.922,
+    "ingameHeight": 15180.158,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283211,
+    "urlId": "1BygGqMvJZv1sA9Zh8Aywn",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 225.90132,
+    "latitude": 151.68664,
+    "ingameLongitude": -456119.344,
+    "ingameLatitude": -104033.742,
+    "ingameHeight": 30937.049,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283212,
+    "urlId": "1BygGqPNHSxA79fPSRCrKS",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 226.60466,
+    "latitude": 152.61471,
+    "ingameLongitude": -459463.281,
+    "ingameLatitude": -108448.32,
+    "ingameHeight": 30756.885,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283213,
+    "urlId": "1BygGqQsVmUBGyoi7ebrZD",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 169.20867,
+    "latitude": 113.49886,
+    "ingameLongitude": -186581.266,
+    "ingameLatitude": 77615.539,
+    "ingameHeight": 67478.125,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283214,
+    "urlId": "1BygGqSLyofdBR91KfUFj9",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 169.16577,
+    "latitude": 113.05188,
+    "ingameLongitude": -186377.313,
+    "ingameLatitude": 79741.734,
+    "ingameHeight": 67559.656,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283215,
+    "urlId": "1BygGqTzdecEx1X9FGZ3mv",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 305.43143,
+    "latitude": 100.6616,
+    "ingameLongitude": -834235.188,
+    "ingameLatitude": 138679.047,
+    "ingameHeight": 42797.555,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283216,
+    "urlId": "1BygGqVPEUBg1VTvu1mXyn",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 227.60595,
+    "latitude": 151.9031,
+    "ingameLongitude": -464223.781,
+    "ingameLatitude": -105063.383,
+    "ingameHeight": 30947.186,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283217,
+    "urlId": "1BygGqWzfuCoUBRZmnbfZ1",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 154.17919,
+    "latitude": 144.86903,
+    "ingameLongitude": -115125.492,
+    "ingameLatitude": -71604.141,
+    "ingameHeight": 36659.328,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283218,
+    "urlId": "1BygGqYBsPCjhc5mpAMR16",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 190.66882,
+    "latitude": 90.97578,
+    "ingameLongitude": -288610.844,
+    "ingameLatitude": 184751.969,
+    "ingameHeight": 78127.688,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283219,
+    "urlId": "1BygGqZQM5TCAU22oiqBCF",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 203.36937,
+    "latitude": 204.36689,
+    "ingameLongitude": -348994,
+    "ingameLatitude": -354619.906,
+    "ingameHeight": 919.141,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283220,
+    "urlId": "1BygGqbkAyweb3gquii3G3",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 233.45472,
+    "latitude": 219.00185,
+    "ingameLongitude": -492031,
+    "ingameLatitude": -424234.625,
+    "ingameHeight": 626.761,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283221,
+    "urlId": "1BygGqe4GxvU3ohFxUbxXE",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 285.49826,
+    "latitude": 186.73798,
+    "ingameLongitude": -739465.438,
+    "ingameLatitude": -270763.813,
+    "ingameHeight": 17144.611,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283222,
+    "urlId": "1BygGqeiCAuX4aLmc9jg5G",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 236.30192,
+    "latitude": 65.13661,
+    "ingameLongitude": -505567.656,
+    "ingameLatitude": 307662.156,
+    "ingameHeight": 54380.723,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283223,
+    "urlId": "1BygGqfbaxv8L8LnhhyjMw",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 215.55066,
+    "latitude": 12.37255,
+    "ingameLongitude": -406908.438,
+    "ingameLatitude": 558647,
+    "ingameHeight": 83384.109,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283224,
+    "urlId": "1BygGqgRRQ4kGtx7pL4WxE",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 70.43706,
+    "latitude": 59.73927,
+    "ingameLongitude": 283015.875,
+    "ingameLatitude": 333335.906,
+    "ingameHeight": 22551.545,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283225,
+    "urlId": "1BygGqhDTAMCeH6JyxK597",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 24.24335,
+    "latitude": 165.81191,
+    "ingameLongitude": 502638.031,
+    "ingameLatitude": -171223.969,
+    "ingameHeight": 278.873,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283226,
+    "urlId": "1BygGqi82DgvkRMR2UdJwA",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 21.00736,
+    "latitude": 236.04966,
+    "ingameLongitude": 518023.156,
+    "ingameLatitude": -505326.594,
+    "ingameHeight": 279.731,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283227,
+    "urlId": "1BygGqjA2KNWQLkZcomLU6",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 97.81903,
+    "latitude": 289.10969,
+    "ingameLongitude": 152831.781,
+    "ingameLatitude": -757719.313,
+    "ingameHeight": 264.719,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283228,
+    "urlId": "1BygGqkCoZ7NUYP2EeYzLL",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 108.42112,
+    "latitude": 289.19192,
+    "ingameLongitude": 102425.453,
+    "ingameLatitude": -758110.438,
+    "ingameHeight": 1120.968,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283229,
+    "urlId": "1BygGqmAsnmPPchaH4XxQ4",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 140.53815,
+    "latitude": 232.05813,
+    "ingameLongitude": -50270.879,
+    "ingameLatitude": -486339.938,
+    "ingameHeight": 213.198,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283230,
+    "urlId": "1BygGqn7BM6ATPhQ4iQm9v",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 264.911,
+    "latitude": 272.38872,
+    "ingameLongitude": -641585.938,
+    "ingameLatitude": -678182,
+    "ingameHeight": 243.185,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283231,
+    "urlId": "1BygGqo4jg6BiQT3G7txfq",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 77.31823,
+    "latitude": 183.74484,
+    "ingameLongitude": 250300.234,
+    "ingameLatitude": -256526.234,
+    "ingameHeight": 15077.301,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283232,
+    "urlId": "1BygGqp4C9hBmxZfk3gKJ7",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 125.7394,
+    "latitude": 231.13455,
+    "ingameLongitude": 20087.885,
+    "ingameLatitude": -481946.719,
+    "ingameHeight": 6106.781,
+    "category": {
+      "id": 32
+    }
+  },
+  {
+    "id": 283233,
+    "urlId": "1BygGqpqW2rhLvKcnwV6q6",
+    "title": "Food Shop",
+    "icon": "faShoppingBasket",
+    "number": null,
+    "colorBackground": "#4789c8",
+    "colorIcon": "#ffdb88",
+    "longitude": 264.5049,
+    "latitude": 169.30339,
+    "ingameLongitude": -639655.188,
+    "ingameLatitude": -187832,
+    "ingameHeight": 21060.111,
+    "category": {
+      "id": 32
+    }
+  }
+]

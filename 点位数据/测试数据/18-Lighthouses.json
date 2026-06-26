@@ -1,0 +1,155 @@
+[
+  {
+    "id": 237415,
+    "urlId": "1BtrLd39HzEfgVL8drZt6K",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 13.75014,
+    "latitude": 162.96712,
+    "ingameLongitude": 552526.688,
+    "ingameLatitude": -157692.047,
+    "ingameHeight": 3726.303,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237416,
+    "urlId": "1BtrLd39HpTgSToodTqotB",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 13.24242,
+    "latitude": 215.69715,
+    "ingameLongitude": 554940.563,
+    "ingameLatitude": -408515,
+    "ingameHeight": 5669.721,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237417,
+    "urlId": "1BtrLd39HpzfrJiTLsBp15",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 3.18586,
+    "latitude": 272.23524,
+    "ingameLongitude": 602753.25,
+    "ingameLatitude": -677451.938,
+    "ingameHeight": 4085.082,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237418,
+    "urlId": "1BtrLd39LdK324r1HDbVuX",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 65.22758,
+    "latitude": 314.15588,
+    "ingameLongitude": 307783.719,
+    "ingameLatitude": -876857.5,
+    "ingameHeight": 9318.015,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237419,
+    "urlId": "1BtrLd39LXQUt237W9niZ6",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 144.54874,
+    "latitude": 313.06702,
+    "ingameLongitude": -69338.758,
+    "ingameLatitude": -871678.063,
+    "ingameHeight": 4445.883,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237420,
+    "urlId": "1BtrLd39HsdVx132Q3YBsF",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 311.9743,
+    "latitude": 282.82683,
+    "ingameLongitude": -865342.438,
+    "ingameLatitude": -727833.375,
+    "ingameHeight": 5209.403,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237421,
+    "urlId": "1BtrLd39JDD6GSMpRfjGMH",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 180.7018,
+    "latitude": 234.00647,
+    "ingameLongitude": -241223.906,
+    "ingameLatitude": -495607.656,
+    "ingameHeight": 6257.462,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237422,
+    "urlId": "1BtrLd39LTdCWS9E8mTYW6",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 55.38894,
+    "latitude": 267.32106,
+    "ingameLongitude": 354560.25,
+    "ingameLatitude": -654076.5,
+    "ingameHeight": 6665.979,
+    "category": {
+      "id": 18
+    }
+  },
+  {
+    "id": 237423,
+    "urlId": "1BtrLd39LjvKmmou9AzTrj",
+    "title": "Lighthouses",
+    "icon": "faLightbulb",
+    "number": null,
+    "colorBackground": "#2b6dd4",
+    "colorIcon": "#e7ec3e",
+    "longitude": 32.90629,
+    "latitude": 299.43933,
+    "ingameLongitude": 461451.188,
+    "ingameLatitude": -806854.688,
+    "ingameHeight": 3350.698,
+    "category": {
+      "id": 18
+    }
+  }
+]

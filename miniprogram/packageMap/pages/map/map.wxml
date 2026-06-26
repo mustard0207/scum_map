@@ -11,7 +11,7 @@
 
   <!-- 地图区域 -->
   <view class="map-area" style="top: {{statusBarHeight + 44}}px; bottom: {{bottomBarHeight}}px;" bindtap="onMapAreaTap">
-    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" />
+    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" bindgestureend="onGestureEnd" />
   </view>
 
   <!-- 坐标显示（光标处的实时坐标） -->
@@ -54,7 +54,8 @@
           <text class="info-window-icon">◆</text>
           <view class="info-window-title-wrap">
             <text class="info-window-title">{{selectedMarker.name || '未命名标记'}}</text>
-            <text class="info-window-subtitle">标记 #{{selectedMarkerIndex + 1}}</text>
+            <text class="info-window-subtitle" wx:if="{{selectedMarker.src === 'poi'}}">{{poiCatName}}</text>
+            <text class="info-window-subtitle" wx:else>标记 #{{selectedMarkerIndex + 1}}</text>
           </view>
         </view>
         <view class="info-window-close" bindtap="closeInfoWindow">✕</view>
@@ -70,9 +71,14 @@
         </view>
       </view>
       <view class="info-window-actions">
-        <view class="info-window-btn delete" bindtap="deleteMarker">🗑 删除</view>
-        <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
-        <button class="info-window-btn share" open-type="share">↗ 分享</button>
+        <block wx:if="{{selectedMarker.src === 'poi'}}">
+          <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
+        </block>
+        <block wx:else>
+          <view class="info-window-btn delete" bindtap="deleteMarker">🗑 删除</view>
+          <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
+          <button class="info-window-btn share" open-type="share">↗ 分享</button>
+        </block>
       </view>
     </view>
   </view>
@@ -114,7 +120,7 @@
       <text class="bar-icon">⇅</text>
       <text class="bar-label">备份</text>
     </view>
-    <view class="bar-btn bar-btn-disabled" bindtap="onFilterTap">
+    <view class="bar-btn" bindtap="onFilterTap">
       <text class="bar-icon">☰</text>
       <text class="bar-label">筛选</text>
     </view>
@@ -156,6 +162,92 @@
       <view class="import-actions">
         <view class="import-btn cancel" bindtap="hideImportDialog">取消</view>
         <view class="import-btn confirm" bindtap="importMarkers">导入</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- POI 筛选面板 -->
+  <view class="filter-panel-mask" wx:if="{{showFilterPanel}}">
+    <view class="filter-panel-mask-tap" bindtap="closeFilterPanel"></view>
+    <view class="filter-panel" catchtap="">
+      <view class="filter-header" catchtap="">
+        <text class="filter-title">POI 筛选</text>
+        <text class="filter-count {{activePoiCats.length >= 5 ? 'filter-count-full' : ''}}">已选 {{activePoiCats.length}}/5</text>
+        <view class="filter-reset" catchtap="resetPoiFilter">清除筛选</view>
+        <view class="filter-close" catchtap="closeFilterPanel">✕</view>
+      </view>
+      <view class="filter-body" catchtap="">
+        <!-- 精简模式 -->
+        <view wx:if="{{!filterFullMode}}">
+          <!-- 可展开的精选大类 -->
+          <view class="filter-group" wx:for="{{quickCategories}}" wx:key="name" wx:for-item="group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
+              <text class="filter-group-icon">{{group.emoji}}</text>
+              <text class="filter-group-name">{{group.cnName}}</text>
+              <text class="filter-group-count" wx:if="{{!expandedGroups[group.name]}}">{{poiGroupCounts[group.name]}} 项</text>
+              <text class="filter-group-arrow {{expandedGroups[group.name] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups[group.name]}}">
+              <view class="filter-sub" wx:for="{{group.subs}}" wx:for-item="sub" wx:for-index="catIdStr" wx:key="catIdStr">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <text class="filter-sub-count">{{poiCatCounts[catIdStr] || 0}}</text>
+                <view
+                  class="filter-toggle {{activePoiMap[catIdStr] ? 'filter-toggle-on' : ''}} {{activePoiCats.length >= 5 && !activePoiMap[catIdStr] ? 'filter-toggle-disabled' : ''}}"
+                  catchtap="togglePoiSub"
+                  data-catid="{{catIdStr}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <!-- 直选小类 -->
+          <view class="filter-quick-item" wx:for="{{quickSubs}}" wx:key="id" wx:for-item="qf">
+            <text class="filter-sub-name">{{qf.emoji}} {{qf.cnName}}</text>
+            <view
+              class="filter-toggle {{activePoiMap[qf.id] ? 'filter-toggle-on' : ''}} {{activePoiCats.length >= 5 && !activePoiMap[qf.id] ? 'filter-toggle-disabled' : ''}}"
+              catchtap="togglePoiSub"
+              data-catid="{{qf.id}}"
+            >
+              <view class="filter-toggle-thumb"></view>
+            </view>
+          </view>
+          <view class="filter-more-btn" catchtap="toggleFilterMode">
+            <text class="filter-more-text">📂 更多类目</text>
+            <text class="filter-more-arrow">▸</text>
+          </view>
+        </view>
+        <!-- 完整模式 -->
+        <view wx:else>
+          <view class="filter-group" wx:for="{{poiCategories}}" wx:key="name" wx:for-item="group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
+              <text class="filter-group-icon">{{group.emoji}}</text>
+              <text class="filter-group-name">{{group.cnName}}</text>
+              <text class="filter-group-count" wx:if="{{!expandedGroups[group.name]}}">{{poiGroupCounts[group.name]}} 项</text>
+              <text class="filter-group-arrow {{expandedGroups[group.name] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups[group.name]}}">
+              <view class="filter-sub" wx:for="{{group.subs}}" wx:for-item="sub" wx:for-index="catIdStr" wx:key="catIdStr">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <text class="filter-sub-count">{{poiCatCounts[catIdStr] || 0}}</text>
+                <view
+                  class="filter-toggle {{activePoiMap[catIdStr] ? 'filter-toggle-on' : ''}} {{activePoiCats.length >= 5 && !activePoiMap[catIdStr] ? 'filter-toggle-disabled' : ''}}"
+                  catchtap="togglePoiSub"
+                  data-catid="{{catIdStr}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="filter-more-btn" catchtap="toggleFilterMode">
+            <text class="filter-more-text">📂 收起</text>
+            <text class="filter-more-arrow filter-more-arrow-expanded">▸</text>
+          </view>
+        </view>
+      </view>
+      <view class="filter-footer" catchtap="">
+        <text class="filter-footer-text">最多同时开启 5 个小类</text>
       </view>
     </view>
   </view>

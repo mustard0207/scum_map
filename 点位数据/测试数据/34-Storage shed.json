@@ -1,0 +1,376 @@
+[
+  {
+    "id": 238776,
+    "urlId": "1BtrLd39JAaGVoHSvMxUZX",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 152.91624,
+    "latitude": 0.5951,
+    "ingameLongitude": -109120.953,
+    "ingameLatitude": 614669.25,
+    "ingameHeight": 56295.129,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238777,
+    "urlId": "1BtrLd39LjqttEwDN2opdG",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 112.2908,
+    "latitude": 12.86945,
+    "ingameLongitude": 84027.555,
+    "ingameLatitude": 556283.375,
+    "ingameHeight": 36469.465,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238778,
+    "urlId": "1BtrLd39Hsip3yTWh2aYZZ",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 118.02826,
+    "latitude": 18.47989,
+    "ingameLongitude": 56749.527,
+    "ingameLatitude": 529596,
+    "ingameHeight": 35902.996,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238779,
+    "urlId": "1BtrLd39J9xhUhZhmjs2L2",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 141.36026,
+    "latitude": 21.79088,
+    "ingameLongitude": -54179.504,
+    "ingameLatitude": 513846.469,
+    "ingameHeight": 41520.52,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238780,
+    "urlId": "1BtrLd39HiUhZJ3VNwwZfn",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 180.82643,
+    "latitude": 44.84008,
+    "ingameLongitude": -241816.438,
+    "ingameLatitude": 404207.438,
+    "ingameHeight": 79008.789,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238781,
+    "urlId": "1BtrLd39J3RxpvXU84Na5G",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 254.45592,
+    "latitude": 50.32258,
+    "ingameLongitude": -591878.563,
+    "ingameLatitude": 378128.625,
+    "ingameHeight": 72577.117,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238782,
+    "urlId": "1BtrLd39LTdLZuWy1HWiQu",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 209.49227,
+    "latitude": 110.13341,
+    "ingameLongitude": -378104.563,
+    "ingameLatitude": 93624.141,
+    "ingameHeight": 41207.227,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238783,
+    "urlId": "1BtrLd39LWqPAzxFoQMTG4",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 203.22733,
+    "latitude": 63.97924,
+    "ingameLongitude": -348318.719,
+    "ingameLatitude": 313167.469,
+    "ingameHeight": 94268.93,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238784,
+    "urlId": "1BtrLd39LUDA4P7EnVvYtH",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 178.92499,
+    "latitude": 5.20027,
+    "ingameLongitude": -232776.266,
+    "ingameLatitude": 592763.688,
+    "ingameHeight": 69546.656,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238785,
+    "urlId": "1BtrLd39HzGGWm1uusNk6b",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 237.64639,
+    "latitude": 20.64741,
+    "ingameLongitude": -511959.781,
+    "ingameLatitude": 519285.656,
+    "ingameHeight": 85081.234,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238786,
+    "urlId": "1BtrLd39LUDJZUiJngznH5",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 245.58728,
+    "latitude": 45.79218,
+    "ingameLongitude": -549713.75,
+    "ingameLatitude": 399678.563,
+    "ingameHeight": 87740.523,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238787,
+    "urlId": "1BtrLd39LdLeWktXiheSSb",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 227.30161,
+    "latitude": 39.36532,
+    "ingameLongitude": -462776.844,
+    "ingameLatitude": 430249.438,
+    "ingameHeight": 98278.727,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238788,
+    "urlId": "1BtrLd39Hm8P91MZdnUQRq",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 244.21075,
+    "latitude": 46.7312,
+    "ingameLongitude": -543169.188,
+    "ingameLatitude": 395211.875,
+    "ingameHeight": 88133.578,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238789,
+    "urlId": "1BtrLd39HhszMUH5w7YKfQ",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 227.98121,
+    "latitude": 80.56162,
+    "ingameLongitude": -466007.906,
+    "ingameLatitude": 234289.406,
+    "ingameHeight": 46331.574,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238790,
+    "urlId": "1BtrLd39Lgdr5nZF4ukpw3",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 252.32592,
+    "latitude": 67.52867,
+    "ingameLongitude": -581751.75,
+    "ingameLatitude": 296283.75,
+    "ingameHeight": 61516.086,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238791,
+    "urlId": "1BtrLd39HzB6wkJLwSRVKE",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 180.82656,
+    "latitude": 44.84522,
+    "ingameLongitude": -241817.063,
+    "ingameLatitude": 404183,
+    "ingameHeight": 79008.516,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238792,
+    "urlId": "1BtrLd39J9vUM9E5QnNeYs",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 113.06916,
+    "latitude": 55.04745,
+    "ingameLongitude": 80326.922,
+    "ingameLatitude": 355653.656,
+    "ingameHeight": 45629.992,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238793,
+    "urlId": "1BtrLd39LjvBuZEPD2jNhK",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 105.64928,
+    "latitude": 47.1207,
+    "ingameLongitude": 115603.805,
+    "ingameLatitude": 393359.156,
+    "ingameHeight": 37311.684,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238794,
+    "urlId": "1BtrLd39LgdhtGPewmNncU",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 233.55547,
+    "latitude": 35.81784,
+    "ingameLongitude": -492510,
+    "ingameLatitude": 447123.906,
+    "ingameHeight": 90620.094,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238795,
+    "urlId": "1BtrLd39La8c3YdBUvQy5Z",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 236.1749,
+    "latitude": 52.49345,
+    "ingameLongitude": -504963.75,
+    "ingameLatitude": 367802.344,
+    "ingameHeight": 74657.242,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238796,
+    "urlId": "1BtrLd39LhDgF4TamYQuWz",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 40.16237,
+    "latitude": 304.96089,
+    "ingameLongitude": 426953.094,
+    "ingameLatitude": -833119.313,
+    "ingameHeight": 2181.028,
+    "category": {
+      "id": 34
+    }
+  },
+  {
+    "id": 238797,
+    "urlId": "1BtrLd39HvzXyf7AqMBu12",
+    "title": "Storage shed",
+    "icon": "faHome",
+    "number": null,
+    "colorBackground": "#86827f",
+    "colorIcon": "#ffffff",
+    "longitude": 229.66237,
+    "latitude": 56.38289,
+    "ingameLongitude": -474000.75,
+    "ingameLatitude": 349301.313,
+    "ingameHeight": 68982.023,
+    "category": {
+      "id": 34
+    }
+  }
+]

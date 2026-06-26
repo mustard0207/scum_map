@@ -33,12 +33,15 @@ const CONFIG = {
 // ============================================================
 
 const QUERIES = {
-  // 获取所有分类
+  // 获取所有分类（包含section分组信息）
   categories: `query GetMapTemplateCategoryList($mapTemplateId: MapTemplateIdAtMapScalar!) {
     mapCategory {
       listForMapTemplate(mapTemplateId: $mapTemplateId) {
         id
         name
+        section {
+          name
+        }
         appearance {
           color
           colorBackground

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 235788,
+    "urlId": "1BtrLd39LWu58oB5s1xmBR",
+    "title": "Clubs",
+    "icon": "faMusic",
+    "number": null,
+    "colorBackground": "#487efd",
+    "colorIcon": "#ffc400",
+    "longitude": 59.35993,
+    "latitude": 52.87362,
+    "ingameLongitude": 335680.719,
+    "ingameLatitude": 365994,
+    "ingameHeight": 21071.416,
+    "category": {
+      "id": 56
+    }
+  },
+  {
+    "id": 235789,
+    "urlId": "1BtrLd39LjvCQgzRKo6sNr",
+    "title": "Clubs",
+    "icon": "faMusic",
+    "number": null,
+    "colorBackground": "#487efd",
+    "colorIcon": "#ffc400",
+    "longitude": 188.26919,
+    "latitude": 63.93089,
+    "ingameLongitude": -277202.125,
+    "ingameLatitude": 313397.469,
+    "ingameHeight": 84797.633,
+    "category": {
+      "id": 56
+    }
+  }
+]

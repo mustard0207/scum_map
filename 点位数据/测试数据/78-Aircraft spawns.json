@@ -1,0 +1,87 @@
+[
+  {
+    "id": 235319,
+    "urlId": "1BtrLd39Ljqm2KVdcSqkVF",
+    "title": "Aircraft spawns",
+    "icon": "faPlane",
+    "number": null,
+    "colorBackground": "#cabe51",
+    "colorIcon": "#1e5bdb",
+    "longitude": 27.52123,
+    "latitude": 5.55738,
+    "ingameLongitude": 487053.781,
+    "ingameLatitude": 591065,
+    "ingameHeight": 8007.635,
+    "category": {
+      "id": 78
+    }
+  },
+  {
+    "id": 235320,
+    "urlId": "1BtrLd39HtFgGLU49rSmNE",
+    "title": "Aircraft spawns",
+    "icon": "faPlane",
+    "number": null,
+    "colorBackground": "#cabe51",
+    "colorIcon": "#1e5bdb",
+    "longitude": 188.00093,
+    "latitude": 137.52728,
+    "ingameLongitude": -275926.688,
+    "ingameLatitude": -36681.375,
+    "ingameHeight": 35700.551,
+    "category": {
+      "id": 78
+    }
+  },
+  {
+    "id": 235321,
+    "urlId": "1BtrLd39HmBwYMPjtadM7h",
+    "title": "Aircraft spawns",
+    "icon": "faPlane",
+    "number": null,
+    "colorBackground": "#cabe51",
+    "colorIcon": "#1e5bdb",
+    "longitude": 187.73611,
+    "latitude": 137.78205,
+    "ingameLongitude": -274667.625,
+    "ingameLatitude": -37893.25,
+    "ingameHeight": 35700.551,
+    "category": {
+      "id": 78
+    }
+  },
+  {
+    "id": 235322,
+    "urlId": "1BtrLd39LTXSUvGQ5mGiN4",
+    "title": "Aircraft spawns",
+    "icon": "faPlane",
+    "number": null,
+    "colorBackground": "#cabe51",
+    "colorIcon": "#1e5bdb",
+    "longitude": 181.20229,
+    "latitude": 139.35783,
+    "ingameLongitude": -243603.438,
+    "ingameLatitude": -45388.813,
+    "ingameHeight": 35698.422,
+    "category": {
+      "id": 78
+    }
+  },
+  {
+    "id": 235323,
+    "urlId": "1BtrLd39HmCfhJ8dG4DuXf",
+    "title": "Aircraft spawns",
+    "icon": "faPlane",
+    "number": null,
+    "colorBackground": "#cabe51",
+    "colorIcon": "#1e5bdb",
+    "longitude": 22.2488,
+    "latitude": 246.50921,
+    "ingameLongitude": 512120.875,
+    "ingameLatitude": -555079.938,
+    "ingameHeight": 1.91,
+    "category": {
+      "id": 78
+    }
+  }
+]

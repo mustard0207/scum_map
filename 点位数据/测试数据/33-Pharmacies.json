@@ -1,0 +1,512 @@
+[
+  {
+    "id": 439449,
+    "urlId": "1CQE2dFqyEbibcnqkW4TE1",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 59.70324,
+    "latitude": 206.9397,
+    "ingameLongitude": 334863.312,
+    "ingameLatitude": -366350.625,
+    "ingameHeight": 12912.758,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439450,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSB",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 92.04956,
+    "latitude": 274.77118,
+    "ingameLongitude": 180813.969,
+    "ingameLatitude": -689398.125,
+    "ingameHeight": 1169.075,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439451,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSC",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 89.99221,
+    "latitude": 238.24276,
+    "ingameLongitude": 190612.078,
+    "ingameLatitude": -515431.469,
+    "ingameHeight": 450,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439452,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSD",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 138.11147,
+    "latitude": 232.79007,
+    "ingameLongitude": -38555.867,
+    "ingameLatitude": -489463.031,
+    "ingameHeight": 414.938,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439453,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSE",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 25.36673,
+    "latitude": 170.31395,
+    "ingameLongitude": 498390.969,
+    "ingameLatitude": -191920.453,
+    "ingameHeight": 420.409,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439454,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSF",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 25.10217,
+    "latitude": 155.44423,
+    "ingameLongitude": 499650.938,
+    "ingameLatitude": -121103.367,
+    "ingameHeight": 773.353,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439455,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSG",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 7.27249,
+    "latitude": 59.49797,
+    "ingameLongitude": 584564.75,
+    "ingameLatitude": 335840.781,
+    "ingameHeight": 410.339,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439456,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSH",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 10.81093,
+    "latitude": 81.32641,
+    "ingameLongitude": 567712.938,
+    "ingameLatitude": 231882.812,
+    "ingameHeight": 5365.961,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439457,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSJ",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 15.16664,
+    "latitude": 111.52478,
+    "ingameLongitude": 546968.875,
+    "ingameLatitude": 88063.062,
+    "ingameHeight": 408.146,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439458,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSK",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 164.86734,
+    "latitude": 272.065,
+    "ingameLongitude": -165980.719,
+    "ingameLatitude": -676509.938,
+    "ingameHeight": 1342.291,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439459,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSL",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 314.41547,
+    "latitude": 307.23019,
+    "ingameLongitude": -878203.688,
+    "ingameLatitude": -843984.188,
+    "ingameHeight": 838.087,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439460,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSM",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 228.13647,
+    "latitude": 152.63576,
+    "ingameLongitude": -467299.938,
+    "ingameLatitude": -107728.055,
+    "ingameHeight": 31003.715,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439461,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSN",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 169.49209,
+    "latitude": 114.32916,
+    "ingameLongitude": -188006.094,
+    "ingameLatitude": 74707.195,
+    "ingameHeight": 67473.242,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439462,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSP",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 73.64885,
+    "latitude": 23.25734,
+    "ingameLongitude": 268447.344,
+    "ingameLatitude": 508436.812,
+    "ingameHeight": 21789.775,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439463,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSQ",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 198.15984,
+    "latitude": 10.52395,
+    "ingameLongitude": -324536.25,
+    "ingameLatitude": 569079.625,
+    "ingameHeight": 77125.383,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439464,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSR",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 95.59466,
+    "latitude": 123.32878,
+    "ingameLongitude": 163930.438,
+    "ingameLatitude": 31846.469,
+    "ingameHeight": 29875.094,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439465,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSS",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 141.3852,
+    "latitude": 147.87296,
+    "ingameLongitude": -54147.031,
+    "ingameLatitude": -85045.227,
+    "ingameHeight": 36249.297,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439466,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeST",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 155.38202,
+    "latitude": 56.53613,
+    "ingameLongitude": -120806.852,
+    "ingameLatitude": 349946.531,
+    "ingameHeight": 75207.758,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439467,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSU",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 53.71378,
+    "latitude": 6.94254,
+    "ingameLongitude": 363388.125,
+    "ingameLatitude": 586136.062,
+    "ingameHeight": 13643.232,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439468,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSV",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 54.30367,
+    "latitude": 81.0539,
+    "ingameLongitude": 360578.75,
+    "ingameLatitude": 233180.625,
+    "ingameHeight": 19388.438,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439469,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSW",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 92.25896,
+    "latitude": 81.00944,
+    "ingameLongitude": 179816.688,
+    "ingameLatitude": 233392.375,
+    "ingameHeight": 32078.234,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439470,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSX",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 235.43789,
+    "latitude": 90.17049,
+    "ingameLongitude": -502072.938,
+    "ingameLatitude": 189762.891,
+    "ingameHeight": 37968.699,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439471,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSY",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 55.75715,
+    "latitude": 144.60923,
+    "ingameLongitude": 353656.562,
+    "ingameLatitude": -69501.68,
+    "ingameHeight": 14352.521,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439472,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSZ",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 69.93632,
+    "latitude": 166.74625,
+    "ingameLongitude": 286128.281,
+    "ingameLatitude": -174929.281,
+    "ingameHeight": 15294.457,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439473,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSa",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 141.3852,
+    "latitude": 147.87296,
+    "ingameLongitude": -54147.031,
+    "ingameLatitude": -85045.227,
+    "ingameHeight": 36249.297,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439474,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSb",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 125.73678,
+    "latitude": 4.89803,
+    "ingameLongitude": 20378.607,
+    "ingameLatitude": 595873.062,
+    "ingameHeight": 36021.578,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439475,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSc",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 142.18873,
+    "latitude": 37.30192,
+    "ingameLongitude": -57973.84,
+    "ingameLatitude": 441549.5,
+    "ingameHeight": 48529.234,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439476,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSd",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 242.79937,
+    "latitude": 31.74549,
+    "ingameLongitude": -537132,
+    "ingameLatitude": 468012,
+    "ingameHeight": 81096.484,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439477,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSe",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 226.10774,
+    "latitude": 60.49633,
+    "ingameLongitude": -457638.125,
+    "ingameLatitude": 331086.094,
+    "ingameHeight": 68638.531,
+    "category": {
+      "id": 33
+    }
+  },
+  {
+    "id": 439478,
+    "urlId": "1CQE2dFrCNTGLg4R1GDeSf",
+    "title": "Pharmacies",
+    "icon": "faPlus",
+    "number": null,
+    "colorBackground": "#ffffff",
+    "colorIcon": "#2d796c",
+    "longitude": 60.30665,
+    "latitude": 58.21275,
+    "ingameLongitude": 331989.594,
+    "ingameLatitude": 341961.625,
+    "ingameHeight": 21042.996,
+    "category": {
+      "id": 33
+    }
+  }
+]

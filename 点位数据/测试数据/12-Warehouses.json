@@ -1,0 +1,1141 @@
+[
+  {
+    "id": 301514,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5R",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 53.51814,
+    "latitude": 79.26121,
+    "ingameLongitude": 363454.75,
+    "ingameLatitude": 240475.109,
+    "ingameHeight": 18856.313,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301515,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5S",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 233.98806,
+    "latitude": 88.33343,
+    "ingameLongitude": -494566.688,
+    "ingameLatitude": 197320.938,
+    "ingameHeight": 38156.621,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301516,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5T",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 233.50738,
+    "latitude": 88.63476,
+    "ingameLongitude": -492281.375,
+    "ingameLatitude": 195887.578,
+    "ingameHeight": 38068.379,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301517,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5U",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 95.83032,
+    "latitude": 123.5578,
+    "ingameLongitude": 162286.844,
+    "ingameLatitude": 29767.803,
+    "ingameHeight": 29741.307,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301518,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5V",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 202.44845,
+    "latitude": 39.6267,
+    "ingameLongitude": -344615.625,
+    "ingameLatitude": 429006.125,
+    "ingameHeight": 87347.977,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301519,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5W",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 240.69173,
+    "latitude": 30.03466,
+    "ingameLongitude": -526438.438,
+    "ingameLatitude": 474632.969,
+    "ingameHeight": 80452.078,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301520,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5X",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 94.16177,
+    "latitude": 124.1646,
+    "ingameLongitude": 170219.734,
+    "ingameLatitude": 26881.416,
+    "ingameHeight": 29177.262,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301521,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5Y",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 72.7343,
+    "latitude": 39.58129,
+    "ingameLongitude": 272093.969,
+    "ingameLatitude": 429222.156,
+    "ingameHeight": 24840.283,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301522,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5Z",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 75.25166,
+    "latitude": 25.63871,
+    "ingameLongitude": 260125.469,
+    "ingameLatitude": 495543.344,
+    "ingameHeight": 22980.863,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301523,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5a",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 121.9477,
+    "latitude": 5.30442,
+    "ingameLongitude": 38115.055,
+    "ingameLatitude": 592268.25,
+    "ingameHeight": 36173.57,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301524,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5b",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 155.20654,
+    "latitude": 205.73605,
+    "ingameLongitude": -120009.93,
+    "ingameLatitude": -361132.688,
+    "ingameHeight": 15231.148,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301525,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5c",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 141.89497,
+    "latitude": 234.7887,
+    "ingameLongitude": -56721.711,
+    "ingameLatitude": -499328.531,
+    "ingameHeight": 350.604,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301526,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5d",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 142.47271,
+    "latitude": 235.18781,
+    "ingameLongitude": -59468.508,
+    "ingameLatitude": -501227,
+    "ingameHeight": 411.929,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301527,
+    "urlId": "1C1zRm8cLR5tGD4E8xUu5e",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 142.99588,
+    "latitude": 235.81946,
+    "ingameLongitude": -61955.871,
+    "ingameLatitude": -504231.594,
+    "ingameHeight": 482.697,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301528,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNK6",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 144.1743,
+    "latitude": 235.62264,
+    "ingameLongitude": -67558.531,
+    "ingameLatitude": -503295.375,
+    "ingameHeight": 274.419,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301529,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNK7",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 144.80801,
+    "latitude": 236.07349,
+    "ingameLongitude": -70571.422,
+    "ingameLatitude": -505439.938,
+    "ingameHeight": 434.237,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301530,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNK8",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 202.77825,
+    "latitude": 205.17978,
+    "ingameLongitude": -346183.594,
+    "ingameLatitude": -358486.625,
+    "ingameHeight": 783.306,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301531,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNK9",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 215.99073,
+    "latitude": 129.78224,
+    "ingameLongitude": -409000.656,
+    "ingameLatitude": 159.755,
+    "ingameHeight": 35606.309,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301532,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKA",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 216.29626,
+    "latitude": 132.83834,
+    "ingameLongitude": -410453.281,
+    "ingameLatitude": -14377.301,
+    "ingameHeight": 35048.305,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301533,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKB",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 216.15909,
+    "latitude": 130.13529,
+    "ingameLongitude": -409801.125,
+    "ingameLatitude": -1519.609,
+    "ingameHeight": 35606.387,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301534,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKC",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 236.67489,
+    "latitude": 89.71576,
+    "ingameLongitude": -507340.906,
+    "ingameLatitude": 190745.547,
+    "ingameHeight": 37870.594,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301535,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKD",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 216.49146,
+    "latitude": 133.17597,
+    "ingameLongitude": -411381.313,
+    "ingameLatitude": -15983.33,
+    "ingameHeight": 35048.539,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301536,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKE",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 244.04474,
+    "latitude": 67.06428,
+    "ingameLongitude": -542379.938,
+    "ingameLatitude": 298492.75,
+    "ingameHeight": 54933.621,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301537,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKF",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 59.84841,
+    "latitude": 50.12266,
+    "ingameLongitude": 333358.281,
+    "ingameLatitude": 379079.594,
+    "ingameHeight": 21523.854,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301538,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKG",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 60.37391,
+    "latitude": 56.80195,
+    "ingameLongitude": 330859.844,
+    "ingameLatitude": 347307.969,
+    "ingameHeight": 21355.084,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301539,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKH",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 248.61745,
+    "latitude": 281.19893,
+    "ingameLongitude": -564120.313,
+    "ingameLatitude": -720089.875,
+    "ingameHeight": 14532.554,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301540,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKJ",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 218.97988,
+    "latitude": 273.03915,
+    "ingameLongitude": -423212.219,
+    "ingameLatitude": -681275.938,
+    "ingameHeight": 332.149,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301541,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKK",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 220.42378,
+    "latitude": 275.20827,
+    "ingameLongitude": -430077.063,
+    "ingameLatitude": -691593.875,
+    "ingameHeight": 875.887,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301542,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKL",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 221.96404,
+    "latitude": 277.37434,
+    "ingameLongitude": -437400.031,
+    "ingameLatitude": -701897.313,
+    "ingameHeight": 322.196,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301543,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKM",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 222.99493,
+    "latitude": 276.0062,
+    "ingameLongitude": -442301.25,
+    "ingameLatitude": -695389.438,
+    "ingameHeight": 342.149,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301544,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKN",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 224.15686,
+    "latitude": 276.61152,
+    "ingameLongitude": -447825.531,
+    "ingameLatitude": -698268.75,
+    "ingameHeight": 342.15,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301545,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKP",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 292.83419,
+    "latitude": 190.87305,
+    "ingameLongitude": -774343.188,
+    "ingameLatitude": -290433.25,
+    "ingameHeight": 16747.072,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301546,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKQ",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 293.55974,
+    "latitude": 191.22744,
+    "ingameLongitude": -777792.75,
+    "ingameLatitude": -292119,
+    "ingameHeight": 16747.299,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301547,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKR",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 21.74082,
+    "latitude": 245.25953,
+    "ingameLongitude": 514536,
+    "ingameLatitude": -549135.563,
+    "ingameHeight": 391.712,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301548,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKS",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 21.31778,
+    "latitude": 245.45313,
+    "ingameLongitude": 516547.313,
+    "ingameLatitude": -550056.438,
+    "ingameHeight": 390.177,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301549,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKT",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 22.89841,
+    "latitude": 245.95873,
+    "ingameLongitude": 509032.406,
+    "ingameLatitude": -552461.438,
+    "ingameHeight": 402.827,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301550,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKU",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 22.02793,
+    "latitude": 240.84097,
+    "ingameLongitude": 513170.969,
+    "ingameLatitude": -528117.625,
+    "ingameHeight": 384.368,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301551,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKV",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 22.06518,
+    "latitude": 240.45024,
+    "ingameLongitude": 512993.875,
+    "ingameLatitude": -526259,
+    "ingameHeight": 381.205,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301552,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKW",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 22.0678,
+    "latitude": 240.03414,
+    "ingameLongitude": 512981.406,
+    "ingameLatitude": -524279.719,
+    "ingameHeight": 381.781,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301553,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKX",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 111.28284,
+    "latitude": 165.61662,
+    "ingameLongitude": 88819.797,
+    "ingameLatitude": -170295,
+    "ingameHeight": 31003.164,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301554,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKY",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 72.42563,
+    "latitude": 60.08914,
+    "ingameLongitude": 273561.469,
+    "ingameLatitude": 331671.656,
+    "ingameHeight": 23257.451,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301555,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKZ",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 173.40686,
+    "latitude": 265.88621,
+    "ingameLongitude": -206541.016,
+    "ingameLatitude": -647251.25,
+    "ingameHeight": 5230.08,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301556,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKa",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 313.55484,
+    "latitude": 17.99183,
+    "ingameLongitude": -872856.938,
+    "ingameLatitude": 531917.563,
+    "ingameHeight": 60913.965,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301557,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKb",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 313.37397,
+    "latitude": 18.9177,
+    "ingameLongitude": -871997,
+    "ingameLatitude": 527513.438,
+    "ingameHeight": 60952.301,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301558,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKc",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 312.1893,
+    "latitude": 22.19642,
+    "ingameLongitude": -866364.625,
+    "ingameLatitude": 511917.438,
+    "ingameHeight": 60296.309,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301559,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKd",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 312.12081,
+    "latitude": 23.46215,
+    "ingameLongitude": -866039,
+    "ingameLatitude": 505896.688,
+    "ingameHeight": 60330.84,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301560,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKe",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 192.1642,
+    "latitude": 290.41016,
+    "ingameLongitude": -295720.438,
+    "ingameLatitude": -763905.313,
+    "ingameHeight": 7919.376,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301561,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKf",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 192.64627,
+    "latitude": 290.55935,
+    "ingameLongitude": -298012.406,
+    "ingameLatitude": -764614.938,
+    "ingameHeight": 7919.196,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301562,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKg",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 193.16095,
+    "latitude": 290.63529,
+    "ingameLongitude": -300459.344,
+    "ingameLatitude": -764976.188,
+    "ingameHeight": 7919.376,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301563,
+    "urlId": "1C1zRm8ce9FV9a7mwSsNKh",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 193.64104,
+    "latitude": 290.76082,
+    "ingameLongitude": -302741.875,
+    "ingameLatitude": -765573.313,
+    "ingameHeight": 7919.373,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301564,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PD",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 194.15406,
+    "latitude": 290.87586,
+    "ingameLongitude": -305180.969,
+    "ingameLatitude": -766120.5,
+    "ingameHeight": 7919.376,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301565,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PE",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 203.39952,
+    "latitude": 292.47756,
+    "ingameLongitude": -349137.344,
+    "ingameLatitude": -773739.375,
+    "ingameHeight": 8027.004,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301566,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PF",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 203.84686,
+    "latitude": 292.45413,
+    "ingameLongitude": -351264.188,
+    "ingameLatitude": -773627.938,
+    "ingameHeight": 8027.174,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301567,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PG",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 202.19055,
+    "latitude": 292.45248,
+    "ingameLongitude": -343389.438,
+    "ingameLatitude": -773620.063,
+    "ingameHeight": 8027.164,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301568,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PH",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 201.74008,
+    "latitude": 292.47379,
+    "ingameLongitude": -341247.75,
+    "ingameLatitude": -773721.438,
+    "ingameHeight": 8026.934,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301569,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PJ",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 200.93571,
+    "latitude": 292.44994,
+    "ingameLongitude": -337423.469,
+    "ingameLatitude": -773608,
+    "ingameHeight": 8027.008,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301570,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PK",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 200.08458,
+    "latitude": 292.47086,
+    "ingameLongitude": -333376.906,
+    "ingameLatitude": -773707.5,
+    "ingameHeight": 8027.174,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301571,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PL",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 199.22846,
+    "latitude": 292.44197,
+    "ingameLongitude": -329306.563,
+    "ingameLatitude": -773570.063,
+    "ingameHeight": 8027.162,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301572,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PM",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 198.80829,
+    "latitude": 292.47083,
+    "ingameLongitude": -327308.938,
+    "ingameLatitude": -773707.375,
+    "ingameHeight": 8027.174,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301573,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PN",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 199.68684,
+    "latitude": 292.84889,
+    "ingameLongitude": -331485.906,
+    "ingameLatitude": -775505.688,
+    "ingameHeight": 7948.843,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301574,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PP",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 263.0828,
+    "latitude": 160.75982,
+    "ingameLongitude": -632894,
+    "ingameLatitude": -147192.484,
+    "ingameHeight": 31653.6,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301575,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PQ",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 278.67739,
+    "latitude": 83.71799,
+    "ingameLongitude": -707036.5,
+    "ingameLatitude": 219275.391,
+    "ingameHeight": 44168.703,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301576,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PR",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 277.8394,
+    "latitude": 83.58327,
+    "ingameLongitude": -703052.375,
+    "ingameLatitude": 219916.203,
+    "ingameHeight": 44136.855,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301577,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PS",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 285.21788,
+    "latitude": 84.57989,
+    "ingameLongitude": -738132.438,
+    "ingameLatitude": 215175.531,
+    "ingameHeight": 44194.195,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301578,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PT",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 285.17622,
+    "latitude": 84.15312,
+    "ingameLongitude": -737934.375,
+    "ingameLatitude": 217205.578,
+    "ingameHeight": 44182.281,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301579,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PU",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 285.18222,
+    "latitude": 83.74526,
+    "ingameLongitude": -737962.875,
+    "ingameLatitude": 219145.656,
+    "ingameHeight": 44233.043,
+    "category": {
+      "id": 12
+    }
+  },
+  {
+    "id": 301580,
+    "urlId": "1C1zRm8d1xiwnGxbucK8PV",
+    "title": "Warehouses",
+    "icon": "faWarehouse",
+    "number": null,
+    "colorBackground": "#888787",
+    "colorIcon": "#0a0a0a",
+    "longitude": 309.65321,
+    "latitude": 58.88689,
+    "ingameLongitude": -854307.125,
+    "ingameLatitude": 337390.438,
+    "ingameHeight": 57778.387,
+    "category": {
+      "id": 12
+    }
+  }
+]

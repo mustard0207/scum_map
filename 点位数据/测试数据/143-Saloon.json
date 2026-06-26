@@ -1,0 +1,70 @@
+[
+  {
+    "id": 238393,
+    "urlId": "1BtrLd39LgfCCETB17HLV2",
+    "title": "Saloon",
+    "icon": "faCocktail",
+    "number": null,
+    "colorBackground": "#ea4dff",
+    "colorIcon": "#000000",
+    "longitude": 10.4214,
+    "latitude": 176.29361,
+    "ingameLongitude": 568352.75,
+    "ingameLatitude": -221082.672,
+    "ingameHeight": 461.857,
+    "category": {
+      "id": 143
+    }
+  },
+  {
+    "id": 238394,
+    "urlId": "1BtrLd39LdNiH7sxEAavLD",
+    "title": "Saloon",
+    "icon": "faCocktail",
+    "number": null,
+    "colorBackground": "#ea4dff",
+    "colorIcon": "#000000",
+    "longitude": 162.48392,
+    "latitude": 68.27729,
+    "ingameLongitude": -154609.297,
+    "ingameLatitude": 292722.75,
+    "ingameHeight": 69779.773,
+    "category": {
+      "id": 143
+    }
+  },
+  {
+    "id": 238395,
+    "urlId": "1BtrLd39JA1nHJovUaNLdP",
+    "title": "Saloon",
+    "icon": "faCocktail",
+    "number": null,
+    "colorBackground": "#ea4dff",
+    "colorIcon": "#000000",
+    "longitude": 124.6951,
+    "latitude": 272.39409,
+    "ingameLongitude": 25052.9,
+    "ingameLatitude": -678207.563,
+    "ingameHeight": 422.689,
+    "category": {
+      "id": 143
+    }
+  },
+  {
+    "id": 238396,
+    "urlId": "1BtrLd39LTY38yPp37SVYh",
+    "title": "Saloon",
+    "icon": "faCocktail",
+    "number": null,
+    "colorBackground": "#ea4dff",
+    "colorIcon": "#000000",
+    "longitude": 261.15595,
+    "latitude": 247.11913,
+    "ingameLongitude": -623733,
+    "ingameLatitude": -557981.188,
+    "ingameHeight": 2547.839,
+    "category": {
+      "id": 143
+    }
+  }
+]

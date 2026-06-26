@@ -1,0 +1,3708 @@
+[
+  {
+    "id": 470637,
+    "urlId": "1CU9TRXdh46d8WVqHoiYNw",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 241.50832,
+    "latitude": 30.25858,
+    "ingameLongitude": -530983.375,
+    "ingameLatitude": 475093.438,
+    "ingameHeight": 80405.57,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470638,
+    "urlId": "1CU9TRXeA2p9e8Y2iFKMjK",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 242.74751,
+    "latitude": 29.53698,
+    "ingameLongitude": -536885,
+    "ingameLatitude": 478530.094,
+    "ingameHeight": 80356.047,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470639,
+    "urlId": "1CU9TRXeaT3zf3Hu8ZARfR",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 240.79656,
+    "latitude": 32.94637,
+    "ingameLongitude": -527593.625,
+    "ingameLatitude": 462292.875,
+    "ingameHeight": 80812.508,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470640,
+    "urlId": "1CU9TRXfQHWfYU4d87JUSA",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 226.05188,
+    "latitude": 40.73727,
+    "ingameLongitude": -457372.094,
+    "ingameLatitude": 425188.688,
+    "ingameHeight": 99012.016,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470641,
+    "urlId": "1CU9TRXfwfdgSkN68zhjYu",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 226.21297,
+    "latitude": 40.19232,
+    "ingameLongitude": -458139.281,
+    "ingameLatitude": 427784,
+    "ingameHeight": 99012.016,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470642,
+    "urlId": "1CU9TRXgPGF8Cx1hA96MzV",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 226.97722,
+    "latitude": 41.09322,
+    "ingameLongitude": -461779.031,
+    "ingameLatitude": 423493.5,
+    "ingameHeight": 98637.516,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470643,
+    "urlId": "1CU9TRXhBvpL1YKcx7CmJ3",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 226.52302,
+    "latitude": 40.66439,
+    "ingameLongitude": -459615.906,
+    "ingameLatitude": 425535.781,
+    "ingameHeight": 98904.648,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470644,
+    "urlId": "1CU9TRXhbYtLFGfB1bGJw1",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 225.50748,
+    "latitude": 42.19482,
+    "ingameLongitude": -454779.375,
+    "ingameLatitude": 418247.094,
+    "ingameHeight": 98392.969,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470645,
+    "urlId": "1CU9TRXi9fbYugQeSMzP5R",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 246.58474,
+    "latitude": 68.0455,
+    "ingameLongitude": -555159.813,
+    "ingameLatitude": 295133.281,
+    "ingameHeight": 55628.117,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470646,
+    "urlId": "1CU9TRXiye3qz6K4v1YByW",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 200.15396,
+    "latitude": 87.02663,
+    "ingameLongitude": -334033.219,
+    "ingameLatitude": 204735.609,
+    "ingameHeight": 82264.57,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470647,
+    "urlId": "1CU9TRXjPyupx8i7pyzsXn",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 199.2762,
+    "latitude": 91.90278,
+    "ingameLongitude": -329852.906,
+    "ingameLatitude": 181512.984,
+    "ingameHeight": 85328.75,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470648,
+    "urlId": "1CU9TRXk1abbnYGsZzgfhj",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 232.95534,
+    "latitude": 89.48686,
+    "ingameLongitude": -490249.813,
+    "ingameLatitude": 193018.781,
+    "ingameHeight": 38144.734,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470649,
+    "urlId": "1CU9TRXkZHWEEk7qfr4wAh",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 235.34909,
+    "latitude": 89.96772,
+    "ingameLongitude": -501650.063,
+    "ingameLatitude": 190728.688,
+    "ingameHeight": 37815.078,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470650,
+    "urlId": "1CU9TRXm4hXgw7cpNCAM1V",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 219.27827,
+    "latitude": 99.7661,
+    "ingameLongitude": -425112.781,
+    "ingameLatitude": 144063.922,
+    "ingameHeight": 42678.066,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470651,
+    "urlId": "1CU9TRXmvd2QYupDMcHabt",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 235.47292,
+    "latitude": 122.45,
+    "ingameLongitude": -502239.781,
+    "ingameLatitude": 36031.82,
+    "ingameHeight": 32851.141,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470652,
+    "urlId": "1CU9TRXnTyT1zSbLbLfn7o",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 217.14171,
+    "latitude": 133.04365,
+    "ingameLongitude": -414937.406,
+    "ingameLatitude": -14420.428,
+    "ingameHeight": 35092.074,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470653,
+    "urlId": "1CU9TRXo8Kx9S3LkN43UgV",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 225.65192,
+    "latitude": 152.51546,
+    "ingameLongitude": -455467.25,
+    "ingameLatitude": -107154.906,
+    "ingameHeight": 30826.334,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470654,
+    "urlId": "1CU9TRXoo2MJ4Cozurywch",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 227.27699,
+    "latitude": 153.99766,
+    "ingameLongitude": -463206.688,
+    "ingameLatitude": -114213.906,
+    "ingameHeight": 30347.516,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470655,
+    "urlId": "1CU9TRXpGUhQPT4yfXnYV8",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 232.62385,
+    "latitude": 187.26238,
+    "ingameLongitude": -488671.062,
+    "ingameLatitude": -272637.125,
+    "ingameHeight": 13036.48,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470656,
+    "urlId": "1CU9TRXq3VnuXAMyrry7Yk",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 232.04133,
+    "latitude": 218.13481,
+    "ingameLongitude": -485896.844,
+    "ingameLatitude": -419667.063,
+    "ingameHeight": 995.442,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470657,
+    "urlId": "1CU9TRXqVh6gV88W1tiRs3",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 233.13423,
+    "latitude": 217.49605,
+    "ingameLongitude": -491101.781,
+    "ingameLatitude": -416624.969,
+    "ingameHeight": 699.01,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470658,
+    "urlId": "1CU9TRXrELyAVGv6xXae4i",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 233.59193,
+    "latitude": 218.57576,
+    "ingameLongitude": -493281.563,
+    "ingameLatitude": -421767.094,
+    "ingameHeight": 635.102,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470659,
+    "urlId": "1CU9TRXrhbtLM4BnrL8dGs",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 138.78117,
+    "latitude": 233.25239,
+    "ingameLongitude": -41745.316,
+    "ingameLatitude": -491664.531,
+    "ingameHeight": 306.826,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470660,
+    "urlId": "1CU9TRXsDpmtGfzJ5sRvPV",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 214.76048,
+    "latitude": 132.72187,
+    "ingameLongitude": -403596.781,
+    "ingameLatitude": -12887.941,
+    "ingameHeight": 35022.227,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470661,
+    "urlId": "1CU9TRXtATXXdSNys3HsHi",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 137.4403,
+    "latitude": 234.14588,
+    "ingameLongitude": -35359.434,
+    "ingameLatitude": -495919.781,
+    "ingameHeight": 350.856,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470662,
+    "urlId": "1CU9TRXteHcSbLXQQmuCfP",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 225.77239,
+    "latitude": 153.6772,
+    "ingameLongitude": -456041,
+    "ingameLatitude": -112687.703,
+    "ingameHeight": 30648.305,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470663,
+    "urlId": "1CU9TRXuQah8DwfWQwpiMK",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 138.16977,
+    "latitude": 234.53665,
+    "ingameLongitude": -38833.531,
+    "ingameLatitude": -497780.813,
+    "ingameHeight": 348.291,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470664,
+    "urlId": "1CU9TRXuhzhSKfN44oEAxq",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 136.33952,
+    "latitude": 231.31753,
+    "ingameLongitude": -30116.971,
+    "ingameLatitude": -482449.75,
+    "ingameHeight": 351.61,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470665,
+    "urlId": "1CU9TRXvJ1aBbwYvga8fnr",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 136.40271,
+    "latitude": 230.63026,
+    "ingameLongitude": -30417.912,
+    "ingameLatitude": -479176.625,
+    "ingameHeight": 390.464,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470666,
+    "urlId": "1CU9TRXw5AsEw9USNkwGjq",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 137.66147,
+    "latitude": 230.99271,
+    "ingameLongitude": -36412.75,
+    "ingameLatitude": -480902.813,
+    "ingameHeight": 323.43,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470667,
+    "urlId": "1CU9TRXwbAiCfYga8Kq92h",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 136.66176,
+    "latitude": 232.15245,
+    "ingameLongitude": -31651.623,
+    "ingameLatitude": -486426.063,
+    "ingameHeight": 374.723,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470668,
+    "urlId": "1CU9TRXwzeUyhTn5PxbV1M",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 135.4031,
+    "latitude": 231.30404,
+    "ingameLongitude": -25657.252,
+    "ingameLatitude": -482385.531,
+    "ingameHeight": 407.447,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470669,
+    "urlId": "1CU9TRXxRA5skqDm81fEPf",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 175.30164,
+    "latitude": 214.17252,
+    "ingameLongitude": -215674.047,
+    "ingameLatitude": -400796.656,
+    "ingameHeight": 732.38,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470670,
+    "urlId": "1CU9TRXyNfeQ76MPk8VPDB",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 139.22907,
+    "latitude": 227.29443,
+    "ingameLongitude": -43878.457,
+    "ingameLatitude": -463289.719,
+    "ingameHeight": 314.715,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470671,
+    "urlId": "1CU9TRXyqHdqNLMU7o42Ht",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 175.79704,
+    "latitude": 214.49789,
+    "ingameLongitude": -218033.391,
+    "ingameLatitude": -402346.219,
+    "ingameHeight": 879.702,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470672,
+    "urlId": "1CU9TRXzEmDMA172j584VJ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 165.09827,
+    "latitude": 216.99716,
+    "ingameLongitude": -167080.5,
+    "ingameLatitude": -414249,
+    "ingameHeight": 1919.215,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470673,
+    "urlId": "1CU9TRXznY6KtJjwR3FmUi",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 143.9643,
+    "latitude": 148.05532,
+    "ingameLongitude": -66429.992,
+    "ingameLatitude": -85913.516,
+    "ingameHeight": 36511.055,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470674,
+    "urlId": "1CU9TRY1MtuHkdqMmU8z27",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 140.17896,
+    "latitude": 226.71147,
+    "ingameLongitude": -48402.32,
+    "ingameLatitude": -460513.375,
+    "ingameHeight": 331.125,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470675,
+    "urlId": "1CU9TRY23vTTfLjvcmbC6s",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 143.18335,
+    "latitude": 149.1197,
+    "ingameLongitude": -62710.703,
+    "ingameLatitude": -90982.586,
+    "ingameHeight": 36653.984,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470676,
+    "urlId": "1CU9TRY2p32hzVBrTisALv",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 6,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 187.80629,
+    "latitude": 137.2264,
+    "ingameLongitude": -275227.469,
+    "ingameLatitude": -34340.758,
+    "ingameHeight": 35782.699,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470677,
+    "urlId": "1CU9TRY3HKtoq5TUm2y2Xd",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 6,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 181.05245,
+    "latitude": 140.33275,
+    "ingameLongitude": -243062.297,
+    "ingameLatitude": -49134.766,
+    "ingameHeight": 35755.57,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470678,
+    "urlId": "1CU9TRY3uchLgH2Me13sWg",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 189.78791,
+    "latitude": 91.30989,
+    "ingameLongitude": -284664.938,
+    "ingameLatitude": 184336.609,
+    "ingameHeight": 78304.883,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470679,
+    "urlId": "1CU9TRY4WXU4wfXF5MDZ6U",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 170.25442,
+    "latitude": 113.22263,
+    "ingameLongitude": -191636.688,
+    "ingameLatitude": 79977.195,
+    "ingameHeight": 67136.602,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470680,
+    "urlId": "1CU9TRY5D9Ppe1xqJ2DUuq",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 170.25442,
+    "latitude": 113.22263,
+    "ingameLongitude": -191636.688,
+    "ingameLatitude": 79977.195,
+    "ingameHeight": 67136.602,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470681,
+    "urlId": "1CU9TRY5wZC9CpmadcX4Ud",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 170.6245,
+    "latitude": 113.86932,
+    "ingameLongitude": -193399.172,
+    "ingameLatitude": 76897.344,
+    "ingameHeight": 67058.648,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470682,
+    "urlId": "1CU9TRY6NdwA36kjyUHovE",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 199.20168,
+    "latitude": 12.65778,
+    "ingameLongitude": -329498,
+    "ingameLatitude": 558917.25,
+    "ingameHeight": 76869.164,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470683,
+    "urlId": "1CU9TRY6xjCa8CJJe2F3jF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 197.31972,
+    "latitude": 11.28802,
+    "ingameLongitude": -320535.156,
+    "ingameLatitude": 565440.75,
+    "ingameHeight": 76839.766,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470684,
+    "urlId": "1CU9TRY7Uw6YN1sYghR6oL",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 197.04758,
+    "latitude": 10.02165,
+    "ingameLongitude": -319239.094,
+    "ingameLatitude": 571471.813,
+    "ingameHeight": 77264.086,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470685,
+    "urlId": "1CU9TRY8FC9T8aa7dQhMWP",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 153.54188,
+    "latitude": 59.31619,
+    "ingameLongitude": -112043.195,
+    "ingameLatitude": 336706.594,
+    "ingameHeight": 74623.625,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470686,
+    "urlId": "1CU9TRY8jRPDnj7xGwxLig",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 149.06756,
+    "latitude": 26.3906,
+    "ingameLongitude": -90734.242,
+    "ingameLatitude": 493514.688,
+    "ingameHeight": 44613.367,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470687,
+    "urlId": "1CU9TRY9G3TkXTdVzP5u9c",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 126.07504,
+    "latitude": 5.30558,
+    "ingameLongitude": 18767.639,
+    "ingameLatitude": 593932.125,
+    "ingameHeight": 35978.652,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470688,
+    "urlId": "1CU9TRY9rMxANSkgQX3wRH",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 133.73451,
+    "latitude": 21.40078,
+    "ingameLongitude": -17710.609,
+    "ingameLatitude": 517278.75,
+    "ingameHeight": 35308.285,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470689,
+    "urlId": "1CU9TRYAKPBc4Fimb2XvFy",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 111.55028,
+    "latitude": 29.48332,
+    "ingameLongitude": 87941.797,
+    "ingameLatitude": 478785.656,
+    "ingameHeight": 30997.977,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470690,
+    "urlId": "1CU9TRYBHKVxrS6RBn54GR",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 71.46417,
+    "latitude": 40.91266,
+    "ingameLongitude": 278851.875,
+    "ingameLatitude": 424353.406,
+    "ingameHeight": 24314.146,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470691,
+    "urlId": "1CU9TRYBh8tx6WDpEmejsj",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 154.33055,
+    "latitude": 57.83283,
+    "ingameLongitude": -115799.258,
+    "ingameLatitude": 343771.094,
+    "ingameHeight": 74615.688,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470692,
+    "urlId": "1CU9TRYCFT5HXxkPPpACG6",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 72.28945,
+    "latitude": 40.90647,
+    "ingameLongitude": 274921.5,
+    "ingameLatitude": 424382.906,
+    "ingameHeight": 24805.439,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470693,
+    "urlId": "1CU9TRYCkCdNKkMyJfNzZP",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 95.33849,
+    "latitude": 45.71289,
+    "ingameLongitude": 165150.422,
+    "ingameLatitude": 401492.313,
+    "ingameHeight": 33002.77,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470694,
+    "urlId": "1CU9TRYDN5w7yPVsCfCEWa",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 74.90169,
+    "latitude": 23.90392,
+    "ingameLongitude": 262480.719,
+    "ingameLatitude": 505357.531,
+    "ingameHeight": 22065.113,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470695,
+    "urlId": "1CU9TRYDsBkdQw33ragp6Z",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 13.71864,
+    "latitude": 17.12727,
+    "ingameLongitude": 553865,
+    "ingameLatitude": 537631.313,
+    "ingameHeight": 17961.234,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470696,
+    "urlId": "1CU9TRYEbdiphwzmqe3fby",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 12.06916,
+    "latitude": 17.4798,
+    "ingameLongitude": 561720.625,
+    "ingameLatitude": 535952.375,
+    "ingameHeight": 17939.41,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470697,
+    "urlId": "1CU9TRYFNbHXWCvYJgNd5L",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 14.66984,
+    "latitude": 37.00839,
+    "ingameLongitude": 549334.875,
+    "ingameLatitude": 442947.469,
+    "ingameHeight": 7273.208,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470698,
+    "urlId": "1CU9TRYFmJ6cMTU6HQWtnX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 11.55164,
+    "latitude": 61.1703,
+    "ingameLongitude": 564185.313,
+    "ingameLatitude": 327876.375,
+    "ingameHeight": 708.573,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470699,
+    "urlId": "1CU9TRYGgn4PryaxeLZb7e",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 10.82743,
+    "latitude": 61.06555,
+    "ingameLongitude": 567634.375,
+    "ingameLatitude": 328375.25,
+    "ingameHeight": 693.354,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470700,
+    "urlId": "1CU9TRYHVUpuWp339isyht",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 9.83927,
+    "latitude": 56.90718,
+    "ingameLongitude": 572340.5,
+    "ingameLatitude": 348179.5,
+    "ingameHeight": 585.927,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470701,
+    "urlId": "1CU9TRYJCxtKRvNaPEHNrT",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 10.44734,
+    "latitude": 58.43311,
+    "ingameLongitude": 569444.563,
+    "ingameLatitude": 340912.25,
+    "ingameHeight": 654.69,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470702,
+    "urlId": "1CU9TRYJkDsSiUrBWibRGD",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 10.39957,
+    "latitude": 59.71804,
+    "ingameLongitude": 569672.063,
+    "ingameLatitude": 334792.781,
+    "ingameHeight": 721.269,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470703,
+    "urlId": "1CU9TRYKSmNaTrXmxBPMtd",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 8.63797,
+    "latitude": 75.91399,
+    "ingameLongitude": 578061.688,
+    "ingameLatitude": 257659.578,
+    "ingameHeight": 1801.793,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470704,
+    "urlId": "1CU9TRYL2ik6UiFsbtwf8a",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 10.96789,
+    "latitude": 80.41091,
+    "ingameLongitude": 566965.438,
+    "ingameLatitude": 236243,
+    "ingameHeight": 5200.199,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470705,
+    "urlId": "1CU9TRYLutxh8uGEBednMw",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 11.406,
+    "latitude": 80.38847,
+    "ingameLongitude": 564878.938,
+    "ingameLatitude": 236349.859,
+    "ingameHeight": 5233.385,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470706,
+    "urlId": "1CU9TRYML6ZW3dwTqge8DX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 10.33307,
+    "latitude": 81.72817,
+    "ingameLongitude": 569988.75,
+    "ingameLatitude": 229969.531,
+    "ingameHeight": 5252.331,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470707,
+    "urlId": "1CU9TRYMzgTYSKEJDhdXib",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 11.6163,
+    "latitude": 82.50172,
+    "ingameLongitude": 563877.375,
+    "ingameLatitude": 226285.531,
+    "ingameHeight": 5336.848,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470708,
+    "urlId": "1CU9TRYNwvYGALgyotTFTV",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 11.97602,
+    "latitude": 82.11537,
+    "ingameLongitude": 562164.188,
+    "ingameLatitude": 228125.484,
+    "ingameHeight": 5325.944,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470709,
+    "urlId": "1CU9TRYPfCCwZF6VpeuzxB",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 45.65062,
+    "latitude": 108.78213,
+    "ingameLongitude": 401788.938,
+    "ingameLatitude": 101125.078,
+    "ingameHeight": 12926.057,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470710,
+    "urlId": "1CU9TRYQDz8ruQnduba5ko",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 30.17163,
+    "latitude": 105.58872,
+    "ingameLongitude": 475507.625,
+    "ingameLatitude": 116333.703,
+    "ingameHeight": 8042.265,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470711,
+    "urlId": "1CU9TRYQjpa96LhUWEJxWW",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 32.00923,
+    "latitude": 103.39384,
+    "ingameLongitude": 466756.063,
+    "ingameLatitude": 126786.781,
+    "ingameHeight": 8527.39,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470712,
+    "urlId": "1CU9TRYRXeRCh1ifE5mjSy",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 56.1873,
+    "latitude": 8.42424,
+    "ingameLongitude": 351608,
+    "ingameLatitude": 579079.5,
+    "ingameHeight": 13710.14,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470713,
+    "urlId": "1CU9TRYSNDir6sEdnpVbmx",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 25.87358,
+    "latitude": 156.15169,
+    "ingameLongitude": 495977.063,
+    "ingameLatitude": -124472.453,
+    "ingameHeight": 547.34,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470714,
+    "urlId": "1CU9TRYSwRQ1dJ5n4WBL4T",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 26.61129,
+    "latitude": 155.54234,
+    "ingameLongitude": 492463.75,
+    "ingameLatitude": -121570.414,
+    "ingameHeight": 969.266,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470715,
+    "urlId": "1CU9TRYTSmu2q3orpHgU6G",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 27.17352,
+    "latitude": 156.21622,
+    "ingameLongitude": 489786.125,
+    "ingameLatitude": -124779.797,
+    "ingameHeight": 506.955,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470716,
+    "urlId": "1CU9TRYUPQCPJSoG6RNmDA",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 28.397,
+    "latitude": 169.03085,
+    "ingameLongitude": 483959.281,
+    "ingameLatitude": -185809.453,
+    "ingameHeight": 307.185,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470717,
+    "urlId": "1CU9TRYV2iDRY7Vp1pr9YU",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 25.95531,
+    "latitude": 167.79774,
+    "ingameLongitude": 495587.844,
+    "ingameLatitude": -179936.781,
+    "ingameHeight": 290.214,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470718,
+    "urlId": "1CU9TRYVdPV5JVKTRXLKBu",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 25.23965,
+    "latitude": 169.97961,
+    "ingameLongitude": 498996.188,
+    "ingameLatitude": -190327.906,
+    "ingameHeight": 316.45,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470719,
+    "urlId": "1CU9TRYWJL5hfmKBMFgA4U",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 27.47369,
+    "latitude": 170.38699,
+    "ingameLongitude": 488356.531,
+    "ingameLatitude": -192268.078,
+    "ingameHeight": 652.171,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470720,
+    "urlId": "1CU9TRYWhcneW4e4FtxMBE",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 59.67579,
+    "latitude": 209.82288,
+    "ingameLongitude": 334994.031,
+    "ingameLatitude": -380081.5,
+    "ingameHeight": 12767.38,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470721,
+    "urlId": "1CU9TRYXXZJWR9MydfQB2k",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 58.5364,
+    "latitude": 208.46427,
+    "ingameLongitude": 340420.406,
+    "ingameLatitude": -373611.094,
+    "ingameHeight": 12679.385,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470722,
+    "urlId": "1CU9TRYYCXRF7ek6UyFgqx",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 60.64572,
+    "latitude": 208.13619,
+    "ingameLongitude": 330374.75,
+    "ingameLatitude": -372048.625,
+    "ingameHeight": 12734.724,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470723,
+    "urlId": "1CU9TRYYhxmL6FKMA33Hkr",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 61.4542,
+    "latitude": 207.72118,
+    "ingameLongitude": 326524.375,
+    "ingameLatitude": -370072.156,
+    "ingameHeight": 12754.037,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470724,
+    "urlId": "1CU9TRYZF7uLJ1JPRDpg18",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 86.97589,
+    "latitude": 236.25424,
+    "ingameLongitude": 204977.313,
+    "ingameLatitude": -505960.844,
+    "ingameHeight": 891.503,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470725,
+    "urlId": "1CU9TRYZyumC4NGemUwo11",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 88.56472,
+    "latitude": 237.45523,
+    "ingameLongitude": 197410.5,
+    "ingameLatitude": -511680.563,
+    "ingameHeight": 602.785,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470726,
+    "urlId": "1CU9TRYacYE6HkuxhWAjyv",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 126.04473,
+    "latitude": 204.06305,
+    "ingameLongitude": 18911.996,
+    "ingameLatitude": -352650.313,
+    "ingameHeight": 12189.145,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470727,
+    "urlId": "1CU9TRYbDFa6WiqLcgu533",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 100.52519,
+    "latitude": 201.51849,
+    "ingameLongitude": 140448.766,
+    "ingameLatitude": -340531.844,
+    "ingameHeight": 21851.6,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470728,
+    "urlId": "1CU9TRYbuf21BR4eaiRJQD",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 4,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 99.7771,
+    "latitude": 204.08961,
+    "ingameLongitude": 144011.547,
+    "ingameLatitude": -352776.813,
+    "ingameHeight": 22093.363,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470729,
+    "urlId": "1CU9TRYcU9tz3qvFCk6fVM",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 4,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 100.16219,
+    "latitude": 191.41101,
+    "ingameLongitude": 142177.547,
+    "ingameLatitude": -292394.969,
+    "ingameHeight": 20343.844,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470730,
+    "urlId": "1CU9TRYdGmkRW8HnLc39jz",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 69.79997,
+    "latitude": 170.46662,
+    "ingameLongitude": 286777.656,
+    "ingameLatitude": -192647.313,
+    "ingameHeight": 15287.549,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470731,
+    "urlId": "1CU9TRYdcYaBjSvgzUu8vQ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 69.1209,
+    "latitude": 166.24915,
+    "ingameLongitude": 290011.719,
+    "ingameLatitude": -172561.594,
+    "ingameHeight": 14512.646,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470732,
+    "urlId": "1CU9TRYeLo96GngMn3xCVF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 67.68628,
+    "latitude": 164.86227,
+    "ingameLongitude": 296844.094,
+    "ingameLatitude": -165956.578,
+    "ingameHeight": 14305.701,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470733,
+    "urlId": "1CU9TRYf4kjDiq1K6imT3q",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 69.05499,
+    "latitude": 164.82507,
+    "ingameLongitude": 290325.594,
+    "ingameLatitude": -165779.406,
+    "ingameHeight": 14731.106,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470734,
+    "urlId": "1CU9TRYfiC6df23yjtTRaT",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 70.23461,
+    "latitude": 164.65359,
+    "ingameLongitude": 284707.688,
+    "ingameLatitude": -164962.734,
+    "ingameHeight": 15215.753,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470735,
+    "urlId": "1CU9TRYgUU7V1aE2Yv5DVL",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 96.75166,
+    "latitude": 123.72666,
+    "ingameLongitude": 158420.234,
+    "ingameLatitude": 29951.756,
+    "ingameHeight": 29859.652,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470737,
+    "urlId": "1CU9TRYhiCKBxUHki855xC",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 115.84523,
+    "latitude": 115.13479,
+    "ingameLongitude": 67487.078,
+    "ingameLatitude": 70870.539,
+    "ingameHeight": 34871.352,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470738,
+    "urlId": "1CU9TRYi5eS8g1zj8j2X3k",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 115.26153,
+    "latitude": 115.24421,
+    "ingameLongitude": 70266.945,
+    "ingameLatitude": 70349.398,
+    "ingameHeight": 34890.465,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470739,
+    "urlId": "1CU9TRYiqCNdmCPxUB2BUY",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 99.25972,
+    "latitude": 95.69173,
+    "ingameLongitude": 146475.563,
+    "ingameLatitude": 163468.109,
+    "ingameHeight": 35016.852,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470740,
+    "urlId": "1CU9TRYjL8YBXjBFwsuuFX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 92.93661,
+    "latitude": 81.40697,
+    "ingameLongitude": 176589.375,
+    "ingameLatitude": 231499.25,
+    "ingameHeight": 32339.803,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470741,
+    "urlId": "1CU9TRYk7Vn6gP9udedasC",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 92.52803,
+    "latitude": 77.91338,
+    "ingameLongitude": 178535.234,
+    "ingameLatitude": 248137.5,
+    "ingameHeight": 32603.908,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470742,
+    "urlId": "1CU9TRYkmgcP8VoMBACzJv",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 198.84663,
+    "latitude": 85.6469,
+    "ingameLongitude": -327807.063,
+    "ingameLatitude": 211306.594,
+    "ingameHeight": 83286.461,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470743,
+    "urlId": "1CU9TRYmQh7qPaMmjWCq4F",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 117.79741,
+    "latitude": 49.63439,
+    "ingameLongitude": 58189.844,
+    "ingameLatitude": 382816.188,
+    "ingameHeight": 49126.309,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470744,
+    "urlId": "1CU9TRYmutmybyDPmiE95Q",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 72.76787,
+    "latitude": 24.3423,
+    "ingameLongitude": 272643,
+    "ingameLatitude": 503269.719,
+    "ingameHeight": 21697.082,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470745,
+    "urlId": "1CU9TRYnagx3R6EmCXhs7p",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 177.92545,
+    "latitude": 90.19302,
+    "ingameLongitude": -228169.969,
+    "ingameLatitude": 189655.719,
+    "ingameHeight": 76344.516,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470746,
+    "urlId": "1CU9TRYoAxCcXzmRdmMWsC",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 79.89391,
+    "latitude": 150.5465,
+    "ingameLongitude": 238705.266,
+    "ingameLatitude": -97777.719,
+    "ingameHeight": 29948.055,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470747,
+    "urlId": "1CU9TRYoauy6aJyxRzKHhZ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 45.87763,
+    "latitude": 12.63483,
+    "ingameLongitude": 400707.781,
+    "ingameLatitude": 559026.563,
+    "ingameHeight": 15248.428,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470748,
+    "urlId": "1CU9TRYpRk7ttB7dHqCqWr",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 101.3599,
+    "latitude": 189.00196,
+    "ingameLongitude": 136473.5,
+    "ingameLatitude": -280921.875,
+    "ingameHeight": 19819.215,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470749,
+    "urlId": "1CU9TRYprLBhiQ8chTMYnf",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 60.37333,
+    "latitude": 50.64782,
+    "ingameLongitude": 331672.031,
+    "ingameLatitude": 377989.719,
+    "ingameHeight": 21325.617,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470750,
+    "urlId": "1CU9TRYqW22kyk1VTxtkVN",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 53.54092,
+    "latitude": 58.91115,
+    "ingameLongitude": 364211.375,
+    "ingameLatitude": 338635.594,
+    "ingameHeight": 21624.727,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470751,
+    "urlId": "1CU9TRYrTR5NXGkdGqHXJX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 55.07348,
+    "latitude": 59.67715,
+    "ingameLongitude": 356912.563,
+    "ingameLatitude": 334987.531,
+    "ingameHeight": 21704.707,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470752,
+    "urlId": "1CU9TRYrxUkJcRu6oMHhsi",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 55.25052,
+    "latitude": 60.12465,
+    "ingameLongitude": 356069.406,
+    "ingameLatitude": 332856.313,
+    "ingameHeight": 21727.313,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470753,
+    "urlId": "1CU9TRYsUSVVb8iXy1NqbH",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 55.30882,
+    "latitude": 59.24651,
+    "ingameLongitude": 355791.75,
+    "ingameLatitude": 337038.438,
+    "ingameHeight": 21763.455,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470754,
+    "urlId": "1CU9TRYt1MHR6phQ1yeYeE",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 56.17247,
+    "latitude": 58.76656,
+    "ingameLongitude": 351678.594,
+    "ingameLatitude": 339324.219,
+    "ingameHeight": 21596.551,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470755,
+    "urlId": "1CU9TRYtu13dJLqGrtrdkN",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 59.72321,
+    "latitude": 58.68889,
+    "ingameLongitude": 334768.219,
+    "ingameLatitude": 339694.125,
+    "ingameHeight": 20906.041,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470756,
+    "urlId": "1CU9TRYuE2iwrGCXTpPPnM",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 179.42425,
+    "latitude": 137.01722,
+    "ingameLongitude": -235307.984,
+    "ingameLatitude": -33344.555,
+    "ingameHeight": 35812.711,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470757,
+    "urlId": "1CU9TRYuuzPAogcwKk35xX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 298.47832,
+    "latitude": 148.87158,
+    "ingameLongitude": -802303,
+    "ingameLatitude": -89800.922,
+    "ingameHeight": 34696.922,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470758,
+    "urlId": "1CU9TRYvdKzcieewcym99g",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 224.81102,
+    "latitude": 270.87719,
+    "ingameLongitude": -451462.5,
+    "ingameLatitude": -670852.625,
+    "ingameHeight": 342.15,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470759,
+    "urlId": "1CU9TRYwMfisguLyWWhqxa",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 221.50392,
+    "latitude": 271.33453,
+    "ingameLongitude": -435712.438,
+    "ingameLatitude": -673030.688,
+    "ingameHeight": 332.151,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470760,
+    "urlId": "1CU9TRYwhz4yQWFSaZtq9Z",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 220.45499,
+    "latitude": 273.36687,
+    "ingameLongitude": -430716.906,
+    "ingameLatitude": -682709.75,
+    "ingameHeight": 332.15,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470761,
+    "urlId": "1CU9TRYxTFKQRB2RnxwUfy",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 219.20251,
+    "latitude": 273.26845,
+    "ingameLongitude": -424751.938,
+    "ingameLatitude": -682241,
+    "ingameHeight": 332.149,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470762,
+    "urlId": "1CU9TRYy3atiAjUjZN5z7R",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 219.291,
+    "latitude": 272.06413,
+    "ingameLongitude": -425173.375,
+    "ingameLatitude": -676505.438,
+    "ingameHeight": 332.15,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470763,
+    "urlId": "1CU9TRYyupR8X2dUw9Kjw2",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 221.91131,
+    "latitude": 277.55516,
+    "ingameLongitude": -437652.594,
+    "ingameLatitude": -702656.438,
+    "ingameHeight": 325.144,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470764,
+    "urlId": "1CU9TRYze8Tjsi5KZExBdu",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 222.95532,
+    "latitude": 278.13534,
+    "ingameLongitude": -442624.688,
+    "ingameLatitude": -705419.563,
+    "ingameHeight": 331.154,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470765,
+    "urlId": "1CU9TRZ1Pt8LKQD4vgAZXY",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 222.241,
+    "latitude": 275.76687,
+    "ingameLongitude": -439222.75,
+    "ingameLatitude": -694139.75,
+    "ingameHeight": 342.149,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470766,
+    "urlId": "1CU9TRZ1gBxD8cYcv4oqMG",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 221.90661,
+    "latitude": 275.58271,
+    "ingameLongitude": -437630.219,
+    "ingameLatitude": -693262.688,
+    "ingameHeight": 325.146,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470767,
+    "urlId": "1CU9TRZ2GxArihN3w8A6JY",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 311.29671,
+    "latitude": 310.45211,
+    "ingameLongitude": -863350.563,
+    "ingameLatitude": -859328.188,
+    "ingameHeight": 1471.74,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470768,
+    "urlId": "1CU9TRZ2yJeCCgbZu5Leco",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 312.50755,
+    "latitude": 309.74537,
+    "ingameLongitude": -869117.188,
+    "ingameLatitude": -855962.313,
+    "ingameHeight": 929.18,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470769,
+    "urlId": "1CU9TRZ3j4mwssUvG6W8aA",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 312.45096,
+    "latitude": 307.79648,
+    "ingameLongitude": -868847.688,
+    "ingameLatitude": -846680.75,
+    "ingameHeight": 1416.148,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470770,
+    "urlId": "1CU9TRZ4CGQLmUvz4SaQtD",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 312.36042,
+    "latitude": 306.63436,
+    "ingameLongitude": -868416.5,
+    "ingameLatitude": -841146.125,
+    "ingameHeight": 1588.51,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470771,
+    "urlId": "1CU9TRZ56oKTDHHwtoyVio",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 313.62396,
+    "latitude": 307.68241,
+    "ingameLongitude": -874434.125,
+    "ingameLatitude": -846137.5,
+    "ingameHeight": 736.381,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470772,
+    "urlId": "1CU9TRZ5ornzYevkpjYTkS",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 313.32549,
+    "latitude": 310.01209,
+    "ingameLongitude": -873012.625,
+    "ingameLatitude": -857232.563,
+    "ingameHeight": 717.063,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470773,
+    "urlId": "1CU9TRZ6b8bEF1fpEzFcvc",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 5,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 19.87455,
+    "latitude": 245.88354,
+    "ingameLongitude": 524547.438,
+    "ingameLatitude": -551820.375,
+    "ingameHeight": 392.356,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470774,
+    "urlId": "1CU9TRZ6xWJVVCfKdPeQ1Y",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 5,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 20.71598,
+    "latitude": 244.94294,
+    "ingameLongitude": 520540.125,
+    "ingameLatitude": -547340.75,
+    "ingameHeight": 399.113,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470775,
+    "urlId": "1CU9TRZ7dng4fDodQt8cbk",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 6,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 110.49823,
+    "latitude": 163.40326,
+    "ingameLongitude": 92952.164,
+    "ingameLatitude": -159008.078,
+    "ingameHeight": 31296.168,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470776,
+    "urlId": "1CU9TRZ88Edzmmx9P4oF9A",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 15.05987,
+    "latitude": 172.29207,
+    "ingameLongitude": 547477.375,
+    "ingameLatitude": -201341.031,
+    "ingameHeight": 5203.995,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470777,
+    "urlId": "1CU9TRZ8rNAK9o74ANNbuX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 229.18281,
+    "latitude": 189.81322,
+    "ingameLongitude": -472283.156,
+    "ingameLatitude": -284785.5,
+    "ingameHeight": 14020.11,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470778,
+    "urlId": "1CU9TRZ9g8GNHqVjaUvu8a",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 232.62651,
+    "latitude": 187.27333,
+    "ingameLongitude": -488683.75,
+    "ingameLatitude": -272689.25,
+    "ingameHeight": 13081.725,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470779,
+    "urlId": "1CU9TRZA742gzBsXPJP6DY",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 21.1985,
+    "latitude": 303.38266,
+    "ingameLongitude": 518242.156,
+    "ingameLatitude": -825659.938,
+    "ingameHeight": 5923.338,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470780,
+    "urlId": "1CU9TRZAar9U5j6NTvSoZF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 4,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 72.61906,
+    "latitude": 60.85259,
+    "ingameLongitude": 273351.719,
+    "ingameLatitude": 329389.5,
+    "ingameHeight": 23257.451,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470781,
+    "urlId": "1CU9TRZBY7U3xrAjZpkbxy",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 72.90659,
+    "latitude": 59.55602,
+    "ingameLongitude": 271982.375,
+    "ingameLatitude": 335564.406,
+    "ingameHeight": 23157.1,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470782,
+    "urlId": "1CU9TRZC9evGSDGoCtRd4R",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 172.8368,
+    "latitude": 266.30623,
+    "ingameLongitude": -203935.281,
+    "ingameLatitude": -649083.438,
+    "ingameHeight": 5246.649,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470783,
+    "urlId": "1CU9TRZCj9sgjwet4S6wsg",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 142.60702,
+    "latitude": 98.40684,
+    "ingameLongitude": -59965.914,
+    "ingameLatitude": 150537.375,
+    "ingameHeight": 72667.102,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470784,
+    "urlId": "1CU9TRZDURcbsc4GqCnRsz",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 142.53901,
+    "latitude": 98.19334,
+    "ingameLongitude": -59642.031,
+    "ingameLatitude": 151554.188,
+    "ingameHeight": 72649.031,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470785,
+    "urlId": "1CU9TRZEBpF8QgG4g7MQhT",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 55.06558,
+    "latitude": 142.70425,
+    "ingameLongitude": 356950.156,
+    "ingameLatitude": -60429.031,
+    "ingameHeight": 14506.947,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470786,
+    "urlId": "1CU9TRZEj2wbBSYUiTUQ7g",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 249.19463,
+    "latitude": 283.75289,
+    "ingameLongitude": -567589.438,
+    "ingameLatitude": -732173.125,
+    "ingameHeight": 15802.615,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470787,
+    "urlId": "1CU9TRZFV7Hv36TNtZAdCF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 276.62634,
+    "latitude": 296.76656,
+    "ingameLongitude": -698232.938,
+    "ingameLatitude": -794150.75,
+    "ingameHeight": 11301.465,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470788,
+    "urlId": "1CU9TRZFujG5mBExQg2RKK",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 76.51919,
+    "latitude": 224.9025,
+    "ingameLongitude": 254777.359,
+    "ingameLatitude": -451898.156,
+    "ingameHeight": 8060.227,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470789,
+    "urlId": "1CU9TRZGmYq8ptxXGAkWip",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 5,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 313.6308,
+    "latitude": 18.52433,
+    "ingameLongitude": -874466.688,
+    "ingameLatitude": 530977.813,
+    "ingameHeight": 60846.707,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470790,
+    "urlId": "1CU9TRZHHCCasHyj9UeJrA",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 310.93045,
+    "latitude": 16.04812,
+    "ingameLongitude": -861606.25,
+    "ingameLatitude": 542770.75,
+    "ingameHeight": 61706.84,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470791,
+    "urlId": "1CU9TRZHqnZ2MqmyDdDvJU",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 310.87115,
+    "latitude": 15.07868,
+    "ingameLongitude": -861323.875,
+    "ingameLatitude": 547387.75,
+    "ingameHeight": 61706.695,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470792,
+    "urlId": "1CU9TRZJefMyTcFko2VJyr",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 310.33491,
+    "latitude": 15.0755,
+    "ingameLongitude": -858770,
+    "ingameLatitude": 547402.875,
+    "ingameHeight": 61706.902,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470793,
+    "urlId": "1CU9TRZK9kNs23ASw7ReJ4",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 165.42725,
+    "latitude": 269.52454,
+    "ingameLongitude": -168647.281,
+    "ingameLatitude": -664410.625,
+    "ingameHeight": 2445.419,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470794,
+    "urlId": "1CU9TRZKvDf5bN3MJ85ucV",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 163.96408,
+    "latitude": 270.17644,
+    "ingameLongitude": -161678.938,
+    "ingameLatitude": -667515.313,
+    "ingameHeight": 939.706,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470795,
+    "urlId": "1CU9TRZLcrH3hS4twcYdSb",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 163.18389,
+    "latitude": 270.97689,
+    "ingameLongitude": -157963.297,
+    "ingameLatitude": -671327.438,
+    "ingameHeight": 789.445,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470796,
+    "urlId": "1CU9TRZM45Ch6z5Ci89mY4",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 163.73083,
+    "latitude": 271.72985,
+    "ingameLongitude": -160568.094,
+    "ingameLatitude": -674913.438,
+    "ingameHeight": 780.074,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470797,
+    "urlId": "1CU9TRZMpv6YWAhCPH7z8M",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 164.4983,
+    "latitude": 272.15126,
+    "ingameLongitude": -164223.172,
+    "ingameLatitude": -676920.375,
+    "ingameHeight": 751.016,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470798,
+    "urlId": "1CU9TRZNR9qygme78R9Rje",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 161.88748,
+    "latitude": 271.67846,
+    "ingameLongitude": -151789.109,
+    "ingameLatitude": -674668.688,
+    "ingameHeight": 508.573,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470799,
+    "urlId": "1CU9TRZNstHotRDcVpPTi7",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 166.96275,
+    "latitude": 275.72824,
+    "ingameLongitude": -175960.078,
+    "ingameLatitude": -693955.75,
+    "ingameHeight": 1547.796,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470800,
+    "urlId": "1CU9TRZPg8o98VqmcWTq1R",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 166.61325,
+    "latitude": 277.41542,
+    "ingameLongitude": -174295.594,
+    "ingameLatitude": -701990.938,
+    "ingameHeight": 1548.739,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470801,
+    "urlId": "1CU9TRZQ9WQnMztmLpNucX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 166.4189,
+    "latitude": 276.77845,
+    "ingameLongitude": -173370,
+    "ingameLatitude": -698957.375,
+    "ingameHeight": 1032.122,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470802,
+    "urlId": "1CU9TRZQmyWtWwGkwKTeYX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 157.06646,
+    "latitude": 213.52657,
+    "ingameLongitude": -128829.008,
+    "ingameLatitude": -397720.313,
+    "ingameHeight": 8248.497,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470803,
+    "urlId": "1CU9TRZRG3wK2NuVdzuLdo",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 23.20564,
+    "latitude": 184.41487,
+    "ingameLongitude": 508683.156,
+    "ingameLatitude": -259075.859,
+    "ingameHeight": 2314.757,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470804,
+    "urlId": "1CU9TRZRzWNqWpnUqPWQeG",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 33.39139,
+    "latitude": 301.83879,
+    "ingameLongitude": 460173.5,
+    "ingameLatitude": -818307.25,
+    "ingameHeight": 663.339,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470805,
+    "urlId": "1CU9TRZSX9uJmnRYvrvGpw",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 35.08948,
+    "latitude": 301.20941,
+    "ingameLongitude": 452086.375,
+    "ingameLatitude": -815309.813,
+    "ingameHeight": 436.99,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470806,
+    "urlId": "1CU9TRZTKZRbe387pt599T",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 35.51108,
+    "latitude": 301.72136,
+    "ingameLongitude": 450078.469,
+    "ingameLatitude": -817748,
+    "ingameHeight": 442.004,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470807,
+    "urlId": "1CU9TRZU6hAam46t8aENXs",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 39.1507,
+    "latitude": 303.56475,
+    "ingameLongitude": 432744.813,
+    "ingameLatitude": -826527.125,
+    "ingameHeight": 722.539,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470808,
+    "urlId": "1CU9TRZUZVbkyZ4JZePJFJ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 39.7161,
+    "latitude": 303.81432,
+    "ingameLongitude": 430052.094,
+    "ingameLatitude": -827715.688,
+    "ingameHeight": 714.279,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470809,
+    "urlId": "1CU9TRZUwkru8xddZA2yB7",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 42.63386,
+    "latitude": 304.21929,
+    "ingameLongitude": 416156.25,
+    "ingameLatitude": -829644.375,
+    "ingameHeight": 546.721,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470810,
+    "urlId": "1CU9TRZVqXiQTnnDnybNdk",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 42.69815,
+    "latitude": 304.54013,
+    "ingameLongitude": 415850.063,
+    "ingameLatitude": -831172.375,
+    "ingameHeight": 543.028,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470811,
+    "urlId": "1CU9TRZWRJXeZ6yKzuxd8m",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 40.67177,
+    "latitude": 305.31672,
+    "ingameLongitude": 425500.688,
+    "ingameLatitude": -834870.875,
+    "ingameHeight": 2169.442,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470812,
+    "urlId": "1CU9TRZWwWjLTEsh8UWCJL",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 38.49172,
+    "latitude": 306.72804,
+    "ingameLongitude": 435883.188,
+    "ingameLatitude": -841592.313,
+    "ingameHeight": 3630.733,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470813,
+    "urlId": "1CU9TRZXofBTnPEd88hXQ7",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 39.32946,
+    "latitude": 307.67285,
+    "ingameLongitude": 431893.469,
+    "ingameLatitude": -846091.938,
+    "ingameHeight": 3623.883,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470814,
+    "urlId": "1CU9TRZYZBfVdMRJeiF8EW",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 40.67837,
+    "latitude": 305.33066,
+    "ingameLongitude": 425469.25,
+    "ingameLatitude": -834937.25,
+    "ingameHeight": 2169.478,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470815,
+    "urlId": "1CU9TRZZ5RQEXu8rdSSp9y",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 201.65742,
+    "latitude": 289.50298,
+    "ingameLongitude": -341193.469,
+    "ingameLatitude": -759557.938,
+    "ingameHeight": 7940.153,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470816,
+    "urlId": "1CU9TRZZq928Y6dP37ESBa",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 198.24657,
+    "latitude": 288.88354,
+    "ingameLongitude": -324949.313,
+    "ingameLatitude": -756607.875,
+    "ingameHeight": 8361.518,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470817,
+    "urlId": "1CU9TRZaGTmDdjhhSLk8pU",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 21.2537,
+    "latitude": 7.7777,
+    "ingameLongitude": 517979.25,
+    "ingameLatitude": 582158.625,
+    "ingameHeight": 18951.328,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470818,
+    "urlId": "1CU9TRZb4iquH3qYJ9wnGF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 27.64772,
+    "latitude": 11.43084,
+    "ingameLongitude": 487527.719,
+    "ingameLatitude": 564760.563,
+    "ingameHeight": 8151.215,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470819,
+    "urlId": "1CU9TRZbUtd7a5LtjQ1xJf",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 6,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 143.61614,
+    "latitude": 98.98425,
+    "ingameLongitude": -64771.883,
+    "ingameLatitude": 147787.469,
+    "ingameHeight": 72240.859,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470820,
+    "urlId": "1CU9TRZcMpNX1sv2KKm7qx",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 291.07932,
+    "latitude": 189.91315,
+    "ingameLongitude": -767065.25,
+    "ingameLatitude": -285261.406,
+    "ingameHeight": 16766.156,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470821,
+    "urlId": "1CU9TRZd3vAGxPsnedS9uM",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 291.40423,
+    "latitude": 190.29549,
+    "ingameLongitude": -768612.625,
+    "ingameLatitude": -287082.313,
+    "ingameHeight": 16766.156,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470822,
+    "urlId": "1CU9TRZdWohFPgEduYZsvt",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 292.49045,
+    "latitude": 191.00695,
+    "ingameLongitude": -773785.75,
+    "ingameLatitude": -290470.625,
+    "ingameHeight": 16747.299,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470823,
+    "urlId": "1CU9TRZdscjwFLCcrN18ET",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 295.54232,
+    "latitude": 188.04886,
+    "ingameLongitude": -788320.313,
+    "ingameLatitude": -276382.719,
+    "ingameHeight": 16735.061,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470824,
+    "urlId": "1CU9TRZeRC8B31MuvvpGG6",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 85.70854,
+    "latitude": 271.86613,
+    "ingameLongitude": 211013.063,
+    "ingameLatitude": -675562.438,
+    "ingameHeight": 2379.319,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470825,
+    "urlId": "1CU9TRZfH3TuxtaRisezEZ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 86.91859,
+    "latitude": 271.46208,
+    "ingameLongitude": 205250.234,
+    "ingameLatitude": -673638.188,
+    "ingameHeight": 3095.468,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470826,
+    "urlId": "1CU9TRZg3ALSJRANQYV6E3",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 89.40563,
+    "latitude": 273.14648,
+    "ingameLongitude": 193405.688,
+    "ingameLatitude": -681660.125,
+    "ingameHeight": 2384.417,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470827,
+    "urlId": "1CU9TRZgNRENcBPzJbTQmU",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 92.61353,
+    "latitude": 274.33194,
+    "ingameLongitude": 178128.078,
+    "ingameLatitude": -687305.875,
+    "ingameHeight": 1413.879,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470828,
+    "urlId": "1CU9TRZgzopXroWLHkpW9B",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 100.1589,
+    "latitude": 281.06026,
+    "ingameLongitude": 142193.234,
+    "ingameLatitude": -719349.5,
+    "ingameHeight": 2450.141,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470829,
+    "urlId": "1CU9TRZhkB6CwFVWqPyNom",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 100.30245,
+    "latitude": 282.02691,
+    "ingameLongitude": 141509.578,
+    "ingameLatitude": -723953.188,
+    "ingameHeight": 1525.615,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470830,
+    "urlId": "1CU9TRZiYKAHjfXTHJXoqR",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 5,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 214.13641,
+    "latitude": 131.39106,
+    "ingameLongitude": -400624.656,
+    "ingameLatitude": -6549.962,
+    "ingameHeight": 35022.227,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470831,
+    "urlId": "1CU9TRZj471srVbRLgviMH",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 311.07718,
+    "latitude": 168.44923,
+    "ingameLongitude": -862305.063,
+    "ingameLatitude": -183039.484,
+    "ingameHeight": 20399.439,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470832,
+    "urlId": "1CU9TRZjTubZVXjAo6dRYK",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 313.30613,
+    "latitude": 172.66286,
+    "ingameLongitude": -872920.438,
+    "ingameLatitude": -203106.922,
+    "ingameHeight": 20293.174,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470833,
+    "urlId": "1CU9TRZkC625ujJjzjBEyo",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 289.89542,
+    "latitude": 272.02727,
+    "ingameLongitude": -761426.938,
+    "ingameLatitude": -676329.875,
+    "ingameHeight": 10757.979,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470834,
+    "urlId": "1CU9TRZkZy7pBTpBZhhCUQ",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 207.95181,
+    "latitude": 290.81121,
+    "ingameLongitude": -371170.5,
+    "ingameLatitude": -765788.375,
+    "ingameHeight": 7938.031,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470835,
+    "urlId": "1CU9TRZmSEE8imi3PSXDMH",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 259.91869,
+    "latitude": 152.45323,
+    "ingameLongitude": -618662.75,
+    "ingameLatitude": -106858.547,
+    "ingameHeight": 26519.162,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470836,
+    "urlId": "1CU9TRZms9sA34dAqwyu8w",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 260.61778,
+    "latitude": 156.97199,
+    "ingameLongitude": -621992.188,
+    "ingameLatitude": -128379.125,
+    "ingameHeight": 29114.488,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470837,
+    "urlId": "1CU9TRZnPmGKZYTvkJ7PiK",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 261.13126,
+    "latitude": 161.61173,
+    "ingameLongitude": -624437.625,
+    "ingameLatitude": -150475.891,
+    "ingameHeight": 30202.488,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470838,
+    "urlId": "1CU9TRZo4mNDnA6iC7zfBX",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 259.4135,
+    "latitude": 164.89142,
+    "ingameLongitude": -616256.813,
+    "ingameLatitude": -166095.438,
+    "ingameHeight": 24149.488,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470839,
+    "urlId": "1CU9TRZogT48TkxeBLWCRT",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 259.22791,
+    "latitude": 164.29266,
+    "ingameLongitude": -615372.938,
+    "ingameLatitude": -163243.813,
+    "ingameHeight": 24172.15,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470840,
+    "urlId": "1CU9TRZpA17VujuL8aXPec",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 264.13171,
+    "latitude": 164.48256,
+    "ingameLongitude": -638727.25,
+    "ingameLatitude": -164148.219,
+    "ingameHeight": 27962.547,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470841,
+    "urlId": "1CU9TRZpeDJDbsLEea3B2e",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 15.66652,
+    "latitude": 112.36513,
+    "ingameLongitude": 544588.188,
+    "ingameLatitude": 84061.016,
+    "ingameHeight": 282.692,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470842,
+    "urlId": "1CU9TRZqSq8bguQvuHrf3Y",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 14.81411,
+    "latitude": 114.602,
+    "ingameLongitude": 548647.812,
+    "ingameLatitude": 73407.914,
+    "ingameHeight": 283.103,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470843,
+    "urlId": "1CU9TRZqvV7QmSS1fG5KFf",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 171.50404,
+    "latitude": 103.35226,
+    "ingameLongitude": -197588,
+    "ingameLatitude": 126984.836,
+    "ingameHeight": 88672.344,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470844,
+    "urlId": "1CU9TRZra3h8qKhz7n6HV8",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 52.4082,
+    "latitude": 218.69028,
+    "ingameLongitude": 369605.938,
+    "ingameLatitude": -422312.5,
+    "ingameHeight": 5991.425,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470845,
+    "urlId": "1CU9TRZsC5anLd8EQ47qzU",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 313.19824,
+    "latitude": 4.34337,
+    "ingameLongitude": -872406.625,
+    "ingameLatitude": 598514.625,
+    "ingameHeight": 63516.918,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470846,
+    "urlId": "1CU9TRZsfxtHp7AzmVbzqF",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 166.8007,
+    "latitude": 274.36034,
+    "ingameLongitude": -175188.328,
+    "ingameLatitude": -687441.125,
+    "ingameHeight": 1172.945,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470847,
+    "urlId": "1CU9TRZt8Ut2fpTDmjpghR",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 166.8007,
+    "latitude": 274.36034,
+    "ingameLongitude": -175188.328,
+    "ingameLatitude": -687441.125,
+    "ingameHeight": 1172.945,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470848,
+    "urlId": "1CU9TRZtjZaqz7pCMAXpn6",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 278.60892,
+    "latitude": 84.05579,
+    "ingameLongitude": -707675,
+    "ingameLatitude": 218884.25,
+    "ingameHeight": 44516.805,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470849,
+    "urlId": "1CU9TRZuNRx6MQK6V41iEs",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 277.47247,
+    "latitude": 84.1757,
+    "ingameLongitude": -702262.625,
+    "ingameLatitude": 218313.203,
+    "ingameHeight": 44136.316,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470850,
+    "urlId": "1CU9TRZuuNyARq2WM9wT8d",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 277.745,
+    "latitude": 84.16313,
+    "ingameLongitude": -703560.562,
+    "ingameLatitude": 218373.047,
+    "ingameHeight": 44111.941,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470851,
+    "urlId": "1CU9TRZvRNJQD9dbPwA375",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 28.60948,
+    "latitude": 5.05227,
+    "ingameLongitude": 482947.375,
+    "ingameLatitude": 595138.5,
+    "ingameHeight": 8086.232,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470852,
+    "urlId": "1CU9TRZwCS32HTS8fcE479",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 221.11715,
+    "latitude": 272.45182,
+    "ingameLongitude": -433870.406,
+    "ingameLatitude": -678351.812,
+    "ingameHeight": 332.151,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470853,
+    "urlId": "1CU9TRZwgQG1rAjhS62cXk",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 3,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 221.11715,
+    "latitude": 272.45182,
+    "ingameLongitude": -433870.406,
+    "ingameLatitude": -678351.812,
+    "ingameHeight": 332.151,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470854,
+    "urlId": "1CU9TRZwzgHYe6oRPuV9e3",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": 2,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 308.82329,
+    "latitude": 59.59889,
+    "ingameLongitude": -851570.938,
+    "ingameLatitude": 335360.219,
+    "ingameHeight": 57774.836,
+    "category": {
+      "id": 6
+    }
+  },
+  {
+    "id": 470855,
+    "urlId": "1CU9TRZxmhZphbdQDQwQhB",
+    "title": "Drill press / Lathe",
+    "icon": "faTools",
+    "number": null,
+    "colorBackground": "#187286",
+    "colorIcon": "#dddddd",
+    "longitude": 61.29396,
+    "latitude": 53.51576,
+    "ingameLongitude": 327287.5,
+    "ingameLatitude": 364331.125,
+    "ingameHeight": 21064.025,
+    "category": {
+      "id": 6
+    }
+  }
+]

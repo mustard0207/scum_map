@@ -1,0 +1,70 @@
+[
+  {
+    "id": 448297,
+    "urlId": "1CQe2PUBYB4gi4Dh8qiv8M",
+    "title": "Hunting Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#62a4e0",
+    "longitude": 70.39322,
+    "latitude": 50.32698,
+    "ingameLongitude": 283952.281,
+    "ingameLatitude": 379517.656,
+    "ingameHeight": 22069.486,
+    "category": {
+      "id": 776
+    }
+  },
+  {
+    "id": 448298,
+    "urlId": "1CQe2PUBrjZAVPDs6JnLus",
+    "title": "Hunting Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#62a4e0",
+    "longitude": 155.00597,
+    "latitude": 57.34968,
+    "ingameLongitude": -119015.938,
+    "ingameLatitude": 346072,
+    "ingameHeight": 75152.469,
+    "category": {
+      "id": 776
+    }
+  },
+  {
+    "id": 448299,
+    "urlId": "1CQe2PUBrjZAVPDs6JnLut",
+    "title": "Hunting Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#62a4e0",
+    "longitude": 66.24961,
+    "latitude": 59.15476,
+    "ingameLongitude": 303686.219,
+    "ingameLatitude": 337475.312,
+    "ingameHeight": 21865.176,
+    "category": {
+      "id": 776
+    }
+  },
+  {
+    "id": 448300,
+    "urlId": "1CQe2PUBrjZAVPDs6JnLuu",
+    "title": "Hunting Shops",
+    "icon": "faCrosshairs",
+    "number": null,
+    "colorBackground": "#146c37",
+    "colorIcon": "#62a4e0",
+    "longitude": 226.69094,
+    "latitude": 154.18968,
+    "ingameLongitude": -460415.594,
+    "ingameLatitude": -115128.586,
+    "ingameHeight": 30699.496,
+    "category": {
+      "id": 776
+    }
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "id": 439067,
+    "urlId": "1CQE2ctGXy1JUauh83v4tH",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 12,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 59.64345,
+    "latitude": 231.7845,
+    "ingameLongitude": 335148.07,
+    "ingameLatitude": -484674.02,
+    "ingameHeight": 7057.44,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439068,
+    "urlId": "1CQE2ctGXy1JUauh83v4tJ",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 9,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 184.46312,
+    "latitude": 229.94266,
+    "ingameLongitude": -259305.63,
+    "ingameLatitude": -475902.26,
+    "ingameHeight": 3834.26,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439069,
+    "urlId": "1CQE2ctGXy1JUauh83v4tK",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 8,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 135.7863,
+    "latitude": 230.40587,
+    "ingameLongitude": -27482.23,
+    "ingameLatitude": -478108.27,
+    "ingameHeight": 308.36,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439070,
+    "urlId": "1CQE2ctGXy1JUauh83v4tL",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 10,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 105.65561,
+    "latitude": 226.69184,
+    "ingameLongitude": 116015.16,
+    "ingameLatitude": -460420.21,
+    "ingameHeight": 11022.77,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439071,
+    "urlId": "1CQE2ctGXy1JUauh83v4tM",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 8,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 54.26989,
+    "latitude": 220.11055,
+    "ingameLongitude": 360739.63,
+    "ingameLatitude": -429076.81,
+    "ingameHeight": 5699.68,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439072,
+    "urlId": "1CQE2ctGXy1JUauh83v4tN",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 7,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 177.21729,
+    "latitude": 215.85594,
+    "ingameLongitude": -224797.34,
+    "ingameLatitude": -408814.24,
+    "ingameHeight": 1364.83,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439073,
+    "urlId": "1CQE2ctGXy1JUauh83v4tP",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 9,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 232.35017,
+    "latitude": 214.45668,
+    "ingameLongitude": -487367.69,
+    "ingameLatitude": -402150.26,
+    "ingameHeight": 819.5,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439074,
+    "urlId": "1CQE2ctGXy1JUauh83v4tQ",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 10,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 213.37566,
+    "latitude": 212.45357,
+    "ingameLongitude": -397001.57,
+    "ingameLatitude": -392610.42,
+    "ingameHeight": 8687.53,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439075,
+    "urlId": "1CQE2ctGXy1JUauh83v4tR",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 14,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 185.34206,
+    "latitude": 206.56647,
+    "ingameLongitude": -263491.54,
+    "ingameLatitude": -364573.11,
+    "ingameHeight": 6183.06,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439076,
+    "urlId": "1CQE2ctGXy1JUauh83v4tS",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 20,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 221.81044,
+    "latitude": 205.8767,
+    "ingameLongitude": -437172.21,
+    "ingameLatitude": -361288.07,
+    "ingameHeight": 11543.54,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439077,
+    "urlId": "1CQE2ctGXy1JUauh83v4tT",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 18,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 221.23102,
+    "latitude": 205.09837,
+    "ingameLongitude": -434412.73,
+    "ingameLatitude": -357581.3,
+    "ingameHeight": 11509.58,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439078,
+    "urlId": "1CQE2ctGXy1JUauh83v4tU",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 9,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 177.86475,
+    "latitude": 203.61347,
+    "ingameLongitude": -227880.85,
+    "ingameLatitude": -350509.47,
+    "ingameHeight": 2040.7,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439079,
+    "urlId": "1CQE2ctGXy1JUauh83v4tV",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 6,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 29.13368,
+    "latitude": 200.77142,
+    "ingameLongitude": 480450.85,
+    "ingameLatitude": -336974.18,
+    "ingameHeight": 4425.39,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439080,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKL",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 6,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 226.15516,
+    "latitude": 194.2388,
+    "ingameLongitude": -457863.96,
+    "ingameLatitude": -305862.56,
+    "ingameHeight": 13869.71,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439081,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKM",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 8,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 24.81369,
+    "latitude": 185.74572,
+    "ingameLongitude": 501024.81,
+    "ingameLatitude": -265414.27,
+    "ingameHeight": 1840.38,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439082,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKN",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 7,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 133.88647,
+    "latitude": 185.45756,
+    "ingameLongitude": -18434.33,
+    "ingameLatitude": -264041.93,
+    "ingameHeight": 19681.66,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439083,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKP",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 8,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 33.59884,
+    "latitude": 181.7389,
+    "ingameLongitude": 459185.53,
+    "ingameLatitude": -246331.79,
+    "ingameHeight": 7416.99,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439084,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKQ",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 5,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 41.50537,
+    "latitude": 172.06729,
+    "ingameLongitude": 421530.66,
+    "ingameLatitude": -200270.75,
+    "ingameHeight": 5664.44,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439085,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKR",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 6,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 24.24814,
+    "latitude": 131.27829,
+    "ingameLongitude": 503718.22,
+    "ingameLatitude": -6013.09,
+    "ingameHeight": 9771.16,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439086,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKS",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 7,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 43.01275,
+    "latitude": 129.16448,
+    "ingameLongitude": 414351.77,
+    "ingameLatitude": 4053.96,
+    "ingameHeight": 11888.46,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439087,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKT",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 7,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 20.24672,
+    "latitude": 124.46621,
+    "ingameLongitude": 522775.01,
+    "ingameLatitude": 26429.48,
+    "ingameHeight": 9543.7,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439088,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKU",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 7,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 13.37769,
+    "latitude": 38.82882,
+    "ingameLongitude": 555488.77,
+    "ingameLatitude": 434277.64,
+    "ingameHeight": 6297.36,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439089,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKV",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 6,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 111.38505,
+    "latitude": 28.68704,
+    "ingameLongitude": 88728.71,
+    "ingameLatitude": 482577.89,
+    "ingameHeight": 30923.71,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439090,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKW",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 5,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 13.53021,
+    "latitude": 16.61474,
+    "ingameLongitude": 554762.38,
+    "ingameLatitude": 540072.2,
+    "ingameHeight": 17837.13,
+    "category": {
+      "id": 54
+    }
+  },
+  {
+    "id": 439091,
+    "urlId": "1CQE2ctGbuFNqe7ZzyxHKX",
+    "title": "Watermelons",
+    "icon": "faPalette",
+    "number": 11,
+    "colorBackground": "#12080f",
+    "colorIcon": "#ad3831",
+    "longitude": 17.18013,
+    "latitude": 15.06365,
+    "ingameLongitude": 537379.61,
+    "ingameLatitude": 547459.29,
+    "ingameHeight": 14233.4,
+    "category": {
+      "id": 54
+    }
+  }
+]

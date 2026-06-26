@@ -1,0 +1,138 @@
+[
+  {
+    "id": 475463,
+    "urlId": "1CV7t5uAu1LzqqKtEt66rt",
+    "title": "Bunkers",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 313.06946,
+    "latitude": 4.66172,
+    "ingameLongitude": -871793.312,
+    "ingameLatitude": 596998.5,
+    "ingameHeight": 62987.523,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475464,
+    "urlId": "1CV7t5uJQ7ZcVksizD1Nza",
+    "title": "Bunkers",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 100.12442,
+    "latitude": 15.10335,
+    "ingameLongitude": 142357.469,
+    "ingameLatitude": 547270.25,
+    "ingameHeight": 24667.322,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475465,
+    "urlId": "1CV7t5uKSXaVAsdEMhEfG3",
+    "title": "C1 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 212.64507,
+    "latitude": 84.44412,
+    "ingameLongitude": -393522.125,
+    "ingameLatitude": 217034.812,
+    "ingameHeight": 59273.961,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475466,
+    "urlId": "1CV7t5uKejF4KsuQVsVP5Y",
+    "title": "Bunkers",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 36.98327,
+    "latitude": 132.87321,
+    "ingameLongitude": 443067.156,
+    "ingameLatitude": -13608.685,
+    "ingameHeight": 11926.664,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475467,
+    "urlId": "1CV7t5uLpgd1DkkGzWvrws",
+    "title": "Bunkers",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 138.56309,
+    "latitude": 198.27507,
+    "ingameLongitude": -40706.711,
+    "ingameLatitude": -325085.031,
+    "ingameHeight": 16222.469,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475468,
+    "urlId": "1CV7t5uMJKnUp3mvyHA5k2",
+    "title": "Bunkers",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 277.19651,
+    "latitude": 296.4026,
+    "ingameLongitude": -700948.375,
+    "ingameLatitude": -792417.375,
+    "ingameHeight": 10660.246,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475469,
+    "urlId": "1CV7t5uMsc636cGTn65TFJ",
+    "title": "Z2 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 172.44136,
+    "latitude": 265.60014,
+    "ingameLongitude": -202051.969,
+    "ingameLatitude": -645720.688,
+    "ingameHeight": 5469.082,
+    "category": {
+      "id": 1
+    }
+  },
+  {
+    "id": 475470,
+    "urlId": "1CV7t5uNJYfLLzgPgnQPgp",
+    "title": "B0 Bunker",
+    "icon": "faSkull",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 299.70164,
+    "latitude": 148.85475,
+    "ingameLongitude": -808129.062,
+    "ingameLatitude": -89720.773,
+    "ingameHeight": 35386.102,
+    "category": {
+      "id": 1
+    }
+  }
+]

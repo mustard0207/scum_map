@@ -1,0 +1,240 @@
+[
+  {
+    "id": 367167,
+    "urlId": "1CBbRVCLr19YaRjhQZ9fxW",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 192.20434,
+    "latitude": 282.97843,
+    "ingameLongitude": -295911.281,
+    "ingameLatitude": -728554.5,
+    "ingameHeight": 8067.58,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367168,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG38",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 192.25355,
+    "latitude": 284.0333,
+    "ingameLongitude": -296145.25,
+    "ingameLatitude": -733572.25,
+    "ingameHeight": 8067.552,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367169,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG39",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 189.19365,
+    "latitude": 283.3608,
+    "ingameLongitude": -281597.344,
+    "ingameLatitude": -730373.312,
+    "ingameHeight": 8067.551,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367170,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3A",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 189.9181,
+    "latitude": 284.00906,
+    "ingameLongitude": -285041.656,
+    "ingameLatitude": -733456.938,
+    "ingameHeight": 8053.765,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367171,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3B",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 186.60249,
+    "latitude": 286.58701,
+    "ingameLongitude": -269278,
+    "ingameLatitude": -745719.562,
+    "ingameHeight": 8065.776,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367172,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3C",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 25,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 201.74544,
+    "latitude": 204.24147,
+    "ingameLongitude": -341273.219,
+    "ingameLatitude": -354023.344,
+    "ingameHeight": 200.298,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367173,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3D",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 21,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 200.99425,
+    "latitude": 206.31972,
+    "ingameLongitude": -337701.812,
+    "ingameLatitude": -363909.031,
+    "ingameHeight": 200.138,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367174,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3E",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 201.61527,
+    "latitude": 207.52619,
+    "ingameLongitude": -340654.344,
+    "ingameLatitude": -369647.875,
+    "ingameHeight": 210.593,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367175,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3F",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 10,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 201.58901,
+    "latitude": 205.15728,
+    "ingameLongitude": -340529.5,
+    "ingameLatitude": -358379.594,
+    "ingameHeight": 209.656,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367176,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3G",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 11,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 202.92919,
+    "latitude": 205.93129,
+    "ingameLongitude": -346901.219,
+    "ingameLatitude": -362061.375,
+    "ingameHeight": 683.731,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367177,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3H",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 10,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 202.51871,
+    "latitude": 207.13658,
+    "ingameLongitude": -344949.656,
+    "ingameLatitude": -367794.625,
+    "ingameHeight": 745.037,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367178,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3J",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 3,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 72.20063,
+    "latitude": 59.11667,
+    "ingameLongitude": 274631.219,
+    "ingameLatitude": 336297.438,
+    "ingameHeight": 23166.211,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367179,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3K",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": null,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 280.57476,
+    "latitude": 98.86414,
+    "ingameLongitude": -716057.312,
+    "ingameLatitude": 147229.094,
+    "ingameHeight": 39632.23,
+    "category": {
+      "id": 643
+    }
+  },
+  {
+    "id": 367180,
+    "urlId": "1CBbRVCM1kaJ4eMjc5QG3L",
+    "title": "Sardines",
+    "icon": "faFish",
+    "number": 4,
+    "colorBackground": "#9acfd2",
+    "colorIcon": "#ffffff",
+    "longitude": 21.427,
+    "latitude": 9.32559,
+    "ingameLongitude": 516028.031,
+    "ingameLatitude": 573140.625,
+    "ingameHeight": 7290.384,
+    "category": {
+      "id": 643
+    }
+  }
+]

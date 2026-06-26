@@ -1,0 +1,189 @@
+[
+  {
+    "id": 448224,
+    "urlId": "1CQe2P7RejJRR1XG4juGet",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 313.92689,
+    "latitude": 3.08345,
+    "ingameLongitude": -875876.81,
+    "ingameLatitude": 604515,
+    "ingameHeight": 63944.37,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448225,
+    "urlId": "1CQe2P7RejJRR1XG4juGeu",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 298.78866,
+    "latitude": 148.08897,
+    "ingameLongitude": -803781,
+    "ingameLatitude": -86073.95,
+    "ingameHeight": 36192.73,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448226,
+    "urlId": "1CQe2P7RejJRR1XG4juGev",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 31.10279,
+    "latitude": 250.36796,
+    "ingameLongitude": 471072.94,
+    "ingameLatitude": -573177.75,
+    "ingameHeight": 3955.87,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448227,
+    "urlId": "1CQe2P7RejJRR1XG4juGew",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 31.10282,
+    "latitude": 248.94771,
+    "ingameLongitude": 471072.81,
+    "ingameLatitude": -566413.81,
+    "ingameHeight": 5155.72,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448228,
+    "urlId": "1CQe2P7RejJRR1XG4juGex",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 32.33795,
+    "latitude": 248.94772,
+    "ingameLongitude": 465190.5,
+    "ingameLatitude": -566413.88,
+    "ingameHeight": 4555.85,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448229,
+    "urlId": "1CQe2P7RejJRR1XG4juGey",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 32.33797,
+    "latitude": 250.36796,
+    "ingameLongitude": 465190.44,
+    "ingameLatitude": -573177.75,
+    "ingameHeight": 3955.92,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448230,
+    "urlId": "1CQe2P7RejJRR1XG4juGez",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 172.0782,
+    "latitude": 264.55024,
+    "ingameLongitude": -200322.45,
+    "ingameLatitude": -640720.88,
+    "ingameHeight": 5971.61,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448231,
+    "urlId": "1CQe2P7RejJRR1XG4juGf1",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 275.37747,
+    "latitude": 296.6788,
+    "ingameLongitude": -692285.19,
+    "ingameLatitude": -793733.19,
+    "ingameHeight": 11837.88,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448232,
+    "urlId": "1CQe2P7RejJRR1XG4juGf2",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 35.29277,
+    "latitude": 132.79238,
+    "ingameLongitude": 451118.16,
+    "ingameLatitude": -13223.94,
+    "ingameHeight": 12948.96,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448233,
+    "urlId": "1CQe2P7RejJRR1XG4juGf3",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 140.48638,
+    "latitude": 197.72461,
+    "ingameLongitude": -49866.38,
+    "ingameLatitude": -322463.75,
+    "ingameHeight": 17620.04,
+    "category": {
+      "id": 774
+    }
+  },
+  {
+    "id": 448234,
+    "urlId": "1CQe2P7RejJRR1XG4juGf4",
+    "title": "Bunker Hatch Doors",
+    "icon": "faDoorClosed",
+    "number": null,
+    "colorBackground": "#ff0000",
+    "colorIcon": "#ffffff",
+    "longitude": 100.93402,
+    "latitude": 16.80875,
+    "ingameLongitude": 138501.75,
+    "ingameLatitude": 539148.25,
+    "ingameHeight": 25987.41,
+    "category": {
+      "id": 774
+    }
+  }
+]

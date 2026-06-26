@@ -1,0 +1,342 @@
+[
+  {
+    "id": 439479,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHG",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 75.29196,
+    "latitude": 22.58959,
+    "ingameLongitude": 260622.031,
+    "ingameLatitude": 511616.969,
+    "ingameHeight": 21663.744,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439480,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHH",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 97.64655,
+    "latitude": 123.43244,
+    "ingameLongitude": 154158.312,
+    "ingameLatitude": 31352.781,
+    "ingameHeight": 30033.262,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439481,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHJ",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 235.61517,
+    "latitude": 90.84653,
+    "ingameLongitude": -502917.25,
+    "ingameLatitude": 186543.219,
+    "ingameHeight": 37961.973,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439482,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHK",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 86.81834,
+    "latitude": 237.77848,
+    "ingameLongitude": 205727.641,
+    "ingameLatitude": -513220.375,
+    "ingameHeight": 1025.149,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439483,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHL",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 96.89133,
+    "latitude": 278.72211,
+    "ingameLongitude": 157755.047,
+    "ingameLatitude": -708214.438,
+    "ingameHeight": 1056.812,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439484,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHM",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 44.13583,
+    "latitude": 304.97821,
+    "ingameLongitude": 409003.125,
+    "ingameLatitude": -833259.125,
+    "ingameHeight": 1236.707,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439485,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHN",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 164.96588,
+    "latitude": 269.27017,
+    "ingameLongitude": -166450,
+    "ingameLatitude": -663199.562,
+    "ingameHeight": 2720.01,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439486,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHP",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 84.79207,
+    "latitude": 271.98579,
+    "ingameLongitude": 215377.781,
+    "ingameLatitude": -676132.688,
+    "ingameHeight": 2465.24,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439487,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHQ",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 161.61904,
+    "latitude": 272.59913,
+    "ingameLongitude": -150510.688,
+    "ingameLatitude": -679053.75,
+    "ingameHeight": 779.096,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439488,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHR",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 162.56685,
+    "latitude": 276.08328,
+    "ingameLongitude": -155024.609,
+    "ingameLatitude": -695647,
+    "ingameHeight": 510.73,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439489,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHS",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 25.93145,
+    "latitude": 168.94377,
+    "ingameLongitude": 495701.469,
+    "ingameLatitude": -185394.969,
+    "ingameHeight": 452.216,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439490,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHT",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 139.70646,
+    "latitude": 226.98315,
+    "ingameLongitude": -46151.996,
+    "ingameLatitude": -461807.594,
+    "ingameHeight": 480.164,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439491,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHU",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 136.80876,
+    "latitude": 230.48842,
+    "ingameLongitude": -32351.727,
+    "ingameLatitude": -478501.438,
+    "ingameHeight": 469.547,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439492,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHV",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 166.14824,
+    "latitude": 277.39396,
+    "ingameLongitude": -172081.016,
+    "ingameLatitude": -701889.125,
+    "ingameHeight": 1490.429,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439493,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHW",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 9.00715,
+    "latitude": 60.57945,
+    "ingameLongitude": 576303.438,
+    "ingameLatitude": 330690.219,
+    "ingameHeight": 785.057,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439494,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHX",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 14.43375,
+    "latitude": 111.19691,
+    "ingameLongitude": 550459.25,
+    "ingameLatitude": 89624.5,
+    "ingameHeight": 430,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439495,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHY",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 313.70903,
+    "latitude": 308.1509,
+    "ingameLongitude": -874839.25,
+    "ingameLatitude": -848369.062,
+    "ingameHeight": 1213,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439496,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHZ",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 162.01591,
+    "latitude": 270.18148,
+    "ingameLongitude": -152400.766,
+    "ingameLatitude": -667539.688,
+    "ingameHeight": 849.99,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439497,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHa",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 15.88181,
+    "latitude": 113.90998,
+    "ingameLongitude": 543562.875,
+    "ingameLatitude": 76703.547,
+    "ingameHeight": 406.012,
+    "category": {
+      "id": 762
+    }
+  },
+  {
+    "id": 439498,
+    "urlId": "1CQE2dHqTk2KbDVBiFRtHb",
+    "title": "Restaurants",
+    "icon": "faBowlFood",
+    "number": null,
+    "colorBackground": "#d9e7b1",
+    "colorIcon": "#9b9b9b",
+    "longitude": 101.28134,
+    "latitude": 283.50089,
+    "ingameLongitude": 136847.609,
+    "ingameLatitude": -730973.375,
+    "ingameHeight": 1384.34,
+    "category": {
+      "id": 762
+    }
+  }
+]

@@ -1,5 +1,63 @@
 const app = getApp()
 
+// POI 分类配置（直接使用 category-map.js）
+const catMap = require('../../data/category-map.js')
+
+// 按 section 分组，生成 WXML 可遍历的数组格式
+const SECTION_CN = {
+  'Bunkers': '地堡', 'Buildings': '建筑', 'Crops': '农作物',
+  'Vehicles': '载具', 'Construction materials': '建筑材料',
+  'Water sources': '水源', 'Points of interest': '兴趣点',
+  'Quests': '任务', 'Radiation': '辐射', 'Loot containers': '战利品容器',
+  'Outposts': '前哨站', '无分组': '未分类'
+}
+const SECTION_EMOJI = {
+  'Bunkers': '💀', 'Buildings': '🏢', 'Crops': '🌾',
+  'Vehicles': '🚗', 'Construction materials': '🧱',
+  'Water sources': '💧', 'Points of interest': '📍',
+  'Quests': '📋', 'Radiation': '☢️', 'Loot containers': '📦',
+  'Outposts': '🏕️', '无分组': '📌'
+}
+
+// 构建 poiCategories 数组（供 WXML 遍历）
+const poiCategories = []
+const sectionMap = {}  // sectionName → { subs: { catId: {emoji, cnName} } }
+for (const [catId, cat] of Object.entries(catMap)) {
+  const section = cat.section
+  if (!sectionMap[section]) {
+    sectionMap[section] = { name: section, cnName: SECTION_CN[section] || section, emoji: SECTION_EMOJI[section] || '📌', subs: {} }
+    poiCategories.push(sectionMap[section])
+  }
+  sectionMap[section].subs[catId] = { emoji: cat.emoji, cnName: cat.cnName }
+}
+
+// 构建 catId → emoji / cnName / section 查找表
+const CAT_EMOJI = {}
+const CAT_CN = {}
+const CAT_SECTION = {}
+for (const [catId, cat] of Object.entries(catMap)) {
+  CAT_EMOJI[catId] = cat.emoji
+  CAT_CN[catId] = cat.cnName
+  CAT_SECTION[catId] = cat.section
+}
+
+// 精选大类（简化版筛选菜单中的可展开 section）
+const QUICK_SECTIONS = ['Bunkers', 'Vehicles', 'Radiation']
+// 精选直选小类
+const QUICK_SUBS = ['10', '33', '8']  // 警局、药店、加油站
+
+// 渲染限流常量
+const MAX_POI_RENDER = 1000       // 单次渲染硬上限
+const POI_PER_CELL = 10           // 全局视角下每区每小类最多点数
+const SCALE_THRESHOLD = 6         // 放大到此倍数时显示全部可见 POI
+
+// 游戏坐标范围（与 tile-map 组件一致）
+const GEO_LNG_LEFT = 619200
+const GEO_LNG_RIGHT = -904800
+const GEO_LAT_TOP = 619199.938
+const GEO_LAT_BOTTOM = -904800
+const FULL_MAP = 1280
+
 Page({
   data: {
     statusBarHeight: 0,
@@ -20,12 +78,38 @@ Page({
     showImportDialog: false,
     importInputValue: '',
     // 备份抽屉
-    showDataDrawer: false
+    showDataDrawer: false,
+    // POI 筛选
+    poiCategories: poiCategories,   // 分类配置（按 section 分组）
+    activePoiCats: ['80'],          // 当前激活的小类 ID（默认前哨站）
+    poiCatCounts: {},               // 每个小类的点位数 { catId: number }
+    poiGroupCounts: {},             // 每个大类的小类数 { sectionName: number }
+    quickSections: QUICK_SECTIONS,  // 精选 section 名
+    quickSubs: QUICK_SUBS.map(id => ({ id, emoji: CAT_EMOJI[id], cnName: CAT_CN[id] })),
+    quickCategories: poiCategories.filter(c => QUICK_SECTIONS.includes(c.name)),
+    activePoiMap: { '80': true },   // 活跃分类查找表 { catId: true }
+    showFilterPanel: false,         // 筛选面板开关
+    filterFullMode: false,          // 完整版筛选模式
+    expandedGroups: {},             // 展开的大类 { 'Outposts': true }
+    poiCatName: '',                 // 当前选中 POI 的小类名
   },
 
   onLoad(options) {
     const sysInfo = wx.getWindowInfo()
     if (sysInfo) this.setData({ statusBarHeight: sysInfo.statusBarHeight })
+
+    // 预计算每个大类的小类数量
+    const poiGroupCounts = {}
+    poiCategories.forEach(section => {
+      poiGroupCounts[section.name] = Object.keys(section.subs).length
+    })
+    this.setData({ poiGroupCounts })
+
+    // 预加载默认前哨站数据（catId=80 → Points of interest section）
+    this._getSectionData('Points of interest')
+
+    // 加载默认 POI（前哨站）
+    this._refreshPoiMarkers()
 
     setTimeout(() => {
       const query = wx.createSelectorQuery()
@@ -89,7 +173,8 @@ Page({
 
   onUnload() {
     clearInterval(this._coordTimer)
-    this.setData({ showImportDialog: false, showDataDrawer: false })
+    if (this._poiRefreshTimer) clearTimeout(this._poiRefreshTimer)
+    this.setData({ showImportDialog: false, showDataDrawer: false, showFilterPanel: false })
   },
 
   /** DEBUG: 检测点击位置 */
@@ -304,11 +389,16 @@ Page({
     const marker = e.detail.marker
     if (marker) {
       const idx = this.data.markers.findIndex(m => m.id === marker.id)
-      this.setData({
+      const setData = {
         selectedMarker: marker,
         selectedMarkerIndex: idx,
         showInfoWindow: true
-      })
+      }
+      // POI 标记显示小类名
+      if (marker.src === 'poi' && marker.cat) {
+        setData.poiCatName = this._getPoiCatName(marker.cat)
+      }
+      this.setData(setData)
     }
   },
 
@@ -595,9 +685,127 @@ Page({
     setTimeout(() => this.exportMarkers(), 200)
   },
 
-  /** 筛选按钮（二期实现） */
+  /** 筛选按钮 */
   onFilterTap() {
-    wx.showToast({ title: '筛选功能即将开放', icon: 'none' })
+    this.setData({ showFilterPanel: true, filterFullMode: false })
+  },
+
+  /** 切换完整/精简模式 */
+  toggleFilterMode() {
+    this.setData({ filterFullMode: !this.data.filterFullMode })
+  },
+
+  /** 关闭筛选面板 */
+  closeFilterPanel() {
+    this.setData({ showFilterPanel: false })
+  },
+
+  /** 展开/折叠大类 */
+  toggleGroup(e) {
+    const group = e.currentTarget.dataset.group
+    const expanded = { ...this.data.expandedGroups }
+    expanded[group] = !expanded[group]
+    this.setData({ expandedGroups: expanded })
+  },
+
+  /** 清除所有筛选 */
+  resetPoiFilter() {
+    this.setData({ activePoiCats: [], activePoiMap: {} })
+    this._refreshPoiMarkers()
+  },
+
+  /** 切换小类开关 */
+  togglePoiSub(e) {
+    const catId = e.currentTarget.dataset.catid  // 字符串
+    let active = [...this.data.activePoiCats]
+    const idx = active.indexOf(catId)
+
+    if (idx >= 0) {
+      active.splice(idx, 1)
+    } else {
+      if (active.length >= 5) {
+        wx.showToast({ title: '最多同时开启5个小类', icon: 'none' })
+        return
+      }
+      active.push(catId)
+    }
+
+    const activePoiMap = {}
+    active.forEach(id => { activePoiMap[id] = true })
+    this.setData({ activePoiCats: active, activePoiMap })
+    this._refreshPoiMarkers()
+  },
+
+  /** 刷新 POI 标记（含限流） */
+  _refreshPoiMarkers() {
+    const { activePoiCats } = this.data
+    const mapComp = this.selectComponent('#tileMap')
+    const scale = mapComp ? mapComp.getScale() : 1
+
+    // 收集所有激活分类的点位（从 section 缓存中按 catId 筛选）
+    let allPoi = []
+    activePoiCats.forEach(catId => {
+      const section = CAT_SECTION[catId]
+      if (section) {
+        const sectionPoints = this._getSectionData(section)
+        allPoi = allPoi.concat(sectionPoints.filter(p => String(p.cat) === catId))
+      }
+    })
+
+    // 限流
+    if (scale < SCALE_THRESHOLD && allPoi.length > 0) {
+      const GRID_SIZE = 5
+      const CELL = 1280 / GRID_SIZE
+      const grouped = {}
+
+      allPoi.forEach(p => {
+        const px = (p.lng - GEO_LNG_LEFT) / (GEO_LNG_RIGHT - GEO_LNG_LEFT) * FULL_MAP
+        const py = (p.lat - GEO_LAT_TOP) / (GEO_LAT_BOTTOM - GEO_LAT_TOP) * FULL_MAP
+        const col = Math.min(GRID_SIZE - 1, Math.max(0, Math.floor(px / CELL)))
+        const row = Math.min(GRID_SIZE - 1, Math.max(0, Math.floor(py / CELL)))
+        const cellKey = `${row}_${col}_${p.cat}`
+        if (!grouped[cellKey]) grouped[cellKey] = []
+        if (grouped[cellKey].length < POI_PER_CELL) grouped[cellKey].push(p)
+      })
+      allPoi = Object.values(grouped).flat()
+    }
+
+    if (allPoi.length > MAX_POI_RENDER) allPoi = allPoi.slice(0, MAX_POI_RENDER)
+
+    const poiMarkers = allPoi.map(p => ({
+      id: 'poi_' + p.id,
+      lng: p.lng,
+      lat: p.lat,
+      name: CAT_CN[p.cat] || '',
+      src: 'poi',
+      cat: String(p.cat),
+      emoji: CAT_EMOJI[p.cat] || '📍'
+    }))
+
+    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    this.setData({ markers: [...userMarkers, ...poiMarkers] })
+  },
+
+  /** 按需加载 section 数据（带缓存） */
+  _getSectionData(section) {
+    if (!this._sectionCache) this._sectionCache = {}
+    if (!this._sectionCache[section]) {
+      this._sectionCache[section] = require('../../data/poi/poi-' + section + '.js')
+      // 计算该 section 中每个 catId 的点位数
+      const counts = {}
+      this._sectionCache[section].forEach(p => {
+        counts[p.cat] = (counts[p.cat] || 0) + 1
+      })
+      // 合并到 poiCatCounts
+      const allCounts = { ...this.data.poiCatCounts, ...counts }
+      this.setData({ poiCatCounts: allCounts })
+    }
+    return this._sectionCache[section]
+  },
+
+  /** 查找小类中文名 */
+  _getPoiCatName(catId) {
+    return CAT_CN[catId] || '未知'
   },
 
   /** 显示导入弹窗 */
@@ -689,6 +897,16 @@ Page({
   /** 返回 */
   goBack() {
     wx.navigateBack()
+  },
+
+  /** 手势结束后刷新 POI 限流（防抖 300ms） */
+  onGestureEnd() {
+    if (this._poiRefreshTimer) clearTimeout(this._poiRefreshTimer)
+    this._poiRefreshTimer = setTimeout(() => {
+      if (this.data.activePoiCats.length > 0) {
+        this._refreshPoiMarkers()
+      }
+    }, 300)
   },
 
   /** 微信分享 */

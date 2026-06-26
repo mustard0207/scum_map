@@ -1,0 +1,631 @@
+[
+  {
+    "id": 448866,
+    "urlId": "1CQe2Qe93HybjCRrwNeG7J",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 6.92394,
+    "latitude": 12.0613,
+    "ingameLongitude": 586224.75,
+    "ingameLatitude": 561758,
+    "ingameHeight": 177.902,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448867,
+    "urlId": "1CQe2Qe93HybjCRrwNeG7K",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 2.12236,
+    "latitude": 62.62698,
+    "ingameLongitude": 609092.25,
+    "ingameLatitude": 320938.875,
+    "ingameHeight": -822.508,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448868,
+    "urlId": "1CQe2Qe93HybjCRrwNeG7L",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 4.45487,
+    "latitude": 111.65859,
+    "ingameLongitude": 597983.688,
+    "ingameLatitude": 87425.758,
+    "ingameHeight": -573.512,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448869,
+    "urlId": "1CQe2Qe93HybjCRrwNeG7M",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 4.20336,
+    "latitude": 120.97428,
+    "ingameLongitude": 599181.5,
+    "ingameLatitude": 43059.773,
+    "ingameHeight": -383.602,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448870,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr2",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 5.79143,
+    "latitude": 158.72445,
+    "ingameLongitude": 591618.313,
+    "ingameLatitude": -136725.422,
+    "ingameHeight": -396.703,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448871,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr3",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 2.98106,
+    "latitude": 183.56599,
+    "ingameLongitude": 605002.688,
+    "ingameLatitude": -255033.328,
+    "ingameHeight": -934.719,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448872,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr4",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 9.0831,
+    "latitude": 195.3157,
+    "ingameLongitude": 575941.75,
+    "ingameLatitude": -310991.313,
+    "ingameHeight": -684.764,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448873,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr5",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 17.21462,
+    "latitude": 226.76082,
+    "ingameLongitude": 537215.375,
+    "ingameLatitude": -460748.75,
+    "ingameHeight": -707.978,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448874,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr6",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 30.17133,
+    "latitude": 222.98682,
+    "ingameLongitude": 475509.063,
+    "ingameLatitude": -442775.031,
+    "ingameHeight": 218.156,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448875,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr7",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 54.91359,
+    "latitude": 249.64481,
+    "ingameLongitude": 357674.031,
+    "ingameLatitude": -569733.75,
+    "ingameHeight": -50.198,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448876,
+    "urlId": "1CQe2Qe9WPdKPBdYgURLr8",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 80.90757,
+    "latitude": 252.32537,
+    "ingameLongitude": 233877.688,
+    "ingameLatitude": -582499.938,
+    "ingameHeight": -24.043,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448877,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKn",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 107.73562,
+    "latitude": 246.25972,
+    "ingameLongitude": 106109.109,
+    "ingameLatitude": -553612.25,
+    "ingameHeight": 94.761,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448878,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKo",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 76.74913,
+    "latitude": 277.45161,
+    "ingameLongitude": 253682.281,
+    "ingameLatitude": -702163.688,
+    "ingameHeight": -62.589,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448879,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKp",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 10.45059,
+    "latitude": 291.9417,
+    "ingameLongitude": 569429.063,
+    "ingameLatitude": -771172.75,
+    "ingameHeight": 422.08,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448880,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKq",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 36.30777,
+    "latitude": 314.21017,
+    "ingameLongitude": 446284.25,
+    "ingameLatitude": -877226.375,
+    "ingameHeight": -419.383,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448881,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKr",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 68.87837,
+    "latitude": 299.04972,
+    "ingameLongitude": 291166.781,
+    "ingameLatitude": -805024.688,
+    "ingameHeight": 49.662,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448882,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKs",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 125.2154,
+    "latitude": 314.69886,
+    "ingameLongitude": 22861.645,
+    "ingameLatitude": -879553.75,
+    "ingameHeight": 2.341,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448883,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKt",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 133.46921,
+    "latitude": 315.72135,
+    "ingameLongitude": -16447.121,
+    "ingameLatitude": -884423.375,
+    "ingameHeight": -268.926,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448884,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKu",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 170.83698,
+    "latitude": 218.23459,
+    "ingameLongitude": -194411.125,
+    "ingameLatitude": -420142.563,
+    "ingameHeight": -1168.257,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448885,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKv",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 203.63843,
+    "latitude": 202.49873,
+    "ingameLongitude": -350628,
+    "ingameLatitude": -345200.5,
+    "ingameHeight": -663.638,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448886,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKw",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 198.38681,
+    "latitude": 237.03369,
+    "ingameLongitude": -325617.188,
+    "ingameLatitude": -509673.281,
+    "ingameHeight": -1016.435,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448887,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKx",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 216.45812,
+    "latitude": 244.2395,
+    "ingameLongitude": -411681.775,
+    "ingameLatitude": -543990.967,
+    "ingameHeight": 0,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448888,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKy",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 237.20016,
+    "latitude": 246.88769,
+    "ingameLongitude": -510465.772,
+    "ingameLatitude": -556602.966,
+    "ingameHeight": 0,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448889,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtKz",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 244.67581,
+    "latitude": 268.02715,
+    "ingameLongitude": -546068.563,
+    "ingameLatitude": -657279.688,
+    "ingameHeight": -372.062,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448890,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL1",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 282.54375,
+    "latitude": 258.99064,
+    "ingameLongitude": -726414.625,
+    "ingameLatitude": -614243.313,
+    "ingameHeight": -440.15,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448891,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL2",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 283.09352,
+    "latitude": 312.63315,
+    "ingameLongitude": -729032.875,
+    "ingameLatitude": -869715.813,
+    "ingameHeight": -36.008,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448892,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL3",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 316.80832,
+    "latitude": 226.44832,
+    "ingameLongitude": -889599.625,
+    "ingameLatitude": -459260.438,
+    "ingameHeight": 140.129,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448893,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL4",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 290.17521,
+    "latitude": 27.9149,
+    "ingameLongitude": -762759.438,
+    "ingameLatitude": 486255.188,
+    "ingameHeight": 61360.234,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448894,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL5",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 299.6314,
+    "latitude": 69.52444,
+    "ingameLongitude": -807794.563,
+    "ingameLatitude": 288089.688,
+    "ingameHeight": 49727.125,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448895,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL6",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 296.57685,
+    "latitude": 47.32671,
+    "ingameLongitude": -793247.25,
+    "ingameLatitude": 393806.406,
+    "ingameHeight": 54132.328,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448896,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL7",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 278.27018,
+    "latitude": 2.97455,
+    "ingameLongitude": -706061.75,
+    "ingameLatitude": 605033.625,
+    "ingameHeight": 58939.129,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448897,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL8",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 245.98996,
+    "latitude": 229.77227,
+    "ingameLongitude": -552327.188,
+    "ingameLatitude": -475090.75,
+    "ingameHeight": -24.722,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448898,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtL9",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 168.05339,
+    "latitude": 70.7291,
+    "ingameLongitude": -181154.281,
+    "ingameLatitude": 282352.5,
+    "ingameHeight": 68747.758,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448899,
+    "urlId": "1CQe2Qe9Wxq3GXfVNRQtLA",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 214.6507,
+    "latitude": 315.2949,
+    "ingameLongitude": -403073.938,
+    "ingameLatitude": -882392.375,
+    "ingameHeight": -231.337,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448900,
+    "urlId": "1CQe2Qe9nuSDLE7pXqHt1z",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 283.69922,
+    "latitude": 259.43743,
+    "ingameLongitude": -731917.529,
+    "ingameLatitude": -616371.106,
+    "ingameHeight": 0,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448901,
+    "urlId": "1CQe2Qe9nuSDLE7pXqHt21",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 198.43867,
+    "latitude": 237.0764,
+    "ingameLongitude": -325864.156,
+    "ingameLatitude": -509876.688,
+    "ingameHeight": -421.555,
+    "category": {
+      "id": 279
+    }
+  },
+  {
+    "id": 448902,
+    "urlId": "1CQe2QepA9tQFoyudNATot",
+    "title": "Underwater Caves",
+    "icon": "faWater",
+    "number": null,
+    "colorBackground": "#2175a4",
+    "colorIcon": "#ffffff",
+    "longitude": 78.26158,
+    "latitude": 115.20575,
+    "ingameLongitude": 246479.203,
+    "ingameLatitude": 70532.406,
+    "ingameHeight": 25719.207,
+    "category": {
+      "id": 279
+    }
+  }
+]

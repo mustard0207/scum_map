@@ -1,0 +1,648 @@
+[
+  {
+    "id": 448131,
+    "urlId": "1CQe2NuLB2zArMFPZS4PZ5",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 63.71009,
+    "latitude": 53.76617,
+    "ingameLongitude": 315780.69,
+    "ingameLatitude": 363138.47,
+    "ingameHeight": 21205.15,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448132,
+    "urlId": "1CQe2NuLheEdkV4QJdMud6",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 35.07623,
+    "latitude": 300.57686,
+    "ingameLongitude": 452149.47,
+    "ingameLatitude": -812297.69,
+    "ingameHeight": 443.98,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448133,
+    "urlId": "1CQe2NuLheEdkV4QJdMud7",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 35.07672,
+    "latitude": 300.57557,
+    "ingameLongitude": 452147.12,
+    "ingameLatitude": -812291.56,
+    "ingameHeight": 443.98,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448134,
+    "urlId": "1CQe2NuLheEdkV4QJdMud8",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 67.27549,
+    "latitude": 62.18357,
+    "ingameLongitude": 298800.5,
+    "ingameLatitude": 323050.59,
+    "ingameHeight": 22325.81,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448135,
+    "urlId": "1CQe2NuLheEdkV4QJdMud9",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 311.97957,
+    "latitude": 21.25893,
+    "ingameLongitude": -866602.69,
+    "ingameLatitude": 517954.28,
+    "ingameHeight": 60234.04,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448136,
+    "urlId": "1CQe2NuLheEdkV4QJdMudA",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 15.02858,
+    "latitude": 111.50032,
+    "ingameLongitude": 547626.38,
+    "ingameLatitude": 88179.55,
+    "ingameHeight": 180.07,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448137,
+    "urlId": "1CQe2NuLheEdkV4QJdMudB",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 261.03668,
+    "latitude": 156.50874,
+    "ingameLongitude": -623987.19,
+    "ingameLatitude": -126173.13,
+    "ingameHeight": 28973.71,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448138,
+    "urlId": "1CQe2NuLheEdkV4QJdMudC",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 138.35865,
+    "latitude": 232.97847,
+    "ingameLongitude": -39733.05,
+    "ingameLatitude": -490360.28,
+    "ingameHeight": 191,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448139,
+    "urlId": "1CQe2NuLheEdkV4QJdMudD",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 203.35013,
+    "latitude": 204.37273,
+    "ingameLongitude": -349255,
+    "ingameLatitude": -354125.41,
+    "ingameHeight": 777.46,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448140,
+    "urlId": "1CQe2NuM18nhh796SNVC9V",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 161.61098,
+    "latitude": 69.0952,
+    "ingameLongitude": -150472.28,
+    "ingameLatitude": 290133.97,
+    "ingameHeight": 69703.73,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448141,
+    "urlId": "1CQe2NuM18nhh796SNVC9W",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 9.26954,
+    "latitude": 177.72667,
+    "ingameLongitude": 575053.81,
+    "ingameLatitude": -227223.55,
+    "ingameHeight": 367.89,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448142,
+    "urlId": "1CQe2NuM18nhh796SNVC9X",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 260.9908,
+    "latitude": 247.44115,
+    "ingameLongitude": -623768.69,
+    "ingameLatitude": -559238.81,
+    "ingameHeight": 2565.52,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448143,
+    "urlId": "1CQe2NuM18nhh796SNVC9Y",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 125.66313,
+    "latitude": 272.11258,
+    "ingameLongitude": 20729.32,
+    "ingameLatitude": -676736.56,
+    "ingameHeight": 353.02,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448144,
+    "urlId": "1CQe2NuM18nhh796SNVC9Z",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 308.94518,
+    "latitude": 97.16905,
+    "ingameLongitude": -852151.44,
+    "ingameLatitude": 156432.22,
+    "ingameHeight": 42825.63,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448145,
+    "urlId": "1CQe2NuM18nhh796SNVC9a",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 51.54881,
+    "latitude": 50.42375,
+    "ingameLongitude": 373698.81,
+    "ingameLatitude": 379056.78,
+    "ingameHeight": 20260.59,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448146,
+    "urlId": "1CQe2NuM18nhh796SNVC9b",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 73.51799,
+    "latitude": 23.36356,
+    "ingameLongitude": 269070.59,
+    "ingameLatitude": 507930.94,
+    "ingameHeight": 21575.58,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448147,
+    "urlId": "1CQe2NuM18nhh796SNVC9c",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 154.2755,
+    "latitude": 59.31126,
+    "ingameLongitude": -115537.07,
+    "ingameLatitude": 336730,
+    "ingameHeight": 74866.55,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448148,
+    "urlId": "1CQe2NuM18nhh796SNVC9d",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 242.14126,
+    "latitude": 29.4511,
+    "ingameLongitude": -533997.75,
+    "ingameLatitude": 478939.06,
+    "ingameHeight": 80246.17,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448149,
+    "urlId": "1CQe2NuM18nhh796SNVC9e",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 195.56799,
+    "latitude": 10.38703,
+    "ingameLongitude": -312192.53,
+    "ingameLatitude": 569731.69,
+    "ingameHeight": 77414.84,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448150,
+    "urlId": "1CQe2NuM18nhh796SNVC9f",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 95.3756,
+    "latitude": 122.68764,
+    "ingameLongitude": 164973.69,
+    "ingameLatitude": 34899.93,
+    "ingameHeight": 29764.95,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448151,
+    "urlId": "1CQe2NuM18nhh796SNVC9g",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 92.25612,
+    "latitude": 81.44266,
+    "ingameLongitude": 179830.23,
+    "ingameLatitude": 231329.16,
+    "ingameHeight": 31853.52,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448152,
+    "urlId": "1CQe2NuM18nhh796SNVC9h",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 169.64627,
+    "latitude": 114.32435,
+    "ingameLongitude": -188740.34,
+    "ingameLatitude": 74730.08,
+    "ingameHeight": 67223.09,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448153,
+    "urlId": "1CQe2NuM18nhh796SNVC9i",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 235.92117,
+    "latitude": 90.7056,
+    "ingameLongitude": -504374.59,
+    "ingameLatitude": 187214.39,
+    "ingameHeight": 37710.95,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448154,
+    "urlId": "1CQe2NuM18nhh796SNVC9j",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 280.80102,
+    "latitude": 94.72866,
+    "ingameLongitude": -718114.88,
+    "ingameLatitude": 168054.58,
+    "ingameHeight": 41169.39,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448155,
+    "urlId": "1CQe2NuM18nhh796SNVC9k",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 26.07955,
+    "latitude": 167.46013,
+    "ingameLongitude": 494996.16,
+    "ingameLatitude": -178329.14,
+    "ingameHeight": 202.75,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448156,
+    "urlId": "1CQe2NuM18nhh796SNVC9m",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 68.75395,
+    "latitude": 167.67877,
+    "ingameLongitude": 291759.31,
+    "ingameLatitude": -179370.42,
+    "ingameHeight": 14278.34,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448157,
+    "urlId": "1CQe2NuM18nhh796SNVC9n",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 184.95625,
+    "latitude": 140.58344,
+    "ingameLongitude": -261654.12,
+    "ingameLatitude": -50328.87,
+    "ingameHeight": 35760.88,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448158,
+    "urlId": "1CQe2NuM18nhh796SNVC9o",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 227.27235,
+    "latitude": 155.20879,
+    "ingameLongitude": -463184.59,
+    "ingameLatitude": -119982.13,
+    "ingameHeight": 30639.46,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448159,
+    "urlId": "1CQe2NuM18nhh796SNVC9p",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 291.62692,
+    "latitude": 188.80433,
+    "ingameLongitude": -769673.19,
+    "ingameLatitude": -279980.91,
+    "ingameHeight": 16642.71,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448160,
+    "urlId": "1CQe2NuM18nhh796SNVC9q",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 59.60537,
+    "latitude": 207.38433,
+    "ingameLongitude": 335329.44,
+    "ingameLatitude": -368468.19,
+    "ingameHeight": 12693.13,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448161,
+    "urlId": "1CQe2NuM18nhh796SNVC9r",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 28.21473,
+    "latitude": 244.74007,
+    "ingameLongitude": 484827.34,
+    "ingameLatitude": -546374.94,
+    "ingameHeight": 5274.15,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448162,
+    "urlId": "1CQe2NuM18nhh796SNVC9s",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 233.45937,
+    "latitude": 219.06538,
+    "ingameLongitude": -492650.25,
+    "ingameLatitude": -424099.19,
+    "ingameHeight": 526.57,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448163,
+    "urlId": "1CQe2NuM18nhh796SNVC9t",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 9.66741,
+    "latitude": 60.11077,
+    "ingameLongitude": 573158.94,
+    "ingameLatitude": 332922.31,
+    "ingameHeight": 460.25,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448164,
+    "urlId": "1CQe2NuM18nhh796SNVC9u",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 93.072,
+    "latitude": 275.44747,
+    "ingameLongitude": 175944.59,
+    "ingameLatitude": -692618.94,
+    "ingameHeight": 939.31,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448165,
+    "urlId": "1CQe2NuM18nhh796SNVC9v",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 224.60329,
+    "latitude": 269.33512,
+    "ingameLongitude": -450473.19,
+    "ingameLatitude": -663508.88,
+    "ingameHeight": 329.81,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448166,
+    "urlId": "1CQe2NuM18nhh796SNVC9w",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 164.86901,
+    "latitude": 274.65807,
+    "ingameLongitude": -165988.67,
+    "ingameLatitude": -688859.44,
+    "ingameHeight": 1050.84,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448167,
+    "urlId": "1CQe2NuM18nhh796SNVC9x",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 311.12695,
+    "latitude": 310.59908,
+    "ingameLongitude": -862542.12,
+    "ingameLatitude": -860028.56,
+    "ingameHeight": 1351.84,
+    "category": {
+      "id": 210
+    }
+  },
+  {
+    "id": 448168,
+    "urlId": "1CQe2NuM18nhh796SNVC9y",
+    "title": "ATM",
+    "icon": "faMoneyBillWave",
+    "number": null,
+    "colorBackground": "#e6e9ca",
+    "colorIcon": "#6b845a",
+    "longitude": 175.57677,
+    "latitude": 215.04201,
+    "ingameLongitude": -216984.36,
+    "ingameLatitude": -404937.91,
+    "ingameHeight": 873.09,
+    "category": {
+      "id": 210
+    }
+  }
+]

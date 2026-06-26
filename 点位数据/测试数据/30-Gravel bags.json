@@ -1,0 +1,427 @@
+[
+  {
+    "id": 448250,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3v6",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 51.7596,
+    "latitude": 49.14588,
+    "ingameLongitude": 372694.91,
+    "ingameLatitude": 385142.61,
+    "ingameHeight": 20234.05,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448251,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3v7",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 55.62555,
+    "latitude": 61.82571,
+    "ingameLongitude": 354283.34,
+    "ingameLatitude": 324754.91,
+    "ingameHeight": 20986.68,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448252,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3v8",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 75.00152,
+    "latitude": 48.63124,
+    "ingameLongitude": 262005.27,
+    "ingameLatitude": 387593.61,
+    "ingameHeight": 23765,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448253,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3v9",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 70.62375,
+    "latitude": 43.73523,
+    "ingameLongitude": 282854.38,
+    "ingameLatitude": 410910.84,
+    "ingameHeight": 21973.39,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448254,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vA",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 12,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 100.62292,
+    "latitude": 187.9835,
+    "ingameLongitude": 139983.34,
+    "ingameLatitude": -276071.68,
+    "ingameHeight": 19632.09,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448255,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vB",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 22,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 102.70649,
+    "latitude": 189.59159,
+    "ingameLongitude": 130060.36,
+    "ingameLatitude": -283730.23,
+    "ingameHeight": 19717.98,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448256,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vC",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 35,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 100.24983,
+    "latitude": 191.90489,
+    "ingameLongitude": 141760.19,
+    "ingameLatitude": -294747.34,
+    "ingameHeight": 20171.25,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448257,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vD",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 43,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 102.02272,
+    "latitude": 191.05859,
+    "ingameLongitude": 133316.79,
+    "ingameLatitude": -290716.84,
+    "ingameHeight": 19794.76,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448258,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vE",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 17,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 99.42645,
+    "latitude": 203.16394,
+    "ingameLongitude": 145681.55,
+    "ingameLatitude": -348368.58,
+    "ingameHeight": 21624.06,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448259,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vF",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 30,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 100.46137,
+    "latitude": 200.34491,
+    "ingameLongitude": 140752.72,
+    "ingameLatitude": -334942.94,
+    "ingameHeight": 21945.11,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448260,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vG",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 13,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 101.48509,
+    "latitude": 200.00921,
+    "ingameLongitude": 135877.27,
+    "ingameLatitude": -333344.18,
+    "ingameHeight": 21976.47,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448261,
+    "urlId": "1CQe2PGgLZkaLAr2Dpt3vH",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 12,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 36.30628,
+    "latitude": 304.48514,
+    "ingameLongitude": 446291.32,
+    "ingameLatitude": -830910.9,
+    "ingameHeight": 2387.67,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448262,
+    "urlId": "1CQe2PGgUkvomaTd97oufe",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 137.64072,
+    "latitude": 287.86715,
+    "ingameLongitude": -36313.92,
+    "ingameLatitude": -751767.69,
+    "ingameHeight": 113.41,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448263,
+    "urlId": "1CQe2PGgUkvomaTd97ouff",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 184.8863,
+    "latitude": 124.67814,
+    "ingameLongitude": -261321,
+    "ingameLatitude": 25420.17,
+    "ingameHeight": 38614.01,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448264,
+    "urlId": "1CQe2PGgUkvomaTd97oufg",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 137.44026,
+    "latitude": 231.6237,
+    "ingameLongitude": -35359.26,
+    "ingameLatitude": -483908.21,
+    "ingameHeight": 296.31,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448265,
+    "urlId": "1CQe2PGgUkvomaTd97oufh",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 42.48902,
+    "latitude": 304.55454,
+    "ingameLongitude": 416846.05,
+    "ingameLatitude": -831241.41,
+    "ingameHeight": 440,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448266,
+    "urlId": "1CQe2PGgUkvomaTd97oufi",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 17.543,
+    "latitude": 273.46306,
+    "ingameLongitude": 535651.47,
+    "ingameLatitude": -683168.22,
+    "ingameHeight": 2280.91,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448267,
+    "urlId": "1CQe2PGgUkvomaTd97oufj",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 233.97394,
+    "latitude": 161.61227,
+    "ingameLongitude": -495100.89,
+    "ingameLatitude": -150478.7,
+    "ingameHeight": 24258.18,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448268,
+    "urlId": "1CQe2PGgUkvomaTd97oufk",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 45.74029,
+    "latitude": 180.17542,
+    "ingameLongitude": 401361.86,
+    "ingameLatitude": -238885.73,
+    "ingameHeight": 11902.67,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448269,
+    "urlId": "1CQe2PGgUkvomaTd97oufm",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 3,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 107.3135,
+    "latitude": 70.27234,
+    "ingameLongitude": 108119.47,
+    "ingameLatitude": 284527.85,
+    "ingameHeight": 41018.5,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448270,
+    "urlId": "1CQe2PGgUkvomaTd97oufn",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": 2,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 46.0164,
+    "latitude": 109.00733,
+    "ingameLongitude": 400046.89,
+    "ingameLatitude": 100052.41,
+    "ingameHeight": 12824.01,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448271,
+    "urlId": "1CQe2PGgUkvomaTd97oufo",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 201.8537,
+    "latitude": 39.60273,
+    "ingameLongitude": -342128.25,
+    "ingameLatitude": 430591.88,
+    "ingameHeight": 87837.62,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448272,
+    "urlId": "1CQe2PGgUkvomaTd97oufp",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 183.17921,
+    "latitude": 126.71681,
+    "ingameLongitude": -253191,
+    "ingameLatitude": 15711,
+    "ingameHeight": 36512,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448273,
+    "urlId": "1CQe2PGgUkvomaTd97oufq",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 165.52919,
+    "latitude": 269.82681,
+    "ingameLongitude": -169132.75,
+    "ingameLatitude": -665850.56,
+    "ingameHeight": 2345.06,
+    "category": {
+      "id": 30
+    }
+  },
+  {
+    "id": 448274,
+    "urlId": "1CQe2PGgUkvomaTd97oufr",
+    "title": "Gravel bags",
+    "icon": "faHammer",
+    "number": null,
+    "colorBackground": "#069448",
+    "colorIcon": "#ffffff",
+    "longitude": 163.84847,
+    "latitude": 271.88481,
+    "ingameLongitude": -161128.36,
+    "ingameLatitude": -675651.81,
+    "ingameHeight": 658.47,
+    "category": {
+      "id": 30
+    }
+  }
+]

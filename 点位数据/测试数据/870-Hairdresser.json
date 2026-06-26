@@ -1,0 +1,70 @@
+[
+  {
+    "id": 508450,
+    "urlId": "1Cc9L8BXTU5aCzRBbaSJQy",
+    "title": null,
+    "icon": "faScissors",
+    "number": null,
+    "colorBackground": "#c026d3",
+    "colorIcon": "#ffffff",
+    "longitude": 261.02488,
+    "latitude": 246.76094,
+    "ingameLongitude": -623931,
+    "ingameLatitude": -555999,
+    "ingameHeight": 0,
+    "category": {
+      "id": 870
+    }
+  },
+  {
+    "id": 508451,
+    "urlId": "1Cc9L8Bc2phR5yvTd8RLXf",
+    "title": null,
+    "icon": "faScissors",
+    "number": null,
+    "colorBackground": "#c026d3",
+    "colorIcon": "#ffffff",
+    "longitude": 162.3179,
+    "latitude": 68.30655,
+    "ingameLongitude": -153839,
+    "ingameLatitude": 293890,
+    "ingameHeight": 0,
+    "category": {
+      "id": 870
+    }
+  },
+  {
+    "id": 508452,
+    "urlId": "1Cc9L8BgcSZ8Hzj2eM84XC",
+    "title": null,
+    "icon": "faScissors",
+    "number": null,
+    "colorBackground": "#c026d3",
+    "colorIcon": "#ffffff",
+    "longitude": 125.05827,
+    "latitude": 272.23748,
+    "ingameLongitude": 23610,
+    "ingameLatitude": -677331,
+    "ingameHeight": 0,
+    "category": {
+      "id": 870
+    }
+  },
+  {
+    "id": 508453,
+    "urlId": "1Cc9L8Bkzvd7NUBjseTrQz",
+    "title": null,
+    "icon": "faScissors",
+    "number": null,
+    "colorBackground": "#c026d3",
+    "colorIcon": "#ffffff",
+    "longitude": 10.44368,
+    "latitude": 176.64839,
+    "ingameLongitude": 569462,
+    "ingameLatitude": -222088,
+    "ingameHeight": 0,
+    "category": {
+      "id": 870
+    }
+  }
+]

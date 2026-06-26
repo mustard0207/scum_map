@@ -1,0 +1,2416 @@
+[
+  {
+    "id": 238397,
+    "urlId": "1BtrLd39LXRD15JNj2DHTV",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 216.15244,
+    "latitude": 229.45871,
+    "ingameLongitude": -409769.5,
+    "ingameLatitude": -473975.156,
+    "ingameHeight": 37.271,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238398,
+    "urlId": "1BtrLd39J3RxVXZqse26zF",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 155.10476,
+    "latitude": 312.1732,
+    "ingameLongitude": -119526,
+    "ingameLatitude": -867426.375,
+    "ingameHeight": 5.963,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238399,
+    "urlId": "1BtrLd39HzEfLwBgJHvGR3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 168.66741,
+    "latitude": 212.63906,
+    "ingameLongitude": -184007.938,
+    "ingameLatitude": -393968.5,
+    "ingameHeight": 72.323,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238400,
+    "urlId": "1BtrLd39LdwLMgwJYzHRL6",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 303.58509,
+    "latitude": 273.57573,
+    "ingameLongitude": -825457,
+    "ingameLatitude": -683828.313,
+    "ingameHeight": 22.047,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238401,
+    "urlId": "1BtrLd39La9vemMX8MPZ6u",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 159.82847,
+    "latitude": 246.47456,
+    "ingameLongitude": -141984.313,
+    "ingameLatitude": -554915.125,
+    "ingameHeight": 17.251,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238402,
+    "urlId": "1BtrLd39HvwafuCNvkDiYm",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 238.64034,
+    "latitude": 269.0683,
+    "ingameLongitude": -516685.375,
+    "ingameLatitude": -662387.625,
+    "ingameHeight": 62.59,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238403,
+    "urlId": "1BtrLd39Hpzp5QkfLfWXVD",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 28.44994,
+    "latitude": 285.23867,
+    "ingameLongitude": 482638.344,
+    "ingameLatitude": -739305.875,
+    "ingameHeight": 18.269,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238404,
+    "urlId": "1BtrLd39J7K8RP6Ui9RwfF",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 73.50326,
+    "latitude": 277.81176,
+    "ingameLongitude": 268438.031,
+    "ingameLatitude": -703978,
+    "ingameHeight": 23.356,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238405,
+    "urlId": "1BtrLd39LhDfsonvKp1siZ",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 36.12626,
+    "latitude": 302.06727,
+    "ingameLongitude": 446142.25,
+    "ingameLatitude": -819355.125,
+    "ingameHeight": 43.953,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238406,
+    "urlId": "1BtrLd39LgaAd87weoZosN",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 66.85732,
+    "latitude": 298.37461,
+    "ingameLongitude": 300035.313,
+    "ingameLatitude": -801790.125,
+    "ingameHeight": 8.792,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238407,
+    "urlId": "1BtrLd39Ljq9horJYYyafZ",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 11.29722,
+    "latitude": 301.06007,
+    "ingameLongitude": 564188.813,
+    "ingameLatitude": -814564.125,
+    "ingameHeight": 174.047,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238408,
+    "urlId": "1BtrLd39LkTCA4Kq2QKgTa",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 36.68864,
+    "latitude": 160.55965,
+    "ingameLongitude": 443468.5,
+    "ingameLatitude": -146240.344,
+    "ingameHeight": 22.253,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238409,
+    "urlId": "1BtrLd39JDBcpo9veNHJ3o",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 8.10625,
+    "latitude": 39.98942,
+    "ingameLongitude": 579359.875,
+    "ingameLatitude": 427280.75,
+    "ingameHeight": 9.191,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238410,
+    "urlId": "1BtrLd39Ljw4bNSR4RjH3H",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 27.9016,
+    "latitude": 284.97516,
+    "ingameLongitude": 485245.344,
+    "ingameLatitude": -738052.438,
+    "ingameHeight": 20.523,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238411,
+    "urlId": "1BtrLd39HzBiZxLywuN49r",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 153.61529,
+    "latitude": 312.82036,
+    "ingameLongitude": -112444.5,
+    "ingameLatitude": -870504.75,
+    "ingameHeight": 14.594,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238412,
+    "urlId": "1BtrLd39LXRxf23EHsn7ga",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 210.25813,
+    "latitude": 254.85859,
+    "ingameLongitude": -381745.75,
+    "ingameLatitude": -594795.75,
+    "ingameHeight": 25.789,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238413,
+    "urlId": "1BtrLd39HzqViSxFqJT6CH",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 215.83089,
+    "latitude": 225.08005,
+    "ingameLongitude": -408240.75,
+    "ingameLatitude": -453147.031,
+    "ingameHeight": 15.807,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238414,
+    "urlId": "1BtrLd39J9zu6XZNRnuhRb",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 53.63388,
+    "latitude": 263.0045,
+    "ingameLongitude": 362904.5,
+    "ingameLatitude": -633543.75,
+    "ingameHeight": 25.859,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238415,
+    "urlId": "1BtrLd39JDDpkbSF334EpM",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 216.61604,
+    "latitude": 224.97506,
+    "ingameLongitude": -411973.625,
+    "ingameLatitude": -452647.594,
+    "ingameHeight": 29.386,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238416,
+    "urlId": "1BtrLd39LajB2Y8xvdeHt4",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 242.61978,
+    "latitude": 268.85573,
+    "ingameLongitude": -535605.125,
+    "ingameLatitude": -661376.5,
+    "ingameHeight": 29.926,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238417,
+    "urlId": "1BtrLd39LjsynhXVERd75z",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 159.711,
+    "latitude": 247.07647,
+    "ingameLongitude": -141425.813,
+    "ingameLatitude": -557778.25,
+    "ingameHeight": 13.29,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238418,
+    "urlId": "1BtrLd39HpNejms4yxrgkZ",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 154.33388,
+    "latitude": 312.4534,
+    "ingameLongitude": -115860.938,
+    "ingameLatitude": -868759.25,
+    "ingameHeight": 4.533,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238419,
+    "urlId": "1BtrLd39Ldxfo9cMVkwjs8",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 36.66657,
+    "latitude": 161.22035,
+    "ingameLongitude": 443573.438,
+    "ingameLatitude": -149383.125,
+    "ingameHeight": 18.188,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238420,
+    "urlId": "1BtrLd39J3UvyNNqK3x8JM",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 209.7553,
+    "latitude": 254.81966,
+    "ingameLongitude": -379355.125,
+    "ingameLatitude": -594610.563,
+    "ingameHeight": 28.522,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238421,
+    "urlId": "1BtrLd39LjsyczrZH1BfJb",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 9.00178,
+    "latitude": 40.56521,
+    "ingameLongitude": 575102.188,
+    "ingameLatitude": 424541.875,
+    "ingameHeight": 13.994,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238422,
+    "urlId": "1BtrLd39LWtwmqNwgVkwc8",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 8.53525,
+    "latitude": 40.1046,
+    "ingameLongitude": 577320.25,
+    "ingameLatitude": 426732.875,
+    "ingameHeight": 12.091,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238423,
+    "urlId": "1BtrLd39LU9UJJ4Q8BL2XA",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 9.28235,
+    "latitude": 41.27894,
+    "ingameLongitude": 573768.25,
+    "ingameLatitude": 421146.875,
+    "ingameHeight": 19.619,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238424,
+    "urlId": "1BtrLd39LUAx59euNvnVa5",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 9.36731,
+    "latitude": 41.87212,
+    "ingameLongitude": 573364.313,
+    "ingameLatitude": 418325.25,
+    "ingameHeight": 23.905,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238425,
+    "urlId": "1BtrLd39J6knXtoZUmFggP",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 210.59308,
+    "latitude": 254.90109,
+    "ingameLongitude": -383338.25,
+    "ingameLatitude": -594997.938,
+    "ingameHeight": 15.087,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238426,
+    "urlId": "1BtrLd39JDFvBYa1tjhmfk",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 24.80139,
+    "latitude": 197.58847,
+    "ingameLongitude": 499984.938,
+    "ingameLatitude": -322376.75,
+    "ingameHeight": 17.984,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238427,
+    "urlId": "1BtrLd39HhtiqH8NXcK8b9",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 34.61339,
+    "latitude": 225.00386,
+    "ingameLongitude": 453335,
+    "ingameLatitude": -452784.625,
+    "ingameHeight": 33.594,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238428,
+    "urlId": "1BtrLd39LgatmxBzgVQKNY",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 42.97881,
+    "latitude": 267.20365,
+    "ingameLongitude": 413562.688,
+    "ingameLatitude": -653518,
+    "ingameHeight": 17.414,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238429,
+    "urlId": "1BtrLd39Ldvc33yJn8GWAV",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 72.71965,
+    "latitude": 278.25522,
+    "ingameLongitude": 272163.594,
+    "ingameLatitude": -706087.438,
+    "ingameHeight": 20.61,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238430,
+    "urlId": "1BtrLd39HzGGgWGpHxSdep",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 28.10432,
+    "latitude": 302.59347,
+    "ingameLongitude": 484281.563,
+    "ingameLatitude": -821858.125,
+    "ingameHeight": 18.442,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238431,
+    "urlId": "1BtrLd39JDFuiC3zCmB8bS",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 96.82062,
+    "latitude": 270.77361,
+    "ingameLongitude": 157578.563,
+    "ingameLatitude": -670499.375,
+    "ingameHeight": 24.651,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238432,
+    "urlId": "1BtrLd39LajJRJ4bq3TGDs",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 89.56049,
+    "latitude": 240.95663,
+    "ingameLongitude": 192095.938,
+    "ingameLatitude": -528667.75,
+    "ingameHeight": 81.34,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238433,
+    "urlId": "1BtrLd39HskHgs3pVadTfs",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 43.38982,
+    "latitude": 268.17217,
+    "ingameLongitude": 411608.563,
+    "ingameLatitude": -658125,
+    "ingameHeight": 15.742,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238434,
+    "urlId": "1BtrLd39J6jAXuMbA2L8h6",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 33.25413,
+    "latitude": 160.28548,
+    "ingameLongitude": 459797.438,
+    "ingameLatitude": -144936.188,
+    "ingameHeight": 9.723,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238435,
+    "urlId": "1BtrLd39LWsbxpVTacij7w",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 72.98433,
+    "latitude": 278.49109,
+    "ingameLongitude": 270905.188,
+    "ingameLatitude": -707209.375,
+    "ingameHeight": 14.767,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238436,
+    "urlId": "1BtrLd39HpSwxXWHCQh21o",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 11.60037,
+    "latitude": 300.51121,
+    "ingameLongitude": 562747.5,
+    "ingameLatitude": -811953.375,
+    "ingameHeight": 27.818,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238437,
+    "urlId": "1BtrLd39HzDBjpsZxWKPqz",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 28.68343,
+    "latitude": 302.31417,
+    "ingameLongitude": 481528.25,
+    "ingameLatitude": -820529.563,
+    "ingameHeight": 33.418,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238438,
+    "urlId": "1BtrLd39HvviKu8EnxFo26",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 52.7855,
+    "latitude": 264.48517,
+    "ingameLongitude": 366938,
+    "ingameLatitude": -640586.875,
+    "ingameHeight": 16.929,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238439,
+    "urlId": "1BtrLd39LhFHaUPnMiirHj",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 73.31709,
+    "latitude": 278.18315,
+    "ingameLongitude": 269323.125,
+    "ingameLatitude": -705744.625,
+    "ingameHeight": 20.004,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238440,
+    "urlId": "1BtrLd39HzGHMLjTAQNFW5",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 24.77992,
+    "latitude": 197.89754,
+    "ingameLongitude": 500087,
+    "ingameLatitude": -323846.938,
+    "ingameHeight": 25.266,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238441,
+    "urlId": "1BtrLd39HtJmEpYyUt2AQq",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 33.89675,
+    "latitude": 224.97409,
+    "ingameLongitude": 456742.188,
+    "ingameLatitude": -452643,
+    "ingameHeight": 16.867,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238442,
+    "urlId": "1BtrLd39J6keNPuF83Budi",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 10.0629,
+    "latitude": 270.96846,
+    "ingameLongitude": 570057.188,
+    "ingameLatitude": -671426.188,
+    "ingameHeight": 10.169,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238443,
+    "urlId": "1BtrLd39J6jBYC99SesjCJ",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 28.41902,
+    "latitude": 284.77585,
+    "ingameLongitude": 482785.375,
+    "ingameLatitude": -737104.375,
+    "ingameHeight": 28.726,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238444,
+    "urlId": "1BtrLd39LWtwQVvW5uVsBv",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 42.19378,
+    "latitude": 267.27956,
+    "ingameLongitude": 417295,
+    "ingameLatitude": -653879.063,
+    "ingameHeight": 62.652,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238445,
+    "urlId": "1BtrLd39Lga1nhctxURzzv",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 10.45682,
+    "latitude": 270.13051,
+    "ingameLongitude": 568184.375,
+    "ingameLatitude": -667440.313,
+    "ingameHeight": 17.321,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238446,
+    "urlId": "1BtrLd39HzmgFxAFu38o1w",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 72.66972,
+    "latitude": 277.66777,
+    "ingameLongitude": 272400.969,
+    "ingameLatitude": -703293.063,
+    "ingameHeight": 30.868,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238447,
+    "urlId": "1BtrLd39J3QVixQUBj4QV8",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 239.6828,
+    "latitude": 268.81965,
+    "ingameLongitude": -521641.625,
+    "ingameLatitude": -661204.875,
+    "ingameHeight": 65.152,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238448,
+    "urlId": "1BtrLd39HvyoJAR6cZs7o6",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 12.00931,
+    "latitude": 300.99588,
+    "ingameLongitude": 560803.25,
+    "ingameLatitude": -814258.813,
+    "ingameHeight": 35.233,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238449,
+    "urlId": "1BtrLd39HiWJCEbQaq4pJL",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 216.00254,
+    "latitude": 227.93534,
+    "ingameLongitude": -409056.813,
+    "ingameLatitude": -466728.906,
+    "ingameHeight": 25.509,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238450,
+    "urlId": "1BtrLd39La8c3nFUP5fEWa",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 34.67113,
+    "latitude": 225.78045,
+    "ingameLongitude": 453060.5,
+    "ingameLatitude": -456478.656,
+    "ingameHeight": 13.323,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238451,
+    "urlId": "1BtrLd39JAZP9SLEAPhzZX",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 97.0634,
+    "latitude": 270.25079,
+    "ingameLongitude": 156424.313,
+    "ingameLatitude": -668012.438,
+    "ingameHeight": 33.696,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238452,
+    "urlId": "1BtrLd39HiVZNgDT28YSFY",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 10.73982,
+    "latitude": 270.91719,
+    "ingameLongitude": 566838.875,
+    "ingameLatitude": -671182.313,
+    "ingameHeight": 14.896,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238453,
+    "urlId": "1BtrLd39LdwCBt5pSXgVEj",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 240.85874,
+    "latitude": 268.92371,
+    "ingameLongitude": -527232.5,
+    "ingameLatitude": -661699.875,
+    "ingameHeight": 34.297,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238454,
+    "urlId": "1BtrLd39JAa98wcGPL8bdm",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 196.8207,
+    "latitude": 235.36706,
+    "ingameLongitude": -317859.188,
+    "ingameLatitude": -502079.656,
+    "ingameHeight": 39.958,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238455,
+    "urlId": "1BtrLd39Laj9tR9MsUKXQv",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 167.83653,
+    "latitude": 212.85181,
+    "ingameLongitude": -180057.625,
+    "ingameLatitude": -394980.5,
+    "ingameHeight": 56.059,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238456,
+    "urlId": "1BtrLd39LdK1snJeYCd88o",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 233.95434,
+    "latitude": 208.91771,
+    "ingameLongitude": -494406.375,
+    "ingameLatitude": -376266.969,
+    "ingameHeight": 50.065,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238457,
+    "urlId": "1BtrLd39LdKkfNmiFRRoGU",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 185.17165,
+    "latitude": 225.29019,
+    "ingameLongitude": -262475.25,
+    "ingameLatitude": -454146.594,
+    "ingameHeight": 14.887,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238458,
+    "urlId": "1BtrLd39LgeajdqJAFJHoX",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 216.46147,
+    "latitude": 230.5054,
+    "ingameLongitude": -411238.75,
+    "ingameLatitude": -478954,
+    "ingameHeight": 65.906,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238459,
+    "urlId": "1BtrLd39LTdxVhpUQUxQcX",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 139.6754,
+    "latitude": 240.64486,
+    "ingameLongitude": -46169.07,
+    "ingameLatitude": -527184.75,
+    "ingameHeight": 15.254,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238460,
+    "urlId": "1BtrLd39LWqzdi87XafmVW",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 167.3298,
+    "latitude": 213.3888,
+    "ingameLongitude": -177648.438,
+    "ingameLatitude": -397534.813,
+    "ingameHeight": 70.681,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238461,
+    "urlId": "1BtrLd39Hmnmk3UmfnLfXD",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 35.96116,
+    "latitude": 161.99135,
+    "ingameLongitude": 446927.188,
+    "ingameLatitude": -153050.563,
+    "ingameHeight": 16.469,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238462,
+    "urlId": "1BtrLd39HzEo3EHuJGxPXj",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 160.13601,
+    "latitude": 247.46717,
+    "ingameLongitude": -143446.438,
+    "ingameLatitude": -559636.688,
+    "ingameHeight": 11.289,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238463,
+    "urlId": "1BtrLd39J3UvULkkBP2Da6",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 215.98544,
+    "latitude": 226.84371,
+    "ingameLongitude": -408975.5,
+    "ingameLatitude": -461536.281,
+    "ingameHeight": 35.032,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238464,
+    "urlId": "1BtrLd39HvvrMJ2YmQWsH3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 237.4757,
+    "latitude": 269.71745,
+    "ingameLongitude": -511148.25,
+    "ingameLatitude": -665475.5,
+    "ingameHeight": 55.77,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238465,
+    "urlId": "1BtrLd39JDpQGKTES8J9vW",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 182.32107,
+    "latitude": 227.23507,
+    "ingameLongitude": -248922.5,
+    "ingameLatitude": -463397.906,
+    "ingameHeight": 13.609,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238466,
+    "urlId": "1BtrLd39HvyewBFLWRmL2F",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 217.43283,
+    "latitude": 225.33461,
+    "ingameLongitude": -415856.938,
+    "ingameLatitude": -454357.906,
+    "ingameHeight": 20.808,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238467,
+    "urlId": "1BtrLd39JAbbmpcgNBDXU3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 199.32759,
+    "latitude": 233.65085,
+    "ingameLongitude": -329777.875,
+    "ingameLatitude": -493916.063,
+    "ingameHeight": 41.442,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238468,
+    "urlId": "1BtrLd39HhuTzChZKqbKru",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 203.15551,
+    "latitude": 233.72411,
+    "ingameLongitude": -347977.25,
+    "ingameLatitude": -494264.563,
+    "ingameHeight": 61.394,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238469,
+    "urlId": "1BtrLd39LjrdgAo6NxV9J8",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 185.83015,
+    "latitude": 223.84543,
+    "ingameLongitude": -265606,
+    "ingameLatitude": -447274.281,
+    "ingameHeight": 18.143,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238470,
+    "urlId": "1BtrLd39HhsF2cVgurGALg",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 217.52076,
+    "latitude": 225.83963,
+    "ingameLongitude": -416275,
+    "ingameLatitude": -456760.156,
+    "ingameHeight": 44.365,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238471,
+    "urlId": "1BtrLd39JDqGcHM4zgD4hx",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 142.65267,
+    "latitude": 217.15633,
+    "ingameLongitude": -60324.129,
+    "ingameLatitude": -415455.969,
+    "ingameHeight": 18.016,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238472,
+    "urlId": "1BtrLd39J3SqspAAvK9zz8",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 32.15182,
+    "latitude": 227.04572,
+    "ingameLongitude": 465038.25,
+    "ingameLatitude": -462497.188,
+    "ingameHeight": 29.297,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238473,
+    "urlId": "1BtrLd39Hzpm4nCdgpBPMq",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 203.53364,
+    "latitude": 233.13748,
+    "ingameLongitude": -349775,
+    "ingameLatitude": -491474.094,
+    "ingameHeight": 24.562,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238474,
+    "urlId": "1BtrLd39HhszDSKhwqqqUR",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 97.03625,
+    "latitude": 270.59692,
+    "ingameLongitude": 156553.375,
+    "ingameLatitude": -669658.875,
+    "ingameHeight": 34.15,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238475,
+    "urlId": "1BtrLd39LTYvHh67qfk77S",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 33.89994,
+    "latitude": 160.16471,
+    "ingameLongitude": 456727.031,
+    "ingameLatitude": -144361.688,
+    "ingameHeight": 10.461,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238476,
+    "urlId": "1BtrLd39HmDQqzVEKnFtWc",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 42.94627,
+    "latitude": 269.54461,
+    "ingameLongitude": 413717.375,
+    "ingameLatitude": -664653.313,
+    "ingameHeight": 26.682,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238477,
+    "urlId": "1BtrLd39JDCwmRCck5CYbB",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 202.87112,
+    "latitude": 210.95715,
+    "ingameLongitude": -346625.125,
+    "ingameLatitude": -385968.063,
+    "ingameHeight": 38.434,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238478,
+    "urlId": "1BtrLd39Ldww9WfoK9rKE1",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 177.75777,
+    "latitude": 233.31181,
+    "ingameLongitude": -227226.875,
+    "ingameLatitude": -492303.375,
+    "ingameHeight": 30.912,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238479,
+    "urlId": "1BtrLd39HhsPvdqTtqNsCx",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 243.24347,
+    "latitude": 268.70412,
+    "ingameLongitude": -538570.375,
+    "ingameLatitude": -660655.313,
+    "ingameHeight": 16.602,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238480,
+    "urlId": "1BtrLd39J7K8tWPdeT3gg3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 34.66992,
+    "latitude": 160.19776,
+    "ingameLongitude": 453066.25,
+    "ingameLatitude": -144518.906,
+    "ingameHeight": 8.664,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238481,
+    "urlId": "1BtrLd39LhCvtmwKwkEtEW",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 36.0988,
+    "latitude": 160.16359,
+    "ingameLongitude": 446272.813,
+    "ingameLatitude": -144356.375,
+    "ingameHeight": 11.891,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238482,
+    "urlId": "1BtrLd39J9wxXFz8d7cqXN",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 43.30725,
+    "latitude": 267.61617,
+    "ingameLongitude": 412001.156,
+    "ingameLatitude": -655480.25,
+    "ingameHeight": 28.088,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238483,
+    "urlId": "1BtrLd39HwYJ1vWJ2qr7s4",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 175.43275,
+    "latitude": 209.22476,
+    "ingameLongitude": -216172.875,
+    "ingameLatitude": -377727.531,
+    "ingameHeight": 39.781,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238484,
+    "urlId": "1BtrLd39Hsfr8gfogrgqQy",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 232.15115,
+    "latitude": 212.14604,
+    "ingameLongitude": -485833.344,
+    "ingameLatitude": -391623.313,
+    "ingameHeight": 39.586,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238485,
+    "urlId": "1BtrLd39JDG3smHn499tnh",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 178.38732,
+    "latitude": 232.83673,
+    "ingameLongitude": -230220,
+    "ingameLatitude": -490043.5,
+    "ingameHeight": 43.053,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238486,
+    "urlId": "1BtrLd39LgZH74bCHL5a11",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 161.33691,
+    "latitude": 247.00703,
+    "ingameLongitude": -149156,
+    "ingameLatitude": -557447.938,
+    "ingameHeight": 14.603,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238487,
+    "urlId": "1BtrLd39HmDQgBahrwi4py",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 178.19352,
+    "latitude": 232.28687,
+    "ingameLongitude": -229298.625,
+    "ingameLatitude": -487427.969,
+    "ingameHeight": 44.228,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238488,
+    "urlId": "1BtrLd39HpPP413gdhXUvf",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 201.36048,
+    "latitude": 233.33363,
+    "ingameLongitude": -339443,
+    "ingameLatitude": -492407.156,
+    "ingameHeight": 48.767,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238489,
+    "urlId": "1BtrLd39J3UvcDwHWTv9Y3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 232.92092,
+    "latitude": 209.98127,
+    "ingameLongitude": -489493.125,
+    "ingameLatitude": -381326.063,
+    "ingameHeight": 29.082,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238490,
+    "urlId": "1BtrLd39J6fVSMxwrkTtWM",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 152.92805,
+    "latitude": 312.83172,
+    "ingameLongitude": -109177.125,
+    "ingameLatitude": -870558.813,
+    "ingameHeight": 10.118,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238491,
+    "urlId": "1BtrLd39HpTgwZoSFqC1p4",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 141.62142,
+    "latitude": 240.66375,
+    "ingameLongitude": -55421.164,
+    "ingameLatitude": -527274.625,
+    "ingameHeight": 26.627,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238492,
+    "urlId": "1BtrLd39J6jBhvd9LYP6VQ",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 160.89591,
+    "latitude": 247.40956,
+    "ingameLongitude": -147059.313,
+    "ingameLatitude": -559362.688,
+    "ingameHeight": 10.258,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238493,
+    "urlId": "1BtrLd39LWtCHYfoo8geG3",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 183.90892,
+    "latitude": 226.13037,
+    "ingameLongitude": -256471.75,
+    "ingameLatitude": -458143.125,
+    "ingameHeight": 11.256,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238494,
+    "urlId": "1BtrLd39JAbcn6bpcqNvPF",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 34.12547,
+    "latitude": 226.16233,
+    "ingameLongitude": 455654.75,
+    "ingameLatitude": -458295.125,
+    "ingameHeight": 20.172,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238495,
+    "urlId": "1BtrLd39LhD4vWByNjhYXG",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 152.64782,
+    "latitude": 314.076,
+    "ingameLongitude": -107844.813,
+    "ingameLatitude": -876477.5,
+    "ingameHeight": 23.922,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238496,
+    "urlId": "1BtrLd39HhucXCbYxUr1Wo",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.87182,
+    "latitude": 295.20842,
+    "ingameLongitude": -822065.875,
+    "ingameLatitude": -786729.375,
+    "ingameHeight": 27.279,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238497,
+    "urlId": "1BtrLd39HzE4FeDFGdGueC",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 204.6881,
+    "latitude": 233.27421,
+    "ingameLongitude": -355263.75,
+    "ingameLatitude": -492124.5,
+    "ingameHeight": 29.775,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238498,
+    "urlId": "1BtrLd39J3RNa9K1NvrXcf",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 31.36656,
+    "latitude": 227.03314,
+    "ingameLongitude": 468771.625,
+    "ingameLatitude": -462437.375,
+    "ingameHeight": 16.891,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238499,
+    "urlId": "1BtrLd39J7JPmQLhG8g8po",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 185.69504,
+    "latitude": 224.79892,
+    "ingameLongitude": -264963.625,
+    "ingameLatitude": -451809.75,
+    "ingameHeight": 18.511,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238500,
+    "urlId": "1BtrLd39HiYWpPfa7KkS5W",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.93435,
+    "latitude": 273.24243,
+    "ingameLongitude": -822363.125,
+    "ingameLatitude": -682242.875,
+    "ingameHeight": 19.078,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238501,
+    "urlId": "1BtrLd39HmDZ3PbWKWmezR",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 27.37508,
+    "latitude": 301.98468,
+    "ingameLongitude": 487748.625,
+    "ingameLatitude": -818962.25,
+    "ingameHeight": 24.033,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238502,
+    "urlId": "1BtrLd39LdMFfzsLjwHzZE",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 42.26887,
+    "latitude": 269.76276,
+    "ingameLongitude": 416938,
+    "ingameLatitude": -665691,
+    "ingameHeight": 32.758,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238503,
+    "urlId": "1BtrLd39LWqzddHkZcjjyV",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.37373,
+    "latitude": 270.61318,
+    "ingameLongitude": -819697.75,
+    "ingameLatitude": -669736.25,
+    "ingameHeight": 21.296,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238504,
+    "urlId": "1BtrLd39LajJFYo7Nwj421",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 91.73616,
+    "latitude": 240.39817,
+    "ingameLongitude": 181752,
+    "ingameLatitude": -526011.313,
+    "ingameHeight": 43.835,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238505,
+    "urlId": "1BtrLd39LTccFTAxsA3RGB",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 233.20888,
+    "latitude": 209.08543,
+    "ingameLongitude": -490862.188,
+    "ingameLatitude": -377064.781,
+    "ingameHeight": 39.408,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238506,
+    "urlId": "1BtrLd39HpNWiAAhH1qjBE",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.00186,
+    "latitude": 272.14811,
+    "ingameLongitude": -817929.75,
+    "ingameLatitude": -677037.5,
+    "ingameHeight": 10.866,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238507,
+    "urlId": "1BtrLd39J9xgyX8DXd5f8f",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 155.7298,
+    "latitude": 312.41798,
+    "ingameLongitude": -122497.688,
+    "ingameLatitude": -868590.75,
+    "ingameHeight": 16.547,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238508,
+    "urlId": "1BtrLd39HmBvuSzWzSCC6D",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.68345,
+    "latitude": 294.58679,
+    "ingameLongitude": -821170.25,
+    "ingameLatitude": -783772.438,
+    "ingameHeight": 27.176,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238509,
+    "urlId": "1BtrLd39HhxRy8rDPJ3j8P",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 41.56743,
+    "latitude": 263.46698,
+    "ingameLongitude": 420272.875,
+    "ingameLatitude": -635743.625,
+    "ingameHeight": 39.203,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238510,
+    "urlId": "1BtrLd39HpzgX5dLK91C66",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 304.78619,
+    "latitude": 295.9616,
+    "ingameLongitude": -831167.5,
+    "ingameLatitude": -790312.063,
+    "ingameHeight": 25.358,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238511,
+    "urlId": "1BtrLd39LjuaTEQm3aYzxF",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 142.02242,
+    "latitude": 217.26894,
+    "ingameLongitude": -57327.656,
+    "ingameLatitude": -415991.625,
+    "ingameHeight": 35.539,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238512,
+    "urlId": "1BtrLd39LdMzTaa5Vvw6D6",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 91.85109,
+    "latitude": 262.87238,
+    "ingameLongitude": 181205.563,
+    "ingameLatitude": -632915.25,
+    "ingameHeight": 19.498,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238513,
+    "urlId": "1BtrLd39HpQiMsj3KjGTSk",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 140.64716,
+    "latitude": 240.53049,
+    "ingameLongitude": -50789.188,
+    "ingameLatitude": -526640.75,
+    "ingameHeight": 15.484,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238514,
+    "urlId": "1BtrLd39HpSwTY5BFx5uaY",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 304.2653,
+    "latitude": 295.76913,
+    "ingameLongitude": -828691,
+    "ingameLatitude": -789396.5,
+    "ingameHeight": 30.809,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238515,
+    "urlId": "1BtrLd39LgcEYtDx7hJ7JC",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 9.37166,
+    "latitude": 270.81364,
+    "ingameLongitude": 573343.625,
+    "ingameLatitude": -670689.75,
+    "ingameHeight": 26.867,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238516,
+    "urlId": "1BtrLd39HiVSWpTFUXZRon",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 302.39526,
+    "latitude": 272.85515,
+    "ingameLongitude": -819800.125,
+    "ingameLatitude": -680400.688,
+    "ingameHeight": 12.063,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238517,
+    "urlId": "1BtrLd39Hm8FnBvLcRPDsX",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 152.97247,
+    "latitude": 313.69053,
+    "ingameLongitude": -109388.313,
+    "ingameLatitude": -874643.938,
+    "ingameHeight": 22.042,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238518,
+    "urlId": "1BtrLd39LdMNhHshN6YgLa",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 303.31731,
+    "latitude": 295.52216,
+    "ingameLongitude": -824183.875,
+    "ingameLatitude": -788221.75,
+    "ingameHeight": 23.025,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238519,
+    "urlId": "1BtrLd39LkTD2GXe45247K",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 43.34419,
+    "latitude": 268.88784,
+    "ingameLongitude": 411825.5,
+    "ingameLatitude": -661529.25,
+    "ingameHeight": 23.664,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238520,
+    "urlId": "1BtrLd39J9zBK9Wt7ajwgk",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 174.14705,
+    "latitude": 209.45874,
+    "ingameLongitude": -210060.188,
+    "ingameLatitude": -378840.531,
+    "ingameHeight": 109.374,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238521,
+    "urlId": "1BtrLd39J6jBjSaMEHPBtj",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 181.64955,
+    "latitude": 227.54116,
+    "ingameLongitude": -245729.875,
+    "ingameLatitude": -464853.875,
+    "ingameHeight": 14.334,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238522,
+    "urlId": "1BtrLd39JAa8y8ohho9XHy",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 26.1933,
+    "latitude": 312.27081,
+    "ingameLongitude": 493367.25,
+    "ingameLatitude": -867890.688,
+    "ingameHeight": 51.674,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238523,
+    "urlId": "1BtrLd39LdMEW3Vxk6e425",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 26.85798,
+    "latitude": 312.544,
+    "ingameLongitude": 490207.125,
+    "ingameLatitude": -869190.188,
+    "ingameHeight": 15.26,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238524,
+    "urlId": "1BtrLd39JDERshvLE8vkUa",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 198.53184,
+    "latitude": 200.34319,
+    "ingameLongitude": -325994.563,
+    "ingameLatitude": -335480.25,
+    "ingameHeight": 38.486,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238525,
+    "urlId": "1BtrLd39JDCDwzSCff3z8Q",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 199.22612,
+    "latitude": 200.26733,
+    "ingameLongitude": -329295.438,
+    "ingameLatitude": -335119.375,
+    "ingameHeight": 39.152,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238526,
+    "urlId": "1BtrLd39Lga2xaWRv76TWv",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 26.81113,
+    "latitude": 312.93392,
+    "ingameLongitude": 490429.875,
+    "ingameLatitude": -871044.938,
+    "ingameHeight": 26.456,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238527,
+    "urlId": "1BtrLd39HhsFjPr8msqACP",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 301.81267,
+    "latitude": 271.45435,
+    "ingameLongitude": -817030.25,
+    "ingameLatitude": -673737.438,
+    "ingameHeight": 11.26,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238528,
+    "urlId": "1BtrLd39HpSLAaZdwUcE8H",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 216.05155,
+    "latitude": 225.90321,
+    "ingameLongitude": -409289.813,
+    "ingameLatitude": -457062.594,
+    "ingameHeight": 11.371,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238529,
+    "urlId": "1BtrLd39HpNeRxrdHaKLLB",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 183.26719,
+    "latitude": 226.76584,
+    "ingameLongitude": -253420.75,
+    "ingameLatitude": -461165.875,
+    "ingameHeight": 23.501,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238530,
+    "urlId": "1BtrLd39LXS5gdVeTdecfb",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 200.07674,
+    "latitude": 201.10971,
+    "ingameLongitude": -333339.625,
+    "ingameLatitude": -339126.375,
+    "ingameHeight": 25.696,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238531,
+    "urlId": "1BtrLd39LdxpADGYNaqmck",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 232.56059,
+    "latitude": 211.25055,
+    "ingameLongitude": -487780,
+    "ingameLatitude": -387363.719,
+    "ingameHeight": 31.329,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238532,
+    "urlId": "1BtrLd39Hw19aPV4sXzG6k",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 66.43615,
+    "latitude": 298.75624,
+    "ingameLongitude": 302037.688,
+    "ingameLatitude": -803605.438,
+    "ingameHeight": 13.172,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238533,
+    "urlId": "1BtrLd39LTcU2Rt3kNfzJz",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 66.49145,
+    "latitude": 298.48253,
+    "ingameLongitude": 301774.813,
+    "ingameLatitude": -802303.438,
+    "ingameHeight": 9.143,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238534,
+    "urlId": "1BtrLd39J42eqbt8PPy5sv",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 26.61228,
+    "latitude": 312.26951,
+    "ingameLongitude": 491375.25,
+    "ingameLatitude": -867884.5,
+    "ingameHeight": 44.399,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238535,
+    "urlId": "1BtrLd39HhtshkmxGAUAUV",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 168.42616,
+    "latitude": 312.44937,
+    "ingameLongitude": -182860.938,
+    "ingameLatitude": -868740.063,
+    "ingameHeight": 6.77,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238536,
+    "urlId": "1BtrLd39HiWuzBwSPJRmKV",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 85.38122,
+    "latitude": 273.56212,
+    "ingameLongitude": 211965.781,
+    "ingameLatitude": -683763.563,
+    "ingameHeight": 145.228,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238537,
+    "urlId": "1BtrLd39LaA5iZkCAyxJ9y",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 92.5673,
+    "latitude": 276.68611,
+    "ingameLongitude": 177800.438,
+    "ingameLatitude": -698623.563,
+    "ingameHeight": 12.071,
+    "category": {
+      "id": 21
+    }
+  },
+  {
+    "id": 238538,
+    "urlId": "1BtrLd39J3S6rrbVHXF5W5",
+    "title": "Paddle spawns",
+    "icon": "faAnchor",
+    "number": null,
+    "colorBackground": "#bea974",
+    "colorIcon": "#883d11",
+    "longitude": 280.54237,
+    "latitude": 95.9443,
+    "ingameLongitude": -715903.313,
+    "ingameLatitude": 161118,
+    "ingameHeight": 40120.996,
+    "category": {
+      "id": 21
+    }
+  }
+]
