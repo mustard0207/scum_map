@@ -63,6 +63,17 @@
     </view>
   </view>
 
+  <!-- 安全区圆圈（在标记之下） -->
+  <view
+    wx:for="{{safeZonesOnScreen}}"
+    wx:key="id"
+    class="safe-zone"
+    data-id="{{item.id}}"
+    data-px="{{item.px}}"
+    data-py="{{item.py}}"
+    data-rpx="{{item.rpx}}"
+  />
+
   <!-- 标记列表（在 viewport 内部，WXS 可通过 selectAllComponents 选取） -->
   <!-- 点击检测由 WXS handleTap → onTapAtPoint 坐标命中检测处理 -->
   <view

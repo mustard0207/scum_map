@@ -91,14 +91,14 @@ Page({
     showSaveConfirm: false,
     // POI 筛选
     poiCategories: poiCategories,   // 分类配置（按 section 分组）
-    activePoiCats: ['80'],          // 当前激活的小类 ID（默认前哨站）
+    activePoiCats: [],              // 当前激活的小类 ID（默认无，安全区已有绿圈显示）
     poiCatCounts: {},               // 每个小类的点位数 { catId: number }
     poiGroupCounts: {},             // 每个大类的小类数 { sectionName: number }
     sectionSelectedCounts: {},      // 每个大类的选中小类数 { sectionName: number }
     quickSections: QUICK_SECTIONS,  // 精选 section 名
     quickSubs: QUICK_SUBS.map(id => ({ id, emoji: CAT_EMOJI[id], cnName: CAT_CN[id] })),
     quickCategories: poiCategories.filter(c => QUICK_SECTIONS.includes(c.name)),
-    activePoiMap: { '80': true },   // 活跃分类查找表 { catId: true }
+    activePoiMap: {},               // 活跃分类查找表 { catId: true }
     showFilterPanel: false,         // 筛选面板开关
     filterFullMode: false,          // 完整版筛选模式
     expandedGroups: {},             // 展开的大类 { 'Outposts': true }

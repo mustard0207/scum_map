@@ -22,13 +22,22 @@ const MARKER_TYPE_COLORS = {
   box:     '#6BBF59'
 }
 
+// 安全区（交易区）配置 — 圆心坐标来自 scum-map.com 实测数据
+const SAFE_ZONE_RADIUS = 46000  // 游戏坐标单位（460米 × 100单位/米）
+const SAFE_ZONES = [
+  { id: 'sz_a0', name: 'A0 安全区', lng: -610581, lat: -557027 },
+  { id: 'sz_b4', name: 'B4 安全区', lng: 570708,  lat: -226174 },
+  { id: 'sz_c2', name: 'C2 安全区', lng: -147082, lat: 278432 },
+  { id: 'sz_z3', name: 'Z3 安全区', lng: 12563,   lat: -678195 }
+]
+
 // 区域网格配置
 const GRID_ROWS = 5
 const GRID_COLS = 5
 const GRID_CELL = FULL_MAP_SIZE / GRID_COLS  // 256
 const GRID_LABELS_ROW = ['D', 'C', 'B', 'A', 'Z']
 const GRID_LABELS_COL = ['4', '3', '2', '1', '0']
-const GRID_LABEL_OFFSET = 8  // 标签距格子左上角的偏移量
+const GRID_LABEL_OFFSET = 4  // 标签距格子左上角的偏移量
 
 // 瓦片分层加载配置
 const TILE_LEVELS = {
@@ -97,7 +106,9 @@ Component({
     // 区域网格数据
     gridLinesH: [],
     gridLinesV: [],
-    gridLabels: []
+    gridLabels: [],
+    // 安全区圆圈
+    safeZonesOnScreen: []
   },
 
   lifetimes: {
@@ -154,6 +165,7 @@ Component({
 
       this._tileIds = ''  // 当前可见瓦片 id 缓存，用于变化检测
       this._initGrid()
+      this._initSafeZones()
       this._syncWxsState()
       this._refreshOverlay()
       // 通知父页面地图已就绪
@@ -543,6 +555,22 @@ Component({
       this.setData({ gridLinesH, gridLinesV, gridLabels })
     },
 
+    /** 初始化安全区圆圈（游戏坐标 → 地图像素坐标，仅调用一次） */
+    _initSafeZones() {
+      const lngRange = GEO_BOUNDS.longitudeRight - GEO_BOUNDS.longitudeLeft  // 负值
+      const latRange = GEO_BOUNDS.latitudeBottom - GEO_BOUNDS.latitudeTop    // 负值
+      // 半径用绝对值，避免负数导致尺寸为负
+      const rpx = SAFE_ZONE_RADIUS / Math.abs(lngRange) * FULL_MAP_SIZE
+
+      const zones = SAFE_ZONES.map(z => ({
+        id: z.id,
+        px: (z.lng - GEO_BOUNDS.longitudeLeft) / lngRange * FULL_MAP_SIZE,
+        py: (z.lat - GEO_BOUNDS.latitudeTop) / latRange * FULL_MAP_SIZE,
+        rpx: rpx
+      }))
+      this.setData({ safeZonesOnScreen: zones })
+    },
+
     /** 实际执行标记位置更新（被 _updateMarkersScreenPos 和动画调用） */
     _doUpdateMarkersScreenPos() {
       this._refreshOverlayAnim()
@@ -587,12 +615,15 @@ Component({
       const vpY = y - (this._vpTop || 0)
 
       // 命中检测：反向遍历（z-index 高的优先）
-      const HIT_RADIUS = 15  // 标记尺寸 20px / 2 + 容差
+      // 水滴锚点在底部尖端(my)，图标向上延伸约 34px（24px对角线 + border + shadow）
+      // X 轴保持中心对称容差，Y 轴向上覆盖整个水滴区域
+      const HIT_RADIUS_X = 15  // 水滴宽度容差（20px / 2 + 余量）
+      const HIT_TOP = 28       // 水滴顶部距锚点的偏移（20px × √2 ≈ 28）
       for (let i = markersOnScreen.length - 1; i >= 0; i--) {
         const m = markersOnScreen[i]
         const mx = m.px * scale + offsetX
         const my = m.py * scale + offsetY
-        if (Math.abs(vpX - mx) < HIT_RADIUS && Math.abs(vpY - my) < HIT_RADIUS) {
+        if (Math.abs(vpX - mx) < HIT_RADIUS_X && vpY >= my - HIT_TOP && vpY <= my) {
           this.triggerEvent('markertap', { marker: m })
           return
         }

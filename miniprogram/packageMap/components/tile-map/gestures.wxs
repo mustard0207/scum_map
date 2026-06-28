@@ -91,6 +91,22 @@ function updateStyles(ownerInstance) {
       top: (parseFloat(ds.py) * s + oy) + 'px'
     });
   }
+
+  // 7. 安全区圆圈
+  var zones = ownerInstance.selectAllComponents('.safe-zone');
+  for (var i = 0; i < zones.length; i++) {
+    var ds = zones[i].getDataset();
+    if (ds.px === undefined) continue;
+    var cx = parseFloat(ds.px) * s + ox;
+    var cy = parseFloat(ds.py) * s + oy;
+    var r = parseFloat(ds.rpx) * s;
+    zones[i].setStyle({
+      left: (cx - r) + 'px',
+      top: (cy - r) + 'px',
+      width: (r * 2) + 'px',
+      height: (r * 2) + 'px'
+    });
+  }
 }
 
 function propChange(newVal, oldVal, ownerInstance, instance) {

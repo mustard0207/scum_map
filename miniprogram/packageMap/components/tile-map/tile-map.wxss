@@ -35,16 +35,24 @@
   height: 100%;
 }
 
-/* 标记 */
+/* 标记 — 水滴形态，尖角指向坐标点 */
 .map-marker {
   position: absolute;
-  transform: translate(-50%, -50%);
+  /* 不使用 transform-origin，通过精确 translate 将尖角(左下角)定位到 left/top 坐标 */
+  /* 计算：边框盒 24×24，中心 (12,12)，尖角 (0,24) */
+  /* rotate(-45deg) 围绕默认中心(12,12)旋转后，尖角偏移 (12√2, 12√2) ≈ (17, 17) */
+  /* 再 translate(-12, -12-12√2) = (-12, -29) 将尖角归位到原点 */
+  transform: translate(-12px, -29px) rotate(-45deg);
   z-index: 20;
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50% 50% 50% 0;
+  background: rgba(30, 30, 30, 0.85);
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .marker-circle {
@@ -57,16 +65,26 @@
 }
 
 .marker-emoji {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  transform: rotate(45deg);
 }
 
+/* 有底色的标记：覆盖默认背景为类型颜色 */
 .marker-typed {
-  width: 22px;
-  height: 22px;
+  background: #6BBF59;
+}
+
+/* 安全区圆圈 */
+.safe-zone {
+  position: absolute;
+  box-sizing: border-box;
   border-radius: 50%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(107, 191, 89, 0.6);
+  background: rgba(107, 191, 89, 0.12);
+  pointer-events: none;
+  z-index: 10;
 }
 
 /* 区域网格叠加层 */
@@ -97,7 +115,7 @@
 .grid-label {
   position: absolute;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   color: rgba(255, 255, 255, 1);
   pointer-events: none;
   text-shadow:
