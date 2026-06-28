@@ -192,7 +192,6 @@
     <view class="filter-panel" catchtap="">
       <view class="filter-header" catchtap="">
         <text class="filter-title">POI 筛选</text>
-        <text class="filter-count {{activePoiCats.length >= 5 ? 'filter-count-full' : ''}}">已选 {{activePoiCats.length}}/5</text>
         <view class="filter-reset" catchtap="resetPoiFilter">清除筛选</view>
         <view class="filter-close" catchtap="closeFilterPanel">✕</view>
       </view>
@@ -204,7 +203,7 @@
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
               <text class="filter-group-icon">{{group.emoji}}</text>
               <text class="filter-group-name">{{group.cnName}}</text>
-              <text class="filter-group-count" wx:if="{{!expandedGroups[group.name]}}">{{poiGroupCounts[group.name]}} 项</text>
+              <text class="filter-group-count">{{sectionSelectedCounts[group.name] || 0}}/{{poiGroupCounts[group.name]}}</text>
               <text class="filter-group-arrow {{expandedGroups[group.name] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
             </view>
             <view class="filter-subs" wx:if="{{expandedGroups[group.name]}}">
@@ -243,7 +242,7 @@
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
               <text class="filter-group-icon">{{group.emoji}}</text>
               <text class="filter-group-name">{{group.cnName}}</text>
-              <text class="filter-group-count" wx:if="{{!expandedGroups[group.name]}}">{{poiGroupCounts[group.name]}} 项</text>
+              <text class="filter-group-count">{{sectionSelectedCounts[group.name] || 0}}/{{poiGroupCounts[group.name]}}</text>
               <text class="filter-group-arrow {{expandedGroups[group.name] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
             </view>
             <view class="filter-subs" wx:if="{{expandedGroups[group.name]}}">

@@ -94,6 +94,7 @@ Page({
     activePoiCats: ['80'],          // 当前激活的小类 ID（默认前哨站）
     poiCatCounts: {},               // 每个小类的点位数 { catId: number }
     poiGroupCounts: {},             // 每个大类的小类数 { sectionName: number }
+    sectionSelectedCounts: {},      // 每个大类的选中小类数 { sectionName: number }
     quickSections: QUICK_SECTIONS,  // 精选 section 名
     quickSubs: QUICK_SUBS.map(id => ({ id, emoji: CAT_EMOJI[id], cnName: CAT_CN[id] })),
     quickCategories: poiCategories.filter(c => QUICK_SECTIONS.includes(c.name)),
@@ -115,6 +116,7 @@ Page({
       poiGroupCounts[section.name] = Object.keys(section.subs).length
     })
     this.setData({ poiGroupCounts })
+    this._updateSectionSelectedCounts()
 
     // 预加载默认前哨站数据（catId=80 → Points of interest section）
     this._getSectionData('Points of interest')
@@ -797,6 +799,12 @@ Page({
   toggleGroup(e) {
     const group = e.currentTarget.dataset.group
     const expanded = { ...this.data.expandedGroups }
+
+    // 展开时预加载该大类的数据（计算小类点位数）
+    if (!expanded[group]) {
+      this._getSectionData(group)
+    }
+
     expanded[group] = !expanded[group]
     this.setData({ expandedGroups: expanded })
   },
@@ -804,6 +812,7 @@ Page({
   /** 清除所有筛选 */
   resetPoiFilter() {
     this.setData({ activePoiCats: [], activePoiMap: {} })
+    this._updateSectionSelectedCounts()
     this._poiPixelCache = null
     this._schedulePoiRefresh()
     this._onUserChange()
@@ -828,9 +837,24 @@ Page({
     const activePoiMap = {}
     active.forEach(id => { activePoiMap[id] = true })
     this.setData({ activePoiCats: active, activePoiMap })
+    this._updateSectionSelectedCounts()
     this._poiPixelCache = null
     this._schedulePoiRefresh()
     this._onUserChange()
+  },
+
+  /** 更新每个大类的选中小类计数 */
+  _updateSectionSelectedCounts() {
+    const { activePoiMap, poiCategories } = this.data
+    const counts = {}
+    poiCategories.forEach(section => {
+      let selected = 0
+      for (const catId of Object.keys(section.subs)) {
+        if (activePoiMap[catId]) selected++
+      }
+      counts[section.name] = selected
+    })
+    this.setData({ sectionSelectedCounts: counts })
   },
 
   /**
