@@ -69,6 +69,14 @@ const USER_MARKER_FILTER_TYPES = [
   { id: 'box',     emoji: '📦', cnName: '储物箱' }
 ]
 
+// 标记过期天数默认配置（0 = 永不过期）
+const MARKER_EXPIRY_DAYS = {
+  '': 0,        // 无类型 — 不过期
+  house: 15,    // 房屋 — 15天
+  vehicle: 10,  // 载具 — 10天
+  box: 15       // 储物箱 — 15天
+}
+
 // 游戏坐标范围（与 tile-map 组件一致）
 const GEO_LNG_LEFT = 619200
 const GEO_LNG_RIGHT = -904800
@@ -121,6 +129,16 @@ Page({
     activeUserMarkerTypes: ['none', 'house', 'vehicle', 'box'],  // 默认全选
     activeUserMarkerMap: { none: true, house: true, vehicle: true, box: true },
     userMarkerTypeCounts: {},       // { 'none': 3, 'house': 2, ... } 各类型标记数量
+    // 维护系统
+    markerExpiryDaysConfig: { ...MARKER_EXPIRY_DAYS },  // 过期天数配置（可修改）
+    markerCreatedAtText: '',        // 选中标记的放置时间文本
+    selectedMarkerExpiryDays: 0,    // 选中标记的过期天数
+    selectedMarkerRemainingDays: 0, // 选中标记的剩余天数
+    markerRemainingDaysText: '',    // 选中标记的剩余天数文本
+    showExpirySettings: false,      // 过期设置弹窗开关
+    tempExpiryDays: {},             // 过期设置弹窗临时数据
+    tempWarnDays: 2,                // 弹窗中的最小提醒天数临时值
+    markerWarnDays: 2,              // 最小剩余天数（低于此值显示警告）
   },
 
   onLoad(options) {
@@ -168,13 +186,15 @@ Page({
         const parts = item.split(',')
         const type = parts[3] || ''
         const typeConf = MARKER_TYPES[type]
+        const createdAt = parseInt(parts[4]) || Math.floor(Date.now() / 1000)
         return {
           id: 'shared_' + Date.now() + '_' + i,
           lng: parseFloat(parts[0]),
           lat: parseFloat(parts[1]),
           name: parts[2] ? decodeURIComponent(parts[2]) : '',
           type,
-          emoji: typeConf ? typeConf.emoji : ''
+          emoji: typeConf ? typeConf.emoji : '',
+          createdAt
         }
       }).filter(m => !isNaN(m.lng) && !isNaN(m.lat))
       if (sharedMarkers.length > 0) {
@@ -342,7 +362,8 @@ Page({
         lng: geo.lng,
         lat: geo.lat,
         name: '',
-        type: ''
+        type: '',
+        createdAt: Math.floor(Date.now() / 1000)
       }
       this._allUserMarkers.push(newMarker)
       this._rebuildDisplayMarkers()
@@ -415,7 +436,8 @@ Page({
         lng: coord.lng,
         lat: coord.lat,
         name: '',
-        type: ''
+        type: '',
+        createdAt: Math.floor(Date.now() / 1000)
       }
       this._allUserMarkers.push(newMarker)
       this._rebuildDisplayMarkers()
@@ -471,6 +493,7 @@ Page({
         setData.poiCatName = this._getPoiCatName(marker.cat)
       }
       this.setData(setData)
+      this._updateInfoWindowExpiry()
     }
   },
 
@@ -505,7 +528,60 @@ Page({
     this.setData({
       selectedMarker: { ...marker, ...update }
     })
+    this._updateInfoWindowExpiry()
     this._onUserChange()
+  },
+
+  /** 刷新有效期按钮 */
+  maintainMarker() {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.src === 'poi') return
+    const now = Math.floor(Date.now() / 1000)
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], createdAt: now }
+    this._rebuildDisplayMarkers()
+    this.setData({ selectedMarker: { ...marker, createdAt: now } })
+    this._updateInfoWindowExpiry()
+    this._onUserChange()
+    wx.vibrateShort({ type: 'medium' })
+    wx.showToast({ title: '有效期已刷新' })
+  },
+
+  /** 打开过期设置弹窗 */
+  showExpirySettings() {
+    this._tempExpiryDays = { ...this.data.markerExpiryDaysConfig }
+    this._tempWarnDays = this.data.markerWarnDays
+    this.setData({ showExpirySettings: true, tempExpiryDays: { ...this._tempExpiryDays }, tempWarnDays: this._tempWarnDays })
+  },
+
+  /** 关闭过期设置弹窗 */
+  hideExpirySettings() {
+    this.setData({ showExpirySettings: false })
+  },
+
+  /** 过期天数输入 */
+  onExpiryDaysInput(e) {
+    const type = e.currentTarget.dataset.type
+    const val = parseInt(e.detail.value) || 0
+    this._tempExpiryDays[type] = Math.max(0, val)
+  },
+
+  /** 最小提醒天数输入 */
+  onWarnDaysInput(e) {
+    this._tempWarnDays = Math.max(0, parseInt(e.detail.value) || 0)
+  },
+
+  /** 保存过期设置 */
+  saveExpirySettings() {
+    this.setData({
+      markerExpiryDaysConfig: { ...this._tempExpiryDays },
+      markerWarnDays: this._tempWarnDays,
+      showExpirySettings: false
+    })
+    this._rebuildDisplayMarkers()
+    this._updateInfoWindowExpiry()
+    this._onUserChange()
+    wx.showToast({ title: '过期设置已保存' })
   },
 
   /** 删除当前选中的标记 */
@@ -637,7 +713,7 @@ Page({
    */
   _encodeMarkers(markers) {
     const bytes = []
-    bytes.push(0x54) // 'T' — 版本标识（含类型字段）
+    bytes.push(0x55) // 'U' — 版本标识（含类型+createdAt字段）
     bytes.push(markers.length & 0xFF)
 
     for (let i = 0; i < markers.length; i++) {
@@ -666,6 +742,13 @@ Page({
       // 类型：1 字节（0x00=无, 0x01=house, 0x02=vehicle, 0x03=box）
       const typeCode = m.type === 'house' ? 1 : m.type === 'vehicle' ? 2 : m.type === 'box' ? 3 : 0
       bytes.push(typeCode)
+
+      // createdAt：4 字节 uint32（秒级时间戳）
+      const ts = m.createdAt || 0
+      bytes.push((ts >>> 24) & 0xFF)
+      bytes.push((ts >>> 16) & 0xFF)
+      bytes.push((ts >>> 8) & 0xFF)
+      bytes.push(ts & 0xFF)
     }
 
     const ab = new ArrayBuffer(bytes.length)
@@ -684,9 +767,9 @@ Page({
       const ab = wx.base64ToArrayBuffer(payload)
       const bytes = new Uint8Array(ab)
 
-      // 检查是否为二进制格式（首字节 0x53=旧版无类型 / 0x54=新版含类型）
-      if (bytes.length > 1 && (bytes[0] === 0x53 || bytes[0] === 0x54)) {
-        return this._decodeBinaryMarkers(bytes, bytes[0] === 0x54)
+      // 检查是否为二进制格式（0x53=旧版 / 0x54=含类型 / 0x55=含类型+createdAt）
+      if (bytes.length > 1 && (bytes[0] === 0x53 || bytes[0] === 0x54 || bytes[0] === 0x55)) {
+        return this._decodeBinaryMarkers(bytes, bytes[0] >= 0x54, bytes[0] >= 0x55)
       }
 
       // 回退：旧文本格式
@@ -697,7 +780,7 @@ Page({
   },
 
   /** 解码二进制格式标记 */
-  _decodeBinaryMarkers(bytes, hasType) {
+  _decodeBinaryMarkers(bytes, hasType, hasCreatedAt) {
     const count = bytes[1]
     if (count === 0) return []
     const markers = []
@@ -730,11 +813,19 @@ Page({
         pos += nameLen
       }
 
-      // 读取类型（仅新版 0x54 格式含类型字节）
+      // 读取类型（0x54+ 格式含类型字节）
       let type = ''
       if (hasType && pos < bytes.length) {
         type = typeMap[bytes[pos]] || ''
         pos++
+      }
+
+      // 读取 createdAt（0x55+ 格式含 4 字节无符号时间戳）
+      let createdAt = Math.floor(Date.now() / 1000)
+      if (hasCreatedAt && pos + 4 <= bytes.length) {
+        createdAt = ((bytes[pos] << 24) | (bytes[pos + 1] << 16) | (bytes[pos + 2] << 8) | bytes[pos + 3]) >>> 0
+        pos += 4
+        if (createdAt <= 0) createdAt = Math.floor(Date.now() / 1000)
       }
 
       const typeConf = MARKER_TYPES[type]
@@ -744,7 +835,8 @@ Page({
         lat: latInt / 10000,
         name,
         type,
-        emoji: typeConf ? typeConf.emoji : ''
+        emoji: typeConf ? typeConf.emoji : '',
+        createdAt
       })
     }
     return markers
@@ -961,9 +1053,57 @@ Page({
 
   /** 重建显示数组：筛选后的用户标记 + POI 标记 */
   _rebuildDisplayMarkers() {
-    const userMarkers = this._getFilteredUserMarkers()
+    const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
     const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
     this.setData({ markers: [...userMarkers, ...poiMarkers] })
+  },
+
+  /** 计算标记的过期信息 */
+  _computeMarkerExpiry(marker) {
+    const expiryDays = this.data.markerExpiryDaysConfig[marker.type || '']
+    if (!expiryDays || expiryDays <= 0) return { expiryDays: 0, remainingDays: Infinity, expiring: false }
+    const now = Math.floor(Date.now() / 1000)
+    const elapsed = (now - (marker.createdAt || now)) / 86400
+    const remainingDays = expiryDays - elapsed
+    const warnDays = this.data.markerWarnDays || 2
+    return { expiryDays, remainingDays, expiring: remainingDays < warnDays }
+  },
+
+  /** 为用户标记数组附加 expiring 字段 */
+  _enrichMarkersWithExpiry(markers) {
+    return markers.map(m => {
+      if (m.src === 'poi') return m
+      const { expiring } = this._computeMarkerExpiry(m)
+      return expiring ? { ...m, expiring: true } : m
+    })
+  },
+
+  /** 更新信息窗口的过期信息显示 */
+  _updateInfoWindowExpiry() {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.src === 'poi' || !marker.createdAt) return
+    const { expiryDays, remainingDays } = this._computeMarkerExpiry(marker)
+    const d = new Date(marker.createdAt * 1000)
+    const pad = n => String(n).padStart(2, '0')
+    const createdAtText = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`
+    let remainingText
+    if (remainingDays >= 0) {
+      const totalMin = Math.floor(remainingDays * 1440)
+      const days = Math.floor(totalMin / 1440)
+      const hours = Math.floor((totalMin % 1440) / 60)
+      const mins = totalMin % 60
+      remainingText = days > 0 ? `${days}天${hours}小时${mins}分` : hours > 0 ? `${hours}小时${mins}分` : `${mins}分`
+    } else {
+      const totalMin = Math.floor(-remainingDays * 1440)
+      const days = Math.floor(totalMin / 1440)
+      remainingText = `已过期 ${days} 天`
+    }
+    this.setData({
+      markerCreatedAtText: createdAtText,
+      selectedMarkerExpiryDays: expiryDays,
+      selectedMarkerRemainingDays: Math.floor(remainingDays),
+      markerRemainingDaysText: remainingText
+    })
   },
 
   /**
@@ -1008,7 +1148,7 @@ Page({
     const cache = this._poiPixelCache || this._buildPoiPixelCache()
 
     if (cache.length === 0) {
-      const userMarkers = this._getFilteredUserMarkers()
+      const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
       this.setData({ markers: userMarkers })
       return
     }
@@ -1061,7 +1201,7 @@ Page({
       emoji: CAT_EMOJI[p.cat] || '📍'
     }))
 
-    const userMarkers = this._getFilteredUserMarkers()
+    const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
     this.setData({ markers: [...userMarkers, ...poiMarkers] })
   },
 
@@ -1213,18 +1353,21 @@ Page({
     this._saveToStorage()
   },
 
-  /** 从本地存储恢复用户标记、POI 筛选和自定义标记类型筛选 */
+  /** 从本地存储恢复用户标记、筛选状态和过期配置 */
   _loadFromStorage() {
     try {
       const savedMarkers = wx.getStorageSync('scum_userMarkers')
       const savedCats = wx.getStorageSync('scum_activePoiCats')
       const savedUserTypes = wx.getStorageSync('scum_activeUserMarkerTypes')
       const savedShowUser = wx.getStorageSync('scum_showUserMarkers')
+      const savedExpiryConfig = wx.getStorageSync('scum_markerExpiryDaysConfig')
       const setData = {}
       // 恢复用户标记到 _allUserMarkers（持久化数据源）
       if (Array.isArray(savedMarkers) && savedMarkers.length > 0) {
-        this._allUserMarkers = savedMarkers
-        setData.markers = savedMarkers  // 初始显示全部，后续由筛选刷新
+        // 旧数据兼容：补充 createdAt 字段
+        const now = Math.floor(Date.now() / 1000)
+        this._allUserMarkers = savedMarkers.map(m => m.createdAt ? m : { ...m, createdAt: now })
+        setData.markers = this._allUserMarkers
       }
       if (Array.isArray(savedCats) && savedCats.length > 0) {
         setData.activePoiCats = savedCats
@@ -1243,6 +1386,13 @@ Page({
       if (savedShowUser === false) {
         setData.showUserMarkers = false
       }
+      if (savedExpiryConfig && typeof savedExpiryConfig === 'object') {
+        setData.markerExpiryDaysConfig = { ...MARKER_EXPIRY_DAYS, ...savedExpiryConfig }
+      }
+      const savedWarnDays = wx.getStorageSync('scum_markerWarnDays')
+      if (typeof savedWarnDays === 'number' && savedWarnDays >= 0) {
+        setData.markerWarnDays = savedWarnDays
+      }
       if (Object.keys(setData).length > 0) {
         this.setData(setData)
         this._updateSectionSelectedCounts()
@@ -1258,7 +1408,7 @@ Page({
     }
   },
 
-  /** 保存用户标记、POI 筛选和自定义标记类型筛选到本地存储（防抖） */
+  /** 保存用户标记、筛选状态和过期配置到本地存储（防抖） */
   _saveToStorage() {
     if (this._saveTimer) clearTimeout(this._saveTimer)
     this._saveTimer = setTimeout(() => {
@@ -1267,6 +1417,8 @@ Page({
         wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
         wx.setStorageSync('scum_activeUserMarkerTypes', this.data.activeUserMarkerTypes)
         wx.setStorageSync('scum_showUserMarkers', this.data.showUserMarkers)
+        wx.setStorageSync('scum_markerExpiryDaysConfig', this.data.markerExpiryDaysConfig)
+        wx.setStorageSync('scum_markerWarnDays', this.data.markerWarnDays)
       } catch (e) {
         console.warn('[Storage] 保存失败:', e)
       }
@@ -1324,7 +1476,7 @@ Page({
 
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
     if (selectedMarker && this.data.showInfoWindow) {
-      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''}`
+      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''},${selectedMarker.createdAt || 0}`
       return {
         title: '我在SCUM地图上标记了一个位置',
         path: `/packageMap/pages/map/map?markers=${encoded}`
@@ -1339,7 +1491,7 @@ Page({
     // 用户自定义标记
     if (userMarkers.length > 0) {
       const encoded = userMarkers.map(m =>
-        `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''}`
+        `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''},${m.createdAt || 0}`
       ).join('|')
       params.push(`markers=${encoded}`)
       parts.push(`${userMarkers.length}个标记`)

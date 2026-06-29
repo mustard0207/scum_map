@@ -76,6 +76,24 @@
   background: #6BBF59;
 }
 
+/* 过期警告：红白缓慢闪烁 */
+.marker-expiring {
+  border-color: #FF3333;
+  box-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
+  animation: marker-pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes marker-pulse {
+  from {
+    border-color: #FF3333;
+    box-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
+  }
+  to {
+    border-color: #FFFFFF;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+  }
+}
+
 /* 安全区圆圈 */
 .safe-zone {
   position: absolute;

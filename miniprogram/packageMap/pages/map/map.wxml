@@ -48,7 +48,7 @@
 
   <!-- 信息窗口（点击标记后显示） -->
   <view class="info-window-mask" wx:if="{{showInfoWindow}}" bindtap="closeInfoWindow">
-    <view class="info-window" catchtap="">
+    <view class="info-window" catchtap="noop">
       <view class="info-window-header">
         <view class="info-window-title-area">
           <text class="info-window-icon">◆</text>
@@ -71,6 +71,21 @@
           <text class="info-window-coord-value">{{selectedMarker.lat}}</text>
         </view>
       </view>
+      <!-- 过期信息（仅自定义标记） -->
+      <view class="info-window-expiry" wx:if="{{selectedMarker.src !== 'poi' && selectedMarker.createdAt}}">
+        <view class="expiry-row">
+          <text class="expiry-label">放置时间</text>
+          <text class="expiry-value">{{markerCreatedAtText}}</text>
+        </view>
+        <view class="expiry-row" wx:if="{{selectedMarkerExpiryDays > 0}}">
+          <text class="expiry-label">剩余时间</text>
+          <text class="expiry-value {{selectedMarkerRemainingDays < markerWarnDays ? 'expiry-warning' : ''}}">{{markerRemainingDaysText}}</text>
+        </view>
+        <view class="expiry-row" wx:elif="{{selectedMarkerExpiryDays === 0}}">
+          <text class="expiry-label">有效期</text>
+          <text class="expiry-value expiry-safe">永不过期</text>
+        </view>
+      </view>
       <view class="info-window-type-selector" wx:if="{{selectedMarker.src !== 'poi'}}">
         <view
           wx:for="{{markerTypes}}"
@@ -82,6 +97,7 @@
           data-type="{{typeKey}}"
           catchtap="setMarkerType"
         >{{typeItem.emoji}} {{typeItem.label}}</view>
+        <view class="type-btn expiry-setting-btn" catchtap="showExpirySettings">⚙️ 时效</view>
       </view>
       <view class="info-window-actions">
         <block wx:if="{{selectedMarker.src === 'poi'}}">
@@ -90,9 +106,37 @@
         </block>
         <block wx:else>
           <view class="info-window-btn delete" bindtap="deleteMarker">🗑 删除</view>
-          <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
+          <view class="info-window-btn maintain" bindtap="maintainMarker">🔄 刷新有效期</view>
           <button class="info-window-btn share" open-type="share">↗ 分享</button>
         </block>
+      </view>
+    </view>
+  </view>
+
+  <!-- 过期天数设置弹窗 -->
+  <view class="expiry-settings-mask" wx:if="{{showExpirySettings}}" catchtap="hideExpirySettings">
+    <view class="expiry-settings-dialog" catchtap="noop">
+      <view class="expiry-settings-title">过期天数设置</view>
+      <view class="expiry-settings-hint">设为 0 表示永不过期</view>
+      <view class="expiry-settings-item">
+        <text class="expiry-settings-label">📌 无类型</text>
+        <input class="expiry-settings-input" type="number" value="{{tempExpiryDays['']}}" bindinput="onExpiryDaysInput" data-type="" />
+        <text class="expiry-settings-unit">天</text>
+      </view>
+      <view class="expiry-settings-item" wx:for="{{markerTypes}}" wx:for-index="typeKey" wx:for-item="typeItem" wx:key="typeKey">
+        <text class="expiry-settings-label">{{typeItem.emoji}} {{typeItem.label}}</text>
+        <input class="expiry-settings-input" type="number" value="{{tempExpiryDays[typeKey]}}" bindinput="onExpiryDaysInput" data-type="{{typeKey}}" />
+        <text class="expiry-settings-unit">天</text>
+      </view>
+      <view class="expiry-settings-divider"></view>
+      <view class="expiry-settings-item">
+        <text class="expiry-settings-label">⚠️ 最小提醒天数</text>
+        <input class="expiry-settings-input" type="number" value="{{tempWarnDays}}" bindinput="onWarnDaysInput" />
+        <text class="expiry-settings-unit">天</text>
+      </view>
+      <view class="expiry-settings-actions">
+        <view class="expiry-settings-btn cancel" catchtap="hideExpirySettings">取消</view>
+        <view class="expiry-settings-btn confirm" catchtap="saveExpirySettings">确定</view>
       </view>
     </view>
   </view>
@@ -196,13 +240,13 @@
   <!-- POI 筛选面板 -->
   <view class="filter-panel-mask" wx:if="{{showFilterPanel}}">
     <view class="filter-panel-mask-tap" bindtap="closeFilterPanel"></view>
-    <view class="filter-panel" catchtap="">
-      <view class="filter-header" catchtap="">
+    <view class="filter-panel" catchtap="noop">
+      <view class="filter-header" catchtap="noop">
         <text class="filter-title">地点筛选</text>
         <view class="filter-reset" catchtap="resetPoiFilter">清除筛选</view>
         <view class="filter-close" catchtap="closeFilterPanel">✕</view>
       </view>
-      <view class="filter-body" catchtap="">
+      <view class="filter-body" catchtap="noop">
         <!-- 精简模式 -->
         <view wx:if="{{!filterFullMode}}">
           <!-- 自定义标记大类 -->
@@ -320,7 +364,7 @@
           </view>
         </view>
       </view>
-      <view class="filter-footer" catchtap="">
+      <view class="filter-footer" catchtap="noop">
         <text class="filter-footer-text">最多同时开启 5 个小类</text>
       </view>
     </view>
