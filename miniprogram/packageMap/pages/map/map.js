@@ -1348,7 +1348,7 @@ Page({
     // POI 筛选分类
     if (activePoiCats.length > 0) {
       params.push(`poiCats=${activePoiCats.join(',')}`)
-      parts.push(`${activePoiCats.length}个探索点`)
+      parts.push(`${activePoiCats.length}类探索点`)
     }
 
     if (params.length > 0) {
