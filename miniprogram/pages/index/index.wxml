@@ -26,7 +26,7 @@
           </view>
           <view class="feature-info">
             <text class="feature-title">SCUM游戏地图</text>
-            <text class="feature-desc">查看地图、标记坐标</text>
+            <text class="feature-desc">查看和标记游戏地图位置</text>
           </view>
           <view class="feature-arrow">›</view>
         </view>

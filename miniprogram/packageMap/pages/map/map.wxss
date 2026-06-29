@@ -519,6 +519,14 @@ button.bar-btn::after {
   color: #7A6B4A;
 }
 
+.data-drawer-danger .data-drawer-accent {
+  background: #C75050;
+}
+
+.data-drawer-danger .data-drawer-title {
+  color: #C75050;
+}
+
 /* 坐标输入弹窗 */
 .coord-input-mask {
   position: fixed;

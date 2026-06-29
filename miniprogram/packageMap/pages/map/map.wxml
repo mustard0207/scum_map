@@ -138,7 +138,7 @@
     </button>
     <view class="bar-btn" bindtap="showDataDrawer">
       <text class="bar-icon">⇅</text>
-      <text class="bar-label">备份</text>
+      <text class="bar-label">管理</text>
     </view>
     <view class="bar-btn" bindtap="onFilterTap">
       <text class="bar-icon">☰</text>
@@ -148,19 +148,26 @@
 
   <!-- 备份抽屉 -->
   <view class="data-drawer-mask" wx:if="{{showDataDrawer}}" bindtap="hideDataDrawer">
-    <view class="data-drawer" catchtap="">
+    <view class="data-drawer" catchtap="noop">
       <view class="data-drawer-item" bindtap="onDrawerImport">
         <view class="data-drawer-accent"></view>
         <view class="data-drawer-text">
-          <text class="data-drawer-title">导入标记</text>
+          <text class="data-drawer-title">导入自定义标记</text>
           <text class="data-drawer-desc">粘贴代码恢复标记点</text>
         </view>
       </view>
       <view class="data-drawer-item" bindtap="onDrawerExport">
         <view class="data-drawer-accent"></view>
         <view class="data-drawer-text">
-          <text class="data-drawer-title">导出标记</text>
+          <text class="data-drawer-title">导出自定义标记</text>
           <text class="data-drawer-desc">复制代码到剪贴板</text>
+        </view>
+      </view>
+      <view class="data-drawer-item data-drawer-danger" bindtap="onDrawerClear">
+        <view class="data-drawer-accent"></view>
+        <view class="data-drawer-text">
+          <text class="data-drawer-title">清空所有标记</text>
+          <text class="data-drawer-desc">删除全部自定义标记</text>
         </view>
       </view>
     </view>
@@ -168,7 +175,7 @@
 
   <!-- 导入弹窗 -->
   <view class="import-mask" wx:if="{{showImportDialog}}" bindtap="hideImportDialog">
-    <view class="import-dialog" catchtap="">
+    <view class="import-dialog" catchtap="noop">
       <view class="import-title">导入标记</view>
       <view class="import-hint">粘贴导出的标记代码</view>
       <textarea
@@ -191,13 +198,37 @@
     <view class="filter-panel-mask-tap" bindtap="closeFilterPanel"></view>
     <view class="filter-panel" catchtap="">
       <view class="filter-header" catchtap="">
-        <text class="filter-title">POI 筛选</text>
+        <text class="filter-title">地点筛选</text>
         <view class="filter-reset" catchtap="resetPoiFilter">清除筛选</view>
         <view class="filter-close" catchtap="closeFilterPanel">✕</view>
       </view>
       <view class="filter-body" catchtap="">
         <!-- 精简模式 -->
         <view wx:if="{{!filterFullMode}}">
+          <!-- 自定义标记大类 -->
+          <view class="filter-group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="_custom">
+              <text class="filter-group-icon">📌</text>
+              <text class="filter-group-name">自定义标记</text>
+              <text class="filter-group-count">{{sectionSelectedCounts['_custom'] || 0}}/4</text>
+              <view class="filter-toggle {{showUserMarkers ? 'filter-toggle-on' : ''}}" catchtap="toggleShowUserMarkers">
+                <view class="filter-toggle-thumb"></view>
+              </view>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups['_custom']}}">
+              <view class="filter-sub" wx:for="{{userMarkerFilterTypes}}" wx:for-item="sub" wx:key="id">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <text class="filter-sub-count">{{userMarkerTypeCounts[sub.id] || 0}}</text>
+                <view
+                  class="filter-toggle {{activeUserMarkerMap[sub.id] ? 'filter-toggle-on' : ''}}"
+                  catchtap="toggleUserMarkerType"
+                  data-typeid="{{sub.id}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
           <!-- 可展开的精选大类 -->
           <view class="filter-group" wx:for="{{quickCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
@@ -238,6 +269,30 @@
         </view>
         <!-- 完整模式 -->
         <view wx:else>
+          <!-- 自定义标记大类 -->
+          <view class="filter-group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="_custom">
+              <text class="filter-group-icon">📌</text>
+              <text class="filter-group-name">自定义标记</text>
+              <text class="filter-group-count">{{sectionSelectedCounts['_custom'] || 0}}/4</text>
+              <view class="filter-toggle {{showUserMarkers ? 'filter-toggle-on' : ''}}" catchtap="toggleShowUserMarkers">
+                <view class="filter-toggle-thumb"></view>
+              </view>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups['_custom']}}">
+              <view class="filter-sub" wx:for="{{userMarkerFilterTypes}}" wx:for-item="sub" wx:key="id">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <text class="filter-sub-count">{{userMarkerTypeCounts[sub.id] || 0}}</text>
+                <view
+                  class="filter-toggle {{activeUserMarkerMap[sub.id] ? 'filter-toggle-on' : ''}}"
+                  catchtap="toggleUserMarkerType"
+                  data-typeid="{{sub.id}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
           <view class="filter-group" wx:for="{{poiCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
               <text class="filter-group-icon">{{group.emoji}}</text>
@@ -273,7 +328,7 @@
 
   <!-- 保存确认弹窗 -->
   <view class="save-confirm-mask" wx:if="{{showSaveConfirm}}" catchtap="onSaveCancel">
-    <view class="save-confirm-dialog" catchtap="">
+    <view class="save-confirm-dialog" catchtap="noop">
       <view class="save-confirm-title">保存到本地</view>
       <view class="save-confirm-content">确定将当前内容保存到本地？这会覆盖已有的本地存档。</view>
       <view class="save-confirm-actions">

@@ -1,6 +1,6 @@
 # SCUM游戏工具箱微信小程序 — 技术方案
 
-> 版本：v8.0 (安全区绿圈+POI水滴化+标签优化) | 更新日期：2026-06-28
+> 版本：v1.0.0 (自定义标记筛选+标记上限100+bug修复) | 更新日期：2026-06-29
 
 ---
 
@@ -311,7 +311,7 @@ pixelY = (geoLat - latitudeTop) / (latitudeBottom - latitudeTop) * 1280
 与坐标面板（右下角）错开布局，z-index 50（与十字光标同级）。
 
 ### 7.6 标记数量限制
-- 最多支持 50 个标记（选点和坐标跳转入口均受限制）
+- 最多支持 100 个自定义标记（与 POI 标记独立计数，选点和坐标跳转入口均受限制）
 - 接收分享链接的标记不受此限制
 
 ---
@@ -585,7 +585,7 @@ zones[i].setStyle({
 支持将地图上所有标记一次性分享给好友：
 - **分享路径**：`/packageMap/pages/map/map?markers=lng1,lat1,name1|lng2,lat2,name2|...`
 - **卡片标题**：`我给你分享了N个SCUM地图位置`（如有名称则追加 `：名称`）
-- **标记上限**：最多 50 个标记（URL 长度限制约 2000 字符）
+- **标记上限**：最多 100 个标记（URL 长度限制约 2000 字符）
 
 ### 9.3 接收者定位
 接收者在微信群点击卡片，小程序直接启动并解析参数：
@@ -741,7 +741,7 @@ wx.createSelectorQuery().in(this)
 | 地图滑出可视区域 | 右下角浮动"回到全局视角"按钮（⊙），一键重置缩放和位置 |
 | 包体审核超限 | 主包约 500KB，packageMap 约 100KB，极度安全 |
 | Z2 底图超过 200KB | `0_0.jpg`（455KB）超过微信 200KB 建议值，但可正常加载 |
-| 分享 URL 超长 | 标记上限 50 个，单个标记约 20-25 字符，远低于 2000 字符限制 |
+| 分享 URL 超长 | 标记上限 100 个，单个标记约 20-25 字符，远低于 2000 字符限制 |
 | 网格极端缩小不可读 | MIN_SCALE 动态等于适屏比例，用户无法缩到比初始状态更小 |
 | 网格层阻挡手势 | grid-overlay 设置 `pointer-events: none`，所有触摸事件穿透到地图层 |
 | 网格标签在复杂背景上不可读 | 白色大字 + 四方向黑色 text-shadow 描边，确保在任何地形上可读 |
@@ -832,3 +832,40 @@ wx.createSelectorQuery().in(this)
 ### 8.3 WXS 下的点击事件穿透代理
 - **坑点**：`.map-viewport` 使用了 WXS 的 `catchtouchstart`，导致内部的标记 `.map-marker` 的 `tap` 事件无法触发。
 - **方案**：采用**点反查策略**。WXS 根据触摸位移和时间差识别出"单击"后，将屏幕绝对坐标回传给 JS。JS 将坐标转为地图内部偏移，对当前可视标记做碰撞检测（半径 15px），命中则触发。
+
+### 8.4 `catchtap=""` 空字符串无法阻止冒泡（弹窗误关闭）
+
+> ⚠️ **高频踩坑点**：所有弹窗/对话框的容器必须用 `catchtap="noop"`，不能用 `catchtap=""`。
+
+**坑点**：微信小程序中，`catchtap=""`（绑定到空字符串）**不能可靠阻止 tap 事件冒泡**。点击弹窗内部的输入框或按钮时，事件会穿透到外层 mask 的 `bindtap="closeDialog"`，导致弹窗意外关闭。
+
+**案例**：坐标输入弹窗（v7.7 修复）和导入标记弹窗（v8.1 修复）均踩过此坑。
+
+**错误写法**：
+```xml
+<!-- ❌ catchtap="" 不能阻止冒泡，点击内部元素会穿透关闭 -->
+<view class="mask" bindtap="closeDialog">
+  <view class="dialog" catchtap="">
+    <input placeholder="输入内容" />
+    <view bindtap="confirm">确定</view>
+  </view>
+</view>
+```
+
+**正确写法**：
+```xml
+<!-- ✅ catchtap="noop" 引用真实方法，可靠阻止冒泡 -->
+<view class="mask" bindtap="closeDialog">
+  <view class="dialog" catchtap="noop">
+    <input placeholder="输入内容" />
+    <view bindtap="confirm">确定</view>
+  </view>
+</view>
+```
+
+**JS 中定义空方法**：
+```js
+noop() {},  // 仅用于 catchtap 阻止冒泡，无实际逻辑
+```
+
+**原理**：`catchtap` 需要绑定到一个真实存在的方法引用才能生效。空字符串 `""` 在某些场景下被微信框架忽略，等同于未绑定。`"noop"` 指向页面中定义的空函数，框架能找到并执行（虽然无操作），从而正确拦截事件。

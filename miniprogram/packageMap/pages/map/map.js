@@ -58,6 +58,17 @@ const MARKER_TYPES = {
   box:     { emoji: '📦', label: '储物箱', color: '#6BBF59' }
 }
 
+// 用户标记数量上限（与 POI 标记独立计数）
+const USER_MARKER_LIMIT = 100
+
+// 自定义标记筛选类型（用于筛选面板）
+const USER_MARKER_FILTER_TYPES = [
+  { id: 'none',    emoji: '📌', cnName: '无类型' },
+  { id: 'house',   emoji: '🏠', cnName: '房屋' },
+  { id: 'vehicle', emoji: '🚗', cnName: '载具' },
+  { id: 'box',     emoji: '📦', cnName: '储物箱' }
+]
+
 // 游戏坐标范围（与 tile-map 组件一致）
 const GEO_LNG_LEFT = 619200
 const GEO_LNG_RIGHT = -904800
@@ -101,12 +112,19 @@ Page({
     activePoiMap: {},               // 活跃分类查找表 { catId: true }
     showFilterPanel: false,         // 筛选面板开关
     filterFullMode: false,          // 完整版筛选模式
-    expandedGroups: {},             // 展开的大类 { 'Outposts': true }
+    expandedGroups: {},             // 展开的大类
     poiCatName: '',                 // 当前选中 POI 的小类名
     markerTypes: MARKER_TYPES,      // 自定义标记类型配置
+    // 自定义标记类型筛选
+    userMarkerFilterTypes: USER_MARKER_FILTER_TYPES,
+    showUserMarkers: true,          // 大类总开关
+    activeUserMarkerTypes: ['none', 'house', 'vehicle', 'box'],  // 默认全选
+    activeUserMarkerMap: { none: true, house: true, vehicle: true, box: true },
+    userMarkerTypeCounts: {},       // { 'none': 3, 'house': 2, ... } 各类型标记数量
   },
 
   onLoad(options) {
+    this._allUserMarkers = []  // 用户标记持久化数据源（不受筛选影响）
     const sysInfo = wx.getWindowInfo()
     if (sysInfo) this.setData({ statusBarHeight: sysInfo.statusBarHeight })
 
@@ -115,6 +133,7 @@ Page({
     poiCategories.forEach(section => {
       poiGroupCounts[section.name] = Object.keys(section.subs).length
     })
+    poiGroupCounts['_custom'] = USER_MARKER_FILTER_TYPES.length
     this.setData({ poiGroupCounts })
     this._updateSectionSelectedCounts()
 
@@ -159,6 +178,7 @@ Page({
         }
       }).filter(m => !isNaN(m.lng) && !isNaN(m.lat))
       if (sharedMarkers.length > 0) {
+        this._allUserMarkers = sharedMarkers
         this.setData({ markers: sharedMarkers })
         shareLatLng = sharedMarkers[sharedMarkers.length - 1]
       }
@@ -168,6 +188,7 @@ Page({
       const lat = parseFloat(options.y)
       const name = decodeURIComponent(options.name || '')
       const marker = { id: 'shared_' + Date.now(), lng, lat, name, type: '' }
+      this._allUserMarkers = [marker]
       this.setData({
         markers: [marker],
         selectedMarker: marker
@@ -300,8 +321,8 @@ Page({
 
   /** 点击"选点"：将当前十字光标位置标记为选中点 */
   placeMarker() {
-    if (this.data.markers.length >= 50) {
-      wx.showToast({ title: '最多支持50个标记', icon: 'none' })
+    if (this._allUserMarkers.length >= USER_MARKER_LIMIT) {
+      wx.showToast({ title: `最多支持${USER_MARKER_LIMIT}个标记`, icon: 'none' })
       return
     }
     const mapComp = this.selectComponent('#tileMap')
@@ -323,9 +344,9 @@ Page({
         name: '',
         type: ''
       }
-      const markers = [...this.data.markers, newMarker]
+      this._allUserMarkers.push(newMarker)
+      this._rebuildDisplayMarkers()
       this.setData({
-        markers,
         selectedMarker: newMarker,
         selectedMarkerIndex: -1,
         showInfoWindow: false
@@ -355,8 +376,8 @@ Page({
 
   /** 跳转到输入的坐标 */
   jumpToCoord() {
-    if (this.data.markers.length >= 50) {
-      wx.showToast({ title: '最多支持50个标记', icon: 'none' })
+    if (this._allUserMarkers.length >= USER_MARKER_LIMIT) {
+      wx.showToast({ title: `最多支持${USER_MARKER_LIMIT}个标记`, icon: 'none' })
       return
     }
     const input = this.data.coordInputValue
@@ -396,10 +417,9 @@ Page({
         name: '',
         type: ''
       }
-      const markers = [...this.data.markers, newMarker]
-      console.log('new markers:', markers)
+      this._allUserMarkers.push(newMarker)
+      this._rebuildDisplayMarkers()
       this.setData({
-        markers,
         selectedMarker: newMarker,
         selectedMarkerIndex: -1,
         showInfoWindow: false,
@@ -477,17 +497,13 @@ Page({
     // 点击已选中的类型则取消
     const newType = marker.type === type ? '' : type
     const typeConf = MARKER_TYPES[newType]
-    const markers = this.data.markers.map(m => {
-      if (m.id !== marker.id) return m
-      return {
-        ...m,
-        type: newType,
-        emoji: typeConf ? typeConf.emoji : ''
-      }
-    })
+    const update = { type: newType, emoji: typeConf ? typeConf.emoji : '' }
+    // 更新 _allUserMarkers
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
+    this._rebuildDisplayMarkers()
     this.setData({
-      markers,
-      selectedMarker: { ...marker, type: newType, emoji: typeConf ? typeConf.emoji : '' }
+      selectedMarker: { ...marker, ...update }
     })
     this._onUserChange()
   },
@@ -496,9 +512,9 @@ Page({
   deleteMarker() {
     if (!this.data.selectedMarker) return
     const markerId = this.data.selectedMarker.id
-    const markers = this.data.markers.filter(m => m.id !== markerId)
+    this._allUserMarkers = this._allUserMarkers.filter(m => m.id !== markerId)
+    this._rebuildDisplayMarkers()
     this.setData({
-      markers,
       selectedMarker: null,
       selectedMarkerIndex: -1,
       showInfoWindow: false
@@ -510,6 +526,7 @@ Page({
   resetView() {
     const mapComp = this.selectComponent('#tileMap')
     if (mapComp) mapComp.resetView()
+    this._allUserMarkers = []
     this.setData({ markers: [], selectedMarker: null, selectedMarkerIndex: -1, showInfoWindow: false })
     this._onUserChange()
   },
@@ -780,6 +797,34 @@ Page({
     setTimeout(() => this.exportMarkers(), 200)
   },
 
+  /** 清空所有自定义标记（二次确认） */
+  onDrawerClear() {
+    this.setData({ showDataDrawer: false })
+    if (this._allUserMarkers.length === 0) {
+      wx.showToast({ title: '暂无标记可清空', icon: 'none' })
+      return
+    }
+    wx.showModal({
+      title: '清空所有标记',
+      content: `确定删除全部 ${this._allUserMarkers.length} 个自定义标记？此操作不可撤销。`,
+      confirmColor: '#C75050',
+      success: (res) => {
+        if (res.confirm) {
+          this._allUserMarkers = []
+          const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
+          this.setData({
+            markers: poiMarkers,
+            selectedMarker: null,
+            selectedMarkerIndex: -1,
+            showInfoWindow: false
+          })
+          this._onUserChange()
+          wx.showToast({ title: '已清空所有标记' })
+        }
+      }
+    })
+  },
+
   /** 筛选按钮 */
   onFilterTap() {
     this.setData({ showFilterPanel: true, filterFullMode: false })
@@ -800,8 +845,8 @@ Page({
     const group = e.currentTarget.dataset.group
     const expanded = { ...this.data.expandedGroups }
 
-    // 展开时预加载该大类的数据（计算小类点位数）
-    if (!expanded[group]) {
+    // 展开时预加载该大类的数据（计算小类点位数），自定义标记无需加载 POI 数据
+    if (group !== '_custom' && !expanded[group]) {
       this._getSectionData(group)
     }
 
@@ -811,8 +856,15 @@ Page({
 
   /** 清除所有筛选 */
   resetPoiFilter() {
-    this.setData({ activePoiCats: [], activePoiMap: {} })
+    this.setData({
+      activePoiCats: [],
+      activePoiMap: {},
+      activeUserMarkerTypes: [],
+      activeUserMarkerMap: {},
+      showUserMarkers: true
+    })
     this._updateSectionSelectedCounts()
+    this._rebuildDisplayMarkers()
     this._poiPixelCache = null
     this._schedulePoiRefresh()
     this._onUserChange()
@@ -843,9 +895,40 @@ Page({
     this._onUserChange()
   },
 
+  /** 切换自定义标记显示总开关 */
+  toggleShowUserMarkers() {
+    const show = !this.data.showUserMarkers
+    const active = show ? ['none', 'house', 'vehicle', 'box'] : []
+    const activeUserMarkerMap = {}
+    active.forEach(id => { activeUserMarkerMap[id] = true })
+    const sectionSelectedCounts = { ...this.data.sectionSelectedCounts, '_custom': active.length }
+    this.setData({ showUserMarkers: show, activeUserMarkerTypes: active, activeUserMarkerMap, sectionSelectedCounts })
+    this._rebuildDisplayMarkers()
+    this._onUserChange()
+  },
+
+  /** 切换自定义标记类型筛选 */
+  toggleUserMarkerType(e) {
+    const typeId = e.currentTarget.dataset.typeid
+    let active = [...this.data.activeUserMarkerTypes]
+    const idx = active.indexOf(typeId)
+    if (idx >= 0) {
+      active.splice(idx, 1)
+    } else {
+      active.push(typeId)
+    }
+    const activeUserMarkerMap = {}
+    active.forEach(id => { activeUserMarkerMap[id] = true })
+    const showUserMarkers = active.length > 0
+    const sectionSelectedCounts = { ...this.data.sectionSelectedCounts, '_custom': active.length }
+    this.setData({ activeUserMarkerTypes: active, activeUserMarkerMap, showUserMarkers, sectionSelectedCounts })
+    this._rebuildDisplayMarkers()
+    this._onUserChange()
+  },
+
   /** 更新每个大类的选中小类计数 */
   _updateSectionSelectedCounts() {
-    const { activePoiMap, poiCategories } = this.data
+    const { activePoiMap, poiCategories, activeUserMarkerTypes } = this.data
     const counts = {}
     poiCategories.forEach(section => {
       let selected = 0
@@ -854,7 +937,33 @@ Page({
       }
       counts[section.name] = selected
     })
+    counts['_custom'] = activeUserMarkerTypes.length
     this.setData({ sectionSelectedCounts: counts })
+  },
+
+  /** 更新各类型用户标记数量 */
+  _updateUserMarkerTypeCounts() {
+    const counts = {}
+    this._allUserMarkers.forEach(m => {
+      const typeId = m.type || 'none'
+      counts[typeId] = (counts[typeId] || 0) + 1
+    })
+    this.setData({ userMarkerTypeCounts: counts })
+  },
+
+  /** 获取经过类型筛选的用户标记（从 _allUserMarkers 读取） */
+  _getFilteredUserMarkers() {
+    const { showUserMarkers, activeUserMarkerTypes, activeUserMarkerMap } = this.data
+    if (!showUserMarkers) return []
+    if (activeUserMarkerTypes.length === 0) return [...this._allUserMarkers]
+    return this._allUserMarkers.filter(m => activeUserMarkerMap[m.type || 'none'])
+  },
+
+  /** 重建显示数组：筛选后的用户标记 + POI 标记 */
+  _rebuildDisplayMarkers() {
+    const userMarkers = this._getFilteredUserMarkers()
+    const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
+    this.setData({ markers: [...userMarkers, ...poiMarkers] })
   },
 
   /**
@@ -899,7 +1008,7 @@ Page({
     const cache = this._poiPixelCache || this._buildPoiPixelCache()
 
     if (cache.length === 0) {
-      const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+      const userMarkers = this._getFilteredUserMarkers()
       this.setData({ markers: userMarkers })
       return
     }
@@ -952,7 +1061,7 @@ Page({
       emoji: CAT_EMOJI[p.cat] || '📍'
     }))
 
-    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    const userMarkers = this._getFilteredUserMarkers()
     this.setData({ markers: [...userMarkers, ...poiMarkers] })
   },
 
@@ -1008,12 +1117,14 @@ Page({
 
     const doImport = (markers) => {
       let truncated = false
-      if (markers.length > 50) {
-        markers = markers.slice(0, 50)
+      if (markers.length > USER_MARKER_LIMIT) {
+        markers = markers.slice(0, USER_MARKER_LIMIT)
         truncated = true
       }
+      this._allUserMarkers = markers
+      const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
       this.setData({
-        markers,
+        markers: [...markers, ...poiMarkers],
         selectedMarker: null,
         selectedMarkerIndex: -1,
         showInfoWindow: false,
@@ -1021,17 +1132,18 @@ Page({
       })
       wx.vibrateShort({ type: 'medium' })
       this._onUserChange()
+      this._schedulePoiRefresh()
       if (truncated) {
-        wx.showToast({ title: '最多50个，已截取前50个', icon: 'none', duration: 2000 })
+        wx.showToast({ title: `最多${USER_MARKER_LIMIT}个，已截取前${USER_MARKER_LIMIT}个`, icon: 'none', duration: 2000 })
       } else {
         wx.showToast({ title: `已导入 ${markers.length} 个标记` })
       }
     }
 
-    if (this.data.markers.length > 0) {
+    if (this._allUserMarkers.length > 0) {
       wx.showModal({
-        title: '导入标记',
-        content: `当前有 ${this.data.markers.length} 个标记，导入将替换，确定？`,
+        title: '导入自定义标记',
+        content: `当前有 ${this._allUserMarkers.length} 个标记，导入将替换，确定？`,
         success: (res) => {
           if (res.confirm) doImport(decoded)
           else this.setData({ showImportDialog: false })
@@ -1044,7 +1156,7 @@ Page({
 
   /** 导出标记 */
   exportMarkers() {
-    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    const userMarkers = this._allUserMarkers
     if (userMarkers.length === 0) {
       wx.showToast({ title: '暂无标记可导出', icon: 'none' })
       return
@@ -1097,17 +1209,22 @@ Page({
       this._isSharedView = false
       this.setData({ showSaveBanner: false })
     }
+    this._updateUserMarkerTypeCounts()
     this._saveToStorage()
   },
 
-  /** 从本地存储恢复用户标记和 POI 筛选 */
+  /** 从本地存储恢复用户标记、POI 筛选和自定义标记类型筛选 */
   _loadFromStorage() {
     try {
       const savedMarkers = wx.getStorageSync('scum_userMarkers')
       const savedCats = wx.getStorageSync('scum_activePoiCats')
+      const savedUserTypes = wx.getStorageSync('scum_activeUserMarkerTypes')
+      const savedShowUser = wx.getStorageSync('scum_showUserMarkers')
       const setData = {}
+      // 恢复用户标记到 _allUserMarkers（持久化数据源）
       if (Array.isArray(savedMarkers) && savedMarkers.length > 0) {
-        setData.markers = savedMarkers
+        this._allUserMarkers = savedMarkers
+        setData.markers = savedMarkers  // 初始显示全部，后续由筛选刷新
       }
       if (Array.isArray(savedCats) && savedCats.length > 0) {
         setData.activePoiCats = savedCats
@@ -1117,22 +1234,39 @@ Page({
         this._poiPixelCache = null
         setTimeout(() => this._schedulePoiRefresh(), 300)
       }
+      if (Array.isArray(savedUserTypes)) {
+        const activeUserMarkerMap = {}
+        savedUserTypes.forEach(id => { activeUserMarkerMap[id] = true })
+        setData.activeUserMarkerTypes = savedUserTypes
+        setData.activeUserMarkerMap = activeUserMarkerMap
+      }
+      if (savedShowUser === false) {
+        setData.showUserMarkers = false
+      }
       if (Object.keys(setData).length > 0) {
         this.setData(setData)
+        this._updateSectionSelectedCounts()
+        this._updateUserMarkerTypeCounts()
+        // 无 POI 刷新时需要手动重建显示（有 POI 时由 _schedulePoiRefresh 处理）
+        const hasPoiRefresh = savedCats && savedCats.length > 0
+        if (!hasPoiRefresh && savedMarkers && savedMarkers.length > 0) {
+          this._rebuildDisplayMarkers()
+        }
       }
     } catch (e) {
       console.warn('[Storage] 加载失败:', e)
     }
   },
 
-  /** 保存用户标记和 POI 筛选到本地存储（防抖） */
+  /** 保存用户标记、POI 筛选和自定义标记类型筛选到本地存储（防抖） */
   _saveToStorage() {
     if (this._saveTimer) clearTimeout(this._saveTimer)
     this._saveTimer = setTimeout(() => {
       try {
-        const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
-        wx.setStorageSync('scum_userMarkers', userMarkers)
+        wx.setStorageSync('scum_userMarkers', this._allUserMarkers)
         wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
+        wx.setStorageSync('scum_activeUserMarkerTypes', this.data.activeUserMarkerTypes)
+        wx.setStorageSync('scum_showUserMarkers', this.data.showUserMarkers)
       } catch (e) {
         console.warn('[Storage] 保存失败:', e)
       }
@@ -1148,8 +1282,7 @@ Page({
   onSaveConfirm() {
     this.setData({ showSaveConfirm: false })
     try {
-      const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
-      wx.setStorageSync('scum_userMarkers', userMarkers)
+      wx.setStorageSync('scum_userMarkers', this._allUserMarkers)
       wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
       wx.showToast({ title: '已保存到本地', icon: 'success' })
       this._isSharedView = false
@@ -1190,7 +1323,7 @@ Page({
     const { selectedMarker, activePoiCats } = this.data
 
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
-    if (selectedMarker) {
+    if (selectedMarker && this.data.showInfoWindow) {
       const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''}`
       return {
         title: '我在SCUM地图上标记了一个位置',
@@ -1199,7 +1332,7 @@ Page({
     }
 
     // 场景二：底部栏分享当前页
-    const userMarkers = this.data.markers.filter(m => m.src !== 'poi')
+    const userMarkers = this._allUserMarkers
     const params = []
     const parts = []
 
@@ -1215,7 +1348,7 @@ Page({
     // POI 筛选分类
     if (activePoiCats.length > 0) {
       params.push(`poiCats=${activePoiCats.join(',')}`)
-      parts.push(`${activePoiCats.length}个分类POI`)
+      parts.push(`${activePoiCats.length}个探索点`)
     }
 
     if (params.length > 0) {
