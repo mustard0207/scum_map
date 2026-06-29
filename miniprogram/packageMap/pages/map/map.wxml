@@ -15,7 +15,7 @@
   </view>
 
   <!-- 坐标显示（光标处的实时坐标） -->
-  <view class="coord-panel" style="bottom: {{bottomBarHeight + 20}}px;">
+  <view class="coord-panel" style="bottom: {{bottomBarHeight + 20 + (showSaveBanner ? 40 : 0)}}px;">
     <text class="coord-text">X: {{coordLng}}  Y: {{coordLat}}</text>
   </view>
 
@@ -28,7 +28,7 @@
 
   <!-- 缩放拖拉条（右侧，鼠标/手指拖拉放大缩小） -->
   <view class="zoom-slider"
-    style="bottom: {{bottomBarHeight + 90}}px;"
+    style="bottom: {{bottomBarHeight + 90 + (showSaveBanner ? 40 : 0)}}px;"
     catchtouchstart="onZoomSliderStart"
     catchtouchmove="onZoomSliderMove"
     catchtouchend="onZoomSliderEnd"
@@ -42,7 +42,7 @@
   </view>
 
   <!-- 回到全局视角按钮 -->
-  <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20}}px;">
+  <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20 + (showSaveBanner ? 40 : 0)}}px;">
     <text class="reset-view-icon">⊙</text>
   </view>
 
@@ -75,7 +75,9 @@
       <view class="info-window-expiry" wx:if="{{selectedMarker.src !== 'poi' && selectedMarker.createdAt}}">
         <view class="expiry-row">
           <text class="expiry-label">放置时间</text>
-          <text class="expiry-value">{{markerCreatedAtText}}</text>
+          <picker mode="date" value="{{markerCreatedAtDate}}" bindchange="onCreatedAtDateChange">
+            <text class="expiry-value expiry-editable">{{markerCreatedAtText}}</text>
+          </picker>
         </view>
         <view class="expiry-row" wx:if="{{selectedMarkerExpiryDays > 0}}">
           <text class="expiry-label">剩余时间</text>

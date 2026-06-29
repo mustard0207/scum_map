@@ -431,6 +431,13 @@ button.info-window-btn::after {
   color: #6BBF59;
 }
 
+.expiry-editable {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #7A6B4A;
+  text-underline-offset: 4rpx;
+}
+
 /* 时效设置按钮 */
 .expiry-setting-btn {
   background: rgba(255, 255, 255, 0.04) !important;

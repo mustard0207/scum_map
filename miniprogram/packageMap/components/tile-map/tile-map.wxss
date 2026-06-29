@@ -81,6 +81,7 @@
   border-color: #FF3333;
   box-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
   animation: marker-pulse 1.5s ease-in-out infinite alternate;
+  animation-delay: var(--pulse-delay, 0s);
 }
 
 @keyframes marker-pulse {

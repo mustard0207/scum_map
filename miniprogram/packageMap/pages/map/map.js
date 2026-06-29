@@ -132,6 +132,7 @@ Page({
     // 维护系统
     markerExpiryDaysConfig: { ...MARKER_EXPIRY_DAYS },  // 过期天数配置（可修改）
     markerCreatedAtText: '',        // 选中标记的放置时间文本
+    markerCreatedAtDate: '',        // 选中标记的放置日期（YYYY-MM-DD，用于 picker）
     selectedMarkerExpiryDays: 0,    // 选中标记的过期天数
     selectedMarkerRemainingDays: 0, // 选中标记的剩余天数
     markerRemainingDaysText: '',    // 选中标记的剩余天数文本
@@ -225,6 +226,16 @@ Page({
         this.setData({ activePoiCats: catIds, activePoiMap })
         this._poiPixelCache = null
         setTimeout(() => this._schedulePoiRefresh(), 300)
+      }
+    }
+
+    // 过期配置 exp=none,house,vehicle,box,warnDays
+    if (options.exp) {
+      const expParts = options.exp.split(',').map(Number)
+      if (expParts.length >= 4) {
+        const config = { '': expParts[0] || 0, house: expParts[1] || 0, vehicle: expParts[2] || 0, box: expParts[3] || 0 }
+        const warnDays = expParts[4] >= 0 ? expParts[4] : 2
+        this.setData({ markerExpiryDaysConfig: config, markerWarnDays: warnDays })
       }
     }
 
@@ -528,6 +539,23 @@ Page({
     this.setData({
       selectedMarker: { ...marker, ...update }
     })
+    this._updateInfoWindowExpiry()
+    this._onUserChange()
+  },
+
+  /** 修改放置日期（保留原有时分秒） */
+  onCreatedAtDateChange(e) {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.src === 'poi' || !marker.createdAt) return
+    const dateStr = e.detail.value // YYYY-MM-DD
+    const [year, month, day] = dateStr.split('-').map(Number)
+    const old = new Date(marker.createdAt * 1000)
+    const newDate = new Date(year, month - 1, day, old.getHours(), old.getMinutes(), old.getSeconds())
+    const newCreatedAt = Math.floor(newDate.getTime() / 1000)
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], createdAt: newCreatedAt }
+    this._rebuildDisplayMarkers()
+    this.setData({ selectedMarker: { ...marker, createdAt: newCreatedAt } })
     this._updateInfoWindowExpiry()
     this._onUserChange()
   },
@@ -1069,12 +1097,13 @@ Page({
     return { expiryDays, remainingDays, expiring: remainingDays < warnDays }
   },
 
-  /** 为用户标记数组附加 expiring 字段 */
+  /** 为用户标记数组附加 expiring 字段（动画延迟统一同步） */
   _enrichMarkersWithExpiry(markers) {
+    const delay = -(Date.now() % 1500) / 1000
     return markers.map(m => {
       if (m.src === 'poi') return m
       const { expiring } = this._computeMarkerExpiry(m)
-      return expiring ? { ...m, expiring: true } : m
+      return expiring ? { ...m, expiring: true, pulseDelay: delay + 's' } : m
     })
   },
 
@@ -1100,6 +1129,7 @@ Page({
     }
     this.setData({
       markerCreatedAtText: createdAtText,
+      markerCreatedAtDate: `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`,
       selectedMarkerExpiryDays: expiryDays,
       selectedMarkerRemainingDays: Math.floor(remainingDays),
       markerRemainingDaysText: remainingText
@@ -1436,6 +1466,8 @@ Page({
     try {
       wx.setStorageSync('scum_userMarkers', this._allUserMarkers)
       wx.setStorageSync('scum_activePoiCats', this.data.activePoiCats)
+      wx.setStorageSync('scum_markerExpiryDaysConfig', this.data.markerExpiryDaysConfig)
+      wx.setStorageSync('scum_markerWarnDays', this.data.markerWarnDays)
       wx.showToast({ title: '已保存到本地', icon: 'success' })
       this._isSharedView = false
       this.setData({ showSaveBanner: false })
@@ -1477,9 +1509,11 @@ Page({
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
     if (selectedMarker && this.data.showInfoWindow) {
       const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''},${selectedMarker.createdAt || 0}`
+      const exp = this.data.markerExpiryDaysConfig
+      const expStr = `${exp[''] || 0},${exp.house || 0},${exp.vehicle || 0},${exp.box || 0},${this.data.markerWarnDays || 2}`
       return {
         title: '我在SCUM地图上标记了一个位置',
-        path: `/packageMap/pages/map/map?markers=${encoded}`
+        path: `/packageMap/pages/map/map?markers=${encoded}&exp=${expStr}`
       }
     }
 
@@ -1496,6 +1530,11 @@ Page({
       params.push(`markers=${encoded}`)
       parts.push(`${userMarkers.length}个标记`)
     }
+
+    // 过期配置
+    const exp = this.data.markerExpiryDaysConfig
+    const expStr = `${exp[''] || 0},${exp.house || 0},${exp.vehicle || 0},${exp.box || 0},${this.data.markerWarnDays || 2}`
+    params.push(`exp=${expStr}`)
 
     // POI 筛选分类
     if (activePoiCats.length > 0) {
