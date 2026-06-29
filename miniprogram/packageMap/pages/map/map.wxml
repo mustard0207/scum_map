@@ -1,5 +1,53 @@
 <!-- 地图页 -->
 <view class="map-page">
+
+  <!-- 首次引导遮罩 -->
+  <view class="guide-mask" wx:if="{{showGuide}}">
+    <view class="guide-content">
+      <view class="guide-header">
+        <text class="guide-main-title">使用指南</text>
+        <text class="guide-main-sub">首次使用前请先了解</text>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">◆</text>
+        <view class="guide-text">
+          <text class="guide-title">中心光标就是目标</text>
+          <text class="guide-desc">屏幕中央的十字准星标记当前位置，拖动地图移动它</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⊕</text>
+        <view class="guide-text">
+          <text class="guide-title">从游戏粘贴坐标</text>
+          <text class="guide-desc">游戏内按 M 打开地图，Ctrl+C 复制坐标，粘贴到「输入」</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">☰</text>
+        <view class="guide-text">
+          <text class="guide-title">筛选地图兴趣点</text>
+          <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地点显示</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⇅</text>
+        <view class="guide-text">
+          <text class="guide-title">导入导出标记</text>
+          <text class="guide-desc">「管理」可导出标记为代码，方便备份和恢复</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🏠</text>
+        <view class="guide-text">
+          <text class="guide-title">标记会过期</text>
+          <text class="guide-desc">选择类型后自动计算过期时间，快过期时标记红色闪烁，点击「刷新有效期」重置</text>
+        </view>
+      </view>
+    </view>
+    <view class="guide-btn" bindtap="dismissGuide">
+      <text class="guide-btn-text">我知道了</text>
+    </view>
+  </view>
   <!-- 自定义导航栏 -->
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
@@ -101,6 +149,9 @@
         >{{typeItem.emoji}} {{typeItem.label}}</view>
         <view class="type-btn expiry-setting-btn" catchtap="showExpirySettings">⚙️ 时效</view>
       </view>
+      <view class="info-window-tip" wx:if="{{selectedMarker.src !== 'poi'}}">
+        <text class="info-window-tip-text">💡 选择类型后标记会自动计算过期时间，刷新可重置计时</text>
+      </view>
       <view class="info-window-actions">
         <block wx:if="{{selectedMarker.src === 'poi'}}">
           <view class="info-window-btn copy" bindtap="copyCoord">📋 复制</view>
@@ -147,7 +198,11 @@
   <view class="coord-input-mask" wx:if="{{showCoordInput}}" bindtap="hideCoordInput">
     <view class="coord-input-dialog" catchtap="noop">
       <view class="coord-input-title">跳转到坐标</view>
-      <view class="coord-input-hint">将游戏内地图的坐标粘贴到此处，即可在离线地图上标记该位置，方便路线规划与点位记录。</view>
+      <view class="coord-input-hint">
+        <text class="hint-line">将游戏内地图坐标粘贴到此处，即可跳转到对应位置。</text>
+        <text class="hint-line hint-highlight">📌 游戏内按 M 打开地图，按 Ctrl+C 复制当前所在位置到剪贴板</text>
+        <text class="hint-line hint-dim">支持格式：{X=19079.9 Y=-687946.0 Z=873.7|...} 或 19079.9, -687946.0</text>
+      </view>
       <input
         class="coord-input-field"
         placeholder="粘贴游戏坐标"
@@ -173,28 +228,36 @@
     <view class="bar-btn" bindtap="showCoordInput">
       <text class="bar-icon">⊕</text>
       <text class="bar-label">输入</text>
+      <text class="bar-sublabel">粘贴游戏坐标</text>
     </view>
     <view class="bar-btn" bindtap="placeMarker">
       <text class="bar-icon">◆</text>
       <text class="bar-label">选点</text>
+      <text class="bar-sublabel">标记光标位置</text>
     </view>
     <button class="bar-btn" open-type="share">
       <text class="bar-icon">↗</text>
       <text class="bar-label">分享</text>
+      <text class="bar-sublabel">分享当前标记</text>
     </button>
     <view class="bar-btn" bindtap="showDataDrawer">
       <text class="bar-icon">⇅</text>
       <text class="bar-label">管理</text>
+      <text class="bar-sublabel">导入导出标记</text>
     </view>
     <view class="bar-btn" bindtap="onFilterTap">
       <text class="bar-icon">☰</text>
       <text class="bar-label">筛选</text>
+      <text class="bar-sublabel">显示兴趣地点</text>
     </view>
   </view>
 
   <!-- 备份抽屉 -->
   <view class="data-drawer-mask" wx:if="{{showDataDrawer}}" bindtap="hideDataDrawer">
     <view class="data-drawer" catchtap="noop">
+      <view class="data-drawer-tip">
+        <text class="data-drawer-tip-text">💡 导出会生成一段 SCUM# 开头的代码，自行粘贴保存，方便恢复备份</text>
+      </view>
       <view class="data-drawer-item" bindtap="onDrawerImport">
         <view class="data-drawer-accent"></view>
         <view class="data-drawer-text">
@@ -223,7 +286,10 @@
   <view class="import-mask" wx:if="{{showImportDialog}}" bindtap="hideImportDialog">
     <view class="import-dialog" catchtap="noop">
       <view class="import-title">导入标记</view>
-      <view class="import-hint">粘贴导出的标记代码</view>
+      <view class="import-hint">
+        <text class="hint-line">粘贴以 SCUM# 开头的导出代码，即可恢复之前备份的标记点</text>
+        <text class="hint-line hint-dim">导入会追加到现有标记中，不会覆盖</text>
+      </view>
       <textarea
         class="import-field"
         placeholder="粘贴 SCUM# 开头的代码"
@@ -249,6 +315,9 @@
         <view class="filter-close" catchtap="closeFilterPanel">✕</view>
       </view>
       <view class="filter-body" catchtap="noop">
+        <view class="filter-tip">
+          <text class="filter-tip-text">💡 自定义标记 = 你手动放置的点　　兴趣地点 = 游戏内预置的位置</text>
+        </view>
         <!-- 精简模式 -->
         <view wx:if="{{!filterFullMode}}">
           <!-- 自定义标记大类 -->
@@ -367,7 +436,7 @@
         </view>
       </view>
       <view class="filter-footer" catchtap="noop">
-        <text class="filter-footer-text">最多同时开启 5 个小类</text>
+        <text class="filter-footer-text">兴趣地点最多同时开启 5 个小类（自定义标记不受限）</text>
       </view>
     </view>
   </view>

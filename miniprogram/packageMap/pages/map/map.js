@@ -90,6 +90,7 @@ Page({
     bottomBarHeight: 0,
     coordLng: 0,
     coordLat: 0,
+    showGuide: false,
     showCoordInput: false,
     coordInputValue: '',
     zoomSliderPercent: 0,  // 缩放条位置百分比（0=底部最小，100=顶部最大）
@@ -146,6 +147,11 @@ Page({
     this._allUserMarkers = []  // 用户标记持久化数据源（不受筛选影响）
     const sysInfo = wx.getWindowInfo()
     if (sysInfo) this.setData({ statusBarHeight: sysInfo.statusBarHeight })
+
+    // 首次引导检查
+    if (!wx.getStorageSync('hasSeenGuide')) {
+      this.setData({ showGuide: true })
+    }
 
     // 预计算每个大类的小类数量
     const poiGroupCounts = {}
@@ -1351,6 +1357,11 @@ Page({
   /** 返回 */
   goBack() {
     wx.navigateBack()
+  },
+
+  dismissGuide() {
+    wx.setStorageSync('hasSeenGuide', true)
+    this.setData({ showGuide: false })
   },
 
   /** 手势结束 — 安排一次 POI 刷新（防抖 200ms，不打断 WXS 动画） */
