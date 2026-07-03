@@ -22,13 +22,12 @@ const MARKER_TYPE_COLORS = {
   box:     '#6BBF59'
 }
 
-// 安全区（交易区）配置 — 圆心坐标来自 scum-map.com 实测数据
-const SAFE_ZONE_RADIUS = 46000  // 游戏坐标单位（460米 × 100单位/米）
+// 安全区（交易区）配置 — 圆心坐标与半径来自游戏内实测数据
 const SAFE_ZONES = [
-  { id: 'sz_a0', name: 'A0 安全区', lng: -610581, lat: -557027 },
-  { id: 'sz_b4', name: 'B4 安全区', lng: 570708,  lat: -226174 },
-  { id: 'sz_c2', name: 'C2 安全区', lng: -147082, lat: 278432 },
-  { id: 'sz_z3', name: 'Z3 安全区', lng: 12563,   lat: -678195 }
+  { id: 'sz_a0', name: 'A0 安全区', lng: -610818, lat: -556433, radius: 50000 },
+  { id: 'sz_b4', name: 'B4 安全区', lng: 570708,  lat: -226174, radius: 30000 },
+  { id: 'sz_c2', name: 'C2 安全区', lng: -147082, lat: 278432,  radius: 50000 },
+  { id: 'sz_z3', name: 'Z3 安全区', lng: 12820,   lat: -678344, radius: 50000 }
 ]
 
 // 区域网格配置
@@ -559,14 +558,12 @@ Component({
     _initSafeZones() {
       const lngRange = GEO_BOUNDS.longitudeRight - GEO_BOUNDS.longitudeLeft  // 负值
       const latRange = GEO_BOUNDS.latitudeBottom - GEO_BOUNDS.latitudeTop    // 负值
-      // 半径用绝对值，避免负数导致尺寸为负
-      const rpx = SAFE_ZONE_RADIUS / Math.abs(lngRange) * FULL_MAP_SIZE
 
       const zones = SAFE_ZONES.map(z => ({
         id: z.id,
         px: (z.lng - GEO_BOUNDS.longitudeLeft) / lngRange * FULL_MAP_SIZE,
         py: (z.lat - GEO_BOUNDS.latitudeTop) / latRange * FULL_MAP_SIZE,
-        rpx: rpx
+        rpx: z.radius / Math.abs(lngRange) * FULL_MAP_SIZE
       }))
       this.setData({ safeZonesOnScreen: zones })
     },
