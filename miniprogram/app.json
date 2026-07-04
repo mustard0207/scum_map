@@ -8,6 +8,13 @@
       "pages": [
         "pages/map/map"
       ]
+    },
+    {
+      "root": "packageBunker",
+      "pages": [
+        "pages/index/index",
+        "pages/card-reader/card-reader"
+      ]
     }
   ],
   "window": {

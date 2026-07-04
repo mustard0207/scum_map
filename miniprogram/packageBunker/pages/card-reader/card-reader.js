@@ -1,0 +1,266 @@
+Page({
+  data: {
+    statusBarHeight: 0,
+    
+    // 输入数据
+    startValue: '',
+    redTarget: '',
+    blueTarget: '',
+    redOps: ['', '', '', '', '', '', '', ''],
+    blueOps: ['', '', '', '', '', '', '', ''],
+    
+    // UI状态
+    leftCol: [0, 1, 2, 3],
+    rightCol: [4, 5, 6, 7],
+    currentFocus: 'startValue', // 当前输入焦点
+    showResult: false,
+    showError: false,
+    resultArray: [], // 布尔数组，表示哪些开关开启
+    resultCount: 0
+  },
+
+  onLoad() {
+    const sysInfo = wx.getWindowInfo()
+    this.setData({
+      statusBarHeight: sysInfo.statusBarHeight
+    })
+  },
+
+  // 页面分享设定
+  onShareAppMessage() {
+    return {
+      title: 'SCUM 地堡读卡器破解计算器',
+      path: '/packageBunker/pages/card-reader/card-reader'
+    }
+  },
+
+  onShareTimeline() {
+    return {
+      title: 'SCUM 地堡读卡器破解计算器'
+    }
+  },
+
+  // 返回上一页
+  goBack() {
+    const pages = getCurrentPages()
+    if (pages.length > 1) {
+      wx.navigateBack({
+        delta: 1
+      })
+    } else {
+      // 如果是通过分享单页点进来，历史栈为空，则重定向回首页
+      wx.reLaunch({
+        url: '/pages/index/index'
+      })
+    }
+  },
+
+  // 切换输入焦点
+  setFocus(e) {
+    const id = e.currentTarget.dataset.id
+    this.setData({ 
+      currentFocus: id,
+      showResult: false,
+      showError: false
+    })
+  },
+
+  // 自动跳到下一个输入框
+  nextFocus() {
+    const order = [
+      'startValue', 'redTarget', 'blueTarget',
+      'r0', 'b0', 'r1', 'b1', 'r2', 'b2', 'r3', 'b3',
+      'r4', 'b4', 'r5', 'b5', 'r6', 'b6', 'r7', 'b7'
+    ]
+    const idx = order.indexOf(this.data.currentFocus)
+    if (idx !== -1 && idx < order.length - 1) {
+      this.setData({ currentFocus: order[idx + 1] })
+    }
+  },
+
+  // 键盘输入字符
+  inputChar(e) {
+    const char = e.currentTarget.dataset.char
+    const focus = this.data.currentFocus
+    if (!focus) return
+
+    let currentVal = ''
+    if (focus.startsWith('r') && focus.length === 2) {
+      const idx = parseInt(focus[1])
+      currentVal = this.data.redOps[idx]
+      const newOps = [...this.data.redOps]
+      newOps[idx] = currentVal + char
+      this.setData({ redOps: newOps })
+    } else if (focus.startsWith('b') && focus.length === 2) {
+      const idx = parseInt(focus[1])
+      currentVal = this.data.blueOps[idx]
+      const newOps = [...this.data.blueOps]
+      newOps[idx] = currentVal + char
+      this.setData({ blueOps: newOps })
+    } else {
+      currentVal = this.data[focus]
+      this.setData({ [focus]: currentVal + char })
+    }
+  },
+
+  // 键盘退格
+  backspace() {
+    const focus = this.data.currentFocus
+    if (!focus) return
+
+    let currentVal = ''
+    if (focus.startsWith('r') && focus.length === 2) {
+      const idx = parseInt(focus[1])
+      currentVal = this.data.redOps[idx]
+      if (currentVal.length > 0) {
+        const newOps = [...this.data.redOps]
+        newOps[idx] = currentVal.slice(0, -1)
+        this.setData({ redOps: newOps })
+      }
+    } else if (focus.startsWith('b') && focus.length === 2) {
+      const idx = parseInt(focus[1])
+      currentVal = this.data.blueOps[idx]
+      if (currentVal.length > 0) {
+        const newOps = [...this.data.blueOps]
+        newOps[idx] = currentVal.slice(0, -1)
+        this.setData({ blueOps: newOps })
+      }
+    } else {
+      currentVal = this.data[focus]
+      if (currentVal && currentVal.length > 0) {
+        this.setData({ [focus]: currentVal.slice(0, -1) })
+      }
+    }
+  },
+
+  // 二次确认清空
+  confirmReset() {
+    wx.showModal({
+      title: '⚠️ 确认清空',
+      content: '确定要清空所有已输入的数据吗？',
+      cancelText: '清空',
+      cancelColor: '#ff4444',
+      confirmText: '取消',
+      confirmColor: '#333333',
+      success: (res) => {
+        if (res.cancel) {
+          // 在微信弹窗中，cancel对应左侧按钮
+          this.resetAll()
+        }
+      }
+    })
+  },
+
+  // 全部清空
+  resetAll() {
+    this.setData({
+      startValue: '', redTarget: '', blueTarget: '',
+      redOps: ['', '', '', '', '', '', '', ''],
+      blueOps: ['', '', '', '', '', '', '', ''],
+      currentFocus: 'startValue',
+      showResult: false,
+      showError: false
+    })
+  },
+
+  hideResult() {
+    this.setData({
+      showResult: false,
+      showError: false
+    })
+  },
+
+  // 辅助函数：执行单步算术运算
+  evaluate(current, opStr) {
+    if (!opStr || opStr.trim() === '') return current;
+    const op = opStr.charAt(0);
+    const num = parseFloat(opStr.substring(1));
+    if (isNaN(num)) return current; // 解析失败忽略
+
+    switch (op) {
+      case '+': return current + num;
+      case '-': return current - num;
+      case '*': return current * num;
+      case 'x': return current * num; // 兼容 'x'
+      case '/': return current / num;
+      case '÷': return current / num;
+      default: return current;
+    }
+  },
+
+  // 核心破解计算
+  calculate() {
+    const { startValue, redTarget, blueTarget, redOps, blueOps } = this.data
+
+    const rStart = parseFloat(startValue)
+    const rTarget = parseFloat(redTarget)
+    
+    // 如果没有填目标，就直接报错
+    if (isNaN(rStart) || isNaN(rTarget)) {
+      wx.showToast({ title: '请输入初始值与红色通道目标值', icon: 'none' })
+      return
+    }
+
+    // 判断是否是双通道 (只要蓝通道填了目标就算)
+    const isDual = blueTarget.trim() !== ''
+    const bStart = rStart // 蓝通道的初始值和红通道一样
+    const bTarget = isDual ? parseFloat(blueTarget) : 0
+
+    if (isDual && isNaN(bTarget)) {
+      wx.showToast({ title: '双通道模式下请填写蓝通道完整数值', icon: 'none' })
+      return
+    }
+
+    // 穷举 0~255 (2^8)
+    let found = false
+    let bestCombo = []
+
+    for (let i = 0; i < 256; i++) {
+      let currentRed = rStart
+      let currentBlue = bStart
+      let combo = []
+
+      for (let bit = 0; bit < 8; bit++) {
+        // 判断第 bit 位是否为 1 (开关是否开启)
+        const isOn = (i & (1 << bit)) !== 0
+        combo.push(isOn)
+
+        if (isOn) {
+          currentRed = this.evaluate(currentRed, redOps[bit])
+          if (isDual) {
+            currentBlue = this.evaluate(currentBlue, blueOps[bit])
+          }
+        }
+      }
+
+      // 验证是否满足条件 (允许极其微小的浮点误差)
+      const redMatch = Math.abs(currentRed - rTarget) < 0.0001
+      const blueMatch = isDual ? Math.abs(currentBlue - bTarget) < 0.0001 : true
+
+      if (redMatch && blueMatch) {
+        found = true
+        bestCombo = combo
+        break // 找到一个解就停止
+      }
+    }
+
+    if (found) {
+      const count = bestCombo.filter(v => v).length
+      this.setData({
+        showResult: true,
+        showError: false,
+        resultArray: bestCombo,
+        resultCount: count,
+        currentFocus: '' // 隐藏光标
+      })
+      wx.vibrateShort() // 震动反馈
+    } else {
+      this.setData({
+        showResult: false,
+        showError: true,
+        currentFocus: ''
+      })
+      wx.vibrateLong()
+    }
+  }
+})

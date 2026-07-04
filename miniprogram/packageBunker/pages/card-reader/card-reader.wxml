@@ -1,0 +1,140 @@
+<view class="page">
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="back-btn" bindtap="goBack">‹</view>
+      <text class="nav-title">废弃地堡计算器</text>
+    </view>
+  </view>
+
+  <view class="main-content" style="padding-top: {{statusBarHeight + 44}}px;">
+    
+    <!-- 上半部：输入展示区 -->
+    <view class="top-section">
+      <!-- 目标值设定区 -->
+      <view class="target-section">
+        <!-- 统一初始值 -->
+        <view class="target-box">
+          <view class="target-label">初始值</view>
+          <view class="mock-input target-input {{currentFocus === 'startValue' ? 'focused' : ''}}" bindtap="setFocus" data-id="startValue">
+            {{startValue || ''}}
+          </view>
+        </view>
+
+        <view class="target-arrow">➔</view>
+
+        <!-- 红色目标 -->
+        <view class="target-box red-target-box">
+          <view class="target-label">红目标(A)</view>
+          <view class="mock-input target-input red-text {{currentFocus === 'redTarget' ? 'focused' : ''}}" bindtap="setFocus" data-id="redTarget">
+            {{redTarget || ''}}
+          </view>
+        </view>
+
+        <view class="target-arrow">➔</view>
+
+        <!-- 蓝色目标 -->
+        <view class="target-box blue-target-box">
+          <view class="target-label">蓝目标(B)</view>
+          <view class="mock-input target-input blue-text {{currentFocus === 'blueTarget' ? 'focused' : ''}}" bindtap="setFocus" data-id="blueTarget">
+            {{blueTarget || ''}}
+          </view>
+        </view>
+      </view>
+
+      <!-- 双列开关区 -->
+      <view class="switches-grid">
+        <!-- 左列 (1-4) -->
+        <view class="grid-col">
+          <block wx:for="{{leftCol}}" wx:key="*this">
+            <view class="switch-row {{showResult ? (resultArray[item] ? 'is-active' : 'is-dimmed') : ''}}">
+              <view class="switch-index">{{item + 1}}.</view>
+              <view class="mock-input red-input {{currentFocus === 'r' + item ? 'focused' : ''}}" 
+                    bindtap="setFocus" data-id="r{{item}}">
+                {{redOps[item] || ''}}
+              </view>
+              <view class="mock-input blue-input {{currentFocus === 'b' + item ? 'focused' : ''}}" 
+                    bindtap="setFocus" data-id="b{{item}}">
+                {{blueOps[item] || ''}}
+              </view>
+            </view>
+          </block>
+        </view>
+        
+        <!-- 右列 (5-8) -->
+        <view class="grid-col">
+          <block wx:for="{{rightCol}}" wx:key="*this">
+            <view class="switch-row {{showResult ? (resultArray[item] ? 'is-active' : 'is-dimmed') : ''}}">
+              <view class="switch-index">{{item + 1}}.</view>
+              <view class="mock-input red-input {{currentFocus === 'r' + item ? 'focused' : ''}}" 
+                    bindtap="setFocus" data-id="r{{item}}">
+                {{redOps[item] || ''}}
+              </view>
+              <view class="mock-input blue-input {{currentFocus === 'b' + item ? 'focused' : ''}}" 
+                    bindtap="setFocus" data-id="b{{item}}">
+                {{blueOps[item] || ''}}
+              </view>
+            </view>
+          </block>
+        </view>
+      </view>
+    </view> <!-- top-section end -->
+
+    <!-- 下半部：操作与结果区 -->
+    <view class="bottom-section">
+      <!-- 结果面板 -->
+      <view class="result-panel" wx:if="{{showResult}}">
+        <view class="result-title">✅ 破解成功！请在游戏内拨动：</view>
+        <view class="result-numbers">
+          <text class="result-badge" wx:for="{{resultArray}}" wx:key="*this" wx:if="{{item}}">开关 {{index + 1}}</text>
+        </view>
+        <view wx:if="{{resultCount === 0}}" class="result-none">不需要打开任何开关</view>
+        <view class="result-warning" style="color: #ff4444; font-size: 26rpx; text-align: center; margin-top: 15rpx; font-weight: bold;">记得最后按拉杆开关打开大门！</view>
+        <view class="result-actions">
+          <view class="btn-secondary" bindtap="hideResult">返回修改</view>
+          <view class="btn-primary" bindtap="resetAll">重新开始</view>
+        </view>
+      </view>
+
+      <view class="result-panel" wx:if="{{showError}}">
+        <view class="result-title" style="color: #ff4444;">❌ 破解失败</view>
+        <view class="result-none">未找到能够达成目标的开关组合，请检查输入是否有误或遗漏。</view>
+        <view class="result-actions">
+          <view class="btn-secondary" bindtap="hideResult">检查输入</view>
+          <view class="btn-primary" bindtap="resetAll">重新开始</view>
+        </view>
+      </view>
+
+      <!-- 自定义大键盘 -->
+      <view class="custom-keyboard" wx:if="{{!showResult && !showError}}">
+        <view class="kb-row">
+          <view class="kb-key op-key" bindtap="inputChar" data-char="+">+</view>
+          <view class="kb-key" bindtap="inputChar" data-char="1">1</view>
+          <view class="kb-key" bindtap="inputChar" data-char="2">2</view>
+          <view class="kb-key" bindtap="inputChar" data-char="3">3</view>
+        </view>
+        <view class="kb-row">
+          <view class="kb-key op-key" bindtap="inputChar" data-char="-">-</view>
+          <view class="kb-key" bindtap="inputChar" data-char="4">4</view>
+          <view class="kb-key" bindtap="inputChar" data-char="5">5</view>
+          <view class="kb-key" bindtap="inputChar" data-char="6">6</view>
+        </view>
+        <view class="kb-row">
+          <view class="kb-key op-key" bindtap="inputChar" data-char="*">*</view>
+          <view class="kb-key" bindtap="inputChar" data-char="7">7</view>
+          <view class="kb-key" bindtap="inputChar" data-char="8">8</view>
+          <view class="kb-key" bindtap="inputChar" data-char="9">9</view>
+        </view>
+        <view class="kb-row">
+          <view class="kb-key op-key" bindtap="inputChar" data-char="/">/</view>
+          <view class="kb-key fn-key" bindtap="backspace">删除</view>
+          <view class="kb-key" bindtap="inputChar" data-char="0">0</view>
+          <view class="kb-key fn-key" bindtap="nextFocus">换格</view>
+        </view>
+        <view class="kb-row" style="margin-top: 10px;">
+          <view class="kb-key" style="flex: 0.3; background: #3a1a1a; color: #ff4444; font-size: 16px; font-weight: normal;" bindtap="confirmReset">清空</view>
+          <view class="kb-key calc-btn" style="flex: 0.7;" bindtap="calculate">执行破解计算</view>
+        </view>
+      </view>
+    </view> <!-- bottom-section end -->
+  </view>
+</view>

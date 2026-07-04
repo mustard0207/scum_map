@@ -1,0 +1,45 @@
+<view class="page">
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="back-btn" bindtap="goBack">‹</view>
+      <text class="nav-title">地堡工具</text>
+    </view>
+  </view>
+
+  <view class="main" style="padding-top: {{statusBarHeight + 44}}px;">
+    <view class="list-container">
+      <view class="feature-card" bindtap="goToCardReader">
+        <view class="feature-icon-area">
+          <text class="feature-glyph">🧮</text>
+        </view>
+        <view class="feature-info">
+          <text class="feature-title">废弃地堡计算器</text>
+          <text class="feature-desc">支持快速破解地堡大门（使用【换格】按钮可快速切到下一格）</text>
+        </view>
+        <view class="feature-arrow">›</view>
+      </view>
+
+      <view class="feature-card disabled" bindtap="showComingSoon">
+        <view class="feature-icon-area">
+          <text class="feature-glyph" style="color: #888;">⌨️</text>
+        </view>
+        <view class="feature-info">
+          <text class="feature-title" style="color: #888;">密码锁助手</text>
+          <text class="feature-desc" style="color: #555;">开发中</text>
+        </view>
+        <view class="feature-arrow" style="color: #555;">›</view>
+      </view>
+
+      <view class="feature-card disabled" bindtap="showComingSoon">
+        <view class="feature-icon-area">
+          <text class="feature-glyph" style="color: #888;">⏱️</text>
+        </view>
+        <view class="feature-info">
+          <text class="feature-title" style="color: #888;">保险丝计时器</text>
+          <text class="feature-desc" style="color: #555;">开发中</text>
+        </view>
+        <view class="feature-arrow" style="color: #555;">›</view>
+      </view>
+    </view>
+  </view>
+</view>

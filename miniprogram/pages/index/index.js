@@ -19,6 +19,11 @@ Page({
     wx.navigateTo({ url: '/packageMap/pages/map/map' })
   },
 
+  // 进入地堡工具页
+  goToBunker() {
+    wx.navigateTo({ url: '/packageBunker/pages/index/index' })
+  },
+
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

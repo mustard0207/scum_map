@@ -22,11 +22,23 @@
         <!-- 地图功能 -->
         <view class="feature-card" bindtap="goToMap">
           <view class="feature-icon-area">
-            <text class="feature-glyph">◇</text>
+            <text class="feature-glyph">🗺️</text>
           </view>
           <view class="feature-info">
             <text class="feature-title">SCUM游戏地图</text>
             <text class="feature-desc">查看和标记游戏地图位置</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
+
+        <!-- 地堡解密工具 -->
+        <view class="feature-card" bindtap="goToBunker">
+          <view class="feature-icon-area">
+            <text class="feature-glyph">🧮</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">地堡工具</text>
+            <text class="feature-desc">读卡器、密码锁等计算辅助</text>
           </view>
           <view class="feature-arrow">›</view>
         </view>

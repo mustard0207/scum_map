@@ -97,19 +97,19 @@
 }
 
 .feature-icon-area {
-  width: 72rpx;
-  height: 72rpx;
+  width: 96rpx;
+  height: 96rpx;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(255, 176, 0, 0.1);
-  border-radius: 12rpx;
+  border-radius: 16rpx;
   margin-right: 24rpx;
   flex-shrink: 0;
 }
 
 .feature-glyph {
-  font-size: 36rpx;
+  font-size: 48rpx;
   color: #FFB000;
 }
 
