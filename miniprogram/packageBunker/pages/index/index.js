@@ -35,7 +35,15 @@ Page({
   },
 
   goToCardReader() {
-    wx.navigateTo({ url: '/packageBunker/pages/card-reader/card-reader' })
+    wx.navigateTo({
+      url: '/packageBunker/pages/card-reader/card-reader'
+    })
+  },
+
+  goToFuseTimer() {
+    wx.navigateTo({
+      url: '/packageBunker/pages/fuse-timer/fuse-timer'
+    })
   },
 
   showComingSoon() {

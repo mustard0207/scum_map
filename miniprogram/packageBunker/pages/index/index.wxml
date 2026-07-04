@@ -16,29 +16,31 @@
           <text class="feature-title">废弃地堡计算器</text>
           <text class="feature-desc">支持快速破解地堡大门（使用【换格】按钮可快速切到下一格）</text>
         </view>
-        <view class="feature-arrow">›</view>
       </view>
 
-      <view class="feature-card disabled" bindtap="showComingSoon">
+      <!-- 密码锁助手 (开发中，暂时隐藏) -->
+      <!-- 
+      <view class="feature-card feature-disabled">
         <view class="feature-icon-area">
-          <text class="feature-glyph" style="color: #888;">⌨️</text>
+          <text class="feature-glyph" style="color: #4a4a4a;">⌨️</text>
         </view>
         <view class="feature-info">
           <text class="feature-title" style="color: #888;">密码锁助手</text>
-          <text class="feature-desc" style="color: #555;">开发中</text>
+          <text class="feature-desc" style="color: #555;">(开发中...)</text>
         </view>
-        <view class="feature-arrow" style="color: #555;">›</view>
+        <view class="feature-badge">敬请期待</view>
       </view>
+      -->
 
-      <view class="feature-card disabled" bindtap="showComingSoon">
+      <view class="feature-card" bindtap="goToFuseTimer">
         <view class="feature-icon-area">
-          <text class="feature-glyph" style="color: #888;">⏱️</text>
+          <text class="feature-glyph">⏱️</text>
         </view>
         <view class="feature-info">
-          <text class="feature-title" style="color: #888;">保险丝计时器</text>
-          <text class="feature-desc" style="color: #555;">开发中</text>
+          <text class="feature-title">保险丝计时器</text>
+          <text class="feature-desc">AI语音播报提醒，脱机防断电沉浸式逃生秒表</text>
         </view>
-        <view class="feature-arrow" style="color: #555;">›</view>
+        <view class="feature-arrow">›</view>
       </view>
     </view>
   </view>

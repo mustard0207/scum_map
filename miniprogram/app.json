@@ -13,7 +13,8 @@
       "root": "packageBunker",
       "pages": [
         "pages/index/index",
-        "pages/card-reader/card-reader"
+        "pages/card-reader/card-reader",
+        "pages/fuse-timer/fuse-timer"
       ]
     }
   ],

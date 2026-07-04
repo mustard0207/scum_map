@@ -1,0 +1,77 @@
+<view class="page">
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="back-btn" bindtap="goBack">‹</view>
+      <text class="nav-title">保险丝计时器</text>
+    </view>
+  </view>
+
+  <view class="main-content" style="padding-top: {{statusBarHeight + 44}}px;">
+    
+    <!-- 顶部：极速参数配置区 -->
+    <view class="config-section {{isRunning ? 'locked' : ''}}">
+      
+      <!-- 安培数选择 -->
+      <view class="config-group">
+        <view class="config-label">最大安培数 (Amperage)</view>
+        <view class="amp-selector">
+          <view class="amp-btn {{amperage === 200 ? 'active' : ''}}" bindtap="setAmperage" data-val="200">200A</view>
+          <view class="amp-btn {{amperage === 400 ? 'active' : ''}}" bindtap="setAmperage" data-val="400">400A</view>
+          <view class="amp-btn {{amperage === 600 ? 'active' : ''}}" bindtap="setAmperage" data-val="600">600A</view>
+          <view class="amp-btn {{amperage === 800 ? 'active' : ''}}" bindtap="setAmperage" data-val="800">800A</view>
+          <view class="amp-btn {{amperage === 1000 ? 'active' : ''}}" bindtap="setAmperage" data-val="1000">1000A</view>
+        </view>
+      </view>
+
+      <!-- 耐久度输入 -->
+      <view class="config-group">
+        <view class="config-label">当前耐久度 (Durability)</view>
+        <view class="durability-stepper">
+          <view class="step-group">
+            <view class="step-btn" bindtap="stepDurability" data-val="-10">-10</view>
+            <view class="step-btn" bindtap="stepDurability" data-val="-1">-1</view>
+          </view>
+          <view class="durability-display">
+            <text class="durability-val">{{durability}}</text>
+            <text class="durability-unit">%</text>
+          </view>
+          <view class="step-group">
+            <view class="step-btn" bindtap="stepDurability" data-val="1">+1</view>
+            <view class="step-btn" bindtap="stepDurability" data-val="10">+10</view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 预估时长提示 -->
+      <view class="estimate-time">
+        满载可供电: <text class="highlight">{{estimateText}}</text>
+      </view>
+    </view>
+
+    <!-- 中部：深渊凝视倒计时 -->
+    <view class="timer-section">
+      <view class="timer-circle {{alertLevel}}">
+        <text class="time-display">{{timeDisplay}}</text>
+        <text class="time-label" wx:if="{{alertLevel === 'safe'}}">正常供电中</text>
+        <text class="time-label" wx:elif="{{alertLevel === 'warning'}}">电量告急</text>
+        <text class="time-label" wx:elif="{{alertLevel === 'danger'}}">极度危险</text>
+        <text class="time-label" wx:elif="{{alertLevel === 'dead'}}">电力中断</text>
+        <text class="time-label" wx:else>待机中</text>
+      </view>
+    </view>
+
+    <!-- 底部：超大面积盲按区 -->
+    <view class="controls-section">
+      <view class="control-row">
+        <view class="btn-reset" bindtap="resetTimer">
+          <text class="icon">🔄</text>
+          换新
+        </view>
+        <view class="btn-main {{isRunning ? 'btn-pause' : 'btn-start'}}" bindtap="toggleTimer">
+          {{isRunning ? '拉闸 (PAUSE)' : '通电 (START)'}}
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>
