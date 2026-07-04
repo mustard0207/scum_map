@@ -76,7 +76,14 @@
   background: #6BBF59;
 }
 
-/* 过期警告：红白缓慢闪烁 */
+/* 静态的残缺车辆提醒（废土暗橙色，不闪烁） */
+.marker-incomplete {
+  background: #C85A17 !important;
+  border-color: #FF5500 !important;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.4), 0 0 4px rgba(255, 85, 0, 0.6) !important;
+}
+
+/* 过期警告：红白缓慢闪烁 (定义在后面以保证优先级高于 incomplete) */
 .marker-expiring {
   border-color: #FF3333;
   box-shadow: 0 0 8px rgba(255, 50, 50, 0.8);

@@ -79,7 +79,7 @@
   <view
     wx:for="{{markersOnScreen}}"
     wx:key="id"
-    class="map-marker {{item.type ? 'marker-typed' : ''}} {{item.expiring ? 'marker-expiring' : ''}}"
+    class="map-marker {{item.type ? 'marker-typed' : ''}} {{item.isIncomplete ? 'marker-incomplete' : ''}} {{item.expiring ? 'marker-expiring' : ''}}"
     style="{{item.typeColor ? 'background:' + item.typeColor : ''}};{{item.pulseDelay ? 'animation-delay:' + item.pulseDelay : ''}}"
     data-id="{{item.id}}"
     data-px="{{item.px}}"

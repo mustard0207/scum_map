@@ -58,6 +58,33 @@ const MARKER_TYPES = {
   box:     { emoji: '📦', label: '储物箱', color: '#6BBF59' }
 }
 
+const VEHICLE_TYPES = [
+  { id: 1, name: '拉各', icon: '🚚', parts: ['engine', 'battery', 'alternator', 'door_fl', 'door_fr', 'door_rl', 'door_rr', 'seat_fl', 'seat_fr'], wheelCount: 4, wheelBits: ['wheel_fl', 'wheel_fr', 'wheel_rl', 'wheel_rr'] },
+  { id: 2, name: '太众', icon: '🚗', parts: ['engine', 'battery', 'alternator', 'door_fl', 'door_fr', 'door_rl', 'door_rr', 'seat_fl', 'seat_fr'], wheelCount: 4, wheelBits: ['wheel_fl', 'wheel_fr', 'wheel_rl', 'wheel_rr'] },
+  { id: 3, name: '莱卡', icon: '🚙', parts: ['engine', 'battery', 'alternator', 'door_fl', 'door_fr', 'seat_fl', 'seat_fr'], wheelCount: 4, wheelBits: ['wheel_fl', 'wheel_fr', 'wheel_rl', 'wheel_rr'] },
+  { id: 4, name: 'RIS', icon: '🏎️', parts: ['engine', 'battery', 'body'], wheelCount: 4, wheelBits: ['wheel_fl', 'wheel_fr', 'wheel_rl', 'wheel_rr'] },
+  { id: 5, name: '三轮摩托', icon: '🛵', parts: ['engine', 'battery', 'seat_f', 'seat_r'], wheelCount: 3, wheelBits: ['wheel_f', 'wheel_rl', 'wheel_rr'] },
+  { id: 6, name: '巡航摩托', icon: '🏍️', parts: ['engine', 'battery', 'wheel_f', 'wheel_r', 'seat_f', 'seat_r'] },
+  { id: 7, name: '越野摩托', icon: '🏍️', parts: ['engine', 'battery', 'wheel_f', 'wheel_r', 'seat_f', 'seat_r', 'body'] },
+  { id: 8, name: '山地单车', icon: '🚲', parts: [], wheelCount: 2, wheelBits: ['wheel_f', 'wheel_r'] },
+  { id: 9, name: '城市单车', icon: '🚲', parts: [], wheelCount: 2, wheelBits: ['wheel_f', 'wheel_r'] },
+  { id: 10, name: '手推车', icon: '🛒', parts: [] },
+  { id: 11, name: '摩托艇', icon: '🚤', parts: [] },
+  { id: 12, name: '木船', icon: '⛵', parts: [] },
+  { id: 13, name: '飞机', icon: '✈️', parts: [] },
+  { id: 14, name: '拖拉机', icon: '🚜', parts: ['engine', 'battery', 'alternator'], wheelCount: 2, wheelBits: ['wheel_fl', 'wheel_fr'] }
+]
+
+const PART_BITS = {
+  engine: 1, battery: 2, alternator: 4,
+  door_fl: 8, door_fr: 16, door_rl: 32, door_rr: 64,
+  wheel_fl: 128, wheel_fr: 256, wheel_rl: 512, wheel_rr: 1024,
+  wheel_f: 2048, wheel_r: 4096,
+  seat_fl: 8192, seat_f: 8192,
+  seat_fr: 16384, seat_r: 16384,
+  body: 32768
+}
+
 // 用户标记数量上限（与 POI 标记独立计数）
 const USER_MARKER_LIMIT = 100
 
@@ -123,7 +150,10 @@ Page({
     filterFullMode: false,          // 完整版筛选模式
     expandedGroups: {},             // 展开的大类
     poiCatName: '',                 // 当前选中 POI 的小类名
+    showVehiclePartsEditor: false,  // 是否展开载具配件编辑面板
     markerTypes: MARKER_TYPES,      // 自定义标记类型配置
+    vehicleTypes: VEHICLE_TYPES,    // 载具类型配置
+    partBits: PART_BITS,            // 载具配件位掩码映射
     // 自定义标记类型筛选
     userMarkerFilterTypes: USER_MARKER_FILTER_TYPES,
     showUserMarkers: true,          // 大类总开关
@@ -188,19 +218,31 @@ Page({
     let shareLatLng = null
 
     if (options.markers) {
-      // 新格式：多个标记 markers=lng1,lat1,name1,type1|lng2,lat2,name2,type2|...
+      // 新格式：多个标记 markers=lng1,lat1,name1,type1,createdAt,vid,mask|...
       const sharedMarkers = options.markers.split('|').map((item, i) => {
         const parts = item.split(',')
         const type = parts[3] || ''
         const typeConf = MARKER_TYPES[type]
         const createdAt = parseInt(parts[4]) || Math.floor(Date.now() / 1000)
+        let vehicleId = 0
+        let partsMask = 0xFFFF
+        let emoji = typeConf ? typeConf.emoji : ''
+        if (type === 'vehicle' && parts.length >= 7) {
+          vehicleId = parseInt(parts[5]) || 1
+          partsMask = parseInt(parts[6])
+          if (isNaN(partsMask)) partsMask = 0xFFFF
+          const vehicle = VEHICLE_TYPES.find(v => v.id === vehicleId)
+          if (vehicle && vehicle.icon) emoji = vehicle.icon
+        }
         return {
           id: 'shared_' + Date.now() + '_' + i,
           lng: parseFloat(parts[0]),
           lat: parseFloat(parts[1]),
           name: parts[2] ? decodeURIComponent(parts[2]) : '',
           type,
-          emoji: typeConf ? typeConf.emoji : '',
+          vehicleId,
+          partsMask,
+          emoji,
           createdAt
         }
       }).filter(m => !isNaN(m.lng) && !isNaN(m.lat))
@@ -380,6 +422,8 @@ Page({
         lat: geo.lat,
         name: '',
         type: '',
+        vehicleId: 0,
+        partsMask: 0xFFFF,
         createdAt: Math.floor(Date.now() / 1000)
       }
       this._allUserMarkers.push(newMarker)
@@ -454,6 +498,8 @@ Page({
         lat: coord.lat,
         name: '',
         type: '',
+        vehicleId: 0,
+        partsMask: 0xFFFF,
         createdAt: Math.floor(Date.now() / 1000)
       }
       this._allUserMarkers.push(newMarker)
@@ -503,7 +549,8 @@ Page({
       const setData = {
         selectedMarker: marker,
         selectedMarkerIndex: userIdx,
-        showInfoWindow: true
+        showInfoWindow: true,
+        showVehiclePartsEditor: marker.type === 'vehicle' && marker.partsMask !== undefined && marker.partsMask !== 65535
       }
       // POI 标记显示小类名
       if (marker.src === 'poi' && marker.cat) {
@@ -538,6 +585,13 @@ Page({
     const newType = marker.type === type ? '' : type
     const typeConf = MARKER_TYPES[newType]
     const update = { type: newType, emoji: typeConf ? typeConf.emoji : '' }
+    // 如果是切换为载具，初始化 vehicleId 并覆盖专用图标
+    if (newType === 'vehicle') {
+      update.vehicleId = marker.vehicleId || 1
+      update.partsMask = marker.partsMask !== undefined ? marker.partsMask : 0xFFFF
+      const vehicle = VEHICLE_TYPES.find(v => v.id === update.vehicleId)
+      if (vehicle && vehicle.icon) update.emoji = vehicle.icon
+    }
     // 更新 _allUserMarkers
     const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
     if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
@@ -546,6 +600,99 @@ Page({
       selectedMarker: { ...marker, ...update }
     })
     this._updateInfoWindowExpiry()
+    this._onUserChange()
+  },
+
+  /** 切换载具种类 */
+  onVehicleTypeChange(e) {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.type !== 'vehicle') return
+    const vehicleId = parseInt(e.currentTarget.dataset.id)
+    const update = { vehicleId, partsMask: 0xFFFF } // 重置部件状态为满配
+    const vehicle = VEHICLE_TYPES.find(v => v.id === vehicleId)
+    if (vehicle && vehicle.icon) {
+      update.emoji = vehicle.icon
+    }
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
+    this._rebuildDisplayMarkers()
+    this.setData({ selectedMarker: { ...marker, ...update } })
+    this._onUserChange()
+  },
+
+  /** 切换载具特定部件状态 */
+  toggleVehiclePart(e) {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.type !== 'vehicle') return
+    const partName = e.currentTarget.dataset.part
+    const partBit = PART_BITS[partName]
+    if (!partBit) return
+    const currentMask = marker.partsMask !== undefined ? marker.partsMask : 0xFFFF
+    // 异或运算切换对应位
+    const newMask = currentMask ^ partBit
+    const update = { partsMask: newMask }
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
+    this._rebuildDisplayMarkers()
+    this.setData({ selectedMarker: { ...marker, ...update } })
+    this._onUserChange()
+  },
+
+  /** 增减车轮数量 */
+  changeWheelCount(e) {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.type !== 'vehicle') return
+    const delta = parseInt(e.currentTarget.dataset.delta)
+    const vehicle = VEHICLE_TYPES.find(v => v.id === (marker.vehicleId || 1))
+    if (!vehicle || !vehicle.wheelBits) return
+
+    let currentMask = marker.partsMask !== undefined ? marker.partsMask : 0xFFFF
+    
+    if (delta > 0) {
+      // 增加轮子：找到一个当前为 0 的 bit 并将其设为 1
+      for (let bitName of vehicle.wheelBits) {
+        const bit = PART_BITS[bitName]
+        if ((currentMask & bit) === 0) {
+          currentMask |= bit
+          break
+        }
+      }
+    } else if (delta < 0) {
+      // 减少轮子：找到一个当前为 1 的 bit 并将其清零
+      for (let bitName of vehicle.wheelBits) {
+        const bit = PART_BITS[bitName]
+        if ((currentMask & bit) !== 0) {
+          currentMask &= ~bit
+          break
+        }
+      }
+    }
+
+    const update = { partsMask: currentMask }
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
+    this._rebuildDisplayMarkers()
+    this.setData({ selectedMarker: { ...marker, ...update } })
+    this._onUserChange()
+  },
+
+  /** 展开载具配件编辑面板 */
+  openVehiclePartsEditor() {
+    this.setData({ showVehiclePartsEditor: true })
+  },
+
+  /** 恢复载具完整状态并折叠面板 */
+  resetVehicleParts() {
+    const marker = this.data.selectedMarker
+    if (!marker || marker.type !== 'vehicle') return
+    const update = { partsMask: 0xFFFF }
+    const idx = this._allUserMarkers.findIndex(m => m.id === marker.id)
+    if (idx >= 0) this._allUserMarkers[idx] = { ...this._allUserMarkers[idx], ...update }
+    this._rebuildDisplayMarkers()
+    this.setData({ 
+      selectedMarker: { ...marker, ...update },
+      showVehiclePartsEditor: false 
+    })
     this._onUserChange()
   },
 
@@ -741,13 +888,14 @@ Page({
 
   /**
    * 编码标记为二进制紧凑格式
-   * 格式：'S' + count(1B) + 绝对坐标(10B) + 偏移(varint)...
+   * 版本 0x55：'U' + count(1B) + 绝对坐标(10B) + 偏移(varint) + name + type + createdAt
+   * 版本 0x56：'V' 同上，若 type===2 则追加 1B vehicleId + 2B partsMask
    * 坐标精度：4 位小数（×10000）
    * 前缀：SCUM#
    */
   _encodeMarkers(markers) {
     const bytes = []
-    bytes.push(0x55) // 'U' — 版本标识（含类型+createdAt字段）
+    bytes.push(0x56) // 'V' — 版本 0x56
     bytes.push(markers.length & 0xFF)
 
     for (let i = 0; i < markers.length; i++) {
@@ -773,16 +921,25 @@ Page({
       this._writeVarint(bytes, nameBytes.length)
       for (let j = 0; j < nameBytes.length; j++) bytes.push(nameBytes[j])
 
-      // 类型：1 字节（0x00=无, 0x01=house, 0x02=vehicle, 0x03=box）
+      // 类型：1 字节 (0x00=无, 0x01=house, 0x02=vehicle, 0x03=box)
       const typeCode = m.type === 'house' ? 1 : m.type === 'vehicle' ? 2 : m.type === 'box' ? 3 : 0
       bytes.push(typeCode)
 
-      // createdAt：4 字节 uint32（秒级时间戳）
+      // createdAt：4 字节 uint32
       const ts = m.createdAt || 0
       bytes.push((ts >>> 24) & 0xFF)
       bytes.push((ts >>> 16) & 0xFF)
       bytes.push((ts >>> 8) & 0xFF)
       bytes.push(ts & 0xFF)
+      
+      // 如果是载具且版本为 0x56，追加载具扩展数据
+      if (typeCode === 2) {
+        const vid = m.vehicleId || 0
+        bytes.push(vid & 0xFF)
+        const mask = m.partsMask !== undefined ? m.partsMask : 0xFFFF
+        bytes.push((mask >>> 8) & 0xFF)
+        bytes.push(mask & 0xFF)
+      }
     }
 
     const ab = new ArrayBuffer(bytes.length)
@@ -801,9 +958,9 @@ Page({
       const ab = wx.base64ToArrayBuffer(payload)
       const bytes = new Uint8Array(ab)
 
-      // 检查是否为二进制格式（0x53=旧版 / 0x54=含类型 / 0x55=含类型+createdAt）
-      if (bytes.length > 1 && (bytes[0] === 0x53 || bytes[0] === 0x54 || bytes[0] === 0x55)) {
-        return this._decodeBinaryMarkers(bytes, bytes[0] >= 0x54, bytes[0] >= 0x55)
+      // 检查是否为二进制格式（0x53=旧版 / 0x54=含类型 / 0x55=含类型+createdAt / 0x56=含载具信息）
+      if (bytes.length > 1 && (bytes[0] >= 0x53 && bytes[0] <= 0x56)) {
+        return this._decodeBinaryMarkers(bytes, bytes[0] >= 0x54, bytes[0] >= 0x55, bytes[0] >= 0x56)
       }
 
       // 回退：旧文本格式
@@ -814,7 +971,7 @@ Page({
   },
 
   /** 解码二进制格式标记 */
-  _decodeBinaryMarkers(bytes, hasType, hasCreatedAt) {
+  _decodeBinaryMarkers(bytes, hasType, hasCreatedAt, hasVehicleParts) {
     const count = bytes[1]
     if (count === 0) return []
     const markers = []
@@ -847,19 +1004,32 @@ Page({
         pos += nameLen
       }
 
-      // 读取类型（0x54+ 格式含类型字节）
+      // 读取类型
+      let typeCode = 0
       let type = ''
       if (hasType && pos < bytes.length) {
-        type = typeMap[bytes[pos]] || ''
+        typeCode = bytes[pos]
+        type = typeMap[typeCode] || ''
         pos++
       }
 
-      // 读取 createdAt（0x55+ 格式含 4 字节无符号时间戳）
+      // 读取 createdAt
       let createdAt = Math.floor(Date.now() / 1000)
       if (hasCreatedAt && pos + 4 <= bytes.length) {
         createdAt = ((bytes[pos] << 24) | (bytes[pos + 1] << 16) | (bytes[pos + 2] << 8) | bytes[pos + 3]) >>> 0
         pos += 4
         if (createdAt <= 0) createdAt = Math.floor(Date.now() / 1000)
+      }
+      
+      // 读取载具配件信息
+      let vehicleId = 0
+      let partsMask = 0xFFFF
+      if (hasVehicleParts && typeCode === 2 && pos + 3 <= bytes.length) {
+        vehicleId = bytes[pos]
+        partsMask = (bytes[pos + 1] << 8) | bytes[pos + 2]
+        pos += 3
+        const vehicle = VEHICLE_TYPES.find(v => v.id === vehicleId)
+        if (vehicle && vehicle.icon) emoji = vehicle.icon
       }
 
       const typeConf = MARKER_TYPES[type]
@@ -869,6 +1039,8 @@ Page({
         lat: latInt / 10000,
         name,
         type,
+        vehicleId,
+        partsMask,
         emoji: typeConf ? typeConf.emoji : '',
         createdAt
       })
@@ -1103,13 +1275,17 @@ Page({
     return { expiryDays, remainingDays, expiring: remainingDays < warnDays }
   },
 
-  /** 为用户标记数组附加 expiring 字段（动画延迟统一同步） */
+  /** 为用户标记数组附加 expiring 和 isIncomplete 字段（动画延迟统一同步） */
   _enrichMarkersWithExpiry(markers) {
     const delay = -(Date.now() % 1500) / 1000
     return markers.map(m => {
       if (m.src === 'poi') return m
       const { expiring } = this._computeMarkerExpiry(m)
-      return expiring ? { ...m, expiring: true, pulseDelay: delay + 's' } : m
+      const isIncomplete = m.type === 'vehicle' && m.partsMask !== undefined && m.partsMask !== 65535
+      if (expiring || isIncomplete) {
+        return { ...m, expiring, isIncomplete, pulseDelay: delay + 's' }
+      }
+      return m
     })
   },
 
@@ -1519,7 +1695,9 @@ Page({
 
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
     if (selectedMarker && this.data.showInfoWindow) {
-      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''},${selectedMarker.createdAt || 0}`
+      const vid = selectedMarker.vehicleId || 1
+      const mask = selectedMarker.partsMask !== undefined ? selectedMarker.partsMask : 0xFFFF
+      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''},${selectedMarker.createdAt || 0},${vid},${mask}`
       const exp = this.data.markerExpiryDaysConfig
       const expStr = `${exp[''] || 0},${exp.house || 0},${exp.vehicle || 0},${exp.box || 0},${this.data.markerWarnDays || 2}`
       return {
@@ -1535,9 +1713,11 @@ Page({
 
     // 用户自定义标记
     if (userMarkers.length > 0) {
-      const encoded = userMarkers.map(m =>
-        `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''},${m.createdAt || 0}`
-      ).join('|')
+      const encoded = userMarkers.map(m => {
+        const vid = m.vehicleId || 1
+        const mask = m.partsMask !== undefined ? m.partsMask : 0xFFFF
+        return `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''},${m.createdAt || 0},${vid},${mask}`
+      }).join('|')
       params.push(`markers=${encoded}`)
       parts.push(`${userMarkers.length}个标记`)
     }

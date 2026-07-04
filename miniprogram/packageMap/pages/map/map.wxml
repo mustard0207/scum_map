@@ -1,4 +1,47 @@
 <!-- 地图页 -->
+<wxs module="vutils">
+  module.exports = {
+    hasPart: function(mask, bit) {
+      if (mask === undefined) mask = 65535;
+      return (mask & bit) !== 0;
+    },
+    getVehicle: function(vehicleTypes, id) {
+      if (!id || id === 0) id = 1; // 默认选中第一个
+      for (var i = 0; i < vehicleTypes.length; i++) {
+        if (vehicleTypes[i].id === id) return vehicleTypes[i];
+      }
+      return null;
+    },
+    hasVehiclePart: function(vehicle, part) {
+      if (!vehicle || !vehicle.parts) return false;
+      for (var i = 0; i < vehicle.parts.length; i++) {
+        if (vehicle.parts[i] === part) return true;
+      }
+      return false;
+    },
+    countWheels: function(mask, wheelBits, partBits) {
+      if (mask === undefined) mask = 65535;
+      if (!wheelBits) return 0;
+      var count = 0;
+      for (var i = 0; i < wheelBits.length; i++) {
+        if ((mask & partBits[wheelBits[i]]) !== 0) count++;
+      }
+      return count;
+    },
+    getPartName: function(part) {
+      var map = {
+        'engine': '引擎', 'battery': '电瓶', 'alternator': '发电机',
+        'door_fl': '左前门', 'door_fr': '右前门', 'door_rl': '左后门', 'door_rr': '右后门',
+        'wheel_fl': '左前轮', 'wheel_fr': '右前轮', 'wheel_rl': '左后轮', 'wheel_rr': '右后轮',
+        'wheel_f': '前轮', 'wheel_r': '后轮',
+        'seat_fl': '主驾座', 'seat_fr': '副驾座',
+        'seat_f': '前座', 'seat_r': '后座',
+        'body': '车身'
+      };
+      return map[part] || part;
+    }
+  }
+</wxs>
 <view class="map-page">
 
   <!-- 首次引导遮罩 -->
@@ -100,11 +143,16 @@
       <view class="info-window-header">
         <view class="info-window-title-area">
           <text class="info-window-icon">◆</text>
-          <view class="info-window-title-wrap">
-            <text class="info-window-title">{{selectedMarker.name || '自定义标记'}}</text>
+          <view class="info-window-header-text">
+            <!-- 针对 POI 的标题 -->
+            <text class="info-window-title" wx:if="{{selectedMarker.src === 'poi'}}">{{selectedMarker.name}}</text>
+            <!-- 针对用户标记的标题 (安全：无用户输入) -->
+            <text class="info-window-title" wx:elif="{{selectedMarker.type === 'vehicle'}}">载具 - {{vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).name}}</text>
+            <text class="info-window-title" wx:elif="{{selectedMarker.type}}">{{markerTypes[selectedMarker.type].label}}</text>
+            <text class="info-window-title" wx:else>未定义标记</text>
+
+            <!-- 副标题：仅 POI 需要显示分类名 -->
             <text class="info-window-subtitle" wx:if="{{selectedMarker.src === 'poi'}}">{{poiCatName}}</text>
-            <text class="info-window-subtitle" wx:elif="{{selectedMarker.type}}">{{markerTypes[selectedMarker.type].label}}</text>
-            <text class="info-window-subtitle" wx:else>标记 #{{selectedMarkerIndex + 1}}</text>
           </view>
         </view>
         <view class="info-window-close" bindtap="closeInfoWindow">✕</view>
@@ -148,6 +196,92 @@
           catchtap="setMarkerType"
         >{{typeItem.emoji}} {{typeItem.label}}</view>
         <view class="type-btn expiry-setting-btn" catchtap="showExpirySettings">⚙️ 时效</view>
+      </view>
+      
+      <!-- 载具管理面板 -->
+      <view class="vehicle-panel" wx:if="{{selectedMarker.type === 'vehicle'}}">
+        <view class="vehicle-selector-wrap">
+          <scroll-view scroll-x="true" class="vehicle-selector" enhanced="true" show-scrollbar="false">
+            <view
+              wx:for="{{vehicleTypes}}"
+              wx:key="id"
+              class="vehicle-item {{ (selectedMarker.vehicleId || 1) === item.id ? 'vehicle-item-active' : ''}}"
+              data-id="{{item.id}}"
+              catchtap="onVehicleTypeChange"
+            >
+              <text class="vehicle-icon">{{item.icon}}</text>
+              <text class="vehicle-name">{{item.name}}</text>
+            </view>
+          </scroll-view>
+        </view>
+        
+        <!-- 如果没有开启配件编辑，并且车辆是满配 -->
+        <view class="vehicle-parts-collapsed" wx:if="{{!showVehiclePartsEditor && selectedMarker.partsMask === 65535}}">
+          <view class="btn-mark-incomplete" catchtap="openVehiclePartsEditor">
+            <text>🔧 标记残缺部位</text>
+          </view>
+        </view>
+
+        <!-- 如果开启了配件编辑，或者车辆本身就是残缺的 -->
+        <view class="vehicle-parts-expanded" wx:else>
+          <view class="vehicle-parts-panel" wx:if="{{vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).parts.length > 0 || vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).wheelCount > 0}}">
+            <view class="parts-chassis" wx:if="{{vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).parts.length > 0}}">
+              <!-- 左侧列：前轮、左前门、主驾/前座、左后门 -->
+              <view class="parts-col parts-left">
+                <block wx:for="{{['wheel_f', 'door_fl', 'seat_fl', 'seat_f', 'door_rl']}}" wx:key="*this" wx:for-item="partKey">
+                  <view wx:if="{{vutils.hasVehiclePart(vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId), partKey)}}" 
+                        class="part-item {{vutils.hasPart(selectedMarker.partsMask, partBits[partKey]) ? 'part-active' : 'part-missing'}}" 
+                        data-part="{{partKey}}" catchtap="toggleVehiclePart">
+                    <view class="part-indicator"></view>
+                    <text class="part-name">{{vutils.getPartName(partKey)}}</text>
+                  </view>
+                </block>
+              </view>
+
+              <!-- 中间列：引擎、电瓶、车身、发电机 -->
+              <view class="parts-col parts-center">
+                <block wx:for="{{['engine', 'battery', 'body', 'alternator']}}" wx:key="*this" wx:for-item="partKey">
+                  <view wx:if="{{vutils.hasVehiclePart(vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId), partKey)}}" 
+                        class="part-item {{vutils.hasPart(selectedMarker.partsMask, partBits[partKey]) ? 'part-active' : 'part-missing'}}" 
+                        data-part="{{partKey}}" catchtap="toggleVehiclePart">
+                    <view class="part-indicator"></view>
+                    <text class="part-name">{{vutils.getPartName(partKey)}}</text>
+                  </view>
+                </block>
+              </view>
+
+              <!-- 右侧列：后轮、右前门、副驾/后座、右后门 -->
+              <view class="parts-col parts-right">
+                <block wx:for="{{['wheel_r', 'door_fr', 'seat_fr', 'seat_r', 'door_rr']}}" wx:key="*this" wx:for-item="partKey">
+                  <view wx:if="{{vutils.hasVehiclePart(vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId), partKey)}}" 
+                        class="part-item {{vutils.hasPart(selectedMarker.partsMask, partBits[partKey]) ? 'part-active' : 'part-missing'}}" 
+                        data-part="{{partKey}}" catchtap="toggleVehiclePart">
+                    <view class="part-indicator"></view>
+                    <text class="part-name">{{vutils.getPartName(partKey)}}</text>
+                  </view>
+                </block>
+              </view>
+            </view>
+
+            <!-- 简化版车轮数量选择器 -->
+            <view class="vehicle-wheels-stepper" wx:if="{{vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).wheelCount > 0}}">
+              <text class="stepper-label">现有车轮</text>
+              <view class="stepper-ctrl">
+                <view class="stepper-btn" catchtap="changeWheelCount" data-delta="-1">-</view>
+                <text class="stepper-val">{{vutils.countWheels(selectedMarker.partsMask, vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).wheelBits, partBits)}} / {{vutils.getVehicle(vehicleTypes, selectedMarker.vehicleId).wheelCount}}</text>
+                <view class="stepper-btn" catchtap="changeWheelCount" data-delta="1">+</view>
+              </view>
+            </view>
+          </view>
+          <view class="vehicle-parts-empty" wx:else>
+            <text>该载具无需管理配件</text>
+          </view>
+
+          <!-- 恢复完整按钮 -->
+          <view class="btn-reset-complete" catchtap="resetVehicleParts">
+            <text>↺ 恢复为完整载具 (隐藏面板)</text>
+          </view>
+        </view>
       </view>
       <view class="info-window-tip" wx:if="{{selectedMarker.src !== 'poi'}}">
         <text class="info-window-tip-text">💡 选择类型后标记会自动计算过期时间，刷新可重置计时</text>
