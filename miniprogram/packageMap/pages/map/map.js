@@ -1261,7 +1261,8 @@ Page({
   _rebuildDisplayMarkers() {
     const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
     const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
-    this.setData({ markers: [...userMarkers, ...poiMarkers] })
+    // 将 userMarkers 放在 poiMarkers 之后，利用 WXML 渲染顺序实现置顶显示
+    this.setData({ markers: [...poiMarkers, ...userMarkers] })
   },
 
   /** 计算标记的过期信息 */

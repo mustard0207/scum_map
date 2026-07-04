@@ -80,7 +80,7 @@
     wx:for="{{markersOnScreen}}"
     wx:key="id"
     class="map-marker {{item.type ? 'marker-typed' : ''}} {{item.isIncomplete ? 'marker-incomplete' : ''}} {{item.expiring ? 'marker-expiring' : ''}}"
-    style="{{item.typeColor ? 'background:' + item.typeColor : ''}};{{item.pulseDelay ? 'animation-delay:' + item.pulseDelay : ''}}"
+    style="z-index: {{item.src === 'poi' ? 20 : 30}}; {{item.typeColor ? 'background:' + item.typeColor + ';' : ''}}{{item.pulseDelay ? 'animation-delay:' + item.pulseDelay : ''}}"
     data-id="{{item.id}}"
     data-px="{{item.px}}"
     data-py="{{item.py}}"
