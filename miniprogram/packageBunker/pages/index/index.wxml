@@ -6,7 +6,7 @@
     </view>
   </view>
 
-  <view class="main" style="padding-top: {{statusBarHeight + 44}}px;">
+  <view class="main" style="padding-top: {{statusBarHeight + 44 + 20}}px;">
     <view class="list-container">
       <view class="feature-card" bindtap="goToCardReader">
         <view class="feature-icon-area">
@@ -14,8 +14,9 @@
         </view>
         <view class="feature-info">
           <text class="feature-title">废弃地堡计算器</text>
-          <text class="feature-desc">支持快速破解地堡大门（使用【换格】按钮可快速切到下一格）</text>
+          <text class="feature-desc">输入地堡门锁数值以快速计算解锁废弃地堡大门。</text>
         </view>
+        <view class="feature-arrow">›</view>
       </view>
 
       <!-- 密码锁助手 (开发中，暂时隐藏) -->
@@ -38,7 +39,7 @@
         </view>
         <view class="feature-info">
           <text class="feature-title">保险丝计时器</text>
-          <text class="feature-desc">AI语音播报提醒，脱机防断电沉浸式逃生秒表</text>
+          <text class="feature-desc">自动计算保险丝时长，定时语音提醒。</text>
         </view>
         <view class="feature-arrow">›</view>
       </view>

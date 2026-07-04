@@ -1,4 +1,45 @@
 <view class="page">
+  <!-- 首次引导遮罩 -->
+  <view class="guide-mask" wx:if="{{showGuide}}">
+    <view class="guide-content">
+      <view class="guide-header">
+        <text class="guide-main-title">保险丝计时器</text>
+        <text class="guide-main-sub">离线倒计时提醒工具</text>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🕹️</text>
+        <view class="guide-text">
+          <text class="guide-title">设定参数</text>
+          <text class="guide-desc">直接点击顶部的安培数按钮与耐久度加减步进器来配置保险丝</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🔒</text>
+        <view class="guide-text">
+          <text class="guide-title">参数锁定</text>
+          <text class="guide-desc">按下「通电」开始倒数后，参数区域将被锁定无法修改；如需重新设定，请先暂停或换新</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🎙️</text>
+        <view class="guide-text">
+          <text class="guide-title">语音播报</text>
+          <text class="guide-desc">当剩余时间到达 10m、5m、2m、1m、30s 时会触发语音提示，最后 30 秒屏幕将闪烁红光</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">📱</text>
+        <view class="guide-text">
+          <text class="guide-title">后台计时</text>
+          <text class="guide-desc">本页面默认开启屏幕常亮。即使中途切回微信主界面，再次返回时计时器依然会根据时间戳自动校准</text>
+        </view>
+      </view>
+      <view class="guide-btn" bindtap="closeGuide">
+        <text class="guide-btn-text">我知道了</text>
+      </view>
+    </view>
+  </view>
+
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
       <view class="back-btn" bindtap="goBack">‹</view>

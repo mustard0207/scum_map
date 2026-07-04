@@ -2,7 +2,7 @@
 .page {
   min-height: 100vh;
   background-color: #121008;
-  color: #fff;
+  color: #D4C8A0;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@
   right: 0;
   z-index: 100;
   background-color: #1C1A10;
-  border-bottom: 1px solid #333;
+  border-bottom: 1rpx solid #3A3520;
 }
 
 .nav-content {
@@ -21,62 +21,66 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding: 0 15px;
+  padding: 0 30rpx;
 }
 
 .back-btn {
-  font-size: 28px;
+  font-size: 56rpx;
   color: #FFB000;
-  padding: 0 15px;
-  margin-left: -15px;
+  padding: 0 30rpx;
+  margin-left: -30rpx;
 }
 
 .nav-title {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #D4C8A0;
+  letter-spacing: 2rpx;
 }
 
 .main {
-  padding: 20px;
+  padding: 40rpx 30rpx;
 }
 
 .list-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 24rpx;
 }
 
 .feature-card {
   background-color: #1C1A10;
-  border: 1px solid #333;
-  border-radius: 12px;
-  padding: 20px;
+  border: 1rpx solid #3A3520;
+  border-radius: 12rpx;
+  padding: 36rpx 30rpx;
   display: flex;
   align-items: center;
+  transition: all 0.2s;
 }
 
 .feature-card:active:not(.disabled) {
-  opacity: 0.8;
-  background-color: #2a2718;
+  border-color: #FFB000;
+  background: #24210F;
 }
 
 .feature-icon-area {
-  width: 64px;
-  height: 64px;
-  background-color: #121008;
-  border-radius: 12px;
+  width: 96rpx;
+  height: 96rpx;
+  background-color: rgba(255, 176, 0, 0.1);
+  border-radius: 16rpx;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
+  margin-right: 24rpx;
+  flex-shrink: 0;
 }
 
 .feature-glyph {
-  font-size: 36px;
+  font-size: 48rpx;
+  color: #FFB000;
 }
 
 .feature-info {
@@ -86,21 +90,22 @@
 }
 
 .feature-title {
-  font-size: 18px;
-  font-weight: bold;
-  color: #FFB000;
-  margin-bottom: 6px;
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #D4C8A0;
+  margin-bottom: 6rpx;
 }
 
 .feature-desc {
-  font-size: 12px;
-  color: #aaa;
+  font-size: 24rpx;
+  color: #7A6B4A;
 }
 
 .feature-arrow {
-  font-size: 24px;
+  font-size: 48rpx;
   color: #FFB000;
-  margin-left: 10px;
+  font-weight: 300;
+  margin-left: 10rpx;
 }
 
 .disabled {

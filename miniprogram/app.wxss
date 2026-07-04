@@ -60,3 +60,103 @@ page {
 .safe-bottom {
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+/* 首次引导遮罩 (全局复用) */
+.guide-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(18, 16, 8, 0.82);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40rpx 40rpx 30rpx;
+}
+
+.guide-content {
+  width: 100%;
+  max-width: 600rpx;
+}
+
+.guide-header {
+  text-align: center;
+  margin-bottom: 32rpx;
+}
+
+.guide-main-title {
+  display: block;
+  font-size: 40rpx;
+  color: #FFB000;
+  font-weight: 700;
+  letter-spacing: 4rpx;
+  margin-bottom: 8rpx;
+}
+
+.guide-main-sub {
+  display: block;
+  font-size: 22rpx;
+  color: #7A6B4A;
+}
+
+.guide-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx 24rpx;
+  margin-bottom: 16rpx;
+  background: rgba(28, 26, 16, 0.8);
+  border: 1rpx solid #3A3520;
+  border-radius: 12rpx;
+}
+
+.guide-icon {
+  font-size: 40rpx;
+  color: #FFB000;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+  width: 50rpx;
+  text-align: center;
+}
+
+.guide-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-title {
+  font-size: 26rpx;
+  color: #D4C8A0;
+  font-weight: 600;
+  margin-bottom: 6rpx;
+}
+
+.guide-desc {
+  font-size: 22rpx;
+  color: #7A6B4A;
+  line-height: 1.5;
+}
+
+.guide-btn {
+  margin-top: 24rpx;
+  padding: 20rpx 80rpx;
+  background: #FFB000;
+  border-radius: 12rpx;
+  text-align: center;
+}
+
+.guide-btn:active {
+  background: #E69E00;
+}
+
+.guide-btn-text {
+  font-size: 30rpx;
+  color: #121008;
+  font-weight: 600;
+}

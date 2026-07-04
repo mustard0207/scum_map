@@ -1,4 +1,38 @@
 <view class="page">
+  <!-- 首次引导遮罩 -->
+  <view class="guide-mask" wx:if="{{showGuide}}">
+    <view class="guide-content">
+      <view class="guide-header">
+        <text class="guide-main-title">废弃地堡计算器</text>
+        <text class="guide-main-sub">快速破解废弃地堡多段开关门锁</text>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🎯</text>
+        <view class="guide-text">
+          <text class="guide-title">输入初始与目标数值</text>
+          <text class="guide-desc">必须输入上方两排的红蓝初始与目标数值（双通道锁填入全部数值，单通道锁只填红侧）</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⌨️</text>
+        <view class="guide-text">
+          <text class="guide-title">输入开关数值</text>
+          <text class="guide-desc">点击上方相应的输入框，并使用底部的数字小键盘填入数值与运算符号</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⏭️</text>
+        <view class="guide-text">
+          <text class="guide-title">快捷跳格</text>
+          <text class="guide-desc">输入完当前数值后，点击右下角的「换格」按钮，光标会自动移动到下一个输入框</text>
+        </view>
+      </view>
+      <view class="guide-btn" bindtap="closeGuide">
+        <text class="guide-btn-text">我知道了</text>
+      </view>
+    </view>
+  </view>
+
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
       <view class="back-btn" bindtap="goBack">‹</view>

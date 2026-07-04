@@ -14,6 +14,7 @@ Page({
     timeDisplay: '00:00',
     estimateText: '20分00秒',
     alertLevel: 'idle', // idle, safe, warning, danger, dead
+    showGuide: false,
     
     // 标记播放状态
     playedFlags: {
@@ -35,7 +36,12 @@ Page({
 
   onLoad() {
     const sysInfo = wx.getSystemInfoSync()
-    this.setData({ statusBarHeight: sysInfo.statusBarHeight })
+    const guideShown = wx.getStorageSync('bunkerTimerGuideShown')
+    
+    this.setData({ 
+      statusBarHeight: sysInfo.statusBarHeight,
+      showGuide: !guideShown
+    })
     
     // 初始化所有音频
     this.initAudio()
@@ -80,6 +86,12 @@ Page({
     } else {
       wx.reLaunch({ url: '/pages/index/index' })
     }
+  },
+
+  closeGuide() {
+    wx.vibrateShort()
+    this.setData({ showGuide: false })
+    wx.setStorageSync('bunkerTimerGuideShown', true)
   },
 
   initAudio() {
@@ -157,8 +169,8 @@ Page({
   },
 
   toggleTimer() {
-    if (this.data.remainingMs <= 0) return // 没电了不准开
     wx.vibrateShort()
+    if (this.data.remainingMs <= 0) return // 没电了不准开
 
     if (this.data.isRunning) {
       // 暂停

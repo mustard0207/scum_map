@@ -16,14 +16,24 @@ Page({
     showResult: false,
     showError: false,
     resultArray: [], // 布尔数组，表示哪些开关开启
-    resultCount: 0
+    resultCount: 0,
+    showGuide: false
   },
 
   onLoad() {
     const sysInfo = wx.getWindowInfo()
+    
+    const guideShown = wx.getStorageSync('bunkerReaderGuideShown')
     this.setData({
-      statusBarHeight: sysInfo.statusBarHeight
+      statusBarHeight: sysInfo.statusBarHeight,
+      showGuide: !guideShown
     })
+  },
+
+  closeGuide() {
+    wx.vibrateShort()
+    this.setData({ showGuide: false })
+    wx.setStorageSync('bunkerReaderGuideShown', true)
   },
 
   // 页面分享设定
@@ -57,6 +67,7 @@ Page({
 
   // 切换输入焦点
   setFocus(e) {
+    wx.vibrateShort()
     const id = e.currentTarget.dataset.id
     this.setData({ 
       currentFocus: id,
@@ -67,6 +78,7 @@ Page({
 
   // 自动跳到下一个输入框
   nextFocus() {
+    wx.vibrateShort()
     const order = [
       'startValue', 'redTarget', 'blueTarget',
       'r0', 'b0', 'r1', 'b1', 'r2', 'b2', 'r3', 'b3',
@@ -80,6 +92,7 @@ Page({
 
   // 键盘输入字符
   inputChar(e) {
+    wx.vibrateShort()
     const char = e.currentTarget.dataset.char
     const focus = this.data.currentFocus
     if (!focus) return
@@ -105,6 +118,7 @@ Page({
 
   // 键盘退格
   backspace() {
+    wx.vibrateShort()
     const focus = this.data.currentFocus
     if (!focus) return
 
@@ -135,6 +149,7 @@ Page({
 
   // 二次确认清空
   confirmReset() {
+    wx.vibrateShort()
     wx.showModal({
       title: '⚠️ 确认清空',
       content: '确定要清空所有已输入的数据吗？',
@@ -153,6 +168,7 @@ Page({
 
   // 全部清空
   resetAll() {
+    wx.vibrateShort()
     this.setData({
       startValue: '', redTarget: '', blueTarget: '',
       redOps: ['', '', '', '', '', '', '', ''],
@@ -164,6 +180,7 @@ Page({
   },
 
   hideResult() {
+    wx.vibrateShort()
     this.setData({
       showResult: false,
       showError: false
@@ -190,6 +207,7 @@ Page({
 
   // 核心破解计算
   calculate() {
+    wx.vibrateShort()
     const { startValue, redTarget, blueTarget, redOps, blueOps } = this.data
 
     const rStart = parseFloat(startValue)
@@ -253,13 +271,13 @@ Page({
         resultCount: count,
         currentFocus: '' // 隐藏光标
       })
-      wx.vibrateShort() // 震动反馈
     } else {
       this.setData({
         showResult: false,
         showError: true,
         currentFocus: ''
       })
+      // 错误结果使用长震动覆盖短震动
       wx.vibrateLong()
     }
   }
