@@ -1543,7 +1543,7 @@ Page({
 
   dismissGuide() {
     this.setData({ showGuide: false });
-    wx.setStorageSync('mapGuideShown', true);
+    wx.setStorageSync('hasSeenGuide', true);
   },
 
   openGuide() {
