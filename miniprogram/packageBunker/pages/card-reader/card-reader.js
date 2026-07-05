@@ -156,6 +156,11 @@ Page({
         currentVal += char
       }
     } else if (isDigit) {
+      if (currentVal.length === 0) {
+        wx.showToast({ title: '请先输入运算符号', icon: 'none' })
+        wx.vibrateLong()
+        return
+      }
       currentVal += char
     }
 
