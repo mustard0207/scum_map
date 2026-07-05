@@ -77,8 +77,10 @@ Page({
   },
 
   // 自动跳到下一个输入框
-  nextFocus() {
-    wx.vibrateShort()
+  nextFocus(silent = false) {
+    if (silent !== true) {
+      wx.vibrateShort()
+    }
     const order = [
       'startValue', 'redTarget', 'blueTarget',
       'r0', 'b0', 'r1', 'b1', 'r2', 'b2', 'r3', 'b3',
@@ -97,22 +99,75 @@ Page({
     const focus = this.data.currentFocus
     if (!focus) return
 
-    let currentVal = ''
-    if (focus.startsWith('r') && focus.length === 2) {
-      const idx = parseInt(focus[1])
-      currentVal = this.data.redOps[idx]
-      const newOps = [...this.data.redOps]
-      newOps[idx] = currentVal + char
-      this.setData({ redOps: newOps })
-    } else if (focus.startsWith('b') && focus.length === 2) {
-      const idx = parseInt(focus[1])
-      currentVal = this.data.blueOps[idx]
-      const newOps = [...this.data.blueOps]
-      newOps[idx] = currentVal + char
-      this.setData({ blueOps: newOps })
-    } else {
-      currentVal = this.data[focus]
+    const isOperator = ['+', '-', '*', '/', 'x', '÷'].includes(char)
+    const isDigit = /[0-9]/.test(char)
+
+    // 焦点在顶部3个基础框
+    if (focus === 'startValue' || focus === 'redTarget' || focus === 'blueTarget') {
+      if (isOperator) {
+        wx.showToast({ title: '此处仅限输入数字', icon: 'none' })
+        wx.vibrateLong()
+        return
+      }
+      let currentVal = this.data[focus]
       this.setData({ [focus]: currentVal + char })
+      return
+    }
+
+    // 焦点在操作区
+    let currentVal = ''
+    let isRed = focus.startsWith('r')
+    let isBlue = focus.startsWith('b')
+    let idx = parseInt(focus.substring(1))
+
+    if (isRed) {
+      currentVal = this.data.redOps[idx] || ''
+    } else if (isBlue) {
+      currentVal = this.data.blueOps[idx] || ''
+    }
+
+    if (isOperator) {
+      if (currentVal.length === 0) {
+        // 空的时候直接输入
+        currentVal = char
+      } else if (currentVal.length === 1 && ['+', '-', '*', '/', 'x', '÷'].includes(currentVal)) {
+        // 只有符号时替换
+        currentVal = char
+      } else if (/[0-9]$/.test(currentVal)) {
+        // 以数字结尾时，智能跳格并填入符号
+        this.nextFocus(true)
+        const newFocus = this.data.currentFocus
+        if (newFocus && newFocus !== focus) {
+           let nIsRed = newFocus.startsWith('r')
+           let nIsBlue = newFocus.startsWith('b')
+           let nIdx = parseInt(newFocus.substring(1))
+           if (nIsRed) {
+             const newOps = [...this.data.redOps]
+             newOps[nIdx] = char
+             this.setData({ redOps: newOps })
+           } else if (nIsBlue) {
+             const newOps = [...this.data.blueOps]
+             newOps[nIdx] = char
+             this.setData({ blueOps: newOps })
+           }
+        }
+        return // 已经处理完毕，直接返回
+      } else {
+        currentVal += char
+      }
+    } else if (isDigit) {
+      currentVal += char
+    }
+
+    // 更新当前格数据
+    if (isRed) {
+      const newOps = [...this.data.redOps]
+      newOps[idx] = currentVal
+      this.setData({ redOps: newOps })
+    } else if (isBlue) {
+      const newOps = [...this.data.blueOps]
+      newOps[idx] = currentVal
+      this.setData({ blueOps: newOps })
     }
   },
 
