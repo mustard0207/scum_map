@@ -94,6 +94,20 @@ Page({
     wx.setStorageSync('bunkerTimerGuideShown', true)
   },
 
+  // 页面分享设定
+  onShareAppMessage() {
+    return {
+      title: 'SCUM 地堡保险丝计时器',
+      path: '/packageBunker/pages/fuse-timer/fuse-timer'
+    }
+  },
+
+  onShareTimeline() {
+    return {
+      title: 'SCUM 地堡保险丝计时器'
+    }
+  },
+
   initAudio() {
     const audios = ['start', '10m', '5m', '2m', '1m', '30s', '0s']
     audios.forEach(name => {

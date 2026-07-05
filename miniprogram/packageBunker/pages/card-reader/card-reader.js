@@ -39,14 +39,14 @@ Page({
   // 页面分享设定
   onShareAppMessage() {
     return {
-      title: 'SCUM 地堡读卡器破解计算器',
+      title: 'SCUM 废弃地堡计算器',
       path: '/packageBunker/pages/card-reader/card-reader'
     }
   },
 
   onShareTimeline() {
     return {
-      title: 'SCUM 地堡读卡器破解计算器'
+      title: 'SCUM 废弃地堡计算器'
     }
   },
 
