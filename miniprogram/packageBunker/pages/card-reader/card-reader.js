@@ -36,6 +36,11 @@ Page({
     wx.setStorageSync('bunkerReaderGuideShown', true)
   },
 
+  openGuide() {
+    wx.vibrateShort()
+    this.setData({ showGuide: true })
+  },
+
   // 页面分享设定
   onShareAppMessage() {
     return {

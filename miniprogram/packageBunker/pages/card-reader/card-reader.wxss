@@ -96,8 +96,24 @@
   margin-top: 20px;
 }
 
-.red-text { color: #ff4444 !important; }
-.blue-text { color: #44ffff !important; }
+.red-text { 
+  color: #ff4444 !important; 
+  border-color: rgba(255, 68, 68, 0.4) !important; 
+}
+.blue-text { 
+  color: #44ffff !important; 
+  border-color: rgba(68, 255, 255, 0.4) !important; 
+}
+
+.red-text.focused {
+  border-color: rgba(255, 68, 68, 0.8) !important;
+  box-shadow: 0 0 8px rgba(255, 68, 68, 0.3) !important;
+}
+
+.blue-text.focused {
+  border-color: rgba(68, 255, 255, 0.8) !important;
+  box-shadow: 0 0 8px rgba(68, 255, 255, 0.3) !important;
+}
 
 .input-row {
   display: flex;

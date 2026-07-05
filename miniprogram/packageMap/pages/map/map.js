@@ -1542,8 +1542,13 @@ Page({
   },
 
   dismissGuide() {
-    wx.setStorageSync('hasSeenGuide', true)
-    this.setData({ showGuide: false })
+    this.setData({ showGuide: false });
+    wx.setStorageSync('mapGuideShown', true);
+  },
+
+  openGuide() {
+    wx.vibrateShort()
+    this.setData({ showGuide: true })
   },
 
   /** 手势结束 — 安排一次 POI 刷新（防抖 200ms，不打断 WXS 动画） */

@@ -52,13 +52,6 @@
         <text class="guide-main-sub">首次使用前请先了解</text>
       </view>
       <view class="guide-card">
-        <text class="guide-icon">◆</text>
-        <view class="guide-text">
-          <text class="guide-title">中心光标就是目标</text>
-          <text class="guide-desc">屏幕中央的十字准星标记当前位置，拖动地图移动它</text>
-        </view>
-      </view>
-      <view class="guide-card">
         <text class="guide-icon">⊕</text>
         <view class="guide-text">
           <text class="guide-title">从游戏粘贴坐标</text>
@@ -66,24 +59,31 @@
         </view>
       </view>
       <view class="guide-card">
-        <text class="guide-icon">☰</text>
+        <text class="guide-icon">🚗</text>
         <view class="guide-text">
-          <text class="guide-title">筛选地图兴趣点</text>
-          <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地点显示</text>
+          <text class="guide-title">标记车辆配件</text>
+          <text class="guide-desc">添加自定义标记可修改类型，车辆标记支持设置缺少的配件和轮胎数，方便拼车</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🏠</text>
+        <view class="guide-text">
+          <text class="guide-title">物资过期提醒</text>
+          <text class="guide-desc">物资过期前图标会标红闪烁进行提醒，记得及时上线刷新物资和重置过期时间</text>
         </view>
       </view>
       <view class="guide-card">
         <text class="guide-icon">⇅</text>
         <view class="guide-text">
           <text class="guide-title">导入导出标记</text>
-          <text class="guide-desc">「管理」可导出标记为代码，方便备份和恢复</text>
+          <text class="guide-desc">「管理」可导出标记为代码，方便备份和恢复自定义标记</text>
         </view>
       </view>
       <view class="guide-card">
-        <text class="guide-icon">🏠</text>
+        <text class="guide-icon">☰</text>
         <view class="guide-text">
-          <text class="guide-title">标记会过期</text>
-          <text class="guide-desc">选择类型后自动计算过期时间，快过期时标记红色闪烁，点击「刷新有效期」重置</text>
+          <text class="guide-title">筛选地图兴趣点</text>
+          <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地点显示</text>
         </view>
       </view>
     </view>
@@ -98,6 +98,12 @@
       <text class="nav-title">SCUM游戏地图</text>
       <view class="nav-placeholder"></view>
     </view>
+  </view>
+
+  <!-- 使用说明悬浮按钮 -->
+  <view class="global-help-btn-floating" bindtap="openGuide" style="top: {{statusBarHeight + 44 + 15}}px;">
+    <view class="help-icon-circle">?</view>
+    <text class="help-text-label">使用说明</text>
   </view>
 
   <!-- 地图区域 -->

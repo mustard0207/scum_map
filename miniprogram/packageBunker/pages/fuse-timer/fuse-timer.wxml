@@ -9,8 +9,8 @@
       <view class="guide-card">
         <text class="guide-icon">🕹️</text>
         <view class="guide-text">
-          <text class="guide-title">设定参数</text>
-          <text class="guide-desc">直接点击顶部的安培数按钮与耐久度加减步进器来配置保险丝</text>
+          <text class="guide-title">配置保险丝</text>
+          <text class="guide-desc">选择保险丝型号及耐久度，将自动计算可用时长</text>
         </view>
       </view>
       <view class="guide-card">
@@ -47,14 +47,19 @@
     </view>
   </view>
 
-  <view class="main-content" style="padding-top: {{statusBarHeight + 44}}px;">
-    
+  <view class="main-content" style="padding-top: {{statusBarHeight + 44 + 20}}px;">
     <!-- 顶部：极速参数配置区 -->
     <view class="config-section {{isRunning ? 'locked' : ''}}">
       
       <!-- 安培数选择 -->
       <view class="config-group">
-        <view class="config-label">最大安培数 (Amperage)</view>
+        <view class="config-label-row" style="position: relative; text-align: center; margin-bottom: 20rpx;">
+          <text class="config-label" style="margin-bottom: 0;">最大安培数</text>
+          <view class="global-help-btn" bindtap="openGuide" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); margin: 0; padding: 0;">
+            <view class="help-icon-circle">?</view>
+            <text class="help-text-label">使用说明</text>
+          </view>
+        </view>
         <view class="amp-selector">
           <view class="amp-btn {{amperage === 200 ? 'active' : ''}}" bindtap="setAmperage" data-val="200">200A</view>
           <view class="amp-btn {{amperage === 400 ? 'active' : ''}}" bindtap="setAmperage" data-val="400">400A</view>
@@ -66,7 +71,7 @@
 
       <!-- 耐久度输入 -->
       <view class="config-group">
-        <view class="config-label">当前耐久度 (Durability)</view>
+        <view class="config-label">当前耐久度</view>
         <view class="durability-stepper">
           <view class="step-group">
             <view class="step-btn" bindtap="stepDurability" data-val="-10">-10</view>

@@ -75,12 +75,12 @@ page {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40rpx 40rpx 30rpx;
+  padding: 40rpx 30rpx 30rpx;
 }
 
 .guide-content {
   width: 100%;
-  max-width: 600rpx;
+  max-width: 690rpx;
 }
 
 .guide-header {
@@ -90,7 +90,7 @@ page {
 
 .guide-main-title {
   display: block;
-  font-size: 40rpx;
+  font-size: 44rpx;
   color: #FFB000;
   font-weight: 700;
   letter-spacing: 4rpx;
@@ -99,7 +99,7 @@ page {
 
 .guide-main-sub {
   display: block;
-  font-size: 22rpx;
+  font-size: 26rpx;
   color: #7A6B4A;
 }
 
@@ -115,7 +115,7 @@ page {
 }
 
 .guide-icon {
-  font-size: 40rpx;
+  font-size: 46rpx;
   color: #FFB000;
   margin-right: 20rpx;
   flex-shrink: 0;
@@ -131,14 +131,14 @@ page {
 }
 
 .guide-title {
-  font-size: 26rpx;
+  font-size: 30rpx;
   color: #D4C8A0;
   font-weight: 600;
   margin-bottom: 6rpx;
 }
 
 .guide-desc {
-  font-size: 22rpx;
+  font-size: 26rpx;
   color: #7A6B4A;
   line-height: 1.5;
 }
@@ -159,4 +159,53 @@ page {
   font-size: 30rpx;
   color: #121008;
   font-weight: 600;
+}
+
+/* ===============================
+   全局使用说明按钮 (Help Button)
+   =============================== */
+.global-help-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8rpx;
+  padding: 10rpx 0;
+  margin-bottom: 10rpx;
+}
+
+.global-help-btn-floating {
+  position: absolute;
+  right: 30rpx;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  background-color: rgba(28, 26, 16, 0.7);
+  border: 1rpx solid #3A3520;
+  border-radius: 30rpx;
+  padding: 12rpx 20rpx;
+  backdrop-filter: blur(4px);
+}
+
+.global-help-btn:active, .global-help-btn-floating:active {
+  opacity: 0.7;
+}
+
+.help-icon-circle {
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 50%;
+  border: 2rpx solid #7A6B4A;
+  color: #7A6B4A;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.help-text-label {
+  font-size: 24rpx;
+  color: #7A6B4A;
 }
