@@ -1702,7 +1702,7 @@ Page({
 
   /** 微信分享 */
   onShareAppMessage() {
-    const { selectedMarker, activePoiCats } = this.data
+    const { selectedMarker, activePoiCats, showUserMarkers } = this.data
 
     // 场景一：信息窗内点分享按钮，只分享当前这一个标记
     if (selectedMarker && this.data.showInfoWindow) {
@@ -1722,8 +1722,8 @@ Page({
     const params = []
     const parts = []
 
-    // 用户自定义标记
-    if (userMarkers.length > 0) {
+    // 用户自定义标记 (不显示时则不分享)
+    if (showUserMarkers && userMarkers.length > 0) {
       const encoded = userMarkers.map(m => {
         const vid = m.vehicleId || 1
         const mask = m.partsMask !== undefined ? m.partsMask : 0xFFFF
@@ -1741,7 +1741,13 @@ Page({
     // POI 筛选分类
     if (activePoiCats.length > 0) {
       params.push(`poiCats=${activePoiCats.join(',')}`)
-      parts.push(`${activePoiCats.length}类探索点`)
+      if (activePoiCats.length === 1) {
+        const catId = activePoiCats[0]
+        const catName = catMap[catId] ? catMap[catId].cnName : '探索点'
+        parts.push(catName)
+      } else {
+        parts.push(`${activePoiCats.length}类探索点`)
+      }
     }
 
     if (params.length > 0) {
@@ -1754,6 +1760,69 @@ Page({
     return {
       title: '来看看SCUM地图',
       path: '/packageMap/pages/map/map'
+    }
+  },
+
+  /** 微信朋友圈分享 */
+  onShareTimeline() {
+    const { selectedMarker, activePoiCats, showUserMarkers } = this.data
+
+    // 场景一：信息窗内点分享按钮，只分享当前这一个标记
+    if (selectedMarker && this.data.showInfoWindow) {
+      const vid = selectedMarker.vehicleId || 1
+      const mask = selectedMarker.partsMask !== undefined ? selectedMarker.partsMask : 0xFFFF
+      const encoded = `${selectedMarker.lng},${selectedMarker.lat},${encodeURIComponent(selectedMarker.name || '')},${selectedMarker.type || ''},${selectedMarker.createdAt || 0},${vid},${mask}`
+      const exp = this.data.markerExpiryDaysConfig
+      const expStr = `${exp[''] || 0},${exp.house || 0},${exp.vehicle || 0},${exp.box || 0},${this.data.markerWarnDays || 2}`
+      return {
+        title: '我在SCUM地图上标记了一个位置',
+        query: `markers=${encoded}&exp=${expStr}`
+      }
+    }
+
+    // 场景二：底部栏分享当前页
+    const userMarkers = this._allUserMarkers
+    const params = []
+    const parts = []
+
+    // 用户自定义标记 (不显示时则不分享)
+    if (showUserMarkers && userMarkers.length > 0) {
+      const encoded = userMarkers.map(m => {
+        const vid = m.vehicleId || 1
+        const mask = m.partsMask !== undefined ? m.partsMask : 0xFFFF
+        return `${m.lng},${m.lat},${encodeURIComponent(m.name || '')},${m.type || ''},${m.createdAt || 0},${vid},${mask}`
+      }).join('|')
+      params.push(`markers=${encoded}`)
+      parts.push(`${userMarkers.length}个标记`)
+    }
+
+    // 过期配置
+    const exp = this.data.markerExpiryDaysConfig
+    const expStr = `${exp[''] || 0},${exp.house || 0},${exp.vehicle || 0},${exp.box || 0},${this.data.markerWarnDays || 2}`
+    params.push(`exp=${expStr}`)
+
+    // POI 筛选分类
+    if (activePoiCats.length > 0) {
+      params.push(`poiCats=${activePoiCats.join(',')}`)
+      if (activePoiCats.length === 1) {
+        const catId = activePoiCats[0]
+        const catName = catMap[catId] ? catMap[catId].cnName : '探索点'
+        parts.push(catName)
+      } else {
+        parts.push(`${activePoiCats.length}类探索点`)
+      }
+    }
+
+    if (params.length > 0) {
+      return {
+        title: `我给你分享了${parts.join('和')}`,
+        query: params.join('&')
+      }
+    }
+
+    return {
+      title: '来看看SCUM地图',
+      query: ''
     }
   }
 })
