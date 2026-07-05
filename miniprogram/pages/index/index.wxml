@@ -42,6 +42,18 @@
           </view>
           <view class="feature-arrow">›</view>
         </view>
+
+        <!-- 武器查询工具 -->
+        <view class="feature-card" bindtap="goToWeapons">
+          <view class="feature-icon-area">
+            <text class="feature-glyph">⚔️</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">武器数据手册</text>
+            <text class="feature-desc">浏览全武器基础数据与配件信息</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
       </view>
     </view>
 

@@ -16,6 +16,12 @@
         "pages/card-reader/card-reader",
         "pages/fuse-timer/fuse-timer"
       ]
+    },
+    {
+      "root": "packageWeapons",
+      "pages": [
+        "pages/index/index"
+      ]
     }
   ],
   "window": {

@@ -24,6 +24,11 @@ Page({
     wx.navigateTo({ url: '/packageBunker/pages/index/index' })
   },
 
+  // 进入武器查询页
+  goToWeapons() {
+    wx.navigateTo({ url: '/packageWeapons/pages/index/index' })
+  },
+
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

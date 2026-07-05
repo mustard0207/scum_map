@@ -1,0 +1,176 @@
+<!-- 武器数据手册页面 -->
+<view class="page">
+  <!-- 自定义导航栏 -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="back-btn" bindtap="goBack">
+        <text class="back-icon">‹</text>
+      </view>
+      <text class="nav-title">SCUM 武器数据手册</text>
+    </view>
+  </view>
+
+  <view class="main-container" style="padding-top: {{statusBarHeight + 44}}px;">
+    <!-- 顶部固定区域: 搜索与分类 -->
+    <view class="header-section">
+      <!-- 搜索栏与语言切换容器 (重构为筛选与语言) -->
+      <view class="header-top-row">
+        <!-- 弹药口径筛选组合 -->
+        <view class="filter-group">
+          <picker class="filter-btn {{selectedCaliberIndex > 0 ? 'active' : ''}}" mode="selector" range="{{caliberOptions}}" value="{{selectedCaliberIndex}}" bindchange="onCaliberChange">
+            <view class="filter-inner">
+              <text>{{selectedCaliberIndex > 0 ? caliberOptions[selectedCaliberIndex] : '筛选弹药口径'}}</text>
+              <text class="filter-icon">▼</text>
+            </view>
+          </picker>
+          <!-- 清空筛选按钮 (仅在选中时显示) -->
+          <view class="clear-filter-btn" wx:if="{{selectedCaliberIndex > 0}}" bindtap="clearFilter">
+            <text>×</text>
+          </view>
+        </view>
+        
+        <!-- 语言切换开关 -->
+        <view class="lang-switch-wrapper">
+          <text class="lang-label">显示英文原版名称</text>
+          <switch class="lang-switch" color="#FFAA00" checked="{{isEnglish}}" bindchange="toggleLanguage" />
+        </view>
+      </view>
+      
+      <!-- 快捷标签 -->
+      <scroll-view class="tag-scroll" scroll-x="true" show-scrollbar="false">
+        <view class="tag-list">
+          <view wx:for="{{categories}}" wx:key="*this"
+                class="tag-item {{currentCategory === item ? 'active' : ''}}"
+                data-category="{{item}}"
+                bindtap="onCategorySelect">
+            {{item}}
+          </view>
+        </view>
+      </scroll-view>
+      <!-- 排序选项栏 -->
+      <view class="sort-bar">
+        <!-- 1. 口径排序 -->
+        <view class="sort-item {{currentSortField === 'caliber' ? 'active' : ''}}" data-field="caliber" bindtap="onSort">
+          <text>口径</text>
+          <text class="sort-arrow">{{currentSortField === 'caliber' ? (sortOrder === 'desc' ? '↓' : '↑') : '-'}}</text>
+        </view>
+        <!-- 2. 射速排序 -->
+        <view class="sort-item {{currentSortField === 'rpm' ? 'active' : ''}}" data-field="rpm" bindtap="onSort">
+          <text>射速</text>
+          <text class="sort-arrow">{{currentSortField === 'rpm' ? (sortOrder === 'desc' ? '↓' : '↑') : '-'}}</text>
+        </view>
+        <!-- 3. 射程排序 -->
+        <view class="sort-item {{currentSortField === 'range' ? 'active' : ''}}" data-field="range" bindtap="onSort">
+          <text>射程</text>
+          <text class="sort-arrow">{{currentSortField === 'range' ? (sortOrder === 'desc' ? '↓' : '↑') : '-'}}</text>
+        </view>
+        <!-- 4. 伤害排序 -->
+        <view class="sort-item {{currentSortField === 'damage' ? 'active' : ''}}" data-field="damage" bindtap="onSort">
+          <text>伤害</text>
+          <text class="sort-arrow">{{currentSortField === 'damage' ? (sortOrder === 'desc' ? '↓' : '↑') : '-'}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 武器列表 -->
+    <scroll-view class="weapon-list" scroll-y="true">
+      <view class="list-content">
+        <view wx:if="{{filteredWeapons.length === 0}}" class="empty-state">
+          <text>没有找到相关武器</text>
+        </view>
+
+        <!-- 武器卡片 -->
+        <view wx:for="{{filteredWeapons}}" wx:key="index" class="weapon-card">
+          <!-- 卡片头部 (可点击展开/折叠) -->
+          <view class="card-header" bindtap="toggleCard" data-index="{{index}}">
+            <view class="header-main">
+              <view class="title-row">
+                <text class="expand-icon">{{expandedMap[index] ? '-' : '+'}}</text>
+                <text class="weapon-name">{{item.name}}</text>
+              </view>
+              <view class="damage-badge">
+                <text class="damage-text">伤害: </text>
+                <text class="damage-value">{{item.damage}}</text>
+              </view>
+            </view>
+            <!-- 核心数据预览 -->
+            <view class="core-stats">
+              <text class="stat-item">口径: {{item.caliber}}</text>
+              <text class="stat-item">射速: {{item.rpm}}</text>
+              <text class="stat-item" wx:if="{{item.range && item.range !== 'N/A'}}">射程: {{item.range}}{{item.range !== 'N/A' && !isEnglish ? 'm' : ''}}</text>
+            </view>
+          </view>
+
+          <!-- 卡片展开内容 (详细数据) -->
+          <view class="card-detail" wx:if="{{expandedMap[index]}}">
+            <view class="detail-divider"></view>
+            
+            <view class="section-title">物理属性</view>
+            <view class="detail-stats">
+              <text class="stat-item">重量: {{item.weight}}kg</text>
+              <text class="stat-item">占格: {{item.slots}}</text>
+            </view>
+            
+            <!-- 配件列表 -->
+            <view class="section-title" wx:if="{{item.ammo.length > 0 || item.mags.length > 0 || item.sights.length > 0 || item.scopes.length > 0 || item.suppressors.length > 0 || item.rails.length > 0 || item.lights.length > 0 || item.bayonets.length > 0}}">适配配件</view>
+            <view class="attachment-section">
+              <view class="attachment-row" wx:if="{{item.ammo.length > 0}}">
+                <text class="att-label">弹药</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.ammo}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.mags.length > 0}}">
+                <text class="att-label">弹匣</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.mags}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.sights.length > 0}}">
+                <text class="att-label">近瞄</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.sights}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.scopes.length > 0}}">
+                <text class="att-label">远瞄</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.scopes}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.suppressors.length > 0}}">
+                <text class="att-label">消音</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.suppressors}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.rails.length > 0}}">
+                <text class="att-label">导轨</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.rails}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.lights.length > 0}}">
+                <text class="att-label">枪灯</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.lights}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+              <view class="attachment-row" wx:if="{{item.bayonets.length > 0}}">
+                <text class="att-label">刺刀</text>
+                <view class="tags-container">
+                  <text class="att-tag" wx:for="{{item.bayonets}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <!-- 底部垫边与免责声明 -->
+        <view class="disclaimer">
+          <text>以上数据仅限 SCUM 游戏内虚拟物品属性参考\n并不代表现实世界中的真实武器参数</text>
+        </view>
+        <view style="height: 40px;"></view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

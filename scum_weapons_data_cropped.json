@@ -1,0 +1,2096 @@
+[
+  {
+    "Name": "AK-15",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "700 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "3.10",
+    "Grid Size": "11 × 3",
+    "Magazines": [
+      "AK15 Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "AK15 Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "AK-47",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "600 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "3.50",
+    "Grid Size": "7 × 3",
+    "Magazines": [
+      "AK47 Magazine",
+      "RPK Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M70 Bayonet"
+    ],
+    "Rails": [
+      "Long Improvised Rail",
+      "Short Improvised Rail",
+      "RIS Adapter"
+    ]
+  },
+  {
+    "Name": "AKM",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "600 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "3.50",
+    "Grid Size": "11 × 3",
+    "Magazines": [
+      "RPK Magazine",
+      "AK47 Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M70 Bayonet"
+    ],
+    "Rails": [
+      "Long Improvised Rail",
+      "Short Improvised Rail",
+      "ImprovisedRail_Long",
+      "ImprovisedRail_Short"
+    ]
+  },
+  {
+    "Name": "AKS-74U",
+    "Damage": "60.00",
+    "Fire Rate (RPM)": "650 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "545x39mm",
+    "Weight (kg)": "2.70",
+    "Grid Size": "6 × 3",
+    "Magazines": [
+      "AKS-74U Magazine"
+    ],
+    "Ammunition": [
+      "5.45x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "AS Val",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "900 RPM",
+    "Effective Range (m)": "500",
+    "Caliber": "9x39mm",
+    "Weight (kg)": "2.50",
+    "Grid Size": "7 × 3",
+    "Magazines": [
+      "AS Val/VSS Magazine"
+    ],
+    "Ammunition": [
+      "9x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "AT4 HEAT",
+    "Damage": "675.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "84AT4HEAT",
+    "Weight (kg)": "4.00",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "RPG Rocket"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "AWM",
+    "Damage": "138.00",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": ".338",
+    "Weight (kg)": "6.90",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "AWM Magazine"
+    ],
+    "Ammunition": [
+      ".338"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      ".338 Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "AWP",
+    "Damage": "120.00",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": ".308",
+    "Weight (kg)": "6.50",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "AWP Magazine"
+    ],
+    "Ammunition": [
+      ".308"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      ".308 Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "BlackHawk Crossbow",
+    "Damage": "150.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "Crossbow Bolt",
+    "Weight (kg)": "3.00",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Crossbow Bolt"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Block 21",
+    "Damage": "87.00",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".45",
+    "Weight (kg)": "0.65",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "Block 21 Magazine"
+    ],
+    "Ammunition": [
+      ".45 ACP"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      ".45 ACP Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Carbon Hunter",
+    "Damage": "120.00",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "30-06",
+    "Weight (kg)": "2.80",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "Carbon Hunter Magazine"
+    ],
+    "Ammunition": [
+      ".30-06",
+      ".308"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Hunting Scope",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Cal .30-06 Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Improvised Rifle Rail"
+    ]
+  },
+  {
+    "Name": "Compound Bow",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "1.50",
+    "Grid Size": "11 × 4",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [
+      "Compound Bow Sight",
+      "Bow Stabilizer",
+      "Improvised Bow Stabilizer"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "Bow Silencer",
+      "Slip-on bow silencer"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "DEagle .357",
+    "Damage": "112.50",
+    "Fire Rate (RPM)": "350 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".357",
+    "Weight (kg)": "2.00",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .357 Magazine"
+    ],
+    "Ammunition": [
+      ".357"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [
+      "Desert Eagle Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "M1911 Rail",
+      "Viper M357 Rail"
+    ]
+  },
+  {
+    "Name": "DEagle 50",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "200 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "50AE",
+    "Weight (kg)": "2.00",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .50 Magazine"
+    ],
+    "Ammunition": [
+      ".50 AE"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [
+      "Desert Eagle Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "M1911 Rail",
+      "Viper M357 Rail"
+    ]
+  },
+  {
+    "Name": "DLC·Specialist Archer PackSteamDB·StoreSpecialist Archer Bow",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "2.00",
+    "Grid Size": "16 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "DLC·Woodland Hunter PackSteamDB·StoreWoodland Hunter Bow",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "2.00",
+    "Grid Size": "16 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "DT11B",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "3.90",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Flare Gun",
+    "Damage": "10.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "N/A",
+    "Weight (kg)": "0.80",
+    "Grid Size": "4 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Flare"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "HS SF19",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "0.66",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "HS SF19 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Handgun Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "HS-9",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "0.66",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "HS9 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Handgun Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Hunter85",
+    "Damage": "52.50",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": ".22",
+    "Weight (kg)": "2.80",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "Hunter85 Magazine"
+    ],
+    "Ammunition": [
+      ".22"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Hunting Scope",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Hunter Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Improvised Rifle Rail"
+    ]
+  },
+  {
+    "Name": "Improvised Bow 20#",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "2.00",
+    "Grid Size": "16 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Bow Silencer",
+      "Slip-on bow silencer"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Improvised Crossbow",
+    "Damage": "100.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "Crossbow Bolt",
+    "Weight (kg)": "3.00",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Crossbow Bolt"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Improvised Flamethrower",
+    "Damage": "N/A",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "17.20",
+    "Grid Size": "16 × 4",
+    "Magazines": [],
+    "Ammunition": [],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Improvised Handgun",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "50AE",
+    "Weight (kg)": "1.20",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .50 Magazine"
+    ],
+    "Ammunition": [
+      ".22",
+      ".357",
+      ".38",
+      ".45 ACP",
+      ".50 AE",
+      "9mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Improvised Rifle",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "3.00",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      ".30-06",
+      ".308",
+      ".338",
+      "5.45x39mm",
+      "5.56x45mm",
+      "7.62x39mm",
+      "7.62x54mmR",
+      "7.92x57mm",
+      "9x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Long Improvised Rail"
+    ]
+  },
+  {
+    "Name": "Judge 44",
+    "Damage": "127.50",
+    "Fire Rate (RPM)": "200 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "44Magnum",
+    "Weight (kg)": "0.97",
+    "Grid Size": "4 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      ".44"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Kar98",
+    "Damage": "150.00",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "792x57mm",
+    "Weight (kg)": "4.10",
+    "Grid Size": "14 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "7.92x57mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "Kar98k Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "Kar98 Bayonet"
+    ],
+    "Rails": [
+      "Improvised Rifle Rail",
+      "ImprovisedRail_Side"
+    ]
+  },
+  {
+    "Name": "Krueger",
+    "Damage": "52.50",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".22",
+    "Weight (kg)": "0.66",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "Krueger Magazine"
+    ],
+    "Ammunition": [
+      ".22"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Handgun Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "M1 Rifle",
+    "Damage": "120.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "30-06",
+    "Weight (kg)": "4.30",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "Carbon Hunter Magazine",
+      "M1 Clip"
+    ],
+    "Ammunition": [
+      ".30-06",
+      ".308"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "M1 Experimental Sights",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M1 Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "M1 Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M1 Bayonet",
+      "M1 Flash Hider"
+    ],
+    "Rails": [
+      "Improvised Rifle Rail"
+    ]
+  },
+  {
+    "Name": "M16A4",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "800 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "556x45mm",
+    "Weight (kg)": "2.89",
+    "Grid Size": "11 × 3",
+    "Magazines": [
+      "M16 Magazine"
+    ],
+    "Ammunition": [
+      "5.56x45mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "M16A4 Folding Sights",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "N9 Bayonet"
+    ],
+    "Rails": []
+  },
+  {
+    "Name": "M1887",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "36 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "3.60",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "M1887 Sawed off",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "36 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "2.80",
+    "Grid Size": "8 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "M1891",
+    "Damage": "138.00",
+    "Fire Rate (RPM)": "35 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x54mm",
+    "Weight (kg)": "3.90",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "SVD Magazine"
+    ],
+    "Ammunition": [
+      "7.62x54mmR"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M1891 Bayonet"
+    ],
+    "Rails": [
+      "Improvised Rifle Rail"
+    ]
+  },
+  {
+    "Name": "M1911",
+    "Damage": "87.00",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".45",
+    "Weight (kg)": "1.10",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "M1911 Magazine"
+    ],
+    "Ammunition": [
+      ".45 ACP"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      ".45 ACP Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "M249",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "1000",
+    "Caliber": "556x45mm",
+    "Weight (kg)": "7.50",
+    "Grid Size": "13 × 4",
+    "Magazines": [
+      "M16 Magazine"
+    ],
+    "Ammunition": [
+      "5.56x45mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "M82A1",
+    "Damage": "400.00",
+    "Fire Rate (RPM)": "200 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "50BMG",
+    "Weight (kg)": "14.00",
+    "Grid Size": "16 × 3",
+    "Magazines": [
+      "M82A1 Magazine"
+    ],
+    "Ammunition": [
+      ".50 BMG"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "M82 QDL Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "MAC-10",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "200",
+    "Caliber": "9mm",
+    "Weight (kg)": "2.84",
+    "Grid Size": "5 × 3",
+    "Magazines": [
+      "MAC-10 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "MAC-10 Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "MK18",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "950 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "556x45mm",
+    "Weight (kg)": "2.67",
+    "Grid Size": "10 × 3",
+    "Magazines": [
+      "M16 Magazine"
+    ],
+    "Ammunition": [
+      "5.56x45mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "MK18 Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "MP5",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "2.92",
+    "Grid Size": "6 × 3",
+    "Magazines": [
+      "MP5 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "MP5 Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "MP5 rail",
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "MP5 K",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "2.00",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "MP5 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "MP5 Suppressor"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": [
+      "MP5 rail",
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "MP5 SD",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "2.71",
+    "Grid Size": "9 × 3",
+    "Magazines": [
+      "MP5 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "MP5 rail",
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "Peacekeeper 38",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".357",
+    "Weight (kg)": "0.97",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .357 Magazine"
+    ],
+    "Ammunition": [
+      ".357",
+      ".38"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "RPG7",
+    "Damage": "120000.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "40PG-7M",
+    "Weight (kg)": "4.00",
+    "Grid Size": "14 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "RPG Rocket"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "RPK",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "600 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "4.80",
+    "Grid Size": "14 × 4",
+    "Magazines": [
+      "RPK Magazine",
+      "AK47 Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M70 Bayonet"
+    ],
+    "Rails": [
+      "Long Improvised Rail",
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "SCAR-DMR",
+    "Damage": "120.00",
+    "Fire Rate (RPM)": "650 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": ".308",
+    "Weight (kg)": "3.29",
+    "Grid Size": "12 × 3",
+    "Magazines": [
+      "SCAR-DMR Magazine"
+    ],
+    "Ammunition": [
+      ".308"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "SCAR-L",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": "556x45mm",
+    "Weight (kg)": "3.29",
+    "Grid Size": "12 × 3",
+    "Magazines": [
+      "M16 Magazine"
+    ],
+    "Ammunition": [
+      "5.56x45mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "SDASS 12M",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "55 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "2.40",
+    "Grid Size": "10 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "12 Gauge Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "SKS",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "260 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "3.85",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "RPK Magazine",
+      "AK15 Magazine",
+      "AK47 Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "SKS Bayonet"
+    ],
+    "Rails": [
+      "Improvised Rifle Rail"
+    ]
+  },
+  {
+    "Name": "SKS Clip",
+    "Damage": "97.50",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "762x39mm",
+    "Weight (kg)": "0.01",
+    "Grid Size": "2 × 2",
+    "Magazines": [
+      "RPK Magazine",
+      "AK15 Magazine",
+      "AK47 Magazine"
+    ],
+    "Ammunition": [
+      "7.62x39mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "SVD",
+    "Damage": "138.00",
+    "Fire Rate (RPM)": "500 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "762x54mm",
+    "Weight (kg)": "5.30",
+    "Grid Size": "14 × 3",
+    "Magazines": [
+      "SVD Magazine"
+    ],
+    "Ammunition": [
+      "7.62x54mmR"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "POSP 4X24V Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor",
+      "SVD Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [
+      "M70 Bayonet"
+    ],
+    "Rails": [
+      "Long Improvised Rail",
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "Scorpion 40#",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "1.50",
+    "Grid Size": "16 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Bow Silencer",
+      "Slip-on bow silencer"
+    ],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Serpent 357",
+    "Damage": "112.50",
+    "Fire Rate (RPM)": "200 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".357",
+    "Weight (kg)": "0.97",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .357 Magazine"
+    ],
+    "Ammunition": [
+      ".357",
+      ".38"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "TEC01 490",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "55 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "3.90",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "12 Gauge Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "TEC01 M9",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "300 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": "9mm",
+    "Weight (kg)": "0.97",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "M9 Magazine"
+    ],
+    "Ammunition": [
+      "9mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [
+      "Handgun Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "M9 Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Takedown Bow",
+    "Damage": "135.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "N/A",
+    "Caliber": "N/A",
+    "Weight (kg)": "1.50",
+    "Grid Size": "8 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "Arrow"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Tommy Gun",
+    "Damage": "87.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "1000",
+    "Caliber": ".45",
+    "Weight (kg)": "4.50",
+    "Grid Size": "10 × 3",
+    "Magazines": [
+      "Tommy Gun Magazine"
+    ],
+    "Ammunition": [
+      ".45 ACP"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "Trench Gun",
+    "Damage": "30.00",
+    "Fire Rate (RPM)": "88 RPM",
+    "Effective Range (m)": "200",
+    "Caliber": "12 Gauge",
+    "Weight (kg)": "3.60",
+    "Grid Size": "11 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "12 Gauge"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight"
+    ],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [
+      "P17 Bayonet"
+    ],
+    "Rails": [
+      "Short Improvised Rail"
+    ]
+  },
+  {
+    "Name": "UMP-45",
+    "Damage": "87.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "400",
+    "Caliber": ".45",
+    "Weight (kg)": "2.65",
+    "Grid Size": "6 × 4",
+    "Magazines": [
+      "UMP-45 Magazine"
+    ],
+    "Ammunition": [
+      ".45 ACP"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      ".45 ACP Suppressor",
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "VHS 2",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "800 RPM",
+    "Effective Range (m)": "1000",
+    "Caliber": "556x45mm",
+    "Weight (kg)": "3.50",
+    "Grid Size": "9 × 3",
+    "Magazines": [
+      "VHS Magazine"
+    ],
+    "Ammunition": [
+      "5.56x45mm"
+    ],
+    "Sights": [
+      "AimPRO Red Dot Sight",
+      "Desert Eagle Red Dot",
+      "MRO Red Dot Sight",
+      "OKP Holographic Sight",
+      "Red Dot Sight",
+      "Sentry RDRS",
+      "V3 Holographic Sight",
+      "XPS Holographic Sight"
+    ],
+    "Scopes": [
+      "ACOG",
+      "Improvised Scope",
+      "M82 Scope",
+      "P-223 Scope",
+      "SpektralDR",
+      "Vampyr Scope"
+    ],
+    "Suppressors": [
+      "Improvised Bottle Suppressor",
+      "Improvised Can Suppressor",
+      "Improvised Oil Can Suppressor"
+    ],
+    "Flashlights": [
+      "Improvised Flashlight"
+    ],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "VHS BG",
+    "Damage": "400.00",
+    "Fire Rate (RPM)": "N/A",
+    "Effective Range (m)": "1000",
+    "Caliber": "40x46",
+    "Weight (kg)": "4.10",
+    "Grid Size": "7 × 3",
+    "Magazines": [],
+    "Ammunition": [
+      "40x46mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "VSS VZ",
+    "Damage": "82.50",
+    "Fire Rate (RPM)": "900 RPM",
+    "Effective Range (m)": "500",
+    "Caliber": "9x39mm",
+    "Weight (kg)": "2.50",
+    "Grid Size": "9 × 3",
+    "Magazines": [
+      "AS Val/VSS Magazine"
+    ],
+    "Ammunition": [
+      "9x39mm"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  },
+  {
+    "Name": "Viper M357",
+    "Damage": "112.50",
+    "Fire Rate (RPM)": "200 RPM",
+    "Effective Range (m)": "400",
+    "Caliber": ".357",
+    "Weight (kg)": "0.97",
+    "Grid Size": "4 × 3",
+    "Magazines": [
+      "DEagle .357 Magazine"
+    ],
+    "Ammunition": [
+      ".357",
+      ".38"
+    ],
+    "Sights": [],
+    "Scopes": [],
+    "Suppressors": [],
+    "Flashlights": [],
+    "Bayonets": [],
+    "Rails": []
+  }
+]

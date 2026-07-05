@@ -1,0 +1,382 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background: #121008;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* 自定义导航栏 */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1C1A10;
+  z-index: 100;
+}
+
+.nav-content {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 16px;
+}
+
+.back-btn {
+  width: 40px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 10px;
+  z-index: 101;
+}
+
+.back-icon {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+}
+
+/* 主容器 */
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 顶部固定区域 */
+.header-section {
+  padding: 16px;
+  background: #1C1A10;
+  border-bottom: 1px solid rgba(255, 170, 0, 0.1);
+}
+
+.header-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.filter-group {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+/* 独立筛选按钮 */
+.filter-btn {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* 清空筛选按钮 */
+.clear-filter-btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  background: rgba(255, 50, 50, 0.1);
+  border: 1px solid rgba(255, 50, 50, 0.2);
+  border-radius: 8px;
+  color: #ff5555;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.filter-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.filter-btn.active {
+  background: rgba(255, 170, 0, 0.1);
+  border-color: rgba(255, 170, 0, 0.3);
+}
+
+.filter-btn.active .filter-inner {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.filter-icon {
+  font-size: 10px;
+  color: inherit;
+}
+
+.lang-switch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lang-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+
+.lang-switch {
+  transform: scale(0.7);
+  margin-right: -10px;
+}
+
+/* 标签栏 */
+.tag-scroll {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.tag-list {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.tag-item {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.tag-item.active {
+  background: rgba(255, 170, 0, 0.15);
+  color: #FFAA00;
+  border: 1px solid rgba(255, 170, 0, 0.5);
+}
+
+/* 排序选项栏 */
+.sort-bar {
+  display: flex;
+  margin-top: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.sort-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 6px 0;
+  transition: all 0.2s;
+}
+
+.sort-item.active {
+  color: #FFAA00;
+  background: rgba(255, 170, 0, 0.1);
+  border-radius: 4px;
+}
+
+.sort-arrow {
+  margin-left: 4px;
+  font-size: 10px;
+  width: 10px;
+}
+
+/* 武器列表 */
+.weapon-list {
+  flex: 1;
+  height: 0; /* 必须加 height: 0 结合 flex: 1 才能让小程序 scroll-view 滚动 */
+  background: #121008;
+}
+
+.list-content {
+  padding: 16px;
+}
+
+.empty-state {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+/* 武器卡片 */
+.weapon-card {
+  background: #1C1A10;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 16px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.expand-icon {
+  color: #FFAA00;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+  width: 16px;
+  text-align: center;
+  line-height: 1;
+}
+
+.weapon-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.damage-badge {
+  display: flex;
+  align-items: baseline;
+}
+
+.damage-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.damage-value {
+  color: #FFAA00;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace; /* 增加科技感数字字体 */
+}
+
+/* 核心数据预览 */
+.core-stats {
+  display: flex;
+  flex-wrap: wrap; /* 允许优雅地整块换行，而不是挤压内部文字 */
+  gap: 6px 12px; /* 上下间距6px，左右间距12px */
+  font-size: 12px; /* 稍微调回12px，兼顾清晰度与手机屏幕宽度 */
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 6px;
+}
+
+.stat-item {
+  display: inline-block;
+  white-space: nowrap; /* 强制每个属性内部（如“口径: 762”）绝不换行断开 */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 空状态与免责声明 */
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+}
+
+.disclaimer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.15);
+  font-size: 10px;
+  padding: 20px 0 40px 0;
+  line-height: 1.5;
+}
+
+/* 展开的详情 */
+.card-detail {
+  padding: 0 16px 16px 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.detail-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  border-left: 2px solid rgba(255, 170, 0, 0.5);
+}
+
+.detail-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+.attachment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 12px;
+}
+
+.attachment-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.att-label {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  width: 40px;
+  flex-shrink: 0;
+  line-height: 22px;
+}
+
+.tags-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.att-tag {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  line-height: 16px;
+}
