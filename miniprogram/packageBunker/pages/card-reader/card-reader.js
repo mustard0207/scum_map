@@ -65,9 +65,31 @@ Page({
     }
   },
 
+  validateCurrentFocus() {
+    const focus = this.data.currentFocus
+    if (!focus) return true
+    
+    // 只校验操作区 (r0~r7, b0~b7)
+    if ((focus.startsWith('r') || focus.startsWith('b')) && focus.length === 2) {
+      let isRed = focus.startsWith('r')
+      let idx = parseInt(focus.substring(1))
+      let val = isRed ? this.data.redOps[idx] : this.data.blueOps[idx]
+      
+      // 如果长度为1且是符号，说明漏了数字
+      if (val && val.length === 1 && ['+', '-', '*', '/', 'x', '÷'].includes(val)) {
+        wx.showToast({ title: '符号后需输入数字', icon: 'none' })
+        wx.vibrateLong()
+        return false
+      }
+    }
+    return true
+  },
+
   // 切换输入焦点
   setFocus(e) {
     wx.vibrateShort()
+    if (!this.validateCurrentFocus()) return
+    
     const id = e.currentTarget.dataset.id
     this.setData({ 
       currentFocus: id,
@@ -78,6 +100,8 @@ Page({
 
   // 自动跳到下一个输入框
   nextFocus(silent = false) {
+    if (!this.validateCurrentFocus()) return
+    
     if (silent !== true) {
       wx.vibrateShort()
     }
@@ -268,6 +292,8 @@ Page({
   // 核心破解计算
   calculate() {
     wx.vibrateShort()
+    if (!this.validateCurrentFocus()) return
+
     const { startValue, redTarget, blueTarget, redOps, blueOps } = this.data
 
     const rStart = parseFloat(startValue)
