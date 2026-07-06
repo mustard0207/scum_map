@@ -106,9 +106,8 @@
     <text class="help-text-label">使用说明</text>
   </view>
 
-  <!-- 地图区域 -->
   <view class="map-area" style="top: {{statusBarHeight + 44}}px; bottom: {{bottomBarHeight}}px;" bindtap="onMapAreaTap">
-    <tile-map id="tileMap" markers="{{markers}}" bindmarkertap="onMarkerTap" bindgestureend="onGestureEnd" bindmapready="onMapReady" />
+    <tile-map id="tileMap" markers="{{markers}}" huntingZones="{{huntingZones}}" bindmarkertap="onMarkerTap" bindgestureend="onGestureEnd" bindmapready="onMapReady" />
   </view>
 
   <!-- 坐标显示（光标处的实时坐标） -->
@@ -124,7 +123,7 @@
   </view>
 
   <!-- 缩放拖拉条（右侧，鼠标/手指拖拉放大缩小） -->
-  <view class="zoom-slider"
+  <view class="zoom-slider {{sliderActive ? 'active' : ''}}"
     style="bottom: {{bottomBarHeight + 90 + (showSaveBanner ? 40 : 0)}}px;"
     catchtouchstart="onZoomSliderStart"
     catchtouchmove="onZoomSliderMove"
@@ -132,15 +131,16 @@
   >
     <view class="zoom-slider-track">
       <view class="zoom-slider-fill" style="height: {{zoomSliderPercent}}%;"></view>
+      <view class="zoom-slider-thumb" style="bottom: {{zoomSliderPercent}}%;"></view>
     </view>
-    <view class="zoom-slider-thumb" style="bottom: {{zoomSliderPercent}}%;"></view>
     <text class="zoom-slider-label">+</text>
     <text class="zoom-slider-label zoom-slider-label-bottom">−</text>
   </view>
 
   <!-- 回到全局视角按钮 -->
   <view class="reset-view-btn" bindtap="resetMapView" style="bottom: {{bottomBarHeight + 20 + (showSaveBanner ? 40 : 0)}}px;">
-    <text class="reset-view-icon">⊙</text>
+    <view class="reset-icon-ring"></view>
+    <view class="reset-icon-dot"></view>
   </view>
 
   <!-- 信息窗口（点击标记后显示） -->
@@ -484,6 +484,28 @@
               </view>
             </view>
           </view>
+          <!-- 生态地形大类 -->
+          <view class="filter-group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="_biome">
+              <text class="filter-group-icon">🗺️</text>
+              <text class="filter-group-name">生态地形</text>
+              <text class="filter-group-count">{{sectionSelectedCounts['_biome'] || 0}}/6</text>
+              <text class="filter-group-arrow {{expandedGroups['_biome'] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups['_biome']}}">
+              <view class="filter-sub" wx:for="{{biomeTypes}}" wx:for-item="sub" wx:key="id">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <view
+                  class="filter-toggle {{activeBiomeMap[sub.id] ? 'filter-toggle-on' : ''}}"
+                  catchtap="toggleBiome"
+                  data-id="{{sub.id}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+          
           <!-- 可展开的精选大类 -->
           <view class="filter-group" wx:for="{{quickCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
@@ -548,6 +570,28 @@
               </view>
             </view>
           </view>
+          <!-- 生态地形大类 -->
+          <view class="filter-group">
+            <view class="filter-group-header" catchtap="toggleGroup" data-group="_biome">
+              <text class="filter-group-icon">🗺️</text>
+              <text class="filter-group-name">生态地形</text>
+              <text class="filter-group-count">{{sectionSelectedCounts['_biome'] || 0}}/6</text>
+              <text class="filter-group-arrow {{expandedGroups['_biome'] ? 'filter-group-arrow-expanded' : ''}}">▸</text>
+            </view>
+            <view class="filter-subs" wx:if="{{expandedGroups['_biome']}}">
+              <view class="filter-sub" wx:for="{{biomeTypes}}" wx:for-item="sub" wx:key="id">
+                <text class="filter-sub-name">{{sub.emoji}} {{sub.cnName}}</text>
+                <view
+                  class="filter-toggle {{activeBiomeMap[sub.id] ? 'filter-toggle-on' : ''}}"
+                  catchtap="toggleBiome"
+                  data-id="{{sub.id}}"
+                >
+                  <view class="filter-toggle-thumb"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+
           <view class="filter-group" wx:for="{{poiCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
               <text class="filter-group-icon">{{group.emoji}}</text>

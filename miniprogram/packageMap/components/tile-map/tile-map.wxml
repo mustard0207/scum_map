@@ -74,6 +74,18 @@
     data-rpx="{{item.rpx}}"
   />
 
+  <!-- 狩猎区域圆圈（在标记之下，无阻挡事件） -->
+  <view
+    wx:for="{{huntingZonesOnScreen}}"
+    wx:key="id"
+    class="hunting-zone"
+    style="background-color: {{item.color}}66; pointer-events: none; border-radius: 50%; position: absolute;"
+    data-id="{{item.id}}"
+    data-px="{{item.px}}"
+    data-py="{{item.py}}"
+    data-rpx="{{item.rpx}}"
+  />
+
   <!-- 标记列表（在 viewport 内部，WXS 可通过 selectAllComponents 选取） -->
   <!-- 点击检测由 WXS handleTap → onTapAtPoint 坐标命中检测处理 -->
   <view

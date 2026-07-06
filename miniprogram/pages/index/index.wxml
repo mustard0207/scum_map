@@ -54,6 +54,18 @@
           </view>
           <view class="feature-arrow">›</view>
         </view>
+
+        <!-- 狩猎助手 -->
+        <view class="feature-card" bindtap="goToHunting">
+          <view class="feature-icon-area">
+            <text class="feature-glyph">🐻</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">狩猎助手</text>
+            <text class="feature-desc">动物生态图鉴与地形雷达探测</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
       </view>
     </view>
 

@@ -110,8 +110,8 @@ Page({
   },
 
   // 切换中英文
-  toggleLanguage(e) {
-    const isEnglish = e.detail.value
+  toggleLanguage() {
+    const isEnglish = !this.data.isEnglish
     const newData = isEnglish ? this.data._formattedEn : this.data._formattedZh
     this.setData({ 
       isEnglish: isEnglish,

@@ -85,6 +85,14 @@ Component({
       observer: function(newVal) {
         this._updateMarkersScreenPos()
       }
+    },
+    // 狩猎区数组：[{ x, y, r, color }] (游戏坐标)
+    huntingZones: {
+      type: Array,
+      value: [],
+      observer: function(newVal) {
+        this._updateMarkersScreenPos() // 共用刷新逻辑
+      }
     }
   },
 
@@ -107,7 +115,9 @@ Component({
     gridLinesV: [],
     gridLabels: [],
     // 安全区圆圈
-    safeZonesOnScreen: []
+    safeZonesOnScreen: [],
+    // 狩猎区圆圈 (屏幕裁剪后)
+    huntingZonesOnScreen: []
   },
 
   lifetimes: {
@@ -380,7 +390,7 @@ Component({
 
     /** 合并刷新标记+网格（动画路径，始终执行） */
     _refreshOverlayAnim() {
-      const { offsetX, offsetY, scale, markers } = this.data
+      const { offsetX, offsetY, scale, markers, huntingZones } = this.data
 
       // 标记位置
       let markersOnScreen = []
@@ -393,10 +403,47 @@ Component({
         }).filter(Boolean)
       }
 
+      // 狩猎区裁剪与 LOD
+      let huntingZonesOnScreen = []
+      if (huntingZones && huntingZones.length > 0) {
+        const vpLeft = -offsetX / scale
+        const vpTop = -offsetY / scale
+        const vpRight = (this._vw - offsetX) / scale
+        const vpBottom = (this._vh - offsetY) / scale
+
+        const lngRange = GEO_BOUNDS.longitudeRight - GEO_BOUNDS.longitudeLeft
+        const latRange = GEO_BOUNDS.latitudeBottom - GEO_BOUNDS.latitudeTop
+
+        let visible = []
+        for (let i = 0; i < huntingZones.length; i++) {
+          const z = huntingZones[i]
+          const px = (z.x - GEO_BOUNDS.longitudeLeft) / lngRange * FULL_MAP_SIZE
+          const py = (z.y - GEO_BOUNDS.latitudeTop) / latRange * FULL_MAP_SIZE
+          const rpx = z.r / Math.abs(lngRange) * FULL_MAP_SIZE
+          
+          // 检查包围盒视口碰撞
+          if (px + rpx > vpLeft && px - rpx < vpRight && py + rpx > vpTop && py - rpx < vpBottom) {
+            visible.push({
+              id: 'hz_' + i,
+              px: px,
+              py: py,
+              rpx: rpx,
+              color: z.color
+            })
+          }
+        }
+        
+        // LOD 截断：最多渲染 200 个，防止小程序爆内存卡顿
+        if (visible.length > 200) {
+          visible = visible.slice(0, 200)
+        }
+        huntingZonesOnScreen = visible
+      }
+
       // 瓦片数据（仅在变化时附带，不增加 setData 次数）
       const tileData = this._computeTileData()
 
-      this.setData({ markersOnScreen, ...tileData, 'wxsState.trigger': Date.now() })
+      this.setData({ markersOnScreen, huntingZonesOnScreen, ...tileData, 'wxsState.trigger': Date.now() })
     },
 
     // ================================================================
@@ -616,14 +663,23 @@ Component({
       // X 轴保持中心对称容差，Y 轴向上覆盖整个水滴区域
       const HIT_RADIUS_X = 15  // 水滴宽度容差（20px / 2 + 余量）
       const HIT_TOP = 28       // 水滴顶部距锚点的偏移（20px × √2 ≈ 28）
+      let hitMarker = false
       for (let i = markersOnScreen.length - 1; i >= 0; i--) {
         const m = markersOnScreen[i]
         const mx = m.px * scale + offsetX
         const my = m.py * scale + offsetY
         if (Math.abs(vpX - mx) < HIT_RADIUS_X && vpY >= my - HIT_TOP && vpY <= my) {
           this.triggerEvent('markertap', { marker: m })
-          return
+          hitMarker = true
+          break
         }
+      }
+
+      // 如果没有点中任何标记，抛出地图被点击事件 (触发狩猎区雷达探测)
+      if (!hitMarker) {
+        // 先把屏幕坐标转成游戏坐标再抛出
+        const geo = this.screenToGeo(x, y)
+        this.triggerEvent('maptap', { x, y, geoLng: geo.lng, geoLat: geo.lat })
       }
     }
   }

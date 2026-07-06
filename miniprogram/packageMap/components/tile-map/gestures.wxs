@@ -107,6 +107,22 @@ function updateStyles(ownerInstance) {
       height: (r * 2) + 'px'
     });
   }
+
+  // 8. 狩猎区域圆圈
+  var huntingZones = ownerInstance.selectAllComponents('.hunting-zone');
+  for (var i = 0; i < huntingZones.length; i++) {
+    var ds = huntingZones[i].getDataset();
+    if (ds.px === undefined) continue;
+    var cx = parseFloat(ds.px) * s + ox;
+    var cy = parseFloat(ds.py) * s + oy;
+    var r = parseFloat(ds.rpx) * s;
+    huntingZones[i].setStyle({
+      left: (cx - r) + 'px',
+      top: (cy - r) + 'px',
+      width: (r * 2) + 'px',
+      height: (r * 2) + 'px'
+    });
+  }
 }
 
 function propChange(newVal, oldVal, ownerInstance, instance) {

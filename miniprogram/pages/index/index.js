@@ -29,6 +29,11 @@ Page({
     wx.navigateTo({ url: '/packageWeapons/pages/index/index' })
   },
 
+  // 进入狩猎助手页
+  goToHunting() {
+    wx.navigateTo({ url: '/packageMap/pages/hunting/hunting' })
+  },
+
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

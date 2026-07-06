@@ -2,6 +2,7 @@ const app = getApp()
 
 // POI 分类配置（直接使用 category-map.js）
 const catMap = require('../../data/category-map.js')
+const huntingData = require('../../data/hunting.js')
 
 // 按 section 分组，生成 WXML 可遍历的数组格式
 const SECTION_CN = {
@@ -121,6 +122,7 @@ Page({
     showCoordInput: false,
     coordInputValue: '',
     zoomSliderPercent: 0,  // 缩放条位置百分比（0=底部最小，100=顶部最大）
+    sliderActive: false, // 控制滑动条的透明度
     // 标记数组（传给组件）
     markers: [],
     // 当前选中的标记
@@ -141,14 +143,20 @@ Page({
     activePoiCats: [],              // 当前激活的小类 ID（默认无，安全区已有绿圈显示）
     poiCatCounts: {},               // 每个小类的点位数 { catId: number }
     poiGroupCounts: {},             // 每个大类的小类数 { sectionName: number }
-    sectionSelectedCounts: {},      // 每个大类的选中小类数 { sectionName: number }
+    sectionSelectedCounts: {
+      '_custom': 0,
+      '_biome': 0
+    },      // 每个大类的选中小类数 { sectionName: number }
     quickSections: QUICK_SECTIONS,  // 精选 section 名
     quickSubs: QUICK_SUBS.map(id => ({ id, emoji: CAT_EMOJI[id], cnName: CAT_CN[id] })),
     quickCategories: poiCategories.filter(c => QUICK_SECTIONS.includes(c.name)),
     activePoiMap: {},               // 活跃分类查找表 { catId: true }
     showFilterPanel: false,         // 筛选面板开关
     filterFullMode: false,          // 完整版筛选模式
-    expandedGroups: {},             // 展开的大类
+    expandedGroups: {
+      '_custom': false,
+      '_biome': false
+    },             // 展开的大类
     poiCatName: '',                 // 当前选中 POI 的小类名
     showVehiclePartsEditor: false,  // 是否展开载具配件编辑面板
     markerTypes: MARKER_TYPES,      // 自定义标记类型配置
@@ -171,6 +179,18 @@ Page({
     tempExpiryDays: {},             // 过期设置弹窗临时数据
     tempWarnDays: 2,                // 弹窗中的最小提醒天数临时值
     markerWarnDays: 2,              // 最小剩余天数（低于此值显示警告）
+    
+    // 生态地形类型
+    biomeTypes: [
+      { id: 'ContinentalForest', cnName: '大陆森林', emoji: '🌲' },
+      { id: 'ContinentalMeadow', cnName: '大陆草地', emoji: '🌿' },
+      { id: 'Mountain', cnName: '高山地带', emoji: '⛰️' },
+      { id: 'Mediterranean', cnName: '地中海气候', emoji: '🏖️' },
+      { id: 'Village', cnName: '乡村废墟', emoji: '🏚️' },
+      { id: 'Urban', cnName: '城市废墟', emoji: '🏙️' }
+    ],
+    activeBiomeMap: {},
+    huntingZones: []
   },
 
   onLoad(options) {
@@ -335,6 +355,8 @@ Page({
   // ================================================================
 
   onZoomSliderStart(e) {
+    this._sliderActive = true
+    this.setData({ sliderActive: true })
     this._sliderStartY = e.touches[0].clientY
     const mapComp = this.selectComponent('#tileMap')
     if (mapComp) {
@@ -344,7 +366,7 @@ Page({
   },
 
   onZoomSliderMove(e) {
-    if (this._sliderStartY === undefined) return
+    if (!this._sliderActive || this._sliderStartY === undefined) return
     const sysInfo = wx.getWindowInfo()
     if (!sysInfo) return
 
@@ -367,6 +389,8 @@ Page({
   },
 
   onZoomSliderEnd() {
+    this._sliderActive = false
+    this.setData({ sliderActive: false })
     this._sliderStartY = undefined
     this._sliderStartScale = undefined
     this._schedulePoiRefresh()
@@ -1144,7 +1168,7 @@ Page({
     const expanded = { ...this.data.expandedGroups }
 
     // 展开时预加载该大类的数据（计算小类点位数），自定义标记无需加载 POI 数据
-    if (group !== '_custom' && !expanded[group]) {
+    if (group !== '_custom' && group !== '_biome' && !expanded[group]) {
       this._getSectionData(group)
     }
 
@@ -1159,12 +1183,63 @@ Page({
       activePoiMap: {},
       activeUserMarkerTypes: [],
       activeUserMarkerMap: {},
-      showUserMarkers: true
+      showUserMarkers: true,
+      activeBiomeMap: {},
+      huntingZones: [],
+      sectionSelectedCounts: {
+        '_custom': 0,
+        '_biome': 0
+      }
     })
     this._updateSectionSelectedCounts()
     this._rebuildDisplayMarkers()
     this._poiPixelCache = null
     this._schedulePoiRefresh()
+    this._onUserChange()
+    const mapComp = this.selectComponent('#tileMap')
+    if (mapComp) mapComp._refreshOverlay()
+  },
+
+  // ---------------- 生态地形筛选 ----------------
+  toggleBiome(e) {
+    const id = e.currentTarget.dataset.id
+    const map = { ...this.data.activeBiomeMap }
+    
+    if (map[id]) {
+      delete map[id]
+    } else {
+      map[id] = true
+    }
+    
+    // Compute huntingZones based on active biomes
+    const zones = huntingData.ZONES
+    const targetZones = []
+    
+    for (let i = 0; i < zones.length; i++) {
+      if (map[zones[i].b]) {
+        targetZones.push({
+          ...zones[i],
+          color: huntingData.BIOME_COLORS[zones[i].b]
+        })
+      }
+    }
+    
+    // Update count
+    const sectionSelectedCounts = { ...this.data.sectionSelectedCounts }
+    sectionSelectedCounts['_biome'] = Object.keys(map).length
+    
+    this.setData({
+      activeBiomeMap: map,
+      huntingZones: targetZones,
+      sectionSelectedCounts
+    })
+    
+    // 强制地图重新渲染覆盖物
+    const mapComp = this.selectComponent('#tileMap')
+    if (mapComp) {
+      mapComp._refreshOverlay()
+    }
+    
     this._onUserChange()
   },
 
@@ -1226,7 +1301,7 @@ Page({
 
   /** 更新每个大类的选中小类计数 */
   _updateSectionSelectedCounts() {
-    const { activePoiMap, poiCategories, activeUserMarkerTypes } = this.data
+    const { activePoiMap, poiCategories, activeUserMarkerTypes, activeBiomeMap } = this.data
     const counts = {}
     poiCategories.forEach(section => {
       let selected = 0
@@ -1236,6 +1311,7 @@ Page({
       counts[section.name] = selected
     })
     counts['_custom'] = activeUserMarkerTypes.length
+    counts['_biome'] = Object.keys(activeBiomeMap).length
     this.setData({ sectionSelectedCounts: counts })
   },
 

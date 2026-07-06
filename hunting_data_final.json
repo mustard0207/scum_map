@@ -1,0 +1,224 @@
+[
+    {
+        "id": "bear",
+        "name": {
+            "en": "Bear",
+            "zh": "熊"
+        },
+        "attractants": [
+            { "en": "Angler Fillet", "zh": "鮟鱇鱼片" },
+            { "en": "Animal Fat", "zh": "动物脂肪" },
+            { "en": "Apple Pie", "zh": "苹果派" },
+            { "en": "Big Animal Fat", "zh": "大块动物脂肪" },
+            { "en": "Carnivore Bait Block", "zh": "食肉动物诱饵块" },
+            { "en": "Catfish Fillet", "zh": "鲶鱼片" },
+            { "en": "Cuttlefish", "zh": "墨鱼" },
+            { "en": "Fat", "zh": "脂肪" },
+            { "en": "Fish Skewer", "zh": "烤鱼串" },
+            { "en": "Grilled Fish", "zh": "烤鱼" },
+            { "en": "Honeycomb", "zh": "蜂巢" },
+            { "en": "Hot Dog", "zh": "热狗" },
+            { "en": "Monkfish", "zh": "鮟鱇鱼" },
+            { "en": "Sardine Fillet", "zh": "沙丁鱼片" },
+            { "en": "Scorpionfish Fillet", "zh": "鲉鱼片" },
+            { "en": "Shark", "zh": "鲨鱼" },
+            { "en": "Spit Roasted Fish", "zh": "串烤鱼" },
+            { "en": "Squid", "zh": "鱿鱼" },
+            { "en": "Tuna Fillet", "zh": "金枪鱼片" }
+        ]
+    },
+    {
+        "id": "boar",
+        "name": {
+            "en": "Boar",
+            "zh": "野猪"
+        },
+        "attractants": [
+            { "en": "Agaricus Augustus", "zh": "大白蘑菇" },
+            { "en": "Agaricus Campestris", "zh": "四孢蘑菇" },
+            { "en": "Boletus Edulis", "zh": "美味牛肝菌" },
+            { "en": "Cantharellus Cibarius", "zh": "鸡油菌" },
+            { "en": "Cheese", "zh": "奶酪" },
+            { "en": "Coprinus Comatus", "zh": "毛头鬼伞" },
+            { "en": "Egg", "zh": "鸡蛋" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Lepiota Procera", "zh": "高大环柄菇" },
+            { "en": "Lycoperdon Gigantea", "zh": "大马勃" },
+            { "en": "Onion", "zh": "洋葱" },
+            { "en": "Potato", "zh": "土豆" },
+            { "en": "Richard's Cheese", "zh": "理查德的奶酪" },
+            { "en": "Tomato", "zh": "西红柿" }
+        ]
+    },
+    {
+        "id": "chicken",
+        "name": {
+            "en": "Chicken",
+            "zh": "鸡"
+        },
+        "attractants": [
+            { "en": "Apple Seeds", "zh": "苹果种子" },
+            { "en": "Apricot Seeds", "zh": "杏子种子" },
+            { "en": "Broccoli Seeds", "zh": "西兰花种子" },
+            { "en": "Cabbage Seeds", "zh": "卷心菜种子" },
+            { "en": "Cannabis Seeds", "zh": "大麻种子" },
+            { "en": "Cantaloupe Seeds", "zh": "哈密瓜种子" },
+            { "en": "Carrot Seeds", "zh": "胡萝卜种子" },
+            { "en": "Cherry Seeds", "zh": "樱桃种子" },
+            { "en": "Chilli Pepper Seeds", "zh": "辣椒种子" },
+            { "en": "Corn Seeds", "zh": "玉米种子" },
+            { "en": "Cricket", "zh": "蟋蟀" },
+            { "en": "Cucumber Seeds", "zh": "黄瓜种子" },
+            { "en": "Earthworm", "zh": "蚯蚓" },
+            { "en": "Fig Seeds", "zh": "无花果种子" },
+            { "en": "Garlic Seeds", "zh": "大蒜种子" },
+            { "en": "Grasshopper", "zh": "蚱蜢" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Lemon Seeds", "zh": "柠檬种子" },
+            { "en": "Lettuce Seeds", "zh": "生菜种子" },
+            { "en": "Orange Seeds", "zh": "橙子种子" },
+            { "en": "Peach Seeds", "zh": "桃子种子" },
+            { "en": "Pear Seeds", "zh": "梨子种子" },
+            { "en": "Pepper Seeds", "zh": "甜椒种子" },
+            { "en": "Plum Seeds", "zh": "李子种子" },
+            { "en": "Potato Seeds", "zh": "土豆种子" },
+            { "en": "Pumpkin Seeds", "zh": "南瓜种子" },
+            { "en": "Red Onion Seeds", "zh": "红洋葱种子" },
+            { "en": "Spinach Seeds", "zh": "菠菜种子" },
+            { "en": "Tangerine Seeds", "zh": "橘子种子" },
+            { "en": "Tobacco Seeds", "zh": "烟草种子" },
+            { "en": "Tomato Seeds", "zh": "西红柿种子" },
+            { "en": "Watermelon Seeds", "zh": "西瓜种子" },
+            { "en": "Zucchini Seeds", "zh": "西葫芦种子" }
+        ]
+    },
+    {
+        "id": "deer",
+        "name": {
+            "en": "Deer",
+            "zh": "鹿"
+        },
+        "attractants": [
+            { "en": "Barberry", "zh": "小檗果" },
+            { "en": "Blackberry", "zh": "黑莓" },
+            { "en": "Blueberries", "zh": "蓝莓" },
+            { "en": "Corn", "zh": "玉米" },
+            { "en": "Currant", "zh": "醋栗" },
+            { "en": "Hazel", "zh": "榛子" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Mulberry", "zh": "桑葚" },
+            { "en": "Oak Nuts", "zh": "橡果" },
+            { "en": "Pine Cone", "zh": "松果" },
+            { "en": "Raw Grapes", "zh": "生葡萄" },
+            { "en": "Strawberry", "zh": "草莓" },
+            { "en": "Walnut", "zh": "核桃" },
+            { "en": "Wild Cherry", "zh": "野樱桃" }
+        ]
+    },
+    {
+        "id": "donkey",
+        "name": {
+            "en": "Donkey",
+            "zh": "驴"
+        },
+        "attractants": [
+            { "en": "Almonds", "zh": "杏仁" },
+            { "en": "Black Olives", "zh": "黑橄榄" },
+            { "en": "Coconut", "zh": "椰子" },
+            { "en": "Date", "zh": "椰枣" },
+            { "en": "Fig", "zh": "无花果" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Mango", "zh": "芒果" },
+            { "en": "Olive", "zh": "橄榄" },
+            { "en": "Opuntia Fig", "zh": "仙人掌果" },
+            { "en": "Raisins", "zh": "葡萄干" },
+            { "en": "Tangerine", "zh": "橘子" }
+        ]
+    },
+    {
+        "id": "goat",
+        "name": {
+            "en": "Goat",
+            "zh": "山羊"
+        },
+        "attractants": [
+            { "en": "Agave Leaf", "zh": "龙舌兰叶" },
+            { "en": "Banana", "zh": "香蕉" },
+            { "en": "Cantaloupe Melon", "zh": "哈密瓜" },
+            { "en": "Chili Pepper", "zh": "辣椒" },
+            { "en": "Grapefruit", "zh": "葡萄柚" },
+            { "en": "Guava", "zh": "番石榴" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Kiwi", "zh": "猕猴桃" },
+            { "en": "Lemon", "zh": "柠檬" },
+            { "en": "Lime", "zh": "青柠" },
+            { "en": "Orange", "zh": "橙子" },
+            { "en": "Pineapple", "zh": "菠萝" },
+            { "en": "Stinging Nettle", "zh": "荨麻" },
+            { "en": "Watermelon", "zh": "西瓜" },
+            { "en": "Watermelon slice", "zh": "西瓜片" }
+        ]
+    },
+    {
+        "id": "horse",
+        "name": {
+            "en": "Horse",
+            "zh": "马"
+        },
+        "attractants": [
+            { "en": "Beet", "zh": "甜菜" },
+            { "en": "Bell Pepper", "zh": "灯笼椒" },
+            { "en": "Broccoli", "zh": "西兰花" },
+            { "en": "Cabbage", "zh": "卷心菜" },
+            { "en": "Cauliflower", "zh": "花椰菜" },
+            { "en": "Celery", "zh": "芹菜" },
+            { "en": "Cucumber", "zh": "黄瓜" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Peach", "zh": "桃子" },
+            { "en": "Pear", "zh": "梨子" },
+            { "en": "Pumpkin", "zh": "南瓜" },
+            { "en": "Sugar Beet", "zh": "糖用甜菜" },
+            { "en": "Zucchini", "zh": "西葫芦" }
+        ]
+    },
+    {
+        "id": "rabbit",
+        "name": {
+            "en": "Rabbit",
+            "zh": "兔子"
+        },
+        "attractants": [
+            { "en": "Apple", "zh": "苹果" },
+            { "en": "Carrot", "zh": "胡萝卜" },
+            { "en": "Dandelion", "zh": "蒲公英" },
+            { "en": "Herbivore Bait Mixture", "zh": "食草动物诱饵混合物" },
+            { "en": "Parsnip", "zh": "欧防风" },
+            { "en": "Ramsons", "zh": "熊葱" },
+            { "en": "Rose Hip", "zh": "玫瑰果" },
+            { "en": "Salsify - roots", "zh": "婆罗门参根" },
+            { "en": "Spinach", "zh": "菠菜" }
+        ]
+    },
+    {
+        "id": "wolf",
+        "name": {
+            "en": "Wolf",
+            "zh": "狼"
+        },
+        "attractants": [
+            { "en": "Bear Steak", "zh": "熊肉排" },
+            { "en": "Carnivore Bait Block", "zh": "食肉动物诱饵块" },
+            { "en": "Chicken Meat", "zh": "鸡肉" },
+            { "en": "Deer Steak", "zh": "鹿肉排" },
+            { "en": "Doe Steak", "zh": "母鹿肉排" },
+            { "en": "Donkey Steak", "zh": "驴肉排" },
+            { "en": "Goat Steak", "zh": "山羊肉排" },
+            { "en": "Horse Steak", "zh": "马肉排" },
+            { "en": "Human Steak", "zh": "人肉排" },
+            { "en": "Pork Steak", "zh": "猪肉排" },
+            { "en": "Rabbit Leg", "zh": "兔腿" },
+            { "en": "Rabbit Meat", "zh": "兔肉" },
+            { "en": "Wolf Steak", "zh": "狼肉排" }
+        ]
+    }
+]

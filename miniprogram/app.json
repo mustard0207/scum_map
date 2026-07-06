@@ -6,7 +6,8 @@
     {
       "root": "packageMap",
       "pages": [
-        "pages/map/map"
+        "pages/map/map",
+        "pages/hunting/hunting"
       ]
     },
     {

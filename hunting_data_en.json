@@ -1,0 +1,188 @@
+[
+    {
+        "animal": "Bear",
+        "attractants": [
+            "Angler Fillet",
+            "Animal Fat",
+            "Apple Pie",
+            "Big Animal Fat",
+            "Carnivore Bait Block",
+            "Catfish Fillet",
+            "Cuttlefish",
+            "Fat",
+            "Fish Skewer",
+            "Grilled Fish",
+            "Honeycomb",
+            "Hot Dog",
+            "Monkfish",
+            "Sardine Fillet",
+            "Scorpionfish Fillet",
+            "Shark",
+            "Spit Roasted Fish",
+            "Squid",
+            "Tuna Fillet"
+        ]
+    },
+    {
+        "animal": "Boar",
+        "attractants": [
+            "Agaricus Augustus",
+            "Agaricus Campestris",
+            "Boletus Edulis",
+            "Cantharellus Cibarius",
+            "Cheese",
+            "Coprinus Comatus",
+            "Egg",
+            "Herbivore Bait Mixture",
+            "Lepiota Procera",
+            "Lycoperdon Gigantea",
+            "Onion",
+            "Potato",
+            "Richard's Cheese",
+            "Tomato"
+        ]
+    },
+    {
+        "animal": "Chicken",
+        "attractants": [
+            "Apple Seeds",
+            "Apricot Seeds",
+            "Broccoli Seeds",
+            "Cabbage Seeds",
+            "Cannabis Seeds",
+            "Cantaloupe Seeds",
+            "Carrot Seeds",
+            "Cherry Seeds",
+            "Chilli Pepper Seeds",
+            "Corn Seeds",
+            "Cricket",
+            "Cucumber Seeds",
+            "Earthworm",
+            "Fig Seeds",
+            "Garlic Seeds",
+            "Grasshopper",
+            "Herbivore Bait Mixture",
+            "Lemon Seeds",
+            "Lettuce Seeds",
+            "Orange Seeds",
+            "Peach Seeds",
+            "Pear Seeds",
+            "Pepper Seeds",
+            "Plum Seeds",
+            "Potato Seeds",
+            "Pumpkin Seeds",
+            "Red Onion Seeds",
+            "Spinach Seeds",
+            "Tangerine Seeds",
+            "Tobacco Seeds",
+            "Tomato Seeds",
+            "Watermelon Seeds",
+            "Zucchini Seeds"
+        ]
+    },
+    {
+        "animal": "Deer",
+        "attractants": [
+            "Barberry",
+            "Blackberry",
+            "Blueberries",
+            "Corn",
+            "Currant",
+            "Hazel",
+            "Herbivore Bait Mixture",
+            "Mulberry",
+            "Oak Nuts",
+            "Pine Cone",
+            "Raw Grapes",
+            "Strawberry",
+            "Walnut",
+            "Wild Cherry"
+        ]
+    },
+    {
+        "animal": "Donkey",
+        "attractants": [
+            "Almonds",
+            "Black Olives",
+            "Coconut",
+            "Date",
+            "Fig",
+            "Herbivore Bait Mixture",
+            "Mango",
+            "Olive",
+            "Opuntia Fig",
+            "Raisins",
+            "Tangerine"
+        ]
+    },
+    {
+        "animal": "Goat",
+        "attractants": [
+            "Agave Leaf",
+            "Banana",
+            "Cantaloupe Melon",
+            "Chili Pepper",
+            "Grapefruit",
+            "Guava",
+            "Herbivore Bait Mixture",
+            "Kiwi",
+            "Lemon",
+            "Lime",
+            "Orange",
+            "Pineapple",
+            "Stinging Nettle",
+            "Watermelon",
+            "Watermelon slice"
+        ]
+    },
+    {
+        "animal": "Horse",
+        "attractants": [
+            "Beet",
+            "Bell Pepper",
+            "Broccoli",
+            "Cabbage",
+            "Cauliflower",
+            "Celery",
+            "Cucumber",
+            "Herbivore Bait Mixture",
+            "Peach",
+            "Pear",
+            "Pumpkin",
+            "Sugar Beet",
+            "Zucchini"
+        ]
+    },
+    {
+        "animal": "Rabbit",
+        "attractants": [
+            "Apple",
+            "Carrot",
+            "Dandelion",
+            "Herbivore Bait Mixture",
+            "Parsnip",
+            "Ramsons",
+            "Rose Hip",
+            "Salsify - roots",
+            "Spinach"
+        ]
+    },
+    {
+        "animal": "Wolf",
+        "attractants": [
+            "Bear Steak",
+            "Carnivore Bait Block",
+            "Chicken Meat",
+            "Deer Steak",
+            "Doe Steak",
+            "Donkey Steak",
+            "Goat Steak",
+            "Horse Steak",
+            "Human Steak",
+            "Pork Steak",
+            "Rabbit Leg",
+            "Rabbit Meat",
+            "Wolf Steak"
+        ]
+    }
+]

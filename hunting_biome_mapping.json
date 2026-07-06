@@ -1,0 +1,946 @@
+{
+    "ContinentalForest": [
+        {
+            "animal": "Bear",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.1,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Honeycomb",
+                "Catfish Fillet",
+                "Dish Grilled Fish",
+                "Dish Skewer Fish",
+                "Dish SpitRoast Fish",
+                "Fish Cuttlefish",
+                "Fish Monkfish",
+                "Fish Shark",
+                "Fish Squid",
+                "Monkfish Fillet",
+                "Scorpionfish Fillet",
+                "Sardine Fillet",
+                "Tuna Fillet",
+                "Dish Grilled HotDog",
+                "Big Animal Fat",
+                "Small Animal Fat",
+                "Zombie Fat",
+                "Dish Cake ApplePie"
+            ]
+        },
+        {
+            "animal": "Boar",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.5,
+                0.25,
+                0.1,
+                0.25
+            ],
+            "baits": [
+                "Potato",
+                "Egg",
+                "Cheese",
+                "Richards Cheese",
+                "Tomato",
+                "Onion",
+                "Lycoperdon Gigantea",
+                "Lepiota Procera",
+                "Coprinus Comatus",
+                "Cantharellus Cibarius",
+                "Agaricus Augustus",
+                "Agaricus Campestris",
+                "Boletus Edulis"
+            ]
+        },
+        {
+            "animal": "Deer",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.1,
+                0.25
+            ],
+            "baits": [
+                "Oak Nuts",
+                "Hazelnuts",
+                "Walnut",
+                "Blackberry",
+                "Barberry",
+                "Currant",
+                "Wild Cherry",
+                "Pine Cone",
+                "Grapes Raw",
+                "Wild Strawberry",
+                "Corn",
+                "Mulberry",
+                "Blueberries"
+            ]
+        },
+        {
+            "animal": "Donkey",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.025,
+                0.1,
+                0.25,
+                0.1
+            ],
+            "baits": [
+                "Date",
+                "Tangerine",
+                "Coconut",
+                "BlackOlives",
+                "Olives",
+                "Bag of Almonds",
+                "Fig",
+                "Opuntia Fig",
+                "Raisins",
+                "Mango"
+            ]
+        },
+        {
+            "animal": "Horse",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.1,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "SugarBeet",
+                "Pear",
+                "Beet",
+                "Peach",
+                "Cabbage",
+                "Pumpkin",
+                "Cauliflower",
+                "Celery",
+                "Bell Pepper",
+                "Cucumber",
+                "Zucchini",
+                "Broccoli"
+            ]
+        },
+        {
+            "animal": "Rabbit",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.25,
+                0.5,
+                0.1,
+                0.5
+            ],
+            "baits": [
+                "Carrot",
+                "Dandelion",
+                "Parsley",
+                "Dog Rose",
+                "Apple",
+                "Apple",
+                "Crab Apple",
+                "Spinach",
+                "Salsify roots",
+                "Ramsons"
+            ]
+        },
+        {
+            "animal": "Wolf",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.25,
+                0.25,
+                0.1,
+                0.5
+            ],
+            "baits": [
+                "RabbitLeg",
+                "RabbitMeat",
+                "ChickenMeat",
+                "Bear Steak",
+                "Deer Steak",
+                "Doe Steak",
+                "Donkey Steak",
+                "Goat Steak",
+                "Horse Steak",
+                "Human Steak",
+                "Pork Steak",
+                "Wolf Steak"
+            ]
+        }
+    ],
+    "ContinentalMeadow": [
+        {
+            "animal": "Bear",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.1,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Honeycomb",
+                "Catfish Fillet",
+                "Dish Grilled Fish",
+                "Dish Skewer Fish",
+                "Dish SpitRoast Fish",
+                "Fish Cuttlefish",
+                "Fish Monkfish",
+                "Fish Shark",
+                "Fish Squid",
+                "Monkfish Fillet",
+                "Scorpionfish Fillet",
+                "Sardine Fillet",
+                "Tuna Fillet",
+                "Dish Grilled HotDog",
+                "Big Animal Fat",
+                "Small Animal Fat",
+                "Zombie Fat",
+                "Dish Cake ApplePie"
+            ]
+        },
+        {
+            "animal": "Chicken",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Cricket",
+                "Apple Seeds",
+                "Apricot Seeds",
+                "Broccoli Seeds",
+                "Cabbage Seeds",
+                "Cannabis Seeds",
+                "CantaloupeMelon Seeds",
+                "Carrot Seeds",
+                "Cherry Seeds",
+                "ChilliPeppers Seeds",
+                "Corn Seeds",
+                "Cucumber Seeds",
+                "Fig Seeds",
+                "Garlic Seeds",
+                "Lemon Seeds",
+                "Lettuce Seeds",
+                "Orange Seeds",
+                "Peach Seeds",
+                "Pear Seeds",
+                "Peppers Seeds",
+                "Plum Seeds",
+                "Potatoes Seeds",
+                "Pumpkin Seeds",
+                "RedOnion Seeds",
+                "Spinach Seeds",
+                "Tangerine Seeds",
+                "Tobacco Seeds",
+                "Tomato Seeds",
+                "Watermelon Seeds",
+                "Zucchini Seeds",
+                "Earthworm",
+                "Grasshopper"
+            ]
+        },
+        {
+            "animal": "Goat",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Aloe Vera",
+                "Stinging Nettle",
+                "GuavaHalves",
+                "Kiwi",
+                "GrapeFruit",
+                "Lemon",
+                "Lime",
+                "Pineapple",
+                "Banana",
+                "Orange",
+                "CantaloupeMelon",
+                "CantaloupeMelon Slice",
+                "Watermelon",
+                "Watermelon slice",
+                "Chili Pepper"
+            ]
+        },
+        {
+            "animal": "Rabbit",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Carrot",
+                "Dandelion",
+                "Parsley",
+                "Dog Rose",
+                "Apple",
+                "Apple",
+                "Crab Apple",
+                "Spinach",
+                "Salsify roots",
+                "Ramsons"
+            ]
+        },
+        {
+            "animal": "Wolf",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.25,
+                0.25,
+                0.1,
+                0.5
+            ],
+            "baits": [
+                "RabbitLeg",
+                "RabbitMeat",
+                "ChickenMeat",
+                "Bear Steak",
+                "Deer Steak",
+                "Doe Steak",
+                "Donkey Steak",
+                "Goat Steak",
+                "Horse Steak",
+                "Human Steak",
+                "Pork Steak",
+                "Wolf Steak"
+            ]
+        }
+    ],
+    "Mediterranean": [
+        {
+            "animal": "Boar",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.5,
+                0.25,
+                0.1,
+                0.25
+            ],
+            "baits": [
+                "Potato",
+                "Egg",
+                "Cheese",
+                "Richards Cheese",
+                "Tomato",
+                "Onion",
+                "Lycoperdon Gigantea",
+                "Lepiota Procera",
+                "Coprinus Comatus",
+                "Cantharellus Cibarius",
+                "Agaricus Augustus",
+                "Agaricus Campestris",
+                "Boletus Edulis"
+            ]
+        },
+        {
+            "animal": "Chicken",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Cricket",
+                "Apple Seeds",
+                "Apricot Seeds",
+                "Broccoli Seeds",
+                "Cabbage Seeds",
+                "Cannabis Seeds",
+                "CantaloupeMelon Seeds",
+                "Carrot Seeds",
+                "Cherry Seeds",
+                "ChilliPeppers Seeds",
+                "Corn Seeds",
+                "Cucumber Seeds",
+                "Fig Seeds",
+                "Garlic Seeds",
+                "Lemon Seeds",
+                "Lettuce Seeds",
+                "Orange Seeds",
+                "Peach Seeds",
+                "Pear Seeds",
+                "Peppers Seeds",
+                "Plum Seeds",
+                "Potatoes Seeds",
+                "Pumpkin Seeds",
+                "RedOnion Seeds",
+                "Spinach Seeds",
+                "Tangerine Seeds",
+                "Tobacco Seeds",
+                "Tomato Seeds",
+                "Watermelon Seeds",
+                "Zucchini Seeds",
+                "Earthworm",
+                "Grasshopper"
+            ]
+        },
+        {
+            "animal": "Donkey",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.025,
+                0.1,
+                0.25,
+                0.1
+            ],
+            "baits": [
+                "Date",
+                "Tangerine",
+                "Coconut",
+                "BlackOlives",
+                "Olives",
+                "Bag of Almonds",
+                "Fig",
+                "Opuntia Fig",
+                "Raisins",
+                "Mango"
+            ]
+        },
+        {
+            "animal": "Rabbit",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Carrot",
+                "Dandelion",
+                "Parsley",
+                "Dog Rose",
+                "Apple",
+                "Apple",
+                "Crab Apple",
+                "Spinach",
+                "Salsify roots",
+                "Ramsons"
+            ]
+        }
+    ],
+    "Mountain": [
+        {
+            "animal": "Bear",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.1,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Honeycomb",
+                "Catfish Fillet",
+                "Dish Grilled Fish",
+                "Dish Skewer Fish",
+                "Dish SpitRoast Fish",
+                "Fish Cuttlefish",
+                "Fish Monkfish",
+                "Fish Shark",
+                "Fish Squid",
+                "Monkfish Fillet",
+                "Scorpionfish Fillet",
+                "Sardine Fillet",
+                "Tuna Fillet",
+                "Dish Grilled HotDog",
+                "Big Animal Fat",
+                "Small Animal Fat",
+                "Zombie Fat",
+                "Dish Cake ApplePie"
+            ]
+        },
+        {
+            "animal": "Boar",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.5,
+                0.25,
+                0.1,
+                0.25
+            ],
+            "baits": [
+                "Potato",
+                "Egg",
+                "Cheese",
+                "Richards Cheese",
+                "Tomato",
+                "Onion",
+                "Lycoperdon Gigantea",
+                "Lepiota Procera",
+                "Coprinus Comatus",
+                "Cantharellus Cibarius",
+                "Agaricus Augustus",
+                "Agaricus Campestris",
+                "Boletus Edulis"
+            ]
+        },
+        {
+            "animal": "Deer",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.1,
+                0.25
+            ],
+            "baits": [
+                "Oak Nuts",
+                "Hazelnuts",
+                "Walnut",
+                "Blackberry",
+                "Barberry",
+                "Currant",
+                "Wild Cherry",
+                "Pine Cone",
+                "Grapes Raw",
+                "Wild Strawberry",
+                "Corn",
+                "Mulberry",
+                "Blueberries"
+            ]
+        },
+        {
+            "animal": "Goat",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Aloe Vera",
+                "Stinging Nettle",
+                "GuavaHalves",
+                "Kiwi",
+                "GrapeFruit",
+                "Lemon",
+                "Lime",
+                "Pineapple",
+                "Banana",
+                "Orange",
+                "CantaloupeMelon",
+                "CantaloupeMelon Slice",
+                "Watermelon",
+                "Watermelon slice",
+                "Chili Pepper"
+            ]
+        },
+        {
+            "animal": "Rabbit",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.5,
+                0.25,
+                0.5
+            ],
+            "baits": [
+                "Carrot",
+                "Dandelion",
+                "Parsley",
+                "Dog Rose",
+                "Apple",
+                "Apple",
+                "Crab Apple",
+                "Spinach",
+                "Salsify roots",
+                "Ramsons"
+            ]
+        },
+        {
+            "animal": "Wolf",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.5,
+                0.25,
+                0.1,
+                0.5
+            ],
+            "baits": [
+                "RabbitLeg",
+                "RabbitMeat",
+                "ChickenMeat",
+                "Bear Steak",
+                "Deer Steak",
+                "Doe Steak",
+                "Donkey Steak",
+                "Goat Steak",
+                "Horse Steak",
+                "Human Steak",
+                "Pork Steak",
+                "Wolf Steak"
+            ]
+        }
+    ],
+    "Urban": [
+        {
+            "animal": "Boar",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Potato",
+                "Egg",
+                "Cheese",
+                "Richards Cheese",
+                "Tomato",
+                "Onion",
+                "Lycoperdon Gigantea",
+                "Lepiota Procera",
+                "Coprinus Comatus",
+                "Cantharellus Cibarius",
+                "Agaricus Augustus",
+                "Agaricus Campestris",
+                "Boletus Edulis"
+            ]
+        },
+        {
+            "animal": "Chicken",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Cricket",
+                "Apple Seeds",
+                "Apricot Seeds",
+                "Broccoli Seeds",
+                "Cabbage Seeds",
+                "Cannabis Seeds",
+                "CantaloupeMelon Seeds",
+                "Carrot Seeds",
+                "Cherry Seeds",
+                "ChilliPeppers Seeds",
+                "Corn Seeds",
+                "Cucumber Seeds",
+                "Fig Seeds",
+                "Garlic Seeds",
+                "Lemon Seeds",
+                "Lettuce Seeds",
+                "Orange Seeds",
+                "Peach Seeds",
+                "Pear Seeds",
+                "Peppers Seeds",
+                "Plum Seeds",
+                "Potatoes Seeds",
+                "Pumpkin Seeds",
+                "RedOnion Seeds",
+                "Spinach Seeds",
+                "Tangerine Seeds",
+                "Tobacco Seeds",
+                "Tomato Seeds",
+                "Watermelon Seeds",
+                "Zucchini Seeds",
+                "Earthworm",
+                "Grasshopper"
+            ]
+        },
+        {
+            "animal": "Goat",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Aloe Vera",
+                "Stinging Nettle",
+                "GuavaHalves",
+                "Kiwi",
+                "GrapeFruit",
+                "Lemon",
+                "Lime",
+                "Pineapple",
+                "Banana",
+                "Orange",
+                "CantaloupeMelon",
+                "CantaloupeMelon Slice",
+                "Watermelon",
+                "Watermelon slice",
+                "Chili Pepper"
+            ]
+        }
+    ],
+    "Village": [
+        {
+            "animal": "Bear",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.05,
+                0.05,
+                0.05,
+                0.05
+            ],
+            "baits": [
+                "Honeycomb",
+                "Catfish Fillet",
+                "Dish Grilled Fish",
+                "Dish Skewer Fish",
+                "Dish SpitRoast Fish",
+                "Fish Cuttlefish",
+                "Fish Monkfish",
+                "Fish Shark",
+                "Fish Squid",
+                "Monkfish Fillet",
+                "Scorpionfish Fillet",
+                "Sardine Fillet",
+                "Tuna Fillet",
+                "Dish Grilled HotDog",
+                "Big Animal Fat",
+                "Small Animal Fat",
+                "Zombie Fat",
+                "Dish Cake ApplePie"
+            ]
+        },
+        {
+            "animal": "Boar",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Potato",
+                "Egg",
+                "Cheese",
+                "Richards Cheese",
+                "Tomato",
+                "Onion",
+                "Lycoperdon Gigantea",
+                "Lepiota Procera",
+                "Coprinus Comatus",
+                "Cantharellus Cibarius",
+                "Agaricus Augustus",
+                "Agaricus Campestris",
+                "Boletus Edulis"
+            ]
+        },
+        {
+            "animal": "Chicken",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Cricket",
+                "Apple Seeds",
+                "Apricot Seeds",
+                "Broccoli Seeds",
+                "Cabbage Seeds",
+                "Cannabis Seeds",
+                "CantaloupeMelon Seeds",
+                "Carrot Seeds",
+                "Cherry Seeds",
+                "ChilliPeppers Seeds",
+                "Corn Seeds",
+                "Cucumber Seeds",
+                "Fig Seeds",
+                "Garlic Seeds",
+                "Lemon Seeds",
+                "Lettuce Seeds",
+                "Orange Seeds",
+                "Peach Seeds",
+                "Pear Seeds",
+                "Peppers Seeds",
+                "Plum Seeds",
+                "Potatoes Seeds",
+                "Pumpkin Seeds",
+                "RedOnion Seeds",
+                "Spinach Seeds",
+                "Tangerine Seeds",
+                "Tobacco Seeds",
+                "Tomato Seeds",
+                "Watermelon Seeds",
+                "Zucchini Seeds",
+                "Earthworm",
+                "Grasshopper"
+            ]
+        },
+        {
+            "animal": "Donkey",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.025,
+                0.1,
+                0.25,
+                0.1
+            ],
+            "baits": [
+                "Date",
+                "Tangerine",
+                "Coconut",
+                "BlackOlives",
+                "Olives",
+                "Bag of Almonds",
+                "Fig",
+                "Opuntia Fig",
+                "Raisins",
+                "Mango"
+            ]
+        },
+        {
+            "animal": "Goat",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "Aloe Vera",
+                "Stinging Nettle",
+                "GuavaHalves",
+                "Kiwi",
+                "GrapeFruit",
+                "Lemon",
+                "Lime",
+                "Pineapple",
+                "Banana",
+                "Orange",
+                "CantaloupeMelon",
+                "CantaloupeMelon Slice",
+                "Watermelon",
+                "Watermelon slice",
+                "Chili Pepper"
+            ]
+        },
+        {
+            "animal": "Horse",
+            "packMin": 1,
+            "packMax": 1,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "baits": [
+                "SugarBeet",
+                "Pear",
+                "Beet",
+                "Peach",
+                "Cabbage",
+                "Pumpkin",
+                "Cauliflower",
+                "Celery",
+                "Bell Pepper",
+                "Cucumber",
+                "Zucchini",
+                "Broccoli"
+            ]
+        },
+        {
+            "animal": "Rabbit",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.1,
+                0.25,
+                0.5,
+                0.5
+            ],
+            "baits": [
+                "Carrot",
+                "Dandelion",
+                "Parsley",
+                "Dog Rose",
+                "Apple",
+                "Apple",
+                "Crab Apple",
+                "Spinach",
+                "Salsify roots",
+                "Ramsons"
+            ]
+        },
+        {
+            "animal": "Wolf",
+            "packMin": 1,
+            "packMax": 3,
+            "spawnWeights": [
+                0.05,
+                0.05,
+                0.05,
+                0.05
+            ],
+            "baits": [
+                "RabbitLeg",
+                "RabbitMeat",
+                "ChickenMeat",
+                "Bear Steak",
+                "Deer Steak",
+                "Doe Steak",
+                "Donkey Steak",
+                "Goat Steak",
+                "Horse Steak",
+                "Human Steak",
+                "Pork Steak",
+                "Wolf Steak"
+            ]
+        }
+    ]
+}

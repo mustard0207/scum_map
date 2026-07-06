@@ -3,10 +3,9 @@
   <!-- 自定义导航栏 -->
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
-      <view class="back-btn" bindtap="goBack">
-        <text class="back-icon">‹</text>
-      </view>
+      <view class="nav-back" bindtap="goBack">‹</view>
       <text class="nav-title">SCUM 武器数据手册</text>
+      <view class="nav-placeholder"></view>
     </view>
   </view>
 
@@ -32,7 +31,9 @@
         <!-- 语言切换开关 -->
         <view class="lang-switch-wrapper">
           <text class="lang-label">显示英文原版名称</text>
-          <switch class="lang-switch" color="#FFAA00" checked="{{isEnglish}}" bindchange="toggleLanguage" />
+          <view class="filter-toggle {{isEnglish ? 'filter-toggle-on' : ''}}" bindtap="toggleLanguage">
+            <view class="filter-toggle-thumb"></view>
+          </view>
         </view>
       </view>
       

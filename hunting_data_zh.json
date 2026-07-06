@@ -1,0 +1,122 @@
+[
+    {
+        "animal": "熊",
+        "animal_en": "Bear",
+        "attractants": [
+            "鮟鱇鱼片", "动物脂肪", "苹果派", "大块动物脂肪", "食肉动物诱饵块", 
+            "鲶鱼片", "墨鱼", "脂肪", "烤鱼串", "烤鱼", "蜂窝", "热狗", "鮟鱇鱼", 
+            "沙丁鱼片", "鲉鱼片", "鲨鱼", "串烤鱼", "鱿鱼", "金枪鱼片"
+        ],
+        "attractants_en": [
+            "Angler Fillet", "Animal Fat", "Apple Pie", "Big Animal Fat", "Carnivore Bait Block", 
+            "Catfish Fillet", "Cuttlefish", "Fat", "Fish Skewer", "Grilled Fish", "Honeycomb", 
+            "Hot Dog", "Monkfish", "Sardine Fillet", "Scorpionfish Fillet", "Shark", "Spit Roasted Fish", 
+            "Squid", "Tuna Fillet"
+        ]
+    },
+    {
+        "animal": "野猪",
+        "animal_en": "Boar",
+        "attractants": [
+            "大白蘑菇", "四孢蘑菇", "美味牛肝菌", "鸡油菌", "奶酪", "毛头鬼伞", "鸡蛋", 
+            "食草动物诱饵混合物", "高大环柄菇", "大马勃", "洋葱", "土豆", "理查德的奶酪", "西红柿"
+        ],
+        "attractants_en": [
+            "Agaricus Augustus", "Agaricus Campestris", "Boletus Edulis", "Cantharellus Cibarius", "Cheese", 
+            "Coprinus Comatus", "Egg", "Herbivore Bait Mixture", "Lepiota Procera", "Lycoperdon Gigantea", 
+            "Onion", "Potato", "Richard's Cheese", "Tomato"
+        ]
+    },
+    {
+        "animal": "鸡",
+        "animal_en": "Chicken",
+        "attractants": [
+            "苹果种子", "杏子种子", "西兰花种子", "卷心菜种子", "大麻种子", "哈密瓜种子", 
+            "胡萝卜种子", "樱桃种子", "辣椒种子", "玉米种子", "蟋蟀", "黄瓜种子", "蚯蚓", 
+            "无花果种子", "大蒜种子", "蚱蜢", "食草动物诱饵混合物", "柠檬种子", "生菜种子", 
+            "橙子种子", "桃子种子", "梨子种子", "甜椒种子", "李子种子", "土豆种子", "南瓜种子", 
+            "红洋葱种子", "菠菜种子", "橘子种子", "烟草种子", "西红柿种子", "西瓜种子", "西葫芦种子"
+        ],
+        "attractants_en": [
+            "Apple Seeds", "Apricot Seeds", "Broccoli Seeds", "Cabbage Seeds", "Cannabis Seeds", 
+            "Cantaloupe Seeds", "Carrot Seeds", "Cherry Seeds", "Chilli Pepper Seeds", "Corn Seeds", 
+            "Cricket", "Cucumber Seeds", "Earthworm", "Fig Seeds", "Garlic Seeds", "Grasshopper", 
+            "Herbivore Bait Mixture", "Lemon Seeds", "Lettuce Seeds", "Orange Seeds", "Peach Seeds", 
+            "Pear Seeds", "Pepper Seeds", "Plum Seeds", "Potato Seeds", "Pumpkin Seeds", "Red Onion Seeds", 
+            "Spinach Seeds", "Tangerine Seeds", "Tobacco Seeds", "Tomato Seeds", "Watermelon Seeds", "Zucchini Seeds"
+        ]
+    },
+    {
+        "animal": "鹿",
+        "animal_en": "Deer",
+        "attractants": [
+            "小檗果", "黑莓", "蓝莓", "玉米", "醋栗", "榛子", "食草动物诱饵混合物", 
+            "桑葚", "橡果", "松果", "生葡萄", "草莓", "核桃", "野樱桃"
+        ],
+        "attractants_en": [
+            "Barberry", "Blackberry", "Blueberries", "Corn", "Currant", "Hazel", "Herbivore Bait Mixture", 
+            "Mulberry", "Oak Nuts", "Pine Cone", "Raw Grapes", "Strawberry", "Walnut", "Wild Cherry"
+        ]
+    },
+    {
+        "animal": "驴",
+        "animal_en": "Donkey",
+        "attractants": [
+            "杏仁", "黑橄榄", "椰子", "椰枣", "无花果", "食草动物诱饵混合物", "芒果", 
+            "橄榄", "仙人掌果", "葡萄干", "橘子"
+        ],
+        "attractants_en": [
+            "Almonds", "Black Olives", "Coconut", "Date", "Fig", "Herbivore Bait Mixture", "Mango", 
+            "Olive", "Opuntia Fig", "Raisins", "Tangerine"
+        ]
+    },
+    {
+        "animal": "山羊",
+        "animal_en": "Goat",
+        "attractants": [
+            "龙舌兰叶", "香蕉", "哈密瓜", "辣椒", "葡萄柚", "番石榴", "食草动物诱饵混合物", 
+            "猕猴桃", "柠檬", "青柠", "橙子", "菠萝", "荨麻", "西瓜", "西瓜片"
+        ],
+        "attractants_en": [
+            "Agave Leaf", "Banana", "Cantaloupe Melon", "Chili Pepper", "Grapefruit", "Guava", 
+            "Herbivore Bait Mixture", "Kiwi", "Lemon", "Lime", "Orange", "Pineapple", "Stinging Nettle", 
+            "Watermelon", "Watermelon slice"
+        ]
+    },
+    {
+        "animal": "马",
+        "animal_en": "Horse",
+        "attractants": [
+            "甜菜", "甜椒", "西兰花", "卷心菜", "花椰菜", "芹菜", "黄瓜", "食草动物诱饵混合物", 
+            "桃子", "梨子", "南瓜", "糖用甜菜", "西葫芦"
+        ],
+        "attractants_en": [
+            "Beet", "Bell Pepper", "Broccoli", "Cabbage", "Cauliflower", "Celery", "Cucumber", 
+            "Herbivore Bait Mixture", "Peach", "Pear", "Pumpkin", "Sugar Beet", "Zucchini"
+        ]
+    },
+    {
+        "animal": "兔子",
+        "animal_en": "Rabbit",
+        "attractants": [
+            "苹果", "胡萝卜", "蒲公英", "食草动物诱饵混合物", "欧防风", "熊葱", "玫瑰果", 
+            "婆罗门参根", "菠菜"
+        ],
+        "attractants_en": [
+            "Apple", "Carrot", "Dandelion", "Herbivore Bait Mixture", "Parsnip", "Ramsons", "Rose Hip", 
+            "Salsify - roots", "Spinach"
+        ]
+    },
+    {
+        "animal": "狼",
+        "animal_en": "Wolf",
+        "attractants": [
+            "熊肉排", "食肉动物诱饵块", "鸡肉", "鹿肉排", "母鹿肉排", "驴肉排", "山羊肉排", 
+            "马肉排", "人肉排", "猪肉排", "兔腿", "兔肉", "狼肉排"
+        ],
+        "attractants_en": [
+            "Bear Steak", "Carnivore Bait Block", "Chicken Meat", "Deer Steak", "Doe Steak", "Donkey Steak", 
+            "Goat Steak", "Horse Steak", "Human Steak", "Pork Steak", "Rabbit Leg", "Rabbit Meat", "Wolf Steak"
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "狩猎助手",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tile-map": "../../components/tile-map/tile-map"
+  }
+}

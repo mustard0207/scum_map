@@ -1,0 +1,583 @@
+.hunting-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #111;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* 自定义导航栏 */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(28, 26, 16, 0.95);
+  border-bottom: 1rpx solid #3A3520;
+}
+
+.nav-content {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.nav-back {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56rpx;
+  color: #FFB000;
+  font-weight: 300;
+}
+
+.nav-title {
+  flex: 1;
+  text-align: center;
+  color: #D4C8A0;
+  font-size: 34rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+}
+
+.nav-placeholder {
+  width: 60rpx;
+}
+
+
+/* 地图区域 */
+.map-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* bottom 会被 inline style 动态设置 */
+}
+
+/* 十字光标高级版 */
+.crosshair {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  pointer-events: none;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crosshair-corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgba(16, 185, 129, 0.8);
+  transition: all 0.2s;
+}
+.top-left { top: 0; left: 0; border-right: none; border-bottom: none; }
+.top-right { top: 0; right: 0; border-left: none; border-bottom: none; }
+.bottom-left { bottom: 0; left: 0; border-right: none; border-top: none; }
+.bottom-right { bottom: 0; right: 0; border-left: none; border-top: none; }
+
+.crosshair-center {
+  position: relative;
+  width: 4px;
+  height: 4px;
+}
+.crosshair-dot {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #10b981;
+}
+.crosshair-ring {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 50%;
+  animation: radar-ping 2s infinite cubic-bezier(0, 0, 0.2, 1);
+}
+@keyframes radar-ping {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+/* 缩放条 (复用主地图样式) */
+.zoom-slider {
+  position: absolute;
+  right: 16px;
+  bottom: 60px;
+  width: 36px;
+  height: 180px;
+  background: rgba(30, 30, 30, 0.85);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 60;
+  backdrop-filter: blur(10px);
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+.zoom-slider.active {
+  opacity: 1;
+}
+.zoom-slider-track {
+  position: absolute;
+  top: 36px;
+  bottom: 36px;
+  left: 16px;
+  width: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
+.zoom-slider-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #6BBF59;
+  border-radius: 2px;
+}
+.zoom-slider-thumb {
+  position: absolute;
+  left: -10px;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  margin-bottom: -12px;
+  pointer-events: none;
+}
+.zoom-slider-label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  pointer-events: none;
+}
+.zoom-slider-label-bottom {
+  top: auto;
+  bottom: 8px;
+}
+
+/* 回到全视角按钮 */
+.reset-map-btn {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  width: 36px;
+  height: 36px;
+  background: rgba(30, 30, 30, 0.85);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+.reset-icon-ring {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+.reset-icon-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.reset-map-btn:active {
+  transform: scale(0.9);
+  background: rgba(255,255,255,0.1);
+}
+.reset-map-btn:active .reset-icon-ring {
+  border-color: #fff;
+}
+.reset-map-btn:active .reset-icon-dot {
+  background-color: #fff;
+}
+
+/* 探测按钮 */
+.probe-btn {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(18, 18, 20, 0.45);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 6px 18px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 60;
+}
+.probe-btn::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5), inset 0 0 20px rgba(16, 185, 129, 0.15);
+  animation: button-breathe 3s infinite ease-in-out;
+  pointer-events: none;
+}
+.probe-btn:active {
+  transform: translateX(-50%) scale(0.95);
+  background: rgba(16, 185, 129, 0.2);
+}
+@keyframes button-breathe {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+.probe-icon {
+  font-size: 18px;
+  color: #10b981;
+  position: relative;
+}
+.probe-btn text {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 0 8px rgba(255,255,255,0.3);
+  position: relative;
+}
+
+/* 控制面板 */
+.console-panel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(18, 18, 20, 0.85);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  z-index: 80;
+}
+
+/* 动物横向滑动 */
+.mode-a-animal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.animal-carousel {
+  width: 100%;
+  height: 84px;
+  white-space: nowrap;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.animal-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 56px;
+  margin-right: 12px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+/* 动物选中状态高级质感 */
+.animal-item.active {
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.2), rgba(16, 185, 129, 0.4));
+  border-color: #10b981;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+}
+.animal-emoji {
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+.animal-name {
+  font-size: 12px;
+  color: #aaa;
+}
+.animal-item.active .animal-name {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* 情报区域 */
+.intel-area {
+  flex: 1;
+  padding: 2px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.intel-header {
+  margin-bottom: 8px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lang-switch {
+  display: flex;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 2px;
+}
+.lang-btn {
+  font-size: 10px;
+  color: #888;
+  padding: 4px 10px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.lang-btn.active {
+  background: #10b981;
+  color: #fff;
+  font-weight: bold;
+}
+.intel-scroll {
+  flex: 1;
+  height: 0;
+}
+.intel-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.habitat-summary {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.habitat-label {
+  font-size: 12px;
+  color: #aaa;
+}
+.habitat-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+/* 列表滑入动画 */
+@keyframes slideUpFade {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.h-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid;
+  color: #ddd;
+  animation: slideUpFade 0.4s ease forwards;
+}
+
+.baits-section {
+  display: flex;
+  flex-direction: column;
+}
+.baits-title {
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+.baits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-bottom: calc(40px + env(safe-area-inset-bottom));
+}
+.bait-tag {
+  background: linear-gradient(180deg, rgba(255,255,255,0.1), rgba(255,255,255,0.03));
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  animation: slideUpFade 0.4s ease forwards;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.bait-zh {
+  font-size: 13px;
+  color: #fff;
+}
+.bait-en {
+  font-size: 10px;
+  color: #777;
+  margin-top: 2px;
+}
+
+.intel-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  padding: 0 32px;
+  text-align: center;
+  animation: slideUpFade 0.4s ease forwards;
+}
+.empty-icon-wrapper {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.empty-icon {
+  font-size: 32px;
+  opacity: 0.5;
+}
+.empty-text {
+  font-size: 14px;
+  color: #888;
+}
+.empty-subtext {
+  font-size: 12px;
+  color: #555;
+  margin-top: 6px;
+}
+
+/* 面板模式 B：地形探测 */
+.mode-b-probe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.probe-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.probe-title-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+.probe-lang {
+  margin-right: 12px;
+}
+.probe-icon-big {
+  font-size: 24px;
+}
+.probe-title-texts {
+  display: flex;
+  flex-direction: column;
+}
+.probe-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.probe-subtitle {
+  font-size: 11px;
+  color: #888;
+}
+.btn-return {
+  background: rgba(255,255,255,0.1);
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  color: #ddd;
+}
+.probe-content {
+  flex: 1;
+  height: 0;
+  padding: 16px 16px 0 16px;
+}
+.probe-biome-result {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.probe-label {
+  font-size: 13px;
+  color: #aaa;
+  margin-right: 8px;
+}
+.probe-none {
+  font-size: 13px;
+  color: #ff453a;
+}
+.probe-animals-result {
+  margin-bottom: 16px;
+}
+.probe-animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+.probe-animal-list .animal-item {
+  animation: slideUpFade 0.4s ease forwards;
+}
+.probe-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  animation: slideUpFade 0.4s ease forwards;
+}
+.radar-scan-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgba(16, 185, 129, 0.5);
+  box-shadow: 0 0 10px #10b981;
+  top: 0;
+  left: 0;
+  animation: radar-sweep 2s infinite linear;
+}
+@keyframes radar-sweep {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(64px); opacity: 0; }
+}
+.probe-baits {
+  margin-top: 4px;
+}

@@ -1,0 +1,230 @@
+<!-- 狩猎助手独立页面 -->
+<view class="hunting-page">
+
+  <!-- 首次引导遮罩 -->
+  <view class="guide-mask" wx:if="{{showGuide}}">
+    <view class="guide-content">
+      <view class="guide-header">
+        <text class="guide-main-title">狩猎助手指南</text>
+        <text class="guide-main-sub">首次使用前请先了解</text>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🗺️</text>
+        <view class="guide-text">
+          <text class="guide-title">动物图鉴模式</text>
+          <text class="guide-desc">在底部面板选择一种动物，地图将高亮显示该动物在岛上的栖息地分布范围</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🔍</text>
+        <view class="guide-text">
+          <text class="guide-title">探索探测模式</text>
+          <text class="guide-desc">拖动地图准星到任意位置进行探测，助手将分析当前地形并列出可能出现的动物</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🎯</text>
+        <view class="guide-text">
+          <text class="guide-title">交互式缩放</text>
+          <text class="guide-desc">你可以使用屏幕右侧的滑动条快速缩放地图，或点击下方按钮回到全局视角</text>
+        </view>
+      </view>
+    </view>
+    <view class="guide-btn" bindtap="dismissGuide">
+      <text class="guide-btn-text">我知道了</text>
+    </view>
+  </view>
+
+  <!-- 1. 自定义导航栏 (悬浮在地图上) -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="nav-back" bindtap="goBack">‹</view>
+      <text class="nav-title">SCUM 狩猎助手</text>
+      <view class="nav-placeholder"></view>
+    </view>
+  </view>
+
+  <!-- 使用说明悬浮按钮 -->
+  <view class="global-help-btn-floating" bindtap="openGuide" style="top: {{statusBarHeight + 44 + 15}}px;">
+    <view class="help-icon-circle">?</view>
+    <text class="help-text-label">使用说明</text>
+  </view>
+
+  <!-- 2. 上半屏地图区域 (60%) -->
+  <!-- 动态计算底部留出的高度，避免被面板遮挡底部的缩放按钮 -->
+  <view class="map-area" style="bottom: {{panelHeight}}px;">
+    <!-- 底层复用 tile-map -->
+    <tile-map 
+      id="tileMap" 
+      huntingZones="{{huntingZones}}"
+      bindmarkertap="onMapTap" 
+      bindgestureend="onGestureEnd"
+      bindmapready="onMapReady" 
+    />
+    
+    <!-- 十字光标高级版（始终固定在屏幕正中央） -->
+    <view class="crosshair">
+      <view class="crosshair-corner top-left"></view>
+      <view class="crosshair-corner top-right"></view>
+      <view class="crosshair-corner bottom-left"></view>
+      <view class="crosshair-corner bottom-right"></view>
+      <view class="crosshair-center">
+        <view class="crosshair-dot"></view>
+        <view class="crosshair-ring"></view>
+      </view>
+    </view>
+
+    <!-- 缩放拖拉条 -->
+    <view class="zoom-slider {{sliderActive ? 'active' : ''}}"
+      catchtouchstart="onZoomSliderStart"
+      catchtouchmove="onZoomSliderMove"
+      catchtouchend="onZoomSliderEnd"
+    >
+      <view class="zoom-slider-track">
+        <view class="zoom-slider-fill" style="height: {{zoomSliderPercent}}%;"></view>
+        <view class="zoom-slider-thumb" style="bottom: {{zoomSliderPercent}}%;"></view>
+      </view>
+      <text class="zoom-slider-label">+</text>
+      <text class="zoom-slider-label zoom-slider-label-bottom">−</text>
+    </view>
+
+    <!-- 回到全视角按钮 -->
+    <view class="reset-map-btn" bindtap="resetMapView">
+      <view class="reset-icon-ring"></view>
+      <view class="reset-icon-dot"></view>
+    </view>
+
+    <!-- 探测按钮 (悬浮在准星上方) -->
+    <view class="probe-btn" bindtap="onProbeTap">
+      <text>探测该区域</text>
+    </view>
+  </view>
+
+  <!-- 3. 下半屏控制面板 (毛玻璃风格) -->
+  <view class="console-panel" id="consolePanel">
+    
+    <!-- 面板模式 A：动物图鉴 (主动选择动物) -->
+    <view class="mode-a-animal" wx:if="{{currentMode === 'animal'}}">
+      <!-- 横向滑动：动物列表 -->
+      <scroll-view class="animal-carousel" scroll-x="true" enhanced="true" show-scrollbar="false">
+        <view class="animal-item {{selectedAnimal === item.id ? 'active' : ''}}" 
+              wx:for="{{animalList}}" wx:key="id"
+              bindtap="onSelectAnimal" data-id="{{item.id}}">
+          <view class="animal-emoji">{{item.emoji}}</view>
+          <text class="animal-name">{{lang === 'zh' ? item.nameZh : item.nameEn}}</text>
+        </view>
+      </scroll-view>
+
+      <!-- 选中动物的情报展示 -->
+      <view class="intel-area" wx:if="{{selectedAnimal}}">
+        <view class="intel-header">
+          <text class="intel-title">{{lang === 'zh' ? animalDict[selectedAnimal].name.zh : animalDict[selectedAnimal].name.en}}</text>
+          
+          <!-- 语言切换开关 -->
+          <view class="lang-switch" bindtap="toggleLang">
+            <text class="lang-btn {{lang === 'zh' ? 'active' : ''}}">中</text>
+            <text class="lang-btn {{lang === 'en' ? 'active' : ''}}">EN</text>
+          </view>
+        </view>
+        
+        <!-- 滚动区域：栖息地与诱饵 -->
+        <scroll-view scroll-y="true" class="intel-scroll">
+          <!-- 栖息地摘要 -->
+          <view class="habitat-summary">
+            <text class="habitat-label">{{lang === 'zh' ? '📍 分布地带：' : '📍 Habitats:'}}</text>
+            <view class="habitat-tags">
+              <view class="h-tag" wx:for="{{animalHabitatBiomes}}" wx:key="b" style="background-color: {{item.color}}40; border-color: {{item.color}};">
+                {{lang === 'zh' ? item.nameZh : item.nameEn}}
+              </view>
+            </view>
+          </view>
+
+          <!-- 诱饵列表 -->
+          <view class="baits-section">
+            <text class="baits-title">{{lang === 'zh' ? '🥩 喜好诱饵：' : '🥩 Baits:'}}</text>
+            <view class="baits-grid">
+              <view class="bait-tag" wx:for="{{animalDict[selectedAnimal].baits}}" wx:key="en">
+                <text class="bait-zh" wx:if="{{lang === 'zh'}}">{{item.zh}}</text>
+                <text class="bait-zh" wx:if="{{lang === 'en'}}">{{item.en}}</text>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+
+      <!-- 没选中时 -->
+      <view class="intel-empty" wx:else>
+        <view class="empty-icon-wrapper">
+          <text class="empty-icon">🐾</text>
+        </view>
+        <text class="empty-text">请在上方选择动物查看情报</text>
+      </view>
+    </view>
+
+    <!-- 面板模式 B：地形探测 (反查) -->
+    <view class="mode-b-probe" wx:if="{{currentMode === 'probe'}}">
+      <view class="probe-header">
+        <view class="probe-title-area">
+          <text class="probe-icon-big">📡</text>
+          <view class="probe-title-texts">
+            <text class="probe-title">{{lang === 'zh' ? '区域情报报告' : 'Area Intel Report'}}</text>
+            <text class="probe-subtitle">X: {{probeLng}} Y: {{probeLat}}</text>
+          </view>
+        </view>
+        <view class="lang-switch probe-lang" bindtap="toggleLang">
+          <text class="lang-btn {{lang === 'zh' ? 'active' : ''}}">中</text>
+          <text class="lang-btn {{lang === 'en' ? 'active' : ''}}">EN</text>
+        </view>
+        <view class="btn-return" bindtap="returnToAnimalMode">
+          <text>🔙 {{lang === 'zh' ? '返回图鉴' : 'Back'}}</text>
+        </view>
+      </view>
+
+      <scroll-view scroll-y="true" class="probe-content intel-scroll">
+        <!-- 探测到的地形 -->
+        <view class="probe-biome-result">
+          <text class="probe-label">{{lang === 'zh' ? '📍 当前地形：' : '📍 Biome:'}}</text>
+          <view class="h-tag" wx:if="{{probeBiome}}" style="background-color: {{probeBiomeColor}}40; border-color: {{probeBiomeColor}};">
+            {{lang === 'zh' ? probeBiomeName : probeBiome}}
+          </view>
+          <text class="probe-none" wx:else>{{lang === 'zh' ? '未探测到已知狩猎地形' : 'No known hunting biomes detected'}}</text>
+        </view>
+
+        <!-- 该地形下出没的动物 -->
+        <view class="probe-animals-result" wx:if="{{probeBiome}}">
+          <text class="probe-label">{{lang === 'zh' ? '🎯 此处出没猎物：' : '🎯 Animals in this area:'}}</text>
+          <view class="probe-animal-list">
+            <view class="animal-item {{selectedAnimal === item.id ? 'active' : ''}}" 
+                  wx:for="{{probeAnimals}}" wx:key="id"
+                  bindtap="onSelectAnimal" data-id="{{item.id}}">
+              <view class="animal-emoji">{{item.emoji}}</view>
+              <text class="animal-name">{{lang === 'zh' ? item.nameZh : item.nameEn}}</text>
+            </view>
+          </view>
+        </view>
+
+        <!-- 没探测到时 -->
+        <view class="probe-empty" wx:if="{{!probeBiome}}">
+          <view class="empty-icon-wrapper">
+            <text class="empty-icon">📡</text>
+            <view class="radar-scan-line"></view>
+          </view>
+          <text class="empty-text">当前位置未探测到特定动物群系</text>
+          <text class="empty-subtext">移动地图十字准星到其他区域再试</text>
+        </view>
+
+        <!-- 下方复用选中动物的诱饵情报 -->
+        <view class="baits-section" wx:if="{{selectedAnimal}}">
+           <text class="baits-title">🥩 {{lang === 'zh' ? '诱饵建议' : 'Baits'}} ({{lang === 'zh' ? animalDict[selectedAnimal].name.zh : animalDict[selectedAnimal].name.en}})：</text>
+           <view class="baits-grid">
+             <view class="bait-tag" wx:for="{{animalDict[selectedAnimal].baits}}" wx:key="en">
+               <text class="bait-zh" wx:if="{{lang === 'zh'}}">{{item.zh}}</text>
+               <text class="bait-zh" wx:if="{{lang === 'en'}}">{{item.en}}</text>
+             </view>
+           </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+</view>
