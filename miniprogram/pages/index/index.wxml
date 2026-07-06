@@ -15,12 +15,15 @@
       <view class="logo-section">
         <image class="logo-img" src="/assets/logo.png" mode="aspectFit" />
         <text class="logo-title">SCUM游戏工具箱</text>
+        <text class="logo-subtitle">地图 / 武器 / 生存工具合集</text>
+        <text class="logo-version">v{{version}}</text>
       </view>
 
       <!-- 功能入口 -->
       <view class="features">
         <!-- 地图功能 -->
         <view class="feature-card" bindtap="goToMap">
+          <view class="feature-tag feature-tag-core">核心工具</view>
           <view class="feature-icon-area">
             <text class="feature-glyph">🗺️</text>
           </view>
@@ -33,6 +36,7 @@
 
         <!-- 地堡解密工具 -->
         <view class="feature-card" bindtap="goToBunker">
+          <view class="feature-tag feature-tag-tactical">战术工具</view>
           <view class="feature-icon-area">
             <text class="feature-glyph">🧮</text>
           </view>
@@ -45,6 +49,7 @@
 
         <!-- 武器查询工具 -->
         <view class="feature-card" bindtap="goToWeapons">
+          <view class="feature-tag feature-tag-tactical">战术工具</view>
           <view class="feature-icon-area">
             <text class="feature-glyph">⚔️</text>
           </view>
@@ -57,6 +62,7 @@
 
         <!-- 狩猎助手 -->
         <view class="feature-card" bindtap="goToHunting">
+          <view class="feature-tag feature-tag-aux">辅助工具</view>
           <view class="feature-icon-area">
             <text class="feature-glyph">🐻</text>
           </view>
@@ -71,13 +77,11 @@
 
     <!-- 底部内容 -->
     <view class="main-bottom">
-      <!-- 免责声明 -->
-      <view class="disclaimer">
-        <text class="disclaimer-text">玩家自制工具，非官方出品。数据自己整理，仅供参考。</text>
-      </view>
-      <!-- 版本信息 -->
-      <view class="version-info">
-        <text class="version-text">v{{version}}</text>
+      <view class="bottom-bar">
+        <view class="bottom-item">
+          <text class="bottom-icon">🕒</text>
+          <text class="bottom-text">最近更新：优化狩猎助手</text>
+        </view>
       </view>
     </view>
   </view>
