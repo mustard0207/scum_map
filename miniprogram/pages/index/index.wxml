@@ -26,7 +26,7 @@
           </view>
           <view class="feature-info">
             <text class="feature-title">SCUM游戏地图</text>
-            <text class="feature-desc">查看和标记游戏地图位置</text>
+            <text class="feature-desc">全图资源点位速查，轻松标记个人物资与载具状态。</text>
           </view>
           <view class="feature-arrow">›</view>
         </view>
@@ -50,7 +50,7 @@
           </view>
           <view class="feature-info">
             <text class="feature-title">武器数据手册</text>
-            <text class="feature-desc">浏览全武器基础数据与配件信息</text>
+            <text class="feature-desc">全图鉴武器数据一览，轻松查询可用弹药与配件配置。</text>
           </view>
           <view class="feature-arrow">›</view>
         </view>
@@ -62,7 +62,7 @@
           </view>
           <view class="feature-info">
             <text class="feature-title">狩猎助手</text>
-            <text class="feature-desc">动物生态图鉴与地形雷达探测</text>
+            <text class="feature-desc">快速找到动物刷新点，提高狩猎效率。</text>
           </view>
           <view class="feature-arrow">›</view>
         </view>
