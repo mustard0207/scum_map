@@ -2,7 +2,6 @@
 <wxs module="gestures" src="./gestures.wxs"></wxs>
 <view
   class="map-viewport"
-  style="width:{{_vw}}px;height:{{_vh}}px;"
   prop="{{wxsState}}"
   change:prop="{{gestures.propChange}}"
   catchtouchstart="{{gestures.touchstart}}"

@@ -59,6 +59,24 @@
   /* bottom 会被 inline style 动态设置 */
 }
 
+/* 地图暗化遮罩 */
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 70;
+  transition: opacity 0.3s ease;
+}
+.map-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* 十字光标高级版 */
 .crosshair {
   position: absolute;
@@ -77,7 +95,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  border: 2px solid rgba(16, 185, 129, 0.8);
+  border: 2px solid rgba(255, 176, 0, 0.8);
   transition: all 0.2s;
 }
 .top-left { top: 0; left: 0; border-right: none; border-bottom: none; }
@@ -94,9 +112,9 @@
   position: absolute;
   width: 4px;
   height: 4px;
-  background-color: #10b981;
+  background-color: #FFB000;
   border-radius: 50%;
-  box-shadow: 0 0 8px #10b981;
+  box-shadow: 0 0 8px #FFB000;
 }
 .crosshair-ring {
   position: absolute;
@@ -104,7 +122,7 @@
   left: -8px;
   width: 20px;
   height: 20px;
-  border: 1px solid rgba(16, 185, 129, 0.4);
+  border: 1px solid rgba(255, 176, 0, 0.4);
   border-radius: 50%;
   animation: radar-ping 2s infinite cubic-bezier(0, 0, 0.2, 1);
 }
@@ -220,51 +238,67 @@
   background-color: #fff;
 }
 
-/* 探测按钮 */
-.probe-btn {
-  position: absolute;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(18, 18, 20, 0.45);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  padding: 6px 18px;
-  border-radius: 24px;
+/* 探测操作栏 (Action Bar) */
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  padding: 0 10px; /* 从 16px 减小到 10px 以腾出更多横向空间 */
+  border-bottom: 1px solid rgba(255, 176, 0, 0.1);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.action-status {
   display: flex;
   align-items: center;
-  gap: 8px;
-  z-index: 60;
+  gap: 6px;
+  flex-shrink: 1; /* 允许在极端情况下缩小 */
+  white-space: nowrap;
 }
-.probe-btn::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  border-radius: inherit;
-  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5), inset 0 0 20px rgba(16, 185, 129, 0.15);
-  animation: button-breathe 3s infinite ease-in-out;
-  pointer-events: none;
+
+.status-label {
+  font-size: 12px;
+  color: rgba(255, 176, 0, 0.8);
+  font-weight: bold;
 }
-.probe-btn:active {
-  transform: translateX(-50%) scale(0.95);
-  background: rgba(16, 185, 129, 0.2);
+
+.status-value {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: monospace;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
-@keyframes button-breathe {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
+
+.action-probe-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* 缩小图标和文字间距 */
+  background: rgba(255, 176, 0, 0.15);
+  border: 1px solid rgba(255, 176, 0, 0.5);
+  padding: 4px 8px; /* 缩小上下左右的内边距，让外圈更紧凑 */
+  border-radius: 6px;
+  transition: all 0.2s;
+  flex-shrink: 0; /* 绝对不缩小，保持按钮完整 */
+  white-space: nowrap; /* 绝对不换行 */
 }
-.probe-icon {
-  font-size: 18px;
-  color: #10b981;
-  position: relative;
+
+.action-probe-btn-hover {
+  background: rgba(255, 176, 0, 0.3);
+  transform: scale(0.96);
 }
-.probe-btn text {
+
+.action-icon {
   font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #fff;
-  text-shadow: 0 0 8px rgba(255,255,255,0.3);
-  position: relative;
+}
+
+.action-text {
+  font-size: 13px;
+  color: #FFB000;
+  font-weight: bold;
 }
 
 /* 控制面板 */
@@ -273,7 +307,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 40%;
+  /* 高度现在由 js 动态设定为 maxPanelHeight */
   background: rgba(18, 18, 20, 0.85);
   backdrop-filter: blur(20px);
   border-top: 1px solid rgba(255,255,255,0.08);
@@ -281,6 +315,25 @@
   display: flex;
   flex-direction: column;
   z-index: 80;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* 顶部拖拽把手区 */
+.drag-handle-zone {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.drag-indicator {
+  width: 40px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
 }
 
 /* 动物横向滑动 */
@@ -444,9 +497,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #666;
-  padding: 0 32px;
+  justify-content: flex-start;
+  padding: 40px 32px 0;
   text-align: center;
   animation: slideUpFade 0.4s ease forwards;
 }
@@ -525,6 +577,25 @@
   flex: 1;
   height: 0;
   padding: 16px 16px 0 16px;
+}
+.probe-b.action-status {
+  /* Used as positioning container if needed, but styling is in coord-panel-style */
+  display: flex;
+  align-items: center;
+}
+
+/* 统一复用大地图的坐标样式 */
+.coord-panel-style {
+  background: rgba(28, 26, 16, 0.9);
+  padding: 10rpx 20rpx;
+  border-radius: 6rpx;
+  border: 1rpx solid #3A3520;
+}
+
+.coord-text-style {
+  font-size: 22rpx;
+  color: #FFB000;
+  font-family: 'Menlo', 'Courier New', 'Consolas', monospace;
 }
 .probe-biome-result {
   display: flex;

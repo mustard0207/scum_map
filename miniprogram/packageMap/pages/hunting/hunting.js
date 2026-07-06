@@ -12,7 +12,8 @@ Page({
     lang: 'zh', // 'zh' | 'en'
     sliderActive: false, // 控制滑动条的透明度
     showGuide: false, // 是否显示使用引导
-    
+    statusBarHeight: 20,
+    panelHeight: 300,
     
     // === 图鉴模式数据 ===
     animalList: [],
@@ -21,6 +22,8 @@ Page({
     animalHabitatBiomes: [], // 当前选中动物的栖息地数组 [{name, color}]
     
     // === 探测模式数据 ===
+    probeGeoX: '---',
+    probeGeoY: '---',
     probeLng: 0,
     probeLat: 0,
     probeBiome: '',       // 探测到的内部名
@@ -34,9 +37,29 @@ Page({
 
   onLoad() {
     const sysInfo = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
+    const statusBarHeight = sysInfo.statusBarHeight || 20
+    const navBarHeight = statusBarHeight + 44
+    
+    // 为了让地图完美显示且不被遮挡：让 map-area 高度等于屏幕宽度（即完美的正方形）
+    let panelHeight = sysInfo.windowHeight - navBarHeight - sysInfo.windowWidth
+    // 保护机制：如果屏幕特别短，底部面板至少保留 32% 的高度
+    const minPanelHeight = sysInfo.windowHeight * 0.32
+    if (panelHeight < minPanelHeight) {
+      panelHeight = minPanelHeight
+    }
+
+    // 抽屉最大展开高度 (85vh)
+    const maxPanelHeight = sysInfo.windowHeight * 0.85
+    // 默认的折叠状态下的 translateY 偏移量 (将面板大部分藏在屏幕下方)
+    const initialTranslateY = maxPanelHeight - panelHeight
+
     this.setData({ 
-      statusBarHeight: sysInfo.statusBarHeight || 20,
-      panelHeight: sysInfo.windowHeight * 0.4
+      statusBarHeight,
+      panelHeight,
+      maxPanelHeight,
+      initialTranslateY,
+      collapseSignal: 0,
+      isPanelExpanded: false
     })
     
     // 首次引导检查
@@ -49,6 +72,12 @@ Page({
 
   onReady() {
     this.mapCtx = this.selectComponent('#tileMap')
+    // 强制地图在页面渲染完成后重新测量一下自身容器尺寸，防止附着时量到初始旧高度
+    if (this.mapCtx) {
+      setTimeout(() => {
+        this.mapCtx.resize()
+      }, 150)
+    }
   },
 
   /** 初始化动物列表 */
@@ -79,8 +108,7 @@ Page({
 
   /** 地图加载完毕 */
   onMapReady() {
-    // 默认可以选第一个动物，或者留空
-    // this.onSelectAnimal({ currentTarget: { dataset: { id: 'bear' } } })
+    this._updateCenterCoords()
   },
 
   /** 返回按钮 */
@@ -90,6 +118,23 @@ Page({
       wx.navigateBack({ delta: 1 })
     } else {
       wx.reLaunch({ url: '/pages/index/index' })
+    }
+  },
+
+  /** WXS 抽屉状态变更回调 */
+  onPanelStateChange(e) {
+    const isExpanded = e.isExpanded
+    this.setData({
+      isPanelExpanded: isExpanded
+    })
+  },
+
+  /** 点击背景遮罩强制折叠面板 */
+  collapsePanel() {
+    if (this.data.isPanelExpanded) {
+      this.setData({
+        collapseSignal: this.data.collapseSignal + 1
+      })
     }
   },
 
@@ -188,15 +233,35 @@ Page({
   onProbeTap() {
     if (!this.mapCtx) return
     
+    wx.vibrateShort({ type: 'medium' })
+    
     // 准星固定在地图区域的中心
     const sysInfo = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
-    const mapAreaHeight = sysInfo.windowHeight - this.data.panelHeight
+    const navBarHeight = (sysInfo.statusBarHeight || 20) + 44
+    const mapAreaHeight = sysInfo.windowHeight - navBarHeight - this.data.panelHeight
     
     const centerX = sysInfo.windowWidth / 2
     const centerY = mapAreaHeight / 2
     
     const geo = this.mapCtx.screenToGeo(centerX, centerY)
     this._doProbeAtGeo(geo.lng, geo.lat)
+  },
+
+  /** 更新中央准星的实时坐标 */
+  _updateCenterCoords() {
+    if (!this.mapCtx) return
+    const sysInfo = wx.getWindowInfo ? wx.getWindowInfo() : wx.getSystemInfoSync()
+    const navBarHeight = (sysInfo.statusBarHeight || 20) + 44
+    const mapAreaHeight = sysInfo.windowHeight - navBarHeight - this.data.panelHeight
+    
+    const centerX = sysInfo.windowWidth / 2
+    const centerY = mapAreaHeight / 2
+    
+    const geo = this.mapCtx.screenToGeo(centerX, centerY)
+    this.setData({
+      probeGeoX: Math.round(geo.lng),
+      probeGeoY: Math.round(geo.lat)
+    })
   },
 
   /** 直接点击了地图 */
@@ -385,6 +450,9 @@ Page({
     
     let percent = ((logCur - logMin) / (logMax - logMin)) * 100
     this.setData({ zoomSliderPercent: percent })
+    
+    // 手势结束后更新坐标
+    this._updateCenterCoords()
   },
   
   onShareAppMessage() {

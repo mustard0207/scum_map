@@ -175,7 +175,7 @@ Component({
       this._tileIds = ''  // 当前可见瓦片 id 缓存，用于变化检测
       this._initGrid()
       this._initSafeZones()
-      this._syncWxsState()
+      this._syncWxsState(true) // 强制 WXS 同步最新的初始坐标和缩放
       this._refreshOverlay()
       // 通知父页面地图已就绪
       this.triggerEvent('mapready')
@@ -449,6 +449,19 @@ Component({
     // ================================================================
     // 公共 API
     // ================================================================
+
+    /** 强制重新测量容器尺寸并初始化地图 */
+    resize() {
+      wx.createSelectorQuery().in(this).select('.map-viewport').boundingClientRect(rect => {
+        if (rect && rect.height > 0) {
+          this._vw = rect.width
+          this._vh = rect.height
+          this._vpLeft = rect.left || 0
+          this._vpTop = rect.top || 0
+          this._initMap()
+        }
+      }).exec()
+    },
 
     /** 跳转到游戏坐标 */
     moveToGeo(geoLng, geoLat) {

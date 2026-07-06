@@ -1,4 +1,6 @@
 <!-- 狩猎助手独立页面 -->
+<wxs module="panelGestures" src="./panel-gestures.wxs"></wxs>
+
 <view class="hunting-page">
 
   <!-- 首次引导遮罩 -->
@@ -12,14 +14,14 @@
         <text class="guide-icon">🗺️</text>
         <view class="guide-text">
           <text class="guide-title">动物图鉴模式</text>
-          <text class="guide-desc">在底部面板选择一种动物，地图将高亮显示该动物在岛上的栖息地分布范围</text>
+          <text class="guide-desc">在底部面板选择一种动物，地图将高亮显示该动物在岛上的栖息地分布范围，并在信息窗口显示相关诱饵等信息。</text>
         </view>
       </view>
       <view class="guide-card">
         <text class="guide-icon">🔍</text>
         <view class="guide-text">
           <text class="guide-title">探索探测模式</text>
-          <text class="guide-desc">拖动地图准星到任意位置进行探测，助手将分析当前地形并列出可能出现的动物</text>
+          <text class="guide-desc">拖动地图准星到任意位置进行探测，助手将分析当前地形并列出可能出现的动物，同时显示在地图中高亮显示所有相同地形的区域范围。</text>
         </view>
       </view>
       <view class="guide-card">
@@ -50,9 +52,9 @@
     <text class="help-text-label">使用说明</text>
   </view>
 
-  <!-- 2. 上半屏地图区域 (60%) -->
+  <!-- 2. 上半屏地图区域 -->
   <!-- 动态计算底部留出的高度，避免被面板遮挡底部的缩放按钮 -->
-  <view class="map-area" style="bottom: {{panelHeight}}px;">
+  <view class="map-area" style="top: {{statusBarHeight + 44}}px; bottom: {{panelHeight}}px;">
     <!-- 底层复用 tile-map -->
     <tile-map 
       id="tileMap" 
@@ -89,24 +91,44 @@
     </view>
 
     <!-- 回到全视角按钮 -->
-    <view class="reset-map-btn" bindtap="resetMapView">
+    <view class="reset-map-btn" bindtap="resetMapView" style="opacity: {{isPanelExpanded ? 0 : 1}}; pointer-events: {{isPanelExpanded ? 'none' : 'auto'}};">
       <view class="reset-icon-ring"></view>
       <view class="reset-icon-dot"></view>
     </view>
-
-    <!-- 探测按钮 (悬浮在准星上方) -->
-    <view class="probe-btn" bindtap="onProbeTap">
-      <text>探测该区域</text>
-    </view>
   </view>
 
-  <!-- 3. 下半屏控制面板 (毛玻璃风格) -->
-  <view class="console-panel" id="consolePanel">
+  <!-- 地图遮罩层（面板展开时变暗） -->
+  <view class="map-overlay {{isPanelExpanded ? 'active' : ''}}" bindtap="collapsePanel"></view>
+
+  <!-- 3. 下半屏控制面板 (毛玻璃风格，WXS 接管物理拖拽) -->
+  <view class="console-panel" id="consolePanel" 
+        style="height: {{maxPanelHeight}}px; transform: translateY({{initialTranslateY}}px);"
+        prop="{{ {initialTranslateY: initialTranslateY, collapseSignal: collapseSignal, expandSignal: expandSignal} }}"
+        change:prop="{{panelGestures.init}}"
+        bindtouchstart="{{panelGestures.touchstart}}"
+        bindtouchmove="{{panelGestures.touchmove}}"
+        bindtouchend="{{panelGestures.touchend}}">
     
+    <!-- 拖拽把手区 -->
+    <view class="drag-handle-zone" bindtap="{{panelGestures.togglePanel}}">
+      <view class="drag-indicator"></view>
+    </view>
+
+    <!-- 全局探测操作栏 -->
+    <view class="action-bar">
+      <view class="action-status coord-panel-style">
+        <text class="coord-text-style">X: {{probeGeoX}}  Y: {{probeGeoY}}</text>
+      </view>
+      <view class="action-probe-btn" bindtap="onProbeTap" hover-class="action-probe-btn-hover">
+        <text class="action-icon">🔍</text>
+        <text class="action-text">探测此区域</text>
+      </view>
+    </view>
+
     <!-- 面板模式 A：动物图鉴 (主动选择动物) -->
     <view class="mode-a-animal" wx:if="{{currentMode === 'animal'}}">
       <!-- 横向滑动：动物列表 -->
-      <scroll-view class="animal-carousel" scroll-x="true" enhanced="true" show-scrollbar="false">
+      <scroll-view class="animal-carousel" scroll-x="{{true}}" enable-flex="{{true}}" show-scrollbar="{{false}}">
         <view class="animal-item {{selectedAnimal === item.id ? 'active' : ''}}" 
               wx:for="{{animalList}}" wx:key="id"
               bindtap="onSelectAnimal" data-id="{{item.id}}">
@@ -128,7 +150,7 @@
         </view>
         
         <!-- 滚动区域：栖息地与诱饵 -->
-        <scroll-view scroll-y="true" class="intel-scroll">
+        <scroll-view class="intel-scroll" scroll-y="{{isPanelExpanded}}" enhanced="{{true}}" bounces="{{false}}">
           <!-- 栖息地摘要 -->
           <view class="habitat-summary">
             <text class="habitat-label">{{lang === 'zh' ? '📍 分布地带：' : '📍 Habitats:'}}</text>
@@ -161,7 +183,7 @@
       </view>
     </view>
 
-    <!-- 面板模式 B：地形探测 (反查) -->
+    <!-- 面板模式 B：自由探测 (默认) -->
     <view class="mode-b-probe" wx:if="{{currentMode === 'probe'}}">
       <view class="probe-header">
         <view class="probe-title-area">
@@ -180,7 +202,7 @@
         </view>
       </view>
 
-      <scroll-view scroll-y="true" class="probe-content intel-scroll">
+      <scroll-view class="probe-content intel-scroll" scroll-y="{{isPanelExpanded}}" enhanced="{{true}}" bounces="{{false}}">
         <!-- 探测到的地形 -->
         <view class="probe-biome-result">
           <text class="probe-label">{{lang === 'zh' ? '📍 当前地形：' : '📍 Biome:'}}</text>
