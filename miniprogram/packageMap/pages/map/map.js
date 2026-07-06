@@ -227,7 +227,7 @@ Page({
           if (!sysInfo) return
           const navBarH = this.data.statusBarHeight + 44
           const mapH = sysInfo.windowHeight - navBarH - rect.height
-          console.log(`[LayoutDebug] bottomBar: h=${rect.height} top=${rect.top} bottom=${rect.bottom} mapH=${mapH}`)
+          // console.log(`[LayoutDebug] bottomBar: h=${rect.height} top=${rect.top} bottom=${rect.bottom} mapH=${mapH}`)
           this.selectComponent('#tileMap').recalcViewport(mapH)
         }
       }).exec()
@@ -347,7 +347,7 @@ Page({
     const sysInfo = wx.getWindowInfo()
     if (!sysInfo) return
     const screenH = sysInfo.windowHeight
-    console.log(`[TapDebug] x=${clientX} y=${clientY} screenH=${screenH} bottomBarH=${this.data.bottomBarHeight} distFromBottom=${screenH - clientY}`)
+    // console.log(`[TapDebug] x=${clientX} y=${clientY} screenH=${screenH} bottomBarH=${this.data.bottomBarHeight} distFromBottom=${screenH - clientY}`)
   },
 
   // ================================================================

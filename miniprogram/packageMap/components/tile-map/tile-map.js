@@ -139,7 +139,7 @@ Component({
       setTimeout(() => {
         wx.createSelectorQuery().in(this).select('.map-viewport').boundingClientRect(rect => {
           if (rect) {
-            console.log(`[ViewportDebug] init: w=${rect.width} h=${rect.height} top=${rect.top} bottom=${rect.bottom}`)
+            // console.log(`[ViewportDebug] init: w=${rect.width} h=${rect.height} top=${rect.top} bottom=${rect.bottom}`)
             this._vw = rect.width
             this._vh = rect.height
             this._vpLeft = rect.left || 0
@@ -315,7 +315,7 @@ Component({
     /** DEBUG: 打印当前缩放和瓦片状态 */
     _debugTiles(level, z4Count, overlayCount) {
       const scale = this.data.scale
-      console.log(`[TileDebug] scale=${scale.toFixed(2)} level=${level} z4=${z4Count} z6=${overlayCount}`)
+      // console.log(`[TileDebug] scale=${scale.toFixed(2)} level=${level} z4=${z4Count} z6=${overlayCount}`)
     },
 
     /** 计算视口内可见瓦片列表 */
@@ -549,7 +549,7 @@ Component({
     recalcViewport(height) {
       if (height) this._vh = height
       this._initMap()
-      console.log(`[ViewportDebug] recalc: w=${this._vw} h=${this._vh}`)
+      // console.log(`[ViewportDebug] recalc: w=${this._vw} h=${this._vh}`)
     },
 
     /** 获取当前缩放值 */
@@ -654,7 +654,7 @@ Component({
       const r = parseInt(parts[2])
       const c = parseInt(parts[3])
       const cached = this._isTileCached(level, c, r)
-      console.log(`[TileLoad] ${id} level=${level} cached=${cached}`)
+      // console.log(`[TileLoad] ${id} level=${level} cached=${cached}`)
       // 如果是从网络加载的（未缓存），保存到本地
       if (level >= 4 && !cached) {
         this._saveTileToCache(level, c, r)
