@@ -47,7 +47,7 @@
     </view>
   </view>
 
-  <view class="main-content" style="padding-top: {{statusBarHeight + 44 + 20}}px;">
+  <view class="main-content" style="padding-top: {{statusBarHeight + 44}}px;">
     <!-- 上半部：输入展示区 -->
     <view class="top-section">
       <!-- 使用说明入口 -->

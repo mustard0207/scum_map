@@ -451,14 +451,29 @@ Component({
     // ================================================================
 
     /** 强制重新测量容器尺寸并初始化地图 */
-    resize() {
+    resize(resetView = true) {
       wx.createSelectorQuery().in(this).select('.map-viewport').boundingClientRect(rect => {
         if (rect && rect.height > 0) {
           this._vw = rect.width
           this._vh = rect.height
           this._vpLeft = rect.left || 0
           this._vpTop = rect.top || 0
-          this._initMap()
+          if (resetView) {
+            this._initMap()
+          } else {
+            MIN_SCALE = Math.min(this._vw / FULL_MAP_SIZE, this._vh / FULL_MAP_SIZE)
+            if (this.data.scale < MIN_SCALE) this.data.scale = MIN_SCALE
+            this._clampOffset()
+            this.setData({
+              _vw: this._vw,
+              _vh: this._vh,
+              scale: this.data.scale,
+              offsetX: this.data.offsetX,
+              offsetY: this.data.offsetY
+            })
+            this._syncWxsState()
+            this._refreshOverlay()
+          }
         }
       }).exec()
     },
@@ -546,10 +561,24 @@ Component({
     },
 
     /** 重新计算视口尺寸（底栏高度变化后调用） */
-    recalcViewport(height) {
+    recalcViewport(height, resetView = true) {
       if (height) this._vh = height
-      this._initMap()
-      // console.log(`[ViewportDebug] recalc: w=${this._vw} h=${this._vh}`)
+      if (resetView) {
+        this._initMap()
+      } else {
+        MIN_SCALE = Math.min(this._vw / FULL_MAP_SIZE, this._vh / FULL_MAP_SIZE)
+        if (this.data.scale < MIN_SCALE) this.data.scale = MIN_SCALE
+        this._clampOffset()
+        this.setData({
+          _vw: this._vw,
+          _vh: this._vh,
+          scale: this.data.scale,
+          offsetX: this.data.offsetX,
+          offsetY: this.data.offsetY
+        })
+        this._syncWxsState()
+        this._refreshOverlay()
+      }
     },
 
     /** 获取当前缩放值 */

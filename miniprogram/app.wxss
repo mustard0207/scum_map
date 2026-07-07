@@ -74,13 +74,15 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 40rpx 30rpx 30rpx;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .guide-content {
   width: 100%;
   max-width: 690rpx;
+  margin: auto 0;
 }
 
 .guide-header {

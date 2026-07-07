@@ -86,9 +86,10 @@
           <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地点显示</text>
         </view>
       </view>
-    </view>
-    <view class="guide-btn" bindtap="dismissGuide">
-      <text class="guide-btn-text">我知道了</text>
+
+      <view class="guide-btn" bindtap="dismissGuide">
+        <text class="guide-btn-text">我知道了</text>
+      </view>
     </view>
   </view>
   <!-- 自定义导航栏 -->

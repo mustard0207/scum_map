@@ -80,6 +80,26 @@ Page({
     }
   },
 
+  onShow() {
+    this._resizeHandler = () => this.onResize()
+    wx.onWindowResize(this._resizeHandler)
+  },
+
+  onHide() {
+    if (this._resizeHandler) {
+      wx.offWindowResize(this._resizeHandler)
+    }
+  },
+
+  /** 监听窗口尺寸变化（PC微信） */
+  onResize() {
+    if (this.mapCtx) {
+      setTimeout(() => {
+        this.mapCtx.resize(false)
+      }, 50)
+    }
+  },
+
   /** 初始化动物列表 */
   _initAnimalList() {
     const dict = huntingData.ANIMALS

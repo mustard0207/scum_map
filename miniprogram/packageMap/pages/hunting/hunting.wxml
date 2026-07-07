@@ -31,9 +31,9 @@
           <text class="guide-desc">你可以使用屏幕右侧的滑动条快速缩放地图，或点击下方按钮回到全局视角</text>
         </view>
       </view>
-    </view>
-    <view class="guide-btn" bindtap="dismissGuide">
-      <text class="guide-btn-text">我知道了</text>
+      <view class="guide-btn" bindtap="dismissGuide">
+        <text class="guide-btn-text">我知道了</text>
+      </view>
     </view>
   </view>
 

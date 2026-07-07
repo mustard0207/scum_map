@@ -52,7 +52,7 @@ function updateStyles(ownerInstance) {
     gridH[i].setStyle({
       top: (parseFloat(ds.ly) * s + oy) + 'px',
       left: mapLeft + 'px',
-      right: (state.vw - mapRight) + 'px'
+      width: Math.max(0, mapRight - mapLeft) + 'px'
     });
   }
 
@@ -66,7 +66,7 @@ function updateStyles(ownerInstance) {
     gridV[i].setStyle({
       left: (parseFloat(ds.lx) * s + ox) + 'px',
       top: mapTop + 'px',
-      bottom: (state.vh - mapBottom) + 'px'
+      height: Math.max(0, mapBottom - mapTop) + 'px'
     });
   }
 

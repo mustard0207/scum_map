@@ -627,7 +627,8 @@ button.bar-btn::after {
   right: 0;
   display: flex;
   justify-content: space-evenly;
-  padding: 20rpx 0;
+  padding-top: 20rpx;
+  padding-bottom: calc(20rpx + env(safe-area-inset-bottom));
   background: rgba(28, 26, 16, 0.95);
   z-index: 100;
 }
@@ -655,12 +656,16 @@ button.bar-btn::after {
   color: #7A6B4A;
   height: 56rpx;
   line-height: 56rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bar-label {
   font-size: 24rpx;
   color: #7A6B4A;
   font-weight: normal;
+  line-height: 1;
 }
 
 .bar-sublabel {

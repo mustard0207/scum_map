@@ -80,7 +80,7 @@
       <view class="bottom-bar">
         <view class="bottom-item">
           <text class="bottom-icon">🕒</text>
-          <text class="bottom-text">最近更新：优化狩猎助手</text>
+          <text class="bottom-text">最近更新：地图功能与全屏引导遮罩适配修复</text>
         </view>
       </view>
     </view>

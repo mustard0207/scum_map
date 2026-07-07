@@ -329,10 +329,29 @@ Page({
 
     // 激活分享能力（必须先调用，wx.shareAppMessage 才能正常工作）
     wx.showShareMenu({ withShareTicket: true, menus: ['shareAppMessage', 'shareTimeline'] })
+
+    // 绑定窗口调整大小事件
+    this._resizeHandler = () => this.onResize()
+    wx.onWindowResize(this._resizeHandler)
   },
 
   onHide() {
     clearInterval(this._coordTimer)
+    if (this._resizeHandler) {
+      wx.offWindowResize(this._resizeHandler)
+    }
+  },
+
+  /** 监听窗口尺寸变化（PC微信） */
+  onResize() {
+    const sysInfo = wx.getWindowInfo()
+    if (!sysInfo) return
+    setTimeout(() => {
+      const mapComp = this.selectComponent('#tileMap')
+      if (mapComp) {
+        mapComp.resize(false)
+      }
+    }, 100)
   },
 
   onUnload() {
@@ -1048,6 +1067,7 @@ Page({
       // 读取载具配件信息
       let vehicleId = 0
       let partsMask = 0xFFFF
+      let emoji = ''
       if (hasVehicleParts && typeCode === 2 && pos + 3 <= bytes.length) {
         vehicleId = bytes[pos]
         partsMask = (bytes[pos + 1] << 8) | bytes[pos + 2]
@@ -1065,7 +1085,7 @@ Page({
         type,
         vehicleId,
         partsMask,
-        emoji: typeConf ? typeConf.emoji : '',
+        emoji: emoji || (typeConf ? typeConf.emoji : ''),
         createdAt
       })
     }
@@ -1129,9 +1149,12 @@ Page({
     wx.showModal({
       title: '清空所有标记',
       content: `确定删除全部 ${this._allUserMarkers.length} 个自定义标记？此操作不可撤销。`,
-      confirmColor: '#C75050',
+      cancelText: '确定',
+      cancelColor: '#C75050',
+      confirmText: '取消',
+      confirmColor: '#000000',
       success: (res) => {
-        if (res.confirm) {
+        if (res.cancel) {
           this._allUserMarkers = []
           const poiMarkers = this.data.markers.filter(m => m.src === 'poi')
           this.setData({
@@ -1565,7 +1588,7 @@ Page({
       if (truncated) {
         wx.showToast({ title: `最多${USER_MARKER_LIMIT}个，已截取前${USER_MARKER_LIMIT}个`, icon: 'none', duration: 2000 })
       } else {
-        wx.showToast({ title: `已导入 ${markers.length} 个标记` })
+        wx.showToast({ title: `已导入 ${markers.length} 个标记`, icon: 'none' })
       }
     }
 

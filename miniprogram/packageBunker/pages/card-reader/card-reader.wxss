@@ -58,7 +58,7 @@
 
 .top-section {
   flex: 1;
-  padding: 15px 15px 0;
+  padding: 10px 15px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,7 +210,7 @@
 /* 自定义键盘 */
 .custom-keyboard {
   background: #121008;
-  padding: 15px 10px 20px;
+  padding: 15px 10px calc(15px + env(safe-area-inset-bottom));
   border-top: 1px solid #333;
   box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
 }
@@ -252,7 +252,7 @@
 /* 结果面板 */
 .result-panel {
   background: #1C1A10;
-  padding: 30px 20px 40px;
+  padding: 30px 20px calc(20px + env(safe-area-inset-bottom));
   border-top: 2px solid #00ff41;
   box-shadow: 0 -10px 30px rgba(0, 255, 65, 0.1);
   text-align: center;
