@@ -181,14 +181,14 @@ Page({
 
   onShareAppMessage() {
     return {
-      title: 'SCUM 园艺与种子查询',
+      title: 'SCUM园艺助手',
       path: '/packageGardening/pages/index/index'
     }
   },
 
   onShareTimeline() {
     return {
-      title: 'SCUM 园艺与种子查询'
+      title: 'SCUM园艺助手'
     }
   }
 })

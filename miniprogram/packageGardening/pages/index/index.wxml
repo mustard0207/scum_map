@@ -6,7 +6,7 @@
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
       <view class="nav-back" bindtap="goBack">‹</view>
-      <view class="nav-title">{{isEnglish ? 'Gardening & Seeds' : '园艺与种子查询'}}</view>
+      <view class="nav-title">{{isEnglish ? 'SCUM Gardening' : 'SCUM园艺助手'}}</view>
       <view class="nav-placeholder"></view>
     </view>
   </view>

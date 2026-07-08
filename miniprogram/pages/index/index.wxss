@@ -92,6 +92,9 @@
 /* 功能入口 */
 .features {
   padding: 0 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .feature-card {
