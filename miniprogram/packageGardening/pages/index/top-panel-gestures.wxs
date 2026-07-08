@@ -1,0 +1,175 @@
+var state = {
+  minY: 0,
+  maxY: 0,
+  currentY: 0,
+  isExpanded: false,
+  initialized: false
+}
+
+var lastTouchY = 0
+var animId = 0
+
+function init(newVal, oldVal, ownerInstance, instance) {
+  if (newVal && typeof newVal.panelHeight === 'number') {
+    var oldMinY = state.minY
+    state.minY = -newVal.panelHeight // 折叠时，偏移量最小（向上隐藏）
+    state.maxY = 0                   // 展开时，偏移量为 0
+    
+    // 如果已经在初始化后，并且当前处于折叠状态，且高度发生了变化，需要修正位置
+    if (state.initialized && !state.isExpanded && oldMinY !== state.minY) {
+      state.currentY = state.minY
+      instance.setStyle({
+        transform: 'translateY(' + state.currentY + 'px)',
+        transition: 'none'
+      })
+    }
+    
+    // 如果收到强制折叠的信号 (点击了遮罩层)
+    if (newVal.collapseSignal !== undefined && oldVal && newVal.collapseSignal !== oldVal.collapseSignal) {
+      animateTo(state.minY, ownerInstance, instance, function() {
+        state.isExpanded = false
+        ownerInstance.callMethod('onPanelStateChange', { isExpanded: false })
+      })
+      return
+    }
+    
+    // 如果收到强制展开的信号 (点击了按钮)
+    if (newVal.expandSignal !== undefined && oldVal && newVal.expandSignal !== oldVal.expandSignal) {
+      animateTo(state.maxY, ownerInstance, instance, function() {
+        state.isExpanded = true
+        ownerInstance.callMethod('onPanelStateChange', { isExpanded: true })
+      })
+      return
+    }
+    
+    // 首次初始化
+    if (!state.initialized) {
+      state.currentY = state.minY
+      state.isExpanded = false
+      state.initialized = true
+      instance.setStyle({
+        transform: 'translateY(' + state.currentY + 'px)'
+      })
+    }
+  }
+}
+
+function touchstart(e, ownerInstance) {
+  animId++ 
+  var touches = e.touches
+  if (touches.length === 1) {
+    lastTouchY = touches[0].clientY
+  }
+}
+
+function touchmove(e, ownerInstance) {
+  var instance = ownerInstance.selectComponent('.drawer-container')
+  if (!instance) return
+  var touches = e.touches
+  if (touches.length === 1) {
+    var clientY = touches[0].clientY
+    var deltaY = clientY - lastTouchY
+    lastTouchY = clientY
+    
+    state.currentY += deltaY
+    
+    // 橡皮筋阻力效果
+    if (state.currentY > state.maxY) { // 往下扯过头了
+      state.currentY = state.maxY + Math.sqrt(state.currentY - state.maxY) * 2
+    } else if (state.currentY < state.minY) { // 往上推过头了
+      state.currentY = state.minY - Math.sqrt(state.minY - state.currentY) * 2
+    }
+    
+    instance.setStyle({
+      transform: 'translateY(' + state.currentY + 'px)',
+      transition: 'none'
+    })
+  }
+}
+
+function touchend(e, ownerInstance) {
+  var instance = ownerInstance.selectComponent('.drawer-container')
+  if (!instance) return
+  var threshold = (state.maxY - state.minY) / 4 
+  var targetY = state.currentY
+  var nextIsExpanded = state.isExpanded
+  
+  if (state.isExpanded) {
+    // 当前展开，用户往上推 (Y 变小)
+    if (state.currentY < state.maxY - threshold) {
+      targetY = state.minY
+      nextIsExpanded = false
+    } else {
+      targetY = state.maxY
+    }
+  } else {
+    // 当前折叠，用户往下拉 (Y 变大)
+    if (state.currentY > state.minY + threshold) {
+      targetY = state.maxY
+      nextIsExpanded = true
+    } else {
+      targetY = state.minY
+    }
+  }
+  
+  animateTo(targetY, ownerInstance, instance, function() {
+    if (nextIsExpanded !== state.isExpanded) {
+      state.isExpanded = nextIsExpanded
+      ownerInstance.callMethod('onPanelStateChange', { isExpanded: state.isExpanded })
+    }
+  })
+}
+
+function animateTo(targetY, ownerInstance, instance, callback) {
+  animId++
+  var currentAnimId = animId
+  var DURATION = 300 // ms
+  var startY = state.currentY
+  var startTime = getDate().getTime()
+  
+  function step() {
+    if (currentAnimId !== animId) return
+    
+    var elapsed = getDate().getTime() - startTime
+    var t = Math.min(1, Math.max(0, elapsed / DURATION))
+    var ease = 1 - Math.pow(1 - t, 3)
+    
+    state.currentY = startY + (targetY - startY) * ease
+    
+    instance.setStyle({
+      transform: 'translateY(' + state.currentY + 'px)',
+      transition: 'none'
+    })
+    
+    if (t < 1) {
+      ownerInstance.requestAnimationFrame(step)
+    } else {
+      if (callback) callback()
+    }
+  }
+  
+  ownerInstance.requestAnimationFrame(step)
+}
+
+function togglePanel(e, ownerInstance) {
+  var instance = ownerInstance.selectComponent('.drawer-container')
+  if (!instance) return
+  
+  var targetY = state.isExpanded ? state.minY : state.maxY
+  var nextIsExpanded = !state.isExpanded
+  
+  animateTo(targetY, ownerInstance, instance, function() {
+    if (nextIsExpanded !== state.isExpanded) {
+      state.isExpanded = nextIsExpanded
+      ownerInstance.callMethod('onPanelStateChange', { isExpanded: state.isExpanded })
+    }
+  })
+}
+
+module.exports = {
+  init: init,
+  touchstart: touchstart,
+  touchmove: touchmove,
+  touchend: touchend,
+  togglePanel: togglePanel
+}

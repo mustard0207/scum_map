@@ -1,0 +1,170 @@
+<view class="page">
+  <!-- 引入拖拽脚本 -->
+  <wxs module="topGestures" src="./top-panel-gestures.wxs"></wxs>
+
+  <!-- 自定义导航栏 -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="nav-back" bindtap="goBack">‹</view>
+      <view class="nav-title">{{isEnglish ? 'Gardening & Seeds' : '园艺与种子查询'}}</view>
+      <view class="nav-placeholder"></view>
+    </view>
+  </view>
+
+  <!-- 主容器 -->
+  <view class="main-container" style="padding-top: {{statusBarHeight + 44}}px;">
+    
+    <!-- 顶部固定区域 -->
+    <view class="header-section">
+      <!-- 语言切换与折叠教程切换 -->
+      <view class="header-top-row">
+        <!-- 教程弹出开关 -->
+        <view class="guide-toggle" bindtap="toggleGuide">
+          <text class="guide-icon">🌱</text>
+          <text class="guide-toggle-text">{{isEnglish ? 'Gardening Guide' : '园艺种植指南'}}</text>
+        </view>
+        <!-- 中英文切换开关 -->
+        <view class="lang-switch-wrapper" bindtap="toggleLanguage">
+          <text class="lang-label">显示英文原版名称</text>
+          <view class="filter-toggle {{isEnglish ? 'filter-toggle-on' : ''}}">
+            <view class="filter-toggle-thumb"></view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 标签筛选栏 -->
+      <scroll-view class="tag-scroll" scroll-x="true" show-scrollbar="false" enhanced="true" bounces="false">
+        <view class="tag-list">
+          <view 
+            class="tag-item {{currentCategory === item ? 'active' : ''}}" 
+            wx:for="{{categories}}" 
+            wx:key="*this"
+            bindtap="selectCategory" 
+            data-category="{{item}}"
+          >
+            {{item}}
+          </view>
+        </view>
+      </scroll-view>
+
+      <!-- 排序选项栏 -->
+      <view class="sort-bar">
+        <view class="sort-item {{currentSortField === 'temp' ? 'active' : ''}}" data-field="temp" bindtap="onSort">
+          <text>{{isEnglish ? 'Sort by Growth Opt. Temp' : '按生长温度排序'}}</text>
+          <text class="sort-arrow">{{currentSortField === 'temp' ? (sortOrder === 'asc' ? '↑' : '↓') : '-'}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 列表区域 -->
+    <scroll-view class="seed-list" scroll-y="true" enhanced="true" show-scrollbar="false" enable-back-to-top="true">
+      <view class="list-content">
+        <!-- 空状态提示 -->
+        <view class="empty-state" wx:if="{{filteredSeeds.length === 0}}">
+          {{isEnglish ? 'No seeds found in this category' : '该分类下暂无种子数据'}}
+        </view>
+
+        <!-- 卡片列表 -->
+        <view class="cards-grid">
+          <block wx:for="{{filteredSeeds}}" wx:key="name">
+            <view class="seed-card">
+              <!-- 头部 -->
+              <view class="card-header">
+                <view class="header-main">
+                  <view class="title-row">
+                    <text class="seed-name">{{item.name}}</text>
+                  </view>
+                  <view class="temp-badge">
+                    <text class="temp-text">{{isEnglish ? 'Growth Opt.' : '生长温度'}}</text>
+                    <text class="temp-value" style="{{item.optimum_temp_style}}">{{item.optimum_temp}}</text>
+                  </view>
+                </view>
+                
+                <!-- 概览属性 -->
+                <view class="core-stats">
+                  <view class="stat-item">
+                    <text class="detail-label">📦 {{isEnglish ? 'Produce: ' : '产物：'}}</text>
+                    <text class="stat-value">{{item.crop}}</text>
+                  </view>
+                </view>
+              </view>
+
+              <!-- 详情区域 -->
+              <view class="card-detail">
+                <view class="detail-divider"></view>
+                <view class="detail-section">
+                  <!-- 第一排：温度与抗冻 -->
+                  <view class="detail-grid-row">
+                    <view class="detail-cell">
+                      <text class="detail-label">🌱 {{isEnglish ? 'Seed Opt.' : '发芽温度'}}</text>
+                      <text class="detail-value" style="{{item.survival_temp_style}}">{{item.survival_temp}}</text>
+                    </view>
+                    <view class="detail-cell">
+                      <text class="detail-label">❄️ {{isEnglish ? 'Tol.' : '耐寒'}}</text>
+                      <text class="detail-value {{item.survival_freezing === '是' || item.survival_freezing === 'Yes' ? 'text-blue' : ''}}">{{item.survival_freezing}}</text>
+                    </view>
+                  </view>
+
+                  <!-- 第二排：虫害与病害 -->
+                  <view class="detail-grid-row">
+                    <view class="detail-cell">
+                      <text class="detail-label">🐛 {{isEnglish ? 'Pests' : '已知虫害'}}</text>
+                      <view class="tags-container">
+                        <text class="att-tag danger-tag">{{item.pests}}</text>
+                      </view>
+                    </view>
+                    <view class="detail-cell">
+                      <text class="detail-label">🦠 {{isEnglish ? 'Diseases' : '已知病害'}}</text>
+                      <view class="tags-container">
+                        <text class="att-tag warning-tag">{{item.diseases}}</text>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </block>
+        </view>
+
+        <view class="disclaimer">
+          Data is extracted from SCUM Fandom Wiki.
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 抽屉遮罩 -->
+  <view class="drawer-mask" wx:if="{{guideExpanded}}" bindtap="closeGuideMask"></view>
+
+  <!-- 从上往下拉的情报窗口 (毛玻璃拖拽式) -->
+  <view class="drawer-container" 
+        id="guideDrawer"
+        style="top: {{statusBarHeight + 44}}px; height: {{drawerHeight}}px;"
+        prop="{{ {panelHeight: drawerHeight, expandSignal: expandSignal, collapseSignal: collapseSignal} }}"
+        change:prop="{{topGestures.init}}">
+        
+    <view class="drawer-header">
+      <text class="drawer-title">{{isEnglish ? 'Gardening Guide' : '园艺种植指南'}}</text>
+      <text class="drawer-close" bindtap="closeGuideMask">×</text>
+    </view>
+    
+    <scroll-view class="drawer-scroll" scroll-y="true" show-scrollbar="false">
+      <block wx:for="{{guideData}}" wx:key="title">
+        <view class="guide-item">
+          <view class="guide-title">{{item.title}}</view>
+          <view class="guide-desc">{{item.content}}</view>
+        </view>
+      </block>
+      <!-- 给底部留出拖拽把手的高度 -->
+      <view style="height: 30px;"></view>
+    </scroll-view>
+
+    <!-- 底部拖拽把手区 -->
+    <view class="drag-handle-zone-bottom" 
+          bindtouchstart="{{topGestures.touchstart}}"
+          bindtouchmove="{{topGestures.touchmove}}"
+          bindtouchend="{{topGestures.touchend}}">
+      <view class="drag-indicator-bottom"></view>
+    </view>
+  </view>
+</view>

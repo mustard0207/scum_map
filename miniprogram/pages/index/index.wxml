@@ -72,6 +72,19 @@
           </view>
           <view class="feature-arrow">›</view>
         </view>
+
+        <!-- 园艺助手 -->
+        <view class="feature-card" bindtap="goToGardening">
+          <view class="feature-tag feature-tag-aux">辅助工具</view>
+          <view class="feature-icon-area">
+            <text class="feature-glyph">🌱</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">园艺与种子</text>
+            <text class="feature-desc">农作物最佳种植条件、除草杀虫机制百科。</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
       </view>
     </view>
 

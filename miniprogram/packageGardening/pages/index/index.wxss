@@ -1,0 +1,437 @@
+/* 复用和修改武器页面的部分样式以适应生存终端主题 */
+.page {
+  width: 100vw;
+  height: 100vh;
+  background: #121008;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(28, 26, 16, 0.95);
+  border-bottom: 1rpx solid #3A3520;
+}
+.nav-content {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.nav-back {
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56rpx;
+  color: #FFB000;
+  font-weight: 300;
+}
+.nav-title {
+  flex: 1;
+  text-align: center;
+  color: #D4C8A0;
+  font-size: 34rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+}
+.nav-placeholder {
+  width: 60rpx;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header-section {
+  padding: 16px;
+  background: #1C1A10;
+  border-bottom: 1px solid rgba(255, 176, 0, 0.1);
+}
+
+.header-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* 指南开关按钮 */
+.guide-toggle {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  background: rgba(255, 176, 0, 0.1);
+  border: 1px solid rgba(255, 176, 0, 0.3);
+  border-radius: 6px;
+}
+.guide-toggle-text {
+  color: #FFB000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+.guide-icon {
+  font-size: 14px;
+}
+
+/* 语言切换器 */
+.lang-switch-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.lang-label {
+  color: rgba(212, 200, 160, 0.7);
+  font-size: 13px;
+}
+.filter-toggle {
+  width: 76rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  background: #2A2618;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.filter-toggle-on {
+  background: rgba(255, 176, 0, 0.8);
+}
+.filter-toggle-thumb {
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 50%;
+  background: #7A6B4A;
+  position: absolute;
+  top: 3rpx;
+  left: 3rpx;
+  transition: transform 0.2s, background 0.2s;
+}
+.filter-toggle-on .filter-toggle-thumb {
+  transform: translateX(36rpx);
+  background: #121008;
+}
+
+/* =================抽屉系统================= */
+.drawer-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 80;
+}
+.drawer-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: rgba(30, 30, 30, 0.85); /* 毛玻璃透明底色 */
+  backdrop-filter: blur(15px); /* 毛玻璃特效 */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  z-index: 90; /* 低于 nav-bar 的 100，使其从导航栏底下钻出来 */
+  transform: translateY(-120%); /* 初始状态通过 CSS 隐藏，等待 WXS 接管 */
+  display: flex;
+  flex-direction: column;
+}
+.drawer-show {
+  transform: translateY(0);
+}
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.drawer-title {
+  color: #FFB000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.drawer-close {
+  color: rgba(212, 200, 160, 0.6);
+  font-size: 24px;
+  line-height: 1;
+  padding: 0 10px;
+}
+.drawer-scroll {
+  padding: 16px 20px;
+  flex: 1;
+  height: 0; /* Important for scroll-view inside flex container */
+  box-sizing: border-box; /* 防止 padding 导致内容宽度溢出 */
+  width: 100%;
+}
+.guide-item {
+  margin-bottom: 16px;
+}
+.guide-title {
+  color: #FFB000;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.guide-desc {
+  color: #D4C8A0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 底部拖拽把手 */
+.drag-handle-zone-bottom {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 扩大可点击范围，方便手指触摸 */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.drag-indicator-bottom {
+  width: 40px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.drag-handle-zone-bottom:active .drag-indicator-bottom {
+  background: rgba(255, 255, 255, 0.6);
+}
+/* ========================================== */
+
+/* 标签筛选栏 */
+.tag-scroll {
+  width: 100%;
+  white-space: nowrap;
+}
+.tag-list {
+  display: inline-flex;
+  gap: 8px;
+}
+.tag-item {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(212, 200, 160, 0.6);
+  font-size: 13px;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+.tag-item.active {
+  background: rgba(255, 176, 0, 0.15);
+  color: #FFB000;
+  border: 1px solid rgba(255, 176, 0, 0.5);
+}
+
+/* 排序选项栏 */
+.sort-bar {
+  display: flex;
+  margin-top: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 4px;
+}
+.sort-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(212, 200, 160, 0.5);
+  padding: 6px 0;
+  transition: all 0.2s;
+}
+.sort-item.active {
+  color: #FFB000;
+  background: rgba(255, 176, 0, 0.1);
+  border-radius: 4px;
+}
+.sort-arrow {
+  margin-left: 4px;
+  font-size: 10px;
+  width: 10px;
+}
+
+/* 列表区域 */
+.seed-list {
+  flex: 1;
+  height: 0;
+  background: #121008;
+}
+.list-content {
+  padding: 16px;
+}
+.empty-state {
+  text-align: center;
+  color: rgba(212, 200, 160, 0.3);
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+/* 卡片网格布局 */
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* 卡片样式 */
+.seed-card {
+  width: calc(50% - 6px);
+  background: #1C1A10;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.card-header {
+  padding: 10px 6px 10px 10px;
+}
+.header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+.title-row {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.seed-name {
+  color: #D4C8A0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.temp-badge {
+  display: flex;
+  align-items: baseline;
+}
+.temp-text {
+  color: rgba(212, 200, 160, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.temp-value {
+  color: #E85D3A;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.core-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  font-size: 12px;
+  color: rgba(212, 200, 160, 0.6);
+  margin-top: 6px;
+}
+.stat-item {
+  display: flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+.stat-value {
+  color: #D4C8A0;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* 详情区域 */
+.card-detail {
+  padding: 0 6px 10px 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.detail-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 8px;
+}
+.detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.detail-grid-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.detail-grid-row:last-child {
+  margin-bottom: 0;
+}
+.detail-cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.detail-label {
+  color: rgba(212, 200, 160, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+.detail-value {
+  color: #D4C8A0;
+  font-size: 13px;
+  line-height: 1.3;
+  font-family: 'Courier New', Courier, monospace;
+}
+.text-blue {
+  color: #79C0FF;
+  font-weight: bold;
+}
+.tags-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.att-tag {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  line-height: 1.2;
+}
+.danger-tag {
+  color: #E85D3A;
+  border-color: rgba(232, 93, 58, 0.3);
+  background: rgba(232, 93, 58, 0.1);
+}
+.warning-tag {
+  color: #FFB000;
+  border-color: rgba(255, 176, 0, 0.3);
+  background: rgba(255, 176, 0, 0.1);
+}
+
+.disclaimer {
+  text-align: center;
+  color: rgba(212, 200, 160, 0.15);
+  font-size: 10px;
+  padding: 20px 0 40px 0;
+  line-height: 1.5;
+}

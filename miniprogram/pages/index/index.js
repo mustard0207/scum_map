@@ -34,6 +34,11 @@ Page({
     wx.navigateTo({ url: '/packageMap/pages/hunting/hunting' })
   },
 
+  // 进入园艺与种子查询页
+  goToGardening() {
+    wx.navigateTo({ url: '/packageGardening/pages/index/index' })
+  },
+
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

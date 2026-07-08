@@ -23,6 +23,12 @@
       "pages": [
         "pages/index/index"
       ]
+    },
+    {
+      "root": "packageGardening",
+      "pages": [
+        "pages/index/index"
+      ]
     }
   ],
   "window": {
