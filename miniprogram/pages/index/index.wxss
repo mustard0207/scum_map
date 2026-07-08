@@ -16,7 +16,7 @@
 
 .main-bottom {
   flex-shrink: 0;
-  padding-bottom: 40rpx;
+  padding-bottom: 20px;
 }
 
 /* 自定义导航栏 */
@@ -27,67 +27,71 @@
   right: 0;
   z-index: 100;
   background: #1C1A10;
-  border-bottom: 1rpx solid #3A3520;
+  border-bottom: 1px solid #3A3520;
 }
 
 .nav-content {
+  position: relative;
   height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-title {
-  color: #D4C8A0;
-  font-size: 34rpx;
-  font-weight: 600;
-  letter-spacing: 2rpx;
+.nav-title-group {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-/* Logo 区域 */
+.nav-logo {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.nav-title {
+  color: #D4C8A0;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* 副标题区域 */
 .logo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60rpx 0 80rpx;
-}
-
-.logo-img {
-  width: 200rpx;
-  height: 109rpx;
-  margin-bottom: 24rpx;
-}
-
-.logo-title {
-  font-size: 48rpx;
-  font-weight: 700;
-  color: #D4C8A0;
-  margin-bottom: 10rpx;
-  letter-spacing: 4rpx;
+  padding: 1px 0 25px;
 }
 
 .logo-desc {
-  font-size: 28rpx;
+  font-size: 14px;
   color: #7A6B4A;
 }
 
 .logo-subtitle {
-  font-size: 26rpx;
+  font-size: 13px;
   color: #A39B82;
-  margin-bottom: 16rpx;
+  margin-bottom: 8px;
 }
 
 .logo-version {
-  font-size: 22rpx;
+  font-size: 11px;
   color: #7A6B4A;
   background: rgba(122, 107, 74, 0.15);
-  padding: 4rpx 16rpx;
-  border-radius: 20rpx;
+  padding: 2px 8px;
+  border-radius: 10px;
 }
 
 /* 功能入口 */
 .features {
-  padding: 0 30rpx;
+  padding: 0 15px;
 }
 
 .feature-card {
@@ -95,20 +99,20 @@
   display: flex;
   align-items: center;
   background: #1C1A10;
-  border-radius: 12rpx;
-  padding: 36rpx 30rpx;
-  margin-bottom: 32rpx;
-  border: 1rpx solid #3A3520;
+  border-radius: 6px;
+  padding: 18px 15px;
+  margin-bottom: 16px;
+  border: 1px solid #3A3520;
   transition: all 0.2s;
 }
 
 .feature-tag {
   position: absolute;
-  top: -16rpx;
-  left: 24rpx;
-  padding: 2rpx 12rpx;
-  font-size: 20rpx;
-  border-radius: 6rpx;
+  top: -8px;
+  left: 12px;
+  padding: 1px 6px;
+  font-size: 10px;
+  border-radius: 3px;
   font-weight: 500;
   z-index: 2;
 }
@@ -116,19 +120,19 @@
 .feature-tag-core {
   background: #2D2816;
   color: #FFB000;
-  border: 1rpx solid #FFB000;
+  border: 1px solid #FFB000;
 }
 
 .feature-tag-tactical {
   background: #1E281F;
   color: #67C23A;
-  border: 1rpx solid #345B2C;
+  border: 1px solid #345B2C;
 }
 
 .feature-tag-aux {
   background: #262626;
   color: #9E9E9E;
-  border: 1rpx solid #424242;
+  border: 1px solid #424242;
 }
 
 .feature-card:active {
@@ -141,19 +145,19 @@
 }
 
 .feature-icon-area {
-  width: 96rpx;
-  height: 96rpx;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(255, 176, 0, 0.1);
-  border-radius: 16rpx;
-  margin-right: 24rpx;
+  border-radius: 8px;
+  margin-right: 12px;
   flex-shrink: 0;
 }
 
 .feature-glyph {
-  font-size: 48rpx;
+  font-size: 24px;
   color: #FFB000;
 }
 
@@ -164,30 +168,30 @@
 }
 
 .feature-title {
-  font-size: 34rpx;
+  font-size: 17px;
   font-weight: 600;
   color: #D4C8A0;
-  margin-bottom: 6rpx;
+  margin-bottom: 3px;
 }
 
 .feature-desc {
-  font-size: 26rpx;
+  font-size: 13px;
   color: #7A6B4A;
 }
 
 .feature-arrow {
-  font-size: 48rpx;
+  font-size: 24px;
   color: #FFB000;
   font-weight: 300;
-  margin-left: 10rpx;
+  margin-left: 5px;
 }
 
 .feature-badge {
-  font-size: 20rpx;
+  font-size: 10px;
   color: #E85D3A;
   background: rgba(232, 93, 58, 0.12);
-  padding: 6rpx 16rpx;
-  border-radius: 20rpx;
+  padding: 3px 8px;
+  border-radius: 10px;
   flex-shrink: 0;
 }
 
@@ -196,19 +200,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 40rpx;
+  padding: 0 20px;
 }
 
 .bottom-item {
   display: flex;
   align-items: center;
   color: #7A6B4A;
-  font-size: 24rpx;
+  font-size: 12px;
   white-space: nowrap;
 }
 
 .bottom-icon {
-  font-size: 28rpx;
-  margin-right: 8rpx;
+  font-size: 14px;
+  margin-right: 4px;
   opacity: 0.8;
 }

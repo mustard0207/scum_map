@@ -3,7 +3,10 @@
   <!-- 自定义导航栏 -->
   <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
     <view class="nav-content">
-      <text class="nav-title">SCUM游戏工具箱</text>
+      <view class="nav-title-group">
+        <image class="nav-logo" src="/assets/logo.png" mode="aspectFit" />
+        <text class="nav-title">SCUM游戏工具箱</text>
+      </view>
     </view>
   </view>
 
@@ -11,10 +14,8 @@
   <view class="main">
     <!-- 上方内容 -->
     <view class="main-top" style="padding-top: {{statusBarHeight + 44}}px;">
-      <!-- Logo 区域 -->
+      <!-- 副标题区域 -->
       <view class="logo-section">
-        <image class="logo-img" src="/assets/logo.png" mode="aspectFit" />
-        <text class="logo-title">SCUM游戏工具箱</text>
         <text class="logo-subtitle">地图 / 武器 / 生存工具合集</text>
         <text class="logo-version">v{{version}}</text>
       </view>
