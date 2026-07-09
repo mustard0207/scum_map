@@ -49,8 +49,12 @@
 
       <!-- 排序选项栏 -->
       <view class="sort-bar">
+        <view class="sort-item {{currentSortField === 'name' ? 'active' : ''}}" data-field="name" bindtap="onSort">
+          <text>{{isEnglish ? 'Seed Name' : '种子名称'}}</text>
+          <text class="sort-arrow">{{currentSortField === 'name' ? (sortOrder === 'asc' ? '↑' : '↓') : '-'}}</text>
+        </view>
         <view class="sort-item {{currentSortField === 'temp' ? 'active' : ''}}" data-field="temp" bindtap="onSort">
-          <text>{{isEnglish ? 'Sort by Growth Opt. Temp' : '按生长温度排序'}}</text>
+          <text>{{isEnglish ? 'Growth Temp' : '生长温度'}}</text>
           <text class="sort-arrow">{{currentSortField === 'temp' ? (sortOrder === 'asc' ? '↑' : '↓') : '-'}}</text>
         </view>
       </view>

@@ -3,6 +3,24 @@ const seedsDataZh = require('../../data/seeds.js')
 const seedsDataEn = require('../../data/seeds_en.js')
 const guideData = require('../../data/gardening_guide.js')
 
+const PINYIN_MAP = {
+  '苹': 'P', '西': 'X', '卷': 'J', '特': 'T', '胡': 'H',
+  '樱': 'Y', '辣': 'L', '玉': 'Y', '黄': 'H', '无': 'W',
+  '大': 'D', '柠': 'N', '莴': 'W', '梨': 'L', '菜': 'C',
+  '梅': 'M', '土': 'T', '南': 'N', '洋': 'Y', '菠': 'B',
+  '哈': 'H', '桃': 'T', '橙': 'C', '瓯': 'O', '烟': 'Y'
+}
+
+function getFirstLetter(name, isEnglish) {
+  if (!name) return ''
+  if (isEnglish) {
+    return name[0].toUpperCase()
+  } else {
+    const firstChar = name[0]
+    return PINYIN_MAP[firstChar] || firstChar.toUpperCase()
+  }
+}
+
 Page({
   data: {
     statusBarHeight: 0,
@@ -150,6 +168,19 @@ Page({
         const tempA = getTemp(a.optimum_temp)
         const tempB = getTemp(b.optimum_temp)
         return sortOrder === 'asc' ? tempA - tempB : tempB - tempA
+      })
+    } else if (currentSortField === 'name' && sortOrder) {
+      filtered = filtered.sort((a, b) => {
+        const letterA = getFirstLetter(a.name, isEnglish)
+        const letterB = getFirstLetter(b.name, isEnglish)
+        if (letterA !== letterB) {
+          return sortOrder === 'asc' 
+            ? letterA.localeCompare(letterB) 
+            : letterB.localeCompare(letterA)
+        }
+        return sortOrder === 'asc' 
+          ? a.name.localeCompare(b.name, isEnglish ? 'en' : 'zh')
+          : b.name.localeCompare(a.name, isEnglish ? 'en' : 'zh')
       })
     }
 
