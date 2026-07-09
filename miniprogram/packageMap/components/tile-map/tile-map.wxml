@@ -78,7 +78,7 @@
     wx:for="{{huntingZonesOnScreen}}"
     wx:key="id"
     class="hunting-zone"
-    style="background-color: {{item.color}}66; pointer-events: none; border-radius: 50%; position: absolute;"
+    style="background-color: {{item.color}}99; pointer-events: none; border-radius: 50%; position: absolute;"
     data-id="{{item.id}}"
     data-px="{{item.px}}"
     data-py="{{item.py}}"

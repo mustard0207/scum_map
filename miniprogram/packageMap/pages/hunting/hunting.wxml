@@ -155,8 +155,31 @@
           <view class="habitat-summary">
             <text class="habitat-label">{{lang === 'zh' ? '📍 分布地带：' : '📍 Habitats:'}}</text>
             <view class="habitat-tags">
-              <view class="h-tag" wx:for="{{animalHabitatBiomes}}" wx:key="b" style="background-color: {{item.color}}40; border-color: {{item.color}};">
+              <view class="h-tag" wx:for="{{animalHabitatBiomes}}" wx:key="b" style="background-color: {{item.color}}80; border-color: {{item.color}};">
                 {{lang === 'zh' ? item.nameZh : item.nameEn}}
+              </view>
+            </view>
+          </view>
+
+          <!-- 生态习性卡片 -->
+          <view class="eco-habits-section">
+            <text class="habitat-label">{{lang === 'zh' ? '🐾 生态习性：' : '🐾 Eco Habits:'}}</text>
+            <view class="eco-habits-tags">
+              <view class="eco-tag {{animalDict[selectedAnimal].threat === 'danger' ? 'danger' : 'safe'}}">
+                <text class="eco-icon">{{animalDict[selectedAnimal].threat === 'danger' ? '🔴' : '🟢'}}</text>
+                <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].threat === 'danger' ? '危险' : '无威胁') : (animalDict[selectedAnimal].threat === 'danger' ? 'Danger' : 'Safe')}}</text>
+              </view>
+              <view class="eco-tag">
+                <text class="eco-icon">{{animalDict[selectedAnimal].time === 'both' ? '☀️🌙' : (animalDict[selectedAnimal].time === 'day' ? '☀️' : '🌙')}}</text>
+                <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].time === 'both' ? '日夜活动' : (animalDict[selectedAnimal].time === 'day' ? '白天出没' : '夜晚出没')) : (animalDict[selectedAnimal].time === 'both' ? 'Day & Night' : (animalDict[selectedAnimal].time === 'day' ? 'Daytime' : 'Nighttime'))}}</text>
+              </view>
+              <view class="eco-tag" wx:if="{{animalDict[selectedAnimal].urban || animalDict[selectedAnimal].farm}}">
+                <text class="eco-icon">{{animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? '🏢🚜' : (animalDict[selectedAnimal].urban ? '🏢' : '🚜')}}</text>
+                <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? '城镇与农场' : (animalDict[selectedAnimal].urban ? '城镇出没' : '农场出没')) : (animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? 'Town & Farm' : (animalDict[selectedAnimal].urban ? 'Town' : 'Farm'))}}</text>
+              </view>
+              <view class="eco-tag safe" wx:else>
+                <text class="eco-icon">🌲</text>
+                <text class="eco-text">{{lang === 'zh' ? '远离人类设施' : 'Wilderness'}}</text>
               </view>
             </view>
           </view>
@@ -206,7 +229,7 @@
         <!-- 探测到的地形 -->
         <view class="probe-biome-result">
           <text class="probe-label">{{lang === 'zh' ? '📍 当前地形：' : '📍 Biome:'}}</text>
-          <view class="h-tag" wx:if="{{probeBiome}}" style="background-color: {{probeBiomeColor}}40; border-color: {{probeBiomeColor}};">
+          <view class="h-tag" wx:if="{{probeBiome}}" style="background-color: {{probeBiomeColor}}80; border-color: {{probeBiomeColor}};">
             {{lang === 'zh' ? probeBiomeName : probeBiome}}
           </view>
           <text class="probe-none" wx:else>{{lang === 'zh' ? '未探测到已知狩猎地形' : 'No known hunting biomes detected'}}</text>
@@ -233,6 +256,29 @@
           </view>
           <text class="empty-text">当前位置未探测到特定动物群系</text>
           <text class="empty-subtext">移动地图十字准星到其他区域再试</text>
+        </view>
+
+        <!-- 探测模式复用生态习性卡片 -->
+        <view class="eco-habits-section" wx:if="{{selectedAnimal}}" style="margin-bottom: 16px;">
+          <text class="habitat-label">{{lang === 'zh' ? '🐾 生态习性：' : '🐾 Eco Habits:'}}</text>
+          <view class="eco-habits-tags">
+            <view class="eco-tag {{animalDict[selectedAnimal].threat === 'danger' ? 'danger' : 'safe'}}">
+              <text class="eco-icon">{{animalDict[selectedAnimal].threat === 'danger' ? '🔴' : '🟢'}}</text>
+              <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].threat === 'danger' ? '危险' : '无威胁') : (animalDict[selectedAnimal].threat === 'danger' ? 'Danger' : 'Safe')}}</text>
+            </view>
+            <view class="eco-tag">
+              <text class="eco-icon">{{animalDict[selectedAnimal].time === 'both' ? '☀️🌙' : (animalDict[selectedAnimal].time === 'day' ? '☀️' : '🌙')}}</text>
+              <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].time === 'both' ? '日夜活动' : (animalDict[selectedAnimal].time === 'day' ? '白天出没' : '夜晚出没')) : (animalDict[selectedAnimal].time === 'both' ? 'Day & Night' : (animalDict[selectedAnimal].time === 'day' ? 'Daytime' : 'Nighttime'))}}</text>
+            </view>
+            <view class="eco-tag" wx:if="{{animalDict[selectedAnimal].urban || animalDict[selectedAnimal].farm}}">
+              <text class="eco-icon">{{animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? '🏢🚜' : (animalDict[selectedAnimal].urban ? '🏢' : '🚜')}}</text>
+              <text class="eco-text">{{lang === 'zh' ? (animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? '城镇与农场' : (animalDict[selectedAnimal].urban ? '城镇出没' : '农场出没')) : (animalDict[selectedAnimal].urban && animalDict[selectedAnimal].farm ? 'Town & Farm' : (animalDict[selectedAnimal].urban ? 'Town' : 'Farm'))}}</text>
+            </view>
+            <view class="eco-tag safe" wx:else>
+              <text class="eco-icon">🌲</text>
+              <text class="eco-text">{{lang === 'zh' ? '远离人类设施' : 'Wilderness'}}</text>
+            </view>
+          </view>
         </view>
 
         <!-- 下方复用选中动物的诱饵情报 -->

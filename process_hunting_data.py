@@ -25,13 +25,29 @@ def run():
     with open("hunting_data_final.json", "r", encoding="utf-8") as f:
         animals_data = json.load(f)
         
+    extra_stats = {
+        "rabbit": {"threat": "safe", "time": "both", "urban": True, "farm": True},
+        "chicken": {"threat": "safe", "time": "day", "urban": True, "farm": True},
+        "horse": {"threat": "safe", "time": "day", "urban": True, "farm": True},
+        "donkey": {"threat": "safe", "time": "day", "urban": False, "farm": True},
+        "deer": {"threat": "safe", "time": "both", "urban": False, "farm": False},
+        "bear": {"threat": "danger", "time": "night", "urban": False, "farm": False},
+        "goat": {"threat": "danger", "time": "day", "urban": True, "farm": True},
+        "wolf": {"threat": "danger", "time": "night", "urban": False, "farm": False},
+        "boar": {"threat": "danger", "time": "both", "urban": True, "farm": True}
+    }
+    
     animals_dict = {}
     for a in animals_data:
         animal_id = a["id"].lower()
         # Some tweaks to make it clean
         animals_dict[animal_id] = {
             "name": a["name"],
-            "baits": a["attractants"]
+            "baits": a["attractants"],
+            "threat": extra_stats.get(animal_id, {}).get("threat", "safe"),
+            "time": extra_stats.get(animal_id, {}).get("time", "both"),
+            "urban": extra_stats.get(animal_id, {}).get("urban", False),
+            "farm": extra_stats.get(animal_id, {}).get("farm", False)
         }
         
     # 3. Load Mapping
