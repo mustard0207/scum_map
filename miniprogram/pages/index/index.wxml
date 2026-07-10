@@ -86,6 +86,19 @@
           </view>
           <view class="feature-arrow">›</view>
         </view>
+
+        <!-- 时间助手 -->
+        <view class="feature-card" bindtap="goToTimer">
+          <view class="feature-tag feature-tag-aux">辅助工具</view>
+          <view class="feature-icon-area">
+            <text class="feature-glyph">⏰</text>
+          </view>
+          <view class="feature-info">
+            <text class="feature-title">时间助手</text>
+            <text class="feature-desc">游戏时钟校准、熏肉种植倒计时、日历提醒。</text>
+          </view>
+          <view class="feature-arrow">›</view>
+        </view>
       </view>
     </view>
 
@@ -94,7 +107,7 @@
       <view class="bottom-bar">
         <view class="bottom-item">
           <text class="bottom-icon">🕒</text>
-          <text class="bottom-text">最近更新：新增农作物分类与筛选振动反馈</text>
+          <text class="bottom-text">最近更新：上线全新时间助手模块</text>
         </view>
       </view>
     </view>

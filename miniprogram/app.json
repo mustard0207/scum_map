@@ -29,6 +29,12 @@
       "pages": [
         "pages/index/index"
       ]
+    },
+    {
+      "root": "packageTimer",
+      "pages": [
+        "pages/index/index"
+      ]
     }
   ],
   "window": {

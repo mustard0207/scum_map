@@ -39,6 +39,11 @@ Page({
     wx.navigateTo({ url: '/packageGardening/pages/index/index' })
   },
 
+  // 进入时间助手页
+  goToTimer() {
+    wx.navigateTo({ url: '/packageTimer/pages/index/index' })
+  },
+
   onShareAppMessage() {
     return {
       title: 'SCUM游戏工具箱 - 你的SCUM游戏伙伴',

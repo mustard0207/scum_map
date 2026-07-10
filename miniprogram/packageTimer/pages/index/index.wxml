@@ -1,0 +1,254 @@
+<view class="page">
+  <!-- 引导遮罩 -->
+  <view class="guide-mask" wx:if="{{showGuide}}">
+    <view class="guide-content">
+      <view class="guide-header">
+        <text class="guide-main-title">SCUM 时间助手</text>
+        <text class="guide-main-sub">游戏时钟校准与任务提醒工具</text>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⏰</text>
+        <view class="guide-text">
+          <text class="guide-title">校准游戏时钟</text>
+          <text class="guide-desc">可以使用游戏中的手表（需DLC）查看时间或向其他玩家询问当前游戏时间，并将时间输入到该页面的游戏时钟，系统将根据服务器倍率实时推算游戏时间，显示白天/黑夜状态。</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">⚙️</text>
+        <view class="guide-text">
+          <text class="guide-title">服务器时间倍率</text>
+          <text class="guide-desc">默认 3.84（官方标准），不同服务器倍率不同，修改后时钟自动适配</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">🥩</text>
+        <view class="guide-text">
+          <text class="guide-title">添加任务提醒</text>
+          <text class="guide-desc">输入游戏内所需时长，系统自动换算现实倒计时，支持添加到手机日历提醒</text>
+        </view>
+      </view>
+      <view class="guide-card">
+        <text class="guide-icon">📱</text>
+        <view class="guide-text">
+          <text class="guide-title">日历提醒</text>
+          <text class="guide-desc">点击「添加到日历」将任务提醒写入手机系统日历，将由手机自带日历功能提醒，即使退出小程序也能收到提醒</text>
+        </view>
+      </view>
+      <view class="guide-btn" bindtap="closeGuide">
+        <text class="guide-btn-text">我知道了</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 导航栏 -->
+  <view class="nav-bar" style="padding-top: {{statusBarHeight}}px;">
+    <view class="nav-content">
+      <view class="back-btn" bindtap="goBack">‹</view>
+      <text class="nav-title">SCUM 时间助手</text>
+    </view>
+  </view>
+
+  <!-- 固定区域：时钟 + 任务标题 -->
+  <view class="fixed-area" style="top: {{statusBarHeight + 44}}px;">
+    <!-- 使用说明入口（右上角悬浮） -->
+    <view class="global-help-btn-floating" bindtap="openGuide" style="top: 8px; background: transparent; border: none; padding: 0;">
+      <view class="help-icon-circle">?</view>
+      <text class="help-text-label">使用说明</text>
+    </view>
+
+    <!-- 游戏时钟区 -->
+    <view class="clock-section" style="margin-top: 36px;">
+      <text class="clock-label">游戏时间</text>
+      <view class="clock-display">
+        <text class="clock-time {{clockCalibrated ? '' : 'clock-uncalibrated'}}">{{clockDisplay}}</text>
+        <view class="calibrate-btn-inline" wx:if="{{!clockCalibrated}}" bindtap="onCalibrateTap">
+          <text class="calibrate-btn-inline-text">校准</text>
+        </view>
+        <view class="calibrate-btn-inline recalibrate-inline" wx:else bindtap="onCalibrateTap">
+          <text class="calibrate-btn-inline-text">校准</text>
+        </view>
+      </view>
+
+      <view class="clock-status">
+        <text class="clock-status-icon {{isDaytime ? 'status-day' : 'status-night'}}" wx:if="{{clockCalibrated}}">{{isDaytime ? '☀' : '🌙'}}</text>
+        <text class="clock-status-text" wx:if="{{clockCalibrated}}">{{isDaytime ? '白天 · 距天黑' : '黑夜 · 距天亮'}}{{timeToDawn}}</text>
+        <text class="clock-status-text clock-status-uncal" wx:else>未校准</text>
+      </view>
+
+      <!-- 倍率设置（显示模式） -->
+      <view class="multiplier-row">
+        <text class="multiplier-label">服务器时间倍率</text>
+        <view class="multiplier-display" bindtap="onMultiplierTap">
+          <text class="multiplier-value">×{{multiplier}}</text>
+          <text class="multiplier-edit">修改</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 任务提醒标题 -->
+    <view class="task-header">
+      <text class="task-title">任务提醒</text>
+      <view class="task-add-btn" bindtap="onAddTask">
+        <text class="task-add-text">+ 添加</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 可滚动区域：任务列表 -->
+  <scroll-view class="task-scroll" scroll-y style="top: {{scrollAreaTop}}px;" enhanced="{{true}}" show-scrollbar="{{false}}">
+    <!-- 空状态 -->
+    <view class="task-empty" wx:if="{{tasks.length === 0}}">
+      <text class="task-empty-text">暂无提醒任务</text>
+      <text class="task-empty-hint">点击「+ 添加」创建提醒</text>
+    </view>
+
+    <!-- 任务列表 -->
+    <view class="task-list">
+        <view
+          class="task-card {{item.remainingMs <= 0 ? 'task-done' : ''}}"
+          wx:for="{{tasks}}"
+          wx:key="id"
+          bindtap="onTaskTap"
+          data-id="{{item.id}}"
+          bindlongpress="onTaskLongPress"
+          data-id="{{item.id}}"
+        >
+          <view class="task-card-top">
+            <text class="task-emoji">{{item.emoji}}</text>
+            <text class="task-name">{{item.name}}</text>
+            <text class="task-status" wx:if="{{item.remainingMs <= 0}}">✓ 已完成</text>
+          </view>
+          <view class="task-card-body" wx:if="{{item.remainingMs > 0}}">
+            <view class="task-countdown">
+              <text class="countdown-label">剩余现实时间</text>
+              <text class="countdown-value">{{item.countdownDisplay}}</text>
+            </view>
+            <view class="task-estimate">
+              <text class="estimate-label">预计现实时间</text>
+              <text class="estimate-value">{{item.endDisplay}} 完成</text>
+            </view>
+          </view>
+          <view class="task-card-actions">
+            <view
+              class="task-action-btn {{item.calendarAdded ? 'action-added' : ''}}"
+              catchtap="onCalendarTap"
+              data-id="{{item.id}}"
+              wx:if="{{item.remainingMs > 0 && !item.calendarAdded}}"
+            >
+              <text class="action-text">添加到日历</text>
+            </view>
+            <view
+              class="task-action-btn action-added"
+              wx:if="{{item.calendarAdded}}"
+              catchtap="onCalendarTap"
+              data-id="{{item.id}}"
+            >
+              <text class="action-text">已添加日历</text>
+            </view>
+            <view class="task-action-btn" catchtap="onEditTask" data-id="{{item.id}}" wx:if="{{item.remainingMs > 0}}">
+              <text class="action-text">修改</text>
+            </view>
+            <view class="task-action-btn action-delete" catchtap="onDeleteTask" data-id="{{item.id}}">
+              <text class="action-text">删除</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  <!-- 修改倍率弹窗 -->
+  <view class="modal-mask" wx:if="{{showMultiplierModal}}" bindtap="hideMultiplierModal">
+    <view class="modal-content" catchtap="noop">
+      <text class="modal-title">修改服务器时间倍率</text>
+      <text class="modal-hint">官方默认倍率 3.84</text>
+      <view class="multiplier-input-wrap">
+        <text class="multiplier-modal-unit">×</text>
+        <input
+          class="multiplier-modal-input"
+          type="digit"
+          value="{{tempMultiplier}}"
+          bindinput="onTempMultiplierInput"
+          placeholder="{{multiplier}}"
+          focus="{{showMultiplierModal}}"
+        />
+      </view>
+      <view class="modal-actions">
+        <view class="modal-confirm" bindtap="onConfirmMultiplier">
+          <text class="modal-confirm-text">确定</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 校准时间弹窗 -->
+  <view class="modal-mask" wx:if="{{showCalibrateModal}}" bindtap="hideCalibrateModal">
+    <view class="modal-content" catchtap="noop">
+      <text class="modal-title">设置当前游戏时间</text>
+      <view class="time-input-row">
+        <view class="time-input-col">
+          <text class="time-input-label">时</text>
+          <input class="time-input" type="digit" value="{{calibrateHourInput}}" bindinput="onCalibrateHourInput" placeholder="{{calibratePlaceholderHour}}" focus="{{focusCalibrateHour}}" />
+        </view>
+        <text class="time-input-sep">:</text>
+        <view class="time-input-col">
+          <text class="time-input-label">分</text>
+          <input class="time-input" type="digit" value="{{calibrateMinuteInput}}" bindinput="onCalibrateMinuteInput" placeholder="{{calibratePlaceholderMinute}}" focus="{{focusCalibrateMinute}}" />
+        </view>
+      </view>
+      <view class="modal-actions">
+        <view class="modal-confirm" bindtap="onConfirmCalibrate">
+          <text class="modal-confirm-text">确定校准</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 添加任务弹窗 -->
+  <view class="modal-mask" wx:if="{{showAddModal}}" bindtap="hideAddModal">
+    <view class="modal-content" catchtap="noop">
+      <text class="modal-title">选择提醒类型</text>
+      <view class="template-list">
+        <view
+          class="template-item"
+          wx:for="{{templates}}"
+          wx:key="type"
+          bindtap="onSelectTemplate"
+          data-index="{{index}}"
+        >
+          <text class="template-emoji">{{item.emoji}}</text>
+          <text class="template-name">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="modal-cancel" bindtap="hideAddModal">
+        <text class="modal-cancel-text">取消</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 时间输入弹窗 -->
+  <view class="modal-mask" wx:if="{{showTimePicker}}" bindtap="hideTimePicker">
+    <view class="modal-content" catchtap="noop">
+      <text class="modal-title">{{editingTaskId ? '修改' : '设置'}}游戏时长</text>
+      <view class="time-input-row">
+        <view class="time-input-col">
+          <text class="time-input-label">时</text>
+          <input class="time-input" type="digit" value="{{taskHourInput}}" bindinput="onTaskHourInput" placeholder="{{taskPlaceholderHour}}" focus="{{focusTaskHour}}" />
+        </view>
+        <text class="time-input-sep">:</text>
+        <view class="time-input-col">
+          <text class="time-input-label">分</text>
+          <input class="time-input" type="digit" value="{{taskMinuteInput}}" bindinput="onTaskMinuteInput" placeholder="{{taskPlaceholderMinute}}" focus="{{focusTaskMinute}}" />
+        </view>
+      </view>
+      <view class="time-picker-preview">
+        <text class="preview-label">现实耗时约</text>
+        <text class="preview-value">{{realDurationDisplay}}</text>
+      </view>
+      <view class="modal-actions">
+        <view class="modal-confirm" bindtap="onConfirmTime">
+          <text class="modal-confirm-text">确定</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
