@@ -59,6 +59,7 @@ Page({
   },
 
   toggleLanguage() {
+    wx.vibrateShort({ type: 'light' })
     const nextLang = !this.data.isEnglish
     this.setData({
       isEnglish: nextLang,

@@ -25,6 +25,7 @@ const poiCategories = []
 const sectionMap = {}  // sectionName → { subs: { catId: {emoji, cnName} } }
 for (const [catId, cat] of Object.entries(catMap)) {
   const section = cat.section
+  if (!section) continue  // 跳过无 section 的分类（如地点显示）
   if (!sectionMap[section]) {
     sectionMap[section] = { name: section, cnName: SECTION_CN[section] || section, emoji: SECTION_EMOJI[section] || '📌', subs: {} }
     poiCategories.push(sectionMap[section])
@@ -45,7 +46,7 @@ for (const [catId, cat] of Object.entries(catMap)) {
 // 精选大类（简化版筛选菜单中的可展开 section）
 const QUICK_SECTIONS = ['Bunkers', 'Vehicles', 'Radiation']
 // 精选直选小类
-const QUICK_SUBS = ['10', '33', '8']  // 警局、药店、加油站
+const QUICK_SUBS = ['10', '33', '8', '858']  // 警局、药店、加油站、钓鱼点
 
 // 渲染限流常量
 const MAX_POI_RENDER = 200        // 单次渲染 DOM 上限（防卡）
@@ -190,7 +191,8 @@ Page({
       { id: 'Urban', cnName: '城市废墟', emoji: '🏙️' }
     ],
     activeBiomeMap: {},
-    huntingZones: []
+    huntingZones: [],
+    showPlaceNames: false            // 地名显示开关（桥梁+城市/村庄文字标签）
   },
 
   onLoad(options) {
@@ -1201,6 +1203,7 @@ Page({
 
   /** 清除所有筛选 */
   resetPoiFilter() {
+    wx.vibrateShort({ type: 'medium' })
     this.setData({
       activePoiCats: [],
       activePoiMap: {},
@@ -1225,6 +1228,7 @@ Page({
 
   // ---------------- 生态地形筛选 ----------------
   toggleBiome(e) {
+    wx.vibrateShort({ type: 'light' })
     const id = e.currentTarget.dataset.id
     const map = { ...this.data.activeBiomeMap }
     
@@ -1268,6 +1272,7 @@ Page({
 
   /** 切换小类开关 */
   togglePoiSub(e) {
+    wx.vibrateShort({ type: 'light' })
     const catId = e.currentTarget.dataset.catid  // 字符串
     let active = [...this.data.activePoiCats]
     const idx = active.indexOf(catId)
@@ -1291,8 +1296,19 @@ Page({
     this._onUserChange()
   },
 
+  /** 切换地点显示开关 */
+  togglePlaceNames() {
+    wx.vibrateShort({ type: 'light' })
+    const show = !this.data.showPlaceNames
+    this.setData({ showPlaceNames: show })
+    this._poiPixelCache = null
+    this._schedulePoiRefresh()
+    this._onUserChange()
+  },
+
   /** 切换自定义标记显示总开关 */
   toggleShowUserMarkers() {
+    wx.vibrateShort({ type: 'light' })
     const show = !this.data.showUserMarkers
     const active = show ? ['none', 'house', 'vehicle', 'box'] : []
     const activeUserMarkerMap = {}
@@ -1305,6 +1321,7 @@ Page({
 
   /** 切换自定义标记类型筛选 */
   toggleUserMarkerType(e) {
+    wx.vibrateShort({ type: 'light' })
     const typeId = e.currentTarget.dataset.typeid
     let active = [...this.data.activeUserMarkerTypes]
     const idx = active.indexOf(typeId)
@@ -1423,7 +1440,7 @@ Page({
    * 筛选切换时调用一次，避免每次手势结束都做坐标转换
    */
   _buildPoiPixelCache() {
-    const { activePoiCats } = this.data
+    const { activePoiCats, showPlaceNames } = this.data
     const cache = []
     activePoiCats.forEach(catId => {
       const section = CAT_SECTION[catId]
@@ -1442,8 +1459,42 @@ Page({
         })
       })
     })
+
+    // 地名标签数据
+    if (showPlaceNames) {
+      const labelData = this._getLabelData()
+      labelData.forEach(p => {
+        cache.push({
+          id: p.id,
+          cat: '901',
+          lng: p.lng,
+          lat: p.lat,
+          mpx: (p.lng - GEO_LNG_LEFT) / (GEO_LNG_RIGHT - GEO_LNG_LEFT) * FULL_MAP,
+          mpy: (p.lat - GEO_LAT_TOP) / (GEO_LAT_BOTTOM - GEO_LAT_TOP) * FULL_MAP,
+          isLabel: true,
+          labelText: p.labelText
+        })
+      })
+    }
+
     this._poiPixelCache = cache
     return cache
+  },
+
+  /** 加载地名标签数据 */
+  _getLabelData() {
+    if (!this._labelCache) {
+      const data = require('../../data/poi/poi-Labels.js')
+      const labels = []
+      data.bridges.forEach(b => {
+        labels.push({ id: 'bridge_' + b.name, lng: b.igLng, lat: b.igLat, labelText: b.name })
+      })
+      data.cities.forEach(c => {
+        labels.push({ id: 'city_' + c.name, lng: c.igLng, lat: c.igLat, labelText: c.name })
+      })
+      this._labelCache = labels
+    }
+    return this._labelCache
   },
 
   /**
@@ -1459,51 +1510,45 @@ Page({
     // 取缓存或首次构建
     const cache = this._poiPixelCache || this._buildPoiPixelCache()
 
-    if (cache.length === 0) {
-      const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
-      this.setData({ markers: userMarkers })
-      return
-    }
-
     const scale = mapComp.getScale()
     const vw = mapComp._vw || 375
     const vh = mapComp._vh || 600
     const offsetX = mapComp.data.offsetX
     const offsetY = mapComp.data.offsetY
+    const margin = Math.max(vw, vh) * 0.5
 
-    // ── Step 1: 网格聚合 ──
-    // 格子大小 = MIN_SCREEN_DIST / scale（逻辑像素）
-    // 缩小时格子大 → 聚合激进；放大到 SCALE_THRESHOLD 后关闭聚合
-    let clustered
-    if (scale >= SCALE_THRESHOLD) {
-      clustered = cache
-    } else {
-      const cellSize = MIN_SCREEN_DIST / scale
-      const buckets = {}
-      cache.forEach(p => {
-        const cx = Math.floor(p.mpx / cellSize)
-        const cy = Math.floor(p.mpy / cellSize)
-        const key = cx + '_' + cy + '_' + p.cat
-        if (!buckets[key]) buckets[key] = p
+    // 分离 POI 和标签数据
+    const poiCache = cache.filter(p => !p.isLabel)
+    const labelCache = cache.filter(p => p.isLabel)
+
+    // ── 处理 POI 标记（聚合 + 裁剪 + 上限） ──
+    let poiResult = []
+    if (poiCache.length > 0) {
+      let clustered
+      if (scale >= SCALE_THRESHOLD) {
+        clustered = poiCache
+      } else {
+        const cellSize = MIN_SCREEN_DIST / scale
+        const buckets = {}
+        poiCache.forEach(p => {
+          const cx = Math.floor(p.mpx / cellSize)
+          const cy = Math.floor(p.mpy / cellSize)
+          const key = cx + '_' + cy + '_' + p.cat
+          if (!buckets[key]) buckets[key] = p
+        })
+        clustered = Object.values(buckets)
+      }
+      clustered.forEach(p => {
+        const sx = p.mpx * scale + offsetX
+        const sy = p.mpy * scale + offsetY
+        if (sx > -margin && sx < vw + margin && sy > -margin && sy < vh + margin) {
+          poiResult.push(p)
+        }
       })
-      clustered = Object.values(buckets)
+      if (poiResult.length > MAX_POI_RENDER) poiResult.length = MAX_POI_RENDER
     }
 
-    // ── Step 2: 视口裁剪（半屏 margin，拖拽时不易闪烁） ──
-    const margin = Math.max(vw, vh) * 0.5
-    const result = []
-    clustered.forEach(p => {
-      const sx = p.mpx * scale + offsetX
-      const sy = p.mpy * scale + offsetY
-      if (sx > -margin && sx < vw + margin && sy > -margin && sy < vh + margin) {
-        result.push(p)
-      }
-    })
-
-    // ── Step 3: 硬上限 ──
-    if (result.length > MAX_POI_RENDER) result.length = MAX_POI_RENDER
-
-    const poiMarkers = result.map(p => ({
+    const poiMarkers = poiResult.map(p => ({
       id: 'poi_' + p.id,
       lng: p.lng,
       lat: p.lat,
@@ -1513,15 +1558,48 @@ Page({
       emoji: CAT_EMOJI[p.cat] || '📍'
     }))
 
+    // ── 处理地名标签（仅视口裁剪，无聚合无上限） ──
+    const labelMarkers = []
+    labelCache.forEach(p => {
+      const sx = p.mpx * scale + offsetX
+      const sy = p.mpy * scale + offsetY
+      if (sx > -margin && sx < vw + margin && sy > -margin && sy < vh + margin) {
+        labelMarkers.push({
+          id: 'label_' + p.id,
+          lng: p.lng,
+          lat: p.lat,
+          name: p.labelText,
+          src: 'label',
+          cat: '901',
+          labelText: p.labelText
+        })
+      }
+    })
+
     const userMarkers = this._enrichMarkersWithExpiry(this._getFilteredUserMarkers())
-    this.setData({ markers: [...userMarkers, ...poiMarkers] })
+    this.setData({ markers: [...userMarkers, ...poiMarkers, ...labelMarkers] })
   },
 
   /** 按需加载 section 数据（带缓存） */
   _getSectionData(section) {
     if (!this._sectionCache) this._sectionCache = {}
     if (!this._sectionCache[section]) {
-      this._sectionCache[section] = require('../../data/poi/poi-' + section + '.js')
+      let sectionData = []
+      switch (section) {
+        case 'Buildings': sectionData = require('../../data/poi/poi-Buildings.js'); break;
+        case 'Bunkers': sectionData = require('../../data/poi/poi-Bunkers.js'); break;
+        case 'Construction materials': sectionData = require('../../data/poi/poi-Construction materials.js'); break;
+        case 'Crops': sectionData = require('../../data/poi/poi-Crops.js'); break;
+        case 'Loot containers': sectionData = require('../../data/poi/poi-Loot containers.js'); break;
+        case 'Outposts': sectionData = require('../../data/poi/poi-Outposts.js'); break;
+        case 'Points of interest': sectionData = require('../../data/poi/poi-Points of interest.js'); break;
+        case 'Quests': sectionData = require('../../data/poi/poi-Quests.js'); break;
+        case 'Radiation': sectionData = require('../../data/poi/poi-Radiation.js'); break;
+        case 'Vehicles': sectionData = require('../../data/poi/poi-Vehicles.js'); break;
+        case 'Water sources': sectionData = require('../../data/poi/poi-Water sources.js'); break;
+        case '无分组': sectionData = require('../../data/poi/poi-无分组.js'); break;
+      }
+      this._sectionCache[section] = sectionData
       // 计算该 section 中每个 catId 的点位数
       const counts = {}
       this._sectionCache[section].forEach(p => {
@@ -1720,6 +1798,11 @@ Page({
       if (typeof savedWarnDays === 'number' && savedWarnDays >= 0) {
         setData.markerWarnDays = savedWarnDays
       }
+      const savedShowPlaceNames = wx.getStorageSync('scum_showPlaceNames')
+      if (savedShowPlaceNames === true) {
+        setData.showPlaceNames = true
+        this._poiPixelCache = null
+      }
       if (Object.keys(setData).length > 0) {
         this.setData(setData)
         this._updateSectionSelectedCounts()
@@ -1746,6 +1829,7 @@ Page({
         wx.setStorageSync('scum_showUserMarkers', this.data.showUserMarkers)
         wx.setStorageSync('scum_markerExpiryDaysConfig', this.data.markerExpiryDaysConfig)
         wx.setStorageSync('scum_markerWarnDays', this.data.markerWarnDays)
+        wx.setStorageSync('scum_showPlaceNames', this.data.showPlaceNames)
       } catch (e) {
         console.warn('[Storage] 保存失败:', e)
       }

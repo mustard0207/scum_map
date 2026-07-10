@@ -92,6 +92,17 @@ function updateStyles(ownerInstance) {
     });
   }
 
+  // 6b. 地名文字标签
+  var labels = ownerInstance.selectAllComponents('.map-label');
+  for (var i = 0; i < labels.length; i++) {
+    var ds = labels[i].getDataset();
+    if (ds.px === undefined) continue;
+    labels[i].setStyle({
+      left: (parseFloat(ds.px) * s + ox) + 'px',
+      top: (parseFloat(ds.py) * s + oy) + 'px'
+    });
+  }
+
   // 7. 安全区圆圈
   var zones = ownerInstance.selectAllComponents('.safe-zone');
   for (var i = 0; i < zones.length; i++) {

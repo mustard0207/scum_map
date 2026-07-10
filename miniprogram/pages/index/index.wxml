@@ -94,7 +94,7 @@
       <view class="bottom-bar">
         <view class="bottom-item">
           <text class="bottom-icon">🕒</text>
-          <text class="bottom-text">最近更新：上线全新园艺种植助手</text>
+          <text class="bottom-text">最近更新：新增农作物分类与筛选振动反馈</text>
         </view>
       </view>
     </view>

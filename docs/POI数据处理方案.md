@@ -1,6 +1,6 @@
 # POI数据处理方案
 
-> 版本：v3.0 | 更新日期：2026-06-26
+> 版本：v4.0 | 更新日期：2026-07-09
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 1.1 原始数据
 
-从 scum-map.com 网站 GraphQL API 获取，包含地图上所有 POI（兴趣点）标记。
+从 scum-map.com 网站获取，包含地图上所有 POI（兴趣点）标记和地名标签。
 
 **数据位置**：`点位数据/` 文件夹
 
@@ -75,7 +75,7 @@ module.exports = {
 | Section | 中文名 | 分类数 | 点位数 |
 |---------|--------|--------|--------|
 | Buildings | 建筑 | 24 | 1161 |
-| Crops | 农作物 | 16 | 2441 |
+| Crops | 农作物 | 19 | 2842 |
 | Vehicles | 载具 | 7 | 1969 |
 | 无分组 | 未分类 | 15 | 769 |
 | Water sources | 水源 | 5 | 352 |
@@ -182,10 +182,107 @@ section 数据 → _getSectionData(section) 按需加载并缓存
 
 ---
 
-## 六、注意事项
+## 六、地名标签数据
+
+### 6.1 数据来源
+
+地名标签数据（城市/村庄名称、桥梁名称、街道名称）**不是通过 GraphQL API 获取的**，而是硬编码在 scum-map.com 的前端 JS bundle 中。
+
+**提取方式**：运行 `node tools/extract-names.js`，从 JS bundle 中正则提取。
+
+### 6.2 数据文件
+
+```
+点位数据/地名数据/
+├── bridge-names.json        ← 桥梁名称（3个）
+├── city-village-names.json  ← 城市/村庄名称（96个）
+├── street-names.json        ← 街道名称（52条，Samobor 地区）
+└── summary.json             ← 汇总信息
+```
+
+### 6.3 坐标转换
+
+桥梁和城市/村庄名称使用网站坐标（webLng/webLat），需转换为游戏内坐标：
+
+```
+ingameLongitude = -4754.374 * webLng + 617900.013
+ingameLatitude  = -4756.735 * webLat + 617499.890
+```
+
+街道名称直接使用游戏内坐标（X, Y, Z）。
+
+### 6.4 数据格式
+
+**桥梁/城市/村庄**：
+```json
+{
+  "name": "Prigorje",
+  "webLng": 241,
+  "webLat": 27.65625,
+  "igLng": -527904.109,
+  "igLat": 485946.428
+}
+```
+
+**街道**：
+```json
+{
+  "name": "Ankara Street",
+  "igX": 324134.1906,
+  "igY": 370635.0329,
+  "igZ": 0,
+  "rotate": 11
+}
+```
+
+### 6.5 更新方式
+
+1. 访问 scum-map.com，查看页面 HTML 中的 JS bundle URL（格式：`cdn.scum-map.com/v{版本}/build/{hash}.app.js`）
+2. 更新 `tools/extract-names.js` 中的 `bundleUrl` 配置
+3. 运行 `node tools/extract-names.js`
+
+### 6.6 注意事项
+
+- JS bundle URL 包含版本号，网站更新后需要更新 URL
+- 街道数据仅限 Samobor 地区
+- 桥梁名称只有 3 个（Dr. Tuđman Bridge、Krk Bridge、Pelješac Bridge）
+
+---
+
+## 七、注意事项
 
 1. **category-map.js 需手动复制**：更新后需复制到 `miniprogram/packageMap/data/`
 2. **section 文件由脚本生成**：不要手动编辑 `miniprogram/packageMap/data/poi/` 下的文件
 3. **坐标系**：使用游戏内坐标，不是经纬度坐标
 4. **emoji 兼容性**：已排除 Unicode 13.0+ 的不兼容 emoji（🪖、🪵、🪨 等）
 5. **分类文件格式**：`分类/*.js` 是 `[id, catId, lng, lat, h]` 数组格式，section 文件是对象格式
+
+---
+
+## 八、新增数据或分类大类的维护流程
+
+随着游戏版本的更新，可能会出现全新的 POI 分类或新的 Section（分类大类）。为了保证微信开发者工具的“代码保护”功能正常运行，当有新数据产生时，需要执行以下补充流程：
+
+### 8.1 数据合并阶段
+1. 将新的原始分类文件放入 `点位数据/分类/` 中。
+2. 运行 `merge-poi-data.js` 脚本，它会自动根据 `category-map.js` 重新生成 `miniprogram/packageMap/data/poi/` 目录下的所有 `poi-xxx.js` 文件。
+
+### 8.2 更新小程序端按需加载的 Switch 映射表 (非常关键)
+为了让微信的**静态代码分析（代码保护机制）**能够正常打包这些新文件，并且实现零开销的按需懒加载，我们禁止使用动态 `require`（例如 `require('poi-' + section)`）。
+
+当你在 `miniprogram/packageMap/data/poi/` 下发现**有新增的 Section 名称**（即生成了全新的 `poi-新名字.js` 文件），你**必须同步更新**地图主页的加载逻辑代码。
+
+**操作步骤**：
+1. 打开 `miniprogram/packageMap/pages/map/map.js` 文件。
+2. 搜索 `_getSectionData(section)` 函数。
+3. 找到内部的 `switch (section)` 语句，按照已有格式**手动增加一条对应的 case**：
+
+```javascript
+      switch (section) {
+        // ... 已有的 cases
+        case 'Buildings': sectionData = require('../../data/poi/poi-Buildings.js'); break;
+        // 👇 新增的对应的 case（注意路径一定要是纯静态字符串）
+        case '你的新Section名字': sectionData = require('../../data/poi/poi-你的新Section名字.js'); break;
+      }
+```
+**注意**：如果你只是向已有的 Section（例如 `Buildings`）里面增加了新的坐标点位，而**没有增加新的大类 Section 文件**，则**不需要**修改 `map.js`，只重新跑脚本替换文件即可。

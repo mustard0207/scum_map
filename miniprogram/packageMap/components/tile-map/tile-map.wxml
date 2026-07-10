@@ -87,15 +87,28 @@
 
   <!-- 标记列表（在 viewport 内部，WXS 可通过 selectAllComponents 选取） -->
   <!-- 点击检测由 WXS handleTap → onTapAtPoint 坐标命中检测处理 -->
-  <view
-    wx:for="{{markersOnScreen}}"
-    wx:key="id"
-    class="map-marker {{item.type ? 'marker-typed' : ''}} {{item.isIncomplete ? 'marker-incomplete' : ''}} {{item.expiring ? 'marker-expiring' : ''}}"
-    style="z-index: {{item.src === 'poi' ? 20 : 30}}; {{item.typeColor ? 'background:' + item.typeColor + ';' : ''}}{{item.pulseDelay ? 'animation-delay:' + item.pulseDelay : ''}}"
-    data-id="{{item.id}}"
-    data-px="{{item.px}}"
-    data-py="{{item.py}}"
-  >
-    <text class="marker-emoji">{{item.emoji || '📌'}}</text>
-  </view>
+  <block wx:for="{{markersOnScreen}}" wx:key="id">
+    <!-- 普通标记（POI + 用户标记） -->
+    <view
+      wx:if="{{item.src !== 'label'}}"
+      class="map-marker {{item.type ? 'marker-typed' : ''}} {{item.isIncomplete ? 'marker-incomplete' : ''}} {{item.expiring ? 'marker-expiring' : ''}}"
+      style="z-index: {{item.src === 'poi' ? 20 : 30}}; {{item.typeColor ? 'background:' + item.typeColor + ';' : ''}}{{item.pulseDelay ? 'animation-delay:' + item.pulseDelay : ''}}"
+      data-id="{{item.id}}"
+      data-px="{{item.px}}"
+      data-py="{{item.py}}"
+    >
+      <text class="marker-emoji">{{item.emoji || '📌'}}</text>
+    </view>
+    <!-- 地名文字标签 -->
+    <view
+      wx:else
+      class="map-label"
+      style="z-index: 15;"
+      data-id="{{item.id}}"
+      data-px="{{item.px}}"
+      data-py="{{item.py}}"
+    >
+      <text class="label-text">{{item.labelText}}</text>
+    </view>
+  </block>
 </view>

@@ -403,6 +403,7 @@ Page({
 
   /** 切换语言 */
   toggleLang() {
+    wx.vibrateShort({ type: 'light' })
     this.setData({
       lang: this.data.lang === 'zh' ? 'en' : 'zh'
     })

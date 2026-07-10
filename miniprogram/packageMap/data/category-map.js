@@ -712,5 +712,26 @@ module.exports = {
     "section": "Outposts",
     "emoji": "✂️",
     "cnName": "理发店"
+  },
+  "871": {
+    "id": 871,
+    "name": "Fig trees",
+    "section": "Crops",
+    "emoji": "🌿",
+    "cnName": "无花果树"
+  },
+  "872": {
+    "id": 872,
+    "name": "Olive trees",
+    "section": "Crops",
+    "emoji": "🌿",
+    "cnName": "橄榄树"
+  },
+  "873": {
+    "id": 873,
+    "name": "Rose hip / dog rose",
+    "section": "Crops",
+    "emoji": "🌿",
+    "cnName": "玫瑰果"
   }
 };

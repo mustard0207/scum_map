@@ -83,7 +83,7 @@
         <text class="guide-icon">☰</text>
         <view class="guide-text">
           <text class="guide-title">筛选地图兴趣点</text>
-          <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地点显示</text>
+          <text class="guide-desc">底栏「筛选」可开启地堡、载具等游戏地名显示</text>
         </view>
       </view>
 
@@ -508,6 +508,18 @@
           </view>
           
           <!-- 可展开的精选大类 -->
+          <!-- 地名显示（暂隐藏）
+          <view class="filter-group">
+            <view class="filter-group-header">
+              <text class="filter-group-icon">📍</text>
+              <text class="filter-group-name">地名显示</text>
+              <text class="filter-group-count">{{showPlaceNames ? '51' : '0'}}/51</text>
+              <view class="filter-toggle {{showPlaceNames ? 'filter-toggle-on' : ''}}" catchtap="togglePlaceNames">
+                <view class="filter-toggle-thumb"></view>
+              </view>
+            </view>
+          </view>
+          -->
           <view class="filter-group" wx:for="{{quickCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">
               <text class="filter-group-icon">{{group.emoji}}</text>
@@ -592,6 +604,18 @@
               </view>
             </view>
           </view>
+          <!-- 地名显示（暂隐藏）
+          <view class="filter-group">
+            <view class="filter-group-header">
+              <text class="filter-group-icon">📍</text>
+              <text class="filter-group-name">地名显示</text>
+              <text class="filter-group-count">{{showPlaceNames ? '51' : '0'}}/51</text>
+              <view class="filter-toggle {{showPlaceNames ? 'filter-toggle-on' : ''}}" catchtap="togglePlaceNames">
+                <view class="filter-toggle-thumb"></view>
+              </view>
+            </view>
+          </view>
+          -->
 
           <view class="filter-group" wx:for="{{poiCategories}}" wx:key="name" wx:for-item="group">
             <view class="filter-group-header" catchtap="toggleGroup" data-group="{{group.name}}">

@@ -708,6 +708,7 @@ Component({
       let hitMarker = false
       for (let i = markersOnScreen.length - 1; i >= 0; i--) {
         const m = markersOnScreen[i]
+        if (m.src === 'label') continue  // 跳过文字标签
         const mx = m.px * scale + offsetX
         const my = m.py * scale + offsetY
         if (Math.abs(vpX - mx) < HIT_RADIUS_X && vpY >= my - HIT_TOP && vpY <= my) {

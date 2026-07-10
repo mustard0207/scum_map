@@ -111,6 +111,7 @@ Page({
 
   // 切换中英文
   toggleLanguage() {
+    wx.vibrateShort({ type: 'light' })
     const isEnglish = !this.data.isEnglish
     const newData = isEnglish ? this.data._formattedEn : this.data._formattedZh
     this.setData({ 

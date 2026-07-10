@@ -1,0 +1,3994 @@
+{
+    "data": {
+        "i18n": {
+            "list": [
+                {
+                    "key": "View moment",
+                    "value": "\u67e5\u770b\u52a8\u6001",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hide ads",
+                    "value": "Hide ads",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Extend Premium",
+                    "value": "\u7eed\u8d39 Premium \u4f1a\u5458",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Upgrade to Premium",
+                    "value": "\u5347\u7ea7\u81f3 Premium \u4f1a\u5458",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Upgrade to Premium to receive a discount!",
+                    "value": "\u5347\u7ea7\u81f3 Permium \u4f1a\u5458\uff0c\u7acb\u4eab\u6298\u6263\uff01",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Log in to upgrade to Premium",
+                    "value": "\u8bf7\u767b\u5f55\u4ee5\u5347\u7ea7\u81f3 Premium\u4f1a\u5458",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Upgrade to Premium and Unlock More Freedom!",
+                    "value": "\u5347\u7ea7 Premium \u4f1a\u5458\uff0c\u91ca\u653e\u66f4\u591a\u81ea\u7531\uff01",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Upgrade",
+                    "value": "\u5347\u7ea7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Valid until %date%",
+                    "value": "\u6709\u6548\u671f\u81f3%date%",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Transfer",
+                    "value": "\u8f6c\u8d26",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Circle",
+                    "value": "\u5706\u5708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Polyline",
+                    "value": "\u6298\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server connection interrupted. Some features may not work.",
+                    "value": "\u670d\u52a1\u5668\u8fde\u63a5\u4e2d\u65ad\u3002\u67d0\u4e9b\u529f\u80fd\u53ef\u80fd\u65e0\u6cd5\u4f7f\u7528\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Polygon",
+                    "value": "\u591a\u8fb9\u5f62",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Help",
+                    "value": "\u5e2e\u52a9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Degree (temperature)",
+                    "value": "\u5ea6(\u6e29\u5ea6)",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Celsius",
+                    "value": "\u6444\u6c0f\u5ea6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show degrees",
+                    "value": "\u663e\u793a\u5ea6\u6570",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fahrenheit",
+                    "value": "\u534e\u6c0f\u5ea6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Temperature layers opacity",
+                    "value": "\u6e29\u5ea6\u56fe\u5c42\u4e0d\u900f\u660e\u5ea6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "new",
+                    "value": "\u65b0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Creation date",
+                    "value": "\u521b\u5efa\u65e5\u671f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "marker",
+                    "value": "\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Yes",
+                    "value": "\u662f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No",
+                    "value": "\u5426",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Description",
+                    "value": "\u63cf\u8ff0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Embed map",
+                    "value": "\u5d4c\u5165\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Layers selected: %amount%",
+                    "value": "\u5df2\u9009\u62e9\u56fe\u5c42:%amount%",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Maps list",
+                    "value": "\u5730\u56fe\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Manage categories",
+                    "value": "\u7ba1\u7406\u5206\u7c7b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Articles",
+                    "value": "\u6587\u7ae0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ping",
+                    "value": "\u653e\u7f6e\u5927\u5934\u9488",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Subcategories",
+                    "value": "\u5b50\u5206\u7c7b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Community",
+                    "value": "\u793e\u7fa4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Official",
+                    "value": "\u5b98\u65b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Wall Cost Calculator",
+                    "value": "\u5899\u58c1\u6210\u672c\u8ba1\u7b97\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Structure Damage Calculator",
+                    "value": "\u5efa\u7b51\u4f24\u5bb3\u8ba1\u7b97\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Total cost",
+                    "value": "\u603b\u8ba1\u82b1\u8d39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Total amount",
+                    "value": "\u603b\u6570\u91cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Engineering skill level",
+                    "value": "\u5de5\u7a0b\u6280\u80fd\u6c34\u5e73",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter name...",
+                    "value": "\u8f93\u5165\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "See on",
+                    "value": "\u67e5\u770b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Game",
+                    "value": "SCUM \u6e38\u620f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Calculators",
+                    "value": "\u8ba1\u7b97\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "List of calculators for SCUM game.",
+                    "value": "SCUM\u6e38\u620f\u7684\u8ba1\u7b97\u5668\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Game Interactive Map",
+                    "value": "SCUM \u6e38\u620f\u4ea4\u4e92\u5f0f\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Interactive Map",
+                    "value": "\u4e92\u52a8\u5f0f\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Community",
+                    "value": "SCUM\u793e\u533a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Something went wrong when loading markers list.",
+                    "value": "\u8bfb\u53d6\u5730\u56fe\u6807\u8bb0\u6e05\u5355\u65f6\u51fa\u9519",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Home page",
+                    "value": "\u4e3b\u9875",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "App info",
+                    "value": "App \u8be6\u60c5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Our SCUM server",
+                    "value": "\u6211\u4eec\u7684 SCUM \u670d\u52a1\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "User profile",
+                    "value": "\u4e2a\u4eba\u8d44\u6599",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Logout",
+                    "value": "\u6ce8\u9500",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Log in",
+                    "value": "\u767b\u5f55",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Close",
+                    "value": "\u5173\u95ed",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Contact",
+                    "value": "\u8054\u7cfb\u6211\u4eec",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Options",
+                    "value": "\u9009\u9879",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "With the current map position",
+                    "value": "\u4f7f\u7528\u5f53\u524d\u5730\u56fe\u4f4d\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Tweet me!",
+                    "value": "\u7ed9\u6211\u53d1\u63a8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Send me an e-mail",
+                    "value": "\u7ed9\u6211\u53d1\u7535\u5b50\u90ae\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Author",
+                    "value": "\u4f5c\u8005",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Report an issue",
+                    "value": "\u62a5\u544a\u95ee\u9898",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Donate by OpenCollective",
+                    "value": "\u7531OpenCollective\u8d5e\u52a9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Remember me",
+                    "value": "\u8bb0\u4f4f\u6211",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Password",
+                    "value": "\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Forgot password?",
+                    "value": "\u5fd8\u8bb0\u5bc6\u7801\uff1f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Resend activation link",
+                    "value": "\u91cd\u65b0\u53d1\u9001\u6fc0\u6d3b\u94fe\u63a5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Register account",
+                    "value": "\u6ce8\u518c\u8d26\u53f7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Back to HOME",
+                    "value": "\u8fd4\u56de\u5230\u9996\u9875",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "E-mail with activation link was sent again.",
+                    "value": "\u518d\u6b21\u53d1\u9001\u542b\u6709\u6fc0\u6d3b\u94fe\u63a5\u7684\u7535\u5b50\u90ae\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Something went wrong. E-mail was not sent.",
+                    "value": "\u51fa\u9519\u4e86\u3002\u7535\u5b50\u90ae\u4ef6\u672a\u53d1\u9001\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your account has been successfully registered. To make it active, you need to click the activation link which was sent on your e-mail address.",
+                    "value": "\u60a8\u7684\u8d26\u53f7\u5df2\u6210\u529f\u6ce8\u518c\u3002\u6253\u5f00\u53d1\u9001\u5230\u60a8\u90ae\u7bb1\u4e2d\u7684\u6fc0\u6d3b\u94fe\u63a5\u6765\u6fc0\u6d3b\u60a8\u7684\u8d26\u53f7\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Repeat e-mail",
+                    "value": "\u91cd\u590d\u7535\u5b50\u90ae\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Repeat password",
+                    "value": "\u786e\u8ba4\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "I agree to the SCUM-MAP.COM Terms \u0026 Conditions and the Privacy Policy.",
+                    "value": "\u6211\u540c\u610fSCUM-MAP.COM \u6761\u6b3e \u0026 \u6761\u4ef6\u548c\u9690\u79c1\u653f\u7b56\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "To be able to use SCUM-MAP.COM as logged user, you need to agree on SCUM-MAP.COM Terms \u0026 Conditions and the Privacy Policy.",
+                    "value": "\u8981\u80fd\u591f\u4f7f\u7528 SCUM-MAP.COM \u4f5c\u4e3a\u767b\u5f55\u7528\u6237\uff0c\u60a8\u9700\u8981\u540c\u610f SCUM-MAP.COM \u6761\u6b3e \u0026 \u6761\u4ef6\u548c\u9690\u79c1\u653f\u7b56\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "I agree",
+                    "value": "\u6211\u540c\u610f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Go back",
+                    "value": "\u8fd4\u56de",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Send",
+                    "value": "\u53d1\u9001",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Groups \u0026 Websites",
+                    "value": "\u7fa4\u7ec4 \u0026 \u7f51\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Groups and Websites",
+                    "value": "SCUM\u7fa4\u7ec4\u548c\u7f51\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-related groups, social media, websites, and hosting providers.",
+                    "value": "\u4e0eSCUM\u6709\u5173\u7684\u7fa4\u7ec4\u3001\u793e\u4ea4\u5a92\u4f53\u3001\u7f51\u7ad9\u548c\u4e3b\u673a\u63d0\u4f9b\u5546\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Groups",
+                    "value": "SCUM\u7fa4\u7ec4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Server Hosting",
+                    "value": "SCUM\u670d\u52a1\u5668\u6258\u7ba1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Official SCUM Channels",
+                    "value": "SCUM\u5b98\u65b9\u9891\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Streamers",
+                    "value": "\u4e3b\u64ad",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Streamers and Youtubers",
+                    "value": "SCUM\u4e3b\u64ad\u548cYouTubers",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "List of streamers and youtubers making videos from SCUM game.",
+                    "value": "\u5236\u4f5cSCUM\u6e38\u620f\u89c6\u9891\u7684\u4e3b\u64ad\u548cYoutuber\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM game Streamers and Youtubers",
+                    "value": "SCUM\u4e3b\u64ad\u548cYouTubers",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Apps \u0026 Projects",
+                    "value": "\u5e94\u7528 \u0026 \u9879\u76ee",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Apps and Projects",
+                    "value": "SCUM\u5e94\u7528\u548c\u9879\u76ee",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "List of SCUM-related applications and projects.",
+                    "value": "\u4e0eSCUM\u76f8\u5173\u7684\u5e94\u7528\u548c\u9879\u76ee\u5217\u8868\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Apps and Projects related with SCUM game",
+                    "value": "\u4e0eSCUM\u6e38\u620f\u76f8\u5173\u7684\u5e94\u7528\u548c\u9879\u76ee",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Reset Password",
+                    "value": "\u91cd\u8bbe\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Country",
+                    "value": "\u56fd\u5bb6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Timezone",
+                    "value": "\u65f6\u533a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit",
+                    "value": "\u7f16\u8f91",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Username",
+                    "value": "\u7528\u6237\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Password changed successfully.",
+                    "value": "\u5bc6\u7801\u4fee\u6539\u6210\u529f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Changes saved.",
+                    "value": "\u66f4\u6539\u5df2\u4fdd\u5b58",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Old password",
+                    "value": "\u539f\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "New password",
+                    "value": "\u65b0\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Change password",
+                    "value": "\u4fee\u6539\u5bc6\u7801",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add marker",
+                    "value": "\u6dfb\u52a0\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add line",
+                    "value": "\u6dfb\u52a0\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add circle",
+                    "value": "\u6dfb\u52a0\u5708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add text",
+                    "value": "\u6dfb\u52a0\u6587\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This action is available only for the custom maps. Please, create one or go to the list of already existing.",
+                    "value": "\u6b64\u64cd\u4f5c\u4ec5\u9002\u7528\u4e8e\u81ea\u5b9a\u4e49\u5730\u56fe\u3002\u8bf7\u521b\u5efa\u4e00\u4e2a\u6216\u8f6c\u5230\u5df2\u7ecf\u5b58\u5728\u7684\u5217\u8868\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Action unavailable",
+                    "value": "\u64cd\u4f5c\u4e0d\u53ef\u7528",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Read more",
+                    "value": "\u4e86\u89e3\u66f4\u591a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Back to news list",
+                    "value": "\u8fd4\u56de\u65b0\u95fb\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Invalid ID parameter.",
+                    "value": "\u53c2\u6570\u65e0\u6548",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Invalid email.",
+                    "value": "\u7535\u5b50\u90ae\u7bb1\u65e0\u6548",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Press, hold and move point on the map to draw a circle.",
+                    "value": "\u6309\u4e0b\uff0c\u6309\u4f4f\u5e76\u79fb\u52a8\u5730\u56fe\u4e0a\u7684\u70b9\u6765\u753b\u4e00\u4e2a\u5706\u5708\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Press, hold and move point on the map to draw a line.",
+                    "value": "\u6309\u4e0b\uff0c\u6309\u4f4f\u5e76\u79fb\u52a8\u5730\u56fe\u4e0a\u7684\u70b9\u6765\u753b\u4e00\u6761\u7ebf\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to add a marker.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u6dfb\u52a0\u6807\u8bb0\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to add a text.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u6dfb\u52a0\u6587\u672c\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to add a ruler point.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u6dfb\u52a00\u523b\u5ea6\u6807\u5c3a\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to copy TP location to the clipboard.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u590d\u5236TP\u4f4d\u7f6e\u5750\u6807\u5230\u526a\u8d34\u677f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to copy URL of a particular location to the clipboard.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u5c06\u67d0\u4e2a\u4f4d\u7f6e\u7684 URL \u590d\u5236\u5230\u526a\u8d34\u677f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to send a ping to other map viewers.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u5411\u5176\u4ed6\u5730\u56fe\u67e5\u770b\u8005\u53d1\u9001\u6807\u8bb0\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Discord of SCUM-MAP.COM",
+                    "value": "SCUM-MAP.COM \u7684 Discord \u9891\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Copy TP location",
+                    "value": "\u590d\u5236TP\u4f4d\u7f6e\u5750\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Share your location",
+                    "value": "\u5206\u4eab\u60a8\u7684\u4f4d\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Share",
+                    "value": "\u5206\u4eab",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map filters",
+                    "value": "\u5730\u56fe\u7b5b\u9009\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This list is empty.",
+                    "value": "\u6b64\u6e05\u5355\u662f\u7a7a\u7684\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Settings",
+                    "value": "\u8bbe\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ruler",
+                    "value": "\u6807\u5c3a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Reticle",
+                    "value": "\u6807\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map profile",
+                    "value": "\u5730\u56fe\u8d44\u6599",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Coordinates",
+                    "value": "\u5750\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sector",
+                    "value": "\u533a\u6bb5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Paste coordinates here...",
+                    "value": "\u5728\u8fd9\u91cc\u7c98\u8d34\u5750\u6807...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ping on paste",
+                    "value": "\u7c98\u8d34\u65f6\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Incorrect coordinates pasted.",
+                    "value": "\u5750\u6807\u7c98\u8d34\u4e0d\u6b63\u786e\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "You need to be logged in to see this page.",
+                    "value": "\u60a8\u5fc5\u987b\u767b\u5f55\u624d\u80fd\u6d4f\u89c8\u6b64\u9875\u9762\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map created.",
+                    "value": "\u5730\u56fe\u5df2\u521b\u5efa\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Guides \u0026 Tutorials",
+                    "value": "\u6307\u5357 \u0026 \u6559\u7a0b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Create",
+                    "value": "\u521b\u5efa",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Timer",
+                    "value": "\u5b9a\u65f6\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Expired!",
+                    "value": "\u5df2\u8fc7\u671f\uff01",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter the date until which the time will count down on the map.",
+                    "value": "\u8f93\u5165\u5730\u56fe\u4e2d\u8ba1\u65f6\u5668\u5f00\u59cb\u8ba1\u65f6\u7684\u65e5\u671f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "1 hour",
+                    "value": "1\u5c0f\u65f6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "%hoursAmount% hours",
+                    "value": "%hoursAmount% \u5c0f\u65f6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "%daysAmount% days",
+                    "value": "%daysAmount% \u5929",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter category name...",
+                    "value": "\u8f93\u5165\u5206\u7c7b\u540d\u79f0...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "ALL",
+                    "value": "\u6240\u6709",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loading map...",
+                    "value": "\u5730\u56fe\u52a0\u8f7d\u4e2d\u2026",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loading...",
+                    "value": "\u52a0\u8f7d\u4e2d...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map edited.",
+                    "value": "\u5730\u56fe\u5df2\u7f16\u8f91\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Save",
+                    "value": "\u4fdd\u5b58",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "See more",
+                    "value": "\u67e5\u770b\u66f4\u591a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "View",
+                    "value": "\u89c6\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map title",
+                    "value": "\u5730\u56fe\u6807\u9898",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map description",
+                    "value": "\u5730\u56fe\u63cf\u8ff0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "User access:",
+                    "value": "\u7528\u6237\u6743\u9650\uff1a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Example",
+                    "value": "\u793a\u4f8b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Permission",
+                    "value": "\u6743\u9650",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add user",
+                    "value": "\u6dfb\u52a0\u7528\u6237",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Go to \u0022%title%\u0022",
+                    "value": "\u8f6c\u5230\u0022%title%\u0022\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Go to \u0022%title%\u0022 map",
+                    "value": "\u8f6c\u5230\u0022%title%\u0022\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Floor %floorNumber%",
+                    "value": "\u697c\u5c42 %floorNumber%",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Underground",
+                    "value": "\u697c\u5e95",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map removed.",
+                    "value": "\u5730\u56fe\u5df2\u5220\u9664\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete",
+                    "value": "\u5220\u9664",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "FILTERS",
+                    "value": "\u8fc7\u6ee4\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter filter name...",
+                    "value": "\u8f93\u5165\u8fc7\u6ee4\u5668\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Floating coordinates",
+                    "value": "\u6d6e\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cluster grouping",
+                    "value": "\u96c6\u7fa4\u5206\u7ec4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Turning off sectors names if keypads names are turned on.",
+                    "value": "\u5f00\u542f\u952e\u76d8\u540d\u65f6\u5173\u95ed\u5206\u533a\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Turned off",
+                    "value": "\u5df2\u5173\u95ed",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lines only",
+                    "value": "\u53ea\u663e\u793a\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Unit of measure",
+                    "value": "\u8ba1\u91cf\u5355\u4f4d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Color",
+                    "value": "\u989c\u8272",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Circle center",
+                    "value": "\u5706\u5fc3",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Radius",
+                    "value": "\u534a\u5f84",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "URL",
+                    "value": "\u7f51\u5740",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Measurements",
+                    "value": "\u6d4b\u91cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete circle",
+                    "value": "\u5220\u9664\u5708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clone circle",
+                    "value": "\u514b\u9686\u5706",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit circle",
+                    "value": "\u7f16\u8f91\u5708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marker created.",
+                    "value": "\u6807\u8bb0\u5df2\u521b\u5efa\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Error occurred while saving changes.",
+                    "value": "\u4fdd\u5b58\u66f4\u6539\u65f6\u53d1\u751f\u9519\u8bef",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Some form fields have not been completed correctly.",
+                    "value": "\u67d0\u4e9b\u8868\u5355\u5b57\u6bb5\u5c1a\u672a\u6b63\u786e\u5b8c\u6210\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Create marker",
+                    "value": "\u521b\u5efa\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marker updated.",
+                    "value": "\u6807\u8bb0\u5df2\u66f4\u65b0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Error occurred while removing the marker.",
+                    "value": "\u79fb\u9664\u6807\u8bb0\u65f6\u51fa\u9519",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marker has been removed.",
+                    "value": "\u6807\u8bb0\u5df2\u88ab\u79fb\u9664",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit marker",
+                    "value": "\u7f16\u8f91\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This value needs to be 6-digits HEX color.",
+                    "value": "\u6b64\u503c\u9700\u8981\u4e3a 6 \u4f4d\u6570\u7684HEX\u989c\u8272",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The lowest value can be 0.",
+                    "value": "\u6700\u5c0f\u503c\u53ef\u4ee5\u4e3a0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Invalid coordinates given.",
+                    "value": "\u7ed9\u5b9a\u5750\u6807\u65e0\u6548\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The highest value can be 99.",
+                    "value": "\u6700\u9ad8\u503c\u53ef\u4ee5\u4e3a99",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Teleport location copied to the clipboard.",
+                    "value": "\u4f20\u9001\u4f4d\u7f6e\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Share link copied to the clipboard.",
+                    "value": "\u5206\u4eab\u94fe\u63a5\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Basic format",
+                    "value": "\u57fa\u672c\u683c\u5f0f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "#Teleport command",
+                    "value": "#\u4f20\u8f93\u547d\u4ee4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Numbers only",
+                    "value": "\u53ea\u6709\u6570\u5b57",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Copy coordinates",
+                    "value": "\u590d\u5236\u5750\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Coordinates copied to the clipboard.",
+                    "value": "\u5750\u6807\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Optional. Minimum 2 letters, max 50.",
+                    "value": "\u53ef\u9009\u3002\u6700\u5c112\u4e2a\u5b57\u7b26\uff0c\u6700\u591a50\u4e2a\u5b57\u7b26\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Title",
+                    "value": "\u6807\u9898",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Name",
+                    "value": "\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Token created.",
+                    "value": "\u5df2\u521b\u5efa\u4ee4\u724c\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Type to search...",
+                    "value": "\u952e\u5165\u4ee5\u641c\u7d22...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No server was found.",
+                    "value": "\u672a\u627e\u5230\u670d\u52a1\u5668\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Icons list:",
+                    "value": "\u56fe\u6807\u5217\u8868\uff1a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Will be displayed above the marker. Optional. Min 0, max 99. Only when icon is set.",
+                    "value": "\u5c06\u5728\u6807\u8bb0\u4e0a\u65b9\u663e\u793a \u53ef\u9009 \u6700\u5c0f0\uff0c\u6700\u592799 \u4ec5\u5f53\u56fe\u6807\u5df2\u8bbe\u7f6e\u65f6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Additional number",
+                    "value": "\u9644\u52a0\u6570\u5b57",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Background color",
+                    "value": "\u80cc\u666f\u989c\u8272",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ingame coordinates",
+                    "value": "\u6e38\u620f\u5185\u5750\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Required",
+                    "value": "\u5fc5\u9700",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Field must be checked.",
+                    "value": "\u5fc5\u586b\u5b57\u6bb5\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Allowed patterns:",
+                    "value": "\u5141\u8bb8\u6a21\u5f0f\uff1a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Preview",
+                    "value": "\u9884\u89c8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Markers preview",
+                    "value": "\u6807\u8bb0\u9884\u89c8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Are you sure you want to delete that marker?",
+                    "value": "\u786e\u5b9a\u8981\u5220\u9664\u6807\u8bb0\u5417\uff1f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The data should be filled.",
+                    "value": "\u5e94\u586b\u5199\u6570\u636e\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marker info",
+                    "value": "\u6807\u8bb0\u8be6\u60c5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map preview:",
+                    "value": "\u5730\u56fe\u9884\u89c8\uff1a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Image",
+                    "value": "\u56fe\u7247",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Get TP coordinates",
+                    "value": "\u83b7\u53d6TP\u5750\u6807",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit line",
+                    "value": "\u7f16\u8f91\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete line",
+                    "value": "\u5220\u9664\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clone line",
+                    "value": "\u514b\u9686\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clone text",
+                    "value": "\u514b\u9686\u6587\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit text",
+                    "value": "\u7f16\u8f91\u6587\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete text",
+                    "value": "\u5220\u9664\u6587\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Border color",
+                    "value": "\u8fb9\u6846\u989c\u8272",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fill color",
+                    "value": "\u586b\u5145\u989c\u8272",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Border opacity",
+                    "value": "\u8fb9\u6846\u4e0d\u900f\u660e\u5ea6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fill opacity",
+                    "value": "\u586b\u5145\u4e0d\u900f\u660e\u5ea6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Font size",
+                    "value": "\u5b57\u4f53\u5927\u5c0f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Text",
+                    "value": "\u6587\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Are you sure?",
+                    "value": "\u60a8\u786e\u5b9a\u5417\uff1f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Location share URL copied to the clipboard.",
+                    "value": "\u4f4d\u7f6e\u5171\u4eabURL\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "URL copied to the clipboard.",
+                    "value": "\u94fe\u63a5\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Check location",
+                    "value": "\u67e5\u770b\u4f4d\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clear",
+                    "value": "\u6e05\u9664",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Save changes",
+                    "value": "\u4fdd\u5b58\u66f4\u6539",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Change ground type.",
+                    "value": "\u66f4\u6539\u57fa\u672c\u7c7b\u578b\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Privacy Policy",
+                    "value": "\u9690\u79c1\u653f\u7b56",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Terms \u0026 Conditions",
+                    "value": "\u6761\u6b3e\u53ca\u7ec6\u5219",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Support Me",
+                    "value": "\u652f\u6301\u6211",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Samobor street names",
+                    "value": "Samobor \u8857\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Street names",
+                    "value": "\u8857\u9053\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Confirm purchase",
+                    "value": "\u786e\u8ba4\u8d2d\u4e70",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PayU Logo",
+                    "value": "PayU \u6807\u5fd7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PayPal",
+                    "value": "PayPal",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Donate trough PayPal",
+                    "value": "\u901a\u8fc7Paypal\u6350\u8d60",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Donate trough OpenCollective",
+                    "value": "\u7531OpenCollective\u8d5e\u52a9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This website uses cookies to enhance the user experience.",
+                    "value": "\u6b64\u7f51\u7ad9\u4f7f\u7528 cookie \u6765\u63d0\u9ad8\u7528\u6237\u4f53\u9a8c\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Refresh app",
+                    "value": "\u5237\u65b0App",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "My maps",
+                    "value": "\u6211\u7684\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "My orders",
+                    "value": "\u6211\u7684\u8ba2\u5355",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Orders",
+                    "value": "\u8ba2\u5355",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Order %number%",
+                    "value": "\u8ba2\u5355\u7f16\u53f7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Status:",
+                    "value": "\u72b6\u6001:",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Maps",
+                    "value": "\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Donate by PayPal",
+                    "value": "\u901a\u8fc7 PayPal \u6350\u8d60",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Display name",
+                    "value": "\u663e\u793a\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Metric",
+                    "value": "\u516c\u5236",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Imperial",
+                    "value": "\u82f1\u5236",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Weight",
+                    "value": "\u91cd\u91cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Style",
+                    "value": "\u6837\u5f0f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Border",
+                    "value": "\u8fb9\u6846",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Need help",
+                    "value": "\u9700\u8981\u5e2e\u52a9\uff1f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "News list",
+                    "value": "\u65b0\u95fb\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM \u0026 SCUM-MAP News List",
+                    "value": "SCUM \u0026 SCUM-MAP \u65b0\u95fb\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "List of all news related to SCUM and SCUM-MAP.",
+                    "value": "\u4e0eSCUM \u548c SCUM-MAP\u76f8\u5173\u7684\u6240\u6709\u65b0\u95fb\u5217\u8868\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Game Interactive Maps List",
+                    "value": "SCUM \u6e38\u620f\u4ea4\u4e92\u5f0f\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Plans",
+                    "value": "\u5e73\u9762\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Game Points Of Interest Plans",
+                    "value": "SCUM \u6e38\u620f\u5174\u8da3\u70b9\u5e73\u9762\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Complete list of SCUM game points of interest plans.",
+                    "value": "SCUM\u6e38\u620f\u5174\u8da3\u70b9\u5e73\u9762\u56fe\u7684\u5b8c\u6574\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The BEST place for all SCUM players!",
+                    "value": "\u6240\u6709SCUM\u73a9\u5bb6\u7684\u6700\u4f73\u5730\u70b9\uff01",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Check out our social media channels",
+                    "value": "\u67e5\u770b\u6211\u4eec\u7684\u793e\u4ea4\u5a92\u4f53\u9891\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Other news",
+                    "value": "\u5176\u4ed6\u65b0\u95fb",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Create map",
+                    "value": "\u521b\u5efa\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Create private map",
+                    "value": "\u521b\u5efa\u79c1\u4eba\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit map",
+                    "value": "\u7f16\u8f91\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The \u0022Username\u0022 field value can be found in the profile.",
+                    "value": "\u0022\u7528\u6237\u540d\u0022\u5b57\u6bb5\u503c\u53ef\u4ee5\u5728\u4e2a\u4eba\u8d44\u6599\u4e2d\u627e\u5230\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map does not exist, or you have no permissions to it.",
+                    "value": "\u5730\u56fe\u4e0d\u5b58\u5728\u6216\u60a8\u6ca1\u6709\u6743\u9650\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete marker",
+                    "value": "\u5220\u9664\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clone marker",
+                    "value": "\u514b\u9686\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Error occurred while saving map ground type.",
+                    "value": "\u4fdd\u5b58\u5730\u56fe\u57fa\u672c\u7c7b\u578b\u65f6\u53d1\u751f\u9519\u8bef",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Interactive map for SCUM game with zoom, coordinates, teleport location and custom maps. List of bunkers, POI\u0027s, Villages, Killboxes, Car Spawns and much more.",
+                    "value": "\u5e26\u6709\u7f29\u653e\u3001\u5750\u6807\u3001\u4f20\u9001\u4f4d\u7f6e\u548c\u81ea\u5b9a\u4e49\u5730\u56fe\u529f\u80fd\u7684SCUM \u6e38\u620f\u4ea4\u4e92\u5f0f\u5730\u56fe\u3002\u5305\u542b\u6218\u58d5\u3001\u5174\u8da3\u70b9\u3001 \u6751\u5e84\u3001\u5730\u5821\u3001\u6c7d\u8f66\u5237\u65b0\u70b9\u7b49\u5217\u8868\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "E-mail",
+                    "value": "\u90ae\u7bb1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Please, check your SPAM folder inside of your e-mail client. It is possible that message with your account activation link is there.",
+                    "value": "\u8bf7\u5728\u68c0\u67e5\u60a8\u7535\u5b50\u90ae\u4ef6\u4e2d\u7684\u5783\u573e\u90ae\u4ef6\u3002\u60a8\u7684\u8d26\u6237\u6fc0\u6d3b\u94fe\u63a5\u53ef\u80fd\u5728\u90a3\u513f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Account Activation",
+                    "value": "\u8d26\u6237\u6fc0\u6d3b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Checking data...",
+                    "value": "\u6b63\u5728\u68c0\u67e5\u6570\u636e...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This account has been activated earlier, or activation link has expired.",
+                    "value": "\u6b64\u5e10\u6237\u5df2\u6fc0\u6d3b\uff0c\u6216\u6fc0\u6d3b\u94fe\u63a5\u5df2\u8fc7\u671f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your account is now active.",
+                    "value": "\u4f60\u7684\u8d26\u6237\u5df2\u6fc0\u6d3b\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sign up",
+                    "value": "\u6ce8\u518c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Available",
+                    "value": "\u53ef\u7528",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Visible",
+                    "value": "\u53ef\u89c1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hidden",
+                    "value": "\u5df2\u9690\u85cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Permanently Visible",
+                    "value": "\u6c38\u4e45\u53ef\u89c1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Permanently Hidden",
+                    "value": "\u6c38\u4e45\u9690\u85cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Icon",
+                    "value": "\u5934\u50cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "On",
+                    "value": "\u5f00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Off",
+                    "value": "\u5173",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Change language",
+                    "value": "\u66f4\u6539\u8bed\u8a00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Language",
+                    "value": "\u8bed\u8a00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Languages",
+                    "value": "\u8bed\u8a00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Help with translating",
+                    "value": "\u534f\u52a9\u7ffb\u8bd1\u5de5\u4f5c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Motorbikes",
+                    "value": "\u6469\u6258\u8f66",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Motorbike \u0026 bicycle spawns",
+                    "value": "\u6469\u6258\u8f66 \u0026 \u81ea\u884c\u8f66\u751f\u6210",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Private map",
+                    "value": "\u79c1\u6709\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Public map",
+                    "value": "\u516c\u5171\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cities \u0026 villages names",
+                    "value": "\u57ce\u5e02\u0026 \u4e61\u6751\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show power lines",
+                    "value": "\u663e\u793a\u4f9b\u7535\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Vehicle repair shops",
+                    "value": "\u6c7d\u8f66\u4fee\u7406\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Vehicles",
+                    "value": "\u8f66\u8f86",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Construction materials",
+                    "value": "\u5efa\u7b51\u6750\u6599",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Buildings",
+                    "value": "\u5efa\u7b51",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Crops",
+                    "value": "\u519c\u4f5c\u7269",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Collapse category section",
+                    "value": "\u6536\u8d77\u7c7b\u522b\u90e8\u5206",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Expand category section",
+                    "value": "\u5c55\u5f00\u7c7b\u522b\u90e8\u5206",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Locked filters:",
+                    "value": "\u9501\u5b9a\u7684\u8fc7\u6ee4\u5668:",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Locked",
+                    "value": "\u9501\u5b9a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Other",
+                    "value": "\u5176\u4ed6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zoom in",
+                    "value": "\u653e\u5927",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zoom out",
+                    "value": "\u7f29\u5c0f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "I understand",
+                    "value": "\u6211\u4e86\u89e3",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server IP address is different on Battlemetrics.",
+                    "value": "\u4e0eBattlemetric\u4e0a\u7684\u670d\u52a1\u5668IP\u5730\u5740\u4e0d\u540c\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server name is different on Battlemetrics.",
+                    "value": "\u4e0eBattlemetric\u4e0a\u7684\u670d\u52a1\u5668\u540d\u79f0\u4e0d\u540c\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Invalid Battlemetrics link.",
+                    "value": "\u65e0\u6548\u7684 Battlemetrics \u94fe\u63a5\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add polygon",
+                    "value": "\u6dfb\u52a0\u591a\u8fb9\u5f62",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Edit polygon",
+                    "value": "\u7f16\u8f91\u591a\u8fb9\u5f62",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Delete polygon",
+                    "value": "\u79fb\u9664\u591a\u8fb9\u5f62",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clone polygon",
+                    "value": "\u514b\u9686\u591a\u8fb9\u5f62",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add polyline",
+                    "value": "\u6dfb\u52a0\u6298\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to add a point of a polygon.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u6dfb\u52a0\u4e00\u4e2a\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Finish polygon.",
+                    "value": "\u591a\u8fb9\u5f62\u5b8c\u6210",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clear all polygon points.",
+                    "value": "\u6e05\u9664\u6240\u6709\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "At least two points are required.",
+                    "value": "\u81f3\u5c11\u9009\u62e9\u4e24\u4e2a\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Remove last polygon point.",
+                    "value": "\u5220\u9664\u6700\u540e\u4e00\u4e2a\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Click on the map to add a point of a polyline.",
+                    "value": "\u70b9\u51fb\u5730\u56fe\u6765\u6dfb\u52a0\u4e00\u4e2a\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Finish polyline.",
+                    "value": "\u591a\u8fb9\u5f62\u5b8c\u6210",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clear all polyline points.",
+                    "value": "\u6e05\u9664\u6240\u6709\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Remove last polyline point.",
+                    "value": "\u5220\u9664\u6700\u540e\u4e00\u4e2a\u591a\u8fb9\u5f62\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bridges names",
+                    "value": "\u6865\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Keypads",
+                    "value": "\u5c0f\u952e\u76d8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Location of motorbike and bicycle spawns.",
+                    "value": "\u6469\u6258\u8f66\u548c\u81ea\u884c\u8f66\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "My account",
+                    "value": "\u6211\u7684\u5e10\u6237",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Unlock layer",
+                    "value": "\u89e3\u9501\u56fe\u5c42",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lock layer",
+                    "value": "\u9501\u5b9a\u56fe\u5c42",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add layer",
+                    "value": "\u6dfb\u52a0\u56fe\u5c42",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Layer list",
+                    "value": "\u56fe\u5c42\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map layers",
+                    "value": "\u5730\u56fe\u56fe\u5c42",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Layer #%layerNumber%",
+                    "value": "\u5c42 #%layerNumber%",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hide content",
+                    "value": "\u9690\u85cf\u5185\u5bb9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show content",
+                    "value": "\u663e\u793a\u5185\u5bb9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Location",
+                    "value": "\u4f4d\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max distance",
+                    "value": "\u6700\u5927\u8ddd\u79bb",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show nearest markers",
+                    "value": "\u663e\u793a\u6700\u8fd1\u7684\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No markers in the area.",
+                    "value": "\u533a\u57df\u5185\u6ca1\u6709\u6807\u8bb0\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Nearest markers",
+                    "value": "\u6700\u8fd1\u6807\u8bb0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show details",
+                    "value": "\u663e\u793a\u8be6\u60c5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Details",
+                    "value": "\u8be6\u60c5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marker category",
+                    "value": "\u6807\u8bb0\u5206\u7c7b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Category",
+                    "value": "\u5206\u7c7b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No value",
+                    "value": "\u65e0\u503c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Images",
+                    "value": "\u56fe\u7247",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Files",
+                    "value": "\u6587\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "image gallery for markers",
+                    "value": "\u6807\u8bb0\u56fe\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Image gallery",
+                    "value": "\u56fe\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drag and drop some files here, or click to select files.",
+                    "value": "\u62d6\u653e\u4e00\u4e9b\u6587\u4ef6\u5230\u6b64\u5904\uff0c\u6216\u8005\u70b9\u51fb\u9009\u62e9\u6587\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drag and drop a file or click to select a file.",
+                    "value": "\u62d6\u653e\u6587\u4ef6\u6216\u70b9\u51fb\u9009\u62e9\u4e00\u4e2a\u6587\u4ef6\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drop the files here...",
+                    "value": "\u5c06\u6587\u4ef6\u62d6\u653e\u5230\u6b64\u5904...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max 1MB. Valid formats: jpg, jpeg, gif, png.",
+                    "value": "\u6700\u59271MB\uff0c\u652f\u6301\u683c\u5f0f\uff1ajpg, jpeg, gif, png\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map share mode",
+                    "value": "\u5730\u56fe\u5206\u4eab\u6a21\u5f0f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Read-only access",
+                    "value": "\u53ea\u8bfb\u6743\u9650",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Editing access",
+                    "value": "\u7f16\u8f91\u6743\u9650",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Everyone has access through the link",
+                    "value": "\u6bcf\u4e2a\u4eba\u90fd\u53ef\u4ee5\u901a\u8fc7\u94fe\u63a5\u8bbf\u95ee",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Access for everyone with the link. Logged users can edit the map.",
+                    "value": "\u6bcf\u4e2a\u4eba\u90fd\u53ef\u4ee5\u901a\u8fc7\u94fe\u63a5\u8bbf\u95ee\uff0c\u767b\u5f55\u7528\u6237\u53ef\u7f16\u8f91\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Field disabled for official server maps being on the \u0022Servers List\u0022 page.",
+                    "value": "\u5b57\u6bb5\u5bf9\u4e8e\u5728\u201d\u670d\u52a1\u5668\u5217\u8868\u201c\u4e2d\u7684\u5b98\u670d\u4e0d\u53ef\u7528\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show mechs walk paths",
+                    "value": "\u663e\u793a\u9ad8\u8fbe\u884c\u8d70\u8def\u5f84",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show \u0022no build\u0022 zones",
+                    "value": "\u663e\u793a \u0022\u7981\u6b62\u5efa\u9020\u201d\u533a\u57df",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sectors \u0026 keypads lines",
+                    "value": "\u533a\u57df \u0026 \u8fb9\u754c\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sector lines",
+                    "value": "\u533a\u57df\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sector lines (lines only)",
+                    "value": "\u533a\u57df\u7ebf(\u4ec5\u7ebf\u6761)",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sector with keypad lines",
+                    "value": "\u533a\u57df\uff08\u5e26\u4e5d\u5bab\u683c\uff09",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Keypad lines",
+                    "value": "\u4e5d\u5bab\u683c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Keypad lines (lines only)",
+                    "value": "\u4e5d\u5bab\u683c\uff08\u4ec5\u7ebf\uff09",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map keypads",
+                    "value": "\u5730\u56fe\u952e\u76d8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map keypads (inverted)",
+                    "value": "\u5730\u56fe\u952e\u76d8(\u53cd\u8f6c)",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "MGRS",
+                    "value": "MGRS",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "no limit",
+                    "value": "\u65e0\u9650\u5236",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "most popular",
+                    "value": "\u6700\u53d7\u6b22\u8fce",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "you save \u20ac%amount%",
+                    "value": "\u60a8\u8282\u7701\u4e86%amount%\u5143",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "%amount% months",
+                    "value": "%amount% \u6708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "1 month",
+                    "value": "1\u4e2a\u6708",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "free",
+                    "value": "\u514d\u8d39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Unlock features",
+                    "value": "\u89e3\u9501\u529f\u80fd",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Basics",
+                    "value": "\u57fa\u7840\u77e5\u8bc6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Access",
+                    "value": "\u8bbf\u95ee",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Server",
+                    "value": "SCUM \u670d\u52a1\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Categories",
+                    "value": "\u5206\u7c7b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Custom URL",
+                    "value": "\u81ea\u5b9a\u4e49URL",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Set custom URL",
+                    "value": "\u8bbe\u7f6e\u81ea\u5b9a\u4e49URL",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Can contain only numbers, small letters and characters: \u0022_\u0022, \u0022-\u0022.",
+                    "value": "\u53ea\u80fd\u5305\u542b\u6570\u5b57\u3001\u5c0f\u5b57\u6bcd\u548c\u5b57\u7b26\uff1a\u201c_\u201d\u3001\u201c-\u201d\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "View map",
+                    "value": "\u67e5\u770b\u5730\u56fe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Share link:",
+                    "value": "\u5206\u4eab\u94fe\u63a5\uff1a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Social media links",
+                    "value": "\u793e\u4ea4\u5a92\u4f53\u94fe\u63a5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Some data cannot be changed if the server is on the \u0022Servers List\u0022.",
+                    "value": "\u5982\u679c\u670d\u52a1\u5668\u5728\u201c\u670d\u52a1\u5668\u5217\u8868\u201d\u4e0a\uff0c\u67d0\u4e9b\u6570\u636e\u4e0d\u80fd\u66f4\u6539\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your server is applying for to be added to \u0022Servers List\u0022 page. Contact the SCUM-MAP admin.",
+                    "value": "\u60a8\u7684\u670d\u52a1\u5668\u6b63\u5728\u7533\u8bf7\u6dfb\u52a0\u5230\u201c\u670d\u52a1\u5668\u5217\u8868\u201d\u9875\u9762\u3002\u8bf7\u8054\u7cfb SCUM-MAP \u7ba1\u7406\u5458\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server name",
+                    "value": "\u670d\u52a1\u5668\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Name of a SCUM server to which this map relates. Max 50 letters.",
+                    "value": "\u6b64\u5730\u56fe\u5173\u8054\u7684 SCUM \u670d\u52a1\u5668\u540d\u79f0\u3002\u6700\u591a50\u4e2a\u5b57\u6bcd\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server settings",
+                    "value": "\u670d\u52a1\u5668\u8bbe\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server IP address",
+                    "value": "\u670d\u52a1\u5668IP\u5730\u5740",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "IP",
+                    "value": "IP",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server Battlemetrics link",
+                    "value": "\u670d\u52a1\u5668\u7684 Battlemetrics \u94fe\u63a5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Battlemetrics Rank",
+                    "value": "Battlemetrics \u6392\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Apply for the \u0022Server List\u0022 page",
+                    "value": "\u7533\u8bf7\u201c\u670d\u52a1\u5668\u5217\u8868\u201d\u9875\u9762",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Only for server owners.",
+                    "value": "\u4ec5\u4f9b\u670d\u4e3b\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server image",
+                    "value": "\u670d\u52a1\u5668\u56fe\u7247",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max 500KB. Valid formats: jpg, jpeg, gif, png. Best 2:1 ratio, minimum 300px width.",
+                    "value": "\u6700\u5927 500KB. \u6709\u6548\u683c\u5f0f\uff1a jpg, jpeg, gif, png.\u6bd4\u4f8b2:1\u6700\u4f73, \u6700\u5c0f\u5bbd\u5ea6300\u50cf\u7d20\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The image should be purely representative. It cannot contain unneeded text, social media links, or details about the server.",
+                    "value": "\u56fe\u7247\u5e94\u5f53\u4ec5\u542b\u6709\u4ee3\u8868\u6027\u3002\u4e0d\u53ef\u5305\u542b\u4e0d\u5fc5\u8981\u7684\u6587\u5b57\u3001\u793e\u4ea4\u5a92\u4f53\u94fe\u63a5\u6216\u670d\u52a1\u5668\u7684\u8be6\u7ec6\u4fe1\u606f\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server location",
+                    "value": "\u670d\u52a1\u5668\u4f4d\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Main language",
+                    "value": "\u4e3b\u8981\u8bed\u8a00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server type",
+                    "value": "\u670d\u52a1\u5668\u7c7b\u578b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Raiding system",
+                    "value": "\u62a2\u52ab\u7cfb\u7edf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Raiding system additional info",
+                    "value": "\u62a2\u52ab\u7cfb\u7edf\u9644\u52a0\u4fe1\u606f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max 300 characters.",
+                    "value": "\u6700\u591a\u53ef\u8f93\u5165300\u4e2a\u5b57\u7b26",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PvE safe zone",
+                    "value": "PvE \u5b89\u5168\u533a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zombie difficulty level",
+                    "value": "\u50f5\u5c38\u96be\u5ea6\u7ea7\u522b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loot settings",
+                    "value": "\u7269\u8d44\u8bbe\u7f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Kill notification",
+                    "value": "\u51fb\u6740\u901a\u77e5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bot shop",
+                    "value": "\u673a\u5668\u4eba\u5546\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mechs",
+                    "value": "\u9ad8\u8fbe",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mechs damage multiplier",
+                    "value": "\u9ad8\u8fbe\u4f24\u5bb3\u500d\u6570",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Min %min%, max %max%.",
+                    "value": "\u6700\u5c0f %min%\uff0c\u6700\u5927 %max%\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zombie spawn modifier",
+                    "value": "\u50f5\u5c38\u5237\u65b0\u6539\u52a8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max zombies amount",
+                    "value": "\u50f5\u5c38\u6570\u91cf\u4e0a\u9650",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max 10000.",
+                    "value": "\u6700\u5927 10000\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zombie damage multiplier",
+                    "value": "\u50f5\u5c38\u4f24\u5bb3\u500d\u6570",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loot spawn multiplier",
+                    "value": "\u7269\u8d44\u751f\u6210\u500d\u6570",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loot respawn rate",
+                    "value": "\u7269\u8d44\u91cd\u65b0\u751f\u6210\u7387",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Value in seconds. Max 99999999.",
+                    "value": "\u6570\u503c\u4ee5\u79d2\u4e3a\u5355\u4f4d\u3002\u6700\u5927 999999999\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Max vehicles amount",
+                    "value": "\u6700\u5927\u8f66\u8f86\u6570\u91cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Discord",
+                    "value": "Discord",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP Discord",
+                    "value": "SCUM-MAP Discord\u9891\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Discord invite link",
+                    "value": "Discord \u9080\u8bf7\u94fe\u63a5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "YouTube",
+                    "value": "YouTube",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Facebook",
+                    "value": "Facebook",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP Facebook",
+                    "value": "SCUM-MAP Facebook",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP.COM Facebook page",
+                    "value": "SCUM-MAP.COM Facebook \u9875\u9762",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Twitter",
+                    "value": "Twitter",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP.COM creator Twitter",
+                    "value": "SCUM-MAP.COM \u521b\u5efa\u8005 Twitter",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Twitch",
+                    "value": "Twitch",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Reddit",
+                    "value": "Reddit",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP.COM creator Reddit",
+                    "value": "SCUM-MAP.COM \u521b\u5efa\u8005 Twitter",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM-MAP News",
+                    "value": "SCUM-MAP \u65b0\u95fb",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "List of all news and updates about SCUM-MAP.COM.",
+                    "value": "\u5173\u4e8eSCUM-MAP.COM\u7684\u6240\u6709\u65b0\u95fb\u548c\u66f4\u65b0\u5217\u8868\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "SCUM Leaks \u0026 Updates",
+                    "value": "SCUM \u6cc4\u6f0f \u0026 \u66f4\u65b0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Database of all SCUM game leaks and updates.",
+                    "value": "\u6240\u6709SCUM\u6e38\u620f\u6cc4\u6f0f\u548c\u66f4\u65b0\u5185\u5bb9\u7684\u6570\u636e\u5e93\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "With above checked, you will apply for adding your server on the \u0022Servers List\u0022 page.",
+                    "value": "\u82e5\u9009\u4e2d\u6b64\u9879\uff0c\u60a8\u5c06\u7533\u8bf7\u5728\u201c\u670d\u52a1\u5668\u5217\u8868\u201d\u9875\u9762\u6dfb\u52a0\u60a8\u7684\u670d\u52a1\u5668\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fill as much as you can in the below \u0022Server Settings\u0022 form section.",
+                    "value": "\u5728\u4e0b\u9762\u7684\u201c\u670d\u52a1\u5668\u8bbe\u7f6e\u201d\u8868\u5355\u90e8\u5206\u586b\u5199\u5c3d\u53ef\u80fd\u591a\u7684\u8d44\u6599",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Contact SCUM-MAP administrator to verify your data.",
+                    "value": "\u8054\u7cfbSCUM-MAP\u7ba1\u7406\u5458\u9a8c\u8bc1\u60a8\u7684\u6570\u636e\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Server information",
+                    "value": "\u670d\u52a1\u5668\u4fe1\u606f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Purge \u0026 Cleanse",
+                    "value": "\u6e05\u7406 \u0026 \u6e05\u9664",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Raiding on weekends",
+                    "value": "\u5468\u672b\u5c38\u6f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Raiding 24\/7",
+                    "value": "\u65e5\u5e38\u5c38\u6f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No raiding",
+                    "value": "\u65e0\u5c38\u6f6e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PvP \u0026 PvE",
+                    "value": "PvP \u0026 PvE",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PvP",
+                    "value": "PvP",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "PvE",
+                    "value": "PvE",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Roleplay",
+                    "value": "\u89d2\u8272\u626e\u6f14",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Very low",
+                    "value": "\u6781\u4f4e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Low",
+                    "value": "\u4f4e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Close to Vanilla",
+                    "value": "\u63a5\u8fd1\u539f\u7248",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "High",
+                    "value": "\u9ad8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hardcore",
+                    "value": "\u786c\u6838",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Servers list",
+                    "value": "\u670d\u52a1\u5668\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Servers List for SCUM game",
+                    "value": "SCUM\u6e38\u620f\u7684\u670d\u52a1\u5668\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter server name...",
+                    "value": "\u8f93\u5165\u670d\u52a1\u5668\u540d\u79f0...",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Want to see your server here?",
+                    "value": "\u60f3\u8981\u5728\u8fd9\u91cc\u770b\u5230\u60a8\u7684\u670d\u52a1\u5668\u5417\uff1f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Add to the list",
+                    "value": "\u6dfb\u52a0\u5230\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "create a new one",
+                    "value": "\u521b\u5efa\u4e00\u4e2a\u65b0\u7684",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Zombies",
+                    "value": "\u50f5\u5c38",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Loot",
+                    "value": "\u7269\u8d44",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Information about the server",
+                    "value": "\u670d\u52a1\u5668\u4fe1\u606f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your order is opened but the payment process has not started.",
+                    "value": "\u60a8\u7684\u8ba2\u5355\u5df2\u6253\u5f00\uff0c\u4f46\u652f\u4ed8\u8fc7\u7a0b\u5c1a\u672a\u5f00\u59cb\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your order is being processed. Please wait.",
+                    "value": "\u60a8\u7684\u8ba2\u5355\u6b63\u5728\u5904\u7406\u4e2d\uff0c\u8bf7\u7a0d\u5019\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your order has been cancelled.",
+                    "value": "\u60a8\u7684\u8ba2\u5355\u5df2\u53d6\u6d88",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Your order has been completed.",
+                    "value": "\u60a8\u7684\u8ba2\u5355\u5df2\u5b8c\u6210\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Unknown status.",
+                    "value": "\u672a\u77e5\u72b6\u6001",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "open",
+                    "value": "\u6253\u5f00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "pending",
+                    "value": "\u6b63\u5728\u5904\u7406",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "completed",
+                    "value": "\u5df2\u5b8c\u6210",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "canceled",
+                    "value": "\u5df2\u53d6\u6d88",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Payment",
+                    "value": "\u652f\u4ed8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Items",
+                    "value": "\u7269\u54c1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Item name",
+                    "value": "\u7269\u54c1\u540d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Quantity",
+                    "value": "\u6570\u91cf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Price",
+                    "value": "\u4ef7\u683c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "for:",
+                    "value": "\u4e3a:",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Go back to order list",
+                    "value": "\u8fd4\u56de\u8ba2\u5355\u5217\u8868",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Enter your e-mail",
+                    "value": "\u8f93\u5165\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "You will receive an e-mail with a link to a page where you will be able to change your password.",
+                    "value": "\u60a8\u5c06\u6536\u5230\u4e00\u5c01\u5e26\u6709\u94fe\u63a5\u5230\u60a8\u53ef\u4ee5\u66f4\u6539\u5bc6\u7801\u9875\u9762\u7684\u7535\u5b50\u90ae\u4ef6\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "An e-mail has been sent to the indicated address.",
+                    "value": "\u4e00\u5c01\u7535\u5b50\u90ae\u4ef6\u5df2\u53d1\u9001\u5230\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "The link has already been used or is invalid.",
+                    "value": "\u94fe\u63a5\u5df2\u88ab\u4f7f\u7528\u6216\u65e0\u6548\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pick a structure type...",
+                    "value": "\u9009\u62e9\u5efa\u7b51\u7c7b\u578b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "This calculator will show how many resources you need to destroy any SCUM game base building element. Get information about the amount of damage C4, mines or claymores does. Check which weapons to use for base raiding with explosives and brute force.",
+                    "value": "\u6b64\u8ba1\u7b97\u5668\u5c06\u663e\u793a\u4f60\u9700\u8981\u591a\u5c11\u8d44\u6e90\u6765\u6467\u6bc1\u4efb\u4f55SCUM\u6e38\u620f\u57fa\u7840\u5efa\u7b51\u5143\u7d20\u3002 \u83b7\u53d6\u635f\u574fC4\u3001\u5730\u96f7\u6216\u5730\u96f7\u7684\u6570\u91cf\u4fe1\u606f\u3002\u68c0\u67e5\u4f7f\u7528\u7206\u70b8\u7269\u548c\u91ce\u86ee\u6b66\u529b\u88ad\u51fb\u57fa\u5730\u7684\u6b66\u5668\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Remember to put a claymore with the \u0022FRONT\u0022 word facing the structure.",
+                    "value": "\u8bb0\u4f4f\u5c06\u5730\u96f7\u4e0a\u5e26\u6709\u201cFRONT\u201d\u5b57\u6837\u7684\u4e00\u9762\u5bf9\u51c6\u5efa\u7b51\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Remember to put an improvised claymore with the frag grenade facing away from the structure.",
+                    "value": "\u8bb0\u4f4f\u5c06\u7b80\u6613\u9614\u5251\u5730\u96f7\u5e26\u6709\u624b\u96f7\u7684\u4e00\u9762\u8fdc\u79bb\u5efa\u7b51",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "M82 bullets can penetrate through multiple layers of level 1 - level 3 walls.",
+                    "value": "M82\u5b50\u5f39\u53ef\u4ee5\u7a7f\u8fc71\u7ea7\u81f33\u7ea7\u5899\u7684\u591a\u5c42\u5b50\u5f39\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Show hunting biomes",
+                    "value": "\u663e\u793a\u72e9\u730e\u751f\u7269\u7fa4\u7cfb",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Overlays",
+                    "value": "\u53e0\u52a0\u5c42",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map layers you can switch on to overlay them on the map.",
+                    "value": "\u53ef\u5f00\u542f\u5e76\u53e0\u52a0\u5230\u5730\u56fe\u4e0a\u7684\u56fe\u5c42\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Map features",
+                    "value": "\u5730\u56fe\u8981\u7d20",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hunting biomes",
+                    "value": "\u72e9\u730e\u751f\u7269\u7fa4\u7cfb",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Regions where each animal species spawns.",
+                    "value": "\u5404\u52a8\u7269\u7269\u79cd\u7684\u5237\u65b0\u533a\u57df\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "\u201cNo-build\u201d zones",
+                    "value": "\u201c\u7981\u5efa\u201d\u533a\u57df",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Areas where bases cannot be placed.",
+                    "value": "\u65e0\u6cd5\u5efa\u9020\u57fa\u5730\u7684\u533a\u57df\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Power lines",
+                    "value": "\u7535\u529b\u7ebf",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Overhead power line routes.",
+                    "value": "\u67b6\u7a7a\u7535\u529b\u7ebf\u8def\u7ebf\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mech walk paths",
+                    "value": "\u673a\u7532\u884c\u8d70\u8def\u5f84",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Patrol routes of the mechs.",
+                    "value": "\u673a\u7532\u7684\u5de1\u903b\u8def\u7ebf\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Labels \u0026 names",
+                    "value": "\u6807\u7b7e\u548c\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cities \u0026 village names",
+                    "value": "\u57ce\u5e02\u548c\u6751\u5e84\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Labels for cities and villages.",
+                    "value": "\u57ce\u5e02\u548c\u6751\u5e84\u7684\u6807\u7b7e\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Street names in the Samobor area.",
+                    "value": "Samobor \u5730\u533a\u7684\u8857\u9053\u540d\u79f0\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bridge names",
+                    "value": "\u6865\u6881\u540d\u79f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Labels for bridges.",
+                    "value": "\u6865\u6881\u7684\u6807\u7b7e\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Island Wildlife Guide",
+                    "value": "\u6d77\u5c9b\u91ce\u751f\u52a8\u7269\u6307\u5357",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Non-threatening",
+                    "value": "\u65e0\u5a01\u80c1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hazardous",
+                    "value": "\u5371\u9669",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Active",
+                    "value": "\u6d3b\u52a8\u65f6\u95f4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Species",
+                    "value": "\u7269\u79cd",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Day",
+                    "value": "\u767d\u5929",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Night",
+                    "value": "\u591c\u665a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Urban",
+                    "value": "\u57ce\u5e02",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Village",
+                    "value": "\u6751\u5e84",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Collapse",
+                    "value": "\u6536\u8d77",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Expand",
+                    "value": "\u5c55\u5f00",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mediterranean",
+                    "value": "\u5730\u4e2d\u6d77",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Continental Meadow",
+                    "value": "\u5927\u9646\u8349\u7538",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Continental Forest",
+                    "value": "\u5927\u9646\u68ee\u6797",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mountain",
+                    "value": "\u5c71\u5730",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Rabbit",
+                    "value": "\u5154\u5b50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Chicken",
+                    "value": "\u9e21",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Horse",
+                    "value": "\u9a6c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Donkey",
+                    "value": "\u9a74",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Deer",
+                    "value": "\u9e7f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bear",
+                    "value": "\u718a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Goat",
+                    "value": "\u5c71\u7f8a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Wolf",
+                    "value": "\u72fc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Boar",
+                    "value": "\u91ce\u732a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bunkers",
+                    "value": "\u5730\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Abandoned bunkers",
+                    "value": "\u5e9f\u5f03\u6218\u58d5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bricks",
+                    "value": "\u7816\u5757",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Points of interest",
+                    "value": "\u7279\u6b8a\u5730\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Villages",
+                    "value": "\u6751\u5e84",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Killboxes",
+                    "value": "Killbox",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Graphite",
+                    "value": "\u77f3\u58a8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sardines",
+                    "value": "\u6c99\u4e01\u9c7c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gas stations",
+                    "value": "\u52a0\u6cb9\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Propane Tank",
+                    "value": "\u4e19\u70f7\u7f50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cement bags",
+                    "value": "\u6c34\u6ce5\u888b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Outdoor restaurant",
+                    "value": "\u5ba4\u5916\u9910\u5385",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gravel bags",
+                    "value": "\u783e\u77f3\u888b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Car garages",
+                    "value": "\u8f66\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Vehicle spawns",
+                    "value": "\u8f7d\u5177\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Vehicle parts",
+                    "value": "\u6c7d\u8f66\u96f6\u4ef6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Aircraft spawns",
+                    "value": "\u98de\u673a\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Wheelbarrow spawns",
+                    "value": "\u624b\u63a8\u8f66\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Workshops",
+                    "value": "\u5de5\u4f5c\u95f4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Boat spawns",
+                    "value": "\u8239\u53ea\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Paddle spawns",
+                    "value": "\u8239\u6868\u5237\u65b0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Outposts",
+                    "value": "\u524d\u54e8\u7ad9\uff08\u4ea4\u6613\u533a\uff09",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Armory",
+                    "value": "\u519b\u68b0\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Saloon",
+                    "value": "\u9152\u9986",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hospital",
+                    "value": "\u533b\u9662",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fishing Supplies",
+                    "value": "\u6e14\u5177\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Mechanic",
+                    "value": "\u8f66\u4fee\u94fa",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "General Goods",
+                    "value": "\u5927\u5b97\u8d27\u7269",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "RIB spawns",
+                    "value": "\u52d5\u529b\u6c7d\u8247\u5237\u65b0\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Warehouses",
+                    "value": "\u4ed3\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Warehouses",
+                    "value": "\u519b\u7528\u4ed3\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Compound",
+                    "value": "\u519b\u4e8b\u573a\u5730",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drill press \/ Lathe",
+                    "value": "\u94bb\u5e8a \/ \u8f66\u5e8a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Caves",
+                    "value": "\u6d1e\u7a74",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Underwater Caves",
+                    "value": "\u6c34\u4e0b\u6d1e\u7a74",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hunting Camps",
+                    "value": "\u730e\u4eba\u8425\u5730",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hunting Towers",
+                    "value": "\u72e9\u730e\u5854",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Log Cabin",
+                    "value": "\u5c0f\u6728\u5c4b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Storage shed",
+                    "value": "\u50a8\u7269\u68da",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "WW2 bunkers",
+                    "value": "\u4e8c\u6218\u7889\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lighthouses",
+                    "value": "\u706f\u5854",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Churches",
+                    "value": "\u6559\u5802",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Church in Novigrad",
+                    "value": "\u8bfa\u7ef4\u683c\u52d2\u6559\u5802",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Small Church in Novigrad",
+                    "value": "\u8bfa\u7ef4\u683c\u52d2\u7684\u5c0f\u6559\u5802",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Krsko POIs",
+                    "value": "Krsko\u5174\u8da3\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "School Gym",
+                    "value": "\u5b66\u6821\u4f53\u80b2\u9986",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Food Shop",
+                    "value": "\u98df\u54c1\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Chinese Shop",
+                    "value": "\u4e2d\u56fd\u5546\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pharmacy",
+                    "value": "\u836f\u623f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Water sources",
+                    "value": "\u6c34\u6e90",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Police stations",
+                    "value": "\u8b66\u5bdf\u5c40",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bunkers \u0026 Killboxes",
+                    "value": "\u5730\u5821 \u0026 \u6740\u622e\u76d2",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Shipwrecks",
+                    "value": "\u6c89\u8239\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Boat, Paddle, RIB Spawns",
+                    "value": "\u8239, \u7acb\u69f3, \u52d5\u529b\u6c7d\u8247 \u91cd\u751f\u8655",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "World War 2 Bunkers",
+                    "value": "\u4e8c\u6218\u7889\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Workshops and Warehouses",
+                    "value": "\u5de5\u5ee0\u53ca\u5009\u5eab",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drill Presses \u0026 Lathes",
+                    "value": "\u8eca\u5e8a \u947d\u5e8a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Car Garages \u0026 Repair Shops",
+                    "value": "\u8eca\u5eab \u4fee\u8eca\u5ee0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bricks, Cement and Gravel",
+                    "value": "\u78da\u584a\u5834 \u6c34\u6ce5\u5ee0 \u792b\u77f3\u5834",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hunting Camps and Towers",
+                    "value": "\u72e9\u730e\u8425\u5730\u548c\u5854",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Coal Mine",
+                    "value": "\u7164\u70ad\u7926\u4e95",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Dam",
+                    "value": "\u6c34\u575d",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "%sector% Bunker",
+                    "value": "%sector% \u5730\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Level %number%",
+                    "value": "%number%\u697c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Airport",
+                    "value": "\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Airfield",
+                    "value": "\u7a7a\u519b\u57fa\u5730",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Z0 Airfield",
+                    "value": "Z0\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "A4 Airfield",
+                    "value": "A4\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "A0 Outpost Airfield",
+                    "value": "A0 \u524d\u54e8\u7ad9\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "B4 Outpost Airfield",
+                    "value": "B4 \u524d\u54e8\u7ad9\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Z3 Outpost Airfield",
+                    "value": "Z3 \u524d\u54e8\u7ad9\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "DPinchy monument",
+                    "value": "DPinchy \u7eaa\u5ff5\u7891",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "C2 Airfield",
+                    "value": "C2\u673a\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Factory",
+                    "value": "\u5de5\u5382",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gun Range",
+                    "value": "\u9776\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Train Yard",
+                    "value": "\u706b\u8f66\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Boot Camp",
+                    "value": "\u65b0\u5175\u8bad\u7ec3\u8425",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Prison",
+                    "value": "\u76d1\u72f1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fish Factory",
+                    "value": "\u6c99\u4e01\u9c7c\u5de5\u5382",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Naval Base",
+                    "value": "\u6d77\u519b\u57fa\u5730",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "North Quarry",
+                    "value": "\u4e0a\u91c7\u77f3\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "South Quarry",
+                    "value": "\u4e0b\u91c7\u77f3\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Samobor City",
+                    "value": "\u8428\u9ed8\u73bb\u5c14\u57ce",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Krsko City",
+                    "value": "Krsko\u57ce",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "D2 Castle",
+                    "value": "\u96ea\u5c71\u57ce\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "B3 Castle",
+                    "value": "\u68ee\u6797\u57ce\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Radio Station",
+                    "value": "\u5e7f\u64ad\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Observatory",
+                    "value": "\u5929\u6587\u53f0",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Monolith",
+                    "value": "\u77f3\u7891",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lumber Mill",
+                    "value": "\u4f10\u6728\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Klenovnik Hospital",
+                    "value": "Klenovnik\u533b\u9662",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Dvorac Gradec Mali",
+                    "value": "\u683c\u62c9\u4ee3\u8328\u57ce\u5821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sanitarium",
+                    "value": "\u7642\u990a\u9662",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cheese Factory",
+                    "value": "\u5976\u916a\u5382",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Weapons Factory",
+                    "value": "\u5175\u5de5\u5382",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Brick Factory",
+                    "value": "\u7816\u5382",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Small Shipyard",
+                    "value": "\u5c0f\u8239\u575e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Windmills",
+                    "value": "\u98ce\u8f66",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Waterfall",
+                    "value": "\u7011\u5e03",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Barracks",
+                    "value": "\u519b\u8425",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Halloween House",
+                    "value": "\u4e07\u5723\u5c0f\u5c4b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ramsons Hill",
+                    "value": "\u718a\u8525\u5c71\u4e18",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Safe Zone",
+                    "value": "\u5b89\u5168\u533a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "TEC-1 Outpost",
+                    "value": "TEC-1\u524d\u54e8\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Club",
+                    "value": "\u591c\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "MMA Cage",
+                    "value": "MMA\u6454\u89d2\u7b3c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Well",
+                    "value": "\u4e95",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hand Water Pump",
+                    "value": "\u6c34\u6cf5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Natural Spring",
+                    "value": "\u5929\u7136\u6cc9\u6c34",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Water Dispenser",
+                    "value": "\u996e\u6c34\u673a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fountain",
+                    "value": "\u55b7\u6cc9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Novo Selo",
+                    "value": "\u632a\u83ab\u5e0c\u6d1b",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Motorbike Track",
+                    "value": "\u6469\u6258\u8f66\u8d5b\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Trainyard",
+                    "value": "\u706b\u8f66\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Apple trees",
+                    "value": "\u860b\u679c\u6a39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Broccoli",
+                    "value": "\u82b1\u6930\u83dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cabbages",
+                    "value": "\u9ad8\u9e97\u83dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Carrots",
+                    "value": "\u7d05\u863f\u8514",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cherry trees",
+                    "value": "\u6afb\u6843\u6a39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Corn fields",
+                    "value": "\u7389\u7c73\u7530",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cucumbers",
+                    "value": "\u5c0f\u9ec3\u74dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Date palms",
+                    "value": "\u6930\u68d7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Grapevines",
+                    "value": "\u8461\u8404",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Olive trees",
+                    "value": "\u6a44\u6b16\u6a39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Onions",
+                    "value": "\u6d0b\u8525",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Parsley",
+                    "value": "\u6b50\u82b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Park Pond",
+                    "value": "\u516c\u56ed\u6e56",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pear trees",
+                    "value": "\u897f\u6d0b\u68a8\u6a39",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Potatoes",
+                    "value": "\u99ac\u9234\u85af",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Ramsons",
+                    "value": "\u718a\u8525",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Strawberries",
+                    "value": "\u8349\u8393",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sunflower fields",
+                    "value": "\u5411\u65e5\u8475\u7530",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Watermelons",
+                    "value": "\u897f\u74dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pharmacies",
+                    "value": "\u85e5\u623f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Log Cabins and Storage Sheds",
+                    "value": "\u5c0f\u6728\u5c4b\u548c\u5132\u85cf\u5ba4",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Prvo Selo",
+                    "value": "Prvo Selo",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Parsnip",
+                    "value": "\u9632\u98ce\u8349 \uff1b \u6b27\u6d32\u841d\u535c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Dr. Tu\u0111man Bridge",
+                    "value": "\u6d82\u4eec\u533b\u751f\u5927\u6865",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Krk Bridge",
+                    "value": "\u514b\u5c14\u514b\u6865",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pelje\u0161ac Bridge",
+                    "value": "Peljesac\u5927\u6865\u3002",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Rogoznica",
+                    "value": "\u7f57\u6298\u5c3c\u5361",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Novigrad",
+                    "value": "\u8bfa\u7ef4\u683c\u745e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Big Vern monument",
+                    "value": "\u5927\u77f3\u5236\u7eaa\u5ff5\u7891",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Slani Dol",
+                    "value": "\u65af\u62c9 \u7279",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Drvenik",
+                    "value": "\u65e6\u5582\u5c3c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Jelsa",
+                    "value": "\u6d59\u6c99",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Brela",
+                    "value": "\u5e03\u96f7\u62c9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Murvica",
+                    "value": "\u9ed8\u5c14\u7ef4\u5361",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lobor",
+                    "value": "\u53fb\u6ce2",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Selca",
+                    "value": "\u6c99\u5361",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gdinj",
+                    "value": "\u5409\u8fea\u5c3c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Camping Site",
+                    "value": "\u9732\u8425\u5730\u70b9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Radar \u0026 Trenches",
+                    "value": "\u6218\u58d5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Salt Ponds",
+                    "value": "\u76d0\u6c60",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bars",
+                    "value": "\u9152\u5427",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Pubs",
+                    "value": "\u9152\u5427",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Schools",
+                    "value": "\u5b66\u6821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "School",
+                    "value": "\u5b66\u6821",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Elementary School",
+                    "value": "\u5c0f\u5b66",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Elementary School Yard",
+                    "value": "\u5c0f\u5b66\u9662\u5b50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Running Track",
+                    "value": "\u8dd1\u9053",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clubs",
+                    "value": "\u4ff1\u4e50\u90e8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Junkyard",
+                    "value": "\u5e9f\u8f66\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Logs",
+                    "value": "\u539f\u6728",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Lockers",
+                    "value": "\u9501\u67dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Medical Containers",
+                    "value": "\u836f\u7bb1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Small Docks",
+                    "value": "\u5c0f\u7801\u5934",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Big Shipwrecks",
+                    "value": "\u5927\u6c89\u8239",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Small Shipwrecks",
+                    "value": "\u5c0f\u6c89\u8239",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clothing Shop",
+                    "value": "\u670d\u88c5\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Shoe Shop",
+                    "value": "\u978b\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Liquor Store",
+                    "value": "\u9152\u94fa",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hardware Store",
+                    "value": "\u4e94\u91d1\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Military Stash",
+                    "value": "\u519b\u4e8b\u4ed3\u5e93",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gun Shop",
+                    "value": "\u67aa\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Clinic",
+                    "value": "\u8bca\u6240",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Supermarket",
+                    "value": "\u8d85\u5e02",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Marketplace",
+                    "value": "\u5e02\u96c6",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Market",
+                    "value": "\u8d85\u5e02",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sports Hall",
+                    "value": "\u4f53\u80b2\u573a",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Fire Station",
+                    "value": "\u6d88\u9632\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "B4 Outpost",
+                    "value": "B4\u524d\u54e8\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "A0 Outpost",
+                    "value": "A0\u524d\u54e8\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "C2 Outpost",
+                    "value": "C2\u524d\u54e8\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Z3 Outpost",
+                    "value": "Z3\u524d\u54e8\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Nuclear Power Plant",
+                    "value": "\u6838\u7535\u7ad9",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Radiation Equipment Lockers",
+                    "value": "\u9632\u8f90\u5c04\u7269\u8d44\u9501\u67dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hazmat Suit Lockers",
+                    "value": "\u9632\u5316\u670d\u50a8\u7269\u67dc",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Depleted Uranium Crates",
+                    "value": "\u88c5\u6709\u8d2b\u94c0\u7684\u7bb1\u5b50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Rosemary Thyme",
+                    "value": "Rosemary Thyme\u9910\u5385",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hotel Marina",
+                    "value": "Marina\u9152\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Hotel",
+                    "value": "\u9152\u5e97",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Novigrad Hospital",
+                    "value": "Novigrad\u533b\u9662",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "No Skill",
+                    "value": "\u6ca1\u6709\u6280\u80fd",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Basic",
+                    "value": "\u57fa\u672c",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Medium",
+                    "value": "\u4e2d\u7ea7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Advanced",
+                    "value": "\u9ad8\u7ea7",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Blunt tool",
+                    "value": "\u949d\u5668",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sticks",
+                    "value": "\u68cd\u68d2",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Planks",
+                    "value": "\u6728\u677f",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Scrap",
+                    "value": "\u94c1\u7247",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Nails Or Bolts",
+                    "value": "\u9489\u5b50\u6216\u87ba\u6813",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Bolts",
+                    "value": "\u87ba\u6813",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Nails",
+                    "value": "\u9489\u5b50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Cement",
+                    "value": "\u6c34\u6ce5",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Barbed Wire",
+                    "value": "\u94c1\u4e1d\u7f51",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Toolbox",
+                    "value": "\u5de5\u5177\u7bb1",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Gravel",
+                    "value": "\u6c99\u783e",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Sand",
+                    "value": "\u6c99\u5b50",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Water",
+                    "value": "\u6c34",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Single Door Frame",
+                    "value": "\u5355\u95e8\u6846",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Double Door Frame",
+                    "value": "\u53cc\u95e8\u6846",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Aircraft Door Frame",
+                    "value": "\u98de\u673a\u95e8\u6846",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Single Door",
+                    "value": "\u5355\u95e8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Double Door",
+                    "value": "\u53cc\u95e8",
+                    "__typename": "I18n"
+                },
+                {
+                    "key": "Aircraft Door",
+                    "value": "\u98de\u673a\u95e8",
+                    "__typename": "I18n"
+                }
+            ],
+            "settings": {
+                "enabledLocaleList": [
+                    {
+                        "locale": "cs",
+                        "localeDisplayName": "\u010de\u0161tina",
+                        "language": "cs",
+                        "languageName": "\u010de\u0161tina",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "de",
+                        "localeDisplayName": "Deutsch",
+                        "language": "de",
+                        "languageName": "Deutsch",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "en",
+                        "localeDisplayName": "English",
+                        "language": "en",
+                        "languageName": "English",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "es-ES",
+                        "localeDisplayName": "espa\u00f1ol (Espa\u00f1a)",
+                        "language": "es",
+                        "languageName": "espa\u00f1ol",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "fr",
+                        "localeDisplayName": "fran\u00e7ais",
+                        "language": "fr",
+                        "languageName": "fran\u00e7ais",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "hr",
+                        "localeDisplayName": "hrvatski",
+                        "language": "hr",
+                        "languageName": "hrvatski",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "hu",
+                        "localeDisplayName": "magyar",
+                        "language": "hu",
+                        "languageName": "magyar",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "it",
+                        "localeDisplayName": "italiano",
+                        "language": "it",
+                        "languageName": "italiano",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "ko",
+                        "localeDisplayName": "\ud55c\uad6d\uc5b4",
+                        "language": "ko",
+                        "languageName": "\ud55c\uad6d\uc5b4",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "lv",
+                        "localeDisplayName": "latvie\u0161u",
+                        "language": "lv",
+                        "languageName": "latvie\u0161u",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "nl",
+                        "localeDisplayName": "Nederlands",
+                        "language": "nl",
+                        "languageName": "Nederlands",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "pl",
+                        "localeDisplayName": "polski",
+                        "language": "pl",
+                        "languageName": "polski",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "pt-BR",
+                        "localeDisplayName": "portugu\u00eas (Brasil)",
+                        "language": "pt",
+                        "languageName": "portugu\u00eas",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "ru",
+                        "localeDisplayName": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
+                        "language": "ru",
+                        "languageName": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "sv-SE",
+                        "localeDisplayName": "svenska (Sverige)",
+                        "language": "sv",
+                        "languageName": "svenska",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "th",
+                        "localeDisplayName": "\u0e44\u0e17\u0e22",
+                        "language": "th",
+                        "languageName": "\u0e44\u0e17\u0e22",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "tr",
+                        "localeDisplayName": "T\u00fcrk\u00e7e",
+                        "language": "tr",
+                        "languageName": "T\u00fcrk\u00e7e",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "uk",
+                        "localeDisplayName": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
+                        "language": "uk",
+                        "languageName": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "vi",
+                        "localeDisplayName": "Ti\u1ebfng Vi\u1ec7t",
+                        "language": "vi",
+                        "languageName": "Ti\u1ebfng Vi\u1ec7t",
+                        "__typename": "I18nLocale"
+                    },
+                    {
+                        "locale": "zh-CN",
+                        "localeDisplayName": "\u4e2d\u6587\uff08\u4e2d\u56fd\uff09",
+                        "language": "zh",
+                        "languageName": "\u4e2d\u6587",
+                        "__typename": "I18nLocale"
+                    }
+                ],
+                "__typename": "I18nSettings"
+            },
+            "__typename": "QueryI18n"
+        }
+    }
+}
