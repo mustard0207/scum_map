@@ -118,14 +118,15 @@
             <text class="task-name">{{item.name}}</text>
             <text class="task-status" wx:if="{{item.remainingMs <= 0}}">✓ 已完成</text>
           </view>
-          <view class="task-card-body" wx:if="{{item.remainingMs > 0}}">
+          <view class="task-card-body">
             <view class="task-countdown">
               <text class="countdown-label">剩余现实时间</text>
-              <text class="countdown-value">{{item.countdownDisplay}}</text>
+              <text class="countdown-value" wx:if="{{item.remainingMs > 0}}">{{item.countdownDisplay}}</text>
+              <text class="countdown-value countdown-done" wx:else>✅ 已完成</text>
             </view>
             <view class="task-estimate">
               <text class="estimate-label">预计现实时间</text>
-              <text class="estimate-value">{{item.endDisplay}} 完成</text>
+              <text class="estimate-value">{{item.endDisplay}}{{item.remainingMs > 0 ? ' 完成' : ' 已结束'}}</text>
             </view>
           </view>
           <view class="task-card-actions">

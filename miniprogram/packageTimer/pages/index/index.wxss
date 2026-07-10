@@ -330,6 +330,13 @@
   color: #FFB000;
 }
 
+.countdown-done {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: #67C23A;
+}
+
 .estimate-value {
   font-size: 13px;
   color: #D4C8A0;
