@@ -17,7 +17,7 @@ description: "POI data pipeline: merge category data and extract name labels fro
 
 **输出**
 - `miniprogram/packageMap/data/category-map.js` — 直接复制
-- `miniprogram/packageMap/data/poi/poi-{section}.js` — 按 section 合并（12 个文件，共 ~510KB）
+- `miniprogram/packageMapData/poi/poi-{section}.js` — 按 section 合并（13 个文件，共 ~545K，分包异步化加载）
 
 ### 地名标签数据
 

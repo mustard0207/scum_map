@@ -134,7 +134,7 @@ module.exports = [
 node tools/merge-poi-data.js
 ```
 
-**功能**：将 `点位数据/分类/` 下的 102 个分类文件按 section 合并为 12 个文件，输出到 `miniprogram/packageMap/data/poi/`。
+**功能**：将 `点位数据/分类/` 下的 102 个分类文件按 section 合并为 13 个文件，输出到 `miniprogram/packageMapData/poi/`（分包异步化加载）。
 
 **何时运行**：从 scum-map.com 更新分类数据后运行一次。
 
@@ -252,7 +252,7 @@ ingameLatitude  = -4756.735 * webLat + 617499.890
 ## 七、注意事项
 
 1. **category-map.js 需手动复制**：更新后需复制到 `miniprogram/packageMap/data/`
-2. **section 文件由脚本生成**：不要手动编辑 `miniprogram/packageMap/data/poi/` 下的文件
+2. **section 文件由脚本生成**：不要手动编辑 `miniprogram/packageMapData/poi/` 下的文件
 3. **坐标系**：使用游戏内坐标，不是经纬度坐标
 4. **emoji 兼容性**：已排除 Unicode 13.0+ 的不兼容 emoji（🪖、🪵、🪨 等）
 5. **分类文件格式**：`分类/*.js` 是 `[id, catId, lng, lat, h]` 数组格式，section 文件是对象格式
@@ -265,12 +265,12 @@ ingameLatitude  = -4756.735 * webLat + 617499.890
 
 ### 8.1 数据合并阶段
 1. 将新的原始分类文件放入 `点位数据/分类/` 中。
-2. 运行 `merge-poi-data.js` 脚本，它会自动根据 `category-map.js` 重新生成 `miniprogram/packageMap/data/poi/` 目录下的所有 `poi-xxx.js` 文件。
+2. 运行 `merge-poi-data.js` 脚本，它会自动根据 `category-map.js` 重新生成 `miniprogram/packageMapData/poi/` 目录下的所有 `poi-xxx.js` 文件。
 
 ### 8.2 更新小程序端按需加载的 Switch 映射表 (非常关键)
 为了让微信的**静态代码分析（代码保护机制）**能够正常打包这些新文件，并且实现零开销的按需懒加载，我们禁止使用动态 `require`（例如 `require('poi-' + section)`）。
 
-当你在 `miniprogram/packageMap/data/poi/` 下发现**有新增的 Section 名称**（即生成了全新的 `poi-新名字.js` 文件），你**必须同步更新**地图主页的加载逻辑代码。
+当你在 `miniprogram/packageMapData/poi/` 下发现**有新增的 Section 名称**（即生成了全新的 `poi-新名字.js` 文件），你**必须同步更新**地图主页的加载逻辑代码。
 
 **操作步骤**：
 1. 打开 `miniprogram/packageMap/pages/map/map.js` 文件。
@@ -280,9 +280,9 @@ ingameLatitude  = -4756.735 * webLat + 617499.890
 ```javascript
       switch (section) {
         // ... 已有的 cases
-        case 'Buildings': sectionData = require('../../data/poi/poi-Buildings.js'); break;
+        case 'Buildings': sectionData = await require.async('../../../packageMapData/poi/poi-Buildings.js'); break;
         // 👇 新增的对应的 case（注意路径一定要是纯静态字符串）
-        case '你的新Section名字': sectionData = require('../../data/poi/poi-你的新Section名字.js'); break;
+        case '你的新Section名字': sectionData = await require.async('../../../packageMapData/poi/poi-你的新Section名字.js'); break;
       }
 ```
 **注意**：如果你只是向已有的 Section（例如 `Buildings`）里面增加了新的坐标点位，而**没有增加新的大类 Section 文件**，则**不需要**修改 `map.js`，只重新跑脚本替换文件即可。
