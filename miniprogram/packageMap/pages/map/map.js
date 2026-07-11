@@ -201,8 +201,15 @@ Page({
     if (sysInfo) this.setData({ statusBarHeight: sysInfo.statusBarHeight })
 
     // 首次引导检查
-    if (!wx.getStorageSync('hasSeenGuide')) {
+    const isFirstVisit = !wx.getStorageSync('hasSeenGuide')
+    if (isFirstVisit) {
       this.setData({ showGuide: true })
+      // 首次使用：不预加载 POI，等用户关引导后再触发，避免 JS 线程争用
+    } else {
+      // 老用户：延迟预加载 POI 数据，等地图渲染完成后再处理
+      setTimeout(() => {
+        this._getSectionData('Points of interest').catch(e => console.warn('[POI] 预加载失败:', e))
+      }, 500)
     }
 
     // 预计算每个大类的小类数量
@@ -213,9 +220,6 @@ Page({
     poiGroupCounts['_custom'] = USER_MARKER_FILTER_TYPES.length
     this.setData({ poiGroupCounts })
     this._updateSectionSelectedCounts()
-
-    // 预加载默认前哨站数据（catId=80 → Points of interest section）
-    this._getSectionData('Points of interest')
 
     // POI 刷新由 onMapReady → _schedulePoiRefresh 触发，此处不提前调用
 
@@ -1194,7 +1198,7 @@ Page({
 
     // 展开时预加载该大类的数据（计算小类点位数），自定义标记无需加载 POI 数据
     if (group !== '_custom' && group !== '_biome' && !expanded[group]) {
-      this._getSectionData(group)
+      this._getSectionData(group).catch(e => console.warn('[POI] 加载失败:', e))
     }
 
     expanded[group] = !expanded[group]
@@ -1439,13 +1443,13 @@ Page({
    * 预计算 POI 逻辑像素坐标缓存
    * 筛选切换时调用一次，避免每次手势结束都做坐标转换
    */
-  _buildPoiPixelCache() {
+  async _buildPoiPixelCache() {
     const { activePoiCats, showPlaceNames } = this.data
     const cache = []
-    activePoiCats.forEach(catId => {
+    for (const catId of activePoiCats) {
       const section = CAT_SECTION[catId]
-      if (!section) return
-      const sectionPoints = this._getSectionData(section)
+      if (!section) continue
+      const sectionPoints = await this._getSectionData(section)
       sectionPoints.forEach(p => {
         if (String(p.cat) !== catId) return
         cache.push({
@@ -1458,11 +1462,11 @@ Page({
           mpy: (p.lat - GEO_LAT_TOP) / (GEO_LAT_BOTTOM - GEO_LAT_TOP) * FULL_MAP
         })
       })
-    })
+    }
 
     // 地名标签数据
     if (showPlaceNames) {
-      const labelData = this._getLabelData()
+      const labelData = await this._getLabelData()
       labelData.forEach(p => {
         cache.push({
           id: p.id,
@@ -1482,9 +1486,9 @@ Page({
   },
 
   /** 加载地名标签数据 */
-  _getLabelData() {
+  async _getLabelData() {
     if (!this._labelCache) {
-      const data = require('../../data/poi/poi-Labels.js')
+      const data = await require.async('../../../packageMapData/poi/poi-Labels.js')
       const labels = []
       data.bridges.forEach(b => {
         labels.push({ id: 'bridge_' + b.name, lng: b.igLng, lat: b.igLat, labelText: b.name })
@@ -1503,12 +1507,12 @@ Page({
    * Step 2: 视口裁剪（半屏 margin）
    * Step 3: 硬上限 200
    */
-  _refreshPoiMarkers() {
+  async _refreshPoiMarkers() {
     const mapComp = this.selectComponent('#tileMap')
     if (!mapComp) return
 
-    // 取缓存或首次构建
-    const cache = this._poiPixelCache || this._buildPoiPixelCache()
+    // 取缓存或首次构建（异步加载 POI 数据）
+    const cache = this._poiPixelCache || (await this._buildPoiPixelCache())
 
     const scale = mapComp.getScale()
     const vw = mapComp._vw || 375
@@ -1581,23 +1585,23 @@ Page({
   },
 
   /** 按需加载 section 数据（带缓存） */
-  _getSectionData(section) {
+  async _getSectionData(section) {
     if (!this._sectionCache) this._sectionCache = {}
     if (!this._sectionCache[section]) {
       let sectionData = []
       switch (section) {
-        case 'Buildings': sectionData = require('../../data/poi/poi-Buildings.js'); break;
-        case 'Bunkers': sectionData = require('../../data/poi/poi-Bunkers.js'); break;
-        case 'Construction materials': sectionData = require('../../data/poi/poi-Construction materials.js'); break;
-        case 'Crops': sectionData = require('../../data/poi/poi-Crops.js'); break;
-        case 'Loot containers': sectionData = require('../../data/poi/poi-Loot containers.js'); break;
-        case 'Outposts': sectionData = require('../../data/poi/poi-Outposts.js'); break;
-        case 'Points of interest': sectionData = require('../../data/poi/poi-Points of interest.js'); break;
-        case 'Quests': sectionData = require('../../data/poi/poi-Quests.js'); break;
-        case 'Radiation': sectionData = require('../../data/poi/poi-Radiation.js'); break;
-        case 'Vehicles': sectionData = require('../../data/poi/poi-Vehicles.js'); break;
-        case 'Water sources': sectionData = require('../../data/poi/poi-Water sources.js'); break;
-        case '无分组': sectionData = require('../../data/poi/poi-无分组.js'); break;
+        case 'Buildings': sectionData = await require.async('../../../packageMapData/poi/poi-Buildings.js'); break;
+        case 'Bunkers': sectionData = await require.async('../../../packageMapData/poi/poi-Bunkers.js'); break;
+        case 'Construction materials': sectionData = await require.async('../../../packageMapData/poi/poi-Construction materials.js'); break;
+        case 'Crops': sectionData = await require.async('../../../packageMapData/poi/poi-Crops.js'); break;
+        case 'Loot containers': sectionData = await require.async('../../../packageMapData/poi/poi-Loot containers.js'); break;
+        case 'Outposts': sectionData = await require.async('../../../packageMapData/poi/poi-Outposts.js'); break;
+        case 'Points of interest': sectionData = await require.async('../../../packageMapData/poi/poi-Points of interest.js'); break;
+        case 'Quests': sectionData = await require.async('../../../packageMapData/poi/poi-Quests.js'); break;
+        case 'Radiation': sectionData = await require.async('../../../packageMapData/poi/poi-Radiation.js'); break;
+        case 'Vehicles': sectionData = await require.async('../../../packageMapData/poi/poi-Vehicles.js'); break;
+        case 'Water sources': sectionData = await require.async('../../../packageMapData/poi/poi-Water sources.js'); break;
+        case '无分组': sectionData = await require.async('../../../packageMapData/poi/poi-无分组.js'); break;
       }
       this._sectionCache[section] = sectionData
       // 计算该 section 中每个 catId 的点位数
@@ -1721,6 +1725,8 @@ Page({
   dismissGuide() {
     this.setData({ showGuide: false });
     wx.setStorageSync('hasSeenGuide', true);
+    // 引导关闭后，开始加载 POI 数据（避免 JS 线程争用阻塞交互）
+    this._getSectionData('Points of interest').catch(e => console.warn('[POI] 预加载失败:', e));
   },
 
   openGuide() {
@@ -1741,8 +1747,12 @@ Page({
   /** 安排 POI 刷新（防抖，独立于手势） */
   _schedulePoiRefresh() {
     if (this._poiRefreshTimer) clearTimeout(this._poiRefreshTimer)
-    this._poiRefreshTimer = setTimeout(() => {
-      this._refreshPoiMarkers()
+    this._poiRefreshTimer = setTimeout(async () => {
+      try {
+        await this._refreshPoiMarkers()
+      } catch (e) {
+        console.warn('[POI] 刷新失败:', e)
+      }
     }, 200)
   },
 

@@ -35,8 +35,20 @@
       "pages": [
         "pages/index/index"
       ]
+    },
+    {
+      "root": "packageMapData",
+      "pages": [
+        "index/index"
+      ]
     }
   ],
+  "preloadRule": {
+    "packageMap/pages/map/map": {
+      "network": "all",
+      "packages": ["packageMapData"]
+    }
+  },
   "window": {
     "navigationBarBackgroundColor": "#1C1A10",
     "navigationBarTitleText": "SCUM游戏工具箱",

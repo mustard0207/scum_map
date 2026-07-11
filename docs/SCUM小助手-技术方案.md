@@ -1,6 +1,6 @@
 # SCUM游戏工具箱微信小程序 — 技术方案
 
-> 版本：v1.6.1 (微信公众号素材库 CDN 主备切换 + 故障转移) | 更新时间：2026-07-12
+> 版本：v1.6.2 (地图分包异步化性能优化) | 更新时间：2026-07-12
 
 ---
 
@@ -163,9 +163,13 @@ if (USE_WECHAT_CDN) {
   - `pages/index`: 首页导航
   - `pages/index`: 首页导航
   - `assets/tiles/`: 地图图片（主包中，确保真机可达）
-- **地图分包 (packageMap)**
+- **地图分包 (packageMap)** ~371K
   - `pages/map`: 地图核心功能页
   - `components/tile-map`: 地图组件
+  - `data/category-map.js`: POI 分类配置
+  - `data/hunting.js`: 狩猎区域数据
+- **地图数据分包 (packageMapData)** ~545K（分包异步化，按需加载）
+  - `data/poi/`：13 个 POI 数据文件（首次渲染不阻塞）
 
 ### 4.2 路由配置 (app.json)
 ```json
@@ -174,9 +178,19 @@ if (USE_WECHAT_CDN) {
   "subPackages": [
     {
       "root": "packageMap",
-      "pages": ["pages/map/map"]
+      "pages": ["pages/map/map", "pages/hunting/hunting"]
+    },
+    {
+      "root": "packageMapData",
+      "pages": ["index/index"]
     }
-  ]
+  ],
+  "preloadRule": {
+    "packageMap/pages/map/map": {
+      "network": "all",
+      "packages": ["packageMapData"]
+    }
+  }
 }
 ```
 
@@ -741,17 +755,30 @@ miniprogram/
 ├── pages/                       # 主包：功能入口
 │   └── index/
 │
-├── packageMap/                  # 地图分包（Z3/Z4/Z6 瓦片走网络加载+本地缓存）
+├── packageMap/                  # 地图分包（~371K）
 │   ├── pages/
-│   │   └── map/
-│   │       ├── map.js           # 地图页面逻辑（含缩放拖拉条）
-│   │       ├── map.wxml         # 地图页面模板
-│   │       └── map.wxss         # 地图页面样式
+│   │   ├── map/
+│   │   │   ├── map.js           # 地图页面逻辑（含缩放拖拉条）
+│   │   │   ├── map.wxml         # 地图页面模板
+│   │   │   └── map.wxss         # 地图页面样式
+│   │   └── hunting/             # 狩猎助手页面
 │   │
-│   └── components/
-│       └── tile-map/
-│           ├── tile-map.js      # 地图组件逻辑（Z2+Z3+Z4+Z6 分层加载）
-│           ├── tile-map.wxml    # 地图组件模板
+│   ├── components/
+│   │   └── tile-map/
+│   │       ├── tile-map.js      # 地图组件逻辑（Z2+Z3+Z4+Z6 分层加载）
+│   │       ├── tile-map.wxml    # 地图组件模板
+│   │
+│   └── data/
+│       ├── category-map.js      # POI 分类配置
+│       └── hunting.js           # 狩猎区域数据
+│
+├── packageMapData/              # 地图数据分包（~545K，分包异步化按需加载）
+│   ├── index/                   # 占位页面
+│   └── poi/
+│       ├── poi-Buildings.js     # POI 点位数据（13 个文件）
+│       ├── poi-Crops.js
+│       ├── poi-Vehicles.js
+│       └── ...
 │           └── tile-map.wxss    # 地图组件样式
 ```
 
@@ -812,7 +839,7 @@ wx.createSelectorQuery().in(this)
 
 | # | 检查项 | 状态 | 说明 |
 |---|--------|------|------|
-| 1 | 代码包不超过 1.5M | ✅ | 主包约 500KB，packageMap 约 100KB |
+| 1 | 代码包不超过 1.5M | ✅ | 主包约 500KB，packageMap 约 371KB（POI 数据已拆为独立分包） |
 | 2 | 引用插件不超过 200K | ✅ | 无插件引用 |
 | 3 | 图片音频不超过 200K | ⚠️ | Z2 底图 455KB 超限；Z3/Z4/Z6 瓦片走网络加载 |
 | 4 | 主包无仅被分包依赖的 JS | ✅ | 主包 JS 均为主包自用 |
@@ -824,6 +851,7 @@ wx.createSelectorQuery().in(this)
 | 10 | WXSS 压缩已开启 | ✅ | `minifyWXSS: true` |
 | 11 | 无依赖文件 | ⚠️ | 需在开发者工具中确认 |
 | 12 | 组件懒注入已开启 | ✅ | `lazyCodeLoading: "requiredComponents"` |
+| 13 | 分包异步化 | ✅ | POI 数据拆为独立分包 packageMapData，require.async 异步加载 |
 
 ---
 
@@ -833,7 +861,7 @@ wx.createSelectorQuery().in(this)
 | 图片格式兼容性 | 使用 JPG 格式，确保真机兼容 |
 | 手势事件冲突 | 标记放在 map-viewport 外面，避免被 catchtouchstart 拦截；双击在 onTouchEnd 中检测，避免与拖拽冲突 |
 | 地图滑出可视区域 | 右下角浮动"回到全局视角"按钮（⊙），一键重置缩放和位置 |
-| 包体审核超限 | 主包约 500KB，packageMap 约 100KB，极度安全 |
+| 包体审核超限 | 主包约 500KB，packageMap 约 371KB（POI 数据已拆至 packageMapData），总包 < 1.5M，极度安全 |
 | Z2 底图超过 200KB | `0_0.jpg`（455KB）超过微信 200KB 建议值，但可正常加载 |
 | 分享 URL 超长 | 标记上限 100 个，单个标记约 20-25 字符，远低于 2000 字符限制 |
 | 网格极端缩小不可读 | MIN_SCALE 动态等于适屏比例，用户无法缩到比初始状态更小 |

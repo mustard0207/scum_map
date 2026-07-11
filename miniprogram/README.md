@@ -28,11 +28,17 @@ miniprogram/
 ├── pages/
 │   ├── index/               # 首页（主包，轻量功能入口）
 │   └── about/               # 关于页（主包）
-├── packageMap/              # 地图分包（~86KB，Z4 瓦片走网络加载+本地缓存）
+├── packageMap/              # 地图分包（~371K，POI 数据已拆离）
 │   ├── pages/
 │   │   └── map/             # 核心地图页面
-│   └── components/
-│       └── tile-map/        # 瓦片引擎（自定义 touch 手势 + CSS transform + 网络加载 + 本地缓存）
+│   ├── components/
+│   │   └── tile-map/        # 瓦片引擎（自定义 touch 手势 + CSS transform + 网络加载 + 本地缓存）
+│   └── data/
+│       ├── category-map.js  # POI 分类配置
+│       └── hunting.js       # 狩猎区域数据
+├── packageMapData/          # 地图数据分包（~545K，分包异步化按需加载）
+│   ├── index/               # 占位页面
+│   └── poi/                 # 13 个 POI 点位数据文件
 ├── packageBunker/           # 地堡工具分包（计算器等独立解密辅助工具）
 │   └── pages/
 │       ├── index/           # 地堡工具列表页
@@ -133,7 +139,7 @@ miniprogram/
 | Z4 瓦片 | jsDelivr CDN 网络加载 + 本地缓存 |
 | Z4 URL | `https://cdn.jsdelivr.net/gh/mustard0207/scum_map@main/4/{x}_{y}.webp` |
 | Z4 缓存 | `wx.env.USER_DATA_PATH/scum_tiles/4/{col}_{row}.webp` |
-| 总包体积 | ~600KB (极度安全) |
+| 总包体积 | ~1.5M（packageMap 371K + packageMapData 545K 异步加载 + 主包 ~500K） |
 
 ### 坐标系统
 - **地理坐标系**：SCUM 游戏内坐标（经纬度）
