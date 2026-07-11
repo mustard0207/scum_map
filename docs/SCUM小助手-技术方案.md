@@ -1,6 +1,6 @@
 # SCUM游戏工具箱微信小程序 — 技术方案
 
-> 版本：v1.4.0 (狩猎助手+武器数据手册+全局UI统一+防封重构) | 更新时间：2026-07-06 16:04:21
+> 版本：v1.4.1 (微信素材库 CDN 主备切换 + 故障转移) | 更新时间：2026-07-12
 
 ---
 
@@ -89,7 +89,48 @@
 **缓存机制**：
 - 首次加载：jsDelivr 网络下载 → 显示 → `wx.downloadFile` + `fs.saveFile` 保存到本地
 - 再次加载：本地缓存直接读取，零网络请求
-- 缓存路径：`wx.env.USER_DATA_PATH/scum_tiles/{level}/{col}_{row}.webp`
+- 缓存路径：`wx.env.USER_DATA_PATH/scum_tiles/{level}/{col}_{row}.{jpg|webp}`（根据来源自动选择扩展名）
+
+### 2.4 微信公众号素材库备用 CDN（v1.4.1）
+
+作为 jsDelivr CDN 的备用来源，通过微信公众号永久素材库托管瓦片图片。
+
+**URL 格式**：`https://mmbiz.qpic.cn/mmbiz_jpg/{hash}/0?wx_fmt=jpeg`
+
+**上传工具**：
+- Python 版 [tools/upload-to-wechat.py](file:///e:/Mustard/SynologyDrive/Code/sucm_tools/tools/upload-to-wechat.py) — webp → jpg 转换后上传
+- Node.js 版 [tools/upload-to-wechat.js](file:///e:/Mustard/SynologyDrive/Code/sucm_tools/tools/upload-to-wechat.js) — 直接上传 webp（微信内部转 jpg）
+- 生成脚本 [tools/gen-wechat-urls-js.js](file:///e:/Mustard/SynologyDrive/Code/sucm_tools/tools/gen-wechat-urls-js.js) — 从 `wechat_urls.json` 生成小程序可用的 JS 映射模块
+- URL 映射表：[wechat_urls.json](file:///e:/Mustard/SynologyDrive/Code/sucm_tools/wechat_urls.json)（276 条记录，Z3×4 + Z4×16 + Z6×256）
+
+**运行时实现**（[tile-map.js](file:///e:/Mustard/SynologyDrive/Code/sucm_tools/miniprogram/packageMap/components/tile-map/tile-map.js)）：
+
+```javascript
+const USE_WECHAT_CDN = true   // false = 使用 jsDelivr
+
+// URL 映射表（仅 USE_WECHAT_CDN=true 时惰性加载）
+let WECHAT_TILE_URLS = {}
+if (USE_WECHAT_CDN) {
+  WECHAT_TILE_URLS = require('./wechat-tile-urls.js')
+}
+```
+
+**故障转移机制**：主源失败自动切到备用源，每张瓦片独立追踪 `_tileFailedSet`，1 次失败即转移，避免反复重试。
+
+```
+首次请求 → 主源（微信素材库/ jsDelivr）→ 失败
+  → onTileError → _tileFailedSet.add(tileKey) → 备用源重试 → 缓存
+后续请求 → _tileFailedSet 命中 → 跳过主源，直接走备用源
+```
+
+**双格式缓存**：微信素材库返回 JPG，jsDelivr 返回 WebP，本地缓存按实际格式保存，`_cachedTileExt` 追踪每张瓦片的扩展名：
+
+| 来源 | CDN 返回 | 本地缓存 |
+|------|---------|---------|
+| 微信素材库 | JPG | `xxx.jpg` |
+| jsDelivr | WebP | `xxx.webp` |
+
+启动时 `_initTileCache` 自动清理旧格式副本（若同张瓦片同时存在 `.jpg` 和 `.webp`，删除不匹配当前 CDN 源的那份）。
 
 ---
 
@@ -802,7 +843,8 @@ wx.createSelectorQuery().in(this)
 | 视口尺寸计算不准 | 使用 `boundingClientRect` 获取组件真实渲染尺寸，避免手动减去状态栏/导航栏的误差 |
 | Z3/Z4/Z6 瓦片加载失败 | Z2 底图始终渲染作为兜底；binderror 回调记录错误 |
 | Z6 激活时 Z4 兜底层 | Z4 瓦片在 Z6 加载期间提供过渡清晰度 |
-| jsDelivr 国内访问慢 | 首次加载可能较慢；本地缓存机制减少重复下载；可考虑备用 CDN |
+| jsDelivr 国内访问慢 | 优先使用微信公众号素材库 CDN（mmbiz.qpic.cn），微信自家 CDN 国内访问速度快；jsDelivr 作为故障转移备用源；本地缓存机制进一步减少重复下载 |
+| 双格式缓存兼容性 | 微信素材库返回 JPG，jsDelivr 返回 WebP，`_cachedTileExt` 追踪每张瓦片实际格式，本地缓存按正确扩展名存取，启动时自动清理旧格式副本 |
 
 ---
 
