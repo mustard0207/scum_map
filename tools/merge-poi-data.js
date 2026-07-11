@@ -11,7 +11,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const CAT_MAP = require(path.join(ROOT, '点位数据/category-map.js'));
 const CAT_DIR = path.join(ROOT, '点位数据/分类');
-const OUT_DIR = path.join(ROOT, 'miniprogram/packageMap/data/poi');
+const OUT_DIR = path.join(ROOT, 'miniprogram/packageMapData/poi');
 
 // 按 section 分组
 const sections = {};
